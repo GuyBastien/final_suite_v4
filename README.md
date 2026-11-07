@@ -10,6 +10,7 @@ Auteur : Pierre Michel Augustin.
 - `dist/` : paquets pip
 - `docs/` : guides (utilisation, administration, technique, déploiement)
 - `ui/` : thème pour le client web et le client bureau
+- `ui/FrontEnd_GHH/` : page d'accueil du serveur, créée par Thierry Desir ([@thierry509](https://github.com/thierry509))
 
 ## Installation
 
