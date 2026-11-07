@@ -1,2 +1,0 @@
-[trytond.modules]
-moncash = trytond.modules.moncash

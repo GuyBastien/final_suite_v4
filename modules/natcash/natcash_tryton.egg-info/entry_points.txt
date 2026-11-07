@@ -1,2 +1,0 @@
-[trytond.modules]
-natcash = trytond.modules.natcash
