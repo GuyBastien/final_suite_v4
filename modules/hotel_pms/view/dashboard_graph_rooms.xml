@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_pms module. -->
+<graph type="vbar">
+    <x>
+        <field name="hotel"/>
+    </x>
+    <y>
+        <field name="rooms_available"/>
+        <field name="rooms_occupied"/>
+        <field name="rooms_dirty"/>
+        <field name="rooms_maintenance"/>
+        <field name="rooms_out_of_order"/>
+    </y>
+</graph>

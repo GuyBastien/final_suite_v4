@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton fuel_station_invoice module. -->
+<tryton>
+    <data>
+        <record model="ir.message" id="msg_no_revenue_account">
+            <field name="text">Fuel "%(product)s" has no revenue account: it is needed to invoice the credit sales of shift "%(shift)s".</field>
+        </record>
+        <record model="ir.message" id="msg_no_invoice_address">
+            <field name="text">Customer "%(party)s" has no address: it is needed to invoice the credit sales of shift "%(shift)s".</field>
+        </record>
+    </data>
+</tryton>

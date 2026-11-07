@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_pms module. -->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="hotel_view_form">
+            <field name="model">hotel.hotel</field>
+            <field name="inherit" ref="hotel.hotel_view_form"/>
+            <field name="name">hotel_form</field>
+        </record>
+
+        <record model="ir.model.button" id="hotel_update_order_points_button">
+            <field name="model" search="[('model', '=', 'hotel.hotel')]"/>
+            <field name="name">update_order_points</field>
+            <field name="string">Update Order Points</field>
+            <field name="help">Create or update the purchase order points from the standard articles of the rooms</field>
+        </record>
+        <record model="ir.model.button-res.group" id="hotel_update_order_points_button_group_hotel">
+            <field name="button" ref="hotel_update_order_points_button"/>
+            <field name="group" ref="hotel.group_hotel"/>
+        </record>
+
+        <menuitem icon="tryton-hotel-purchase" name="Purchasing" parent="hotel.menu_hotel"
+            id="menu_purchase" sequence="40"/>
+
+        <record model="ir.action.act_window" id="act_order_point_hotel">
+            <field name="name">Reorder Points</field>
+            <field name="res_model">stock.order_point</field>
+            <field name="domain"
+                eval="[('product.template.hotel_article', '=', True)]"
+                pyson="1"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_order_point_hotel_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="stock_supply.order_point_view_tree"/>
+            <field name="act_window" ref="act_order_point_hotel"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_order_point_hotel_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="stock_supply.order_point_view_form"/>
+            <field name="act_window" ref="act_order_point_hotel"/>
+        </record>
+        <menuitem icon="tryton-hotel-reorder" parent="menu_purchase" action="act_order_point_hotel"
+            id="menu_order_point_hotel" sequence="10"/>
+
+        <record model="ir.action.act_window" id="act_purchase_request_hotel">
+            <field name="name">Purchase Requests</field>
+            <field name="res_model">purchase.request</field>
+            <field name="domain"
+                eval="[('product.template.hotel_article', '=', True), ('purchase_line', '=', None)]"
+                pyson="1"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_purchase_request_hotel_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="purchase_request.purchase_request_view_tree"/>
+            <field name="act_window" ref="act_purchase_request_hotel"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_purchase_request_hotel_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="purchase_request.purchase_request_view_form"/>
+            <field name="act_window" ref="act_purchase_request_hotel"/>
+        </record>
+        <menuitem icon="tryton-hotel-purchase" parent="menu_purchase" action="act_purchase_request_hotel"
+            id="menu_purchase_request_hotel" sequence="20"/>
+
+        <record model="ir.action.act_window" id="act_purchase_hotel">
+            <field name="name">Purchases</field>
+            <field name="res_model">purchase.purchase</field>
+            <field name="domain"
+                eval="[('lines.product.template.hotel_article', '=', True)]"
+                pyson="1"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_purchase_hotel_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="purchase.purchase_view_tree"/>
+            <field name="act_window" ref="act_purchase_hotel"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_purchase_hotel_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="purchase.purchase_view_form"/>
+            <field name="act_window" ref="act_purchase_hotel"/>
+        </record>
+        <menuitem icon="tryton-hotel-purchase" parent="menu_purchase" action="act_purchase_hotel"
+            id="menu_purchase_hotel" sequence="30"/>
+
+        <!-- Hotel staff can follow the supply of their articles -->
+        <record model="ir.model.access" id="access_order_point_hotel">
+            <field name="model" search="[('model', '=', 'stock.order_point')]"/>
+            <field name="group" ref="hotel.group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_purchase_request_hotel">
+            <field name="model" search="[('model', '=', 'purchase.request')]"/>
+            <field name="group" ref="hotel.group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_purchase_hotel">
+            <field name="model" search="[('model', '=', 'purchase.purchase')]"/>
+            <field name="group" ref="hotel.group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+    </data>
+</tryton>

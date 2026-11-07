@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_rates_plus module. -->
+<form>
+    <label name="hotel"/>
+    <field name="hotel"/>
+    <field name="currency_digits" invisible="1" colspan="4"/>
+    <label name="rooms_total"/>
+    <field name="rooms_total"/>
+    <newline/>
+    <separator string="Today" id="today" colspan="4"/>
+    <label name="occupancy_today"/>
+    <field name="occupancy_today"/>
+    <label name="revenue_today"/>
+    <field name="revenue_today"/>
+    <label name="adr_today"/>
+    <field name="adr_today"/>
+    <label name="revpar_today"/>
+    <field name="revpar_today"/>
+    <separator string="Month to Date" id="mtd" colspan="4"/>
+    <label name="rooms_available"/>
+    <field name="rooms_available"/>
+    <label name="rooms_sold"/>
+    <field name="rooms_sold"/>
+    <label name="occupancy_mtd"/>
+    <field name="occupancy_mtd"/>
+    <label name="room_revenue"/>
+    <field name="room_revenue"/>
+    <label name="adr"/>
+    <field name="adr"/>
+    <label name="revpar"/>
+    <field name="revpar"/>
+    <separator string="Forecast" id="forecast" colspan="4"/>
+    <label name="forecast_sold"/>
+    <field name="forecast_sold"/>
+    <label name="forecast_occupancy"/>
+    <field name="forecast_occupancy"/>
+    <label name="forecast_revenue"/>
+    <field name="forecast_revenue"/>
+</form>

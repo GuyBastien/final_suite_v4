@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton party_person_ht module. -->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="party_view_form">
+            <field name="model">party.party</field>
+            <field name="inherit" ref="party.party_view_form"/>
+            <field name="name">party_form</field>
+        </record>
+        <record model="ir.ui.view" id="party_view_tree">
+            <field name="model">party.party</field>
+            <field name="inherit" ref="party.party_view_tree"/>
+            <field name="name">party_list</field>
+        </record>
+    </data>
+</tryton>

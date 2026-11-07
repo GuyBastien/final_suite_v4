@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_communication module. -->
+<form>
+    <label name="hotel"/>
+    <field name="hotel"/>
+    <label name="name"/>
+    <field name="name"/>
+    <label name="event"/>
+    <field name="event"/>
+    <label name="channel"/>
+    <field name="channel"/>
+    <label name="active"/>
+    <field name="active"/>
+    <label name="subject"/>
+    <field name="subject"/>
+    <notebook colspan="4">
+        <page string="Body" id="body">
+            <field name="body" colspan="4"/>
+        </page>
+    </notebook>
+</form>

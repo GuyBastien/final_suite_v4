@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_guest module. -->
+<tree>
+    <field name="company"/>
+    <field name="points_per_currency"/>
+    <field name="silver_threshold"/>
+    <field name="gold_threshold"/>
+</tree>

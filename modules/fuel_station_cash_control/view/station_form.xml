@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton fuel_station_cash_control module. -->
+<data>
+    <xpath expr="/form/notebook/page[@id='controls']/label[@name='cash_tolerance']" position="before">
+        <label name="cash_control"/>
+        <field name="cash_control"/>
+    </xpath>
+</data>

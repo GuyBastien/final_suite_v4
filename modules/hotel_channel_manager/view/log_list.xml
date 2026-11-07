@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_channel_manager module. -->
+<tree>
+    <!-- DateTime: <field name="date"/> -->
+    <field name="channel"/>
+    <field name="mapping"/>
+    <field name="state"/>
+    <field name="created"/>
+    <field name="updated"/>
+    <field name="cancelled"/>
+    <field name="conflicts"/>
+</tree>

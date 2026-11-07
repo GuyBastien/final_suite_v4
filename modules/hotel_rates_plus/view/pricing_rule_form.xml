@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_rates_plus module. -->
+<form>
+    <label name="hotel"/>
+    <field name="hotel"/>
+    <label name="name"/>
+    <field name="name"/>
+    <label name="priority"/>
+    <field name="priority"/>
+    <label name="active"/>
+    <field name="active"/>
+    <label name="occupancy_from"/>
+    <field name="occupancy_from"/>
+    <label name="occupancy_to"/>
+    <field name="occupancy_to"/>
+    <label name="advance_days_min"/>
+    <field name="advance_days_min"/>
+    <label name="advance_days_max"/>
+    <field name="advance_days_max"/>
+    <label name="adjustment_percent"/>
+    <field name="adjustment_percent"/>
+</form>

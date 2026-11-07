@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_pms module. -->
+<tree>
+    <field name="number"/>
+    <field name="hotel"/>
+    <field name="party"/>
+    <!-- DateTime: <field name="start"/> -->
+    <!-- DateTime: <field name="end"/> -->
+    <field name="total_amount"/>
+    <field name="state"/>
+</tree>

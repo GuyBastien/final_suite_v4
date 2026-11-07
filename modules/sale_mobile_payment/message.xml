@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton sale_mobile_payment module. -->
+<tryton>
+    <data grouped="1">
+        <record model="ir.message" id="msg_company">
+            <field name="text">Transaction "%(transaction)s" and its invoice must belong to the same company.</field>
+        </record>
+        <record model="ir.message" id="msg_currency">
+            <field name="text">Invoice "%(invoice)s" is not in %(currency)s: only invoices in the currency of the company can be paid by mobile.</field>
+        </record>
+        <record model="ir.message" id="msg_no_invoice_method">
+            <field name="text">Mobile payment account "%(account)s" has no Invoice Payment Method. Set it to pay invoices and sales by mobile.</field>
+        </record>
+        <record model="ir.message" id="msg_pay_description">
+            <field name="text">%(provider)s - %(reference)s</field>
+        </record>
+        <record model="ir.message" id="msg_sale_nothing_due">
+            <field name="text">Sale "%(sale)s" has no posted invoice waiting for payment. Create and post the invoice first.</field>
+        </record>
+        <record model="ir.message" id="msg_sale_many_invoices">
+            <field name="text">Sale "%(sale)s" has several invoices waiting for payment. Open the invoice to pay and use "Pay by Mobile" there.</field>
+        </record>
+        <record model="ir.message" id="msg_not_payable">
+            <field name="text">Invoice "%(invoice)s" is not a posted customer invoice: it cannot be paid by mobile.</field>
+        </record>
+        <record model="ir.message" id="msg_nothing_due">
+            <field name="text">Invoice "%(invoice)s" has nothing left to pay.</field>
+        </record>
+    </data>
+</tryton>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton restaurant module. -->
+<form col="4">
+    <label name="session"/>
+    <field name="session"/>
+    <label name="moment"/>
+    <field name="moment"/>
+    <label name="denomination"/>
+    <field name="denomination"/>
+    <label name="quantity"/>
+    <field name="quantity"/>
+    <label name="suspect_quantity"/>
+    <field name="suspect_quantity"/>
+    <label name="amount"/>
+    <field name="amount"/>
+</form>

@@ -1,0 +1,457 @@
+#
+msgid ""
+msgstr ""
+"Language: ht\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:hotel.hotel,checklist:"
+msgid "Checklist"
+msgstr "Lis verifikasyon"
+
+msgctxt "field:hotel.hotel,daily_refresh:"
+msgid "Daily Refresh Tasks"
+msgstr "Travay rafrechisman chak jou"
+
+msgctxt "field:hotel.hotel,inspection_required:"
+msgid "Inspection Required"
+msgstr "Enspeksyon obligatwa"
+
+msgctxt "field:hotel.housekeeping.checklist,hotel:"
+msgid "Hotel"
+msgstr "Otèl"
+
+msgctxt "field:hotel.housekeeping.checklist,kind:"
+msgid "Kind"
+msgstr "Kalite"
+
+msgctxt "field:hotel.housekeeping.checklist,name:"
+msgid "Name"
+msgstr "Non"
+
+msgctxt "field:hotel.housekeeping.checklist,required:"
+msgid "Required"
+msgstr "Obligatwa"
+
+msgctxt "field:hotel.housekeeping.issue,company:"
+msgid "Company"
+msgstr "Konpayi"
+
+msgctxt "field:hotel.housekeeping.issue,description:"
+msgid "Description"
+msgstr "Deskripsyon"
+
+msgctxt "field:hotel.housekeeping.issue,hotel:"
+msgid "Hotel"
+msgstr "Otèl"
+
+msgctxt "field:hotel.housekeeping.issue,reported_at:"
+msgid "Reported At"
+msgstr "Rapòte a"
+
+msgctxt "field:hotel.housekeeping.issue,reported_by:"
+msgid "Reported By"
+msgstr "Rapòte pa"
+
+msgctxt "field:hotel.housekeeping.issue,resolution:"
+msgid "Resolution"
+msgstr "Rezolisyon"
+
+msgctxt "field:hotel.housekeeping.issue,resolved_at:"
+msgid "Resolved At"
+msgstr "Rezoud a"
+
+msgctxt "field:hotel.housekeeping.issue,room:"
+msgid "Room"
+msgstr "Chanm"
+
+msgctxt "field:hotel.housekeeping.issue,severity:"
+msgid "Severity"
+msgstr "Gravite"
+
+msgctxt "field:hotel.housekeeping.issue,state:"
+msgid "State"
+msgstr "Eta"
+
+msgctxt "field:hotel.housekeeping.issue,task:"
+msgid "Task"
+msgstr "Travay"
+
+msgctxt "field:hotel.housekeeping.task,assigned_to:"
+msgid "Assigned To"
+msgstr "Asiyen bay"
+
+msgctxt "field:hotel.housekeeping.task,company:"
+msgid "Company"
+msgstr "Konpayi"
+
+msgctxt "field:hotel.housekeeping.task,finished_at:"
+msgid "Finished At"
+msgstr "Fini a"
+
+msgctxt "field:hotel.housekeeping.task,hotel:"
+msgid "Hotel"
+msgstr "Otèl"
+
+msgctxt "field:hotel.housekeeping.task,issues:"
+msgid "Issues"
+msgstr "Pwoblèm yo"
+
+msgctxt "field:hotel.housekeeping.task,items:"
+msgid "Checklist"
+msgstr "Lis verifikasyon"
+
+msgctxt "field:hotel.housekeeping.task,kind:"
+msgid "Kind"
+msgstr "Kalite"
+
+msgctxt "field:hotel.housekeeping.task,mine:"
+msgid "Assigned to Me"
+msgstr "Asiyen ban mwen"
+
+msgctxt "field:hotel.housekeeping.task,name:"
+msgid "Name"
+msgstr "Non"
+
+msgctxt "field:hotel.housekeeping.task,notes:"
+msgid "Notes"
+msgstr "Nòt"
+
+msgctxt "field:hotel.housekeeping.task,planned_date:"
+msgid "Planned Date"
+msgstr "Dat planifye"
+
+msgctxt "field:hotel.housekeeping.task,priority:"
+msgid "Priority"
+msgstr "Priyorite"
+
+msgctxt "field:hotel.housekeeping.task,reservation:"
+msgid "Reservation"
+msgstr "Rezèvasyon"
+
+msgctxt "field:hotel.housekeeping.task,room:"
+msgid "Room"
+msgstr "Chanm"
+
+msgctxt "field:hotel.housekeeping.task,started_at:"
+msgid "Started At"
+msgstr "Kòmanse a"
+
+msgctxt "field:hotel.housekeeping.task,state:"
+msgid "State"
+msgstr "Eta"
+
+msgctxt "field:hotel.housekeeping.task.item,done:"
+msgid "Done"
+msgstr "Fini"
+
+msgctxt "field:hotel.housekeeping.task.item,name:"
+msgid "Name"
+msgstr "Non"
+
+msgctxt "field:hotel.housekeeping.task.item,required:"
+msgid "Required"
+msgstr "Obligatwa"
+
+msgctxt "field:hotel.housekeeping.task.item,task:"
+msgid "Task"
+msgstr "Travay"
+
+msgctxt "help:hotel.hotel,checklist:"
+msgid "The items copied on each new housekeeping task."
+msgstr "Atik yo kopye sou chak nouvo travay netwayaj."
+
+msgctxt "help:hotel.hotel,daily_refresh:"
+msgid "Create a stay-over refresh task every day for the occupied rooms."
+msgstr "Kreye yon travay rafrechisman pou sejou chak jou pou chanm okipe yo."
+
+msgctxt "help:hotel.hotel,inspection_required:"
+msgid ""
+"If checked, a cleaned room becomes available only once a supervisor has "
+"inspected it."
+msgstr ""
+"Si li make, yon chanm netwaye vin disponib sèlman lè yon sipèvizè enspekte "
+"li."
+
+msgctxt "help:hotel.housekeeping.checklist,kind:"
+msgid "Empty applies the item to every kind of task."
+msgstr "Vid aplike atik la pou tout kalite travay."
+
+msgctxt "help:hotel.housekeeping.checklist,required:"
+msgid "The task cannot be finished while this item is not done."
+msgstr "Yo pa kapab fini travay la toutotan atik sa a pa fèt."
+
+msgctxt "help:hotel.housekeeping.task,reservation:"
+msgid "The stay whose check-out raised the task."
+msgstr "Sejou ki te fè travay la leve lè li te pati."
+
+msgctxt "model:hotel.housekeeping.checklist,name:"
+msgid "Hotel Housekeeping Checklist Item"
+msgstr "Atik lis verifikasyon netwayaj otèl"
+
+msgctxt "model:hotel.housekeeping.issue,name:"
+msgid "Hotel Housekeeping Issue"
+msgstr "Pwoblèm netwayaj otèl"
+
+msgctxt "model:hotel.housekeeping.task,name:"
+msgid "Hotel Housekeeping Task"
+msgstr "Travay netwayaj otèl"
+
+msgctxt "model:hotel.housekeeping.task.item,name:"
+msgid "Hotel Housekeeping Task Item"
+msgstr "Atik travay netwayaj otèl"
+
+msgctxt "model:ir.action,name:act_issue"
+msgid "Issues"
+msgstr "Pwoblèm yo"
+
+msgctxt "model:ir.action,name:act_my_task"
+msgid "My Tasks"
+msgstr "Travay mwen yo"
+
+msgctxt "model:ir.action,name:act_task"
+msgid "Tasks"
+msgstr "Travay yo"
+
+msgctxt "model:ir.action.act_window.domain,name:act_issue_domain1"
+msgid "Open"
+msgstr "Louvri"
+
+msgctxt "model:ir.action.act_window.domain,name:act_issue_domain2"
+msgid "All"
+msgstr "Tout"
+
+msgctxt "model:ir.action.act_window.domain,name:act_my_task_domain1"
+msgid "To Do"
+msgstr "Pou fè"
+
+msgctxt "model:ir.action.act_window.domain,name:act_my_task_domain2"
+msgid "Done"
+msgstr "Fini"
+
+msgctxt "model:ir.action.act_window.domain,name:act_task_domain1"
+msgid "To Do"
+msgstr "Pou fè"
+
+msgctxt "model:ir.action.act_window.domain,name:act_task_domain2"
+msgid "Unassigned"
+msgstr "Pa asiyen"
+
+msgctxt "model:ir.action.act_window.domain,name:act_task_domain3"
+msgid "To Inspect"
+msgstr "Pou enspekte"
+
+msgctxt "model:ir.action.act_window.domain,name:act_task_domain4"
+msgid "All"
+msgstr "Tout"
+
+msgctxt "model:ir.message,text:msg_hk_issue"
+msgid "%(severity)s issue: %(description)s"
+msgstr "Pwoblèm %(severity)s: %(description)s"
+
+msgctxt "model:ir.message,text:msg_hk_issue_title"
+msgid "Issue in room %(room)s"
+msgstr "Pwoblèm nan chanm %(room)s"
+
+msgctxt "model:ir.message,text:msg_hk_task_late"
+msgid "The task \"%(task)s\" planned on %(date)s is not finished."
+msgstr "Travay \"%(task)s\" ki te planifye %(date)s la pa fini."
+
+msgctxt "model:ir.message,text:msg_hk_task_late_title"
+msgid "Housekeeping late: room %(room)s"
+msgstr "Netwayaj an reta: chanm %(room)s"
+
+msgctxt "model:ir.message,text:msg_issue_resolution_required"
+msgid "Describe the resolution of the issue \"%(issue)s\" before resolving it."
+msgstr "Dekri rezolisyon pwoblèm \"%(issue)s\" lan anvan ou rezoud li."
+
+msgctxt "model:ir.message,text:msg_task_checklist_incomplete"
+msgid "Complete the required checklist items of the task \"%(task)s\" first."
+msgstr "Konplete atik obligatwa lis verifikasyon travay \"%(task)s\" la anvan."
+
+msgctxt "model:ir.message,text:msg_task_delete_state"
+msgid "You cannot delete the task \"%(task)s\" because it is started or done."
+msgstr "Ou pa kapab efase travay \"%(task)s\" la paske li kòmanse oswa li fini."
+
+msgctxt "model:ir.message,text:msg_task_room_hotel"
+msgid "The room \"%(room)s\" of the task \"%(task)s\" does not belong to its hotel."
+msgstr "Chanm \"%(room)s\" travay \"%(task)s\" la pa fè pati otèl li."
+
+msgctxt "model:ir.model.button,string:issue_reopen_button"
+msgid "Reopen"
+msgstr "Wouvri ankò"
+
+msgctxt "model:ir.model.button,string:issue_resolve_button"
+msgid "Resolve"
+msgstr "Rezoud"
+
+msgctxt "model:ir.model.button,string:task_cancel_button"
+msgid "Cancel"
+msgstr "Anile"
+
+msgctxt "model:ir.model.button,string:task_finish_button"
+msgid "Finish"
+msgstr "Fini"
+
+msgctxt "model:ir.model.button,string:task_inspect_button"
+msgid "Inspect"
+msgstr "Enspekte"
+
+msgctxt "model:ir.model.button,string:task_redo_button"
+msgid "Redo"
+msgstr "Refè"
+
+msgctxt "model:ir.model.button,string:task_reopen_button"
+msgid "Reopen"
+msgstr "Wouvri ankò"
+
+msgctxt "model:ir.model.button,string:task_start_button"
+msgid "Start"
+msgstr "Kòmanse"
+
+msgctxt "model:ir.model.button,string:task_take_button"
+msgid "Take"
+msgstr "Pran"
+
+msgctxt "model:ir.rule.group,name:rule_group_issue_companies"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.rule.group,name:rule_group_task_companies"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.ui.menu,name:menu_housekeeping"
+msgid "Housekeeping"
+msgstr "Netwayaj"
+
+msgctxt "model:ir.ui.menu,name:menu_issue"
+msgid "Issues"
+msgstr "Pwoblèm yo"
+
+msgctxt "model:ir.ui.menu,name:menu_my_task"
+msgid "My Tasks"
+msgstr "Travay mwen yo"
+
+msgctxt "model:ir.ui.menu,name:menu_task"
+msgid "Tasks"
+msgstr "Travay yo"
+
+msgctxt "model:res.group,name:group_housekeeping"
+msgid "Hotel Housekeeping"
+msgstr "Netwayaj otèl"
+
+msgctxt "model:res.group,name:group_housekeeping_supervisor"
+msgid "Hotel Housekeeping Supervisor"
+msgstr "Sipèvizè netwayaj otèl"
+
+msgctxt "selection:hotel.housekeeping.checklist,kind:"
+msgid "Deep Cleaning"
+msgstr "Gwo netwayaj"
+
+msgctxt "selection:hotel.housekeeping.checklist,kind:"
+msgid "Departure Cleaning"
+msgstr "Netwayaj depa"
+
+msgctxt "selection:hotel.housekeeping.checklist,kind:"
+msgid "Inspection"
+msgstr "Enspeksyon"
+
+msgctxt "selection:hotel.housekeeping.checklist,kind:"
+msgid "Stay-over Refresh"
+msgstr "Rafrechisman sejou"
+
+msgctxt "selection:hotel.housekeeping.checklist,kind:"
+msgid "Turndown"
+msgstr "Preparasyon pou dòmi"
+
+msgctxt "selection:hotel.housekeeping.issue,severity:"
+msgid "Blocking"
+msgstr "Bloke"
+
+msgctxt "selection:hotel.housekeeping.issue,severity:"
+msgid "Major"
+msgstr "Enpòtan"
+
+msgctxt "selection:hotel.housekeeping.issue,severity:"
+msgid "Minor"
+msgstr "Mineur"
+
+msgctxt "selection:hotel.housekeeping.issue,state:"
+msgid "Open"
+msgstr "Louvri"
+
+msgctxt "selection:hotel.housekeeping.issue,state:"
+msgid "Resolved"
+msgstr "Rezoud"
+
+msgctxt "selection:hotel.housekeeping.task,kind:"
+msgid "Deep Cleaning"
+msgstr "Gwo netwayaj"
+
+msgctxt "selection:hotel.housekeeping.task,kind:"
+msgid "Departure Cleaning"
+msgstr "Netwayaj depa"
+
+msgctxt "selection:hotel.housekeeping.task,kind:"
+msgid "Inspection"
+msgstr "Enspeksyon"
+
+msgctxt "selection:hotel.housekeeping.task,kind:"
+msgid "Stay-over Refresh"
+msgstr "Rafrechisman sejou"
+
+msgctxt "selection:hotel.housekeeping.task,kind:"
+msgid "Turndown"
+msgstr "Preparasyon pou dòmi"
+
+msgctxt "selection:hotel.housekeeping.task,priority:"
+msgid "High"
+msgstr "Wo"
+
+msgctxt "selection:hotel.housekeeping.task,priority:"
+msgid "Low"
+msgstr "Ba"
+
+msgctxt "selection:hotel.housekeeping.task,priority:"
+msgid "Normal"
+msgstr "Nòmal"
+
+msgctxt "selection:hotel.housekeeping.task,priority:"
+msgid "Urgent"
+msgstr "Ijan"
+
+msgctxt "selection:hotel.housekeeping.task,state:"
+msgid "Cancelled"
+msgstr "Anile"
+
+msgctxt "selection:hotel.housekeeping.task,state:"
+msgid "Done"
+msgstr "Fini"
+
+msgctxt "selection:hotel.housekeeping.task,state:"
+msgid "In Progress"
+msgstr "Ap fèt"
+
+msgctxt "selection:hotel.housekeeping.task,state:"
+msgid "Inspected"
+msgstr "Enspekte"
+
+msgctxt "selection:hotel.housekeeping.task,state:"
+msgid "To Do"
+msgstr "Pou fè"
+
+msgctxt "selection:ir.cron,method:"
+msgid "Generate Housekeeping Tasks"
+msgstr "Jenere travay netwayaj yo"
+
+msgctxt "view:hotel.housekeeping.task:"
+msgid "Checklist"
+msgstr "Lis verifikasyon"
+
+msgctxt "view:hotel.housekeeping.task:"
+msgid "Issues"
+msgstr "Pwoblèm yo"
+
+msgctxt "view:hotel.housekeeping.task:"
+msgid "Notes"
+msgstr "Nòt"

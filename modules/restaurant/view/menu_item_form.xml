@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton restaurant module. -->
+<form col="4">
+    <label name="menu"/>
+    <field name="menu"/>
+    <label name="template"/>
+    <field name="template"/>
+    <label name="price"/>
+    <field name="price"/>
+</form>

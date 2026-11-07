@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_billing module. -->
+<data>
+    <xpath expr="/form/notebook" position="inside">
+        <page string="Billing" id="billing">
+            <label name="deposit_product"/>
+            <field name="deposit_product"/>
+            <newline/>
+            <field name="tourist_taxes" colspan="4"/>
+        </page>
+    </xpath>
+</data>

@@ -1,0 +1,38 @@
+#
+msgid ""
+msgstr ""
+"Language: ht\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:fuel.shift,pos_sale_count:"
+msgid "Shop Tickets"
+msgstr "Tikè boutik"
+
+msgctxt "field:fuel.shift,pos_sale_total:"
+msgid "Shop Sales (POS)"
+msgstr "Vant boutik (PDV)"
+
+msgctxt "field:fuel.station,sale_point:"
+msgid "Shop Point of Sale"
+msgstr "Pwen vant boutik"
+
+msgctxt "help:fuel.shift,pos_sale_count:"
+msgid "Number of tickets of the shop point of sale on the date of the shift."
+msgstr "Kantite tikè pwen vant boutik la nan dat pòs la."
+
+msgctxt "help:fuel.shift,pos_sale_total:"
+msgid ""
+"Total of the tickets of the shop point of sale on the date of the shift. "
+"Informative: the cash of the shop is counted in the cash session of the "
+"point of sale."
+msgstr ""
+"Total tikè pwen vant boutik la nan dat pòs la. Enfòmatif: lajan kach boutik "
+"la konte nan sesyon kès pwen vant lan."
+
+msgctxt "help:fuel.station,sale_point:"
+msgid ""
+"Point of sale (module Sale Point) of the shop of the station. Its sales are "
+"shown in the shifts of the station, so the shop is not entered twice."
+msgstr ""
+"Pwen vant (modil Sale Point) boutik estasyon an. Vant li yo parèt nan pòs "
+"estasyon an, konsa yo pa antre boutik la de fwa."

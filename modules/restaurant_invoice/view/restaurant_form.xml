@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton restaurant_invoice module. -->
+<data>
+    <xpath expr="/form/notebook/page[@id='billing']/field[@name='enforce_menus']" position="after">
+        <label name="invoice_mode"/>
+        <field name="invoice_mode"/>
+    </xpath>
+</data>

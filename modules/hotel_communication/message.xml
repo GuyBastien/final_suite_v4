@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_communication module. -->
+<tryton>
+    <data grouped="1">
+        <record model="ir.message" id="msg_template_name_unique">
+            <field name="text">The name of the message template must be unique per hotel.</field>
+        </record>
+        <record model="ir.message" id="msg_template_no_subject">
+            <field name="text">The e-mail template "%(template)s" needs a subject.</field>
+        </record>
+        <record model="ir.message" id="msg_message_delete_queued">
+            <field name="text">You cannot delete the queued message "%(message)s": cancel it first.</field>
+        </record>
+        <record model="ir.message" id="msg_no_sender">
+            <field name="text">Set the "from" address in the [email] section of the configuration or an e-mail on the party of the hotel "%(hotel)s".</field>
+        </record>
+        <record model="ir.message" id="msg_no_sms_url">
+            <field name="text">Set "sms_url" in the [hotel_communication] section of the configuration to send SMS.</field>
+        </record>
+        <record model="ir.message" id="msg_sms_url_scheme">
+            <field name="text">The SMS gateway address "%(url)s" must start with http:// or https://.</field>
+        </record>
+        <record model="ir.message" id="msg_sms_status">
+            <field name="text">The SMS gateway answered with the status %(status)s.</field>
+        </record>
+        <record model="ir.message" id="msg_precheckin_token_unique">
+            <field name="text">The pre-check-in token must be unique.</field>
+        </record>
+        <record model="ir.message" id="msg_precheckin_no_message">
+            <field name="text">No pre-arrival message could be queued for the reservation "%(reservation)s": check its templates and the contact of the guest.</field>
+        </record>
+        <record model="ir.message" id="msg_default_confirmation_name">
+            <field name="text">Booking confirmation</field>
+        </record>
+        <record model="ir.message" id="msg_default_confirmation_subject">
+            <field name="text">Your reservation {reservation} at {hotel}</field>
+        </record>
+        <record model="ir.message" id="msg_default_confirmation_body">
+            <field name="text">Dear {guest_name},
+
+Your reservation {reservation} at {hotel} is confirmed.
+Arrival: {arrival}
+Departure: {departure}
+Total: {total} {currency}
+
+We look forward to welcoming you.</field>
+        </record>
+        <record model="ir.message" id="msg_default_pre_arrival_name">
+            <field name="text">Pre-arrival</field>
+        </record>
+        <record model="ir.message" id="msg_default_pre_arrival_subject">
+            <field name="text">Your arrival at {hotel}</field>
+        </record>
+        <record model="ir.message" id="msg_default_pre_arrival_body">
+            <field name="text">Dear {guest_name},
+
+Your stay at {hotel} begins on {arrival}.
+Please tell us your estimated arrival time: {precheckin_url}</field>
+        </record>
+        <record model="ir.message" id="msg_default_thank_you_name">
+            <field name="text">Thank you</field>
+        </record>
+        <record model="ir.message" id="msg_default_thank_you_subject">
+            <field name="text">Thank you for staying at {hotel}</field>
+        </record>
+        <record model="ir.message" id="msg_default_thank_you_body">
+            <field name="text">Dear {guest_name},
+
+Thank you for your stay at {hotel}. We hope to see you again soon.</field>
+        </record>
+        <record model="ir.message" id="msg_default_cancellation_name">
+            <field name="text">Cancellation</field>
+        </record>
+        <record model="ir.message" id="msg_default_cancellation_subject">
+            <field name="text">Cancellation of your reservation {reservation}</field>
+        </record>
+        <record model="ir.message" id="msg_default_cancellation_body">
+            <field name="text">Dear {guest_name},
+
+Your reservation {reservation} at {hotel} has been cancelled.</field>
+        </record>
+    </data>
+</tryton>

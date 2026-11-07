@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_communication module. -->
+<data>
+    <xpath expr="/form/field[@name='check_out_time']" position="after">
+        <label name="reminder_days"/>
+        <field name="reminder_days"/>
+        <button name="create_default_templates" icon="tryton-hotel-message"/>
+    </xpath>
+</data>

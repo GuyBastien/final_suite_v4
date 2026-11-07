@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton restaurant module. -->
+<tree editable="1">
+    <field name="method"/>
+    <field name="guest" optional="1"/>
+    <field name="amount" sum="1"/>
+    <field name="tendered"/>
+    <field name="change"/>
+    <field name="reference"/>
+</tree>

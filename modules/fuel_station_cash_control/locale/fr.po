@@ -1,0 +1,185 @@
+#
+msgid ""
+msgstr ""
+"Language: fr\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:fuel.shift,cash_counts:"
+msgid "Cash Count"
+msgstr "Comptage de caisse"
+
+msgctxt "field:fuel.shift.cash.count,amount:"
+msgid "Amount"
+msgstr "Montant"
+
+msgctxt "field:fuel.shift.cash.count,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:fuel.shift.cash.count,denomination:"
+msgid "Denomination"
+msgstr "Coupure"
+
+msgctxt "field:fuel.shift.cash.count,face_value:"
+msgid "Value"
+msgstr "Valeur"
+
+msgctxt "field:fuel.shift.cash.count,kind:"
+msgid "Kind"
+msgstr "Type"
+
+msgctxt "field:fuel.shift.cash.count,quantity:"
+msgid "Counted"
+msgstr "Compté"
+
+msgctxt "field:fuel.shift.cash.count,shift:"
+msgid "Shift"
+msgstr "Quart"
+
+msgctxt "field:fuel.shift.cash.count,suspect_amount:"
+msgid "Suspect Amount"
+msgstr "Montant suspect"
+
+msgctxt "field:fuel.shift.cash.count,suspect_quantity:"
+msgid "Suspect"
+msgstr "Suspect"
+
+msgctxt "field:fuel.station,cash_control:"
+msgid "Cash Count Required"
+msgstr "Comptage de caisse obligatoire"
+
+msgctxt "help:fuel.shift,cash_counts:"
+msgid "Count of banknotes and coins by denomination."
+msgstr "Comptage des billets et pièces par coupure."
+
+msgctxt "help:fuel.shift.cash.count,amount:"
+msgid "Amount of the good banknotes and coins."
+msgstr "Montant des billets et pièces conformes."
+
+msgctxt "help:fuel.shift.cash.count,company:"
+msgid "Company of the shift."
+msgstr "Société de l'équipe."
+
+msgctxt "help:fuel.shift.cash.count,denomination:"
+msgid "Banknote or coin value counted."
+msgstr "Valeur du billet ou de la pièce comptés."
+
+msgctxt "help:fuel.shift.cash.count,face_value:"
+msgid "Face value of the banknote or coin."
+msgstr "Valeur faciale du billet ou de la pièce."
+
+msgctxt "help:fuel.shift.cash.count,kind:"
+msgid "Banknote or coin."
+msgstr "Billet ou pièce."
+
+msgctxt "help:fuel.shift.cash.count,quantity:"
+msgid "Number of banknotes or coins counted in the drawer."
+msgstr "Nombre de billets ou de pièces comptés dans le tiroir."
+
+msgctxt "help:fuel.shift.cash.count,shift:"
+msgid "Shift concerned."
+msgstr "Équipe concernée."
+
+msgctxt "help:fuel.shift.cash.count,suspect_amount:"
+msgid "Value of banknotes or coins that look counterfeit."
+msgstr "Valeur des billets ou pièces qui semblent faux."
+
+msgctxt "help:fuel.shift.cash.count,suspect_quantity:"
+msgid ""
+"Counterfeit, damaged or doubtful banknotes/coins among those counted. They "
+"are not added to the cash total."
+msgstr ""
+"Billets/pièces faux, abîmés ou douteux parmi ceux comptés. Ils ne sont pas "
+"ajoutés au total de la caisse."
+
+msgctxt "help:fuel.station,cash_control:"
+msgid ""
+"The attendant must count the banknotes and coins before a shift can be "
+"closed. The denominations are those of the point of sale (Sales > "
+"Denominations)."
+msgstr ""
+"Le pompiste doit compter les billets et les pièces avant de pouvoir fermer "
+"un poste. Les coupures sont celles du point de vente (Ventes > Coupures)."
+
+msgctxt "model:fuel.shift.cash.count,name:"
+msgid "Fuel Shift Cash Count"
+msgstr "Comptage de caisse du quart"
+
+msgctxt "model:ir.message,text:msg_cash_count_company"
+msgid ""
+"The denomination \"%(denomination)s\" does not belong to the company of the "
+"shift."
+msgstr ""
+"La coupure « %(denomination)s » n'appartient pas à la société du poste."
+
+msgctxt "model:ir.message,text:msg_cash_count_suspect"
+msgid "The suspect quantity cannot exceed the counted quantity."
+msgstr "La quantité suspecte ne peut pas dépasser la quantité comptée."
+
+msgctxt "model:ir.message,text:msg_cash_count_unique"
+msgid "A denomination can only be counted once per shift."
+msgstr "Une coupure ne peut être comptée qu'une fois par quart."
+
+msgctxt "model:ir.message,text:msg_shift_cash_count_difference"
+msgid ""
+"Shift \"%(shift)s\": the counted cash differs from the cash payments by "
+"%(difference)s. Close the shift anyway?"
+msgstr ""
+"Quart « %(shift)s » : l'argent compté diffère des paiements en espèces de "
+"%(difference)s. Fermer le quart quand même ?"
+
+msgctxt "model:ir.message,text:msg_shift_cash_count_required"
+msgid "The cash of shift \"%(shift)s\" must be counted before it is closed."
+msgstr ""
+"Les espèces du quart « %(shift)s » doivent être comptées avant sa fermeture."
+
+msgctxt "model:ir.message,text:msg_shift_no_denomination"
+msgid ""
+"No denomination is defined for the company \"%(company)s\". Create them in "
+"Sales > Denominations."
+msgstr ""
+"Aucune coupure n'est définie pour la société « %(company)s ». Créez-les dans"
+" Ventes > Coupures."
+
+msgctxt "model:ir.message,text:msg_shift_suspect_cash"
+msgid ""
+"Shift \"%(shift)s\": suspect banknotes or coins for %(amount)s were set "
+"aside. Close the shift anyway?"
+msgstr ""
+"Quart « %(shift)s » : des billets ou pièces suspects pour %(amount)s ont été"
+" mis de côté. Fermer le quart quand même ?"
+
+msgctxt "model:ir.model.button,string:shift_load_denominations_button"
+msgid "Load Denominations"
+msgstr "Charger les coupures"
+
+msgctxt "model:ir.rule.group,name:rule_group_shift_cash_count"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "selection:fuel.shift.cash.count,kind:"
+msgid "Banknote"
+msgstr "Billet"
+
+msgctxt "selection:fuel.shift.cash.count,kind:"
+msgid "Coin"
+msgstr "Pièce"
+
+msgctxt "field:fuel.shift.cash.count,value:"
+msgid "Value"
+msgstr "Valeur"
+
+msgctxt "help:fuel.shift.cash.count,amount:"
+msgid ""
+"Amount in the currency of the document, without the suspect banknotes and "
+"coins."
+msgstr ""
+"Montant dans la devise du document, sans les billets et pièces suspects."
+
+msgctxt "help:fuel.shift.cash.count,quantity:"
+msgid "Number of banknotes or coins found in the drawer."
+msgstr "Nombre de billets ou de pièces trouvés dans le tiroir-caisse."
+
+msgctxt "help:fuel.shift.cash.count,value:"
+msgid "Value of the banknote or coin."
+msgstr "Valeur du billet ou de la pièce."

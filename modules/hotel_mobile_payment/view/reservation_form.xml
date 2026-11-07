@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_mobile_payment module. -->
+<data>
+    <xpath expr="/form/group[@id='buttons']/button[@name='create_sale']" position="before">
+        <button name="pay_mobile" icon="tryton-mobile-payment"/>
+    </xpath>
+    <xpath expr="/form/notebook" position="inside">
+        <page string="Mobile Payments" id="mobile_payments">
+            <field name="mobile_transactions" colspan="4"
+                view_ids="mobile_payment.sale_tx_view_list"/>
+        </page>
+    </xpath>
+</data>

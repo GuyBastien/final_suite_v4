@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_housekeeping module. -->
+<tree>
+    <field name="severity"/>
+    <field name="room"/>
+    <field optional="0" name="description"/>
+    <field name="reported_by"/>
+    <!-- DateTime: <field name="reported_at"/> -->
+    <field name="state"/>
+</tree>

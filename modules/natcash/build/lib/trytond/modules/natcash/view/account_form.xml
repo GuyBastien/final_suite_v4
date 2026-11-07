@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton natcash module. -->
+<data>
+    <xpath expr="/form/group[@id='credentials']" position="inside">
+        <label name="natcash_partner_code"/>
+        <field name="natcash_partner_code"/>
+        <label name="natcash_username"/>
+        <field name="natcash_username"/>
+        <label name="natcash_function_code"/>
+        <field name="natcash_function_code" widget="password"/>
+        <label name="natcash_password"/>
+        <field name="natcash_password" widget="password"/>
+        <label name="natcash_private_key"/>
+        <field name="natcash_private_key" widget="password"/>
+        <label name="natcash_language"/>
+        <field name="natcash_language"/>
+        <label name="natcash_callback_url"/>
+        <field name="natcash_callback_url" colspan="3"/>
+        <label name="natcash_payer_pays_fee"/>
+        <field name="natcash_payer_pays_fee" xexpand="0"/>
+    </xpath>
+</data>

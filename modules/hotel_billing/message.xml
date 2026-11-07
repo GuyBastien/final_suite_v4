@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_billing module. -->
+<tryton>
+    <data grouped="1">
+        <record model="ir.message" id="msg_deposit_delete_applied">
+            <field name="text">You cannot delete the deposit "%(deposit)s" because it is applied to an invoice.</field>
+        </record>
+        <record model="ir.message" id="msg_deposit_no_product">
+            <field name="text">Set the deposit product of the hotel "%(hotel)s" to deduct the deposits.</field>
+        </record>
+        <record model="ir.message" id="msg_deposit_line">
+            <field name="text">Deposits received - %(reservation)s</field>
+        </record>
+        <record model="ir.message" id="msg_credit_limit_exceeded">
+            <field name="text">The account of "%(party)s" would reach %(amount)s, beyond its credit limit of %(limit)s.</field>
+        </record>
+        <record model="ir.message" id="msg_split_billed">
+            <field name="text">The reservation "%(reservation)s" is already billed.</field>
+        </record>
+        <record model="ir.message" id="msg_split_nothing">
+            <field name="text">There is nothing to bill for the reservation "%(reservation)s".</field>
+        </record>
+        <record model="ir.message" id="msg_audit_unique">
+            <field name="text">The night audit of this hotel and date already exists.</field>
+        </record>
+        <record model="ir.message" id="msg_audit_delete_done">
+            <field name="text">You cannot delete the closed night audit "%(audit)s".</field>
+        </record>
+        <record model="ir.message" id="msg_audit_no_shows">
+            <field name="text">No-shows cancelled: %(reservations)s</field>
+        </record>
+    </data>
+</tryton>

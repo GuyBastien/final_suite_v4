@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_channel_manager module. -->
+<form>
+    <label name="name"/>
+    <field name="name"/>
+    <label name="active"/>
+    <field name="active"/>
+    <label name="hotel"/>
+    <field name="hotel"/>
+    <label name="provider"/>
+    <field name="provider"/>
+    <label name="party"/>
+    <field name="party"/>
+    <label name="compute_prices"/>
+    <field name="compute_prices"/>
+    <label name="last_synchronization"/>
+    <field name="last_synchronization"/>
+    <notebook colspan="4">
+        <page string="Rooms" id="rooms">
+            <field name="mappings" colspan="4"
+                view_ids="hotel_channel_manager.mapping_view_list"/>
+        </page>
+        <page string="Bookings" id="bookings">
+            <field name="bookings" colspan="4"
+                view_ids="hotel_channel_manager.booking_view_list"/>
+        </page>
+        <page string="Logs" id="logs">
+            <field name="logs" colspan="4"
+                view_ids="hotel_channel_manager.log_view_list"/>
+        </page>
+    </notebook>
+    <button name="synchronize" icon="tryton-refresh" colspan="4"/>
+</form>

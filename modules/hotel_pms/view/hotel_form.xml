@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_pms module. -->
+<data>
+    <xpath expr="/form/field[@name='check_out_time']" position="after">
+        <label name="reorder_ratio"/>
+        <field name="reorder_ratio"/>
+        <label name="notice_hours"/>
+        <field name="notice_hours"/>
+        <label name="no_show_hours"/>
+        <field name="no_show_hours"/>
+        <button name="update_order_points" string="Update Order Points"
+            colspan="2"/>
+        <label name="room_charge_product"/>
+        <field name="room_charge_product"/>
+    </xpath>
+</data>

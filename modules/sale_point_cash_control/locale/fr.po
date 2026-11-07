@@ -1,0 +1,360 @@
+#
+msgid ""
+msgstr ""
+"Language: fr\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:sale.point,cash_control:"
+msgid "Cash Control"
+msgstr "Contrôle de caisse"
+
+msgctxt "field:sale.point,difference_type:"
+msgid "Difference Type"
+msgstr "Type d'écart"
+
+msgctxt "field:sale.point.cash.count,amount:"
+msgid "Amount"
+msgstr "Montant"
+
+msgctxt "field:sale.point.cash.count,denomination:"
+msgid "Denomination"
+msgstr "Coupure"
+
+msgctxt "field:sale.point.cash.count,kind:"
+msgid "Kind"
+msgstr "Nature"
+
+msgctxt "field:sale.point.cash.count,moment:"
+msgid "Moment"
+msgstr "Moment"
+
+msgctxt "field:sale.point.cash.count,quantity:"
+msgid "Quantity"
+msgstr "Quantité"
+
+msgctxt "field:sale.point.cash.count,session:"
+msgid "Session"
+msgstr "Session"
+
+msgctxt "field:sale.point.cash.count,value:"
+msgid "Value"
+msgstr "Valeur"
+
+msgctxt "field:sale.point.cash.session,cash_control:"
+msgid "Cash Control"
+msgstr "Contrôle de caisse"
+
+msgctxt "field:sale.point.cash.session,closing_counted:"
+msgid "Closing Counted"
+msgstr "Total compté à la fermeture"
+
+msgctxt "field:sale.point.cash.session,closing_counts:"
+msgid "Closing Count"
+msgstr "Comptage de fermeture"
+
+msgctxt "field:sale.point.cash.session,closing_difference:"
+msgid "Closing Difference"
+msgstr "Écart de fermeture"
+
+msgctxt "field:sale.point.cash.session,expected_amount:"
+msgid "Expected Amount"
+msgstr "Montant attendu"
+
+msgctxt "field:sale.point.cash.session,opening_counted:"
+msgid "Opening Counted"
+msgstr "Total compté à l'ouverture"
+
+msgctxt "field:sale.point.cash.session,opening_counts:"
+msgid "Opening Count"
+msgstr "Comptage d'ouverture"
+
+msgctxt "field:sale.point.cash.session,opening_difference:"
+msgid "Opening Difference"
+msgstr "Écart d'ouverture"
+
+msgctxt "field:sale.point.denomination,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:sale.point.denomination,currency:"
+msgid "Currency"
+msgstr "Devise"
+
+msgctxt "field:sale.point.denomination,kind:"
+msgid "Kind"
+msgstr "Nature"
+
+msgctxt "field:sale.point.denomination,value:"
+msgid "Value"
+msgstr "Valeur"
+
+msgctxt "help:sale.point,cash_control:"
+msgid ""
+"Require the count of banknotes and coins when the cash session opens and "
+"closes."
+msgstr ""
+"Exiger le comptage des billets et pièces à l'ouverture et à la fermeture de "
+"la session de caisse."
+
+msgctxt "help:sale.point,difference_type:"
+msgid ""
+"Transfer type used to record a cash shortage or overage found at the closing"
+" count."
+msgstr ""
+"Type de transfert utilisé pour enregistrer un manque ou un excédent de "
+"caisse constaté à la fermeture."
+
+msgctxt "help:sale.point.cash.count,amount:"
+msgid "Amount in the currency of the document."
+msgstr "Montant dans la devise du document."
+
+msgctxt "help:sale.point.cash.count,denomination:"
+msgid "The banknote or the coin that is counted."
+msgstr "Le billet ou la pièce comptés."
+
+msgctxt "help:sale.point.cash.count,kind:"
+msgid "Banknote or coin."
+msgstr "Billet ou pièce."
+
+msgctxt "help:sale.point.cash.count,moment:"
+msgid "Count made when the session opens or when it closes."
+msgstr "Comptage fait à l'ouverture ou à la fermeture de la session."
+
+msgctxt "help:sale.point.cash.count,quantity:"
+msgid "Number of banknotes or coins found in the drawer."
+msgstr "Nombre de billets ou pièces trouvés dans le tiroir."
+
+msgctxt "help:sale.point.cash.count,session:"
+msgid "The cash session that is counted."
+msgstr "La session de caisse comptée."
+
+msgctxt "help:sale.point.cash.count,value:"
+msgid "Value of the banknote or coin."
+msgstr "Valeur du billet ou de la pièce."
+
+msgctxt "help:sale.point.cash.session,cash_control:"
+msgid "Require a count of banknotes and coins at opening and closing."
+msgstr ""
+"Exiger un comptage des billets et pièces à l'ouverture et à la fermeture."
+
+msgctxt "help:sale.point.cash.session,closing_counted:"
+msgid "Total of the closing count."
+msgstr "Total du comptage de fermeture."
+
+msgctxt "help:sale.point.cash.session,closing_counts:"
+msgid "Banknotes and coins found in the drawer when the session closes."
+msgstr ""
+"Billets et pièces trouvés dans le tiroir à la fermeture de la session."
+
+msgctxt "help:sale.point.cash.session,closing_difference:"
+msgid ""
+"Counted amount minus expected amount. Negative: shortage; positive: overage."
+msgstr ""
+"Montant compté moins montant attendu. Négatif : manque ; positif : excédent."
+
+msgctxt "help:sale.point.cash.session,expected_amount:"
+msgid ""
+"Amount that must be in the drawer: start amount plus the cash received."
+msgstr ""
+"Montant qui doit être dans le tiroir : montant de départ plus les espèces "
+"reçues."
+
+msgctxt "help:sale.point.cash.session,opening_counted:"
+msgid "Total of the opening count."
+msgstr "Total du comptage d'ouverture."
+
+msgctxt "help:sale.point.cash.session,opening_counts:"
+msgid "Banknotes and coins found in the drawer when the session opens."
+msgstr "Billets et pièces trouvés dans le tiroir à l'ouverture de la session."
+
+msgctxt "help:sale.point.cash.session,opening_difference:"
+msgid "Counted amount minus the amount left by the previous session."
+msgstr "Montant compté moins le montant laissé par la session précédente."
+
+msgctxt "help:sale.point.denomination,company:"
+msgid "The company that counts this banknote or coin."
+msgstr "La société qui compte ce billet ou cette pièce."
+
+msgctxt "help:sale.point.denomination,currency:"
+msgid "Currency of the amounts."
+msgstr "Devise des montants."
+
+msgctxt "help:sale.point.denomination,kind:"
+msgid "Banknote or coin."
+msgstr "Billet ou pièce."
+
+msgctxt "help:sale.point.denomination,value:"
+msgid "Face value of one banknote or one coin."
+msgstr "Valeur faciale d'un billet ou d'une pièce."
+
+msgctxt "model:ir.action,name:act_denomination"
+msgid "Banknotes and Coins"
+msgstr "Billets et pièces"
+
+msgctxt "model:ir.message,text:msg_count_missing"
+msgid ""
+"Count the banknotes and coins of session \"%(session)s\" before closing it."
+msgstr ""
+"Comptez les billets et pièces de la session « %(session)s » avant de la "
+"fermer."
+
+msgctxt "model:ir.message,text:msg_count_session_closed"
+msgid ""
+"The count of session \"%(session)s\" can no longer be changed because the "
+"session is not open."
+msgstr ""
+"Le comptage de la session « %(session)s » ne peut plus être modifié car la "
+"session n'est pas ouverte."
+
+msgctxt "model:ir.message,text:msg_count_unique"
+msgid "A denomination can only be counted once per session and moment."
+msgstr ""
+"Une coupure ne peut être comptée qu'une fois par session et par moment."
+
+msgctxt "model:ir.message,text:msg_denomination_unique"
+msgid "The value of a banknote or coin must be unique per company and kind."
+msgstr ""
+"La valeur d'un billet ou d'une pièce doit être unique par société et par "
+"nature."
+
+msgctxt "model:ir.message,text:msg_difference_type"
+msgid ""
+"Select a difference type on point \"%(point)s\" to record a cash shortage or"
+" overage."
+msgstr ""
+"Choisissez un type d'écart sur le point « %(point)s » pour enregistrer un "
+"manque ou un excédent de caisse."
+
+msgctxt "model:ir.message,text:msg_opening_difference"
+msgid ""
+"The opening count of session \"%(session)s\" differs from the amount left by"
+" the previous session by %(difference)s. Close it anyway?"
+msgstr ""
+"Le comptage d'ouverture de la session « %(session)s » diffère de "
+"%(difference)s du montant laissé par la session précédente. Continuer quand "
+"même ?"
+
+msgctxt "model:ir.model.button,string:session_record_difference_button"
+msgid "Record Difference"
+msgstr "Enregistrer l'écart"
+
+msgctxt "model:ir.model.button,string:session_use_count_button"
+msgid "Use Count"
+msgstr "Utiliser le comptage"
+
+msgctxt "model:ir.rule.group,name:rule_group_denomination"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.ui.menu,name:menu_denomination"
+msgid "Banknotes and Coins"
+msgstr "Billets et pièces"
+
+msgctxt "model:sale.point.cash.count,name:"
+msgid "Cash Count Line"
+msgstr "Ligne de comptage de caisse"
+
+msgctxt "model:sale.point.denomination,name:"
+msgid "Cash Denomination"
+msgstr "Coupure de caisse"
+
+msgctxt "selection:sale.point.cash.count,kind:"
+msgid "Banknote"
+msgstr "Billet"
+
+msgctxt "selection:sale.point.cash.count,kind:"
+msgid "Coin"
+msgstr "Pièce"
+
+msgctxt "selection:sale.point.cash.count,moment:"
+msgid "Closing"
+msgstr "Fermeture"
+
+msgctxt "selection:sale.point.cash.count,moment:"
+msgid "Opening"
+msgstr "Ouverture"
+
+msgctxt "selection:sale.point.denomination,kind:"
+msgid "Banknote"
+msgstr "Billet"
+
+msgctxt "selection:sale.point.denomination,kind:"
+msgid "Coin"
+msgstr "Pièce"
+
+msgctxt "view:sale.point.cash.session:"
+msgid "Closing Count"
+msgstr "Comptage de fermeture"
+
+msgctxt "view:sale.point.cash.session:"
+msgid "Opening Count"
+msgstr "Comptage d'ouverture"
+
+msgctxt "view:sale.point:"
+msgid "Cash Control"
+msgstr "Contrôle de caisse"
+
+msgctxt "field:sale.point,cash_tolerance:"
+msgid "Cash Tolerance"
+msgstr "Tolérance de caisse"
+
+msgctxt "field:sale.point.cash.count,quantity:"
+msgid "Counted"
+msgstr "Compté"
+
+msgctxt "field:sale.point.cash.count,suspect_amount:"
+msgid "Suspect Amount"
+msgstr "Montant suspect"
+
+msgctxt "field:sale.point.cash.count,suspect_quantity:"
+msgid "Suspect"
+msgstr "Suspect"
+
+msgctxt "field:sale.point.cash.session,closing_suspect:"
+msgid "Suspect at Closing"
+msgstr "Suspect à la fermeture"
+
+msgctxt "help:sale.point,cash_tolerance:"
+msgid "Closing difference accepted without warning."
+msgstr "Écart de fermeture accepté sans avertissement."
+
+msgctxt "help:sale.point.cash.count,amount:"
+msgid ""
+"Amount in the currency of the document, without the suspect banknotes and "
+"coins."
+msgstr ""
+"Montant dans la devise du document, sans les billets et pièces suspects."
+
+msgctxt "help:sale.point.cash.count,suspect_amount:"
+msgid "Value of banknotes or coins that look counterfeit."
+msgstr "Valeur des billets ou pièces qui semblent faux."
+
+msgctxt "help:sale.point.cash.count,suspect_quantity:"
+msgid ""
+"Counterfeit, damaged or doubtful banknotes/coins among those counted. They "
+"are not added to the cash total."
+msgstr ""
+"Billets/pièces faux, abîmés ou douteux parmi ceux comptés. Ils ne sont pas "
+"ajoutés au total de la caisse."
+
+msgctxt "help:sale.point.cash.session,closing_suspect:"
+msgid ""
+"Value of the suspect banknotes and coins found at the closing count. They "
+"are not part of the counted total."
+msgstr ""
+"Valeur des billets et pièces suspects trouvés au comptage de fermeture. Ils "
+"ne font pas partie du total compté."
+
+msgctxt "model:ir.message,text:msg_closing_difference"
+msgid ""
+"The closing count of session \"%(session)s\" differs from the expected "
+"amount by %(difference)s. Close anyway? The difference will be recorded as a"
+" cash transfer."
+msgstr ""
+"Le comptage de fermeture de la session \"%(session)s\" diffère du montant "
+"attendu de %(difference)s. Fermer quand même ? L'écart sera enregistré comme"
+" transfert d'espèces."
+
+msgctxt "model:ir.message,text:msg_count_suspect"
+msgid "The suspect quantity cannot be greater than the counted quantity."
+msgstr "La quantité suspecte ne peut pas dépasser la quantité comptée."

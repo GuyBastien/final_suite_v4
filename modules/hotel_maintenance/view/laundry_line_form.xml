@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_maintenance module. -->
+<form>
+    <label name="batch"/>
+    <field name="batch"/>
+    <label name="product"/>
+    <field name="product"/>
+    <label name="unit"/>
+    <field name="unit"/>
+    <label name="qty_sent"/>
+    <field name="qty_sent"/>
+    <label name="qty_returned"/>
+    <field name="qty_returned"/>
+    <label name="lost"/>
+    <field name="lost"/>
+</form>

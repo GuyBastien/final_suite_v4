@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_groups module. -->
+<data>
+    <xpath expr="/form/field[@name='party']" position="after">
+        <label name="group"/>
+        <field name="group"/>
+    </xpath>
+</data>

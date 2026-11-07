@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel module. -->
+<tree>
+    <field name="name"/>
+    <field name="code"/>
+    <field name="company"/>
+    <field name="warehouse"/>
+    <field name="active" tree_invisible="1"/>
+</tree>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton sale_mobile_payment module. -->
+<data>
+    <xpath expr="/form/group[@id='buttons']/button[@name='process']" position="before">
+        <button name="pay_mobile" icon="tryton-mobile-payment"/>
+    </xpath>
+</data>

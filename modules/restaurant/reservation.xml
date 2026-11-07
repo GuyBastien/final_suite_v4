@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton restaurant module. -->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="reservation_view_form">
+            <field name="model">restaurant.reservation</field>
+            <field name="type">form</field>
+            <field name="name">reservation_form</field>
+        </record>
+        <record model="ir.ui.view" id="reservation_view_list">
+            <field name="model">restaurant.reservation</field>
+            <field name="type">tree</field>
+            <field name="name">reservation_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_reservation">
+            <field name="name">Reservations</field>
+            <field name="res_model">restaurant.reservation</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_reservation_view_10">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="reservation_view_list"/>
+            <field name="act_window" ref="act_reservation"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_reservation_view_20">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="reservation_view_form"/>
+            <field name="act_window" ref="act_reservation"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_reservation_domain_0">
+            <field name="name">Booked</field>
+            <field name="sequence" eval="10"/>
+            <field name="domain" eval="[('state', '=', 'booked')]" pyson="1"/>
+            <field name="act_window" ref="act_reservation"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_reservation_domain_1">
+            <field name="name">All</field>
+            <field name="sequence" eval="20"/>
+            <field name="domain" eval="[]" pyson="1"/>
+            <field name="act_window" ref="act_reservation"/>
+        </record>
+        <menuitem icon="tryton-restaurant-reservation" name="Reservations" parent="menu_service" id="menu_reservation" sequence="15" action="act_reservation"/>
+        <record model="ir.model.access" id="access_reservation">
+            <field name="model" search="[('model', '=', 'restaurant.reservation')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_reservation_service">
+            <field name="model" search="[('model', '=', 'restaurant.reservation')]"/>
+            <field name="group" ref="group_restaurant"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.model.access" id="access_reservation_kitchen">
+            <field name="model" search="[('model', '=', 'restaurant.reservation')]"/>
+            <field name="group" ref="group_restaurant_kitchen"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_reservation_admin">
+            <field name="model" search="[('model', '=', 'restaurant.reservation')]"/>
+            <field name="group" ref="group_restaurant_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_reservation">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'restaurant.reservation')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_reservation">
+            <field name="domain" eval="[('company', 'in', Eval('companies', []))]" pyson="1"/>
+            <field name="rule_group" ref="rule_group_reservation"/>
+        </record>
+        <record model="ir.model.button" id="reservation_seat_button">
+            <field name="model" search="[('model', '=', 'restaurant.reservation')]"/>
+            <field name="name">seat</field>
+            <field name="string">Seat</field>
+        </record>
+        <record model="ir.model.button" id="reservation_cancel_button">
+            <field name="model" search="[('model', '=', 'restaurant.reservation')]"/>
+            <field name="name">cancel</field>
+            <field name="string">Cancel</field>
+        </record>
+        <record model="ir.model.button" id="reservation_no_show__button">
+            <field name="model" search="[('model', '=', 'restaurant.reservation')]"/>
+            <field name="name">no_show_</field>
+            <field name="string">No Show</field>
+        </record>
+        <record model="ir.model.button" id="reservation_rebook_button">
+            <field name="model" search="[('model', '=', 'restaurant.reservation')]"/>
+            <field name="name">rebook</field>
+            <field name="string">Book Again</field>
+        </record>
+    </data>
+</tryton>

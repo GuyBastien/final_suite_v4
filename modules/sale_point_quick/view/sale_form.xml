@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton sale_point_quick module. -->
+<data>
+    <xpath expr="/form/notebook" position="before">
+        <label name="quick_code"/>
+        <field name="quick_code" colspan="2"/>
+        <label name="quick_product"/>
+        <field name="quick_product" colspan="2"/>
+    </xpath>
+    <xpath expr="/form/group[@id='buttons']/button[@name='cancel']" position="before">
+        <button name="pay_cash" icon="tryton-ok"/>
+        <button name="pay_card" icon="tryton-forward"/>
+    </xpath>
+</data>

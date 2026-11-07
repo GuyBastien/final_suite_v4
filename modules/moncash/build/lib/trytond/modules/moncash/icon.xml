@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton moncash module. -->
+<tryton>
+    <data>
+        <record model="ir.ui.icon" id="icon_moncash">
+            <field name="name">tryton-moncash</field>
+            <field name="path">icons/tryton-moncash.svg</field>
+        </record>
+    </data>
+</tryton>

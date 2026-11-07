@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_pms module. -->
+<form>
+    <label name="hotel"/>
+    <field name="hotel"/>
+    <button icon="tryton-refresh" name="refresh" string="Refresh" colspan="2"/>
+    <field name="currency_digits" invisible="1" colspan="4"/>
+    <separator string="Rooms" id="rooms" colspan="4"/>
+    <label name="rooms_total"/>
+    <field name="rooms_total"/>
+    <label name="occupancy_rate"/>
+    <field name="occupancy_rate"/>
+    <label name="rooms_available"/>
+    <field name="rooms_available"/>
+    <label name="rooms_occupied"/>
+    <field name="rooms_occupied"/>
+    <label name="rooms_dirty"/>
+    <field name="rooms_dirty"/>
+    <label name="rooms_maintenance"/>
+    <field name="rooms_maintenance"/>
+    <label name="rooms_out_of_order"/>
+    <field name="rooms_out_of_order"/>
+    <newline/>
+    <separator string="Today" id="today" colspan="4"/>
+    <label name="arrivals_today"/>
+    <field name="arrivals_today"/>
+    <label name="arrivals_left"/>
+    <field name="arrivals_left"/>
+    <label name="departures_today"/>
+    <field name="departures_today"/>
+    <label name="departures_left"/>
+    <field name="departures_left"/>
+    <label name="in_house"/>
+    <field name="in_house"/>
+    <label name="guests_in_house"/>
+    <field name="guests_in_house"/>
+    <separator string="Revenue" id="revenue" colspan="4"/>
+    <label name="revenue_today"/>
+    <field name="revenue_today"/>
+    <label name="revenue_month"/>
+    <field name="revenue_month"/>
+    <label name="adr"/>
+    <field name="adr"/>
+    <label name="revpar"/>
+    <field name="revpar"/>
+    <label name="pos_pending"/>
+    <field name="pos_pending"/>
+    <newline/>
+    <separator string="Notifications" id="notifications_stats" colspan="4"/>
+    <label name="open_alerts"/>
+    <field name="open_alerts"/>
+    <label name="open_warnings"/>
+    <field name="open_warnings"/>
+    <label name="open_reminders"/>
+    <field name="open_reminders"/>
+    <notebook colspan="4">
+        <page string="Notifications" id="notifications">
+            <field name="notifications" colspan="4"/>
+        </page>
+        <page string="Arrivals" id="arrivals">
+            <field name="arrivals" colspan="4"/>
+        </page>
+        <page string="Departures" id="departures">
+            <field name="departures" colspan="4"/>
+        </page>
+        <page string="In House" id="in_house_page">
+            <field name="in_house_reservations" colspan="4"/>
+        </page>
+    </notebook>
+</form>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton restaurant module. -->
+<form col="4">
+    <label name="name"/>
+    <field name="name"/>
+    <label name="active"/>
+    <field name="active"/>
+    <label name="restaurant"/>
+    <field name="restaurant"/>
+    <label name="category"/>
+    <field name="category"/>
+    <label name="weekday"/>
+    <field name="weekday"/>
+    <label name="discount"/>
+    <field name="discount"/>
+    <label name="start_hour"/>
+    <field name="start_hour"/>
+    <label name="end_hour"/>
+    <field name="end_hour"/>
+</form>

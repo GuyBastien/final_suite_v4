@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_pms module. -->
+<form>
+    <label name="number"/>
+    <field name="number"/>
+    <label name="company"/>
+    <field name="company"/>
+    <label name="hotel"/>
+    <field name="hotel"/>
+    <label name="party"/>
+    <field name="party"/>
+    <label name="start"/>
+    <field name="start"/>
+    <label name="end"/>
+    <field name="end"/>
+    <label name="adults"/>
+    <field name="adults"/>
+    <label name="children"/>
+    <field name="children"/>
+    <notebook colspan="4">
+        <page string="Rooms" id="rooms">
+            <field name="lines" colspan="4"/>
+        </page>
+        <page string="Charges" id="charges">
+            <field name="charges" colspan="4"/>
+        </page>
+        <page string="Other Info" id="info">
+            <label name="actual_start"/>
+            <field name="actual_start"/>
+            <label name="actual_end"/>
+            <field name="actual_end"/>
+            <label name="sale"/>
+            <field name="sale"/>
+            <label name="sale_state"/>
+            <field name="sale_state"/>
+            <label name="invoice_state"/>
+            <field name="invoice_state"/>
+            <label name="invoice_recurrence"/>
+            <field name="invoice_recurrence"/>
+            <label name="subscription"/>
+            <field name="subscription"/>
+            <label name="pos_amount"/>
+            <field name="pos_amount"/>
+            <newline/>
+            <separator name="notes" colspan="4"/>
+            <field name="notes" colspan="4"/>
+        </page>
+    </notebook>
+    <label name="state"/>
+    <field name="state"/>
+    <label name="total_amount"/>
+    <field name="total_amount"/>
+    <group col="8" colspan="4" id="buttons">
+        <button name="cancel" icon="tryton-cancel"/>
+        <button icon="tryton-undo" name="draft"/>
+        <button name="compute" icon="tryton-refresh"/>
+        <button name="confirm" icon="tryton-ok"/>
+        <button name="check_in" icon="tryton-hotel-arrival"/>
+        <button name="check_out" icon="tryton-hotel-departure"/>
+        <button name="create_subscription" icon="tryton-hotel-reorder"/>
+        <button name="create_sale" icon="tryton-hotel-revenue"/>
+    </group>
+</form>

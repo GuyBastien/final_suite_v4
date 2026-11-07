@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton fuel_station module. -->
+<form col="6">
+    <group col="6" colspan="6" id="header">
+        <label name="number"/>
+        <field name="number"/>
+        <label name="station"/>
+        <field name="station"/>
+        <label name="date"/>
+        <field name="date"/>
+        <label name="tank"/>
+        <field name="tank"/>
+        <label name="company"/>
+        <field name="company"/>
+        <label name="state"/>
+        <field name="state"/>
+    </group>
+    <group col="6" colspan="6" id="measure" string="Measure">
+        <label name="measured_quantity"/>
+        <field name="measured_quantity"/>
+        <label name="temperature"/>
+        <field name="temperature"/>
+        <label name="net_quantity"/>
+        <field name="net_quantity"/>
+        <label name="unit"/>
+        <field name="unit"/>
+        <label name="adjust"/>
+        <field name="adjust"/>
+    </group>
+    <group col="8" colspan="6" id="result" string="Result">
+        <label name="book_quantity"/>
+        <field name="book_quantity"/>
+        <label name="variance"/>
+        <field name="variance"/>
+        <label name="variance_percent"/>
+        <field name="variance_percent"/>
+        <label name="move"/>
+        <field name="move"/>
+    </group>
+    <field name="notes" colspan="6"/>
+    <group col="-1" colspan="6" id="buttons">
+        <button name="cancel" icon="tryton-cancel"/>
+        <button name="draft" icon="tryton-back"/>
+        <button name="validate_dip" icon="tryton-ok"/>
+    </group>
+</form>

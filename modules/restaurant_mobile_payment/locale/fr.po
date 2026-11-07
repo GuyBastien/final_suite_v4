@@ -1,0 +1,80 @@
+#
+msgid ""
+msgstr ""
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgctxt "field:mobile.payment.transaction,restaurant_order:"
+msgid "Restaurant Order"
+msgstr "Commande du restaurant"
+
+msgctxt "field:restaurant.order,mobile_pending:"
+msgid "Mobile Payment Pending"
+msgstr "Paiement mobile en attente"
+
+msgctxt "field:restaurant.order,mobile_transactions:"
+msgid "Mobile Payments"
+msgstr "Paiements mobiles"
+
+msgctxt "field:restaurant.payment,mobile_transaction:"
+msgid "Mobile Payment"
+msgstr "Paiement mobile"
+
+msgctxt "help:mobile.payment.transaction,restaurant_order:"
+msgid "Restaurant order paid by this transaction."
+msgstr "Commande du restaurant payée par cette transaction."
+
+msgctxt "help:restaurant.order,mobile_transactions:"
+msgid "MonCash, NatCash and other mobile payments of this order."
+msgstr ""
+"Paiements MonCash, NatCash et autres paiements mobiles de cette commande."
+
+msgctxt "help:restaurant.payment,mobile_transaction:"
+msgid "Operator confirmation that created this payment."
+msgstr "Confirmation de l'opérateur qui a créé ce paiement."
+
+msgctxt "model:ir.message,text:msg_cancel_pending"
+msgid ""
+"Order \"%(order)s\" cannot be cancelled while a mobile payment is waiting "
+"for the customer. Cancel or verify the payment first."
+msgstr ""
+"La commande « %(order)s » ne peut pas être annulée tant qu'un paiement "
+"mobile attend le client. Annulez ou vérifiez d'abord le paiement."
+
+msgctxt "model:ir.message,text:msg_close_pending"
+msgid ""
+"Order \"%(order)s\" cannot be closed while a mobile payment is waiting for "
+"the customer. Verify or cancel the payment first."
+msgstr ""
+"La commande « %(order)s » ne peut pas être clôturée tant qu'un paiement "
+"mobile attend le client. Vérifiez ou annulez d'abord le paiement."
+
+msgctxt "model:ir.message,text:msg_company"
+msgid ""
+"The mobile payment \"%(transaction)s\" and its order must belong to the same"
+" company."
+msgstr ""
+"Le paiement mobile « %(transaction)s » et sa commande doivent appartenir à "
+"la même société."
+
+msgctxt "model:ir.message,text:msg_mobile_typed"
+msgid ""
+"A mobile payment cannot be typed. Use \"Pay by Mobile\": the payment is "
+"recorded when the operator confirms it."
+msgstr ""
+"Un paiement mobile ne peut pas être saisi. Utilisez « Payer par mobile » : "
+"le paiement est enregistré quand l'opérateur le confirme."
+
+msgctxt "model:ir.message,text:msg_nothing_due"
+msgid "Order \"%(order)s\" has nothing left to pay."
+msgstr "La commande « %(order)s » n'a plus rien à payer."
+
+msgctxt "model:ir.model.button,string:order_pay_mobile_button"
+msgid "Pay by Mobile"
+msgstr "Payer par mobile"
+
+msgctxt "view:restaurant.order:"
+msgid "Mobile Payments"
+msgstr "Paiements mobiles"

@@ -1,0 +1,450 @@
+#
+msgid ""
+msgstr ""
+"Language: ht\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:hotel.hotel,reminder_days:"
+msgid "Reminder Days"
+msgstr "Jou rapèl"
+
+msgctxt "field:hotel.message,attempts:"
+msgid "Attempts"
+msgstr "Tantativ"
+
+msgctxt "field:hotel.message,body:"
+msgid "Body"
+msgstr "Kò mesaj"
+
+msgctxt "field:hotel.message,channel:"
+msgid "Channel"
+msgstr "Kanal"
+
+msgctxt "field:hotel.message,company:"
+msgid "Company"
+msgstr "Konpayi"
+
+msgctxt "field:hotel.message,error:"
+msgid "Error"
+msgstr "Erè"
+
+msgctxt "field:hotel.message,event:"
+msgid "Event"
+msgstr "Evènman"
+
+msgctxt "field:hotel.message,hotel:"
+msgid "Hotel"
+msgstr "Otèl"
+
+msgctxt "field:hotel.message,party:"
+msgid "Guest"
+msgstr "Envite"
+
+msgctxt "field:hotel.message,recipient:"
+msgid "Recipient"
+msgstr "Destinatè"
+
+msgctxt "field:hotel.message,reservation:"
+msgid "Reservation"
+msgstr "Rezèvasyon"
+
+msgctxt "field:hotel.message,sent_at:"
+msgid "Sent At"
+msgstr "Voye a"
+
+msgctxt "field:hotel.message,state:"
+msgid "State"
+msgstr "Eta"
+
+msgctxt "field:hotel.message,subject:"
+msgid "Subject"
+msgstr "Sijè"
+
+msgctxt "field:hotel.message,template:"
+msgid "Template"
+msgstr "Modèl"
+
+msgctxt "field:hotel.message.template,body:"
+msgid "Body"
+msgstr "Kò mesaj"
+
+msgctxt "field:hotel.message.template,channel:"
+msgid "Channel"
+msgstr "Kanal"
+
+msgctxt "field:hotel.message.template,company:"
+msgid "Company"
+msgstr "Konpayi"
+
+msgctxt "field:hotel.message.template,event:"
+msgid "Event"
+msgstr "Evènman"
+
+msgctxt "field:hotel.message.template,hotel:"
+msgid "Hotel"
+msgstr "Otèl"
+
+msgctxt "field:hotel.message.template,name:"
+msgid "Name"
+msgstr "Non"
+
+msgctxt "field:hotel.message.template,subject:"
+msgid "Subject"
+msgstr "Sijè"
+
+msgctxt "field:hotel.reservation,messages:"
+msgid "Messages"
+msgstr "Mesaj yo"
+
+msgctxt "field:hotel.reservation,precheckin_at:"
+msgid "Pre-checked-in At"
+msgstr "Pre-anrejistre a"
+
+msgctxt "field:hotel.reservation,precheckin_eta:"
+msgid "Estimated Arrival Time"
+msgstr "Lè rive estime"
+
+msgctxt "field:hotel.reservation,precheckin_token:"
+msgid "Pre-check-in Token"
+msgstr "Jeton pre-anrejistreman"
+
+msgctxt "help:hotel.hotel,reminder_days:"
+msgid ""
+"Number of days before the arrival when the pre-arrival message is sent. 0 "
+"disables it."
+msgstr "Kantite jou anvan rive lè yo voye mesaj anvan rive a. 0 dezaktive li."
+
+msgctxt "help:hotel.message.template,body:"
+msgid ""
+"Placeholders: {guest_name}, {reservation}, {hotel}, {arrival}, {departure}, "
+"{total}, {currency}, {precheckin_url}. The text is translated: the guest "
+"receives the language of the party."
+msgstr ""
+"Plas rezève: {guest_name}, {reservation}, {hotel}, {arrival}, {departure}, "
+"{total}, {currency}, {precheckin_url}. Tèks la tradui: kliyan an resevwa "
+"lang pati a."
+
+msgctxt "help:hotel.message.template,subject:"
+msgid ""
+"Placeholders: {guest_name}, {reservation}, {hotel}, {arrival}, {departure}, "
+"{total}, {currency}, {precheckin_url}"
+msgstr ""
+"Plas rezève: {guest_name}, {reservation}, {hotel}, {arrival}, {departure}, "
+"{total}, {currency}, {precheckin_url}"
+
+msgctxt "help:hotel.reservation,precheckin_token:"
+msgid "Secret of the pre-check-in address given to the guest."
+msgstr "Sekrè adrès pre-anrejistreman yo bay kliyan an."
+
+msgctxt "model:hotel.message,name:"
+msgid "Hotel Message"
+msgstr "Mesaj otèl"
+
+msgctxt "model:hotel.message.template,name:"
+msgid "Hotel Message Template"
+msgstr "Modèl mesaj otèl"
+
+msgctxt "model:ir.action,name:act_message"
+msgid "Messages"
+msgstr "Mesaj yo"
+
+msgctxt "model:ir.action,name:act_template"
+msgid "Message Templates"
+msgstr "Modèl mesaj yo"
+
+msgctxt "model:ir.action.act_window.domain,name:act_message_domain1"
+msgid "Queued"
+msgstr "Nan fil datant"
+
+msgctxt "model:ir.action.act_window.domain,name:act_message_domain2"
+msgid "Failed"
+msgstr "Echwe"
+
+msgctxt "model:ir.action.act_window.domain,name:act_message_domain_all"
+msgid "All"
+msgstr "Tout"
+
+msgctxt "model:ir.action.act_window.domain,name:act_template_domain_all"
+msgid "All"
+msgstr "Tout"
+
+msgctxt "model:ir.message,text:msg_default_cancellation_body"
+msgid ""
+"Dear {guest_name},\n"
+"\n"
+"Your reservation {reservation} at {hotel} has been cancelled."
+msgstr ""
+"Chè {guest_name},\n"
+"\n"
+"Rezèvasyon ou a {reservation} nan {hotel} anile."
+
+msgctxt "model:ir.message,text:msg_default_cancellation_name"
+msgid "Cancellation"
+msgstr "Anilasyon"
+
+msgctxt "model:ir.message,text:msg_default_cancellation_subject"
+msgid "Cancellation of your reservation {reservation}"
+msgstr "Anilasyon rezèvasyon ou a {reservation}"
+
+msgctxt "model:ir.message,text:msg_default_confirmation_body"
+msgid ""
+"Dear {guest_name},\n"
+"\n"
+"Your reservation {reservation} at {hotel} is confirmed.\n"
+"Arrival: {arrival}\n"
+"Departure: {departure}\n"
+"Total: {total} {currency}\n"
+"\n"
+"We look forward to welcoming you."
+msgstr ""
+"Chè {guest_name},\n"
+"\n"
+"Rezèvasyon ou a {reservation} nan {hotel} konfime.\n"
+"Rive: {arrival}\n"
+"Pati: {departure}\n"
+"Total: {total} {currency}\n"
+"\n"
+"Nou ap tann pou nou akeyi ou."
+
+msgctxt "model:ir.message,text:msg_default_confirmation_name"
+msgid "Booking confirmation"
+msgstr "Konfimasyon rezèvasyon"
+
+msgctxt "model:ir.message,text:msg_default_confirmation_subject"
+msgid "Your reservation {reservation} at {hotel}"
+msgstr "Rezèvasyon ou a {reservation} nan {hotel}"
+
+msgctxt "model:ir.message,text:msg_default_pre_arrival_body"
+msgid ""
+"Dear {guest_name},\n"
+"\n"
+"Your stay at {hotel} begins on {arrival}.\n"
+"Please tell us your estimated arrival time: {precheckin_url}"
+msgstr ""
+"Chè {guest_name},\n"
+"\n"
+"Sejou ou nan {hotel} kòmanse {arrival}.\n"
+"Tanpri di nou ki lè ou estime w ap rive: {precheckin_url}"
+
+msgctxt "model:ir.message,text:msg_default_pre_arrival_name"
+msgid "Pre-arrival"
+msgstr "Anvan rive"
+
+msgctxt "model:ir.message,text:msg_default_pre_arrival_subject"
+msgid "Your arrival at {hotel}"
+msgstr "Rive ou nan {hotel}"
+
+msgctxt "model:ir.message,text:msg_default_thank_you_body"
+msgid ""
+"Dear {guest_name},\n"
+"\n"
+"Thank you for your stay at {hotel}. We hope to see you again soon."
+msgstr ""
+"Chè {guest_name},\n"
+"\n"
+"Mèsi pou sejou ou nan {hotel}. Nou espere wè w ankò talè konsa."
+
+msgctxt "model:ir.message,text:msg_default_thank_you_name"
+msgid "Thank you"
+msgstr "Mèsi"
+
+msgctxt "model:ir.message,text:msg_default_thank_you_subject"
+msgid "Thank you for staying at {hotel}"
+msgstr "Mèsi paske ou rete nan {hotel}"
+
+msgctxt "model:ir.message,text:msg_message_delete_queued"
+msgid "You cannot delete the queued message \"%(message)s\": cancel it first."
+msgstr ""
+"Ou pa kapab efase mesaj ki nan fil datant \"%(message)s\" la: anile l anvan."
+
+msgctxt "model:ir.message,text:msg_no_sender"
+msgid ""
+"Set the \"from\" address in the [email] section of the configuration or an "
+"e-mail on the party of the hotel \"%(hotel)s\"."
+msgstr ""
+"Mete adrès \"from\" nan seksyon [email] konfigirasyon an oswa yon imèl sou "
+"pati otèl \"%(hotel)s\" la."
+
+msgctxt "model:ir.message,text:msg_no_sms_url"
+msgid ""
+"Set \"sms_url\" in the [hotel_communication] section of the configuration to"
+" send SMS."
+msgstr ""
+"Mete \"sms_url\" nan seksyon [hotel_communication] konfigirasyon an pou voye"
+" SMS."
+
+msgctxt "model:ir.message,text:msg_precheckin_no_message"
+msgid ""
+"No pre-arrival message could be queued for the reservation "
+"\"%(reservation)s\": check its templates and the contact of the guest."
+msgstr ""
+"Pa gen mesaj anvan rive ki te kapab nan fil datant pou rezèvasyon "
+"\"%(reservation)s\" lan: verifye modèl li yo ak kontak kliyan an."
+
+msgctxt "model:ir.message,text:msg_precheckin_token_unique"
+msgid "The pre-check-in token must be unique."
+msgstr "Jeton pre-anrejistreman an dwe inik."
+
+msgctxt "model:ir.message,text:msg_sms_status"
+msgid "The SMS gateway answered with the status %(status)s."
+msgstr "Pòtay SMS la reponn ak eta %(status)s."
+
+msgctxt "model:ir.message,text:msg_sms_url_scheme"
+msgid "The SMS gateway address \"%(url)s\" must start with http:// or https://."
+msgstr "Adrès pòtay SMS \"%(url)s\" la dwe kòmanse ak http:// oswa https://."
+
+msgctxt "model:ir.message,text:msg_template_name_unique"
+msgid "The name of the message template must be unique per hotel."
+msgstr "Non modèl mesaj la dwe inik pou chak otèl."
+
+msgctxt "model:ir.message,text:msg_template_no_subject"
+msgid "The e-mail template \"%(template)s\" needs a subject."
+msgstr "Modèl imèl \"%(template)s\" la bezwen yon sijè."
+
+msgctxt "model:ir.model.button,string:hotel_create_default_templates_button"
+msgid "Create Default Templates"
+msgstr "Kreye modèl default yo"
+
+msgctxt "model:ir.model.button,string:message_cancel_button"
+msgid "Cancel"
+msgstr "Anile"
+
+msgctxt "model:ir.model.button,string:message_retry_button"
+msgid "Retry"
+msgstr "Eseye ankò"
+
+msgctxt "model:ir.model.button,string:message_send_button"
+msgid "Send"
+msgstr "Voye"
+
+msgctxt "model:ir.model.button,string:reservation_send_precheckin_button"
+msgid "Send Pre-check-in"
+msgstr "Voye pre-anrejistreman"
+
+msgctxt "model:ir.rule.group,name:rule_group_message_companies"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.rule.group,name:rule_group_template_companies"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.ui.menu,name:menu_communication"
+msgid "Messages"
+msgstr "Mesaj yo"
+
+msgctxt "model:ir.ui.menu,name:menu_message"
+msgid "Messages"
+msgstr "Mesaj yo"
+
+msgctxt "model:ir.ui.menu,name:menu_template"
+msgid "Message Templates"
+msgstr "Modèl mesaj yo"
+
+msgctxt "selection:hotel.message,channel:"
+msgid "E-mail"
+msgstr "Imèl"
+
+msgctxt "selection:hotel.message,channel:"
+msgid "SMS"
+msgstr "SMS"
+
+msgctxt "selection:hotel.message,event:"
+msgid "Cancellation"
+msgstr "Anilasyon"
+
+msgctxt "selection:hotel.message,event:"
+msgid "Confirmation"
+msgstr "Konfimasyon"
+
+msgctxt "selection:hotel.message,event:"
+msgid "Custom"
+msgstr "Pèsonalize"
+
+msgctxt "selection:hotel.message,event:"
+msgid "Pre-arrival"
+msgstr "Anvan rive"
+
+msgctxt "selection:hotel.message,event:"
+msgid "Thank You"
+msgstr "Mèsi"
+
+msgctxt "selection:hotel.message,state:"
+msgid "Cancelled"
+msgstr "Anile"
+
+msgctxt "selection:hotel.message,state:"
+msgid "Failed"
+msgstr "Echwe"
+
+msgctxt "selection:hotel.message,state:"
+msgid "Queued"
+msgstr "Nan fil datant"
+
+msgctxt "selection:hotel.message,state:"
+msgid "Sent"
+msgstr "Voye"
+
+msgctxt "selection:hotel.message.template,channel:"
+msgid "E-mail"
+msgstr "Imèl"
+
+msgctxt "selection:hotel.message.template,channel:"
+msgid "SMS"
+msgstr "SMS"
+
+msgctxt "selection:hotel.message.template,event:"
+msgid "Cancellation"
+msgstr "Anilasyon"
+
+msgctxt "selection:hotel.message.template,event:"
+msgid "Confirmation"
+msgstr "Konfimasyon"
+
+msgctxt "selection:hotel.message.template,event:"
+msgid "Custom"
+msgstr "Pèsonalize"
+
+msgctxt "selection:hotel.message.template,event:"
+msgid "Pre-arrival"
+msgstr "Anvan rive"
+
+msgctxt "selection:hotel.message.template,event:"
+msgid "Thank You"
+msgstr "Mèsi"
+
+msgctxt "selection:ir.cron,method:"
+msgid "Queue Pre-arrival Messages"
+msgstr "Mete mesaj anvan rive yo nan fil datant"
+
+msgctxt "selection:ir.cron,method:"
+msgid "Send Hotel Messages"
+msgstr "Voye mesaj otèl yo"
+
+msgctxt "view:hotel.message.template:"
+msgid "Body"
+msgstr "Kò mesaj"
+
+msgctxt "view:hotel.message:"
+msgid "Body"
+msgstr "Kò mesaj"
+
+msgctxt "view:hotel.message:"
+msgid "Cancel"
+msgstr "Anile"
+
+msgctxt "view:hotel.message:"
+msgid "Error"
+msgstr "Erè"
+
+msgctxt "view:hotel.message:"
+msgid "Retry"
+msgstr "Eseye ankò"
+
+msgctxt "view:hotel.message:"
+msgid "Send"
+msgstr "Voye"
+
+msgctxt "view:hotel.reservation:"
+msgid "Messages"
+msgstr "Mesaj yo"

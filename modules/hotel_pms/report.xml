@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_pms module. -->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="report_start_view_form">
+            <field name="model">hotel_pms.report.start</field>
+            <field name="type">form</field>
+            <field name="name">report_start_form</field>
+        </record>
+
+        <menuitem icon="tryton-hotel-report" name="Reports" parent="hotel.menu_hotel"
+            id="menu_report" sequence="90"/>
+        <record model="ir.ui.menu-res.group" id="menu_report_group_hotel">
+            <field name="menu" ref="menu_report"/>
+            <field name="group" ref="hotel.group_hotel"/>
+        </record>
+
+        <record model="ir.action.report" id="report_arrivals">
+            <field name="name">Arrivals</field>
+            <field name="report_name">hotel_pms.report.arrivals</field>
+            <field name="report">hotel_pms/arrivals.fodt</field>
+        </record>
+        <record model="ir.action.wizard" id="wizard_print_arrivals">
+            <field name="name">Arrivals</field>
+            <field name="wiz_name">hotel_pms.report.print_arrivals</field>
+        </record>
+        <record model="ir.action-res.group" id="wizard_print_arrivals_group_hotel">
+            <field name="action" ref="wizard_print_arrivals"/>
+            <field name="group" ref="hotel.group_hotel"/>
+        </record>
+        <menuitem icon="tryton-hotel-arrival" name="Arrivals" parent="menu_report"
+            action="wizard_print_arrivals" id="menu_print_arrivals" sequence="10"/>
+
+        <record model="ir.action.report" id="report_departures">
+            <field name="name">Departures</field>
+            <field name="report_name">hotel_pms.report.departures</field>
+            <field name="report">hotel_pms/departures.fodt</field>
+        </record>
+        <record model="ir.action.wizard" id="wizard_print_departures">
+            <field name="name">Departures</field>
+            <field name="wiz_name">hotel_pms.report.print_departures</field>
+        </record>
+        <record model="ir.action-res.group" id="wizard_print_departures_group_hotel">
+            <field name="action" ref="wizard_print_departures"/>
+            <field name="group" ref="hotel.group_hotel"/>
+        </record>
+        <menuitem icon="tryton-hotel-departure" name="Departures" parent="menu_report"
+            action="wizard_print_departures" id="menu_print_departures" sequence="20"/>
+
+        <record model="ir.action.report" id="report_occupancy">
+            <field name="name">Occupancy Report</field>
+            <field name="report_name">hotel_pms.report.occupancy</field>
+            <field name="report">hotel_pms/occupancy.fodt</field>
+        </record>
+        <record model="ir.action.wizard" id="wizard_print_occupancy">
+            <field name="name">Occupancy Report</field>
+            <field name="wiz_name">hotel_pms.report.print_occupancy</field>
+        </record>
+        <record model="ir.action-res.group" id="wizard_print_occupancy_group_hotel">
+            <field name="action" ref="wizard_print_occupancy"/>
+            <field name="group" ref="hotel.group_hotel"/>
+        </record>
+        <menuitem icon="tryton-hotel-occupancy" name="Occupancy Report" parent="menu_report"
+            action="wizard_print_occupancy" id="menu_print_occupancy" sequence="30"/>
+
+        <record model="ir.action.report" id="report_revenue">
+            <field name="name">Revenue Report</field>
+            <field name="report_name">hotel_pms.report.revenue</field>
+            <field name="report">hotel_pms/revenue.fodt</field>
+        </record>
+        <record model="ir.action.wizard" id="wizard_print_revenue">
+            <field name="name">Revenue Report</field>
+            <field name="wiz_name">hotel_pms.report.print_revenue</field>
+        </record>
+        <record model="ir.action-res.group" id="wizard_print_revenue_group_hotel">
+            <field name="action" ref="wizard_print_revenue"/>
+            <field name="group" ref="hotel.group_hotel"/>
+        </record>
+        <menuitem icon="tryton-hotel-revenue" name="Revenue Report" parent="menu_report"
+            action="wizard_print_revenue" id="menu_print_revenue" sequence="40"/>
+
+        <record model="ir.action.report" id="report_folio">
+            <field name="name">Guest Folio</field>
+            <field name="model">hotel.reservation</field>
+            <field name="report_name">hotel.reservation.folio</field>
+            <field name="report">hotel_pms/folio.fodt</field>
+        </record>
+        <record model="ir.action.keyword" id="report_folio_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">hotel.reservation,-1</field>
+            <field name="action" ref="report_folio"/>
+        </record>
+    </data>
+</tryton>

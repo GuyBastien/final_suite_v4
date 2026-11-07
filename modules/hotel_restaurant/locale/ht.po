@@ -1,0 +1,149 @@
+#
+msgid ""
+msgstr ""
+"Language: ht\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgctxt "field:hotel.reservation,restaurant_orders:"
+msgid "Restaurant Orders"
+msgstr "Kòmand restoran"
+
+msgctxt "field:hotel.restaurant.booking,restaurant_reservation:"
+msgid "Restaurant Reservation"
+msgstr "Rezèvasyon restoran"
+
+msgctxt "field:hotel.restaurant.table,restaurant_table:"
+msgid "Restaurant Table"
+msgstr "Tab restoran"
+
+msgctxt "field:restaurant.order,hotel:"
+msgid "Hotel"
+msgstr "Otèl"
+
+msgctxt "field:restaurant.order,reservation:"
+msgid "Hotel Stay"
+msgstr "Sejou nan otèl"
+
+msgctxt "field:restaurant.payment,hotel_charge:"
+msgid "Room Charge"
+msgstr "Chaj sou chanm nan"
+
+msgctxt "field:restaurant.reservation,hotel_reservation:"
+msgid "Hotel Stay"
+msgstr "Sejou nan otèl"
+
+msgctxt "field:restaurant.restaurant,hotel:"
+msgid "Hotel"
+msgstr "Otèl"
+
+msgctxt "help:hotel.reservation,restaurant_orders:"
+msgid "Orders of the restaurant of the hotel for this stay."
+msgstr "Kòmand restoran otèl la pou sejou sa a."
+
+msgctxt "help:hotel.restaurant.booking,restaurant_reservation:"
+msgid "Reservation of the restaurant that replaces this one."
+msgstr "Rezèvasyon restoran an ki ranplase sa a."
+
+msgctxt "help:hotel.restaurant.table,restaurant_table:"
+msgid "Table of the restaurant that replaces this one."
+msgstr "Tab restoran an ki ranplase sa a."
+
+msgctxt "help:restaurant.order,reservation:"
+msgid "Checked-in stay of the guest. Needed to charge the order to the room."
+msgstr "Sejou kliyan an ki an kou. Nesesè pou mete kòmand lan sou chanm nan."
+
+msgctxt "help:restaurant.payment,hotel_charge:"
+msgid "Charge of the hotel stay created by this payment."
+msgstr "Chaj sejou otèl la peman sa a kreye."
+
+msgctxt "help:restaurant.reservation,hotel_reservation:"
+msgid ""
+"Stay of the hotel guest who books the table. The order of the table is then "
+"linked to the stay."
+msgstr ""
+"Sejou kliyan otèl la ki rezève tab la. Kòmand tab la ap lye ak sejou a."
+
+msgctxt "help:restaurant.restaurant,hotel:"
+msgid ""
+"Hotel to which this restaurant belongs. The guests of this hotel can charge "
+"their orders to their room."
+msgstr ""
+"Otèl restoran sa a ye pati de li. Kliyan otèl sa a ka mete kòmand yo sou "
+"chanm yo."
+
+msgctxt "model:ir.message,text:msg_area"
+msgid "Hotel"
+msgstr "Otèl"
+
+msgctxt "model:ir.message,text:msg_charge_billed"
+msgid ""
+"The room charge of order \"%(order)s\" is already billed with the stay and "
+"cannot be removed."
+msgstr ""
+"Chaj chanm kòmand « %(order)s » la deja kole nan faktè sejou a, yo pa ka "
+"efase li."
+
+msgctxt "model:ir.message,text:msg_charge_description"
+msgid "Restaurant - order %(order)s"
+msgstr "Restoran - kòmand %(order)s"
+
+msgctxt "model:ir.message,text:msg_no_hotel"
+msgid "Restaurant \"%(restaurant)s\" has no hotel. Choose the hotel first."
+msgstr "Restoran « %(restaurant)s » la pa gen otèl. Chwazi otèl la anvan."
+
+msgctxt "model:ir.message,text:msg_no_room_product"
+msgid ""
+"Hotel \"%(hotel)s\" has no Room Charge Product. Set it to bill the "
+"restaurant to the room."
+msgstr ""
+"Otèl « %(hotel)s » la pa gen atik chaj chanm. Mete youn pou kapab fakture "
+"restoran an sou chanm nan."
+
+msgctxt "model:ir.message,text:msg_other_hotel"
+msgid ""
+"Order \"%(order)s\" cannot be linked to a stay of another hotel than "
+"\"%(hotel)s\"."
+msgstr ""
+"Kòmand « %(order)s » la pa ka lye ak yon sejou yon lòt otèl ki pa « "
+"%(hotel)s »."
+
+msgctxt "model:ir.message,text:msg_room_locked"
+msgid ""
+"The room charge of order \"%(order)s\" cannot be changed. Delete it and "
+"enter it again."
+msgstr ""
+"Pa ka chanje chaj chanm kòmand « %(order)s » la. Efase l epi antre l ankò."
+
+msgctxt "model:ir.message,text:msg_room_no_stay"
+msgid ""
+"Order \"%(order)s\" can only be charged to the room of a checked-in stay. "
+"Choose the hotel stay first."
+msgstr ""
+"Kòmand « %(order)s » la ka mete sou chanm sèlman si sejou a an kou. Chwazi "
+"sejou otèl la anvan."
+
+msgctxt "model:ir.model.button,string:restaurant_import_hotel_bookings_button"
+msgid "Import Hotel Table Bookings"
+msgstr "Enpòte rezèvasyon tab otèl la"
+
+msgctxt "model:ir.ui.menu,name:menu_restaurant_reservation"
+msgid "Restaurant Reservations"
+msgstr "Rezèvasyon restoran"
+
+msgctxt "selection:restaurant.payment,method:"
+msgid "Room Charge"
+msgstr "Chaj sou chanm nan"
+
+msgctxt "view:hotel.reservation:"
+msgid "Restaurant"
+msgstr "Restoran"
+
+msgctxt "model:ir.message,text:msg_open_order_checkout"
+msgid ""
+"Order \"%(order)s\" of stay \"%(reservation)s\" still has a balance due. "
+"Charge it to the room or settle it before the check-out."
+msgstr ""
+"Kòmand \"%(order)s\" sejou \"%(reservation)s\" la gen yon rès pou peye "
+"toujou. Mete l sou chanm nan oswa peye l anvan kliyan an pati."

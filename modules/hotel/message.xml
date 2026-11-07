@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<tryton>
+    <data grouped="1">
+        <record model="ir.message" id="msg_hotel_code_unique">
+            <field name="text">The code of the hotel must be unique per company.</field>
+        </record>
+        <record model="ir.message" id="msg_room_type_code_unique">
+            <field name="text">The code of the room type must be unique per hotel.</field>
+        </record>
+        <record model="ir.message" id="msg_room_type_no_rate">
+            <field name="text">No rate is defined for room type "%(room_type)s" on %(date)s.</field>
+        </record>
+        <record model="ir.message" id="msg_room_type_article_unique">
+            <field name="text">A product can be set only once per room type.</field>
+        </record>
+        <record model="ir.message" id="msg_room_name_unique">
+            <field name="text">The room number must be unique per hotel.</field>
+        </record>
+        <record model="ir.message" id="msg_rate_invalid_period">
+            <field name="text">The end of the stay must be after its start.</field>
+        </record>
+        <record model="ir.message" id="msg_rate_no_hour_price">
+            <field name="text">The rate "%(rate)s" has no hour price.</field>
+        </record>
+        <record model="ir.message" id="msg_consumption_delete_done">
+            <field name="text">You cannot delete the done operation "%(consumption)s".</field>
+        </record>
+        <record model="ir.message" id="msg_consumption_no_room_location">
+            <field name="text">The operation "%(consumption)s" needs a room with a stock location.</field>
+        </record>
+        <record model="ir.message" id="msg_consumption_no_lines">
+            <field name="text">The operation "%(consumption)s" has no lines to process.</field>
+        </record>
+    </data>
+</tryton>

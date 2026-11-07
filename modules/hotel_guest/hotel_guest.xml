@@ -1,0 +1,389 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_guest module. -->
+<tryton>
+    <data>
+        <menuitem icon="tryton-hotel-frontdesk" name="Guests"
+            parent="hotel.menu_hotel" id="menu_guests" sequence="11"/>
+        <record model="ir.ui.menu-res.group" id="menu_guests_group_hotel">
+            <field name="menu" ref="menu_guests"/>
+            <field name="group" ref="hotel.group_hotel"/>
+        </record>
+        <record model="ir.ui.view" id="loyalty_program_view_form">
+            <field name="model">hotel.loyalty.program</field>
+            <field name="type">form</field>
+            <field name="name">loyalty_program_form</field>
+        </record>
+        <record model="ir.ui.view" id="loyalty_program_view_list">
+            <field name="model">hotel.loyalty.program</field>
+            <field name="type">tree</field>
+            <field name="name">loyalty_program_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_loyalty_program">
+            <field name="name">Loyalty Program</field>
+            <field name="res_model">hotel.loyalty.program</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_loyalty_program_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="loyalty_program_view_list"/>
+            <field name="act_window" ref="act_loyalty_program"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_loyalty_program_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="loyalty_program_view_form"/>
+            <field name="act_window" ref="act_loyalty_program"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_loyalty_program_domain1">
+            <field name="name">All</field>
+            <field name="sequence" eval="9999"/>
+            <field name="domain" eval="[]" pyson="1"/>
+            <field name="act_window" ref="act_loyalty_program"/>
+        </record>
+        <menuitem icon="tryton-hotel-revenue" parent="hotel.menu_configuration" action="act_loyalty_program" id="menu_loyalty_program" sequence="40"/>
+        <record model="ir.model.access" id="access_loyalty_program_default">
+            <field name="model" search="[('model', '=', 'hotel.loyalty.program')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_loyalty_program_hotel">
+            <field name="model" search="[('model', '=', 'hotel.loyalty.program')]"/>
+            <field name="group" ref="hotel.group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_loyalty_program_admin">
+            <field name="model" search="[('model', '=', 'hotel.loyalty.program')]"/>
+            <field name="group" ref="hotel.group_hotel_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_loyalty_program_companies">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'hotel.loyalty.program')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_loyalty_program_companies">
+            <field name="domain" eval="[('company', 'in', Eval('companies', []))]" pyson="1"/>
+            <field name="rule_group" ref="rule_group_loyalty_program_companies"/>
+        </record>
+        <record model="ir.ui.view" id="loyalty_entry_view_form">
+            <field name="model">hotel.loyalty.entry</field>
+            <field name="type">form</field>
+            <field name="name">loyalty_entry_form</field>
+        </record>
+        <record model="ir.ui.view" id="loyalty_entry_view_list">
+            <field name="model">hotel.loyalty.entry</field>
+            <field name="type">tree</field>
+            <field name="name">loyalty_entry_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_loyalty_entry">
+            <field name="name">Loyalty Entries</field>
+            <field name="res_model">hotel.loyalty.entry</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_loyalty_entry_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="loyalty_entry_view_list"/>
+            <field name="act_window" ref="act_loyalty_entry"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_loyalty_entry_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="loyalty_entry_view_form"/>
+            <field name="act_window" ref="act_loyalty_entry"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_loyalty_entry_domain1">
+            <field name="name">Earned</field>
+            <field name="sequence" eval="10"/>
+            <field name="domain" eval="[('kind', '=', 'earn')]" pyson="1"/>
+            <field name="act_window" ref="act_loyalty_entry"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_loyalty_entry_domain2">
+            <field name="name">All</field>
+            <field name="sequence" eval="9999"/>
+            <field name="domain" eval="[]" pyson="1"/>
+            <field name="act_window" ref="act_loyalty_entry"/>
+        </record>
+        <menuitem icon="tryton-hotel-revenue" parent="menu_guests" action="act_loyalty_entry" id="menu_loyalty_entry" sequence="40"/>
+        <record model="ir.model.access" id="access_loyalty_entry_default">
+            <field name="model" search="[('model', '=', 'hotel.loyalty.entry')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_loyalty_entry_hotel">
+            <field name="model" search="[('model', '=', 'hotel.loyalty.entry')]"/>
+            <field name="group" ref="hotel.group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_loyalty_entry_admin">
+            <field name="model" search="[('model', '=', 'hotel.loyalty.entry')]"/>
+            <field name="group" ref="hotel.group_hotel_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_loyalty_entry_companies">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'hotel.loyalty.entry')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_loyalty_entry_companies">
+            <field name="domain" eval="[('company', 'in', Eval('companies', []))]" pyson="1"/>
+            <field name="rule_group" ref="rule_group_loyalty_entry_companies"/>
+        </record>
+        <record model="ir.ui.view" id="registration_view_form">
+            <field name="model">hotel.guest.registration</field>
+            <field name="type">form</field>
+            <field name="name">registration_form</field>
+        </record>
+        <record model="ir.ui.view" id="registration_view_list">
+            <field name="model">hotel.guest.registration</field>
+            <field name="type">tree</field>
+            <field name="name">registration_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_registration">
+            <field name="name">Guest Registrations</field>
+            <field name="res_model">hotel.guest.registration</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_registration_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="registration_view_list"/>
+            <field name="act_window" ref="act_registration"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_registration_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="registration_view_form"/>
+            <field name="act_window" ref="act_registration"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_registration_domain1">
+            <field name="name">All</field>
+            <field name="sequence" eval="9999"/>
+            <field name="domain" eval="[]" pyson="1"/>
+            <field name="act_window" ref="act_registration"/>
+        </record>
+        <menuitem icon="tryton-hotel-reservation" parent="menu_guests" action="act_registration" id="menu_registration" sequence="20"/>
+        <record model="ir.model.access" id="access_registration_default">
+            <field name="model" search="[('model', '=', 'hotel.guest.registration')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_registration_hotel">
+            <field name="model" search="[('model', '=', 'hotel.guest.registration')]"/>
+            <field name="group" ref="hotel.group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_registration_admin">
+            <field name="model" search="[('model', '=', 'hotel.guest.registration')]"/>
+            <field name="group" ref="hotel.group_hotel_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_registration_companies">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'hotel.guest.registration')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_registration_companies">
+            <field name="domain" eval="[('company', 'in', Eval('companies', []))]" pyson="1"/>
+            <field name="rule_group" ref="rule_group_registration_companies"/>
+        </record>
+        <record model="ir.ui.view" id="keycard_view_form">
+            <field name="model">hotel.keycard</field>
+            <field name="type">form</field>
+            <field name="name">keycard_form</field>
+        </record>
+        <record model="ir.ui.view" id="keycard_view_list">
+            <field name="model">hotel.keycard</field>
+            <field name="type">tree</field>
+            <field name="name">keycard_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_keycard">
+            <field name="name">Key Cards</field>
+            <field name="res_model">hotel.keycard</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_keycard_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="keycard_view_list"/>
+            <field name="act_window" ref="act_keycard"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_keycard_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="keycard_view_form"/>
+            <field name="act_window" ref="act_keycard"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_keycard_domain1">
+            <field name="name">Issued</field>
+            <field name="sequence" eval="10"/>
+            <field name="domain" eval="[('state', '=', 'issued')]" pyson="1"/>
+            <field name="act_window" ref="act_keycard"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_keycard_domain2">
+            <field name="name">All</field>
+            <field name="sequence" eval="9999"/>
+            <field name="domain" eval="[]" pyson="1"/>
+            <field name="act_window" ref="act_keycard"/>
+        </record>
+        <menuitem icon="tryton-hotel-room" parent="menu_guests" action="act_keycard" id="menu_keycard" sequence="30"/>
+        <record model="ir.model.access" id="access_keycard_default">
+            <field name="model" search="[('model', '=', 'hotel.keycard')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_keycard_hotel">
+            <field name="model" search="[('model', '=', 'hotel.keycard')]"/>
+            <field name="group" ref="hotel.group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_keycard_admin">
+            <field name="model" search="[('model', '=', 'hotel.keycard')]"/>
+            <field name="group" ref="hotel.group_hotel_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_keycard_companies">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'hotel.keycard')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_keycard_companies">
+            <field name="domain" eval="[('company', 'in', Eval('companies', []))]" pyson="1"/>
+            <field name="rule_group" ref="rule_group_keycard_companies"/>
+        </record>
+        <record model="ir.model.button" id="keycard_issue_button">
+            <field name="model" search="[('model', '=', 'hotel.keycard')]"/>
+            <field name="name">issue</field>
+            <field name="string">Issue</field>
+        </record>
+        <record model="ir.model.button-res.group" id="keycard_issue_button_group_hotel">
+            <field name="button" ref="keycard_issue_button"/>
+            <field name="group" ref="hotel.group_hotel"/>
+        </record>
+        <record model="ir.model.button" id="keycard_revoke_button">
+            <field name="model" search="[('model', '=', 'hotel.keycard')]"/>
+            <field name="name">revoke</field>
+            <field name="string">Revoke</field>
+        </record>
+        <record model="ir.model.button-res.group" id="keycard_revoke_button_group_hotel">
+            <field name="button" ref="keycard_revoke_button"/>
+            <field name="group" ref="hotel.group_hotel"/>
+        </record>
+        <record model="ir.model.button" id="keycard_give_back_button">
+            <field name="model" search="[('model', '=', 'hotel.keycard')]"/>
+            <field name="name">give_back</field>
+            <field name="string">Returned</field>
+        </record>
+        <record model="ir.model.button-res.group" id="keycard_give_back_button_group_hotel">
+            <field name="button" ref="keycard_give_back_button"/>
+            <field name="group" ref="hotel.group_hotel"/>
+        </record>
+
+
+        <!-- Guests (parties) -->
+        <record model="ir.action.act_window" id="act_guest">
+            <field name="name">Guests</field>
+            <field name="res_model">party.party</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_guest_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="party.party_view_tree"/>
+            <field name="act_window" ref="act_guest"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_guest_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="party.party_view_form"/>
+            <field name="act_window" ref="act_guest"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_guest_domain1">
+            <field name="name">VIP</field>
+            <field name="sequence" eval="10"/>
+            <field name="domain" eval="[('vip', '=', True)]" pyson="1"/>
+            <field name="act_window" ref="act_guest"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_guest_domain2">
+            <field name="name">Blacklisted</field>
+            <field name="sequence" eval="20"/>
+            <field name="domain" eval="[('blacklisted', '=', True)]" pyson="1"/>
+            <field name="act_window" ref="act_guest"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_guest_domain3">
+            <field name="name">Persons</field>
+            <field name="sequence" eval="30"/>
+            <field name="domain" eval="[('is_person', '=', True)]" pyson="1"/>
+            <field name="act_window" ref="act_guest"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_guest_domain4">
+            <field name="name">All</field>
+            <field name="sequence" eval="9999"/>
+            <field name="domain" eval="[]" pyson="1"/>
+            <field name="act_window" ref="act_guest"/>
+        </record>
+        <menuitem icon="tryton-hotel-frontdesk" parent="menu_guests"
+            action="act_guest" id="menu_guest" sequence="10"/>
+
+        <record model="ir.ui.view" id="party_view_form">
+            <field name="model">party.party</field>
+            <field name="inherit" ref="party.party_view_form"/>
+            <field name="name">party_form</field>
+        </record>
+        <record model="ir.ui.view" id="party_view_tree">
+            <field name="model">party.party</field>
+            <field name="inherit" ref="party.party_view_tree"/>
+            <field name="name">party_list</field>
+        </record>
+        <record model="ir.ui.view" id="hotel_view_form">
+            <field name="model">hotel.hotel</field>
+            <field name="inherit" ref="hotel.hotel_view_form"/>
+            <field name="name">hotel_form</field>
+        </record>
+        <record model="ir.ui.view" id="reservation_view_form">
+            <field name="model">hotel.reservation</field>
+            <field name="inherit" ref="hotel_pms.reservation_view_form"/>
+            <field name="name">reservation_form</field>
+        </record>
+        <record model="ir.ui.view" id="registration_view_list_inline">
+            <field name="model">hotel.guest.registration</field>
+            <field name="type">tree</field>
+            <field name="name">registration_list_inline</field>
+        </record>
+        <record model="ir.ui.view" id="keycard_view_list_inline">
+            <field name="model">hotel.keycard</field>
+            <field name="type">tree</field>
+            <field name="name">keycard_list_inline</field>
+        </record>
+
+        <record model="ir.model.button" id="party_anonymize_button">
+            <field name="model" search="[('model', '=', 'party.party')]"/>
+            <field name="name">anonymize</field>
+            <field name="string">Anonymize (GDPR)</field>
+            <field name="confirm">This erases the personal data of the guest. Continue?</field>
+        </record>
+        <record model="ir.model.button-res.group" id="party_anonymize_button_group_admin">
+            <field name="button" ref="party_anonymize_button"/>
+            <field name="group" ref="hotel.group_hotel_admin"/>
+        </record>
+
+    </data>
+</tryton>

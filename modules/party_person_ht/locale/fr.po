@@ -1,0 +1,62 @@
+#
+msgid ""
+msgstr ""
+"Language: fr\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:party.party,first_name:"
+msgid "First Name"
+msgstr "Prénom"
+
+msgctxt "field:party.party,is_person:"
+msgid "Person"
+msgstr "Personne"
+
+msgctxt "help:party.party,first_name:"
+msgid ""
+"First name of the natural person. The field Name holds the family name."
+msgstr ""
+"Prénom de la personne physique. Le champ Nom contient le nom de famille."
+
+msgctxt "help:party.party,is_person:"
+msgid ""
+"Check if the party is a natural person: the first name is then available."
+msgstr ""
+"Cochez si le tiers est une personne physique : le prénom est alors "
+"disponible."
+
+msgctxt "model:ir.lang,name:lang_ht"
+msgid "Haitian Creole"
+msgstr "Créole haïtien"
+
+msgctxt "model:ir.message,text:msg_invalid_code_nif"
+msgid ""
+"The NIF \"%(code)s\" of party \"%(party)s\" is invalid: it must have 10 "
+"digits (000-000-000-0)."
+msgstr ""
+"Le NIF « %(code)s » du tiers « %(party)s » est invalide : il doit avoir 10 "
+"chiffres (000-000-000-0)."
+
+msgctxt "model:ir.message,text:msg_invalid_code_ninu"
+msgid ""
+"The NINU number \"%(code)s\" of party \"%(party)s\" is invalid: it must "
+"contain 10 to 17 digits."
+msgstr ""
+"Le numéro NINU « %(code)s » du tiers « %(party)s » est invalide : il doit "
+"contenir 10 à 17 chiffres."
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Arrondissement"
+msgstr "Arrondissement"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Communal Section"
+msgstr "Section communale"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Haitian Tax Identification Number (NIF)"
+msgstr "Numéro d'Identification Fiscale haïtien (NIF)"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Haitian Unique National Identification Number (NINU)"
+msgstr "Numéro d'Identification Nationale Unique haïtien (NINU)"

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_services module. -->
+<tryton>
+    <data>
+        <record model="ir.ui.icon" id="icon_hotel_service">
+            <field name="name">tryton-hotel-service</field>
+            <field name="path">icons/tryton-hotel-service.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_hotel_restaurant">
+            <field name="name">tryton-hotel-restaurant</field>
+            <field name="path">icons/tryton-hotel-restaurant.svg</field>
+        </record>
+    </data>
+</tryton>

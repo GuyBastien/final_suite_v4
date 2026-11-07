@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton sale_point_quick module. -->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="point_view_form">
+            <field name="model">sale.point</field>
+            <field name="inherit" ref="sale_point.point_view_form"/>
+            <field name="name">point_form</field>
+        </record>
+        <record model="ir.ui.view" id="template_view_form">
+            <field name="model">product.template</field>
+            <field name="inherit" ref="sale_point.template_view_form"/>
+            <field name="name">template_form</field>
+        </record>
+        <record model="ir.ui.view" id="sale_view_form">
+            <field name="model">sale.point.sale</field>
+            <field name="inherit" ref="sale_point.sale_view_form"/>
+            <field name="name">sale_form</field>
+        </record>
+        <record model="ir.model.button" id="sale_pay_cash_button">
+            <field name="model" search="[('model', '=', 'sale.point.sale')]"/>
+            <field name="name">pay_cash</field>
+            <field name="string">Pay in Cash</field>
+        </record>
+        <record model="ir.model.button" id="sale_pay_card_button">
+            <field name="model" search="[('model', '=', 'sale.point.sale')]"/>
+            <field name="name">pay_card</field>
+            <field name="string">Pay by Card</field>
+        </record>
+    </data>
+</tryton>

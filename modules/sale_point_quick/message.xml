@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton sale_point_quick module. -->
+<tryton>
+    <data grouped="1">
+        <record model="ir.message" id="msg_unknown_code">
+            <field name="text">No salable product has the code "%(code)s".</field>
+        </record>
+        <record model="ir.message" id="msg_sale_empty">
+            <field name="text">Sale "%(sale)s" has no line to pay.</field>
+        </record>
+        <record model="ir.message" id="msg_no_cash_method">
+            <field name="text">Company "%(company)s" has no cash payment method.</field>
+        </record>
+        <record model="ir.message" id="msg_no_card_method">
+            <field name="text">Point of sale "%(point)s" has no card payment method.</field>
+        </record>
+    </data>
+</tryton>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_housekeeping module. -->
+<tryton>
+    <data grouped="1">
+        <record model="ir.message" id="msg_task_room_hotel">
+            <field name="text">The room "%(room)s" of the task "%(task)s" does not belong to its hotel.</field>
+        </record>
+        <record model="ir.message" id="msg_task_delete_state">
+            <field name="text">You cannot delete the task "%(task)s" because it is started or done.</field>
+        </record>
+        <record model="ir.message" id="msg_task_checklist_incomplete">
+            <field name="text">Complete the required checklist items of the task "%(task)s" first.</field>
+        </record>
+        <record model="ir.message" id="msg_issue_resolution_required">
+            <field name="text">Describe the resolution of the issue "%(issue)s" before resolving it.</field>
+        </record>
+        <record model="ir.message" id="msg_hk_issue_title">
+            <field name="text">Issue in room %(room)s</field>
+        </record>
+        <record model="ir.message" id="msg_hk_issue">
+            <field name="text">%(severity)s issue: %(description)s</field>
+        </record>
+        <record model="ir.message" id="msg_hk_task_late_title">
+            <field name="text">Housekeeping late: room %(room)s</field>
+        </record>
+        <record model="ir.message" id="msg_hk_task_late">
+            <field name="text">The task "%(task)s" planned on %(date)s is not finished.</field>
+        </record>
+    </data>
+</tryton>

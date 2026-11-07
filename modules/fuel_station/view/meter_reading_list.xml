@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton fuel_station module. -->
+<tree>
+    <field name="station"/>
+    <field name="nozzle"/>
+    <field name="index"/>
+    <field name="source"/>
+    <!-- <field name="timestamp"/> -->
+</tree>

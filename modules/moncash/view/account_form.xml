@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton moncash module. -->
+<data>
+    <xpath expr="/form/group[@id='credentials']" position="inside">
+        <label name="moncash_client_id"/>
+        <field name="moncash_client_id"/>
+        <label name="moncash_client_secret"/>
+        <field name="moncash_client_secret" widget="password"/>
+    </xpath>
+</data>

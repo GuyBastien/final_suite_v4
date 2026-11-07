@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_maintenance module. -->
+<tree>
+    <field name="product"/>
+    <field name="unit"/>
+    <field name="qty_sent"/>
+    <field name="qty_returned"/>
+    <field name="lost"/>
+</tree>

@@ -1,0 +1,73 @@
+#
+msgid ""
+msgstr ""
+"Language: fr\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:mobile.payment.account,moncash_client_id:"
+msgid "MonCash Client ID"
+msgstr "Client ID MonCash"
+
+msgctxt "field:mobile.payment.account,moncash_client_secret:"
+msgid "MonCash Secret Key"
+msgstr "Clé secrète MonCash"
+
+msgctxt "help:mobile.payment.account,moncash_client_id:"
+msgid ""
+"Client ID of the application created in the MonCash Business portal (sandbox"
+" or live, matching the Sandbox box)."
+msgstr ""
+"Client ID de l'application créée dans le portail MonCash Business (test ou "
+"réel, selon la case Bac à sable)."
+
+msgctxt "help:mobile.payment.account,moncash_client_secret:"
+msgid ""
+"Secret key of the application. Only the administrators of mobile payments "
+"can read it."
+msgstr ""
+"Clé secrète de l'application. Seuls les administrateurs des paiements "
+"mobiles peuvent la lire."
+
+msgctxt "model:ir.message,text:msg_auth_failed"
+msgid ""
+"MonCash refused the credentials (HTTP %(status)s). Check the Client ID, the "
+"Secret Key and the Sandbox box."
+msgstr ""
+"MonCash a refusé les identifiants (HTTP %(status)s). Vérifiez le Client ID, "
+"la clé secrète et la case Bac à sable."
+
+msgctxt "model:ir.message,text:msg_check_failed"
+msgid ""
+"MonCash could not verify the payment (HTTP %(status)s). Try again in a "
+"moment."
+msgstr ""
+"MonCash n'a pas pu vérifier le paiement (HTTP %(status)s). Réessayez dans un"
+" instant."
+
+msgctxt "model:ir.message,text:msg_create_failed"
+msgid "MonCash did not create the payment (HTTP %(status)s): %(detail)s"
+msgstr "MonCash n'a pas créé le paiement (HTTP %(status)s) : %(detail)s"
+
+msgctxt "model:ir.message,text:msg_currency"
+msgid ""
+"MonCash only accepts gourdes (HTG). The currency of the ticket is "
+"%(currency)s."
+msgstr ""
+"MonCash n'accepte que les gourdes (HTG). La devise du ticket est "
+"%(currency)s."
+
+msgctxt "model:ir.message,text:msg_mode_live"
+msgid "live"
+msgstr "réel"
+
+msgctxt "model:ir.message,text:msg_mode_sandbox"
+msgid "sandbox"
+msgstr "test"
+
+msgctxt "model:ir.message,text:msg_test_ok"
+msgid "MonCash accepted the credentials (%(mode)s mode)."
+msgstr "MonCash a accepté les identifiants (mode %(mode)s)."
+
+msgctxt "model:ir.message,text:msg_waiting"
+msgid "Waiting for the customer on MonCash."
+msgstr "En attente du client sur MonCash."

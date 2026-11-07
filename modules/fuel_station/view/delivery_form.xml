@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton fuel_station module. -->
+<form col="6">
+    <group col="6" colspan="6" id="header">
+        <label name="number"/>
+        <field name="number"/>
+        <label name="station"/>
+        <field name="station"/>
+        <label name="date"/>
+        <field name="date"/>
+        <label name="supplier"/>
+        <field name="supplier"/>
+        <label name="reference"/>
+        <field name="reference"/>
+        <label name="state"/>
+        <field name="state"/>
+    </group>
+    <notebook colspan="6">
+        <page string="Tanks Unloaded" id="lines">
+            <field name="lines" colspan="4"/>
+            <label name="total_quantity"/>
+            <field name="total_quantity"/>
+        </page>
+        <page string="Transport" id="transport">
+            <label name="company"/>
+            <field name="company"/>
+            <label name="driver"/>
+            <field name="driver"/>
+            <field name="notes" colspan="4"/>
+        </page>
+    </notebook>
+    <group col="-1" colspan="6" id="buttons">
+        <button name="cancel" icon="tryton-cancel"/>
+        <button name="draft" icon="tryton-back"/>
+        <button name="receive" icon="tryton-ok"/>
+    </group>
+</form>

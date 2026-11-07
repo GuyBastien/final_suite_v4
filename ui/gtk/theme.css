@@ -1,0 +1,13 @@
+/* final_suite — thème client desktop (GTK) — Auteur : Pierre Michel Augustin — AGPLv3
+   Installation : copier vers  ~/.config/tryton/7.0/theme.css
+                  Windows : %APPDATA%\.config\tryton\7.0\theme.css */
+label.required { font-weight: 700; }
+label.warning { color: #b7791f; }
+entry:focus, textview:focus text, combobox:focus entry {
+  border-color: #1f6feb; box-shadow: 0 0 0 2px rgba(31,111,235,.25);
+}
+.invalid entry, entry.invalid, .invalid text, text.invalid { border-color: #c62828; }
+.window-title, .wizard-title { font-size: large; font-weight: 700; }
+notebook > header.top > tabs > tab:checked { border-bottom: 3px solid #1f6feb; font-weight: 700; }
+button.suggested-action { font-weight: 600; }
+treeview:selected, treeview:selected:focus { background-color: #1f6feb; color: #fff; }

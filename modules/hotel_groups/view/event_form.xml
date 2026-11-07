@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_groups module. -->
+<form>
+    <label name="name"/>
+    <field name="name"/>
+    <label name="space"/>
+    <field name="space"/>
+    <label name="group"/>
+    <field name="group"/>
+    <label name="attendees"/>
+    <field name="attendees"/>
+    <label name="start"/>
+    <field name="start"/>
+    <label name="end"/>
+    <field name="end"/>
+    <label name="reservation"/>
+    <field name="reservation"/>
+    <label name="charge"/>
+    <field name="charge"/>
+    <separator name="notes" colspan="4"/>
+    <field name="notes" colspan="4"/>
+    <label name="state"/>
+    <field name="state"/>
+    <group col="4" colspan="4" id="buttons">
+        <button name="cancel" icon="tryton-cancel"/>
+        <button icon="tryton-undo" name="draft"/>
+        <button name="confirm" icon="tryton-ok"/>
+        <button name="bill" icon="tryton-hotel-revenue"/>
+    </group>
+</form>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel module. -->
+<form>
+    <label name="consumption"/>
+    <field name="consumption"/>
+    <label name="product"/>
+    <field name="product"/>
+    <label name="quantity"/>
+    <field name="quantity"/>
+    <label name="unit"/>
+    <field name="unit"/>
+    <label name="billable"/>
+    <field name="billable"/>
+    <label name="unit_price"/>
+    <field name="unit_price"/>
+    <label name="move"/>
+    <field name="move"/>
+</form>

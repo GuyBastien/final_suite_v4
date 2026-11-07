@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton fuel_station module. -->
+<tryton>
+    <data>
+        <record model="res.group" id="group_fuel_manager">
+            <field name="name">Fuel Authorization Manager</field>
+            <field name="parent" ref="group_fuel"/>
+        </record>
+        <record model="res.group" id="group_fuel_middleware">
+            <field name="name">Fuel Middleware</field>
+            <field name="parent" ref="group_fuel"/>
+        </record>
+        <record model="res.user-res.group" id="user_admin_group_fuel_manager">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_fuel_manager"/>
+        </record>
+        <record model="ir.sequence.type" id="sequence_type_authorization">
+            <field name="name">Fuel Authorization</field>
+        </record>
+        <record model="ir.sequence.type-res.group" id="sequence_type_authorization_group_admin">
+            <field name="sequence_type" ref="sequence_type_authorization"/>
+            <field name="group" ref="res.group_admin"/>
+        </record>
+        <record model="ir.sequence.type-res.group" id="sequence_type_authorization_group_fuel">
+            <field name="sequence_type" ref="sequence_type_authorization"/>
+            <field name="group" ref="group_fuel"/>
+        </record>
+        <record model="ir.sequence" id="sequence_authorization">
+            <field name="name">Fuel Authorization</field>
+            <field name="sequence_type" ref="sequence_type_authorization"/>
+            <field name="prefix">AU/</field>
+        </record>
+        <record model="ir.ui.view" id="authorization_view_form">
+            <field name="model">fuel.authorization</field>
+            <field name="type">form</field>
+            <field name="name">authorization_form</field>
+        </record>
+        <record model="ir.ui.view" id="authorization_view_list">
+            <field name="model">fuel.authorization</field>
+            <field name="type">tree</field>
+            <field name="name">authorization_list</field>
+        </record>
+        <record model="ir.ui.view" id="authorization_log_view_form">
+            <field name="model">fuel.authorization.log</field>
+            <field name="type">form</field>
+            <field name="name">authorization_log_form</field>
+        </record>
+        <record model="ir.ui.view" id="authorization_log_view_list">
+            <field name="model">fuel.authorization.log</field>
+            <field name="type">tree</field>
+            <field name="name">authorization_log_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_authorization">
+            <field name="name">Authorizations</field>
+            <field name="res_model">fuel.authorization</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_authorization_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="authorization_view_list"/>
+            <field name="act_window" ref="act_authorization"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_authorization_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="authorization_view_form"/>
+            <field name="act_window" ref="act_authorization"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_authorization_domain_0">
+            <field name="name">Pending</field>
+            <field name="sequence" eval="10"/>
+            <field name="domain" eval="[('state', '=', 'pending')]" pyson="1"></field>
+            <field name="act_window" ref="act_authorization"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_authorization_domain_1">
+            <field name="name">In Progress</field>
+            <field name="sequence" eval="20"/>
+            <field name="domain" eval="[('state', 'in', ['approved', 'transmitted', 'confirmed', 'cancel_requested'])]" pyson="1"></field>
+            <field name="act_window" ref="act_authorization"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_authorization_domain_2">
+            <field name="name">Discrepancies</field>
+            <field name="sequence" eval="30"/>
+            <field name="domain" eval="[('state', '=', 'discrepancy')]" pyson="1"></field>
+            <field name="act_window" ref="act_authorization"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_authorization_domain_3">
+            <field name="name">All</field>
+            <field name="sequence" eval="40"/>
+            <field name="domain" eval="[]" pyson="1"></field>
+            <field name="act_window" ref="act_authorization"/>
+        </record>
+        <menuitem icon="tryton-fuel-pump" name="Dispensing Authorizations" parent="menu_operations" id="menu_authorization" sequence="5" action="act_authorization"/>
+        <record model="ir.action.act_window" id="act_authorization_pending">
+            <field name="name">Authorizations to Approve</field>
+            <field name="res_model">fuel.authorization</field>
+            <field name="domain" eval="[('state', '=', 'pending')]" pyson="1"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_authorization_pending_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="authorization_view_list"/>
+            <field name="act_window" ref="act_authorization_pending"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_authorization_pending_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="authorization_view_form"/>
+            <field name="act_window" ref="act_authorization_pending"/>
+        </record>
+        <menuitem icon="tryton-fuel-shift" name="Authorizations to Approve" parent="menu_operations" id="menu_authorization_pending" sequence="6" action="act_authorization_pending"/>
+        <record model="ir.model.access" id="access_authorization">
+            <field name="model" search="[('model', '=', 'fuel.authorization')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_authorization_user">
+            <field name="model" search="[('model', '=', 'fuel.authorization')]"/>
+            <field name="group" ref="group_fuel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_authorization_admin">
+            <field name="model" search="[('model', '=', 'fuel.authorization')]"/>
+            <field name="group" ref="group_fuel_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_authorization_log">
+            <field name="model" search="[('model', '=', 'fuel.authorization.log')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_authorization_log_user">
+            <field name="model" search="[('model', '=', 'fuel.authorization.log')]"/>
+            <field name="group" ref="group_fuel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_authorization_log_admin">
+            <field name="model" search="[('model', '=', 'fuel.authorization.log')]"/>
+            <field name="group" ref="group_fuel_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_authorization">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'fuel.authorization')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_authorization">
+            <field name="domain"
+                eval="[('company', 'in', Eval('companies', []))]"
+                pyson="1"/>
+            <field name="rule_group" ref="rule_group_authorization"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_authorization_log">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'fuel.authorization.log')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_authorization_log">
+            <field name="domain"
+                eval="[('authorization.company', 'in', Eval('companies', []))]"
+                pyson="1"/>
+            <field name="rule_group" ref="rule_group_authorization_log"/>
+        </record>
+        <record model="ir.model.button" id="authorization_approve_button">
+            <field name="model" search="[('model', '=', 'fuel.authorization')]"/>
+            <field name="name">approve</field>
+            <field name="string">Approve</field>
+        </record>
+        <record model="ir.model.button" id="authorization_reject_button">
+            <field name="model" search="[('model', '=', 'fuel.authorization')]"/>
+            <field name="name">reject</field>
+            <field name="string">Reject</field>
+        </record>
+        <record model="ir.model.button" id="authorization_cancel_button">
+            <field name="model" search="[('model', '=', 'fuel.authorization')]"/>
+            <field name="name">cancel</field>
+            <field name="string">Cancel</field>
+        </record>
+        <record model="ir.model.button" id="authorization_resolve_button">
+            <field name="model" search="[('model', '=', 'fuel.authorization')]"/>
+            <field name="name">resolve</field>
+            <field name="string">Resolve</field>
+        </record>
+        <record model="ir.model.button-res.group" id="authorization_approve_button_group_manager">
+            <field name="button" ref="authorization_approve_button"/>
+            <field name="group" ref="group_fuel_manager"/>
+        </record>
+        <record model="ir.model.button-res.group" id="authorization_reject_button_group_manager">
+            <field name="button" ref="authorization_reject_button"/>
+            <field name="group" ref="group_fuel_manager"/>
+        </record>
+        <record model="ir.model.button-res.group" id="authorization_resolve_button_group_manager">
+            <field name="button" ref="authorization_resolve_button"/>
+            <field name="group" ref="group_fuel_manager"/>
+        </record>
+        <record model="ir.cron" id="cron_authorization_expire">
+            <field name="method">fuel.authorization|expire</field>
+            <field name="interval_number" eval="1"/>
+            <field name="interval_type">minutes</field>
+        </record>
+        <record model="ir.ui.view" id="guide_start_view_form">
+            <field name="model">fuel.guide.start</field>
+            <field name="type">form</field>
+            <field name="name">guide_start_form</field>
+        </record>
+        <record model="ir.action.wizard" id="wizard_guide">
+            <field name="name">Usage Guide</field>
+            <field name="wiz_name">fuel.guide</field>
+        </record>
+        <menuitem icon="tryton-fuel-guide" name="Usage Guide" parent="menu_fuel" id="menu_guide" sequence="1" action="wizard_guide"/>
+        <record model="ir.cron" id="cron_alerts">
+            <field name="method">fuel.station|notify_alerts</field>
+            <field name="interval_number" eval="15"/>
+            <field name="interval_type">minutes</field>
+        </record>
+    </data>
+</tryton>

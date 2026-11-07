@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_rates_plus module. -->
+<form>
+    <label name="room_type"/>
+    <field name="room_type"/>
+    <label name="product"/>
+    <field name="product"/>
+    <label name="included_adults"/>
+    <field name="included_adults"/>
+    <label name="extra_adult_price"/>
+    <field name="extra_adult_price"/>
+    <label name="extra_child_price"/>
+    <field name="extra_child_price"/>
+</form>

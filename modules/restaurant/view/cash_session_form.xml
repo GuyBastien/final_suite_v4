@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton restaurant module. -->
+<form col="6">
+    <label name="number"/>
+    <field name="number"/>
+    <label name="restaurant"/>
+    <field name="restaurant"/>
+    <label name="state"/>
+    <field name="state"/>
+    <label name="cashier"/>
+    <field name="cashier"/>
+    <label name="date"/>
+    <field name="date"/>
+    <label name="company"/>
+    <field name="company"/>
+    <notebook colspan="6">
+        <page string="Opening" id="opening">
+            <field name="opening_counts" colspan="4" view_ids="restaurant.cash_count_view_edit_list"/>
+            <group col="-1" colspan="4" id="opening_buttons">
+                <button icon="tryton-forward" name="fill_opening" string="Fill Denominations"/>
+                <button icon="tryton-ok" name="open_"/>
+            </group>
+        </page>
+        <page string="Closing" id="closing">
+            <field name="closing_counts" colspan="4" view_ids="restaurant.cash_count_view_edit_list"/>
+            <group col="-1" colspan="4" id="closing_buttons">
+                <button icon="tryton-forward" name="fill_closing" string="Fill Denominations"/>
+                <button icon="tryton-ok" name="close"/>
+            </group>
+        </page>
+        <page string="Payments" id="payments">
+            <field name="payments" colspan="4"/>
+        </page>
+        <page string="Notes" id="notes">
+            <field name="notes" colspan="4"/>
+        </page>
+    </notebook>
+    <group col="12" colspan="6" id="totals" string="Control">
+        <label name="opening_amount"/>
+        <field name="opening_amount"/>
+        <label name="cash_sales"/>
+        <field name="cash_sales"/>
+        <label name="expected_amount"/>
+        <field name="expected_amount"/>
+        <label name="closing_amount"/>
+        <field name="closing_amount"/>
+        <label name="suspect_amount"/>
+        <field name="suspect_amount"/>
+        <label name="difference"/>
+        <field name="difference"/>
+    </group>
+</form>

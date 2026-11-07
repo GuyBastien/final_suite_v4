@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton fuel_station module. -->
+<tree>
+    <field name="name"/>
+    <field name="tanks"/>
+    <field name="low_tanks"/>
+    <field name="open_shifts"/>
+    <field name="quantity_today"/>
+    <field name="sales_today"/>
+    <field name="deliveries_month"/>
+</tree>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton party_person_ht module. -->
+<data>
+    <xpath expr="/form/group[@id='header']/group[@id='checkboxes']" position="before">
+        <label name="is_person"/>
+        <field name="is_person" xexpand="0"/>
+        <label name="first_name"/>
+        <field name="first_name"/>
+    </xpath>
+</data>

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_communication module. -->
+<form>
+    <label name="hotel"/>
+    <field name="hotel"/>
+    <label name="reservation"/>
+    <field name="reservation"/>
+    <label name="party"/>
+    <field name="party"/>
+    <label name="event"/>
+    <field name="event"/>
+    <label name="channel"/>
+    <field name="channel"/>
+    <label name="recipient"/>
+    <field name="recipient"/>
+    <label name="state"/>
+    <field name="state"/>
+    <label name="sent_at"/>
+    <field name="sent_at"/>
+    <label name="attempts"/>
+    <field name="attempts"/>
+    <label name="subject"/>
+    <field name="subject"/>
+    <notebook colspan="4">
+        <page string="Body" id="body">
+            <field name="body" colspan="4"/>
+        </page>
+        <page string="Error" id="error">
+            <field name="error" colspan="4"/>
+        </page>
+    </notebook>
+    <button icon="tryton-forward" name="send" string="Send"/>
+    <button icon="tryton-refresh" name="retry" string="Retry"/>
+    <button icon="tryton-cancel" name="cancel" string="Cancel"/>
+</form>

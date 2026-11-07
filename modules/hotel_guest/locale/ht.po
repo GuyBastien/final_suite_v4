@@ -1,0 +1,454 @@
+#
+msgid ""
+msgstr ""
+"Language: ht\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:hotel.guest.registration,birth_date:"
+msgid "Birth Date"
+msgstr "Dat nesans"
+
+msgctxt "field:hotel.guest.registration,company:"
+msgid "Company"
+msgstr "Konpayi"
+
+msgctxt "field:hotel.guest.registration,first_name:"
+msgid "First Name"
+msgstr "Prenon"
+
+msgctxt "field:hotel.guest.registration,id_number:"
+msgid "ID Document Number"
+msgstr "Nimewo dokiman idantite"
+
+msgctxt "field:hotel.guest.registration,id_type:"
+msgid "ID Document Type"
+msgstr "Tip dokiman idantite"
+
+msgctxt "field:hotel.guest.registration,name:"
+msgid "Name"
+msgstr "Non"
+
+msgctxt "field:hotel.guest.registration,nationality:"
+msgid "Nationality"
+msgstr "Nasyonalite"
+
+msgctxt "field:hotel.guest.registration,reservation:"
+msgid "Reservation"
+msgstr "Rezèvasyon"
+
+msgctxt "field:hotel.hotel,require_registration:"
+msgid "Require Guest Registration"
+msgstr "Egzije anrejistreman kliyan"
+
+msgctxt "field:hotel.keycard,code:"
+msgid "Code"
+msgstr "Kòd"
+
+msgctxt "field:hotel.keycard,company:"
+msgid "Company"
+msgstr "Konpayi"
+
+msgctxt "field:hotel.keycard,reservation:"
+msgid "Reservation"
+msgstr "Rezèvasyon"
+
+msgctxt "field:hotel.keycard,room:"
+msgid "Room"
+msgstr "Chanm"
+
+msgctxt "field:hotel.keycard,state:"
+msgid "State"
+msgstr "Eta"
+
+msgctxt "field:hotel.keycard,valid_from:"
+msgid "Valid From"
+msgstr "Valid depi"
+
+msgctxt "field:hotel.keycard,valid_to:"
+msgid "Valid To"
+msgstr "Valid jiska"
+
+msgctxt "field:hotel.keycard,valid_to_date:"
+msgid "Valid Until"
+msgstr "Valid jiskaske"
+
+msgctxt "field:hotel.loyalty.entry,company:"
+msgid "Company"
+msgstr "Konpayi"
+
+msgctxt "field:hotel.loyalty.entry,date:"
+msgid "Date"
+msgstr "Dat"
+
+msgctxt "field:hotel.loyalty.entry,kind:"
+msgid "Kind"
+msgstr "Kalite"
+
+msgctxt "field:hotel.loyalty.entry,party:"
+msgid "Guest"
+msgstr "Envite"
+
+msgctxt "field:hotel.loyalty.entry,points:"
+msgid "Points"
+msgstr "Pwen"
+
+msgctxt "field:hotel.loyalty.entry,reason:"
+msgid "Reason"
+msgstr "Rezon"
+
+msgctxt "field:hotel.loyalty.entry,reservation:"
+msgid "Reservation"
+msgstr "Rezèvasyon"
+
+msgctxt "field:hotel.loyalty.program,company:"
+msgid "Company"
+msgstr "Konpayi"
+
+msgctxt "field:hotel.loyalty.program,gold_threshold:"
+msgid "Gold Threshold"
+msgstr "Nivo lò"
+
+msgctxt "field:hotel.loyalty.program,points_per_currency:"
+msgid "Points per Currency Unit"
+msgstr "Pwen pou chak inite lajan"
+
+msgctxt "field:hotel.loyalty.program,silver_threshold:"
+msgid "Silver Threshold"
+msgstr "Nivo ajan"
+
+msgctxt "field:hotel.reservation,keycards:"
+msgid "Key Cards"
+msgstr "Kat kle"
+
+msgctxt "field:hotel.reservation,registrations:"
+msgid "Guest Registrations"
+msgstr "Anrejistreman kliyan"
+
+msgctxt "field:party.party,anonymized:"
+msgid "Anonymized"
+msgstr "Anonimize"
+
+msgctxt "field:party.party,birth_date:"
+msgid "Birth Date"
+msgstr "Dat nesans"
+
+msgctxt "field:party.party,blacklist_reason:"
+msgid "Blacklist Reason"
+msgstr "Rezon lis nwa"
+
+msgctxt "field:party.party,blacklisted:"
+msgid "Blacklisted"
+msgstr "Nan lis nwa"
+
+msgctxt "field:party.party,consent_date:"
+msgid "Consent Date"
+msgstr "Dat konsantman"
+
+msgctxt "field:party.party,gdpr_consent:"
+msgid "Data Processing Consent"
+msgstr "Konsantman pou trete done"
+
+msgctxt "field:party.party,id_expiry:"
+msgid "ID Document Expiry"
+msgstr "Dat ekspirasyon dokiman idantite"
+
+msgctxt "field:party.party,id_number:"
+msgid "ID Document Number"
+msgstr "Nimewo dokiman idantite"
+
+msgctxt "field:party.party,id_type:"
+msgid "ID Document Type"
+msgstr "Tip dokiman idantite"
+
+msgctxt "field:party.party,loyalty_points:"
+msgid "Loyalty Points"
+msgstr "Pwen fidelite"
+
+msgctxt "field:party.party,loyalty_tier:"
+msgid "Loyalty Tier"
+msgstr "Nivo fidelite"
+
+msgctxt "field:party.party,marketing_consent:"
+msgid "Marketing Consent"
+msgstr "Konsantman maketing"
+
+msgctxt "field:party.party,nationality:"
+msgid "Nationality"
+msgstr "Nasyonalite"
+
+msgctxt "field:party.party,preferences:"
+msgid "Preferences"
+msgstr "Preferans"
+
+msgctxt "field:party.party,stays_count:"
+msgid "Stays"
+msgstr "Sejou"
+
+msgctxt "field:party.party,vip:"
+msgid "VIP"
+msgstr "VIP"
+
+msgctxt "help:hotel.hotel,require_registration:"
+msgid ""
+"Require a registration card for every guest (adults and children) at check-"
+"in."
+msgstr ""
+"Egzije yon fich anrejistreman pou chak kliyan (granmoun ak timoun) lè yo "
+"rive."
+
+msgctxt "help:hotel.loyalty.program,points_per_currency:"
+msgid "Points earned for each currency unit of the stay."
+msgstr "Pwen yo genyen pou chak inite lajan sejou a."
+
+msgctxt "help:party.party,blacklisted:"
+msgid "A blacklisted guest cannot be confirmed in a reservation."
+msgstr "Yon kliyan ki nan lis nwa pa kapab konfime nan yon rezèvasyon."
+
+msgctxt "help:party.party,preferences:"
+msgid "Room, pillow, diet and other preferences."
+msgstr "Preferans chanm, zòrye, rejim manje ak lòt."
+
+msgctxt "model:hotel.guest.registration,name:"
+msgid "Guest Registration"
+msgstr "Anrejistreman kliyan"
+
+msgctxt "model:hotel.keycard,name:"
+msgid "Key Card"
+msgstr "Kat kle"
+
+msgctxt "model:hotel.loyalty.entry,name:"
+msgid "Loyalty Entry"
+msgstr "Antre fidelite"
+
+msgctxt "model:hotel.loyalty.program,name:"
+msgid "Loyalty Program"
+msgstr "Pwogram fidelite"
+
+msgctxt "model:ir.action,name:act_guest"
+msgid "Guests"
+msgstr "Kliyan yo"
+
+msgctxt "model:ir.action,name:act_keycard"
+msgid "Key Cards"
+msgstr "Kat kle"
+
+msgctxt "model:ir.action,name:act_loyalty_entry"
+msgid "Loyalty Entries"
+msgstr "Antre fidelite yo"
+
+msgctxt "model:ir.action,name:act_loyalty_program"
+msgid "Loyalty Program"
+msgstr "Pwogram fidelite"
+
+msgctxt "model:ir.action,name:act_registration"
+msgid "Guest Registrations"
+msgstr "Anrejistreman kliyan"
+
+msgctxt "model:ir.action.act_window.domain,name:act_guest_domain1"
+msgid "VIP"
+msgstr "VIP"
+
+msgctxt "model:ir.action.act_window.domain,name:act_guest_domain2"
+msgid "Blacklisted"
+msgstr "Nan lis nwa"
+
+msgctxt "model:ir.action.act_window.domain,name:act_guest_domain3"
+msgid "Persons"
+msgstr "Moun"
+
+msgctxt "model:ir.action.act_window.domain,name:act_guest_domain4"
+msgid "All"
+msgstr "Tout"
+
+msgctxt "model:ir.action.act_window.domain,name:act_keycard_domain1"
+msgid "Issued"
+msgstr "Bay"
+
+msgctxt "model:ir.action.act_window.domain,name:act_keycard_domain2"
+msgid "All"
+msgstr "Tout"
+
+msgctxt "model:ir.action.act_window.domain,name:act_loyalty_entry_domain1"
+msgid "Earned"
+msgstr "Genyen"
+
+msgctxt "model:ir.action.act_window.domain,name:act_loyalty_entry_domain2"
+msgid "All"
+msgstr "Tout"
+
+msgctxt "model:ir.action.act_window.domain,name:act_loyalty_program_domain1"
+msgid "All"
+msgstr "Tout"
+
+msgctxt "model:ir.action.act_window.domain,name:act_registration_domain1"
+msgid "All"
+msgstr "Tout"
+
+msgctxt "model:ir.message,text:msg_guest_anonymize_open"
+msgid ""
+"You cannot anonymize \"%(party)s\" because the guest has open reservations."
+msgstr "Ou pa kapab anonimize \"%(party)s\" paske kliyan an gen rezèvasyon ouvè."
+
+msgctxt "model:ir.message,text:msg_guest_anonymized_name"
+msgid "Anonymized"
+msgstr "Anonimize"
+
+msgctxt "model:ir.message,text:msg_guest_blacklisted"
+msgid ""
+"The guest \"%(party)s\" is blacklisted: the reservation \"%(reservation)s\" "
+"cannot be confirmed."
+msgstr ""
+"Kliyan \"%(party)s\" nan lis nwa: yo pa kapab konfime rezèvasyon "
+"\"%(reservation)s\" lan."
+
+msgctxt "model:ir.message,text:msg_guest_registration_missing"
+msgid ""
+"The reservation \"%(reservation)s\" needs %(needed)s guest registrations at "
+"check-in but has only %(count)s."
+msgstr ""
+"Rezèvasyon \"%(reservation)s\" lan bezwen %(needed)s anrejistreman kliyan lè"
+" yo rive men li gen sèlman %(count)s."
+
+msgctxt "model:ir.message,text:msg_loyalty_program_unique"
+msgid "A company can have only one loyalty program."
+msgstr "Yon konpayi kapab gen yon sèl pwogram fidelite."
+
+msgctxt "model:ir.model.button,confirm:party_anonymize_button"
+msgid "This erases the personal data of the guest. Continue?"
+msgstr "Sa efase done pèsonèl kliyan an. Kontinye?"
+
+msgctxt "model:ir.model.button,string:keycard_give_back_button"
+msgid "Returned"
+msgstr "Retounen"
+
+msgctxt "model:ir.model.button,string:keycard_issue_button"
+msgid "Issue"
+msgstr "Bay"
+
+msgctxt "model:ir.model.button,string:keycard_revoke_button"
+msgid "Revoke"
+msgstr "Revoke"
+
+msgctxt "model:ir.model.button,string:party_anonymize_button"
+msgid "Anonymize (GDPR)"
+msgstr "Anonimize (RGPD)"
+
+msgctxt "model:ir.rule.group,name:rule_group_keycard_companies"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.rule.group,name:rule_group_loyalty_entry_companies"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.rule.group,name:rule_group_loyalty_program_companies"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.rule.group,name:rule_group_registration_companies"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.ui.menu,name:menu_guest"
+msgid "Guests"
+msgstr "Kliyan yo"
+
+msgctxt "model:ir.ui.menu,name:menu_guests"
+msgid "Guests"
+msgstr "Kliyan yo"
+
+msgctxt "model:ir.ui.menu,name:menu_keycard"
+msgid "Key Cards"
+msgstr "Kat kle"
+
+msgctxt "model:ir.ui.menu,name:menu_loyalty_entry"
+msgid "Loyalty Entries"
+msgstr "Antre fidelite yo"
+
+msgctxt "model:ir.ui.menu,name:menu_loyalty_program"
+msgid "Loyalty Program"
+msgstr "Pwogram fidelite"
+
+msgctxt "model:ir.ui.menu,name:menu_registration"
+msgid "Guest Registrations"
+msgstr "Anrejistreman kliyan"
+
+msgctxt "selection:hotel.guest.registration,id_type:"
+msgid "Driving License"
+msgstr "Pèmi kondwi"
+
+msgctxt "selection:hotel.guest.registration,id_type:"
+msgid "ID Card"
+msgstr "Kat idantite"
+
+msgctxt "selection:hotel.guest.registration,id_type:"
+msgid "Other"
+msgstr "Lòt"
+
+msgctxt "selection:hotel.guest.registration,id_type:"
+msgid "Passport"
+msgstr "Paspò"
+
+msgctxt "selection:hotel.keycard,state:"
+msgid "Draft"
+msgstr "Bouyon"
+
+msgctxt "selection:hotel.keycard,state:"
+msgid "Issued"
+msgstr "Bay"
+
+msgctxt "selection:hotel.keycard,state:"
+msgid "Returned"
+msgstr "Retounen"
+
+msgctxt "selection:hotel.keycard,state:"
+msgid "Revoked"
+msgstr "Revoke"
+
+msgctxt "selection:hotel.loyalty.entry,kind:"
+msgid "Adjustment"
+msgstr "Ajisteman"
+
+msgctxt "selection:hotel.loyalty.entry,kind:"
+msgid "Earned"
+msgstr "Genyen"
+
+msgctxt "selection:hotel.loyalty.entry,kind:"
+msgid "Redeemed"
+msgstr "Itilize"
+
+msgctxt "selection:party.party,id_type:"
+msgid "Driving License"
+msgstr "Pèmi kondwi"
+
+msgctxt "selection:party.party,id_type:"
+msgid "ID Card"
+msgstr "Kat idantite"
+
+msgctxt "selection:party.party,id_type:"
+msgid "Other"
+msgstr "Lòt"
+
+msgctxt "selection:party.party,id_type:"
+msgid "Passport"
+msgstr "Paspò"
+
+msgctxt "selection:party.party,loyalty_tier:"
+msgid "Gold"
+msgstr "Lò"
+
+msgctxt "selection:party.party,loyalty_tier:"
+msgid "Silver"
+msgstr "Ajan"
+
+msgctxt "view:hotel.reservation:"
+msgid "Guest Registrations"
+msgstr "Anrejistreman kliyan"
+
+msgctxt "view:hotel.reservation:"
+msgid "Key Cards"
+msgstr "Kat kle"
+
+msgctxt "view:party.party:"
+msgid "Hotel Guest"
+msgstr "Kliyan otèl"

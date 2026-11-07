@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton fuel_station_cash_control module. -->
+<form>
+    <label name="shift"/>
+    <field name="shift"/>
+    <label name="denomination"/>
+    <field name="denomination"/>
+    <label name="quantity"/>
+    <field name="quantity"/>
+    <label name="suspect_quantity"/>
+    <field name="suspect_quantity"/>
+    <label name="amount"/>
+    <field name="amount"/>
+    <label name="suspect_amount"/>
+    <field name="suspect_amount"/>
+</form>

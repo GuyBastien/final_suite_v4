@@ -1,0 +1,36 @@
+#
+msgid ""
+msgstr ""
+"Language: fr\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:fuel.authorization,sale:"
+msgid "Sale"
+msgstr "Vente"
+
+msgctxt "field:fuel.station,sale_party:"
+msgid "Default Customer"
+msgstr "Client par défaut"
+
+msgctxt "help:fuel.authorization,sale:"
+msgid "Sale generated from this record."
+msgstr "Vente générée à partir de cet enregistrement."
+
+msgctxt "help:fuel.station,sale_party:"
+msgid ""
+"Customer of the sales created for authorizations without customer (walk-in "
+"customers)."
+msgstr ""
+"Client des ventes créées pour les autorisations sans client (clients de "
+"passage)."
+
+msgctxt "model:ir.message,text:msg_no_sale"
+msgid ""
+"No customer on the authorization or on the station: no sale was created."
+msgstr ""
+"Aucun client sur l'autorisation ni sur la station : aucune vente n'a été "
+"créée."
+
+msgctxt "model:ir.message,text:msg_sale_created"
+msgid "Sale %(sale)s created."
+msgstr "Vente %(sale)s créée."

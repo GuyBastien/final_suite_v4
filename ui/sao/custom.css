@@ -1,0 +1,43 @@
+/* final_suite — thème SAO (Tryton 7.0) — Auteur : Pierre Michel Augustin — AGPLv3
+   Installation : copier ce fichier à côté de index.html du client web (sao/custom.css).
+   N'utilise que des classes Bootstrap/SAO documentées ; supprimer le fichier le désactive. */
+:root {
+  --fs-ok: #198754;  --fs-ok-bg: #e8f5ee;
+  --fs-warn: #b7791f; --fs-warn-bg: #fff6df;
+  --fs-bad: #c62828; --fs-bad-bg: #fdeaea;
+  --fs-muted: #6b7280;
+  --fs-accent: #1f6feb;
+}
+/* --- Lignes de liste colorées (attribut visual de Tryton) : fond doux + liseré --- */
+.table > tbody > tr.success > td { background-color: var(--fs-ok-bg); }
+.table > tbody > tr.warning > td { background-color: var(--fs-warn-bg); }
+.table > tbody > tr.danger  > td { background-color: var(--fs-bad-bg); }
+.table > tbody > tr.success > td:first-child { box-shadow: inset 4px 0 0 var(--fs-ok); }
+.table > tbody > tr.warning > td:first-child { box-shadow: inset 4px 0 0 var(--fs-warn); }
+.table > tbody > tr.danger  > td:first-child { box-shadow: inset 4px 0 0 var(--fs-bad); }
+.table > tbody > tr.danger > td { font-weight: 600; }
+.table > tbody > tr > td.text-muted, .table > tbody > tr.text-muted > td { color: var(--fs-muted); }
+/* Ligne sélectionnée toujours visible, même colorée */
+.table > tbody > tr.selected > td { box-shadow: inset 0 0 0 9999px rgba(31,111,235,.10); }
+/* --- Formulaires : champs obligatoires repérables sans couleur seule --- */
+.form label.required::after, .board label.required::after { content: " *"; color: var(--fs-bad); }
+.form .form-control:focus, .form input:focus, .form select:focus, .form textarea:focus {
+  border-color: var(--fs-accent); box-shadow: 0 0 0 3px rgba(31,111,235,.18); outline: 0;
+}
+/* --- Onglets de filtre des listes (domaines) --- */
+.nav-tabs > li > a { font-weight: 500; }
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  border-bottom: 3px solid var(--fs-accent); font-weight: 700;
+}
+/* --- Boutons d'action (workflow) : lisibles, zone de clic plus grande --- */
+.form .btn, .tab-form .btn { min-height: 2.1em; border-radius: 6px; }
+.btn-primary, .btn-success { font-weight: 600; }
+/* --- Écrans tactiles (caisse, cuisine, bar, mobile) --- */
+@media (pointer: coarse) {
+  .btn, .form-control, .nav-tabs > li > a { min-height: 3em; font-size: 1.05em; }
+  .table > tbody > tr > td { padding-top: .8em; padding-bottom: .8em; }
+}
+/* --- Badges de notification --- */
+.badge { font-weight: 700; }
+/* --- Impression : retirer les décors --- */
+@media print { .table > tbody > tr > td { box-shadow: none !important; } }

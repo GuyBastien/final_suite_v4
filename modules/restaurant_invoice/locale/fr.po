@@ -1,0 +1,69 @@
+#
+msgid ""
+msgstr ""
+"Language: fr\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:restaurant.order,invoices:"
+msgid "Invoices"
+msgstr "Factures"
+
+msgctxt "field:restaurant.restaurant,invoice_mode:"
+msgid "Invoicing"
+msgstr "Facturation"
+
+msgctxt "help:restaurant.order,invoices:"
+msgid "Invoices generated from this record."
+msgstr "Factures générées à partir de cet enregistrement."
+
+msgctxt "help:restaurant.restaurant,invoice_mode:"
+msgid "When a draft customer invoice is created for a paid order."
+msgstr "Quand une facture client brouillon est créée pour une commande payée."
+
+msgctxt "model:ir.message,text:msg_line_delivery"
+msgid "Delivery fee"
+msgstr "Frais de livraison"
+
+msgctxt "model:ir.message,text:msg_line_discount"
+msgid "Discount"
+msgstr "Remise"
+
+msgctxt "model:ir.message,text:msg_line_service"
+msgid "Service charge"
+msgstr "Frais de service"
+
+msgctxt "model:ir.message,text:msg_no_invoice_address"
+msgid ""
+"Customer \"%(party)s\" has no address: it is needed to invoice order "
+"\"%(order)s\"."
+msgstr ""
+"Le client « %(party)s » n'a pas d'adresse : elle est nécessaire pour "
+"facturer la commande « %(order)s »."
+
+msgctxt "model:ir.message,text:msg_no_revenue_account"
+msgid ""
+"Item \"%(product)s\" has no revenue account: it is needed to invoice order "
+"\"%(order)s\"."
+msgstr ""
+"L'article « %(product)s » n'a pas de compte de produits : il est nécessaire "
+"pour facturer la commande « %(order)s »."
+
+msgctxt "model:ir.model.button,string:order_invoice_button"
+msgid "Invoice"
+msgstr "Facture"
+
+msgctxt "selection:restaurant.restaurant,invoice_mode:"
+msgid "Every Order With a Customer"
+msgstr "Toute commande avec un client"
+
+msgctxt "selection:restaurant.restaurant,invoice_mode:"
+msgid "Never"
+msgstr "Jamais"
+
+msgctxt "selection:restaurant.restaurant,invoice_mode:"
+msgid "On Account Payments"
+msgstr "Paiements sur compte"
+
+msgctxt "view:restaurant.order:"
+msgid "Invoices"
+msgstr "Factures"

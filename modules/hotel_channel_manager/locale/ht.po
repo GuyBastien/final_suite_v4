@@ -1,0 +1,427 @@
+#
+msgid ""
+msgstr ""
+"Language: ht\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:hotel.channel,bookings:"
+msgid "Bookings"
+msgstr "Rezèvasyon yo"
+
+msgctxt "field:hotel.channel,company:"
+msgid "Company"
+msgstr "Konpayi"
+
+msgctxt "field:hotel.channel,compute_prices:"
+msgid "Compute Prices"
+msgstr "Kalkile pri yo"
+
+msgctxt "field:hotel.channel,hotel:"
+msgid "Hotel"
+msgstr "Otèl"
+
+msgctxt "field:hotel.channel,last_synchronization:"
+msgid "Last Synchronization"
+msgstr "Dènye senkwonizasyon"
+
+msgctxt "field:hotel.channel,logs:"
+msgid "Logs"
+msgstr "Jounal"
+
+msgctxt "field:hotel.channel,mappings:"
+msgid "Rooms"
+msgstr "Chanm yo"
+
+msgctxt "field:hotel.channel,name:"
+msgid "Name"
+msgstr "Non"
+
+msgctxt "field:hotel.channel,party:"
+msgid "Party"
+msgstr "Tyè"
+
+msgctxt "field:hotel.channel,provider:"
+msgid "Provider"
+msgstr "Founisè"
+
+msgctxt "field:hotel.channel.booking,channel:"
+msgid "Channel"
+msgstr "Kanal"
+
+msgctxt "field:hotel.channel.booking,company:"
+msgid "Company"
+msgstr "Konpayi"
+
+msgctxt "field:hotel.channel.booking,end:"
+msgid "End"
+msgstr "Fen"
+
+msgctxt "field:hotel.channel.booking,mapping:"
+msgid "Room"
+msgstr "Chanm"
+
+msgctxt "field:hotel.channel.booking,message:"
+msgid "Message"
+msgstr "Mesaj"
+
+msgctxt "field:hotel.channel.booking,reservation:"
+msgid "Reservation"
+msgstr "Rezèvasyon"
+
+msgctxt "field:hotel.channel.booking,start:"
+msgid "Start"
+msgstr "Kòmanse"
+
+msgctxt "field:hotel.channel.booking,state:"
+msgid "State"
+msgstr "Eta"
+
+msgctxt "field:hotel.channel.booking,summary:"
+msgid "Summary"
+msgstr "Rezime"
+
+msgctxt "field:hotel.channel.booking,uid:"
+msgid "Reference"
+msgstr "Referans"
+
+msgctxt "field:hotel.channel.log,cancelled:"
+msgid "Cancelled"
+msgstr "Anile"
+
+msgctxt "field:hotel.channel.log,channel:"
+msgid "Channel"
+msgstr "Kanal"
+
+msgctxt "field:hotel.channel.log,company:"
+msgid "Company"
+msgstr "Konpayi"
+
+msgctxt "field:hotel.channel.log,conflicts:"
+msgid "Conflicts"
+msgstr "Konfli"
+
+msgctxt "field:hotel.channel.log,created:"
+msgid "Created"
+msgstr "Kreye"
+
+msgctxt "field:hotel.channel.log,date:"
+msgid "Date"
+msgstr "Dat"
+
+msgctxt "field:hotel.channel.log,direction:"
+msgid "Direction"
+msgstr "Direksyon"
+
+msgctxt "field:hotel.channel.log,mapping:"
+msgid "Room"
+msgstr "Chanm"
+
+msgctxt "field:hotel.channel.log,message:"
+msgid "Message"
+msgstr "Mesaj"
+
+msgctxt "field:hotel.channel.log,name:"
+msgid "Name"
+msgstr "Non"
+
+msgctxt "field:hotel.channel.log,state:"
+msgid "State"
+msgstr "Eta"
+
+msgctxt "field:hotel.channel.log,updated:"
+msgid "Updated"
+msgstr "Mete ajou"
+
+msgctxt "field:hotel.channel.mapping,channel:"
+msgid "Channel"
+msgstr "Kanal"
+
+msgctxt "field:hotel.channel.mapping,company:"
+msgid "Company"
+msgstr "Konpayi"
+
+msgctxt "field:hotel.channel.mapping,export_path:"
+msgid "Export Address"
+msgstr "Adrès ekspòtasyon"
+
+msgctxt "field:hotel.channel.mapping,external_id:"
+msgid "External ID"
+msgstr "ID ekstèn"
+
+msgctxt "field:hotel.channel.mapping,hotel:"
+msgid "Hotel"
+msgstr "Otèl"
+
+msgctxt "field:hotel.channel.mapping,import_url:"
+msgid "Import URL"
+msgstr "URL enpòtasyon"
+
+msgctxt "field:hotel.channel.mapping,name:"
+msgid "Name"
+msgstr "Non"
+
+msgctxt "field:hotel.channel.mapping,room:"
+msgid "Room"
+msgstr "Chanm"
+
+msgctxt "field:hotel.channel.mapping,token:"
+msgid "Token"
+msgstr "Jeton"
+
+msgctxt "field:hotel.reservation,channel:"
+msgid "Channel"
+msgstr "Kanal"
+
+msgctxt "field:hotel.reservation,external_reference:"
+msgid "External Reference"
+msgstr "Referans ekstèn"
+
+msgctxt "help:hotel.channel,compute_prices:"
+msgid ""
+"Price the imported reservations with the hotel rates. Otherwise they are "
+"created at price 0 (the channel collects the payment)."
+msgstr ""
+"Fikse pri rezèvasyon enpòte yo ak tarif otèl la. Sinon yo kreye ak pri 0 "
+"(kanal la ranmase peman an)."
+
+msgctxt "help:hotel.channel,party:"
+msgid ""
+"The party of the reservations coming from the channel (usually the OTA "
+"itself)."
+msgstr "Pati rezèvasyon ki soti nan kanal la (anjeneral OTA a menm)."
+
+msgctxt "help:hotel.channel.mapping,export_path:"
+msgid ""
+"Give the channel this address (prefixed by the server URL): it publishes the"
+" occupancy of the room."
+msgstr ""
+"Bay kanal la adrès sa a (ak URL sèvè a devan): li pibliye okipasyon chanm "
+"nan."
+
+msgctxt "help:hotel.channel.mapping,external_id:"
+msgid "The identifier of the room on the channel."
+msgstr "Idantifyan chanm nan sou kanal la."
+
+msgctxt "help:hotel.channel.mapping,import_url:"
+msgid ""
+"The iCal address of the room calendar published by the channel. Its "
+"reservations block the room."
+msgstr ""
+"Adrès iCal kalandriye chanm nan kanal la pibliye. Rezèvasyon li yo bloke "
+"chanm nan."
+
+msgctxt "help:hotel.channel.mapping,token:"
+msgid "Secret of the export address."
+msgstr "Sekrè adrès ekspòtasyon an."
+
+msgctxt "help:hotel.reservation,channel:"
+msgid "The distribution channel the reservation comes from."
+msgstr "Kanal distribisyon rezèvasyon an soti ladan l."
+
+msgctxt "help:hotel.reservation,external_reference:"
+msgid "The reference of the reservation on the channel."
+msgstr "Referans rezèvasyon an sou kanal la."
+
+msgctxt "model:hotel.channel,name:"
+msgid "Hotel Distribution Channel"
+msgstr "Kanal distribisyon otèl"
+
+msgctxt "model:hotel.channel.booking,name:"
+msgid "Hotel Channel Booking"
+msgstr "Rezèvasyon kanal otèl"
+
+msgctxt "model:hotel.channel.log,name:"
+msgid "Hotel Channel Log"
+msgstr "Jounal kanal otèl"
+
+msgctxt "model:hotel.channel.mapping,name:"
+msgid "Hotel Channel Room"
+msgstr "Chanm kanal otèl"
+
+msgctxt "model:ir.action,name:act_booking"
+msgid "Channel Bookings"
+msgstr "Rezèvasyon kanal yo"
+
+msgctxt "model:ir.action,name:act_channel"
+msgid "Channels"
+msgstr "Kanal yo"
+
+msgctxt "model:ir.action,name:act_log"
+msgid "Synchronization Logs"
+msgstr "Jounal senkwonizasyon"
+
+msgctxt "model:ir.action.act_window.domain,name:act_booking_domain_all"
+msgid "All"
+msgstr "Tout"
+
+msgctxt "model:ir.action.act_window.domain,name:act_booking_domain_confirmed"
+msgid "Confirmed"
+msgstr "Konfime"
+
+msgctxt "model:ir.action.act_window.domain,name:act_booking_domain_conflict"
+msgid "Conflicts"
+msgstr "Konfli"
+
+msgctxt "model:ir.message,text:msg_booking_period"
+msgid "The end of the booking is not after its start."
+msgstr "Fen rezèvasyon an pa vini apre kòmansman li."
+
+msgctxt "model:ir.message,text:msg_booking_uid_unique"
+msgid "This booking is already imported for the room."
+msgstr "Rezèvasyon sa a deja enpòte pou chanm nan."
+
+msgctxt "model:ir.message,text:msg_booking_unavailable"
+msgid "The room %(room)s is not available between %(start)s and %(end)s."
+msgstr "Chanm %(room)s pa disponib ant %(start)s ak %(end)s."
+
+msgctxt "model:ir.message,text:msg_ch_conflict"
+msgid ""
+"The %(channel)s booking \"%(summary)s\" from %(start)s to %(end)s cannot be "
+"accepted: the room is not free."
+msgstr ""
+"Rezèvasyon %(channel)s \"%(summary)s\" soti %(start)s rive %(end)s pa ka "
+"aksepte: chanm nan pa lib."
+
+msgctxt "model:ir.message,text:msg_ch_conflict_title"
+msgid "Overbooking: room %(room)s (%(channel)s)"
+msgstr "Sirvant: chanm %(room)s (%(channel)s)"
+
+msgctxt "model:ir.message,text:msg_ch_error"
+msgid "The calendar of room %(room)s cannot be imported: %(error)s"
+msgstr "Yo pa ka enpòte kalandriye chanm %(room)s lan: %(error)s"
+
+msgctxt "model:ir.message,text:msg_ch_error_title"
+msgid "Synchronization failed: %(channel)s"
+msgstr "Senkwonizasyon echwe: %(channel)s"
+
+msgctxt "model:ir.message,text:msg_channel_fetch"
+msgid "The calendar cannot be read: %(error)s"
+msgstr "Yo pa ka li kalandriye a: %(error)s"
+
+msgctxt "model:ir.message,text:msg_channel_too_large"
+msgid "The calendar is too large."
+msgstr "Kalandriye a twò gwo."
+
+msgctxt "model:ir.message,text:msg_channel_url_scheme"
+msgid "Only http and https calendar addresses are allowed."
+msgstr "Sèlman adrès kalandriye http ak https pèmèt."
+
+msgctxt "model:ir.message,text:msg_mapping_room_hotel"
+msgid "The room \"%(room)s\" does not belong to the hotel of the channel."
+msgstr "Chanm \"%(room)s\" pa fè pati otèl kanal la."
+
+msgctxt "model:ir.message,text:msg_mapping_room_unique"
+msgid "A room can be linked only once to a channel."
+msgstr "Yon chanm kapab lye ak yon kanal yon sèl fwa."
+
+msgctxt "model:ir.message,text:msg_mapping_token_unique"
+msgid "The token of the room calendar must be unique."
+msgstr "Jeton kalandriye chanm nan dwe inik."
+
+msgctxt "model:ir.model.button,string:booking_retry_button"
+msgid "Retry"
+msgstr "Eseye ankò"
+
+msgctxt "model:ir.model.button,string:channel_synchronize_button"
+msgid "Synchronize"
+msgstr "Senkwonize"
+
+msgctxt "model:ir.model.button,string:mapping_new_token_button"
+msgid "New Token"
+msgstr "Nouvo jeton"
+
+msgctxt "model:ir.rule.group,name:rule_group_hotel_channel_booking_companies"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.rule.group,name:rule_group_hotel_channel_companies"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.rule.group,name:rule_group_hotel_channel_log_companies"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.rule.group,name:rule_group_hotel_channel_mapping_companies"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.ui.menu,name:menu_booking"
+msgid "Channel Bookings"
+msgstr "Rezèvasyon kanal yo"
+
+msgctxt "model:ir.ui.menu,name:menu_channel"
+msgid "Channels"
+msgstr "Kanal yo"
+
+msgctxt "model:ir.ui.menu,name:menu_channel_manager"
+msgid "Channel Manager"
+msgstr "Jestyonè kanal"
+
+msgctxt "model:ir.ui.menu,name:menu_log"
+msgid "Synchronization Logs"
+msgstr "Jounal senkwonizasyon"
+
+msgctxt "selection:hotel.channel,provider:"
+msgid "Airbnb"
+msgstr "Airbnb"
+
+msgctxt "selection:hotel.channel,provider:"
+msgid "Booking.com"
+msgstr "Booking.com"
+
+msgctxt "selection:hotel.channel,provider:"
+msgid "Expedia"
+msgstr "Expedia"
+
+msgctxt "selection:hotel.channel,provider:"
+msgid "Other"
+msgstr "Lòt"
+
+msgctxt "selection:hotel.channel,provider:"
+msgid "iCal Calendar"
+msgstr "Kalandriye iCal"
+
+msgctxt "selection:hotel.channel.booking,state:"
+msgid "Cancelled"
+msgstr "Anile"
+
+msgctxt "selection:hotel.channel.booking,state:"
+msgid "Confirmed"
+msgstr "Konfime"
+
+msgctxt "selection:hotel.channel.booking,state:"
+msgid "Conflict"
+msgstr "Konfli"
+
+msgctxt "selection:hotel.channel.log,direction:"
+msgid "Export"
+msgstr "Ekspòte"
+
+msgctxt "selection:hotel.channel.log,direction:"
+msgid "Import"
+msgstr "Enpòte"
+
+msgctxt "selection:hotel.channel.log,state:"
+msgid "Error"
+msgstr "Erè"
+
+msgctxt "selection:hotel.channel.log,state:"
+msgid "Success"
+msgstr "Siksè"
+
+msgctxt "selection:ir.cron,method:"
+msgid "Synchronize Hotel Channels"
+msgstr "Senkwonize kanal otèl yo"
+
+msgctxt "view:hotel.channel:"
+msgid "Bookings"
+msgstr "Rezèvasyon yo"
+
+msgctxt "view:hotel.channel:"
+msgid "Logs"
+msgstr "Jounal"
+
+msgctxt "view:hotel.channel:"
+msgid "Rooms"
+msgstr "Chanm yo"

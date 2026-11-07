@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_rates_plus module. -->
+<data>
+    <xpath expr="/form/field[@name='check_out_time']" position="after">
+        <label name="dynamic_pricing"/>
+        <field name="dynamic_pricing"/>
+        <field name="pricing_rules" colspan="4"
+            view_ids="hotel_rates_plus.pricing_rule_view_list"/>
+    </xpath>
+</data>

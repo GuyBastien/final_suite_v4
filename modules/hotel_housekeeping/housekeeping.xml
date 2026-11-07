@@ -1,0 +1,471 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_housekeeping module. -->
+<tryton>
+    <data>
+        <record model="res.group" id="group_housekeeping">
+            <field name="name">Hotel Housekeeping</field>
+        </record>
+        <record model="res.group" id="group_housekeeping_supervisor">
+            <field name="name">Hotel Housekeeping Supervisor</field>
+            <field name="parent" ref="group_housekeeping"/>
+        </record>
+        <record model="res.user-res.group" id="user_admin_group_housekeeping">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_housekeeping"/>
+        </record>
+        <record model="res.user-res.group" id="user_admin_group_housekeeping_supervisor">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_housekeeping_supervisor"/>
+        </record>
+        <record model="ir.ui.menu-res.group" id="menu_hotel_group_housekeeping">
+            <field name="menu" ref="hotel.menu_hotel"/>
+            <field name="group" ref="group_housekeeping"/>
+        </record>
+
+        <!-- Views -->
+        <record model="ir.ui.view" id="task_view_form">
+            <field name="model">hotel.housekeeping.task</field>
+            <field name="type">form</field>
+            <field name="name">task_form</field>
+        </record>
+        <record model="ir.ui.view" id="task_view_list">
+            <field name="model">hotel.housekeeping.task</field>
+            <field name="type">tree</field>
+            <field name="name">task_list</field>
+        </record>
+        <record model="ir.ui.view" id="task_view_form_mobile">
+            <field name="model">hotel.housekeeping.task</field>
+            <field name="type">form</field>
+            <field name="name">task_mobile_form</field>
+        </record>
+        <record model="ir.ui.view" id="task_view_list_mobile">
+            <field name="model">hotel.housekeeping.task</field>
+            <field name="type">tree</field>
+            <field name="name">task_mobile_list</field>
+        </record>
+        <record model="ir.ui.view" id="task_item_view_list">
+            <field name="model">hotel.housekeeping.task.item</field>
+            <field name="type">tree</field>
+            <field name="name">task_item_list</field>
+        </record>
+        <record model="ir.ui.view" id="task_item_view_form">
+            <field name="model">hotel.housekeeping.task.item</field>
+            <field name="type">form</field>
+            <field name="name">task_item_form</field>
+        </record>
+        <record model="ir.ui.view" id="issue_view_form">
+            <field name="model">hotel.housekeeping.issue</field>
+            <field name="type">form</field>
+            <field name="name">issue_form</field>
+        </record>
+        <record model="ir.ui.view" id="issue_view_list">
+            <field name="model">hotel.housekeeping.issue</field>
+            <field name="type">tree</field>
+            <field name="name">issue_list</field>
+        </record>
+        <record model="ir.ui.view" id="issue_view_list_inline">
+            <field name="model">hotel.housekeeping.issue</field>
+            <field name="type">tree</field>
+            <field name="name">issue_list_inline</field>
+        </record>
+        <record model="ir.ui.view" id="checklist_view_list">
+            <field name="model">hotel.housekeeping.checklist</field>
+            <field name="type">tree</field>
+            <field name="name">checklist_list</field>
+        </record>
+        <record model="ir.ui.view" id="checklist_view_form">
+            <field name="model">hotel.housekeeping.checklist</field>
+            <field name="type">form</field>
+            <field name="name">checklist_form</field>
+        </record>
+        <record model="ir.ui.view" id="hotel_view_form">
+            <field name="model">hotel.hotel</field>
+            <field name="inherit" ref="hotel.hotel_view_form"/>
+            <field name="name">hotel_form</field>
+        </record>
+
+        <!-- Actions -->
+        <record model="ir.action.act_window" id="act_my_task">
+            <field name="name">My Tasks</field>
+            <field name="res_model">hotel.housekeeping.task</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_my_task_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="task_view_list_mobile"/>
+            <field name="act_window" ref="act_my_task"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_my_task_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="task_view_form_mobile"/>
+            <field name="act_window" ref="act_my_task"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_my_task_domain1">
+            <field name="name">To Do</field>
+            <field name="sequence" eval="10"/>
+            <field name="domain" eval="[('mine', '=', True), ('state', 'in', ['todo', 'in_progress'])]" pyson="1"></field>
+            <field name="act_window" ref="act_my_task"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_my_task_domain2">
+            <field name="name">Done</field>
+            <field name="sequence" eval="20"/>
+            <field name="domain" eval="[('mine', '=', True), ('state', 'in', ['done', 'inspected'])]" pyson="1"></field>
+            <field name="act_window" ref="act_my_task"/>
+        </record>
+        <record model="ir.action.act_window" id="act_task">
+            <field name="name">Tasks</field>
+            <field name="res_model">hotel.housekeeping.task</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_task_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="task_view_list"/>
+            <field name="act_window" ref="act_task"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_task_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="task_view_form"/>
+            <field name="act_window" ref="act_task"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_task_domain1">
+            <field name="name">To Do</field>
+            <field name="sequence" eval="10"/>
+            <field name="domain" eval="[('state', 'in', ['todo', 'in_progress'])]" pyson="1"></field>
+            <field name="act_window" ref="act_task"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_task_domain2">
+            <field name="name">Unassigned</field>
+            <field name="sequence" eval="20"/>
+            <field name="domain" eval="[('state', 'in', ['todo', 'in_progress']), ('assigned_to', '=', None)]" pyson="1"></field>
+            <field name="act_window" ref="act_task"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_task_domain3">
+            <field name="name">To Inspect</field>
+            <field name="sequence" eval="30"/>
+            <field name="domain" eval="[('state', '=', 'done')]" pyson="1"></field>
+            <field name="act_window" ref="act_task"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_task_domain4">
+            <field name="name">All</field>
+            <field name="sequence" eval="9999"/>
+            <field name="domain" eval="[]" pyson="1"></field>
+            <field name="act_window" ref="act_task"/>
+        </record>
+        <record model="ir.action.act_window" id="act_issue">
+            <field name="name">Issues</field>
+            <field name="res_model">hotel.housekeeping.issue</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_issue_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="issue_view_list"/>
+            <field name="act_window" ref="act_issue"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_issue_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="issue_view_form"/>
+            <field name="act_window" ref="act_issue"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_issue_domain1">
+            <field name="name">Open</field>
+            <field name="sequence" eval="10"/>
+            <field name="domain" eval="[('state', '=', 'open')]" pyson="1"></field>
+            <field name="act_window" ref="act_issue"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_issue_domain2">
+            <field name="name">All</field>
+            <field name="sequence" eval="9999"/>
+            <field name="domain" eval="[]" pyson="1"></field>
+            <field name="act_window" ref="act_issue"/>
+        </record>
+
+        <menuitem icon="tryton-hotel-housekeeping" name="Housekeeping" parent="hotel.menu_hotel"
+            id="menu_housekeeping" sequence="15"/>
+        <menuitem icon="tryton-hotel-housekeeping" parent="menu_housekeeping" action="act_my_task"
+            id="menu_my_task" sequence="10"/>
+        <menuitem icon="tryton-hotel-housekeeping" parent="menu_housekeeping" action="act_task"
+            id="menu_task" sequence="20"/>
+        <menuitem icon="tryton-hotel-notification" parent="menu_housekeeping" action="act_issue"
+            id="menu_issue" sequence="30"/>
+
+        <!-- Buttons -->
+        <record model="ir.model.button" id="task_take_button">
+            <field name="model" search="[('model', '=', 'hotel.housekeeping.task')]"/>
+            <field name="name">take</field>
+            <field name="string">Take</field>
+        </record>
+        <record model="ir.model.button-res.group" id="task_take_button_group_housekeeping">
+            <field name="button" ref="task_take_button"/>
+            <field name="group" ref="group_housekeeping"/>
+        </record>
+        <record model="ir.model.button-res.group" id="task_take_button_group_hotel">
+            <field name="button" ref="task_take_button"/>
+            <field name="group" ref="hotel.group_hotel"/>
+        </record>
+        <record model="ir.model.button" id="task_start_button">
+            <field name="model" search="[('model', '=', 'hotel.housekeeping.task')]"/>
+            <field name="name">start</field>
+            <field name="string">Start</field>
+        </record>
+        <record model="ir.model.button-res.group" id="task_start_button_group_housekeeping">
+            <field name="button" ref="task_start_button"/>
+            <field name="group" ref="group_housekeeping"/>
+        </record>
+        <record model="ir.model.button-res.group" id="task_start_button_group_hotel">
+            <field name="button" ref="task_start_button"/>
+            <field name="group" ref="hotel.group_hotel"/>
+        </record>
+        <record model="ir.model.button" id="task_finish_button">
+            <field name="model" search="[('model', '=', 'hotel.housekeeping.task')]"/>
+            <field name="name">finish</field>
+            <field name="string">Finish</field>
+        </record>
+        <record model="ir.model.button-res.group" id="task_finish_button_group_housekeeping">
+            <field name="button" ref="task_finish_button"/>
+            <field name="group" ref="group_housekeeping"/>
+        </record>
+        <record model="ir.model.button-res.group" id="task_finish_button_group_hotel">
+            <field name="button" ref="task_finish_button"/>
+            <field name="group" ref="hotel.group_hotel"/>
+        </record>
+        <record model="ir.model.button" id="task_inspect_button">
+            <field name="model" search="[('model', '=', 'hotel.housekeeping.task')]"/>
+            <field name="name">inspect</field>
+            <field name="string">Inspect</field>
+        </record>
+        <record model="ir.model.button-res.group" id="task_inspect_button_group_housekeeping_supervisor">
+            <field name="button" ref="task_inspect_button"/>
+            <field name="group" ref="group_housekeeping_supervisor"/>
+        </record>
+        <record model="ir.model.button-res.group" id="task_inspect_button_group_hotel">
+            <field name="button" ref="task_inspect_button"/>
+            <field name="group" ref="hotel.group_hotel"/>
+        </record>
+        <record model="ir.model.button" id="task_redo_button">
+            <field name="model" search="[('model', '=', 'hotel.housekeeping.task')]"/>
+            <field name="name">redo</field>
+            <field name="string">Redo</field>
+        </record>
+        <record model="ir.model.button-res.group" id="task_redo_button_group_housekeeping_supervisor">
+            <field name="button" ref="task_redo_button"/>
+            <field name="group" ref="group_housekeeping_supervisor"/>
+        </record>
+        <record model="ir.model.button-res.group" id="task_redo_button_group_hotel">
+            <field name="button" ref="task_redo_button"/>
+            <field name="group" ref="hotel.group_hotel"/>
+        </record>
+        <record model="ir.model.button" id="task_cancel_button">
+            <field name="model" search="[('model', '=', 'hotel.housekeeping.task')]"/>
+            <field name="name">cancel</field>
+            <field name="string">Cancel</field>
+        </record>
+        <record model="ir.model.button-res.group" id="task_cancel_button_group_housekeeping_supervisor">
+            <field name="button" ref="task_cancel_button"/>
+            <field name="group" ref="group_housekeeping_supervisor"/>
+        </record>
+        <record model="ir.model.button-res.group" id="task_cancel_button_group_hotel">
+            <field name="button" ref="task_cancel_button"/>
+            <field name="group" ref="hotel.group_hotel"/>
+        </record>
+        <record model="ir.model.button" id="task_reopen_button">
+            <field name="model" search="[('model', '=', 'hotel.housekeeping.task')]"/>
+            <field name="name">reopen</field>
+            <field name="string">Reopen</field>
+        </record>
+        <record model="ir.model.button-res.group" id="task_reopen_button_group_housekeeping_supervisor">
+            <field name="button" ref="task_reopen_button"/>
+            <field name="group" ref="group_housekeeping_supervisor"/>
+        </record>
+        <record model="ir.model.button-res.group" id="task_reopen_button_group_hotel">
+            <field name="button" ref="task_reopen_button"/>
+            <field name="group" ref="hotel.group_hotel"/>
+        </record>
+        <record model="ir.model.button" id="issue_resolve_button">
+            <field name="model" search="[('model', '=', 'hotel.housekeeping.issue')]"/>
+            <field name="name">resolve</field>
+            <field name="string">Resolve</field>
+        </record>
+        <record model="ir.model.button-res.group" id="issue_resolve_button_group_housekeeping">
+            <field name="button" ref="issue_resolve_button"/>
+            <field name="group" ref="group_housekeeping"/>
+        </record>
+        <record model="ir.model.button-res.group" id="issue_resolve_button_group_hotel">
+            <field name="button" ref="issue_resolve_button"/>
+            <field name="group" ref="hotel.group_hotel"/>
+        </record>
+        <record model="ir.model.button" id="issue_reopen_button">
+            <field name="model" search="[('model', '=', 'hotel.housekeeping.issue')]"/>
+            <field name="name">reopen</field>
+            <field name="string">Reopen</field>
+        </record>
+        <record model="ir.model.button-res.group" id="issue_reopen_button_group_housekeeping_supervisor">
+            <field name="button" ref="issue_reopen_button"/>
+            <field name="group" ref="group_housekeeping_supervisor"/>
+        </record>
+        <record model="ir.model.button-res.group" id="issue_reopen_button_group_hotel">
+            <field name="button" ref="issue_reopen_button"/>
+            <field name="group" ref="hotel.group_hotel"/>
+        </record>
+
+        <!-- Access -->
+        <record model="ir.model.access" id="access_housekeeping_task_default">
+            <field name="model" search="[('model', '=', 'hotel.housekeeping.task')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_housekeeping_task_group_hotel">
+            <field name="model" search="[('model', '=', 'hotel.housekeeping.task')]"/>
+            <field name="group" ref="hotel.group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.model.access" id="access_housekeeping_task_item_default">
+            <field name="model" search="[('model', '=', 'hotel.housekeeping.task.item')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_housekeeping_task_item_group_hotel">
+            <field name="model" search="[('model', '=', 'hotel.housekeeping.task.item')]"/>
+            <field name="group" ref="hotel.group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.model.access" id="access_housekeeping_issue_default">
+            <field name="model" search="[('model', '=', 'hotel.housekeeping.issue')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_housekeeping_issue_group_hotel">
+            <field name="model" search="[('model', '=', 'hotel.housekeeping.issue')]"/>
+            <field name="group" ref="hotel.group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.model.access" id="access_housekeeping_checklist_default">
+            <field name="model" search="[('model', '=', 'hotel.housekeeping.checklist')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_housekeeping_checklist_group_hotel">
+            <field name="model" search="[('model', '=', 'hotel.housekeeping.checklist')]"/>
+            <field name="group" ref="hotel.group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.model.access" id="access_housekeeping_task_group_housekeeping">
+            <field name="model" search="[('model', '=', 'hotel.housekeeping.task')]"/>
+            <field name="group" ref="group_housekeeping"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_housekeeping_task_group_housekeeping_supervisor">
+            <field name="model" search="[('model', '=', 'hotel.housekeeping.task')]"/>
+            <field name="group" ref="group_housekeeping_supervisor"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.model.access" id="access_housekeeping_task_item_group_housekeeping">
+            <field name="model" search="[('model', '=', 'hotel.housekeeping.task.item')]"/>
+            <field name="group" ref="group_housekeeping"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_housekeeping_issue_group_housekeeping">
+            <field name="model" search="[('model', '=', 'hotel.housekeeping.issue')]"/>
+            <field name="group" ref="group_housekeeping"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_housekeeping_checklist_group_housekeeping">
+            <field name="model" search="[('model', '=', 'hotel.housekeeping.checklist')]"/>
+            <field name="group" ref="group_housekeeping"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_housekeeping_checklist_group_housekeeping_supervisor">
+            <field name="model" search="[('model', '=', 'hotel.housekeeping.checklist')]"/>
+            <field name="group" ref="group_housekeeping_supervisor"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.model.access" id="access_hotel_group_housekeeping">
+            <field name="model" search="[('model', '=', 'hotel.hotel')]"/>
+            <field name="group" ref="group_housekeeping"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_room_group_housekeeping">
+            <field name="model" search="[('model', '=', 'hotel.room')]"/>
+            <field name="group" ref="group_housekeeping"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_room_type_group_housekeeping">
+            <field name="model" search="[('model', '=', 'hotel.room.type')]"/>
+            <field name="group" ref="group_housekeeping"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+
+        <!-- Company rules -->
+        <record model="ir.rule.group" id="rule_group_task_companies">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'hotel.housekeeping.task')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_task_companies">
+            <field name="domain"
+                eval="[('company', 'in', Eval('companies', []))]"
+                pyson="1"/>
+            <field name="rule_group" ref="rule_group_task_companies"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_issue_companies">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'hotel.housekeeping.issue')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_issue_companies">
+            <field name="domain"
+                eval="[('company', 'in', Eval('companies', []))]"
+                pyson="1"/>
+            <field name="rule_group" ref="rule_group_issue_companies"/>
+        </record>
+
+        <record model="ir.cron" id="cron_housekeeping">
+            <field name="method">hotel.housekeeping.task|generate</field>
+            <field name="interval_number" eval="15"/>
+            <field name="interval_type">minutes</field>
+        </record>
+    </data>
+</tryton>

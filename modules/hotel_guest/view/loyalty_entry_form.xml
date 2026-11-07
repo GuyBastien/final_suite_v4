@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_guest module. -->
+<form>
+    <label name="company"/>
+    <field name="company"/>
+    <label name="party"/>
+    <field name="party"/>
+    <label name="date"/>
+    <field name="date"/>
+    <label name="kind"/>
+    <field name="kind"/>
+    <label name="points"/>
+    <field name="points"/>
+    <label name="reason"/>
+    <field name="reason"/>
+    <label name="reservation"/>
+    <field name="reservation"/>
+</form>

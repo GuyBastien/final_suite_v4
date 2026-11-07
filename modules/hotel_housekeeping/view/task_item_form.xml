@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_housekeeping module. -->
+<form>
+    <label name="name"/>
+    <field name="name"/>
+    <label name="required"/>
+    <field name="required"/>
+    <label name="done"/>
+    <field name="done"/>
+</form>

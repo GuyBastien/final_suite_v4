@@ -1,0 +1,2916 @@
+#
+msgid ""
+msgstr ""
+"Language: ht\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.template,course:"
+msgid "Course"
+msgstr "Kou"
+
+msgctxt "field:product.template,prep_minutes:"
+msgid "Preparation Time (min)"
+msgstr "Tan preparasyon (min)"
+
+msgctxt "field:product.template,prep_station:"
+msgid "Preparation"
+msgstr "Preparasyon"
+
+msgctxt "field:product.template,recipe:"
+msgid "Recipe"
+msgstr "Resèt"
+
+msgctxt "field:product.template,restaurant_item:"
+msgid "Menu Item"
+msgstr "Atik meni"
+
+msgctxt "field:product.template,sold_out:"
+msgid "Sold Out"
+msgstr "Fini"
+
+msgctxt "field:product.template,track_stock:"
+msgid "Deduct from Stock"
+msgstr "Retire nan estòk"
+
+msgctxt "field:restaurant.area,name:"
+msgid "Name"
+msgstr "Non"
+
+msgctxt "field:restaurant.area,restaurant:"
+msgid "Restaurant"
+msgstr "Restoran"
+
+msgctxt "field:restaurant.area,tables:"
+msgid "Tables"
+msgstr "Tab"
+
+msgctxt "field:restaurant.cash.count,amount:"
+msgid "Amount"
+msgstr "Montan"
+
+msgctxt "field:restaurant.cash.count,currency:"
+msgid "Currency"
+msgstr "Lajan (monnen)"
+
+msgctxt "field:restaurant.cash.count,denomination:"
+msgid "Denomination"
+msgstr "Valè biyè ak pyès"
+
+msgctxt "field:restaurant.cash.count,face_value:"
+msgid "Value"
+msgstr "Valè"
+
+msgctxt "field:restaurant.cash.count,kind:"
+msgid "Kind"
+msgstr "Kalite"
+
+msgctxt "field:restaurant.cash.count,moment:"
+msgid "Moment"
+msgstr "Moman"
+
+msgctxt "field:restaurant.cash.count,quantity:"
+msgid "Counted"
+msgstr "Konte"
+
+msgctxt "field:restaurant.cash.count,session:"
+msgid "Session"
+msgstr "Sesyon"
+
+msgctxt "field:restaurant.cash.count,session_company:"
+msgid "Company"
+msgstr "Konpayi"
+
+msgctxt "field:restaurant.cash.count,suspect_amount:"
+msgid "Suspect Amount"
+msgstr "Montan ki sispèk"
+
+msgctxt "field:restaurant.cash.count,suspect_quantity:"
+msgid "Suspect"
+msgstr "Sispèk"
+
+msgctxt "field:restaurant.cash.session,cash_sales:"
+msgid "Cash Sales"
+msgstr "Vant an lajan kach"
+
+msgctxt "field:restaurant.cash.session,cashier:"
+msgid "Cashier"
+msgstr "Kesye"
+
+msgctxt "field:restaurant.cash.session,closed_at:"
+msgid "Closed at"
+msgstr "Fèmen le"
+
+msgctxt "field:restaurant.cash.session,closing_amount:"
+msgid "Counted Cash"
+msgstr "Lajan kach ki konte"
+
+msgctxt "field:restaurant.cash.session,closing_counts:"
+msgid "Closing Count"
+msgstr "Konte fèmti"
+
+msgctxt "field:restaurant.cash.session,company:"
+msgid "Company"
+msgstr "Konpayi"
+
+msgctxt "field:restaurant.cash.session,counts:"
+msgid "Cash Count"
+msgstr "Konte kès"
+
+msgctxt "field:restaurant.cash.session,currency:"
+msgid "Currency"
+msgstr "Lajan (monnen)"
+
+msgctxt "field:restaurant.cash.session,date:"
+msgid "Date"
+msgstr "Dat"
+
+msgctxt "field:restaurant.cash.session,difference:"
+msgid "Difference"
+msgstr "Diferans"
+
+msgctxt "field:restaurant.cash.session,expected_amount:"
+msgid "Expected Cash"
+msgstr "Lajan kach yo atann"
+
+msgctxt "field:restaurant.cash.session,notes:"
+msgid "Notes"
+msgstr "Nòt"
+
+msgctxt "field:restaurant.cash.session,number:"
+msgid "Number"
+msgstr "Nimewo"
+
+msgctxt "field:restaurant.cash.session,opened_at:"
+msgid "Opened at"
+msgstr "Louvri le"
+
+msgctxt "field:restaurant.cash.session,opening_amount:"
+msgid "Opening Cash"
+msgstr "Lajan kach ouvèti"
+
+msgctxt "field:restaurant.cash.session,opening_counts:"
+msgid "Opening Count"
+msgstr "Konte ouvèti"
+
+msgctxt "field:restaurant.cash.session,payments:"
+msgid "Payments"
+msgstr "Peman"
+
+msgctxt "field:restaurant.cash.session,restaurant:"
+msgid "Restaurant"
+msgstr "Restoran"
+
+msgctxt "field:restaurant.cash.session,state:"
+msgid "State"
+msgstr "Eta"
+
+msgctxt "field:restaurant.cash.session,suspect_amount:"
+msgid "Suspect Notes/Coins"
+msgstr "Biyè/pyès ki sispèk"
+
+msgctxt "field:restaurant.dashboard,bar_queue:"
+msgid "At the Bar"
+msgstr "Nan ba a"
+
+msgctxt "field:restaurant.dashboard,company:"
+msgid "Company"
+msgstr "Konpayi"
+
+msgctxt "field:restaurant.dashboard,deliveries:"
+msgid "Deliveries in Progress"
+msgstr "Livrezon k ap fèt"
+
+msgctxt "field:restaurant.dashboard,free_tables:"
+msgid "Free Tables"
+msgstr "Tab ki lib"
+
+msgctxt "field:restaurant.dashboard,kitchen_queue:"
+msgid "In the Kitchen"
+msgstr "Nan kwizin"
+
+msgctxt "field:restaurant.dashboard,name:"
+msgid "Name"
+msgstr "Non"
+
+msgctxt "field:restaurant.dashboard,occupied_tables:"
+msgid "Occupied Tables"
+msgstr "Tab ki okipe"
+
+msgctxt "field:restaurant.dashboard,open_orders:"
+msgid "Open Orders"
+msgstr "Kòmand ki louvri"
+
+msgctxt "field:restaurant.dashboard,reservations:"
+msgid "Reservations Today"
+msgstr "Rezèvasyon jodi a"
+
+msgctxt "field:restaurant.dashboard,restaurant:"
+msgid "Restaurant"
+msgstr "Restoran"
+
+msgctxt "field:restaurant.dashboard,sales_today:"
+msgid "Sales Today"
+msgstr "Vant jodi a"
+
+msgctxt "field:restaurant.driver,employee:"
+msgid "Employee"
+msgstr "Anplwaye"
+
+msgctxt "field:restaurant.driver,in_progress:"
+msgid "Deliveries in Progress"
+msgstr "Livrezon k ap fèt"
+
+msgctxt "field:restaurant.driver,name:"
+msgid "Name"
+msgstr "Non"
+
+msgctxt "field:restaurant.driver,phone:"
+msgid "Phone"
+msgstr "Telefòn"
+
+msgctxt "field:restaurant.driver,vehicle:"
+msgid "Vehicle"
+msgstr "Veyikil"
+
+msgctxt "field:restaurant.guide.start,content:"
+msgid "Guide"
+msgstr "Gid"
+
+msgctxt "field:restaurant.happy_hour,category:"
+msgid "Category"
+msgstr "Kategori"
+
+msgctxt "field:restaurant.happy_hour,discount:"
+msgid "Discount (%)"
+msgstr "Rabè (%)"
+
+msgctxt "field:restaurant.happy_hour,end_hour:"
+msgid "To"
+msgstr "Rive"
+
+msgctxt "field:restaurant.happy_hour,name:"
+msgid "Name"
+msgstr "Non"
+
+msgctxt "field:restaurant.happy_hour,restaurant:"
+msgid "Restaurant"
+msgstr "Restoran"
+
+msgctxt "field:restaurant.happy_hour,start_hour:"
+msgid "From"
+msgstr "Soti"
+
+msgctxt "field:restaurant.happy_hour,weekday:"
+msgid "Day"
+msgstr "Jou"
+
+msgctxt "field:restaurant.menu,end_hour:"
+msgid "To"
+msgstr "Rive"
+
+msgctxt "field:restaurant.menu,items:"
+msgid "Items"
+msgstr "Atik"
+
+msgctxt "field:restaurant.menu,name:"
+msgid "Name"
+msgstr "Non"
+
+msgctxt "field:restaurant.menu,restaurant:"
+msgid "Restaurant"
+msgstr "Restoran"
+
+msgctxt "field:restaurant.menu,start_hour:"
+msgid "From"
+msgstr "Soti"
+
+msgctxt "field:restaurant.menu,weekday:"
+msgid "Day"
+msgstr "Jou"
+
+msgctxt "field:restaurant.menu.item,menu:"
+msgid "Menu"
+msgstr "Meni"
+
+msgctxt "field:restaurant.menu.item,price:"
+msgid "Menu Price"
+msgstr "Pri meni"
+
+msgctxt "field:restaurant.menu.item,template:"
+msgid "Item"
+msgstr "Atik"
+
+msgctxt "field:restaurant.order,balance:"
+msgid "Balance Due"
+msgstr "Rès pou peye"
+
+msgctxt "field:restaurant.order,company:"
+msgid "Company"
+msgstr "Konpayi"
+
+msgctxt "field:restaurant.order,covers:"
+msgid "Covers"
+msgstr "Kouvè"
+
+msgctxt "field:restaurant.order,currency:"
+msgid "Currency"
+msgstr "Lajan (monnen)"
+
+msgctxt "field:restaurant.order,date:"
+msgid "Date"
+msgstr "Dat"
+
+msgctxt "field:restaurant.order,delivery_address:"
+msgid "Delivery Address"
+msgstr "Adrès livrezon"
+
+msgctxt "field:restaurant.order,delivery_amount:"
+msgid "Delivery Fee"
+msgstr "Frè livrezon"
+
+msgctxt "field:restaurant.order,delivery_state:"
+msgid "Delivery Status"
+msgstr "Eta livrezon an"
+
+msgctxt "field:restaurant.order,discount_amount:"
+msgid "Discount"
+msgstr "Rabè"
+
+msgctxt "field:restaurant.order,discount_percent:"
+msgid "Discount (%)"
+msgstr "Rabè (%)"
+
+msgctxt "field:restaurant.order,driver:"
+msgid "Driver"
+msgstr "Livrè"
+
+msgctxt "field:restaurant.order,lines:"
+msgid "Items"
+msgstr "Atik"
+
+msgctxt "field:restaurant.order,notes:"
+msgid "Notes"
+msgstr "Nòt"
+
+msgctxt "field:restaurant.order,number:"
+msgid "Number"
+msgstr "Nimewo"
+
+msgctxt "field:restaurant.order,paid_amount:"
+msgid "Paid"
+msgstr "Peye"
+
+msgctxt "field:restaurant.order,party:"
+msgid "Customer"
+msgstr "Kliyan"
+
+msgctxt "field:restaurant.order,payments:"
+msgid "Payments"
+msgstr "Peman"
+
+msgctxt "field:restaurant.order,phone:"
+msgid "Phone"
+msgstr "Telefòn"
+
+msgctxt "field:restaurant.order,restaurant:"
+msgid "Restaurant"
+msgstr "Restoran"
+
+msgctxt "field:restaurant.order,service_amount:"
+msgid "Service"
+msgstr "Sèvis"
+
+msgctxt "field:restaurant.order,state:"
+msgid "State"
+msgstr "Eta"
+
+msgctxt "field:restaurant.order,subtotal:"
+msgid "Subtotal"
+msgstr "Sou-total"
+
+msgctxt "field:restaurant.order,tab_name:"
+msgid "Name"
+msgstr "Non"
+
+msgctxt "field:restaurant.order,table:"
+msgid "Table"
+msgstr "Tab"
+
+msgctxt "field:restaurant.order,tax_amount:"
+msgid "Tax Included"
+msgstr "Taks ladan l"
+
+msgctxt "field:restaurant.order,tip:"
+msgid "Tip"
+msgstr "Poubwa"
+
+msgctxt "field:restaurant.order,total:"
+msgid "Total"
+msgstr "Total"
+
+msgctxt "field:restaurant.order,type:"
+msgid "Type"
+msgstr "Tip"
+
+msgctxt "field:restaurant.order,waiter:"
+msgid "Waiter"
+msgstr "Sèvè"
+
+msgctxt "field:restaurant.order.line,amount:"
+msgid "Amount"
+msgstr "Montan"
+
+msgctxt "field:restaurant.order.line,company:"
+msgid "Company"
+msgstr "Konpayi"
+
+msgctxt "field:restaurant.order.line,course:"
+msgid "Course"
+msgstr "Kou"
+
+msgctxt "field:restaurant.order.line,currency:"
+msgid "Currency"
+msgstr "Lajan (monnen)"
+
+msgctxt "field:restaurant.order.line,delay:"
+msgid "Delay"
+msgstr "Reta"
+
+msgctxt "field:restaurant.order.line,discount_percent:"
+msgid "Happy Hour (%)"
+msgstr "Happy hour (%)"
+
+msgctxt "field:restaurant.order.line,elapsed_minutes:"
+msgid "Elapsed (min)"
+msgstr "Pase (min)"
+
+msgctxt "field:restaurant.order.line,guest:"
+msgid "Guest"
+msgstr "Envite"
+
+msgctxt "field:restaurant.order.line,ideal_minutes:"
+msgid "Ideal Time (min)"
+msgstr "Tan ideyal (min)"
+
+msgctxt "field:restaurant.order.line,note:"
+msgid "Note"
+msgstr "Nòt"
+
+msgctxt "field:restaurant.order.line,notified_level:"
+msgid "Notified Level"
+msgstr "Nivo notifye"
+
+msgctxt "field:restaurant.order.line,order:"
+msgid "Order"
+msgstr "Kòmand"
+
+msgctxt "field:restaurant.order.line,order_type:"
+msgid "Order Type"
+msgstr "Tip kòmand"
+
+msgctxt "field:restaurant.order.line,product:"
+msgid "Item"
+msgstr "Atik"
+
+msgctxt "field:restaurant.order.line,quantity:"
+msgid "Quantity"
+msgstr "Kantite"
+
+msgctxt "field:restaurant.order.line,ready_at:"
+msgid "Ready at"
+msgstr "Pare a"
+
+msgctxt "field:restaurant.order.line,sent_at:"
+msgid "Sent at"
+msgstr "Voye a"
+
+msgctxt "field:restaurant.order.line,state:"
+msgid "State"
+msgstr "Eta"
+
+msgctxt "field:restaurant.order.line,station:"
+msgid "Preparation"
+msgstr "Preparasyon"
+
+msgctxt "field:restaurant.order.line,table:"
+msgid "Table"
+msgstr "Tab"
+
+msgctxt "field:restaurant.order.line,unit_price:"
+msgid "Unit Price"
+msgstr "Pri inite"
+
+msgctxt "field:restaurant.payment,amount:"
+msgid "Amount"
+msgstr "Montan"
+
+msgctxt "field:restaurant.payment,change:"
+msgid "Change"
+msgstr "Monnen pou remèt"
+
+msgctxt "field:restaurant.payment,currency:"
+msgid "Currency"
+msgstr "Lajan (monnen)"
+
+msgctxt "field:restaurant.payment,guest:"
+msgid "Guest"
+msgstr "Envite"
+
+msgctxt "field:restaurant.payment,method:"
+msgid "Method"
+msgstr "Mòd"
+
+msgctxt "field:restaurant.payment,order:"
+msgid "Order"
+msgstr "Kòmand"
+
+msgctxt "field:restaurant.payment,reference:"
+msgid "Reference"
+msgstr "Referans"
+
+msgctxt "field:restaurant.payment,session:"
+msgid "Cash Session"
+msgstr "Sesyon kès"
+
+msgctxt "field:restaurant.payment,tendered:"
+msgid "Cash Given"
+msgstr "Lajan kach kliyan bay"
+
+msgctxt "field:restaurant.recipe,lines:"
+msgid "Ingredients"
+msgstr "Engredyan"
+
+msgctxt "field:restaurant.recipe,notes:"
+msgid "Preparation"
+msgstr "Preparasyon"
+
+msgctxt "field:restaurant.recipe,template:"
+msgid "Menu Item"
+msgstr "Atik meni"
+
+msgctxt "field:restaurant.recipe.line,product:"
+msgid "Ingredient"
+msgstr "Engredyan"
+
+msgctxt "field:restaurant.recipe.line,quantity:"
+msgid "Quantity"
+msgstr "Kantite"
+
+msgctxt "field:restaurant.recipe.line,recipe:"
+msgid "Recipe"
+msgstr "Resèt"
+
+msgctxt "field:restaurant.recipe.line,unit:"
+msgid "Unit"
+msgstr "Inite"
+
+msgctxt "field:restaurant.report.sales,amount:"
+msgid "Sales"
+msgstr "Vant"
+
+msgctxt "field:restaurant.report.sales,company:"
+msgid "Company"
+msgstr "Konpayi"
+
+msgctxt "field:restaurant.report.sales,date:"
+msgid "Date"
+msgstr "Dat"
+
+msgctxt "field:restaurant.report.sales,product:"
+msgid "Item"
+msgstr "Atik"
+
+msgctxt "field:restaurant.report.sales,quantity:"
+msgid "Quantity"
+msgstr "Kantite"
+
+msgctxt "field:restaurant.report.sales,restaurant:"
+msgid "Restaurant"
+msgstr "Restoran"
+
+msgctxt "field:restaurant.report.sales,type:"
+msgid "Type"
+msgstr "Tip"
+
+msgctxt "field:restaurant.reservation,company:"
+msgid "Company"
+msgstr "Konpayi"
+
+msgctxt "field:restaurant.reservation,date:"
+msgid "Date"
+msgstr "Dat"
+
+msgctxt "field:restaurant.reservation,duration:"
+msgid "Duration (min)"
+msgstr "Dire (minit)"
+
+msgctxt "field:restaurant.reservation,guest_name:"
+msgid "Guest Name"
+msgstr "Non kliyan an"
+
+msgctxt "field:restaurant.reservation,notes:"
+msgid "Notes"
+msgstr "Nòt"
+
+msgctxt "field:restaurant.reservation,number:"
+msgid "Number"
+msgstr "Nimewo"
+
+msgctxt "field:restaurant.reservation,order:"
+msgid "Order"
+msgstr "Kòmand"
+
+msgctxt "field:restaurant.reservation,party:"
+msgid "Customer"
+msgstr "Kliyan"
+
+msgctxt "field:restaurant.reservation,persons:"
+msgid "Persons"
+msgstr "Moun"
+
+msgctxt "field:restaurant.reservation,phone:"
+msgid "Phone"
+msgstr "Telefòn"
+
+msgctxt "field:restaurant.reservation,restaurant:"
+msgid "Restaurant"
+msgstr "Restoran"
+
+msgctxt "field:restaurant.reservation,state:"
+msgid "State"
+msgstr "Eta"
+
+msgctxt "field:restaurant.reservation,table:"
+msgid "Table"
+msgstr "Tab"
+
+msgctxt "field:restaurant.reservation,time:"
+msgid "Time"
+msgstr "Lè"
+
+msgctxt "field:restaurant.restaurant,areas:"
+msgid "Areas"
+msgstr "Zòn"
+
+msgctxt "field:restaurant.restaurant,bar_minutes:"
+msgid "Bar Ideal Time (min)"
+msgstr "Tan ideyal ba a (min)"
+
+msgctxt "field:restaurant.restaurant,cash_control:"
+msgid "Cash Control"
+msgstr "Kontwòl kès"
+
+msgctxt "field:restaurant.restaurant,cash_tolerance:"
+msgid "Cash Tolerance"
+msgstr "Tolerans kès"
+
+msgctxt "field:restaurant.restaurant,code:"
+msgid "Code"
+msgstr "Kòd"
+
+msgctxt "field:restaurant.restaurant,company:"
+msgid "Company"
+msgstr "Konpayi"
+
+msgctxt "field:restaurant.restaurant,currency:"
+msgid "Currency"
+msgstr "Lajan (monnen)"
+
+msgctxt "field:restaurant.restaurant,delivery_fee:"
+msgid "Delivery Fee"
+msgstr "Frè livrezon"
+
+msgctxt "field:restaurant.restaurant,enforce_menus:"
+msgid "Enforce Menus"
+msgstr "Fòse itilize meni yo"
+
+msgctxt "field:restaurant.restaurant,free_delivery_amount:"
+msgid "Free Delivery From"
+msgstr "Livrezon gratis apati"
+
+msgctxt "field:restaurant.restaurant,kitchen_minutes:"
+msgid "Kitchen Ideal Time (min)"
+msgstr "Tan ideyal kizin nan (min)"
+
+msgctxt "field:restaurant.restaurant,max_discount:"
+msgid "Maximum Discount (%)"
+msgstr "Rabè maksimòm (%)"
+
+msgctxt "field:restaurant.restaurant,menus:"
+msgid "Menus"
+msgstr "Meni yo"
+
+msgctxt "field:restaurant.restaurant,min_delivery_amount:"
+msgid "Minimum Delivery Amount"
+msgstr "Montan minimòm pou livrezon"
+
+msgctxt "field:restaurant.restaurant,name:"
+msgid "Name"
+msgstr "Non"
+
+msgctxt "field:restaurant.restaurant,party:"
+msgid "Contact"
+msgstr "Kontak"
+
+msgctxt "field:restaurant.restaurant,serve_minutes:"
+msgid "Ideal Serving Time (min)"
+msgstr "Tan ideyal sèvis (min)"
+
+msgctxt "field:restaurant.restaurant,service_rate:"
+msgid "Service Charge (%)"
+msgstr "Frè sèvis (%)"
+
+msgctxt "field:restaurant.restaurant,tables:"
+msgid "Tables"
+msgstr "Tab"
+
+msgctxt "field:restaurant.restaurant,tax_rate:"
+msgid "Tax Rate (%)"
+msgstr "To taks (%)"
+
+msgctxt "field:restaurant.restaurant,warehouse:"
+msgid "Warehouse"
+msgstr "Depo"
+
+msgctxt "field:restaurant.table,area:"
+msgid "Area"
+msgstr "Zòn"
+
+msgctxt "field:restaurant.table,code:"
+msgid "Number"
+msgstr "Nimewo"
+
+msgctxt "field:restaurant.table,order:"
+msgid "Current Order"
+msgstr "Kòmand k ap fèt la"
+
+msgctxt "field:restaurant.table,restaurant:"
+msgid "Restaurant"
+msgstr "Restoran"
+
+msgctxt "field:restaurant.table,seats:"
+msgid "Seats"
+msgstr "Plas"
+
+msgctxt "field:restaurant.table,status:"
+msgid "Status"
+msgstr "Sitiyasyon"
+
+msgctxt "help:product.template,course:"
+msgid "Course of the menu in which the item is served."
+msgstr "Kou nan meni kote yo sèvi atik la."
+
+msgctxt "help:product.template,prep_minutes:"
+msgid ""
+"Ideal preparation time of this item, in minutes. Empty uses the ideal time "
+"of the kitchen or of the bar of the restaurant."
+msgstr ""
+"Tan preparasyon ideyal atik sa a, an minit. Vid: tan ideyal kizin nan oswa "
+"ba restoran an."
+
+msgctxt "help:product.template,prep_station:"
+msgid "Where the item is prepared: its ticket appears on this screen."
+msgstr "Kote yo prepare atik la : tikè a parèt sou ekran sa a."
+
+msgctxt "help:product.template,recipe:"
+msgid "Ingredients used to prepare the item."
+msgstr "Engredyan yo itilize pou prepare atik la."
+
+msgctxt "help:product.template,restaurant_item:"
+msgid "Dish or drink sold in the restaurant and the bar."
+msgstr "Plat oswa bwason yo vann nan restoran an ak nan ba a."
+
+msgctxt "help:product.template,sold_out:"
+msgid "Temporarily unavailable: it can no longer be ordered."
+msgstr "Pa disponib pou kounye a : yo pa ka kòmande l ankò."
+
+msgctxt "help:product.template,track_stock:"
+msgid ""
+"Deduct the item itself from the stock when it is sold (bottled drinks). "
+"Items with a recipe deduct their ingredients."
+msgstr ""
+"Retire atik la menm nan estòk lè yo vann li (bwason nan boutèy). Atik ki gen"
+" yon resèt retire engredyan yo."
+
+msgctxt "help:restaurant.area,name:"
+msgid "Dining room, terrace, bar, private room..."
+msgstr "Sal manje, teras, ba, sal prive..."
+
+msgctxt "help:restaurant.area,restaurant:"
+msgid "Restaurant concerned."
+msgstr "Restoran ki konsène a."
+
+msgctxt "help:restaurant.area,tables:"
+msgid "Tables of the restaurant."
+msgstr "Tab restoran an."
+
+msgctxt "help:restaurant.cash.count,amount:"
+msgid "Amount in the currency of the document."
+msgstr "Montan nan lajan dokiman an."
+
+msgctxt "help:restaurant.cash.count,currency:"
+msgid "Currency of the amounts."
+msgstr "Lajan montan yo."
+
+msgctxt "help:restaurant.cash.count,denomination:"
+msgid ""
+"Banknote or coin value counted. The denominations are shared with the points"
+" of sale (Sales > Denominations)."
+msgstr ""
+"Valè biyè oswa pyès lajan ki konte a. Valè yo pataje ak pwen vant yo (Vant >"
+" Valè biyè ak pyès)."
+
+msgctxt "help:restaurant.cash.count,face_value:"
+msgid "Face value of the banknote or coin."
+msgstr "Valè ki make sou biyè a oswa sou pyès la."
+
+msgctxt "help:restaurant.cash.count,kind:"
+msgid "Banknote or coin."
+msgstr "Biyè oswa pyès."
+
+msgctxt "help:restaurant.cash.count,moment:"
+msgid "Opening or closing of the session."
+msgstr "Ouvèti oswa fèmti sesyon an."
+
+msgctxt "help:restaurant.cash.count,quantity:"
+msgid "Number of banknotes or coins counted in the drawer."
+msgstr "Kantite biyè oswa pyès yo konte nan tiwa a."
+
+msgctxt "help:restaurant.cash.count,session:"
+msgid "Cash session concerned."
+msgstr "Sesyon kès ki konsène a."
+
+msgctxt "help:restaurant.cash.count,session_company:"
+msgid "Company of the cash session."
+msgstr "Konpayi sesyon kès la."
+
+msgctxt "help:restaurant.cash.count,suspect_amount:"
+msgid "Value of banknotes or coins that look counterfeit."
+msgstr "Valè biyè oswa pyès ki sanble fo."
+
+msgctxt "help:restaurant.cash.count,suspect_quantity:"
+msgid ""
+"Counterfeit, damaged or doubtful banknotes/coins among those counted. They "
+"are not added to the cash total."
+msgstr ""
+"Biyè/pyès fo, domaje oswa dout pami sa yo konte yo. Yo pa ajoute yo nan "
+"total lajan kach la."
+
+msgctxt "help:restaurant.cash.session,cash_sales:"
+msgid "Sales collected in cash."
+msgstr "Vant yo ranmase an lajan kach."
+
+msgctxt "help:restaurant.cash.session,cashier:"
+msgid "User who runs the cash session."
+msgstr "Itilizatè ki jere sesyon kès la."
+
+msgctxt "help:restaurant.cash.session,closed_at:"
+msgid "Date and time of the closing."
+msgstr "Dat ak lè fèmti a."
+
+msgctxt "help:restaurant.cash.session,closing_amount:"
+msgid "Total cash counted when the session is closed."
+msgstr "Total lajan kach yo konte lè sesyon an fèmen."
+
+msgctxt "help:restaurant.cash.session,closing_counts:"
+msgid "Banknotes and coins counted when closing."
+msgstr "Biyè ak pyès yo konte lè yo fèmen."
+
+msgctxt "help:restaurant.cash.session,company:"
+msgid "Company that owns the record."
+msgstr "Konpayi ki posede done sa a."
+
+msgctxt "help:restaurant.cash.session,counts:"
+msgid "Count of banknotes and coins by denomination."
+msgstr "Konte biyè ak pyès pa valè."
+
+msgctxt "help:restaurant.cash.session,currency:"
+msgid "Currency of the amounts."
+msgstr "Lajan montan yo."
+
+msgctxt "help:restaurant.cash.session,date:"
+msgid "Date of the document."
+msgstr "Dat dokiman an."
+
+msgctxt "help:restaurant.cash.session,difference:"
+msgid "Difference between counted and expected amounts."
+msgstr "Diferans ant montan yo konte ak montan yo atann."
+
+msgctxt "help:restaurant.cash.session,expected_amount:"
+msgid "Opening cash plus cash payments received."
+msgstr "Lajan kach ouvèti plis peman an lajan kach yo resevwa."
+
+msgctxt "help:restaurant.cash.session,notes:"
+msgid "Free text for internal use."
+msgstr "Tèks lib pou itilizasyon entèn."
+
+msgctxt "help:restaurant.cash.session,number:"
+msgid "Number assigned automatically by the sequence."
+msgstr "Nimewo sekans lan bay otomatikman."
+
+msgctxt "help:restaurant.cash.session,opened_at:"
+msgid "Date and time of the opening."
+msgstr "Dat ak lè ouvèti a."
+
+msgctxt "help:restaurant.cash.session,opening_amount:"
+msgid "Total cash counted when the session is opened."
+msgstr "Total lajan kach yo konte lè sesyon an louvri."
+
+msgctxt "help:restaurant.cash.session,opening_counts:"
+msgid "Banknotes and coins counted when opening."
+msgstr "Biyè ak pyès yo konte lè yo louvri."
+
+msgctxt "help:restaurant.cash.session,payments:"
+msgid "Payments received for this record."
+msgstr "Peman yo resevwa pou done sa a."
+
+msgctxt "help:restaurant.cash.session,restaurant:"
+msgid "Restaurant concerned."
+msgstr "Restoran ki konsène a."
+
+msgctxt "help:restaurant.cash.session,state:"
+msgid "Current step of the workflow."
+msgstr "Etap aktyèl nan pwosesis la."
+
+msgctxt "help:restaurant.cash.session,suspect_amount:"
+msgid "Value of banknotes or coins that look counterfeit."
+msgstr "Valè biyè oswa pyès ki sanble fo."
+
+msgctxt "help:restaurant.dashboard,bar_queue:"
+msgid "Items sent to the bar and not served yet."
+msgstr "Atik yo voye nan ba a e yo poko sèvi."
+
+msgctxt "help:restaurant.dashboard,company:"
+msgid "Company that owns the record."
+msgstr "Konpayi ki posede done sa a."
+
+msgctxt "help:restaurant.dashboard,deliveries:"
+msgid "Orders being delivered at this moment."
+msgstr "Kòmand k ap livre kounye a."
+
+msgctxt "help:restaurant.dashboard,free_tables:"
+msgid "Tables without open order."
+msgstr "Tab ki pa gen kòmand ouvè."
+
+msgctxt "help:restaurant.dashboard,kitchen_queue:"
+msgid "Items sent to the kitchen and not served yet."
+msgstr "Atik yo voye nan kwizin nan e yo poko sèvi."
+
+msgctxt "help:restaurant.dashboard,name:"
+msgid "Name displayed in lists and searches."
+msgstr "Non ki parèt nan lis yo ak nan rechèch yo."
+
+msgctxt "help:restaurant.dashboard,occupied_tables:"
+msgid "Tables with an open order."
+msgstr "Tab ki gen yon kòmand ouvè."
+
+msgctxt "help:restaurant.dashboard,open_orders:"
+msgid "Orders not yet paid or cancelled."
+msgstr "Kòmand ki poko peye ni anile."
+
+msgctxt "help:restaurant.dashboard,reservations:"
+msgid "Bookings expected today."
+msgstr "Rezèvasyon yo atann jodi a."
+
+msgctxt "help:restaurant.dashboard,restaurant:"
+msgid "Restaurant concerned."
+msgstr "Restoran ki konsène a."
+
+msgctxt "help:restaurant.dashboard,sales_today:"
+msgid "Sales of the day."
+msgstr "Vant jou a."
+
+msgctxt "help:restaurant.driver,employee:"
+msgid "Link to an employee if the driver is on the payroll."
+msgstr "Lyen ak yon anplwaye si livrè a sou lis peman."
+
+msgctxt "help:restaurant.driver,in_progress:"
+msgid "Orders on the way for this driver."
+msgstr "Kòmand ki sou wout pou livrè sa a."
+
+msgctxt "help:restaurant.driver,name:"
+msgid "Name displayed in lists and searches."
+msgstr "Non ki parèt nan lis yo ak nan rechèch yo."
+
+msgctxt "help:restaurant.driver,phone:"
+msgid "Phone number to call for this record."
+msgstr "Nimewo telefòn pou rele."
+
+msgctxt "help:restaurant.driver,vehicle:"
+msgid "Motorbike, car, plate number..."
+msgstr "Motosiklèt, machin, plak..."
+
+msgctxt "help:restaurant.guide.start,content:"
+msgid "Text of the usage guide."
+msgstr "Tèks gid itilizasyon an."
+
+msgctxt "help:restaurant.happy_hour,category:"
+msgid "Leave empty for every menu item."
+msgstr "Kite l vid pou tout atik meni yo."
+
+msgctxt "help:restaurant.happy_hour,discount:"
+msgid "Discount rate applied."
+msgstr "To rabè yo aplike a."
+
+msgctxt "help:restaurant.happy_hour,end_hour:"
+msgid "End of the period, as a decimal hour (19.5 = 19:30)."
+msgstr "Fen peryòd la, an lè desimal (19.5 = 7è 30)."
+
+msgctxt "help:restaurant.happy_hour,name:"
+msgid "Name displayed in lists and searches."
+msgstr "Non ki parèt nan lis yo ak nan rechèch yo."
+
+msgctxt "help:restaurant.happy_hour,restaurant:"
+msgid "Leave empty for every restaurant."
+msgstr "Kite l vid pou tout restoran yo."
+
+msgctxt "help:restaurant.happy_hour,start_hour:"
+msgid "Hour as a decimal: 17.5 means 17:30."
+msgstr "Lè an desimal : 17.5 vle di 5è 30 nan aprèmidi."
+
+msgctxt "help:restaurant.happy_hour,weekday:"
+msgid "Day of the week the rule applies to."
+msgstr "Jou nan semèn nan règ la aplike."
+
+msgctxt "help:restaurant.menu,end_hour:"
+msgid "End of the period, as a decimal hour (19.5 = 19:30)."
+msgstr "Fen peryòd la, an lè desimal (19.5 = 7è 30)."
+
+msgctxt "help:restaurant.menu,items:"
+msgid "Items offered in this menu."
+msgstr "Atik yo ofri nan meni sa a."
+
+msgctxt "help:restaurant.menu,name:"
+msgid "Name displayed in lists and searches."
+msgstr "Non ki parèt nan lis yo ak nan rechèch yo."
+
+msgctxt "help:restaurant.menu,restaurant:"
+msgid "Restaurant concerned."
+msgstr "Restoran ki konsène a."
+
+msgctxt "help:restaurant.menu,start_hour:"
+msgid "Hour as a decimal: 17.5 means 17:30."
+msgstr "Lè an desimal : 17.5 vle di 5è 30 nan aprèmidi."
+
+msgctxt "help:restaurant.menu,weekday:"
+msgid "Day of the week the rule applies to."
+msgstr "Jou nan semèn nan règ la aplike."
+
+msgctxt "help:restaurant.menu.item,menu:"
+msgid "Menu card the item belongs to."
+msgstr "Kat meni atik la fè pati."
+
+msgctxt "help:restaurant.menu.item,price:"
+msgid "Leave empty to keep the list price."
+msgstr "Kite l vid pou kenbe pri katalòg la."
+
+msgctxt "help:restaurant.menu.item,template:"
+msgid "Product the record applies to."
+msgstr "Pwodui done sa a aplike sou li."
+
+msgctxt "help:restaurant.order,balance:"
+msgid "Amount still to be paid, tip included."
+msgstr "Montan ki rete pou peye, poubwa ladan l."
+
+msgctxt "help:restaurant.order,company:"
+msgid "Company that owns the record."
+msgstr "Konpayi ki posede done sa a."
+
+msgctxt "help:restaurant.order,covers:"
+msgid "Number of guests at the table."
+msgstr "Kantite moun nan tab la."
+
+msgctxt "help:restaurant.order,currency:"
+msgid "Currency of the amounts."
+msgstr "Lajan montan yo."
+
+msgctxt "help:restaurant.order,date:"
+msgid "Date of the document."
+msgstr "Dat dokiman an."
+
+msgctxt "help:restaurant.order,delivery_address:"
+msgid "Address where the order must be delivered."
+msgstr "Adrès kote yo dwe livre kòmand lan."
+
+msgctxt "help:restaurant.order,delivery_amount:"
+msgid "Delivery fee added to the order."
+msgstr "Frè livrezon yo ajoute sou kòmand lan."
+
+msgctxt "help:restaurant.order,delivery_state:"
+msgid "Progress of the delivery."
+msgstr "Kote livrezon an rive."
+
+msgctxt "help:restaurant.order,discount_amount:"
+msgid "Amount of the discount."
+msgstr "Montan rabè a."
+
+msgctxt "help:restaurant.order,discount_percent:"
+msgid "Discount rate in percent, including the happy hour discount."
+msgstr "To rabè an pousantaj, rabè happy hour a enkli."
+
+msgctxt "help:restaurant.order,driver:"
+msgid "Person in charge of the delivery."
+msgstr "Moun ki chaje livrezon an."
+
+msgctxt "help:restaurant.order,lines:"
+msgid "Detail lines of the document."
+msgstr "Liy detay dokiman an."
+
+msgctxt "help:restaurant.order,notes:"
+msgid "Free text for internal use."
+msgstr "Tèks lib pou itilizasyon entèn."
+
+msgctxt "help:restaurant.order,number:"
+msgid "Number assigned automatically by the sequence."
+msgstr "Nimewo sekans lan bay otomatikman."
+
+msgctxt "help:restaurant.order,paid_amount:"
+msgid "Total of the payments received."
+msgstr "Total peman yo resevwa."
+
+msgctxt "help:restaurant.order,party:"
+msgid "Customer or contact concerned."
+msgstr "Kliyan oswa kontak ki konsène a."
+
+msgctxt "help:restaurant.order,payments:"
+msgid "Payments received for this record."
+msgstr "Peman yo resevwa pou done sa a."
+
+msgctxt "help:restaurant.order,phone:"
+msgid "Phone number to call for this record."
+msgstr "Nimewo telefòn pou rele."
+
+msgctxt "help:restaurant.order,restaurant:"
+msgid "Restaurant concerned."
+msgstr "Restoran ki konsène a."
+
+msgctxt "help:restaurant.order,service_amount:"
+msgid "Service charge added to table and bar orders."
+msgstr "Frè sèvis yo ajoute sou kòmand tab ak ba."
+
+msgctxt "help:restaurant.order,state:"
+msgid "Current step of the workflow."
+msgstr "Etap aktyèl nan pwosesis la."
+
+msgctxt "help:restaurant.order,subtotal:"
+msgid "Total of the items before discount, service and delivery."
+msgstr "Total atik yo anvan rabè, sèvis ak livrezon."
+
+msgctxt "help:restaurant.order,tab_name:"
+msgid "Name of the bar tab or of the takeaway customer."
+msgstr "Non nòt ba a oswa non kliyan ki pran pou pòte ale a."
+
+msgctxt "help:restaurant.order,table:"
+msgid "Table of the restaurant."
+msgstr "Tab restoran an."
+
+msgctxt "help:restaurant.order,tax_amount:"
+msgid "Tax contained in the total (informative)."
+msgstr "Taks ki nan total la (pou enfòmasyon)."
+
+msgctxt "help:restaurant.order,tip:"
+msgid "Tip left by the customer, added to the balance."
+msgstr "Poubwa kliyan an kite, yo ajoute l sou rès la."
+
+msgctxt "help:restaurant.order,total:"
+msgid "Total to pay."
+msgstr "Total pou peye."
+
+msgctxt "help:restaurant.order,type:"
+msgid "Kind of record."
+msgstr "Kalite done a."
+
+msgctxt "help:restaurant.order,waiter:"
+msgid "Employee who takes care of the table."
+msgstr "Anplwaye ki okipe tab la."
+
+msgctxt "help:restaurant.order.line,amount:"
+msgid "Amount in the currency of the document."
+msgstr "Montan nan lajan dokiman an."
+
+msgctxt "help:restaurant.order.line,company:"
+msgid "Company that owns the record."
+msgstr "Konpayi ki posede done sa a."
+
+msgctxt "help:restaurant.order.line,course:"
+msgid "Course of the menu in which the item is served."
+msgstr "Kou nan meni kote yo sèvi atik la."
+
+msgctxt "help:restaurant.order.line,currency:"
+msgid "Currency of the amounts."
+msgstr "Lajan montan yo."
+
+msgctxt "help:restaurant.order.line,delay:"
+msgid ""
+"On time, over the ideal time, or very late (150% of the ideal time). Drives "
+"the colors of the kitchen and bar screens."
+msgstr ""
+"A lè, pi lwen pase tan ideyal la, oswa anreta anpil (150% tan ideyal la). Sa"
+" detèmine koulè ekran kizin ak ba yo."
+
+msgctxt "help:restaurant.order.line,discount_percent:"
+msgid "Discount rate in percent, including the happy hour discount."
+msgstr "To rabè an pousantaj, rabè happy hour a enkli."
+
+msgctxt "help:restaurant.order.line,elapsed_minutes:"
+msgid "Minutes since the item was sent, or since it is ready."
+msgstr "Minit depi yo voye atik la, oswa depi li pare."
+
+msgctxt "help:restaurant.order.line,guest:"
+msgid "Seat or guest number, to split the bill (0 = shared)."
+msgstr "Nimewo plas oswa moun, pou divize nòt la (0 = pataje)."
+
+msgctxt "help:restaurant.order.line,ideal_minutes:"
+msgid "Ideal time of the current step: preparation, then service."
+msgstr "Tan ideyal etap aktyèl la: preparasyon, apre sa sèvis."
+
+msgctxt "help:restaurant.order.line,note:"
+msgid "Cooking, allergies, no ice..."
+msgstr "Kwit, alèji, san glas..."
+
+msgctxt "help:restaurant.order.line,notified_level:"
+msgid ""
+"Highest delay level already notified for the current step (0 none, 1 over "
+"the ideal time, 2 very late)."
+msgstr ""
+"Pi wo nivo reta yo deja notifye pou etap aktyèl la (0 okenn, 1 pi lwen pase "
+"tan ideyal la, 2 anreta anpil)."
+
+msgctxt "help:restaurant.order.line,order:"
+msgid "Order concerned."
+msgstr "Kòmand ki konsène a."
+
+msgctxt "help:restaurant.order.line,order_type:"
+msgid "Dine-in, bar tab, takeaway or delivery."
+msgstr "Sou plas, nòt ba, pou pote ale oswa livrezon."
+
+msgctxt "help:restaurant.order.line,product:"
+msgid "Product concerned."
+msgstr "Pwodui ki konsène a."
+
+msgctxt "help:restaurant.order.line,quantity:"
+msgid "Quantity, in the unit of measure."
+msgstr "Kantite, nan inite mezi a."
+
+msgctxt "help:restaurant.order.line,ready_at:"
+msgid "Time the item was ready to be served."
+msgstr "Lè atik la te pare pou sèvi."
+
+msgctxt "help:restaurant.order.line,sent_at:"
+msgid "Time the item was sent to the kitchen or bar."
+msgstr "Lè yo voye atik la nan kwizin oswa nan ba a."
+
+msgctxt "help:restaurant.order.line,state:"
+msgid "Current step of the workflow."
+msgstr "Etap aktyèl nan pwosesis la."
+
+msgctxt "help:restaurant.order.line,station:"
+msgid "Station concerned."
+msgstr "Estasyon ki konsène a."
+
+msgctxt "help:restaurant.order.line,table:"
+msgid "Table of the restaurant."
+msgstr "Tab restoran an."
+
+msgctxt "help:restaurant.order.line,unit_price:"
+msgid "Price of one unit before discount."
+msgstr "Pri yon inite anvan rabè."
+
+msgctxt "help:restaurant.payment,amount:"
+msgid "Amount in the currency of the document."
+msgstr "Montan nan lajan dokiman an."
+
+msgctxt "help:restaurant.payment,change:"
+msgid "Money given back to the customer."
+msgstr "Lajan yo remèt kliyan an."
+
+msgctxt "help:restaurant.payment,currency:"
+msgid "Currency of the amounts."
+msgstr "Lajan montan yo."
+
+msgctxt "help:restaurant.payment,guest:"
+msgid "Guest who pays this part of the bill (0 = whole table)."
+msgstr "Moun ki peye pati nòt sa a (0 = tout tab la)."
+
+msgctxt "help:restaurant.payment,method:"
+msgid "How the customer pays."
+msgstr "Jan kliyan an peye."
+
+msgctxt "help:restaurant.payment,order:"
+msgid "Order concerned."
+msgstr "Kòmand ki konsène a."
+
+msgctxt "help:restaurant.payment,reference:"
+msgid "Reference of the payment (receipt number, voucher...)."
+msgstr "Referans peman an (nimewo resi, bon...)."
+
+msgctxt "help:restaurant.payment,session:"
+msgid "Cash session concerned."
+msgstr "Sesyon kès ki konsène a."
+
+msgctxt "help:restaurant.payment,tendered:"
+msgid "Cash handed over by the customer."
+msgstr "Lajan kach kliyan an bay."
+
+msgctxt "help:restaurant.recipe,lines:"
+msgid "Detail lines of the document."
+msgstr "Liy detay dokiman an."
+
+msgctxt "help:restaurant.recipe,notes:"
+msgid "Free text for internal use."
+msgstr "Tèks lib pou itilizasyon entèn."
+
+msgctxt "help:restaurant.recipe,template:"
+msgid "Product the record applies to."
+msgstr "Pwodui done sa a aplike sou li."
+
+msgctxt "help:restaurant.recipe.line,product:"
+msgid "Product concerned."
+msgstr "Pwodui ki konsène a."
+
+msgctxt "help:restaurant.recipe.line,quantity:"
+msgid "Quantity used for one portion."
+msgstr "Kantite yo itilize pou yon pòsyon."
+
+msgctxt "help:restaurant.recipe.line,recipe:"
+msgid "Ingredients used to prepare the item."
+msgstr "Engredyan yo itilize pou prepare atik la."
+
+msgctxt "help:restaurant.recipe.line,unit:"
+msgid "Unit of measure."
+msgstr "Inite mezi."
+
+msgctxt "help:restaurant.report.sales,amount:"
+msgid "Amount in the currency of the document."
+msgstr "Montan nan lajan dokiman an."
+
+msgctxt "help:restaurant.report.sales,company:"
+msgid "Company that owns the record."
+msgstr "Konpayi ki posede done sa a."
+
+msgctxt "help:restaurant.report.sales,date:"
+msgid "Date of the document."
+msgstr "Dat dokiman an."
+
+msgctxt "help:restaurant.report.sales,product:"
+msgid "Product concerned."
+msgstr "Pwodui ki konsène a."
+
+msgctxt "help:restaurant.report.sales,quantity:"
+msgid "Quantity, in the unit of measure."
+msgstr "Kantite, nan inite mezi a."
+
+msgctxt "help:restaurant.report.sales,restaurant:"
+msgid "Restaurant concerned."
+msgstr "Restoran ki konsène a."
+
+msgctxt "help:restaurant.report.sales,type:"
+msgid "Kind of record."
+msgstr "Kalite done a."
+
+msgctxt "help:restaurant.reservation,company:"
+msgid "Company that owns the record."
+msgstr "Konpayi ki posede done sa a."
+
+msgctxt "help:restaurant.reservation,date:"
+msgid "Date of the document."
+msgstr "Dat dokiman an."
+
+msgctxt "help:restaurant.reservation,duration:"
+msgid "Expected length of the booking, in minutes."
+msgstr "Dire rezèvasyon an prevwa, an minit."
+
+msgctxt "help:restaurant.reservation,guest_name:"
+msgid "Name under which the table is booked."
+msgstr "Non yo rezève tab la sou li."
+
+msgctxt "help:restaurant.reservation,notes:"
+msgid "Free text for internal use."
+msgstr "Tèks lib pou itilizasyon entèn."
+
+msgctxt "help:restaurant.reservation,number:"
+msgid "Number assigned automatically by the sequence."
+msgstr "Nimewo sekans lan bay otomatikman."
+
+msgctxt "help:restaurant.reservation,order:"
+msgid "Order concerned."
+msgstr "Kòmand ki konsène a."
+
+msgctxt "help:restaurant.reservation,party:"
+msgid "Customer or contact concerned."
+msgstr "Kliyan oswa kontak ki konsène a."
+
+msgctxt "help:restaurant.reservation,persons:"
+msgid "Number of guests expected."
+msgstr "Kantite moun yo atann."
+
+msgctxt "help:restaurant.reservation,phone:"
+msgid "Phone number to call for this record."
+msgstr "Nimewo telefòn pou rele."
+
+msgctxt "help:restaurant.reservation,restaurant:"
+msgid "Restaurant concerned."
+msgstr "Restoran ki konsène a."
+
+msgctxt "help:restaurant.reservation,state:"
+msgid "Current step of the workflow."
+msgstr "Etap aktyèl nan pwosesis la."
+
+msgctxt "help:restaurant.reservation,table:"
+msgid "Table of the restaurant."
+msgstr "Tab restoran an."
+
+msgctxt "help:restaurant.reservation,time:"
+msgid "Time of the day."
+msgstr "Lè nan jounen an."
+
+msgctxt "help:restaurant.restaurant,areas:"
+msgid "Areas of the establishment."
+msgstr "Zòn etablisman an."
+
+msgctxt "help:restaurant.restaurant,bar_minutes:"
+msgid ""
+"Ideal time between sending a drink to the bar and its readiness. The item "
+"can override it with its own preparation time."
+msgstr ""
+"Tan ideyal ant voye yon bwason nan ba a ak lè li pare. Atik la kapab "
+"ranplase l ak pwòp tan preparasyon li."
+
+msgctxt "help:restaurant.restaurant,cash_control:"
+msgid ""
+"Require an open cash session, with a banknote and coin count at opening and "
+"closing, to take cash payments."
+msgstr ""
+"Mande yon sesyon kès ouvè, ak konte biyè ak pyès lè yo louvri ak lè yo "
+"fèmen, pou resevwa peman an lajan kach."
+
+msgctxt "help:restaurant.restaurant,cash_tolerance:"
+msgid "Closing difference accepted without warning."
+msgstr "Diferans fèmti yo aksepte san avètisman."
+
+msgctxt "help:restaurant.restaurant,code:"
+msgid "Short unique identifier."
+msgstr "Idantifyan kout ki inik."
+
+msgctxt "help:restaurant.restaurant,company:"
+msgid "Company that owns the record."
+msgstr "Konpayi ki posede done sa a."
+
+msgctxt "help:restaurant.restaurant,currency:"
+msgid "Currency of the amounts."
+msgstr "Lajan montan yo."
+
+msgctxt "help:restaurant.restaurant,delivery_fee:"
+msgid "Fee charged for a delivery."
+msgstr "Frè yo chaje pou yon livrezon."
+
+msgctxt "help:restaurant.restaurant,enforce_menus:"
+msgid ""
+"Only items of a menu available now can be ordered, at the price of that menu"
+" if it has one."
+msgstr ""
+"Se sèlman atik yon meni ki disponib kounye a yo ka kòmande, nan pri meni sa "
+"a si l genyen youn."
+
+msgctxt "help:restaurant.restaurant,free_delivery_amount:"
+msgid "No delivery fee from this amount (0 = never free)."
+msgstr "Pa gen frè livrezon apati montan sa a (0 = pa janm gratis)."
+
+msgctxt "help:restaurant.restaurant,kitchen_minutes:"
+msgid ""
+"Ideal time between sending an item to the kitchen and its readiness. Over it"
+" the line turns orange on the kitchen screen and the kitchen is notified; at"
+" 150% it turns red."
+msgstr ""
+"Tan ideyal ant voye yon atik nan kizin nan ak lè li pare. Pi lwen pase sa, "
+"liy lan vin zoranj sou ekran kizin nan epi yo notifye kizin nan; a 150% li "
+"vin wouj."
+
+msgctxt "help:restaurant.restaurant,max_discount:"
+msgid "Discount a waiter may give; above, a manager is needed."
+msgstr "Rabè yon sèvè ka bay ; pi wo a, yo bezwen yon responsab."
+
+msgctxt "help:restaurant.restaurant,menus:"
+msgid "Menu cards of the restaurant."
+msgstr "Kat meni restoran an."
+
+msgctxt "help:restaurant.restaurant,min_delivery_amount:"
+msgid "Minimum value of the items of a delivery order."
+msgstr "Valè minimòm atik yon kòmand livrezon."
+
+msgctxt "help:restaurant.restaurant,name:"
+msgid "Name displayed in lists and searches."
+msgstr "Non ki parèt nan lis yo ak nan rechèch yo."
+
+msgctxt "help:restaurant.restaurant,party:"
+msgid "Address and phone of the establishment."
+msgstr "Adrès ak telefòn etablisman an."
+
+msgctxt "help:restaurant.restaurant,serve_minutes:"
+msgid ""
+"Ideal time between an item ready and its service at the table. Over it the "
+"waiters are notified."
+msgstr ""
+"Tan ideyal ant yon atik pare ak sèvis li nan tab la. Pi lwen pase sa, yo "
+"notifye sèvè yo."
+
+msgctxt "help:restaurant.restaurant,service_rate:"
+msgid "Added to table and bar orders."
+msgstr "Yo ajoute l sou kòmand tab ak kòmand ba."
+
+msgctxt "help:restaurant.restaurant,tables:"
+msgid "Tables of the restaurant."
+msgstr "Tab restoran an."
+
+msgctxt "help:restaurant.restaurant,tax_rate:"
+msgid "Tax contained in the prices (informative on the bill)."
+msgstr "Taks ki nan pri yo deja (pou enfòmasyon sou nòt la)."
+
+msgctxt "help:restaurant.restaurant,warehouse:"
+msgid ""
+"Stock used by the recipes and the drinks. Leave empty to disable the stock "
+"moves."
+msgstr ""
+"Estòk resèt yo ak bwason yo itilize. Kite l vid pou pa fè mouvman estòk."
+
+msgctxt "help:restaurant.table,area:"
+msgid "Area (room, terrace, bar...) of the restaurant."
+msgstr "Zòn (sal, teras, ba...) restoran an."
+
+msgctxt "help:restaurant.table,code:"
+msgid "Short unique identifier."
+msgstr "Idantifyan kout ki inik."
+
+msgctxt "help:restaurant.table,order:"
+msgid "Order concerned."
+msgstr "Kòmand ki konsène a."
+
+msgctxt "help:restaurant.table,restaurant:"
+msgid "Restaurant concerned."
+msgstr "Restoran ki konsène a."
+
+msgctxt "help:restaurant.table,seats:"
+msgid "Number of seats at the table."
+msgstr "Kantite plas nan tab la."
+
+msgctxt "help:restaurant.table,status:"
+msgid "Current availability."
+msgstr "Disponibilite kounye a."
+
+msgctxt "model:ir.action,name:act_area"
+msgid "Areas"
+msgstr "Zòn"
+
+msgctxt "model:ir.action,name:act_bar"
+msgid "Bar Screen"
+msgstr "Ekran ba a"
+
+msgctxt "model:ir.action,name:act_carte"
+msgid "Menus"
+msgstr "Meni yo"
+
+msgctxt "model:ir.action,name:act_cash_session"
+msgid "Cash Sessions"
+msgstr "Sesyon kès yo"
+
+msgctxt "model:ir.action,name:act_dashboard"
+msgid "Dashboard"
+msgstr "Tablo de bò"
+
+msgctxt "model:ir.action,name:act_delivery_order"
+msgid "Deliveries"
+msgstr "Livrezon"
+
+msgctxt "model:ir.action,name:act_driver"
+msgid "Drivers"
+msgstr "Livrè"
+
+msgctxt "model:ir.action,name:act_happy_hour"
+msgid "Happy Hours"
+msgstr "Happy hour yo"
+
+msgctxt "model:ir.action,name:act_kitchen"
+msgid "Kitchen Screen"
+msgstr "Ekran kwizin nan"
+
+msgctxt "model:ir.action,name:act_menu_item"
+msgid "Menu Items"
+msgstr "Atik meni yo"
+
+msgctxt "model:ir.action,name:act_order"
+msgid "Orders"
+msgstr "Kòmand yo"
+
+msgctxt "model:ir.action,name:act_recipe"
+msgid "Recipes"
+msgstr "Resèt yo"
+
+msgctxt "model:ir.action,name:act_reservation"
+msgid "Reservations"
+msgstr "Rezèvasyon yo"
+
+msgctxt "model:ir.action,name:act_restaurant"
+msgid "Restaurants"
+msgstr "Restoran yo"
+
+msgctxt "model:ir.action,name:act_sales_report"
+msgid "Restaurant Sales"
+msgstr "Vant restoran an"
+
+msgctxt "model:ir.action,name:act_table"
+msgid "Tables"
+msgstr "Tab"
+
+msgctxt "model:ir.action,name:report_order_receipt"
+msgid "Bill"
+msgstr "Nòt la"
+
+msgctxt "model:ir.action,name:report_order_split"
+msgid "Bill by Guest"
+msgstr "Nòt pa moun"
+
+msgctxt "model:ir.action,name:report_order_ticket"
+msgid "Ticket (80 mm)"
+msgstr "Tikè (80 mm)"
+
+msgctxt "model:ir.action,name:wizard_guide"
+msgid "Usage Guide"
+msgstr "Gid itilizasyon"
+
+msgctxt "model:ir.action.act_window.domain,name:act_cash_session_domain_0"
+msgid "Open"
+msgstr "Louvri"
+
+msgctxt "model:ir.action.act_window.domain,name:act_cash_session_domain_1"
+msgid "Closed"
+msgstr "Fèmen"
+
+msgctxt "model:ir.action.act_window.domain,name:act_cash_session_domain_2"
+msgid "All"
+msgstr "Tout"
+
+msgctxt "model:ir.action.act_window.domain,name:act_delivery_order_domain_0"
+msgid "To Deliver"
+msgstr "Pou livre"
+
+msgctxt "model:ir.action.act_window.domain,name:act_delivery_order_domain_1"
+msgid "Delivered"
+msgstr "Livre"
+
+msgctxt "model:ir.action.act_window.domain,name:act_delivery_order_domain_2"
+msgid "All"
+msgstr "Tout"
+
+msgctxt "model:ir.action.act_window.domain,name:act_order_domain_0"
+msgid "Open"
+msgstr "Louvri"
+
+msgctxt "model:ir.action.act_window.domain,name:act_order_domain_1"
+msgid "Dine-in"
+msgstr "Manje sou plas"
+
+msgctxt "model:ir.action.act_window.domain,name:act_order_domain_2"
+msgid "Takeaway"
+msgstr "Pou pote ale"
+
+msgctxt "model:ir.action.act_window.domain,name:act_order_domain_3"
+msgid "Paid"
+msgstr "Peye"
+
+msgctxt "model:ir.action.act_window.domain,name:act_order_domain_4"
+msgid "All"
+msgstr "Tout"
+
+msgctxt "model:ir.action.act_window.domain,name:act_reservation_domain_0"
+msgid "Booked"
+msgstr "Rezève"
+
+msgctxt "model:ir.action.act_window.domain,name:act_reservation_domain_1"
+msgid "All"
+msgstr "Tout"
+
+msgctxt "model:ir.action.act_window.domain,name:act_table_domain_0"
+msgid "Free"
+msgstr "Lib"
+
+msgctxt "model:ir.action.act_window.domain,name:act_table_domain_1"
+msgid "Occupied"
+msgstr "Okipe"
+
+msgctxt "model:ir.action.act_window.domain,name:act_table_domain_2"
+msgid "All"
+msgstr "Tout"
+
+msgctxt "model:ir.message,text:msg_area_unique"
+msgid "The name of the area must be unique per restaurant."
+msgstr "Non zòn nan dwe inik pou chak restoran."
+
+msgctxt "model:ir.message,text:msg_cash_count_currency"
+msgid ""
+"The denomination \"%(denomination)s\" is not in the currency of the company."
+msgstr "Valè « %(denomination)s » la pa nan lajan konpayi an."
+
+msgctxt "model:ir.message,text:msg_cash_count_suspect"
+msgid "Suspect banknotes or coins cannot exceed the counted quantity."
+msgstr "Biyè oswa pyès ki sispèk yo pa ka depase kantite yo konte a."
+
+msgctxt "model:ir.message,text:msg_cash_count_unique"
+msgid "A denomination can only be counted once per moment and session."
+msgstr "Yo ka konte yon valè yon sèl fwa pou chak moman ak chak sesyon."
+
+msgctxt "model:ir.message,text:msg_delay_item"
+msgid "%(where)s - %(product)s: %(elapsed)s min (ideal %(ideal)s)"
+msgstr "%(where)s - %(product)s: %(elapsed)s min (ideyal %(ideal)s)"
+
+msgctxt "model:ir.message,text:msg_delay_title_prep_1"
+msgid "%(station)s: %(count)s item(s) over the ideal time"
+msgstr "%(station)s: %(count)s atik pi lwen pase tan ideyal la"
+
+msgctxt "model:ir.message,text:msg_delay_title_prep_2"
+msgid "%(station)s: %(count)s item(s) very late"
+msgstr "%(station)s: %(count)s atik anreta anpil"
+
+msgctxt "model:ir.message,text:msg_delay_title_serve_1"
+msgid "%(count)s item(s) ready and waiting to be served"
+msgstr "%(count)s atik pare k ap tann sèvis"
+
+msgctxt "model:ir.message,text:msg_delay_title_serve_2"
+msgid "%(count)s item(s) ready for too long: serve them now"
+msgstr "%(count)s atik pare depi twò lontan: sèvi yo kounye a"
+
+msgctxt "model:ir.message,text:msg_delivery_address"
+msgid "Delivery order \"%(order)s\" needs an address and a phone number."
+msgstr "Kòmand livrezon « %(order)s » bezwen yon adrès ak yon nimewo telefòn."
+
+msgctxt "model:ir.message,text:msg_delivery_minimum"
+msgid "The minimum amount for delivery is %(minimum)s."
+msgstr "Montan minimòm pou yon livrezon se %(minimum)s."
+
+msgctxt "model:ir.message,text:msg_delivery_no_driver"
+msgid "Order \"%(order)s\" needs a driver."
+msgstr "Kòmand « %(order)s » bezwen yon livrè."
+
+msgctxt "model:ir.message,text:msg_delivery_not_sent"
+msgid "Order \"%(order)s\" has not been sent to the kitchen yet."
+msgstr "Yo poko voye kòmand « %(order)s » nan kwizin nan."
+
+msgctxt "model:ir.message,text:msg_denomination_unique"
+msgid "This banknote or coin already exists for the currency."
+msgstr "Biyè oswa pyès sa a deja egziste pou lajan sa a."
+
+msgctxt "model:ir.message,text:msg_denomination_unknown"
+msgid ""
+"No standard denominations are known for currency \"%(currency)s\". Create "
+"them by hand."
+msgstr ""
+"Pa gen valè estanda yo konnen pou lajan « %(currency)s ». Kreye yo alamen."
+
+msgctxt "model:ir.message,text:msg_discount_too_high"
+msgid "The discount cannot exceed %(maximum)s%% without a manager."
+msgstr "Rabè a pa ka depase %(maximum)s%% san yon responsab."
+
+msgctxt "model:ir.message,text:msg_guide_usage"
+msgid ""
+"RESTAURANT - USAGE GUIDE\n"
+"\n"
+"1. Setup (manager)\n"
+" - Restaurant > Configuration > Restaurants: create the restaurant, rates (service, taxes, delivery) and a warehouse for stock.\n"
+" - Create areas (room, terrace, bar) and tables with their seats.\n"
+" - Mark products as menu items (Restaurant tab): course, preparation station (kitchen/bar), recipe.\n"
+" - Menus: create menus with hours and optional prices (breakfast, lunch, happy hour).\n"
+" - Cash: create the banknote and coin denominations of your currency.\n"
+"\n"
+"2. Cash session (cashier)\n"
+" - Open your cash session and count the banknotes and coins of the drawer.\n"
+" - Cash payments are only accepted while a session is open.\n"
+" - At closing, count again: the difference and the suspect notes are shown to the manager.\n"
+"\n"
+"3. Service\n"
+" - Restaurant > Service > Orders: new order, choose type (dine-in, bar tab, takeaway, delivery) and the table.\n"
+" - Add items (give a guest number to split the bill), then click Send: items go to the kitchen or bar screen.\n"
+" - Kitchen/Bar screens: Start, Ready, then waiters click Serve.\n"
+"\n"
+"4. Payment\n"
+" - Add one or several payments (cash, card, mobile, voucher, account) then click Pay. Stock is consumed from recipes.\n"
+" - Print the bill, the 80 mm ticket or the bill by guest from the Print action.\n"
+"\n"
+"5. Delivery\n"
+" - Create a delivery order with address and phone, send it, assign a driver, Dispatch, then Delivered or Delivery Failed.\n"
+"\n"
+"6. Reservations\n"
+" - Book a table with date, time and guests; click Seat on arrival to open the order automatically.\n"
+"\n"
+"7. Reports\n"
+" - Dashboard shows live activity; Restaurant Sales gives daily sales by product."
+msgstr ""
+"RESTORAN - GID ITILIZASYON\n"
+"\n"
+"1. Konfigirasyon (responsab)\n"
+" - Restoran > Konfigirasyon > Restoran : kreye restoran an, to li yo (sèvis, taks, livrezon) ak yon depo pou estòk la.\n"
+" - Kreye zòn yo (sal manje, teras, ba) ak tab yo ak kantite plas yo.\n"
+" - Make pwodui yo kòm atik meni (onglè Restoran) : kou, pòs preparasyon (kwizin/ba), resèt.\n"
+" - Meni : kreye meni ak orè ak pri opsyonèl (manje maten, manje midi, happy hour).\n"
+" - Kès : kreye biyè ak pyès lajan ou an.\n"
+"\n"
+"2. Sesyon kès (kesye)\n"
+" - Louvri sesyon kès ou a epi konte biyè ak pyès ki nan tiwa a.\n"
+" - Yo aksepte peman an lajan kach sèlman lè yon sesyon louvri.\n"
+" - Lè w ap fèmen, konte ankò : diferans lan ak biyè sispèk yo montre responsab la.\n"
+"\n"
+"3. Sèvis\n"
+" - Restoran > Sèvis > Kòmand : nouvo kòmand, chwazi tip la (sou plas, nòt ba, pou pote ale, livrezon) ak tab la.\n"
+" - Ajoute atik yo (bay yon nimewo moun pou divize nòt la), epi klike sou Voye : atik yo ale sou ekran kwizin nan oswa ekran ba a.\n"
+" - Ekran kwizin/ba : Kòmanse, Pare, apre sèvè yo klike sou Sèvi.\n"
+"\n"
+"4. Peman\n"
+" - Ajoute youn oswa plizyè peman (lajan kach, kat, mobil, bon, kont) epi klike sou Peye. Estòk la diminye selon resèt yo.\n"
+" - Enprime nòt la, tikè 80 mm lan oswa nòt pa moun nan ak aksyon Enprime.\n"
+"\n"
+"5. Livrezon\n"
+" - Kreye yon kòmand livrezon ak adrès ak telefòn, voye l, bay yon livrè, Voye livre, apre Livre oswa Livrezon echwe.\n"
+"\n"
+"6. Rezèvasyon\n"
+" - Rezève yon tab ak dat, lè ak kantite moun ; klike sou Enstale lè yo rive pou louvri kòmand lan otomatikman.\n"
+"\n"
+"7. Rapò\n"
+" - Tablo de bò a montre aktivite an dirèk ; Vant restoran an bay vant chak jou pa pwodui."
+
+msgctxt "model:ir.message,text:msg_happy_hour_hours"
+msgid "The end hour of happy hour \"%(rule)s\" must be after its start hour."
+msgstr "Lè fini happy hour « %(rule)s » dwe vini apre lè li kòmanse a."
+
+msgctxt "model:ir.message,text:msg_line_not_on_menu"
+msgid "\"%(product)s\" is not on any menu available now."
+msgstr "« %(product)s » pa nan okenn meni ki disponib kounye a."
+
+msgctxt "model:ir.message,text:msg_line_sent"
+msgid "The item \"%(product)s\" was already sent. Use the cancel button."
+msgstr "Atik « %(product)s » la deja voye. Sèvi ak bouton anile a."
+
+msgctxt "model:ir.message,text:msg_line_sold_out"
+msgid "\"%(product)s\" is sold out."
+msgstr "« %(product)s » fini."
+
+msgctxt "model:ir.message,text:msg_line_state"
+msgid "The item \"%(product)s\" cannot go to this state."
+msgstr "Atik « %(product)s » la pa ka pase nan eta sa a."
+
+msgctxt "model:ir.message,text:msg_manager_required"
+msgid "Only a restaurant manager can grant this discount."
+msgstr "Se sèlman yon responsab restoran an ki ka bay rabè sa a."
+
+msgctxt "model:ir.message,text:msg_menu_hours"
+msgid "The end hour of menu \"%(menu)s\" must be after its start hour."
+msgstr "Lè fini meni « %(menu)s » la dwe vini apre lè li kòmanse a."
+
+msgctxt "model:ir.message,text:msg_menu_item_unique"
+msgid "An item can only appear once in a menu."
+msgstr "Yon atik ka parèt yon sèl fwa nan yon meni."
+
+msgctxt "model:ir.message,text:msg_no_customer_location"
+msgid "The customer location is not configured."
+msgstr "Yo pa konfigire kote kliyan an."
+
+msgctxt "model:ir.message,text:msg_order_cancel_paid"
+msgid "Paid order \"%(order)s\" cannot be cancelled."
+msgstr "Yo pa ka anile kòmand « %(order)s » ki peye a."
+
+msgctxt "model:ir.message,text:msg_order_company"
+msgid "The company of order \"%(order)s\" must match its restaurant."
+msgstr "Konpayi kòmand « %(order)s » dwe menm ak konpayi restoran an."
+
+msgctxt "model:ir.message,text:msg_order_covers"
+msgid "Order \"%(order)s\" has %(covers)s guests for a table of %(seats)s seats."
+msgstr ""
+"Kòmand « %(order)s » genyen %(covers)s kouvè pou yon tab ki gen %(seats)s "
+"plas."
+
+msgctxt "model:ir.message,text:msg_order_delete"
+msgid "Order \"%(order)s\" cannot be deleted. Cancel it instead."
+msgstr "Yo pa ka efase kòmand « %(order)s » la. Anile l olye."
+
+msgctxt "model:ir.message,text:msg_order_empty"
+msgid "Order \"%(order)s\" has no item."
+msgstr "Kòmand « %(order)s » pa gen okenn atik."
+
+msgctxt "model:ir.message,text:msg_order_not_open"
+msgid "Order \"%(order)s\" is not open."
+msgstr "Kòmand « %(order)s » la pa louvri."
+
+msgctxt "model:ir.message,text:msg_order_nothing_to_send"
+msgid "Order \"%(order)s\" has no new items to send."
+msgstr "Kòmand « %(order)s » pa gen okenn nouvo atik pou voye."
+
+msgctxt "model:ir.message,text:msg_order_table_busy"
+msgid "Table \"%(table)s\" already has the open order \"%(order)s\"."
+msgstr "Tab « %(table)s » deja gen kòmand « %(order)s » ki louvri."
+
+msgctxt "model:ir.message,text:msg_order_unpaid"
+msgid "Order \"%(order)s\" still has a balance of %(balance)s."
+msgstr "Kòmand « %(order)s » la gen yon rès %(balance)s ankò."
+
+msgctxt "model:ir.message,text:msg_payment_account"
+msgid "Payment on account for order \"%(order)s\" requires a customer."
+msgstr "Peman sou kont pou kòmand « %(order)s » la mande yon kliyan."
+
+msgctxt "model:ir.message,text:msg_payment_no_session"
+msgid ""
+"Open a cash session in restaurant \"%(restaurant)s\" to take cash payments."
+msgstr ""
+"Louvri yon sesyon kès nan restoran « %(restaurant)s » pou resevwa lajan "
+"kach."
+
+msgctxt "model:ir.message,text:msg_payment_tendered"
+msgid "The amount tendered for order \"%(order)s\" is lower than the payment."
+msgstr ""
+"Montan kliyan an bay pou kòmand « %(order)s » la pi piti pase peman an."
+
+msgctxt "model:ir.message,text:msg_recipe_unique"
+msgid "A menu item can only have one recipe."
+msgstr "Yon atik meni pa ka gen plis pase yon resèt."
+
+msgctxt "model:ir.message,text:msg_recipe_unit_digits"
+msgid ""
+"The quantity of \"%(product)s\" is too small for its unit \"%(unit)s\". Use "
+"a fractional unit (kg, l)."
+msgstr ""
+"Kantite « %(product)s » la two piti pou inite li a « %(unit)s ». Sèvi ak yon"
+" inite ki gen fraksyon (kg, l)."
+
+msgctxt "model:ir.message,text:msg_reservation_delete"
+msgid "Reservation \"%(reservation)s\" cannot be deleted. Cancel it instead."
+msgstr "Yo pa ka efase rezèvasyon « %(reservation)s » la. Anile l olye."
+
+msgctxt "model:ir.message,text:msg_reservation_no_table"
+msgid "Reservation \"%(reservation)s\" needs a table."
+msgstr "Rezèvasyon « %(reservation)s » la bezwen yon tab."
+
+msgctxt "model:ir.message,text:msg_reservation_overlap"
+msgid "Table \"%(table)s\" is already booked by \"%(reservation)s\"."
+msgstr "Tab « %(table)s » deja rezève pa « %(reservation)s »."
+
+msgctxt "model:ir.message,text:msg_reservation_seats"
+msgid "Table \"%(table)s\" has only %(seats)s seats."
+msgstr "Tab « %(table)s » gen sèlman %(seats)s plas."
+
+msgctxt "model:ir.message,text:msg_restaurant_code_unique"
+msgid "The code of the restaurant must be unique per company."
+msgstr "Kòd restoran an dwe inik pou chak konpayi."
+
+msgctxt "model:ir.message,text:msg_session_already_open"
+msgid ""
+"%(cashier)s already has the open cash session \"%(session)s\" in this "
+"restaurant."
+msgstr ""
+"%(cashier)s deja gen sesyon kès « %(session)s » ki louvri nan restoran sa a."
+
+msgctxt "model:ir.message,text:msg_session_closed"
+msgid "Cash session \"%(session)s\" is closed."
+msgstr "Sesyon kès « %(session)s » la fèmen."
+
+msgctxt "model:ir.message,text:msg_session_company"
+msgid "The restaurant of cash session \"%(session)s\" must belong to its company."
+msgstr "Restoran sesyon kès « %(session)s » la dwe fè pati konpayi li an."
+
+msgctxt "model:ir.message,text:msg_session_delete"
+msgid "Cash session \"%(session)s\" cannot be deleted once opened."
+msgstr "Yo pa ka efase sesyon kès « %(session)s » la apre l fin louvri."
+
+msgctxt "model:ir.message,text:msg_session_difference"
+msgid "Cash session \"%(session)s\" closes with a difference of %(difference)s."
+msgstr "Sesyon kès « %(session)s » la fèmen ak yon diferans %(difference)s."
+
+msgctxt "model:ir.message,text:msg_session_no_closing_count"
+msgid ""
+"Count the banknotes and coins of cash session \"%(session)s\" before closing"
+" it."
+msgstr "Konte biyè ak pyès sesyon kès « %(session)s » la anvan ou fèmen l."
+
+msgctxt "model:ir.message,text:msg_session_no_opening_count"
+msgid ""
+"Count the banknotes and coins of cash session \"%(session)s\" before opening"
+" it."
+msgstr "Konte biyè ak pyès sesyon kès « %(session)s » la anvan ou louvri l."
+
+msgctxt "model:ir.message,text:msg_session_opening_locked"
+msgid ""
+"The opening count of cash session \"%(session)s\" can no longer be changed."
+msgstr "Yo pa ka chanje konte ouvèti sesyon kès « %(session)s » la ankò."
+
+msgctxt "model:ir.message,text:msg_session_opening_mismatch"
+msgid ""
+"Cash session \"%(session)s\" opens with %(amount)s but the previous session "
+"closed with %(previous)s."
+msgstr ""
+"Sesyon kès « %(session)s » la louvri ak %(amount)s men sesyon anvan an te "
+"fèmen ak %(previous)s."
+
+msgctxt "model:ir.message,text:msg_session_suspect"
+msgid ""
+"Cash session \"%(session)s\" holds %(amount)s of suspect banknotes or coins,"
+" excluded from the total."
+msgstr ""
+"Sesyon kès « %(session)s » la gen %(amount)s biyè oswa pyès ki sispèk, yo pa"
+" konte yo nan total la."
+
+msgctxt "model:ir.message,text:msg_station_bar"
+msgid "Bar"
+msgstr "Ba"
+
+msgctxt "model:ir.message,text:msg_station_kitchen"
+msgid "Kitchen"
+msgstr "Kwizin"
+
+msgctxt "model:ir.message,text:msg_station_none"
+msgid "No Preparation"
+msgstr "San preparasyon"
+
+msgctxt "model:ir.message,text:msg_table_area"
+msgid "The area of table \"%(table)s\" must belong to its restaurant."
+msgstr "Zòn tab « %(table)s » la dwe fè pati restoran li an."
+
+msgctxt "model:ir.message,text:msg_table_unique"
+msgid "The code of the table must be unique per restaurant."
+msgstr "Kòd tab la dwe inik pou chak restoran."
+
+msgctxt "model:ir.model.button,string:cash_session_close_button"
+msgid "Close Cash Session"
+msgstr "Fèmen sesyon kès la"
+
+msgctxt "model:ir.model.button,string:cash_session_fill_closing_button"
+msgid "Fill Denominations"
+msgstr "Ranpli valè yo"
+
+msgctxt "model:ir.model.button,string:cash_session_fill_opening_button"
+msgid "Fill Denominations"
+msgstr "Ranpli valè yo"
+
+msgctxt "model:ir.model.button,string:cash_session_open__button"
+msgid "Open Cash Session"
+msgstr "Louvri sesyon kès la"
+
+msgctxt "model:ir.model.button,string:order_cancel_button"
+msgid "Cancel"
+msgstr "Anile"
+
+msgctxt "model:ir.model.button,string:order_deliver_button"
+msgid "Delivered"
+msgstr "Livre"
+
+msgctxt "model:ir.model.button,string:order_delivery_failed_button"
+msgid "Delivery Failed"
+msgstr "Livrezon echwe"
+
+msgctxt "model:ir.model.button,string:order_dispatch_button"
+msgid "Dispatch"
+msgstr "Voye livre"
+
+msgctxt "model:ir.model.button,string:order_line_cancel_line_button"
+msgid "Cancel Item"
+msgstr "Anile atik la"
+
+msgctxt "model:ir.model.button,string:order_line_ready_button"
+msgid "Ready"
+msgstr "Pare"
+
+msgctxt "model:ir.model.button,string:order_line_serve_button"
+msgid "Serve"
+msgstr "Sèvi"
+
+msgctxt "model:ir.model.button,string:order_line_start_button"
+msgid "Start"
+msgstr "Kòmanse"
+
+msgctxt "model:ir.model.button,string:order_pay_button"
+msgid "Pay"
+msgstr "Peye"
+
+msgctxt "model:ir.model.button,string:order_send_button"
+msgid "Send"
+msgstr "Voye"
+
+msgctxt "model:ir.model.button,string:reservation_cancel_button"
+msgid "Cancel"
+msgstr "Anile"
+
+msgctxt "model:ir.model.button,string:reservation_no_show__button"
+msgid "No Show"
+msgstr "Pa vini"
+
+msgctxt "model:ir.model.button,string:reservation_rebook_button"
+msgid "Book Again"
+msgstr "Rezève ankò"
+
+msgctxt "model:ir.model.button,string:reservation_seat_button"
+msgid "Seat"
+msgstr "Enstale"
+
+msgctxt "model:ir.rule.group,name:rule_group_area"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.rule.group,name:rule_group_cash_count"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.rule.group,name:rule_group_cash_session"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.rule.group,name:rule_group_dashboard"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.rule.group,name:rule_group_menu_card"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.rule.group,name:rule_group_order"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.rule.group,name:rule_group_order_line"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.rule.group,name:rule_group_payment"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.rule.group,name:rule_group_reservation"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.rule.group,name:rule_group_restaurant"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.rule.group,name:rule_group_sales_report"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.rule.group,name:rule_group_table"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.sequence,name:sequence_cash"
+msgid "Restaurant Cash Session"
+msgstr "Sesyon kès restoran"
+
+msgctxt "model:ir.sequence,name:sequence_order"
+msgid "Restaurant Order"
+msgstr "Kòmand restoran"
+
+msgctxt "model:ir.sequence,name:sequence_reservation"
+msgid "Table Reservation"
+msgstr "Rezèvasyon tab"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_cash"
+msgid "Restaurant Cash Session"
+msgstr "Sesyon kès restoran"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_order"
+msgid "Restaurant Order"
+msgstr "Kòmand restoran"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_reservation"
+msgid "Table Reservation"
+msgstr "Rezèvasyon tab"
+
+msgctxt "model:ir.ui.menu,name:menu_area"
+msgid "Areas"
+msgstr "Zòn"
+
+msgctxt "model:ir.ui.menu,name:menu_bar"
+msgid "Bar Screen"
+msgstr "Ekran ba a"
+
+msgctxt "model:ir.ui.menu,name:menu_carte"
+msgid "Menus"
+msgstr "Meni yo"
+
+msgctxt "model:ir.ui.menu,name:menu_cash_session"
+msgid "Cash Sessions"
+msgstr "Sesyon kès yo"
+
+msgctxt "model:ir.ui.menu,name:menu_dashboard"
+msgid "Dashboard"
+msgstr "Tablo de bò"
+
+msgctxt "model:ir.ui.menu,name:menu_delivery_order"
+msgid "Deliveries"
+msgstr "Livrezon"
+
+msgctxt "model:ir.ui.menu,name:menu_driver"
+msgid "Drivers"
+msgstr "Livrè"
+
+msgctxt "model:ir.ui.menu,name:menu_guide"
+msgid "Usage Guide"
+msgstr "Gid itilizasyon"
+
+msgctxt "model:ir.ui.menu,name:menu_happy_hour"
+msgid "Happy Hours"
+msgstr "Happy hour yo"
+
+msgctxt "model:ir.ui.menu,name:menu_kitchen"
+msgid "Kitchen Screen"
+msgstr "Ekran kwizin nan"
+
+msgctxt "model:ir.ui.menu,name:menu_menu"
+msgid "Menu"
+msgstr "Meni"
+
+msgctxt "model:ir.ui.menu,name:menu_menu_item"
+msgid "Menu Items"
+msgstr "Atik meni yo"
+
+msgctxt "model:ir.ui.menu,name:menu_order"
+msgid "Orders"
+msgstr "Kòmand yo"
+
+msgctxt "model:ir.ui.menu,name:menu_recipe"
+msgid "Recipes"
+msgstr "Resèt yo"
+
+msgctxt "model:ir.ui.menu,name:menu_reservation"
+msgid "Reservations"
+msgstr "Rezèvasyon yo"
+
+msgctxt "model:ir.ui.menu,name:menu_restaurant"
+msgid "Restaurant"
+msgstr "Restoran"
+
+msgctxt "model:ir.ui.menu,name:menu_restaurant_config"
+msgid "Configuration"
+msgstr "Konfigirasyon"
+
+msgctxt "model:ir.ui.menu,name:menu_restaurant_list"
+msgid "Restaurants"
+msgstr "Restoran yo"
+
+msgctxt "model:ir.ui.menu,name:menu_restaurant_reports"
+msgid "Reports"
+msgstr "Rapò"
+
+msgctxt "model:ir.ui.menu,name:menu_sales_report"
+msgid "Restaurant Sales"
+msgstr "Vant restoran an"
+
+msgctxt "model:ir.ui.menu,name:menu_service"
+msgid "Service"
+msgstr "Sèvis"
+
+msgctxt "model:ir.ui.menu,name:menu_table"
+msgid "Tables"
+msgstr "Tab"
+
+msgctxt "model:ir.ui.menu,name:menu_table_config"
+msgid "Tables"
+msgstr "Tab"
+
+msgctxt "model:res.group,name:group_restaurant"
+msgid "Restaurant"
+msgstr "Restoran"
+
+msgctxt "model:res.group,name:group_restaurant_admin"
+msgid "Restaurant Administration"
+msgstr "Administrasyon restoran"
+
+msgctxt "model:res.group,name:group_restaurant_kitchen"
+msgid "Restaurant Kitchen and Bar"
+msgstr "Kwizin ak ba restoran an"
+
+msgctxt "model:res.group,name:group_restaurant_manager"
+msgid "Restaurant Manager"
+msgstr "Responsab restoran"
+
+msgctxt "model:restaurant.area,name:"
+msgid "Restaurant Area"
+msgstr "Zòn restoran"
+
+msgctxt "model:restaurant.cash.count,name:"
+msgid "Restaurant Cash Count"
+msgstr "Konte kès restoran"
+
+msgctxt "model:restaurant.cash.session,name:"
+msgid "Restaurant Cash Session"
+msgstr "Sesyon kès restoran"
+
+msgctxt "model:restaurant.dashboard,name:"
+msgid "Restaurant Dashboard"
+msgstr "Tablo de bò restoran"
+
+msgctxt "model:restaurant.driver,name:"
+msgid "Delivery Driver"
+msgstr "Livrè"
+
+msgctxt "model:restaurant.guide.start,name:"
+msgid "Usage Guide"
+msgstr "Gid itilizasyon"
+
+msgctxt "model:restaurant.happy_hour,name:"
+msgid "Happy Hour"
+msgstr "Happy hour"
+
+msgctxt "model:restaurant.menu,name:"
+msgid "Restaurant Menu"
+msgstr "Meni restoran"
+
+msgctxt "model:restaurant.menu.item,name:"
+msgid "Restaurant Menu Item"
+msgstr "Atik nan meni restoran"
+
+msgctxt "model:restaurant.order,name:"
+msgid "Restaurant Order"
+msgstr "Kòmand restoran"
+
+msgctxt "model:restaurant.order.line,name:"
+msgid "Restaurant Order Item"
+msgstr "Atik kòmand"
+
+msgctxt "model:restaurant.payment,name:"
+msgid "Restaurant Payment"
+msgstr "Peman restoran"
+
+msgctxt "model:restaurant.recipe,name:"
+msgid "Menu Item Recipe"
+msgstr "Resèt yon atik meni"
+
+msgctxt "model:restaurant.recipe.line,name:"
+msgid "Menu Item Recipe Ingredient"
+msgstr "Engredyan resèt"
+
+msgctxt "model:restaurant.report.sales,name:"
+msgid "Restaurant Sales by Day"
+msgstr "Vant restoran pa jou"
+
+msgctxt "model:restaurant.reservation,name:"
+msgid "Table Reservation"
+msgstr "Rezèvasyon tab"
+
+msgctxt "model:restaurant.restaurant,name:"
+msgid "Restaurant"
+msgstr "Restoran"
+
+msgctxt "model:restaurant.table,name:"
+msgid "Restaurant Table"
+msgstr "Tab restoran"
+
+msgctxt "report:restaurant.order.receipt:"
+msgid "Balance:"
+msgstr "Rès :"
+
+msgctxt "report:restaurant.order.receipt:"
+msgid "Bill"
+msgstr "Nòt la"
+
+msgctxt "report:restaurant.order.receipt:"
+msgid "Delivery:"
+msgstr "Livrezon :"
+
+msgctxt "report:restaurant.order.receipt:"
+msgid "Discount:"
+msgstr "Rabè :"
+
+msgctxt "report:restaurant.order.receipt:"
+msgid "Paid:"
+msgstr "Peye :"
+
+msgctxt "report:restaurant.order.receipt:"
+msgid "Service:"
+msgstr "Sèvis :"
+
+msgctxt "report:restaurant.order.receipt:"
+msgid "Subtotal:"
+msgstr "Sou-total :"
+
+msgctxt "report:restaurant.order.receipt:"
+msgid "Tax included:"
+msgstr "Taks ladan l :"
+
+msgctxt "report:restaurant.order.receipt:"
+msgid "Thank you!"
+msgstr "Mèsi !"
+
+msgctxt "report:restaurant.order.receipt:"
+msgid "Tip:"
+msgstr "Poubwa :"
+
+msgctxt "report:restaurant.order.receipt:"
+msgid "Total:"
+msgstr "Total :"
+
+msgctxt "report:restaurant.order.receipt:"
+msgid "x"
+msgstr "x"
+
+msgctxt "report:restaurant.order.split:"
+msgid "Balance:"
+msgstr "Rès :"
+
+msgctxt "report:restaurant.order.split:"
+msgid "Bill"
+msgstr "Nòt la"
+
+msgctxt "report:restaurant.order.split:"
+msgid "Discount:"
+msgstr "Rabè :"
+
+msgctxt "report:restaurant.order.split:"
+msgid "Guest"
+msgstr "Envite"
+
+msgctxt "report:restaurant.order.split:"
+msgid "Paid:"
+msgstr "Peye :"
+
+msgctxt "report:restaurant.order.split:"
+msgid "Service:"
+msgstr "Sèvis :"
+
+msgctxt "report:restaurant.order.split:"
+msgid "Subtotal:"
+msgstr "Sou-total :"
+
+msgctxt "report:restaurant.order.split:"
+msgid "Total:"
+msgstr "Total :"
+
+msgctxt "report:restaurant.order.split:"
+msgid "x"
+msgstr "x"
+
+msgctxt "report:restaurant.order.ticket:"
+msgid "Balance:"
+msgstr "Rès :"
+
+msgctxt "report:restaurant.order.ticket:"
+msgid "Bill"
+msgstr "Nòt la"
+
+msgctxt "report:restaurant.order.ticket:"
+msgid "Delivery:"
+msgstr "Livrezon :"
+
+msgctxt "report:restaurant.order.ticket:"
+msgid "Discount:"
+msgstr "Rabè :"
+
+msgctxt "report:restaurant.order.ticket:"
+msgid "Paid:"
+msgstr "Peye :"
+
+msgctxt "report:restaurant.order.ticket:"
+msgid "Service:"
+msgstr "Sèvis :"
+
+msgctxt "report:restaurant.order.ticket:"
+msgid "Subtotal:"
+msgstr "Sou-total :"
+
+msgctxt "report:restaurant.order.ticket:"
+msgid "Tax included:"
+msgstr "Taks ladan l :"
+
+msgctxt "report:restaurant.order.ticket:"
+msgid "Thank you!"
+msgstr "Mèsi !"
+
+msgctxt "report:restaurant.order.ticket:"
+msgid "Tip:"
+msgstr "Poubwa :"
+
+msgctxt "report:restaurant.order.ticket:"
+msgid "Total:"
+msgstr "Total :"
+
+msgctxt "report:restaurant.order.ticket:"
+msgid "x"
+msgstr "x"
+
+msgctxt "selection:ir.cron,method:"
+msgid "Notify Kitchen and Bar Delays"
+msgstr "Notifye reta kizin ak ba"
+
+msgctxt "selection:product.template,course:"
+msgid "Dessert"
+msgstr "Desè"
+
+msgctxt "selection:product.template,course:"
+msgid "Drink"
+msgstr "Bwason"
+
+msgctxt "selection:product.template,course:"
+msgid "Main Course"
+msgstr "Plat prensipal"
+
+msgctxt "selection:product.template,course:"
+msgid "Other"
+msgstr "Lòt"
+
+msgctxt "selection:product.template,course:"
+msgid "Starter"
+msgstr "Antre"
+
+msgctxt "selection:product.template,prep_station:"
+msgid "Bar"
+msgstr "Ba"
+
+msgctxt "selection:product.template,prep_station:"
+msgid "Kitchen"
+msgstr "Kwizin"
+
+msgctxt "selection:product.template,prep_station:"
+msgid "No Preparation"
+msgstr "San preparasyon"
+
+msgctxt "selection:restaurant.cash.count,kind:"
+msgid "Banknote"
+msgstr "Biyè"
+
+msgctxt "selection:restaurant.cash.count,kind:"
+msgid "Coin"
+msgstr "Pyès"
+
+msgctxt "selection:restaurant.cash.count,moment:"
+msgid "Closing"
+msgstr "Fèmti"
+
+msgctxt "selection:restaurant.cash.count,moment:"
+msgid "Opening"
+msgstr "Ouvèti"
+
+msgctxt "selection:restaurant.cash.session,state:"
+msgid "Closed"
+msgstr "Fèmen"
+
+msgctxt "selection:restaurant.cash.session,state:"
+msgid "Draft"
+msgstr "Bouyon"
+
+msgctxt "selection:restaurant.cash.session,state:"
+msgid "Open"
+msgstr "Louvri"
+
+msgctxt "selection:restaurant.happy_hour,weekday:"
+msgid "Every day"
+msgstr "Chak jou"
+
+msgctxt "selection:restaurant.happy_hour,weekday:"
+msgid "Friday"
+msgstr "Vandredi"
+
+msgctxt "selection:restaurant.happy_hour,weekday:"
+msgid "Monday"
+msgstr "Lendi"
+
+msgctxt "selection:restaurant.happy_hour,weekday:"
+msgid "Saturday"
+msgstr "Samdi"
+
+msgctxt "selection:restaurant.happy_hour,weekday:"
+msgid "Sunday"
+msgstr "Dimanch"
+
+msgctxt "selection:restaurant.happy_hour,weekday:"
+msgid "Thursday"
+msgstr "Jedi"
+
+msgctxt "selection:restaurant.happy_hour,weekday:"
+msgid "Tuesday"
+msgstr "Madi"
+
+msgctxt "selection:restaurant.happy_hour,weekday:"
+msgid "Wednesday"
+msgstr "Mèkredi"
+
+msgctxt "selection:restaurant.menu,weekday:"
+msgid "Every day"
+msgstr "Chak jou"
+
+msgctxt "selection:restaurant.menu,weekday:"
+msgid "Friday"
+msgstr "Vandredi"
+
+msgctxt "selection:restaurant.menu,weekday:"
+msgid "Monday"
+msgstr "Lendi"
+
+msgctxt "selection:restaurant.menu,weekday:"
+msgid "Saturday"
+msgstr "Samdi"
+
+msgctxt "selection:restaurant.menu,weekday:"
+msgid "Sunday"
+msgstr "Dimanch"
+
+msgctxt "selection:restaurant.menu,weekday:"
+msgid "Thursday"
+msgstr "Jedi"
+
+msgctxt "selection:restaurant.menu,weekday:"
+msgid "Tuesday"
+msgstr "Madi"
+
+msgctxt "selection:restaurant.menu,weekday:"
+msgid "Wednesday"
+msgstr "Mèkredi"
+
+msgctxt "selection:restaurant.order,delivery_state:"
+msgid "Assigned"
+msgstr "Asiyen"
+
+msgctxt "selection:restaurant.order,delivery_state:"
+msgid "Delivered"
+msgstr "Livre"
+
+msgctxt "selection:restaurant.order,delivery_state:"
+msgid "Failed"
+msgstr "Echwe"
+
+msgctxt "selection:restaurant.order,delivery_state:"
+msgid "On the Way"
+msgstr "Sou wout"
+
+msgctxt "selection:restaurant.order,delivery_state:"
+msgid "Pending"
+msgstr "An atant"
+
+msgctxt "selection:restaurant.order,state:"
+msgid "Cancelled"
+msgstr "Anile"
+
+msgctxt "selection:restaurant.order,state:"
+msgid "Open"
+msgstr "Louvri"
+
+msgctxt "selection:restaurant.order,state:"
+msgid "Paid"
+msgstr "Peye"
+
+msgctxt "selection:restaurant.order,type:"
+msgid "Bar Tab"
+msgstr "Nòt ba a"
+
+msgctxt "selection:restaurant.order,type:"
+msgid "Delivery"
+msgstr "Livrezon"
+
+msgctxt "selection:restaurant.order,type:"
+msgid "Dine-in"
+msgstr "Manje sou plas"
+
+msgctxt "selection:restaurant.order,type:"
+msgid "Takeaway"
+msgstr "Pou pote ale"
+
+msgctxt "selection:restaurant.order.line,course:"
+msgid "Dessert"
+msgstr "Desè"
+
+msgctxt "selection:restaurant.order.line,course:"
+msgid "Drink"
+msgstr "Bwason"
+
+msgctxt "selection:restaurant.order.line,course:"
+msgid "Main Course"
+msgstr "Plat prensipal"
+
+msgctxt "selection:restaurant.order.line,course:"
+msgid "Other"
+msgstr "Lòt"
+
+msgctxt "selection:restaurant.order.line,course:"
+msgid "Starter"
+msgstr "Antre"
+
+msgctxt "selection:restaurant.order.line,delay:"
+msgid "On Time"
+msgstr "A lè"
+
+msgctxt "selection:restaurant.order.line,delay:"
+msgid "Over the Ideal Time"
+msgstr "Pi lwen pase tan ideyal la"
+
+msgctxt "selection:restaurant.order.line,delay:"
+msgid "Very Late"
+msgstr "Anreta anpil"
+
+msgctxt "selection:restaurant.order.line,order_type:"
+msgid "Bar Tab"
+msgstr "Nòt ba a"
+
+msgctxt "selection:restaurant.order.line,order_type:"
+msgid "Delivery"
+msgstr "Livrezon"
+
+msgctxt "selection:restaurant.order.line,order_type:"
+msgid "Dine-in"
+msgstr "Manje sou plas"
+
+msgctxt "selection:restaurant.order.line,order_type:"
+msgid "Takeaway"
+msgstr "Pou pote ale"
+
+msgctxt "selection:restaurant.order.line,state:"
+msgid "Cancelled"
+msgstr "Anile"
+
+msgctxt "selection:restaurant.order.line,state:"
+msgid "New"
+msgstr "Nouvo"
+
+msgctxt "selection:restaurant.order.line,state:"
+msgid "Preparing"
+msgstr "Ap prepare"
+
+msgctxt "selection:restaurant.order.line,state:"
+msgid "Ready"
+msgstr "Pare"
+
+msgctxt "selection:restaurant.order.line,state:"
+msgid "Sent"
+msgstr "Voye"
+
+msgctxt "selection:restaurant.order.line,state:"
+msgid "Served"
+msgstr "Sèvi"
+
+msgctxt "selection:restaurant.order.line,station:"
+msgid "Bar"
+msgstr "Ba"
+
+msgctxt "selection:restaurant.order.line,station:"
+msgid "Kitchen"
+msgstr "Kwizin"
+
+msgctxt "selection:restaurant.order.line,station:"
+msgid "No Preparation"
+msgstr "San preparasyon"
+
+msgctxt "selection:restaurant.payment,method:"
+msgid "Card"
+msgstr "Kat"
+
+msgctxt "selection:restaurant.payment,method:"
+msgid "Cash"
+msgstr "Lajan kach"
+
+msgctxt "selection:restaurant.payment,method:"
+msgid "Mobile Money"
+msgstr "Lajan mobil"
+
+msgctxt "selection:restaurant.payment,method:"
+msgid "On Account"
+msgstr "Sou kont"
+
+msgctxt "selection:restaurant.payment,method:"
+msgid "Voucher"
+msgstr "Bon"
+
+msgctxt "selection:restaurant.report.sales,type:"
+msgid "Bar Tab"
+msgstr "Nòt ba a"
+
+msgctxt "selection:restaurant.report.sales,type:"
+msgid "Delivery"
+msgstr "Livrezon"
+
+msgctxt "selection:restaurant.report.sales,type:"
+msgid "Dine-in"
+msgstr "Manje sou plas"
+
+msgctxt "selection:restaurant.report.sales,type:"
+msgid "Takeaway"
+msgstr "Pou pote ale"
+
+msgctxt "selection:restaurant.reservation,state:"
+msgid "Booked"
+msgstr "Rezève"
+
+msgctxt "selection:restaurant.reservation,state:"
+msgid "Cancelled"
+msgstr "Anile"
+
+msgctxt "selection:restaurant.reservation,state:"
+msgid "No Show"
+msgstr "Pa vini"
+
+msgctxt "selection:restaurant.reservation,state:"
+msgid "Seated"
+msgstr "Enstale"
+
+msgctxt "selection:restaurant.table,status:"
+msgid "Free"
+msgstr "Lib"
+
+msgctxt "selection:restaurant.table,status:"
+msgid "Occupied"
+msgstr "Okipe"
+
+msgctxt "view:product.template:"
+msgid "Restaurant"
+msgstr "Restoran"
+
+msgctxt "view:restaurant.cash.session:"
+msgid "Closing"
+msgstr "Fèmti"
+
+msgctxt "view:restaurant.cash.session:"
+msgid "Control"
+msgstr "Kontwòl"
+
+msgctxt "view:restaurant.cash.session:"
+msgid "Fill Denominations"
+msgstr "Ranpli valè yo"
+
+msgctxt "view:restaurant.cash.session:"
+msgid "Notes"
+msgstr "Nòt"
+
+msgctxt "view:restaurant.cash.session:"
+msgid "Opening"
+msgstr "Ouvèti"
+
+msgctxt "view:restaurant.cash.session:"
+msgid "Payments"
+msgstr "Peman"
+
+msgctxt "view:restaurant.dashboard:"
+msgid "Preparation"
+msgstr "Preparasyon"
+
+msgctxt "view:restaurant.dashboard:"
+msgid "Service"
+msgstr "Sèvis"
+
+msgctxt "view:restaurant.dashboard:"
+msgid "Today"
+msgstr "Jodi a"
+
+msgctxt "view:restaurant.order:"
+msgid "Bill"
+msgstr "Nòt la"
+
+msgctxt "view:restaurant.order:"
+msgid "Delivery"
+msgstr "Livrezon"
+
+msgctxt "view:restaurant.order:"
+msgid "Items"
+msgstr "Atik"
+
+msgctxt "view:restaurant.order:"
+msgid "Notes"
+msgstr "Nòt"
+
+msgctxt "view:restaurant.order:"
+msgid "Payments"
+msgstr "Peman"
+
+msgctxt "view:restaurant.restaurant:"
+msgid "Areas"
+msgstr "Zòn"
+
+msgctxt "view:restaurant.restaurant:"
+msgid "Billing"
+msgstr "Fakti"
+
+msgctxt "view:restaurant.restaurant:"
+msgid "Delivery"
+msgstr "Livrezon"
+
+msgctxt "view:restaurant.restaurant:"
+msgid "Kitchen and Bar Screens"
+msgstr "Ekran kizin ak ba"
+
+msgctxt "view:restaurant.restaurant:"
+msgid "Menus"
+msgstr "Meni yo"
+
+msgctxt "view:restaurant.restaurant:"
+msgid "Tables"
+msgstr "Tab"
+
+msgctxt "wizard_button:restaurant.guide,start,end:"
+msgid "Close"
+msgstr "Fèmen"
+
+msgctxt "field:restaurant.cash.count,value:"
+msgid "Value"
+msgstr "Valè"
+
+msgctxt "help:restaurant.cash.count,amount:"
+msgid ""
+"Amount in the currency of the document, without the suspect banknotes and "
+"coins."
+msgstr "Montan nan lajan dokiman an, san biyè ak pyès ki sispèk yo."
+
+msgctxt "help:restaurant.cash.count,quantity:"
+msgid "Number of banknotes or coins found in the drawer."
+msgstr "Kantite biyè oswa pyès yo jwenn nan tiwa lajan an."
+
+msgctxt "help:restaurant.cash.count,value:"
+msgid "Value of the banknote or coin."
+msgstr "Valè biyè a oswa pyès la."

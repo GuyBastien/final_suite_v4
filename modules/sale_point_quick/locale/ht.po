@@ -1,0 +1,63 @@
+#
+msgid ""
+msgstr ""
+"Language: ht\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.template,pos_quick:"
+msgid "Quick Sale"
+msgstr "Vant rapid"
+
+msgctxt "field:sale.point,card_method:"
+msgid "Card Method"
+msgstr "Mòd kat"
+
+msgctxt "field:sale.point.sale,quick_code:"
+msgid "Quick Code"
+msgstr "Kòd rapid"
+
+msgctxt "field:sale.point.sale,quick_product:"
+msgid "Quick Product"
+msgstr "Pwodui rapid"
+
+msgctxt "help:product.template,pos_quick:"
+msgid "Show the product in the quick sale selection of the point of sale."
+msgstr "Montre pwodui a nan seleksyon vant rapid pwen vant lan."
+
+msgctxt "help:sale.point,card_method:"
+msgid "Payment method used by the one-click card button."
+msgstr "Mòd peman bouton kat yon sèl klik la itilize."
+
+msgctxt "help:sale.point.sale,quick_code:"
+msgid ""
+"Scan or type a product code, optionally preceded by a quantity: 3*COLA."
+msgstr ""
+"Eskane oswa tape yon kòd pwodui, ou ka mete yon kantite devan : 3*COLA."
+
+msgctxt "help:sale.point.sale,quick_product:"
+msgid "Pick a favourite product to add it to the sale."
+msgstr "Chwazi yon pwodui pi renmen pou ajoute l nan vant lan."
+
+msgctxt "model:ir.message,text:msg_no_card_method"
+msgid "Point of sale \"%(point)s\" has no card payment method."
+msgstr "Pwen vant « %(point)s » la pa gen mòd peman pa kat."
+
+msgctxt "model:ir.message,text:msg_no_cash_method"
+msgid "Company \"%(company)s\" has no cash payment method."
+msgstr "Konpayi « %(company)s » la pa gen mòd peman an lajan kach."
+
+msgctxt "model:ir.message,text:msg_sale_empty"
+msgid "Sale \"%(sale)s\" has no line to pay."
+msgstr "Vant « %(sale)s » la pa gen okenn liy pou peye."
+
+msgctxt "model:ir.message,text:msg_unknown_code"
+msgid "No salable product has the code \"%(code)s\"."
+msgstr "Pa gen okenn pwodui ki ka vann ki gen kòd « %(code)s »."
+
+msgctxt "model:ir.model.button,string:sale_pay_card_button"
+msgid "Pay by Card"
+msgstr "Peye ak kat"
+
+msgctxt "model:ir.model.button,string:sale_pay_cash_button"
+msgid "Pay in Cash"
+msgstr "Peye an lajan kach"

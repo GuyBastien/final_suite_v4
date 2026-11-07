@@ -1,0 +1,389 @@
+#
+msgid ""
+msgstr ""
+"Language: ht\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:hotel.deposit,amount:"
+msgid "Amount"
+msgstr "Montan"
+
+msgctxt "field:hotel.deposit,company:"
+msgid "Company"
+msgstr "Konpayi"
+
+msgctxt "field:hotel.deposit,currency_digits:"
+msgid "Currency Digits"
+msgstr "Desimal lajan"
+
+msgctxt "field:hotel.deposit,date:"
+msgid "Date"
+msgstr "Dat"
+
+msgctxt "field:hotel.deposit,method:"
+msgid "Method"
+msgstr "Mòd"
+
+msgctxt "field:hotel.deposit,notes:"
+msgid "Notes"
+msgstr "Nòt"
+
+msgctxt "field:hotel.deposit,reference:"
+msgid "Reference"
+msgstr "Referans"
+
+msgctxt "field:hotel.deposit,reservation:"
+msgid "Reservation"
+msgstr "Rezèvasyon"
+
+msgctxt "field:hotel.deposit,state:"
+msgid "State"
+msgstr "Eta"
+
+msgctxt "field:hotel.hotel,deposit_product:"
+msgid "Deposit Product"
+msgstr "Pwodui depo"
+
+msgctxt "field:hotel.hotel,tourist_taxes:"
+msgid "Tourist Taxes"
+msgstr "Taks touris"
+
+msgctxt "field:hotel.night.audit,arrivals:"
+msgid "Arrivals"
+msgstr "Rive"
+
+msgctxt "field:hotel.night.audit,company:"
+msgid "Company"
+msgstr "Konpayi"
+
+msgctxt "field:hotel.night.audit,date:"
+msgid "Date"
+msgstr "Dat"
+
+msgctxt "field:hotel.night.audit,departures:"
+msgid "Departures"
+msgstr "Pati"
+
+msgctxt "field:hotel.night.audit,hotel:"
+msgid "Hotel"
+msgstr "Otèl"
+
+msgctxt "field:hotel.night.audit,in_house:"
+msgid "In House"
+msgstr "Anndan otèl la"
+
+msgctxt "field:hotel.night.audit,no_shows:"
+msgid "No-Shows"
+msgstr "Moun ki pa vini"
+
+msgctxt "field:hotel.night.audit,notes:"
+msgid "Notes"
+msgstr "Nòt"
+
+msgctxt "field:hotel.night.audit,room_revenue:"
+msgid "Room Revenue"
+msgstr "Revni chanm"
+
+msgctxt "field:hotel.night.audit,rooms_dirty:"
+msgid "Dirty Rooms"
+msgstr "Chanm sal"
+
+msgctxt "field:hotel.night.audit,state:"
+msgid "State"
+msgstr "Eta"
+
+msgctxt "field:hotel.night.audit,user:"
+msgid "User"
+msgstr "Itilizatè"
+
+msgctxt "field:hotel.reservation,balance_due:"
+msgid "Balance Due"
+msgstr "Rès pou peye"
+
+msgctxt "field:hotel.reservation,deposit_total:"
+msgid "Deposits"
+msgstr "Depo"
+
+msgctxt "field:hotel.reservation,deposits:"
+msgid "Deposits"
+msgstr "Depo"
+
+msgctxt "field:hotel.reservation,no_show:"
+msgid "No-Show"
+msgstr "Pa vini"
+
+msgctxt "field:hotel.reservation,sales:"
+msgid "Sales"
+msgstr "Vant"
+
+msgctxt "field:hotel.reservation,tourist_tax_exempt:"
+msgid "Tourist Tax Exempt"
+msgstr "Egzante taks touris"
+
+msgctxt "field:hotel.reservation.charge,payer:"
+msgid "Bill To"
+msgstr "Faktire bay"
+
+msgctxt "field:hotel.reservation.charge,tourist_tax:"
+msgid "Tourist Tax"
+msgstr "Taks touris"
+
+msgctxt "field:hotel.reservation.line,payer:"
+msgid "Bill To"
+msgstr "Faktire bay"
+
+msgctxt "field:hotel.tourist.tax,amount:"
+msgid "Amount"
+msgstr "Montan"
+
+msgctxt "field:hotel.tourist.tax,children_exempt:"
+msgid "Children Exempt"
+msgstr "Timoun egzante"
+
+msgctxt "field:hotel.tourist.tax,company:"
+msgid "Company"
+msgstr "Konpayi"
+
+msgctxt "field:hotel.tourist.tax,hotel:"
+msgid "Hotel"
+msgstr "Otèl"
+
+msgctxt "field:hotel.tourist.tax,max_nights:"
+msgid "Maximum Nights"
+msgstr "Maksimòm nwit"
+
+msgctxt "field:hotel.tourist.tax,name:"
+msgid "Name"
+msgstr "Non"
+
+msgctxt "field:hotel.tourist.tax,product:"
+msgid "Product"
+msgstr "Pwodui"
+
+msgctxt "field:party.party,hotel_corporate:"
+msgid "Corporate Account"
+msgstr "Kont antrepriz"
+
+msgctxt "field:party.party,hotel_credit_limit:"
+msgid "Credit Limit"
+msgstr "Limit kredi"
+
+msgctxt "help:hotel.hotel,deposit_product:"
+msgid ""
+"The service used to deduct the deposits from the invoice (use an account of "
+"liabilities)."
+msgstr ""
+"Sèvis yo itilize pou retire depo yo sou fakti a (sèvi ak yon kont pasif)."
+
+msgctxt "help:hotel.reservation.charge,payer:"
+msgid "Party invoiced for this charge. Empty means the guest."
+msgstr "Pati ki resevwa fakti chaj sa a. Vid vle di kliyan an."
+
+msgctxt "help:hotel.reservation.line,payer:"
+msgid "Party invoiced for this room. Empty means the guest."
+msgstr "Pati ki resevwa fakti chanm sa a. Vid vle di kliyan an."
+
+msgctxt "help:hotel.tourist.tax,amount:"
+msgid "Amount per person and per night."
+msgstr "Montan pou chak moun ak pou chak nwit."
+
+msgctxt "help:hotel.tourist.tax,max_nights:"
+msgid "The tax is not due beyond this number of nights. Empty means no limit."
+msgstr ""
+"Taks la pa dwe pi lwen pase kantite nwit sa a. Vid vle di pa gen limit."
+
+msgctxt "help:hotel.tourist.tax,product:"
+msgid "The service invoiced for the tax."
+msgstr "Sèvis yo faktire pou taks la."
+
+msgctxt "help:party.party,hotel_corporate:"
+msgid ""
+"Companies and agencies whose guests' stays are invoiced to them (city "
+"ledger)."
+msgstr "Konpayi ak ajans ki resevwa fakti sejou kliyan yo (kont kliyan)."
+
+msgctxt "help:party.party,hotel_credit_limit:"
+msgid ""
+"Reservations cannot be billed to the account beyond this amount of "
+"receivable. Empty means no limit."
+msgstr ""
+"Yo pa ka faktire rezèvasyon sou kont lan pi lwen pase montan kreyans sa a. "
+"Vid vle di pa gen limit."
+
+msgctxt "model:hotel.deposit,name:"
+msgid "Reservation Deposit"
+msgstr "Depo rezèvasyon"
+
+msgctxt "model:hotel.night.audit,name:"
+msgid "Night Audit"
+msgstr "Odit nwit"
+
+msgctxt "model:hotel.tourist.tax,name:"
+msgid "Tourist Tax"
+msgstr "Taks touris"
+
+msgctxt "model:ir.action,name:act_deposit"
+msgid "Deposits"
+msgstr "Depo"
+
+msgctxt "model:ir.action,name:act_night_audit"
+msgid "Night Audits"
+msgstr "Odit nwit yo"
+
+msgctxt "model:ir.action,name:act_tourist_tax"
+msgid "Tourist Taxes"
+msgstr "Taks touris"
+
+msgctxt "model:ir.message,text:msg_audit_delete_done"
+msgid "You cannot delete the closed night audit \"%(audit)s\"."
+msgstr "Ou pa kapab efase odit nwit fèmen \"%(audit)s\" lan."
+
+msgctxt "model:ir.message,text:msg_audit_no_shows"
+msgid "No-shows cancelled: %(reservations)s"
+msgstr "Moun ki pa vini yo anile: %(reservations)s"
+
+msgctxt "model:ir.message,text:msg_audit_unique"
+msgid "The night audit of this hotel and date already exists."
+msgstr "Odit nwit otèl sa a ak dat sa a deja egziste."
+
+msgctxt "model:ir.message,text:msg_credit_limit_exceeded"
+msgid ""
+"The account of \"%(party)s\" would reach %(amount)s, beyond its credit limit"
+" of %(limit)s."
+msgstr ""
+"Kont \"%(party)s\" ta rive %(amount)s, pi lwen pase limit kredi li ki se "
+"%(limit)s."
+
+msgctxt "model:ir.message,text:msg_deposit_delete_applied"
+msgid ""
+"You cannot delete the deposit \"%(deposit)s\" because it is applied to an "
+"invoice."
+msgstr "Ou pa kapab efase depo \"%(deposit)s\" paske li aplike sou yon fakti."
+
+msgctxt "model:ir.message,text:msg_deposit_line"
+msgid "Deposits received - %(reservation)s"
+msgstr "Depo resevwa - %(reservation)s"
+
+msgctxt "model:ir.message,text:msg_deposit_no_product"
+msgid "Set the deposit product of the hotel \"%(hotel)s\" to deduct the deposits."
+msgstr "Mete pwodui depo otèl \"%(hotel)s\" pou ka retire depo yo."
+
+msgctxt "model:ir.message,text:msg_split_billed"
+msgid "The reservation \"%(reservation)s\" is already billed."
+msgstr "Rezèvasyon \"%(reservation)s\" lan deja faktire."
+
+msgctxt "model:ir.message,text:msg_split_nothing"
+msgid "There is nothing to bill for the reservation \"%(reservation)s\"."
+msgstr "Pa gen anyen pou faktire pou rezèvasyon \"%(reservation)s\" lan."
+
+msgctxt "model:ir.model.button,string:deposit_refund_button"
+msgid "Refund"
+msgstr "Ranbousman"
+
+msgctxt "model:ir.model.button,string:night_audit_close_day_button"
+msgid "Close the Day"
+msgstr "Fèmen jou a"
+
+msgctxt "model:ir.model.button,string:reservation_create_split_sales_button"
+msgid "Bill to Payers"
+msgstr "Faktire bay moun k ap peye yo"
+
+msgctxt "model:ir.rule.group,name:rule_group_deposit_companies"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.rule.group,name:rule_group_night_audit_companies"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.rule.group,name:rule_group_tourist_tax_companies"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.ui.menu,name:menu_billing"
+msgid "Billing"
+msgstr "Fakti"
+
+msgctxt "model:ir.ui.menu,name:menu_deposit"
+msgid "Deposits"
+msgstr "Depo"
+
+msgctxt "model:ir.ui.menu,name:menu_night_audit"
+msgid "Night Audits"
+msgstr "Odit nwit yo"
+
+msgctxt "model:ir.ui.menu,name:menu_tourist_tax"
+msgid "Tourist Taxes"
+msgstr "Taks touris"
+
+msgctxt "selection:hotel.deposit,method:"
+msgid "Bank Transfer"
+msgstr "Virman labank"
+
+msgctxt "selection:hotel.deposit,method:"
+msgid "Card"
+msgstr "Kat"
+
+msgctxt "selection:hotel.deposit,method:"
+msgid "Cash"
+msgstr "Lajan kach"
+
+msgctxt "selection:hotel.deposit,method:"
+msgid "Cheque"
+msgstr "Chèk"
+
+msgctxt "selection:hotel.deposit,method:"
+msgid "Other"
+msgstr "Lòt"
+
+msgctxt "selection:hotel.deposit,state:"
+msgid "Applied"
+msgstr "Aplike"
+
+msgctxt "selection:hotel.deposit,state:"
+msgid "Received"
+msgstr "Resevwa"
+
+msgctxt "selection:hotel.deposit,state:"
+msgid "Refunded"
+msgstr "Ranbouse"
+
+msgctxt "selection:hotel.night.audit,state:"
+msgid "Done"
+msgstr "Fini"
+
+msgctxt "selection:hotel.night.audit,state:"
+msgid "Draft"
+msgstr "Bouyon"
+
+msgctxt "view:hotel.hotel:"
+msgid "Billing"
+msgstr "Fakti"
+
+msgctxt "view:hotel.reservation:"
+msgid "Deposits"
+msgstr "Depo"
+
+msgctxt "view:party.party:"
+msgid "Hotel Billing"
+msgstr "Faktirasyon otèl"
+
+msgctxt "model:ir.action.act_window.domain,name:act_deposit_domain_held"
+msgid "Held"
+msgstr "Kenbe"
+
+msgctxt "model:ir.action.act_window.domain,name:act_deposit_domain_all"
+msgid "All"
+msgstr "Tout"
+
+msgctxt "model:ir.action.act_window.domain,name:act_night_audit_domain_todo"
+msgid "To Close"
+msgstr "Pou fèmen"
+
+msgctxt "model:ir.action.act_window.domain,name:act_night_audit_domain_all"
+msgid "All"
+msgstr "Tout"
+
+msgctxt "selection:hotel.deposit,method:"
+msgid "Mobile Money"
+msgstr "Lajan mobil"

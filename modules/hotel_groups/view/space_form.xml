@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_groups module. -->
+<form>
+    <label name="hotel"/>
+    <field name="hotel"/>
+    <label name="name"/>
+    <field name="name"/>
+    <label name="capacity"/>
+    <field name="capacity"/>
+    <label name="active"/>
+    <field name="active" xexpand="0" width="25"/>
+    <label name="product"/>
+    <field name="product"/>
+    <label name="hourly_price"/>
+    <field name="hourly_price"/>
+</form>

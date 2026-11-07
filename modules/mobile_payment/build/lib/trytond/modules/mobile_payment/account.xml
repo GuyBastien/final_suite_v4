@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton mobile_payment module. -->
+<tryton>
+    <data>
+        <record model="res.group" id="group_mobile_payment_admin">
+            <field name="name">Mobile Payment Administration</field>
+        </record>
+        <record model="res.user-res.group" id="user_admin_group_mobile_payment_admin">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_mobile_payment_admin"/>
+        </record>
+        <menuitem icon="tryton-mobile-payment" name="Mobile Payment" id="menu_mobile_payment" sequence="57"/>
+        <record model="ir.ui.menu-res.group" id="menu_mobile_payment_group_sale_point">
+            <field name="menu" ref="menu_mobile_payment"/>
+            <field name="group" ref="sale_point.group_sale_point"/>
+        </record>
+        <menuitem icon="tryton-mobile-account" name="Configuration" parent="menu_mobile_payment" id="menu_configuration" sequence="90"/>
+        <record model="ir.ui.menu-res.group" id="menu_configuration_group_admin">
+            <field name="menu" ref="menu_configuration"/>
+            <field name="group" ref="group_mobile_payment_admin"/>
+        </record>
+        <record model="ir.ui.view" id="account_view_form">
+            <field name="model">mobile.payment.account</field>
+            <field name="type">form</field>
+            <field name="name">account_form</field>
+        </record>
+        <record model="ir.ui.view" id="account_view_list">
+            <field name="model">mobile.payment.account</field>
+            <field name="type">tree</field>
+            <field name="name">account_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_account">
+            <field name="name">Operator Accounts</field>
+            <field name="res_model">mobile.payment.account</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_account_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="account_view_list"/>
+            <field name="act_window" ref="act_account"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_account_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="account_view_form"/>
+            <field name="act_window" ref="act_account"/>
+        </record>
+        <menuitem icon="tryton-mobile-account" name="Operator Accounts" parent="menu_configuration" id="menu_account" sequence="10" action="act_account"/>
+        <record model="ir.model.button" id="account_test_connection_button">
+            <field name="model" search="[('model', '=', 'mobile.payment.account')]"/>
+            <field name="name">test_connection</field>
+            <field name="string">Test Connection</field>
+        </record>
+        <record model="ir.model.access" id="access_account">
+            <field name="model" search="[('model', '=', 'mobile.payment.account')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_account_user">
+            <field name="model" search="[('model', '=', 'mobile.payment.account')]"/>
+            <field name="group" ref="sale_point.group_sale_point"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_account_admin">
+            <field name="model" search="[('model', '=', 'mobile.payment.account')]"/>
+            <field name="group" ref="group_mobile_payment_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_account">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'mobile.payment.account')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_account">
+            <field name="domain"
+                eval="[('company', 'in', Eval('companies', []))]"
+                pyson="1"/>
+            <field name="rule_group" ref="rule_group_account"/>
+        </record>
+        <record model="ir.ui.view" id="push_view_form">
+            <field name="model">mobile.payment.push</field>
+            <field name="type">form</field>
+            <field name="name">push_form</field>
+        </record>
+        <record model="ir.ui.view" id="push_view_list">
+            <field name="model">mobile.payment.push</field>
+            <field name="type">tree</field>
+            <field name="name">push_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_push">
+            <field name="name">Notification Targets</field>
+            <field name="res_model">mobile.payment.push</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_push_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="push_view_list"/>
+            <field name="act_window" ref="act_push"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_push_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="push_view_form"/>
+            <field name="act_window" ref="act_push"/>
+        </record>
+        <menuitem icon="tryton-mobile-push" name="Notification Targets" parent="menu_configuration" id="menu_push" sequence="20" action="act_push"/>
+        <record model="ir.model.button" id="push_send_test_button">
+            <field name="model" search="[('model', '=', 'mobile.payment.push')]"/>
+            <field name="name">send_test</field>
+            <field name="string">Send a Test</field>
+        </record>
+        <record model="ir.model.access" id="access_push">
+            <field name="model" search="[('model', '=', 'mobile.payment.push')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_push_admin">
+            <field name="model" search="[('model', '=', 'mobile.payment.push')]"/>
+            <field name="group" ref="group_mobile_payment_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_push">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'mobile.payment.push')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_push">
+            <field name="domain"
+                eval="[('company', 'in', Eval('companies', []))]"
+                pyson="1"/>
+            <field name="rule_group" ref="rule_group_push"/>
+        </record>
+    </data>
+</tryton>

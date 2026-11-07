@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_billing module. -->
+<tryton>
+    <data>
+        <record model="ir.ui.icon" id="icon_hotel_billing">
+            <field name="name">tryton-hotel-billing</field>
+            <field name="path">icons/tryton-hotel-billing.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_hotel_deposit">
+            <field name="name">tryton-hotel-deposit</field>
+            <field name="path">icons/tryton-hotel-deposit.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_hotel_audit">
+            <field name="name">tryton-hotel-audit</field>
+            <field name="path">icons/tryton-hotel-audit.svg</field>
+        </record>
+    </data>
+</tryton>

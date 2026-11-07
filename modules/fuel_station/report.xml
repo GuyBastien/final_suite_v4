@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton fuel_station module. -->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="sales_report_view_list">
+            <field name="model">fuel.report.sales</field>
+            <field name="type">tree</field>
+            <field name="name">sales_report_list</field>
+        </record>
+        <record model="ir.ui.view" id="sales_report_view_graph">
+            <field name="model">fuel.report.sales</field>
+            <field name="type">graph</field>
+            <field name="name">sales_report_graph</field>
+        </record>
+        <record model="ir.action.act_window" id="act_sales_report">
+            <field name="name">Sales by Day</field>
+            <field name="res_model">fuel.report.sales</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_sales_report_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="sales_report_view_list"/>
+            <field name="act_window" ref="act_sales_report"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_sales_report_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="sales_report_view_graph"/>
+            <field name="act_window" ref="act_sales_report"/>
+        </record>
+        <menuitem icon="tryton-fuel-report" name="Fuel Sales" parent="menu_reports" id="menu_sales_report" sequence="10" action="act_sales_report"/>
+        <record model="ir.model.access" id="access_sales_report">
+            <field name="model" search="[('model', '=', 'fuel.report.sales')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_sales_report_user">
+            <field name="model" search="[('model', '=', 'fuel.report.sales')]"/>
+            <field name="group" ref="group_fuel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_sales_report_admin">
+            <field name="model" search="[('model', '=', 'fuel.report.sales')]"/>
+            <field name="group" ref="group_fuel_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_sales_report">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'fuel.report.sales')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_sales_report">
+            <field name="domain"
+                eval="[('company', 'in', Eval('companies', []))]"
+                pyson="1"/>
+            <field name="rule_group" ref="rule_group_sales_report"/>
+        </record>
+        <record model="ir.ui.view" id="dashboard_view_form">
+            <field name="model">fuel.dashboard</field>
+            <field name="type">form</field>
+            <field name="name">dashboard_form</field>
+        </record>
+        <record model="ir.ui.view" id="dashboard_view_list">
+            <field name="model">fuel.dashboard</field>
+            <field name="type">tree</field>
+            <field name="name">dashboard_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_dashboard">
+            <field name="name">Dashboard</field>
+            <field name="res_model">fuel.dashboard</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_dashboard_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="dashboard_view_list"/>
+            <field name="act_window" ref="act_dashboard"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_dashboard_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="dashboard_view_form"/>
+            <field name="act_window" ref="act_dashboard"/>
+        </record>
+        <menuitem icon="tryton-fuel" name="Dashboard" parent="menu_fuel" id="menu_dashboard" sequence="10" action="act_dashboard"/>
+        <record model="ir.model.access" id="access_dashboard">
+            <field name="model" search="[('model', '=', 'fuel.dashboard')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_dashboard_user">
+            <field name="model" search="[('model', '=', 'fuel.dashboard')]"/>
+            <field name="group" ref="group_fuel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_dashboard_admin">
+            <field name="model" search="[('model', '=', 'fuel.dashboard')]"/>
+            <field name="group" ref="group_fuel_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_dashboard">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'fuel.dashboard')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_dashboard">
+            <field name="domain"
+                eval="[('company', 'in', Eval('companies', []))]"
+                pyson="1"/>
+            <field name="rule_group" ref="rule_group_dashboard"/>
+        </record>
+    </data>
+</tryton>

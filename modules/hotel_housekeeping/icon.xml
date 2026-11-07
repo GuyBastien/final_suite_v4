@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_housekeeping module. -->
+<tryton>
+    <data>
+        <record model="ir.ui.icon" id="icon_hotel_housekeeping">
+            <field name="name">tryton-hotel-housekeeping</field>
+            <field name="path">icons/tryton-hotel-housekeeping.svg</field>
+        </record>
+    </data>
+</tryton>

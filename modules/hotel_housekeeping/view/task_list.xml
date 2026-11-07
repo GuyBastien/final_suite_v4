@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_housekeeping module. -->
+<tree>
+    <field name="priority"/>
+    <field name="room"/>
+    <field name="kind"/>
+    <field name="planned_date"/>
+    <field name="assigned_to"/>
+    <field name="state"/>
+    <field name="hotel" optional="1"/>
+</tree>

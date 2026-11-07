@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton fuel_station module. -->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="price_view_form">
+            <field name="model">fuel.price</field>
+            <field name="type">form</field>
+            <field name="name">price_form</field>
+        </record>
+        <record model="ir.ui.view" id="price_view_list">
+            <field name="model">fuel.price</field>
+            <field name="type">tree</field>
+            <field name="name">price_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_price">
+            <field name="name">Fuel Prices</field>
+            <field name="res_model">fuel.price</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_price_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="price_view_list"/>
+            <field name="act_window" ref="act_price"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_price_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="price_view_form"/>
+            <field name="act_window" ref="act_price"/>
+        </record>
+        <menuitem icon="tryton-fuel-price" name="Fuel Prices" parent="menu_configuration" id="menu_price" sequence="40" action="act_price"/>
+        <record model="ir.model.access" id="access_price">
+            <field name="model" search="[('model', '=', 'fuel.price')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_price_user">
+            <field name="model" search="[('model', '=', 'fuel.price')]"/>
+            <field name="group" ref="group_fuel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_price_admin">
+            <field name="model" search="[('model', '=', 'fuel.price')]"/>
+            <field name="group" ref="group_fuel_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_price">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'fuel.price')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_price">
+            <field name="domain"
+                eval="[('company', 'in', Eval('companies', []))]"
+                pyson="1"/>
+            <field name="rule_group" ref="rule_group_price"/>
+        </record>
+    </data>
+</tryton>

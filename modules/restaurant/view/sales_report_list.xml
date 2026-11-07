@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton restaurant module. -->
+<tree>
+    <field name="date"/>
+    <field name="restaurant"/>
+    <field name="type"/>
+    <field name="product"/>
+    <field name="quantity" sum="1"/>
+    <field name="amount" sum="1"/>
+</tree>

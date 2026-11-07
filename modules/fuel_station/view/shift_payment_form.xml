@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton fuel_station module. -->
+<form>
+    <label name="shift"/>
+    <field name="shift"/>
+    <label name="method"/>
+    <field name="method"/>
+    <label name="amount"/>
+    <field name="amount"/>
+    <label name="party"/>
+    <field name="party"/>
+    <label name="reference"/>
+    <field name="reference" colspan="3"/>
+</form>

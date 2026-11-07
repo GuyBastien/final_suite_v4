@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_sale_point module. -->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="sale_view_form">
+            <field name="model">sale.point.sale</field>
+            <field name="inherit" ref="sale_point_quick.sale_view_form"/>
+            <field name="name">sale_form</field>
+        </record>
+        <record model="ir.model.button" id="sale_pay_room_button">
+            <field name="model" search="[('model', '=', 'sale.point.sale')]"/>
+            <field name="name">pay_room</field>
+            <field name="string">Charge to Room</field>
+        </record>
+    </data>
+</tryton>

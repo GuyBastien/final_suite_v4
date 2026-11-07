@@ -1,0 +1,183 @@
+#
+msgid ""
+msgstr ""
+"Language: ht\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:fuel.shift,cash_counts:"
+msgid "Cash Count"
+msgstr "Konte kès"
+
+msgctxt "field:fuel.shift.cash.count,amount:"
+msgid "Amount"
+msgstr "Montan"
+
+msgctxt "field:fuel.shift.cash.count,company:"
+msgid "Company"
+msgstr "Konpayi"
+
+msgctxt "field:fuel.shift.cash.count,denomination:"
+msgid "Denomination"
+msgstr "Valè biyè ak pyès"
+
+msgctxt "field:fuel.shift.cash.count,face_value:"
+msgid "Value"
+msgstr "Valè"
+
+msgctxt "field:fuel.shift.cash.count,kind:"
+msgid "Kind"
+msgstr "Kalite"
+
+msgctxt "field:fuel.shift.cash.count,quantity:"
+msgid "Counted"
+msgstr "Konte"
+
+msgctxt "field:fuel.shift.cash.count,shift:"
+msgid "Shift"
+msgstr "Chanjman travay"
+
+msgctxt "field:fuel.shift.cash.count,suspect_amount:"
+msgid "Suspect Amount"
+msgstr "Montan ki sispèk"
+
+msgctxt "field:fuel.shift.cash.count,suspect_quantity:"
+msgid "Suspect"
+msgstr "Sispèk"
+
+msgctxt "field:fuel.station,cash_control:"
+msgid "Cash Count Required"
+msgstr "Konte kès obligatwa"
+
+msgctxt "help:fuel.shift,cash_counts:"
+msgid "Count of banknotes and coins by denomination."
+msgstr "Konte biyè ak pyès pa valè."
+
+msgctxt "help:fuel.shift.cash.count,amount:"
+msgid "Amount of the good banknotes and coins."
+msgstr "Montan bòn biyè ak pyès lajan."
+
+msgctxt "help:fuel.shift.cash.count,company:"
+msgid "Company of the shift."
+msgstr "Konpayi chanjman travay la."
+
+msgctxt "help:fuel.shift.cash.count,denomination:"
+msgid "Banknote or coin value counted."
+msgstr "Valè biyè oswa pyès yo konte a."
+
+msgctxt "help:fuel.shift.cash.count,face_value:"
+msgid "Face value of the banknote or coin."
+msgstr "Valè ki make sou biyè a oswa sou pyès la."
+
+msgctxt "help:fuel.shift.cash.count,kind:"
+msgid "Banknote or coin."
+msgstr "Biyè oswa pyès."
+
+msgctxt "help:fuel.shift.cash.count,quantity:"
+msgid "Number of banknotes or coins counted in the drawer."
+msgstr "Kantite biyè oswa pyès yo konte nan tiwa a."
+
+msgctxt "help:fuel.shift.cash.count,shift:"
+msgid "Shift concerned."
+msgstr "Chanjman travay ki konsène a."
+
+msgctxt "help:fuel.shift.cash.count,suspect_amount:"
+msgid "Value of banknotes or coins that look counterfeit."
+msgstr "Valè biyè oswa pyès ki sanble fo."
+
+msgctxt "help:fuel.shift.cash.count,suspect_quantity:"
+msgid ""
+"Counterfeit, damaged or doubtful banknotes/coins among those counted. They "
+"are not added to the cash total."
+msgstr ""
+"Biyè/pyès fo, domaje oswa dout pami sa yo konte yo. Yo pa ajoute yo nan "
+"total lajan kach la."
+
+msgctxt "help:fuel.station,cash_control:"
+msgid ""
+"The attendant must count the banknotes and coins before a shift can be "
+"closed. The denominations are those of the point of sale (Sales > "
+"Denominations)."
+msgstr ""
+"Ponpis la dwe konte biyè ak pyès lajan anvan li ka fèmen yon pòs. Valè yo se"
+" sa pwen vant lan (Vant > Valè biyè ak pyès)."
+
+msgctxt "model:fuel.shift.cash.count,name:"
+msgid "Fuel Shift Cash Count"
+msgstr "Konte kès chanjman travay"
+
+msgctxt "model:ir.message,text:msg_cash_count_company"
+msgid ""
+"The denomination \"%(denomination)s\" does not belong to the company of the "
+"shift."
+msgstr "Valè \"%(denomination)s\" pa fè pati konpayi pòs la."
+
+msgctxt "model:ir.message,text:msg_cash_count_suspect"
+msgid "The suspect quantity cannot exceed the counted quantity."
+msgstr "Kantite sispèk la pa ka depase kantite yo konte a."
+
+msgctxt "model:ir.message,text:msg_cash_count_unique"
+msgid "A denomination can only be counted once per shift."
+msgstr "Yo ka konte yon valè yon sèl fwa pou chak chanjman travay."
+
+msgctxt "model:ir.message,text:msg_shift_cash_count_difference"
+msgid ""
+"Shift \"%(shift)s\": the counted cash differs from the cash payments by "
+"%(difference)s. Close the shift anyway?"
+msgstr ""
+"Chanjman travay « %(shift)s » : lajan kach ki konte a diferan de peman an "
+"lajan kach pa %(difference)s. Fèmen chanjman travay la kanmenm ?"
+
+msgctxt "model:ir.message,text:msg_shift_cash_count_required"
+msgid "The cash of shift \"%(shift)s\" must be counted before it is closed."
+msgstr ""
+"Yo dwe konte lajan kach chanjman travay « %(shift)s » la anvan yo fèmen l."
+
+msgctxt "model:ir.message,text:msg_shift_no_denomination"
+msgid ""
+"No denomination is defined for the company \"%(company)s\". Create them in "
+"Sales > Denominations."
+msgstr ""
+"Pa gen valè biyè ak pyès defini pou konpayi \"%(company)s\". Kreye yo nan "
+"Vant > Valè biyè ak pyès."
+
+msgctxt "model:ir.message,text:msg_shift_suspect_cash"
+msgid ""
+"Shift \"%(shift)s\": suspect banknotes or coins for %(amount)s were set "
+"aside. Close the shift anyway?"
+msgstr ""
+"Chanjman travay « %(shift)s » : yo mete apa biyè oswa pyès sispèk pou "
+"%(amount)s. Fèmen chanjman travay la kanmenm ?"
+
+msgctxt "model:ir.model.button,string:shift_load_denominations_button"
+msgid "Load Denominations"
+msgstr "Chaje valè yo"
+
+msgctxt "model:ir.rule.group,name:rule_group_shift_cash_count"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "selection:fuel.shift.cash.count,kind:"
+msgid "Banknote"
+msgstr "Biyè"
+
+msgctxt "selection:fuel.shift.cash.count,kind:"
+msgid "Coin"
+msgstr "Pyès"
+
+msgctxt "field:fuel.shift.cash.count,value:"
+msgid "Value"
+msgstr "Valè"
+
+msgctxt "help:fuel.shift.cash.count,amount:"
+msgid ""
+"Amount in the currency of the document, without the suspect banknotes and "
+"coins."
+msgstr "Montan nan lajan dokiman an, san biyè ak pyès ki sispèk yo."
+
+msgctxt "help:fuel.shift.cash.count,quantity:"
+msgid "Number of banknotes or coins found in the drawer."
+msgstr "Kantite biyè oswa pyès yo jwenn nan tiwa lajan an."
+
+msgctxt "help:fuel.shift.cash.count,value:"
+msgid "Value of the banknote or coin."
+msgstr "Valè biyè a oswa pyès la."

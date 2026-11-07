@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_guest module. -->
+<data>
+    <xpath expr="/tree/field[@name='name']" position="after">
+        <field name="vip" optional="1"/>
+        <field name="loyalty_tier" optional="1"/>
+    </xpath>
+</data>

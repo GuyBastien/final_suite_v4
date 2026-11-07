@@ -1,0 +1,222 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton fuel_station module. -->
+<tryton>
+    <data grouped="1">
+        <record model="ir.message" id="msg_station_code_unique">
+            <field name="text">The code of the station must be unique per company.</field>
+        </record>
+        <record model="ir.message" id="msg_station_no_storage">
+            <field name="text">The warehouse of station "%(station)s" has no storage location.</field>
+        </record>
+        <record model="ir.message" id="msg_tank_code_unique">
+            <field name="text">The code of the tank must be unique per station.</field>
+        </record>
+        <record model="ir.message" id="msg_tank_min_capacity">
+            <field name="text">The minimum level of a tank cannot exceed its capacity.</field>
+        </record>
+        <record model="ir.message" id="msg_pump_code_unique">
+            <field name="text">The code of the pump must be unique per station.</field>
+        </record>
+        <record model="ir.message" id="msg_nozzle_number_unique">
+            <field name="text">The number of the nozzle must be unique per pump.</field>
+        </record>
+        <record model="ir.message" id="msg_nozzle_station">
+            <field name="text">The tank of nozzle "%(nozzle)s" must belong to the station of its pump.</field>
+        </record>
+        <record model="ir.message" id="msg_price_unique">
+            <field name="text">A price already exists for this station, fuel and date.</field>
+        </record>
+        <record model="ir.message" id="msg_price_missing">
+            <field name="text">No price is defined for "%(product)s" at "%(station)s" on %(date)s.</field>
+        </record>
+        <record model="ir.message" id="msg_shift_delete">
+            <field name="text">The shift "%(shift)s" cannot be deleted: cancel it first.</field>
+        </record>
+        <record model="ir.message" id="msg_shift_already_open">
+            <field name="text">Station "%(station)s" already has an open shift: %(shift)s. Close it first.</field>
+        </record>
+        <record model="ir.message" id="msg_shift_no_nozzle">
+            <field name="text">Station "%(station)s" has no active nozzle.</field>
+        </record>
+        <record model="ir.message" id="msg_shift_no_lines">
+            <field name="text">The shift "%(shift)s" has no pump reading.</field>
+        </record>
+        <record model="ir.message" id="msg_shift_missing_index">
+            <field name="text">Enter the closing index of nozzle "%(nozzle)s" before closing shift "%(shift)s".</field>
+        </record>
+        <record model="ir.message" id="msg_shift_stock_short">
+            <field name="text">Tank "%(tank)s" holds %(book)s but %(sold)s were sold. A delivery may be missing. Continue anyway?</field>
+        </record>
+        <record model="ir.message" id="msg_shift_cash_difference">
+            <field name="text">Shift "%(shift)s" has a cash difference of %(difference)s. Close it anyway?</field>
+        </record>
+        <record model="ir.message" id="msg_shift_no_customer_location">
+            <field name="text">No stock location of type "Customer" exists.</field>
+        </record>
+        <record model="ir.message" id="msg_line_nozzle_unique">
+            <field name="text">A nozzle can appear only once per shift.</field>
+        </record>
+        <record model="ir.message" id="msg_line_index_order">
+            <field name="text">The closing index cannot be lower than the opening index.</field>
+        </record>
+        <record model="ir.message" id="msg_line_nozzle_station">
+            <field name="text">Nozzle "%(nozzle)s" does not belong to station "%(station)s".</field>
+        </record>
+        <record model="ir.message" id="msg_line_test_too_big">
+            <field name="text">The test quantity of nozzle "%(nozzle)s" exceeds the pumped quantity.</field>
+        </record>
+        <record model="ir.message" id="msg_line_delete_move">
+            <field name="text">The reading of nozzle "%(nozzle)s" has stock moves and cannot be deleted.</field>
+        </record>
+        <record model="ir.message" id="msg_payment_shift_closed">
+            <field name="text">The payments of shift "%(shift)s" can no longer be changed.</field>
+        </record>
+        <record model="ir.message" id="msg_delivery_delete_done">
+            <field name="text">The delivery "%(delivery)s" is done and cannot be deleted.</field>
+        </record>
+        <record model="ir.message" id="msg_delivery_no_lines">
+            <field name="text">The delivery "%(delivery)s" has no line.</field>
+        </record>
+        <record model="ir.message" id="msg_delivery_overfill">
+            <field name="text">Tank "%(tank)s" can only receive %(free)s but %(quantity)s are delivered. Continue anyway?</field>
+        </record>
+        <record model="ir.message" id="msg_delivery_tank_station">
+            <field name="text">Tank "%(tank)s" does not belong to station "%(station)s".</field>
+        </record>
+        <record model="ir.message" id="msg_dip_delete_done">
+            <field name="text">The dip "%(dip)s" is done and cannot be deleted.</field>
+        </record>
+        <record model="ir.message" id="msg_dip_tank_station">
+            <field name="text">Tank "%(tank)s" does not belong to the station of the dip.</field>
+        </record>
+        <record model="ir.message" id="msg_dip_variance">
+            <field name="text">Tank "%(tank)s": the measure differs from the book quantity (%(book)s) by %(variance)s. Validate anyway?</field>
+        </record>
+        <record model="ir.message" id="msg_dip_no_lost_found">
+            <field name="text">No stock location of type "Lost and Found" exists.</field>
+        </record>
+        <record model="ir.message" id="msg_fuel_uom">
+            <field name="text">The fuel "%(product)s" must be measured in gallons (or another volume unit).</field>
+        </record>
+        <record model="ir.message" id="msg_payment_credit_party">
+            <field name="text">Credit payments of shift "%(shift)s" must name the customer.</field>
+        </record>
+        <record model="ir.message" id="msg_reading_lower">
+            <field name="text">The reading %(index)s of nozzle "%(nozzle)s" is lower than its opening index %(opening)s.</field>
+        </record>
+        <record model="ir.message" id="msg_reading_unknown_nozzle">
+            <field name="text">No nozzle found for station "%(station)s", pump "%(pump)s", number %(number)s.</field>
+        </record>
+        <record model="ir.message" id="msg_authorization_log_requested">
+            <field name="text">Authorization requested.</field>
+        </record>
+        <record model="ir.message" id="msg_authorization_locked">
+            <field name="text">The authorization "%(authorization)s" is no longer pending: its request cannot be changed.</field>
+        </record>
+        <record model="ir.message" id="msg_authorization_delete">
+            <field name="text">Authorizations cannot be deleted: they are part of the audit trail. Cancel them instead.</field>
+        </record>
+        <record model="ir.message" id="msg_authorization_nozzle">
+            <field name="text">The nozzle "%(nozzle)s" does not belong to the pump and the station of the authorization.</field>
+        </record>
+        <record model="ir.message" id="msg_authorization_not_enabled">
+            <field name="text">Station "%(station)s" does not use authorizations. Enable "Authorization Control" in its configuration.</field>
+        </record>
+        <record model="ir.message" id="msg_authorization_comm_lost">
+            <field name="text">The communication with the controller of station "%(station)s" is lost or blocked: no authorization can be requested, approved or transmitted.</field>
+        </record>
+        <record model="ir.message" id="msg_authorization_not_manager">
+            <field name="text">Only an authorization manager can do this.</field>
+        </record>
+        <record model="ir.message" id="msg_authorization_not_middleware">
+            <field name="text">Only the middleware user can do this.</field>
+        </record>
+        <record model="ir.message" id="msg_authorization_unknown_station">
+            <field name="text">Unknown station "%(station)s".</field>
+        </record>
+        <record model="ir.message" id="msg_authorization_unknown">
+            <field name="text">Unknown authorization "%(number)s".</field>
+        </record>
+        <record model="ir.message" id="msg_authorization_state">
+            <field name="text">The authorization "%(authorization)s" is "%(state)s": this action is not possible.</field>
+        </record>
+        <record model="ir.message" id="msg_authorization_same_user">
+            <field name="text">The authorization "%(authorization)s" must be approved by someone other than its requester.</field>
+        </record>
+        <record model="ir.message" id="msg_authorization_pump_busy">
+            <field name="text">Pump "%(pump)s" already has the live authorization "%(authorization)s". Wait for it to end or cancel it.</field>
+        </record>
+        <record model="ir.message" id="msg_authorization_log_cancel">
+            <field name="text">Cancellation requested: the controller must acknowledge it.</field>
+        </record>
+        <record model="ir.message" id="msg_authorization_expired">
+            <field name="text">The authorization "%(authorization)s" has expired.</field>
+        </record>
+        <record model="ir.message" id="msg_authorization_log_late">
+            <field name="text">The controller confirmed an authorization that is no longer valid in Tryton.</field>
+        </record>
+        <record model="ir.message" id="msg_authorization_log_ack">
+            <field name="text">Cancellation acknowledged by the controller.</field>
+        </record>
+        <record model="ir.message" id="msg_authorization_transaction">
+            <field name="text">The transaction "%(transaction)s" is already linked to another authorization.</field>
+        </record>
+        <record model="ir.message" id="msg_authorization_log_state">
+            <field name="text">A result arrived while the authorization was "%(state)s".</field>
+        </record>
+        <record model="ir.message" id="msg_authorization_log_quantity">
+            <field name="text">Dispensed quantity %(dispensed)s exceeds the authorized %(limit)s.</field>
+        </record>
+        <record model="ir.message" id="msg_authorization_log_amount">
+            <field name="text">Dispensed amount %(dispensed)s exceeds the authorized %(limit)s.</field>
+        </record>
+        <record model="ir.message" id="msg_authorization_log_reuse">
+            <field name="text">Second result for a single-use authorization.</field>
+        </record>
+        <record model="ir.message" id="msg_authorization_log_readonly">
+            <field name="text">The audit log cannot be changed.</field>
+        </record>
+        <record model="ir.message" id="msg_guide_usage">
+            <field name="text">USAGE GUIDE - FUEL STATION
+
+1. DAILY WORK
+- Operations &gt; Shifts: open the shift (Open), enter the closing index of each nozzle, the payments and the shop sales, count the banknotes and coins (Cash Control tab), then Close.
+- Operations &gt; Deliveries: receive the fuel in the tanks. Operations &gt; Tank Dips: compare the measured level to the stock.
+- Stock &gt; Tank Levels / Low Tanks: monitor the tanks. Reports &gt; Fuel Sales: sales by day, station and fuel.
+- Quantities are in gallons.
+
+2. DISPENSING AUTHORIZATIONS
+Tryton requests and records. The certified controller of the station decides physically whether a pump may dispense. Tryton is never connected to the pump control circuits: a middleware, validated by the equipment manufacturer and the authorized installer, carries the authorizations to the controller.
+Flow:
+1. Operator: Operations &gt; Dispensing Authorizations &gt; New. Choose the station, the pump, the nozzle (it imposes the fuel), the limit (maximum quantity or maximum amount), the customer and/or the vehicle. Save: the authorization is Pending.
+2. Manager: Operations &gt; Authorizations to Approve &gt; Approve (or Reject). The approver must not be the requester. Tryton keeps the user, the time and the authorized limits. The authorization then expires after the validity delay of the station.
+3. Middleware: reads the approved authorizations, gives them to the controller (Transmitted), the controller confirms (Confirmed), then sends back the quantity, the amount and the transaction reference.
+4. Tryton compares the result with the authorization: if it is correct the authorization is Completed, the stock is moved and, with the sale module, the sale and the invoice are created. Any difference (limit exceeded, late or repeated result, expiry) puts it in Discrepancy for a manager to resolve; nothing is hidden.
+Rules: single use, one live authorization per pump, short expiry, quantity or amount ceiling, pump and fuel imposed, cancellation controlled (after transmission only a manager can request it and the controller must acknowledge), full audit log in the Audit Log tab, no authorization when the communication with the controller is lost or blocked.
+
+3. WHO DOES WHAT
+- Fuel Station: operators (request, shifts, deliveries, dips).
+- Fuel Authorization Manager: approve, reject, resolve discrepancies, request cancellation after transmission.
+- Fuel Middleware: technical user of the middleware only.
+- Fuel Station Administration: configuration.
+
+4. WHEN SOMETHING GOES WRONG
+- "Communication lost": the middleware sent no signal within the timeout of the station. Check the middleware and the controller; the pumps are not affected, they simply stay under the control of the controller.
+- Authorization Expired: request a new one.
+- Discrepancy: open the audit log, check the controller records, then Resolve with a note.
+</field>
+        </record>
+        <record model="ir.message" id="msg_alert_tank_title">
+            <field name="text">%(count)s fuel tank(s) under the minimum level</field>
+        </record>
+        <record model="ir.message" id="msg_alert_tank_item">
+            <field name="text">%(tank)s: %(quantity)s left, minimum %(minimum)s</field>
+        </record>
+        <record model="ir.message" id="msg_alert_shift_title">
+            <field name="text">%(count)s shift(s) open for too long</field>
+        </record>
+        <record model="ir.message" id="msg_alert_shift_item">
+            <field name="text">%(shift)s (%(attendant)s) is still open: close it or hand it over.</field>
+        </record>
+    </data>
+</tryton>

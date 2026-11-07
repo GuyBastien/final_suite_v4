@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton fuel_station module. -->
+<form col="4">
+    <label name="name"/>
+    <field name="name"/>
+    <label name="code"/>
+    <field name="code"/>
+    <label name="company"/>
+    <field name="company"/>
+    <label name="active"/>
+    <field name="active"/>
+    <label name="warehouse"/>
+    <field name="warehouse"/>
+    <label name="party"/>
+    <field name="party"/>
+    <notebook colspan="4">
+        <page string="Tanks" id="tanks">
+            <field name="tanks" colspan="4"/>
+        </page>
+        <page string="Pumps" id="pumps">
+            <field name="pumps" colspan="4"/>
+        </page>
+        <page string="Controls" id="controls">
+            <label name="currency"/>
+            <field name="currency"/>
+            <newline/>
+            <label name="cash_tolerance"/>
+            <field name="cash_tolerance"/>
+            <label name="temperature_correction"/>
+            <field name="temperature_correction"/>
+            <label name="dip_tolerance"/>
+            <field name="dip_tolerance"/>
+            <label name="shift_max_hours"/>
+            <field name="shift_max_hours"/>
+        </page>
+        <page string="Authorizations" id="authorizations">
+            <label name="authorization_control"/>
+            <field name="authorization_control"/>
+            <label name="authorization_ttl"/>
+            <field name="authorization_ttl"/>
+            <label name="heartbeat_timeout"/>
+            <field name="heartbeat_timeout"/>
+            <label name="communication_blocked"/>
+            <field name="communication_blocked"/>
+            <label name="communication_ok"/>
+            <field name="communication_ok"/>
+            <label name="last_heartbeat"/>
+            <field name="last_heartbeat"/>
+        </page>
+    </notebook>
+</form>

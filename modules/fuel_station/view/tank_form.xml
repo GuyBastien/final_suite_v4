@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton fuel_station module. -->
+<form col="4">
+    <label name="station"/>
+    <field name="station"/>
+    <label name="code"/>
+    <field name="code"/>
+    <label name="name"/>
+    <field name="name"/>
+    <label name="active"/>
+    <field name="active"/>
+    <label name="product"/>
+    <field name="product" colspan="3"/>
+    <group col="8" colspan="4" id="level" string="Level">
+        <label name="quantity"/>
+        <field name="quantity"/>
+        <label name="capacity"/>
+        <field name="capacity"/>
+        <label name="min_level"/>
+        <field name="min_level"/>
+        <label name="free_space"/>
+        <field name="free_space"/>
+        <label name="fill_ratio"/>
+        <field name="fill_ratio" widget="progressbar" colspan="3"/>
+        <label name="low"/>
+        <field name="low"/>
+        <label name="unit"/>
+        <field name="unit"/>
+        <label name="location"/>
+        <field name="location"/>
+    </group>
+</form>

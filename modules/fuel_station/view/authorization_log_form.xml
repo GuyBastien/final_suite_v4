@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton fuel_station module. -->
+<form>
+    <label name="authorization"/>
+    <field name="authorization"/>
+    <label name="timestamp"/>
+    <field name="timestamp"/>
+    <label name="event"/>
+    <field name="event"/>
+    <label name="user"/>
+    <field name="user"/>
+    <label name="state"/>
+    <field name="state"/>
+    <field name="note" colspan="4"/>
+</form>

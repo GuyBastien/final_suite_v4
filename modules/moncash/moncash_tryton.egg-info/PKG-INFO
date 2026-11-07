@@ -1,0 +1,40 @@
+Metadata-Version: 2.4
+Name: moncash-tryton
+Version: 7.0.2
+Summary: MonCash (Digicel Haiti) payments for the point of sale
+Author: Pierre Michel Augustin
+License: AGPL-3
+Classifier: Framework :: Tryton
+Requires-Python: >=3.8
+Requires-Dist: trytond<7.1,>=7.0
+Requires-Dist: mobile_payment-tryton
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+MonCash
+#######
+
+MonCash (Digicel Haiti) provider for ``mobile_payment``. It uses the
+official MonCash REST API (OAuth2 client credentials, ``CreatePayment``,
+``RetrieveOrderPayment``, ``RetrieveTransactionPayment``), the same API
+wrapped by the Python SDK *moncashify*.
+
+Setup
+-----
+
+1. Create a business account and an application on the MonCash Business
+   portal; copy the *Client ID* and the *Secret Key* (sandbox first).
+2. In *Mobile Payment > Configuration > Operator Accounts* create an account,
+   provider *MonCash*, paste the credentials, choose the payment method and
+   press *Test Connection*.
+3. In the portal, set the *Return URL* to
+   ``https://<server>/<database>/mobile_payment/moncash/return``.
+4. Untick *Sandbox* when Digicel activated the live credentials.
+
+Limits: gourdes (HTG) only; the secret key is stored in the database and
+hidden from non-administrators, not encrypted.

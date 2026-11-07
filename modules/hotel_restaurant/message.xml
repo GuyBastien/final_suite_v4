@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_restaurant module. -->
+<tryton>
+    <data grouped="1">
+        <record model="ir.message" id="msg_no_hotel">
+            <field name="text">Restaurant "%(restaurant)s" has no hotel. Choose the hotel first.</field>
+        </record>
+        <record model="ir.message" id="msg_area">
+            <field name="text">Hotel</field>
+        </record>
+        <record model="ir.message" id="msg_other_hotel">
+            <field name="text">Order "%(order)s" cannot be linked to a stay of another hotel than "%(hotel)s".</field>
+        </record>
+        <record model="ir.message" id="msg_open_order_checkout">
+            <field name="text">Order "%(order)s" of stay "%(reservation)s" still has a balance due. Charge it to the room or settle it before the check-out.</field>
+        </record>
+        <record model="ir.message" id="msg_room_no_stay">
+            <field name="text">Order "%(order)s" can only be charged to the room of a checked-in stay. Choose the hotel stay first.</field>
+        </record>
+        <record model="ir.message" id="msg_no_room_product">
+            <field name="text">Hotel "%(hotel)s" has no Room Charge Product. Set it to bill the restaurant to the room.</field>
+        </record>
+        <record model="ir.message" id="msg_charge_description">
+            <field name="text">Restaurant - order %(order)s</field>
+        </record>
+        <record model="ir.message" id="msg_room_locked">
+            <field name="text">The room charge of order "%(order)s" cannot be changed. Delete it and enter it again.</field>
+        </record>
+        <record model="ir.message" id="msg_charge_billed">
+            <field name="text">The room charge of order "%(order)s" is already billed with the stay and cannot be removed.</field>
+        </record>
+    </data>
+</tryton>

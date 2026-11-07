@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel module. -->
+<form>
+    <label name="room_type"/>
+    <field name="room_type"/>
+    <label name="name"/>
+    <field name="name"/>
+    <label name="start_date"/>
+    <field name="start_date"/>
+    <label name="end_date"/>
+    <field name="end_date"/>
+    <label name="currency"/>
+    <field name="currency"/>
+    <label name="active"/>
+    <field name="active" xexpand="0" width="25"/>
+    <separator string="Nightly" id="nightly" colspan="4"/>
+    <label name="night_price"/>
+    <field name="night_price"/>
+    <label name="weekend_night_price"/>
+    <field name="weekend_night_price"/>
+    <separator string="Hourly" id="hourly" colspan="4"/>
+    <label name="hour_price"/>
+    <field name="hour_price"/>
+    <newline/>
+    <label name="min_hours"/>
+    <field name="min_hours"/>
+    <label name="max_hours"/>
+    <field name="max_hours"/>
+</form>

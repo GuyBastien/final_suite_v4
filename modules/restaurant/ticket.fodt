@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
+ <office:meta/>
+ <office:font-face-decls>
+  <style:font-face style:name="Liberation Sans" svg:font-family="'Liberation Sans'" style:font-family-generic="swiss" style:font-pitch="variable"/>
+ </office:font-face-decls>
+ <office:styles>
+  <style:default-style style:family="paragraph">
+   <style:text-properties style:font-name="Liberation Sans" fo:font-size="10pt"/>
+  </style:default-style>
+  <style:style style:name="Standard" style:family="paragraph" style:class="text"/>
+  <style:style style:name="Table_20_Contents" style:display-name="Table Contents" style:family="paragraph" style:parent-style-name="Standard"/>
+ </office:styles>
+ <office:automatic-styles>
+  <style:page-layout style:name="pm1">
+   <style:page-layout-properties fo:page-width="8cm" fo:page-height="29.7cm" style:print-orientation="portrait" fo:margin-top="0.3cm" fo:margin-bottom="0.3cm" fo:margin-left="0.3cm" fo:margin-right="0.3cm"/>
+  </style:page-layout>
+  <style:style style:name="Title" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="center" fo:margin-bottom="0.3cm"/>
+   <style:text-properties fo:font-size="16pt" fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="Sub" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="center"/>
+  </style:style>
+  <style:style style:name="Head" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:paragraph-properties fo:text-align="center"/>
+   <style:text-properties fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="Left" style:family="paragraph" style:parent-style-name="Table_20_Contents"/>
+  <style:style style:name="Right" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:paragraph-properties fo:text-align="end"/>
+  </style:style>
+  <style:style style:name="RightBold" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:paragraph-properties fo:text-align="end"/>
+   <style:text-properties fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="Bold" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:text-properties fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="Gap" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-top="0.4cm"/>
+   <style:text-properties fo:font-weight="bold" fo:font-size="12pt"/>
+  </style:style>
+  <style:style style:name="T" style:family="table">
+   <style:table-properties style:width="26.7cm" table:align="margins"/>
+  </style:style>
+  <style:style style:name="C" style:family="table-cell">
+   <style:table-cell-properties fo:padding="0.08cm" fo:border="0.5pt solid #000000"/>
+  </style:style>
+  <style:style style:name="L" style:family="table-cell">
+   <style:table-cell-properties fo:padding="0.08cm" fo:border-left="0.5pt solid #000000" fo:border-right="0.5pt solid #000000" fo:border-top="none" fo:border-bottom="none"/>
+  </style:style>
+ </office:automatic-styles>
+ <office:master-styles>
+  <style:master-page style:name="Standard" style:page-layout-name="pm1"/>
+ </office:master-styles>
+ <office:body><office:text><text:p text:style-name="Standard"><text:placeholder text:placeholder-type="text">&lt;for each=&quot;order in records&quot;&gt;</text:placeholder></text:p><text:p text:style-name="Title"><text:placeholder text:placeholder-type="text">&lt;order.restaurant.name&gt;</text:placeholder></text:p><text:p text:style-name="Sub"><text:placeholder text:placeholder-type="text">&lt;order.restaurant.party.rec_name if order.restaurant.party else &quot;&quot;&gt;</text:placeholder></text:p><text:p text:style-name="Sub">Bill <text:placeholder text:placeholder-type="text">&lt;order.number&gt;</text:placeholder></text:p><text:p text:style-name="Sub"><text:placeholder text:placeholder-type="text">&lt;format_date(order.date, user.language)&gt;</text:placeholder></text:p><text:p text:style-name="Sub"><text:placeholder text:placeholder-type="text">&lt;order.table.rec_name if order.table else (order.tab_name or &quot;&quot;)&gt;</text:placeholder></text:p><text:p text:style-name="Sub"><text:placeholder text:placeholder-type="text">&lt;order.party.rec_name if order.party else &quot;&quot;&gt;</text:placeholder></text:p><text:p text:style-name="Standard"><text:placeholder text:placeholder-type="text">&lt;for each=&quot;line in order.lines&quot;&gt;</text:placeholder></text:p><text:p text:style-name="Standard"><text:placeholder text:placeholder-type="text">&lt;line.quantity&gt;</text:placeholder> x <text:placeholder text:placeholder-type="text">&lt;line.product.rec_name&gt;</text:placeholder> <text:placeholder text:placeholder-type="text">&lt;format_currency(line.amount, user.language, order.restaurant.currency)&gt;</text:placeholder></text:p><text:p text:style-name="Standard"><text:placeholder text:placeholder-type="text">&lt;/for&gt;</text:placeholder></text:p><text:p text:style-name="Standard">Subtotal: <text:placeholder text:placeholder-type="text">&lt;format_currency(order.subtotal, user.language, order.restaurant.currency)&gt;</text:placeholder></text:p><text:p text:style-name="Standard">Discount: <text:placeholder text:placeholder-type="text">&lt;format_currency(order.discount_amount, user.language, order.restaurant.currency)&gt;</text:placeholder></text:p><text:p text:style-name="Standard">Service: <text:placeholder text:placeholder-type="text">&lt;format_currency(order.service_amount, user.language, order.restaurant.currency)&gt;</text:placeholder></text:p><text:p text:style-name="Standard">Delivery: <text:placeholder text:placeholder-type="text">&lt;format_currency(order.delivery_amount, user.language, order.restaurant.currency)&gt;</text:placeholder></text:p><text:p text:style-name="Standard">Tip: <text:placeholder text:placeholder-type="text">&lt;format_currency(order.tip, user.language, order.restaurant.currency)&gt;</text:placeholder></text:p><text:p text:style-name="Title">Total: <text:placeholder text:placeholder-type="text">&lt;format_currency(order.total, user.language, order.restaurant.currency)&gt;</text:placeholder></text:p><text:p text:style-name="Standard">Tax included: <text:placeholder text:placeholder-type="text">&lt;format_currency(order.tax_amount, user.language, order.restaurant.currency)&gt;</text:placeholder></text:p><text:p text:style-name="Standard">Paid: <text:placeholder text:placeholder-type="text">&lt;format_currency(order.paid_amount, user.language, order.restaurant.currency)&gt;</text:placeholder></text:p><text:p text:style-name="Standard">Balance: <text:placeholder text:placeholder-type="text">&lt;format_currency(order.balance, user.language, order.restaurant.currency)&gt;</text:placeholder></text:p><text:p text:style-name="Sub">Thank you!</text:p><text:p text:style-name="Standard"><text:placeholder text:placeholder-type="text">&lt;/for&gt;</text:placeholder></text:p></office:text></office:body></office:document>

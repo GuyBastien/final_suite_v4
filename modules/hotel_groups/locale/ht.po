@@ -1,0 +1,407 @@
+#
+msgid ""
+msgstr ""
+"Language: ht\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:hotel.event,attendees:"
+msgid "Attendees"
+msgstr "Patisipan"
+
+msgctxt "field:hotel.event,charge:"
+msgid "Charge"
+msgstr "Chaj"
+
+msgctxt "field:hotel.event,date:"
+msgid "Date"
+msgstr "Dat"
+
+msgctxt "field:hotel.event,end:"
+msgid "End"
+msgstr "Fen"
+
+msgctxt "field:hotel.event,group:"
+msgid "Group"
+msgstr "Gwoup"
+
+msgctxt "field:hotel.event,name:"
+msgid "Name"
+msgstr "Non"
+
+msgctxt "field:hotel.event,notes:"
+msgid "Notes"
+msgstr "Nòt"
+
+msgctxt "field:hotel.event,reservation:"
+msgid "Billed On"
+msgstr "Faktire sou"
+
+msgctxt "field:hotel.event,space:"
+msgid "Space"
+msgstr "Espas"
+
+msgctxt "field:hotel.event,start:"
+msgid "Start"
+msgstr "Kòmanse"
+
+msgctxt "field:hotel.event,state:"
+msgid "State"
+msgstr "Eta"
+
+msgctxt "field:hotel.event.space,capacity:"
+msgid "Capacity"
+msgstr "Kapasite"
+
+msgctxt "field:hotel.event.space,hotel:"
+msgid "Hotel"
+msgstr "Otèl"
+
+msgctxt "field:hotel.event.space,hourly_price:"
+msgid "Hourly Price"
+msgstr "Pri pa èdtan"
+
+msgctxt "field:hotel.event.space,name:"
+msgid "Name"
+msgstr "Non"
+
+msgctxt "field:hotel.event.space,product:"
+msgid "Hourly Product"
+msgstr "Pwodui pa èdtan"
+
+msgctxt "field:hotel.group,blocks:"
+msgid "Room Blocks"
+msgstr "Blòk chanm"
+
+msgctxt "field:hotel.group,company:"
+msgid "Company"
+msgstr "Konpayi"
+
+msgctxt "field:hotel.group,cutoff_date:"
+msgid "Cut-off Date"
+msgstr "Dat limit"
+
+msgctxt "field:hotel.group,end_date:"
+msgid "Departure"
+msgstr "Depa"
+
+msgctxt "field:hotel.group,events:"
+msgid "Events"
+msgstr "Evènman"
+
+msgctxt "field:hotel.group,hotel:"
+msgid "Hotel"
+msgstr "Otèl"
+
+msgctxt "field:hotel.group,name:"
+msgid "Name"
+msgstr "Non"
+
+msgctxt "field:hotel.group,notes:"
+msgid "Notes"
+msgstr "Nòt"
+
+msgctxt "field:hotel.group,number:"
+msgid "Number"
+msgstr "Nimewo"
+
+msgctxt "field:hotel.group,party:"
+msgid "Organizer"
+msgstr "Òganizatè"
+
+msgctxt "field:hotel.group,reservations:"
+msgid "Reservations"
+msgstr "Rezèvasyon yo"
+
+msgctxt "field:hotel.group,start_date:"
+msgid "Arrival"
+msgstr "Rive"
+
+msgctxt "field:hotel.group,state:"
+msgid "State"
+msgstr "Eta"
+
+msgctxt "field:hotel.group.block,group:"
+msgid "Group"
+msgstr "Gwoup"
+
+msgctxt "field:hotel.group.block,hotel:"
+msgid "Hotel"
+msgstr "Otèl"
+
+msgctxt "field:hotel.group.block,nightly_price:"
+msgid "Nightly Price"
+msgstr "Pri pa nwit"
+
+msgctxt "field:hotel.group.block,pickup:"
+msgid "Picked Up"
+msgstr "Ranmase"
+
+msgctxt "field:hotel.group.block,quantity:"
+msgid "Rooms"
+msgstr "Chanm yo"
+
+msgctxt "field:hotel.group.block,remaining:"
+msgid "Remaining"
+msgstr "Rès"
+
+msgctxt "field:hotel.group.block,room_type:"
+msgid "Room Type"
+msgstr "Kalite chanm"
+
+msgctxt "field:hotel.reservation,group:"
+msgid "Group"
+msgstr "Gwoup"
+
+msgctxt "field:hotel.reservation.line,guest:"
+msgid "Guest"
+msgstr "Envite"
+
+msgctxt "help:hotel.event,reservation:"
+msgid "The reservation of the group on which the space is charged."
+msgstr "Rezèvasyon gwoup la kote yo chaje espas la."
+
+msgctxt "help:hotel.event.space,product:"
+msgid "The service product invoiced for each hour of use."
+msgstr "Pwodui sèvis yo faktire pou chak èdtan itilizasyon."
+
+msgctxt "help:hotel.group,cutoff_date:"
+msgid ""
+"After this date the blocked rooms that were not picked up can be released."
+msgstr "Apre dat sa a yo kapab lage chanm ki bloke yo ki pa t ranmase."
+
+msgctxt "help:hotel.group,party:"
+msgid "The party invoiced and used as guest of the generated reservations."
+msgstr "Pati yo faktire e yo itilize kòm kliyan rezèvasyon yo jenere yo."
+
+msgctxt "help:hotel.group.block,nightly_price:"
+msgid ""
+"Negotiated price of a night. Empty uses the hotel rates when the reservation"
+" is confirmed."
+msgstr ""
+"Pri negosye yon nwit. Vid itilize tarif otèl la lè yo konfime rezèvasyon an."
+
+msgctxt "model:hotel.event,name:"
+msgid "Hotel Event"
+msgstr "Evènman otèl"
+
+msgctxt "model:hotel.event.space,name:"
+msgid "Hotel Event Space"
+msgstr "Espas evènman otèl"
+
+msgctxt "model:hotel.group,name:"
+msgid "Hotel Group"
+msgstr "Gwoup otèl"
+
+msgctxt "model:hotel.group.block,name:"
+msgid "Hotel Group Room Block"
+msgstr "Blòk chanm gwoup otèl"
+
+msgctxt "model:ir.action,name:act_block"
+msgid "Room Blocks"
+msgstr "Blòk chanm"
+
+msgctxt "model:ir.action,name:act_event"
+msgid "Events"
+msgstr "Evènman"
+
+msgctxt "model:ir.action,name:act_group"
+msgid "Groups"
+msgstr "Gwoup yo"
+
+msgctxt "model:ir.action,name:act_rooming"
+msgid "Rooming List"
+msgstr "Lis chanm"
+
+msgctxt "model:ir.action,name:act_space"
+msgid "Event Spaces"
+msgstr "Espas evènman"
+
+msgctxt "model:ir.action.act_window.domain,name:act_event_domain1"
+msgid "Upcoming"
+msgstr "Ki gen pou vini"
+
+msgctxt "model:ir.action.act_window.domain,name:act_event_domain2"
+msgid "All"
+msgstr "Tout"
+
+msgctxt "model:ir.action.act_window.domain,name:act_group_domain1"
+msgid "Open"
+msgstr "Louvri"
+
+msgctxt "model:ir.action.act_window.domain,name:act_group_domain2"
+msgid "All"
+msgstr "Tout"
+
+msgctxt "model:ir.message,text:msg_block_too_many"
+msgid ""
+"You cannot block %(quantity)s rooms of the type \"%(room_type)s\": the hotel"
+" has only %(rooms)s."
+msgstr ""
+"Ou pa kapab bloke %(quantity)s chanm kalite \"%(room_type)s\": otèl la gen "
+"sèlman %(rooms)s."
+
+msgctxt "model:ir.message,text:msg_block_unique"
+msgid "A group can have only one block per room type."
+msgstr "Yon gwoup kapab gen yon sèl blòk pou chak kalite chanm."
+
+msgctxt "model:ir.message,text:msg_event_capacity"
+msgid ""
+"The attendees of the event \"%(event)s\" exceed the capacity (%(capacity)s) "
+"of the space \"%(space)s\"."
+msgstr ""
+"Patisipan evènman \"%(event)s\" depase kapasite (%(capacity)s) espas "
+"\"%(space)s\" la."
+
+msgctxt "model:ir.message,text:msg_event_no_price"
+msgid ""
+"Set the hourly product and price of the space \"%(space)s\" to bill events."
+msgstr ""
+"Mete pwodui ak pri pa èdtan espas \"%(space)s\" la pou faktire evènman yo."
+
+msgctxt "model:ir.message,text:msg_event_no_reservation"
+msgid "Choose the reservation on which the event \"%(event)s\" is billed."
+msgstr "Chwazi rezèvasyon kote evènman \"%(event)s\" la faktire."
+
+msgctxt "model:ir.message,text:msg_event_overlap"
+msgid ""
+"The event \"%(event)s\" overlaps the event \"%(other)s\" in the space "
+"\"%(space)s\"."
+msgstr "Evènman \"%(event)s\" chevoche evènman \"%(other)s\" nan espas \"%(space)s\" la."
+
+msgctxt "model:ir.message,text:msg_group_cutoff"
+msgid ""
+"The cut-off date of the group \"%(group)s\" must not be after its arrival "
+"date."
+msgstr "Dat limit gwoup \"%(group)s\" la pa dwe vini apre dat rive li."
+
+msgctxt "model:ir.message,text:msg_group_cutoff_not_passed"
+msgid "The cut-off date of the group \"%(group)s\" is not set or not yet passed."
+msgstr "Dat limit gwoup \"%(group)s\" la pa fikse oswa li poko pase."
+
+msgctxt "model:ir.message,text:msg_group_delete_reservations"
+msgid "You cannot delete the group \"%(group)s\" because it has reservations."
+msgstr "Ou pa kapab efase gwoup \"%(group)s\" la paske li gen rezèvasyon."
+
+msgctxt "model:ir.message,text:msg_group_no_blocks"
+msgid "Add at least one room block to the group \"%(group)s\"."
+msgstr "Ajoute omwen yon blòk chanm nan gwoup \"%(group)s\" la."
+
+msgctxt "model:ir.message,text:msg_space_unique"
+msgid "The event space name must be unique in a hotel."
+msgstr "Non espas evènman an dwe inik nan yon otèl."
+
+msgctxt "model:ir.model.button,string:event_bill_button"
+msgid "Bill"
+msgstr "Nòt la"
+
+msgctxt "model:ir.model.button,string:event_cancel_button"
+msgid "Cancel"
+msgstr "Anile"
+
+msgctxt "model:ir.model.button,string:event_confirm_button"
+msgid "Confirm"
+msgstr "Konfime"
+
+msgctxt "model:ir.model.button,string:event_draft_button"
+msgid "Draft"
+msgstr "Bouyon"
+
+msgctxt "model:ir.model.button,string:group_cancel_button"
+msgid "Cancel"
+msgstr "Anile"
+
+msgctxt "model:ir.model.button,string:group_definite_button"
+msgid "Definite"
+msgstr "Definitif"
+
+msgctxt "model:ir.model.button,string:group_draft_button"
+msgid "Draft"
+msgstr "Bouyon"
+
+msgctxt "model:ir.model.button,string:group_generate_reservations_button"
+msgid "Generate Reservations"
+msgstr "Jenere rezèvasyon yo"
+
+msgctxt "model:ir.model.button,string:group_release_button"
+msgid "Release Unused Rooms"
+msgstr "Lage chanm ki pa itilize yo"
+
+msgctxt "model:ir.rule.group,name:rule_group_block_companies"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.rule.group,name:rule_group_event_companies"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.rule.group,name:rule_group_group_companies"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.rule.group,name:rule_group_space_companies"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.sequence,name:sequence_group"
+msgid "Hotel Group"
+msgstr "Gwoup otèl"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_group"
+msgid "Hotel Group"
+msgstr "Gwoup otèl"
+
+msgctxt "model:ir.ui.menu,name:menu_event"
+msgid "Events"
+msgstr "Evènman"
+
+msgctxt "model:ir.ui.menu,name:menu_group"
+msgid "Groups"
+msgstr "Gwoup yo"
+
+msgctxt "model:ir.ui.menu,name:menu_groups"
+msgid "Groups & Events"
+msgstr "Gwoup ak evènman"
+
+msgctxt "model:ir.ui.menu,name:menu_space"
+msgid "Event Spaces"
+msgstr "Espas evènman"
+
+msgctxt "selection:hotel.event,state:"
+msgid "Cancelled"
+msgstr "Anile"
+
+msgctxt "selection:hotel.event,state:"
+msgid "Confirmed"
+msgstr "Konfime"
+
+msgctxt "selection:hotel.event,state:"
+msgid "Draft"
+msgstr "Bouyon"
+
+msgctxt "selection:hotel.group,state:"
+msgid "Cancelled"
+msgstr "Anile"
+
+msgctxt "selection:hotel.group,state:"
+msgid "Definite"
+msgstr "Definitif"
+
+msgctxt "selection:hotel.group,state:"
+msgid "Draft"
+msgstr "Bouyon"
+
+msgctxt "view:hotel.group:"
+msgid "Events"
+msgstr "Evènman"
+
+msgctxt "view:hotel.group:"
+msgid "Notes"
+msgstr "Nòt"
+
+msgctxt "view:hotel.group:"
+msgid "Reservations"
+msgstr "Rezèvasyon yo"
+
+msgctxt "view:hotel.group:"
+msgid "Room Blocks"
+msgstr "Blòk chanm"

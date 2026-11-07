@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel module. -->
+<form>
+    <label name="hotel"/>
+    <field name="hotel"/>
+    <label name="code"/>
+    <field name="code"/>
+    <label name="name"/>
+    <field name="name"/>
+    <label name="capacity"/>
+    <field name="capacity"/>
+    <label name="night_product"/>
+    <field name="night_product"/>
+    <label name="hour_product"/>
+    <field name="hour_product"/>
+    <label name="active"/>
+    <field name="active" xexpand="0" width="25"/>
+    <notebook colspan="4">
+        <page string="Rates" id="rates">
+            <field name="rates" colspan="4"/>
+        </page>
+        <page string="Standard Articles" id="articles">
+            <field name="articles" colspan="4"/>
+        </page>
+        <page string="Rooms" id="rooms">
+            <field name="rooms" colspan="4"/>
+        </page>
+        <page string="Description" id="description">
+            <field name="description" colspan="4"/>
+        </page>
+    </notebook>
+</form>

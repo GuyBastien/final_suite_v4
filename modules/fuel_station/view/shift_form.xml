@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton fuel_station module. -->
+<form col="6">
+    <group col="6" colspan="6" id="header">
+        <label name="number"/>
+        <field name="number"/>
+        <label name="station"/>
+        <field name="station"/>
+        <label name="date"/>
+        <field name="date"/>
+        <label name="attendant"/>
+        <field name="attendant"/>
+        <label name="company"/>
+        <field name="company"/>
+        <label name="state"/>
+        <field name="state"/>
+    </group>
+    <notebook colspan="6">
+        <page string="Pump Readings" id="lines">
+            <field name="lines" colspan="4" mode="tree,form"
+                view_ids="fuel_station.shift_line_view_list"/>
+            <group col="-1" colspan="4" id="reading_buttons">
+                <button name="fetch_readings" icon="tryton-refresh"/>
+            </group>
+        </page>
+        <page string="Shop and LPG" id="shop">
+            <field name="shop_sales" colspan="4"/>
+        </page>
+        <page string="Payments" id="payments">
+            <field name="payments" colspan="4"/>
+        </page>
+        <page string="Cash Control" id="cash">
+            <label name="opening_float"/>
+            <field name="opening_float"/>
+            <group col="8" colspan="4" id="cash_totals" string="Cash Reconciliation">
+                <label name="cash_expected"/>
+                <field name="cash_expected"/>
+                <label name="cash_counted"/>
+                <field name="cash_counted"/>
+                <label name="cash_difference"/>
+                <field name="cash_difference"/>
+                <label name="suspect_total"/>
+                <field name="suspect_total"/>
+            </group>
+        </page>
+        <page string="Notes" id="notes">
+            <label name="start_time"/>
+            <field name="start_time"/>
+            <label name="end_time"/>
+            <field name="end_time"/>
+            <field name="notes" colspan="4"/>
+        </page>
+    </notebook>
+    <group col="12" colspan="6" id="totals" string="Totals">
+        <label name="total_quantity"/>
+        <field name="total_quantity"/>
+        <label name="fuel_sales"/>
+        <field name="fuel_sales"/>
+        <label name="shop_total"/>
+        <field name="shop_total"/>
+        <label name="total_sales"/>
+        <field name="total_sales"/>
+        <label name="total_paid"/>
+        <field name="total_paid"/>
+        <label name="difference"/>
+        <field name="difference"/>
+    </group>
+    <group col="-1" colspan="6" id="buttons">
+        <button name="cancel" icon="tryton-cancel"/>
+        <button name="draft" icon="tryton-back"/>
+        <button name="open_shift" icon="tryton-forward"/>
+        <button name="close" icon="tryton-ok"/>
+    </group>
+</form>

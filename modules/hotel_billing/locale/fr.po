@@ -1,0 +1,396 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:hotel.deposit,amount:"
+msgid "Amount"
+msgstr "Montant"
+
+msgctxt "field:hotel.deposit,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:hotel.deposit,currency_digits:"
+msgid "Currency Digits"
+msgstr "Décimales de la devise"
+
+msgctxt "field:hotel.deposit,date:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "field:hotel.deposit,method:"
+msgid "Method"
+msgstr "Mode"
+
+msgctxt "field:hotel.deposit,notes:"
+msgid "Notes"
+msgstr "Notes"
+
+msgctxt "field:hotel.deposit,reference:"
+msgid "Reference"
+msgstr "Référence"
+
+msgctxt "field:hotel.deposit,reservation:"
+msgid "Reservation"
+msgstr "Réservation"
+
+msgctxt "field:hotel.deposit,state:"
+msgid "State"
+msgstr "État"
+
+msgctxt "field:hotel.hotel,deposit_product:"
+msgid "Deposit Product"
+msgstr "Produit d'acompte"
+
+msgctxt "field:hotel.hotel,tourist_taxes:"
+msgid "Tourist Taxes"
+msgstr "Taxes de séjour"
+
+msgctxt "field:hotel.night.audit,arrivals:"
+msgid "Arrivals"
+msgstr "Arrivées"
+
+msgctxt "field:hotel.night.audit,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:hotel.night.audit,date:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "field:hotel.night.audit,departures:"
+msgid "Departures"
+msgstr "Départs"
+
+msgctxt "field:hotel.night.audit,hotel:"
+msgid "Hotel"
+msgstr "Hôtel"
+
+msgctxt "field:hotel.night.audit,in_house:"
+msgid "In House"
+msgstr "En séjour"
+
+msgctxt "field:hotel.night.audit,no_shows:"
+msgid "No-Shows"
+msgstr "Non-présentations"
+
+msgctxt "field:hotel.night.audit,notes:"
+msgid "Notes"
+msgstr "Notes"
+
+msgctxt "field:hotel.night.audit,room_revenue:"
+msgid "Room Revenue"
+msgstr "Revenu chambres"
+
+msgctxt "field:hotel.night.audit,rooms_dirty:"
+msgid "Dirty Rooms"
+msgstr "Chambres sales"
+
+msgctxt "field:hotel.night.audit,state:"
+msgid "State"
+msgstr "État"
+
+msgctxt "field:hotel.night.audit,user:"
+msgid "User"
+msgstr "Utilisateur"
+
+msgctxt "field:hotel.reservation,balance_due:"
+msgid "Balance Due"
+msgstr "Reste à payer"
+
+msgctxt "field:hotel.reservation,deposit_total:"
+msgid "Deposits"
+msgstr "Acomptes"
+
+msgctxt "field:hotel.reservation,deposits:"
+msgid "Deposits"
+msgstr "Acomptes"
+
+msgctxt "field:hotel.reservation,no_show:"
+msgid "No-Show"
+msgstr "Non-présentation"
+
+msgctxt "field:hotel.reservation,sales:"
+msgid "Sales"
+msgstr "Ventes"
+
+msgctxt "field:hotel.reservation,tourist_tax_exempt:"
+msgid "Tourist Tax Exempt"
+msgstr "Exonéré de taxe de séjour"
+
+msgctxt "field:hotel.reservation.charge,payer:"
+msgid "Bill To"
+msgstr "Facturer à"
+
+msgctxt "field:hotel.reservation.charge,tourist_tax:"
+msgid "Tourist Tax"
+msgstr "Taxe de séjour"
+
+msgctxt "field:hotel.reservation.line,payer:"
+msgid "Bill To"
+msgstr "Facturer à"
+
+msgctxt "field:hotel.tourist.tax,amount:"
+msgid "Amount"
+msgstr "Montant"
+
+msgctxt "field:hotel.tourist.tax,children_exempt:"
+msgid "Children Exempt"
+msgstr "Enfants exonérés"
+
+msgctxt "field:hotel.tourist.tax,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:hotel.tourist.tax,hotel:"
+msgid "Hotel"
+msgstr "Hôtel"
+
+msgctxt "field:hotel.tourist.tax,max_nights:"
+msgid "Maximum Nights"
+msgstr "Nuits maximum"
+
+msgctxt "field:hotel.tourist.tax,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:hotel.tourist.tax,product:"
+msgid "Product"
+msgstr "Produit"
+
+msgctxt "field:party.party,hotel_corporate:"
+msgid "Corporate Account"
+msgstr "Compte entreprise"
+
+msgctxt "field:party.party,hotel_credit_limit:"
+msgid "Credit Limit"
+msgstr "Plafond de crédit"
+
+msgctxt "help:hotel.hotel,deposit_product:"
+msgid ""
+"The service used to deduct the deposits from the invoice (use an account of "
+"liabilities)."
+msgstr ""
+"Le service utilisé pour déduire les acomptes de la facture (utiliser un "
+"compte de passif)."
+
+msgctxt "help:hotel.reservation.charge,payer:"
+msgid "Party invoiced for this charge. Empty means the guest."
+msgstr "Tiers facturé pour ce frais. Vide : le client."
+
+msgctxt "help:hotel.reservation.line,payer:"
+msgid "Party invoiced for this room. Empty means the guest."
+msgstr "Tiers facturé pour cette chambre. Vide : le client."
+
+msgctxt "help:hotel.tourist.tax,amount:"
+msgid "Amount per person and per night."
+msgstr "Montant par personne et par nuit."
+
+msgctxt "help:hotel.tourist.tax,max_nights:"
+msgid "The tax is not due beyond this number of nights. Empty means no limit."
+msgstr ""
+"La taxe n'est pas due au-delà de ce nombre de nuits. Vide : aucune limite."
+
+msgctxt "help:hotel.tourist.tax,product:"
+msgid "The service invoiced for the tax."
+msgstr "Le service facturé pour la taxe."
+
+msgctxt "help:party.party,hotel_corporate:"
+msgid ""
+"Companies and agencies whose guests' stays are invoiced to them (city "
+"ledger)."
+msgstr ""
+"Entreprises et agences dont les séjours des clients leur sont facturés "
+"(compte client)."
+
+msgctxt "help:party.party,hotel_credit_limit:"
+msgid ""
+"Reservations cannot be billed to the account beyond this amount of "
+"receivable. Empty means no limit."
+msgstr ""
+"Les réservations ne peuvent pas être facturées au compte au-delà de ce "
+"montant de créances. Vide : aucune limite."
+
+msgctxt "model:hotel.deposit,name:"
+msgid "Reservation Deposit"
+msgstr "Acompte de réservation"
+
+msgctxt "model:hotel.night.audit,name:"
+msgid "Night Audit"
+msgstr "Clôture de journée"
+
+msgctxt "model:hotel.tourist.tax,name:"
+msgid "Tourist Tax"
+msgstr "Taxe de séjour"
+
+msgctxt "model:ir.action,name:act_deposit"
+msgid "Deposits"
+msgstr "Acomptes"
+
+msgctxt "model:ir.action,name:act_night_audit"
+msgid "Night Audits"
+msgstr "Clôtures de journée"
+
+msgctxt "model:ir.action,name:act_tourist_tax"
+msgid "Tourist Taxes"
+msgstr "Taxes de séjour"
+
+msgctxt "model:ir.message,text:msg_audit_delete_done"
+msgid "You cannot delete the closed night audit \"%(audit)s\"."
+msgstr ""
+"Vous ne pouvez pas supprimer la clôture de journée « %(audit)s » car elle "
+"est clôturée."
+
+msgctxt "model:ir.message,text:msg_audit_no_shows"
+msgid "No-shows cancelled: %(reservations)s"
+msgstr "Non-présentations annulées : %(reservations)s"
+
+msgctxt "model:ir.message,text:msg_audit_unique"
+msgid "The night audit of this hotel and date already exists."
+msgstr "La clôture de journée de cet hôtel et de cette date existe déjà."
+
+msgctxt "model:ir.message,text:msg_credit_limit_exceeded"
+msgid ""
+"The account of \"%(party)s\" would reach %(amount)s, beyond its credit limit"
+" of %(limit)s."
+msgstr ""
+"Le compte de « %(party)s » atteindrait %(amount)s, au-delà de son plafond de"
+" crédit de %(limit)s."
+
+msgctxt "model:ir.message,text:msg_deposit_delete_applied"
+msgid ""
+"You cannot delete the deposit \"%(deposit)s\" because it is applied to an "
+"invoice."
+msgstr ""
+"Vous ne pouvez pas supprimer l'acompte « %(deposit)s » car il est appliqué à"
+" une facture."
+
+msgctxt "model:ir.message,text:msg_deposit_line"
+msgid "Deposits received - %(reservation)s"
+msgstr "Acomptes reçus - %(reservation)s"
+
+msgctxt "model:ir.message,text:msg_deposit_no_product"
+msgid "Set the deposit product of the hotel \"%(hotel)s\" to deduct the deposits."
+msgstr ""
+"Renseignez le produit d'acompte de l'hôtel « %(hotel)s » pour déduire les "
+"acomptes."
+
+msgctxt "model:ir.message,text:msg_split_billed"
+msgid "The reservation \"%(reservation)s\" is already billed."
+msgstr "La réservation « %(reservation)s » est déjà facturée."
+
+msgctxt "model:ir.message,text:msg_split_nothing"
+msgid "There is nothing to bill for the reservation \"%(reservation)s\"."
+msgstr "Il n'y a rien à facturer pour la réservation « %(reservation)s »."
+
+msgctxt "model:ir.model.button,string:deposit_refund_button"
+msgid "Refund"
+msgstr "Rembourser"
+
+msgctxt "model:ir.model.button,string:night_audit_close_day_button"
+msgid "Close the Day"
+msgstr "Clôturer la journée"
+
+msgctxt "model:ir.model.button,string:reservation_create_split_sales_button"
+msgid "Bill to Payers"
+msgstr "Facturer aux payeurs"
+
+msgctxt "model:ir.rule.group,name:rule_group_deposit_companies"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_night_audit_companies"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_tourist_tax_companies"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.ui.menu,name:menu_billing"
+msgid "Billing"
+msgstr "Facturation"
+
+msgctxt "model:ir.ui.menu,name:menu_deposit"
+msgid "Deposits"
+msgstr "Acomptes"
+
+msgctxt "model:ir.ui.menu,name:menu_night_audit"
+msgid "Night Audits"
+msgstr "Clôtures de journée"
+
+msgctxt "model:ir.ui.menu,name:menu_tourist_tax"
+msgid "Tourist Taxes"
+msgstr "Taxes de séjour"
+
+msgctxt "selection:hotel.deposit,method:"
+msgid "Bank Transfer"
+msgstr "Virement bancaire"
+
+msgctxt "selection:hotel.deposit,method:"
+msgid "Card"
+msgstr "Carte"
+
+msgctxt "selection:hotel.deposit,method:"
+msgid "Cash"
+msgstr "Espèces"
+
+msgctxt "selection:hotel.deposit,method:"
+msgid "Cheque"
+msgstr "Chèque"
+
+msgctxt "selection:hotel.deposit,method:"
+msgid "Other"
+msgstr "Autre"
+
+msgctxt "selection:hotel.deposit,state:"
+msgid "Applied"
+msgstr "Appliqué"
+
+msgctxt "selection:hotel.deposit,state:"
+msgid "Received"
+msgstr "Reçu"
+
+msgctxt "selection:hotel.deposit,state:"
+msgid "Refunded"
+msgstr "Remboursé"
+
+msgctxt "selection:hotel.night.audit,state:"
+msgid "Done"
+msgstr "Terminé"
+
+msgctxt "selection:hotel.night.audit,state:"
+msgid "Draft"
+msgstr "Brouillon"
+
+msgctxt "view:hotel.hotel:"
+msgid "Billing"
+msgstr "Facturation"
+
+msgctxt "view:hotel.reservation:"
+msgid "Deposits"
+msgstr "Acomptes"
+
+msgctxt "view:party.party:"
+msgid "Hotel Billing"
+msgstr "Facturation hôtelière"
+
+msgctxt "model:ir.action.act_window.domain,name:act_deposit_domain_held"
+msgid "Held"
+msgstr "Détenus"
+
+msgctxt "model:ir.action.act_window.domain,name:act_deposit_domain_all"
+msgid "All"
+msgstr "Tous"
+
+msgctxt "model:ir.action.act_window.domain,name:act_night_audit_domain_todo"
+msgid "To Close"
+msgstr "À clôturer"
+
+msgctxt "model:ir.action.act_window.domain,name:act_night_audit_domain_all"
+msgid "All"
+msgstr "Toutes"
+
+msgctxt "selection:hotel.deposit,method:"
+msgid "Mobile Money"
+msgstr "Argent mobile"

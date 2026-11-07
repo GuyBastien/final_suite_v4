@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_pms module. -->
+<data>
+    <xpath expr="/form/field[@name='date']" position="after">
+        <label name="reservation"/>
+        <field name="reservation"/>
+    </xpath>
+</data>

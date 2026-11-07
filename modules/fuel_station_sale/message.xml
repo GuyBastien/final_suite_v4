@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton fuel_station_sale module. -->
+<tryton>
+    <data>
+        <record model="ir.message" id="msg_no_sale">
+            <field name="text">No customer on the authorization or on the station: no sale was created.</field>
+        </record>
+        <record model="ir.message" id="msg_sale_created">
+            <field name="text">Sale %(sale)s created.</field>
+        </record>
+    </data>
+</tryton>

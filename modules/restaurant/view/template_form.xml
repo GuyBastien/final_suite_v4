@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton restaurant module. -->
+<data>
+    <xpath expr="/form/notebook/page[@id='general']" position="after">
+        <page string="Restaurant" id="restaurant">
+            <label name="restaurant_item"/>
+            <field name="restaurant_item"/>
+            <label name="course"/>
+            <field name="course"/>
+            <label name="prep_station"/>
+            <field name="prep_station"/>
+            <label name="sold_out"/>
+            <field name="sold_out"/>
+            <label name="track_stock"/>
+            <field name="track_stock"/>
+            <field name="recipe" colspan="4"/>
+        </page>
+    </xpath>
+</data>

@@ -1,0 +1,2945 @@
+#
+msgid ""
+msgstr ""
+"Language: fr\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.template,course:"
+msgid "Course"
+msgstr "Service"
+
+msgctxt "field:product.template,prep_minutes:"
+msgid "Preparation Time (min)"
+msgstr "Temps de préparation (min)"
+
+msgctxt "field:product.template,prep_station:"
+msgid "Preparation"
+msgstr "Préparation"
+
+msgctxt "field:product.template,recipe:"
+msgid "Recipe"
+msgstr "Recette"
+
+msgctxt "field:product.template,restaurant_item:"
+msgid "Menu Item"
+msgstr "Article du menu"
+
+msgctxt "field:product.template,sold_out:"
+msgid "Sold Out"
+msgstr "Épuisé"
+
+msgctxt "field:product.template,track_stock:"
+msgid "Deduct from Stock"
+msgstr "Déduire du stock"
+
+msgctxt "field:restaurant.area,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:restaurant.area,restaurant:"
+msgid "Restaurant"
+msgstr "Restaurant"
+
+msgctxt "field:restaurant.area,tables:"
+msgid "Tables"
+msgstr "Tables"
+
+msgctxt "field:restaurant.cash.count,amount:"
+msgid "Amount"
+msgstr "Montant"
+
+msgctxt "field:restaurant.cash.count,currency:"
+msgid "Currency"
+msgstr "Devise"
+
+msgctxt "field:restaurant.cash.count,denomination:"
+msgid "Denomination"
+msgstr "Coupure"
+
+msgctxt "field:restaurant.cash.count,face_value:"
+msgid "Value"
+msgstr "Valeur"
+
+msgctxt "field:restaurant.cash.count,kind:"
+msgid "Kind"
+msgstr "Nature"
+
+msgctxt "field:restaurant.cash.count,moment:"
+msgid "Moment"
+msgstr "Moment"
+
+msgctxt "field:restaurant.cash.count,quantity:"
+msgid "Counted"
+msgstr "Compté"
+
+msgctxt "field:restaurant.cash.count,session:"
+msgid "Session"
+msgstr "Session"
+
+msgctxt "field:restaurant.cash.count,session_company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:restaurant.cash.count,suspect_amount:"
+msgid "Suspect Amount"
+msgstr "Montant suspect"
+
+msgctxt "field:restaurant.cash.count,suspect_quantity:"
+msgid "Suspect"
+msgstr "Suspect"
+
+msgctxt "field:restaurant.cash.session,cash_sales:"
+msgid "Cash Sales"
+msgstr "Ventes en espèces"
+
+msgctxt "field:restaurant.cash.session,cashier:"
+msgid "Cashier"
+msgstr "Caissier"
+
+msgctxt "field:restaurant.cash.session,closed_at:"
+msgid "Closed at"
+msgstr "Fermé le"
+
+msgctxt "field:restaurant.cash.session,closing_amount:"
+msgid "Counted Cash"
+msgstr "Espèces comptées"
+
+msgctxt "field:restaurant.cash.session,closing_counts:"
+msgid "Closing Count"
+msgstr "Comptage de fermeture"
+
+msgctxt "field:restaurant.cash.session,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:restaurant.cash.session,counts:"
+msgid "Cash Count"
+msgstr "Comptage de caisse"
+
+msgctxt "field:restaurant.cash.session,currency:"
+msgid "Currency"
+msgstr "Devise"
+
+msgctxt "field:restaurant.cash.session,date:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "field:restaurant.cash.session,difference:"
+msgid "Difference"
+msgstr "Écart"
+
+msgctxt "field:restaurant.cash.session,expected_amount:"
+msgid "Expected Cash"
+msgstr "Espèces attendues"
+
+msgctxt "field:restaurant.cash.session,notes:"
+msgid "Notes"
+msgstr "Notes"
+
+msgctxt "field:restaurant.cash.session,number:"
+msgid "Number"
+msgstr "Numéro"
+
+msgctxt "field:restaurant.cash.session,opened_at:"
+msgid "Opened at"
+msgstr "Ouvert le"
+
+msgctxt "field:restaurant.cash.session,opening_amount:"
+msgid "Opening Cash"
+msgstr "Espèces à l'ouverture"
+
+msgctxt "field:restaurant.cash.session,opening_counts:"
+msgid "Opening Count"
+msgstr "Comptage d'ouverture"
+
+msgctxt "field:restaurant.cash.session,payments:"
+msgid "Payments"
+msgstr "Paiements"
+
+msgctxt "field:restaurant.cash.session,restaurant:"
+msgid "Restaurant"
+msgstr "Restaurant"
+
+msgctxt "field:restaurant.cash.session,state:"
+msgid "State"
+msgstr "État"
+
+msgctxt "field:restaurant.cash.session,suspect_amount:"
+msgid "Suspect Notes/Coins"
+msgstr "Billets/pièces suspects"
+
+msgctxt "field:restaurant.dashboard,bar_queue:"
+msgid "At the Bar"
+msgstr "Au bar"
+
+msgctxt "field:restaurant.dashboard,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:restaurant.dashboard,deliveries:"
+msgid "Deliveries in Progress"
+msgstr "Livraisons en cours"
+
+msgctxt "field:restaurant.dashboard,free_tables:"
+msgid "Free Tables"
+msgstr "Tables libres"
+
+msgctxt "field:restaurant.dashboard,kitchen_queue:"
+msgid "In the Kitchen"
+msgstr "En cuisine"
+
+msgctxt "field:restaurant.dashboard,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:restaurant.dashboard,occupied_tables:"
+msgid "Occupied Tables"
+msgstr "Tables occupées"
+
+msgctxt "field:restaurant.dashboard,open_orders:"
+msgid "Open Orders"
+msgstr "Commandes ouvertes"
+
+msgctxt "field:restaurant.dashboard,reservations:"
+msgid "Reservations Today"
+msgstr "Réservations d'aujourd'hui"
+
+msgctxt "field:restaurant.dashboard,restaurant:"
+msgid "Restaurant"
+msgstr "Restaurant"
+
+msgctxt "field:restaurant.dashboard,sales_today:"
+msgid "Sales Today"
+msgstr "Ventes d'aujourd'hui"
+
+msgctxt "field:restaurant.driver,employee:"
+msgid "Employee"
+msgstr "Employé"
+
+msgctxt "field:restaurant.driver,in_progress:"
+msgid "Deliveries in Progress"
+msgstr "Livraisons en cours"
+
+msgctxt "field:restaurant.driver,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:restaurant.driver,phone:"
+msgid "Phone"
+msgstr "Téléphone"
+
+msgctxt "field:restaurant.driver,vehicle:"
+msgid "Vehicle"
+msgstr "Véhicule"
+
+msgctxt "field:restaurant.guide.start,content:"
+msgid "Guide"
+msgstr "Guide"
+
+msgctxt "field:restaurant.happy_hour,category:"
+msgid "Category"
+msgstr "Catégorie"
+
+msgctxt "field:restaurant.happy_hour,discount:"
+msgid "Discount (%)"
+msgstr "Remise (%)"
+
+msgctxt "field:restaurant.happy_hour,end_hour:"
+msgid "To"
+msgstr "À"
+
+msgctxt "field:restaurant.happy_hour,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:restaurant.happy_hour,restaurant:"
+msgid "Restaurant"
+msgstr "Restaurant"
+
+msgctxt "field:restaurant.happy_hour,start_hour:"
+msgid "From"
+msgstr "De"
+
+msgctxt "field:restaurant.happy_hour,weekday:"
+msgid "Day"
+msgstr "Jour"
+
+msgctxt "field:restaurant.menu,end_hour:"
+msgid "To"
+msgstr "À"
+
+msgctxt "field:restaurant.menu,items:"
+msgid "Items"
+msgstr "Articles"
+
+msgctxt "field:restaurant.menu,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:restaurant.menu,restaurant:"
+msgid "Restaurant"
+msgstr "Restaurant"
+
+msgctxt "field:restaurant.menu,start_hour:"
+msgid "From"
+msgstr "De"
+
+msgctxt "field:restaurant.menu,weekday:"
+msgid "Day"
+msgstr "Jour"
+
+msgctxt "field:restaurant.menu.item,menu:"
+msgid "Menu"
+msgstr "Menu"
+
+msgctxt "field:restaurant.menu.item,price:"
+msgid "Menu Price"
+msgstr "Prix du menu"
+
+msgctxt "field:restaurant.menu.item,template:"
+msgid "Item"
+msgstr "Article"
+
+msgctxt "field:restaurant.order,balance:"
+msgid "Balance Due"
+msgstr "Reste à payer"
+
+msgctxt "field:restaurant.order,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:restaurant.order,covers:"
+msgid "Covers"
+msgstr "Couverts"
+
+msgctxt "field:restaurant.order,currency:"
+msgid "Currency"
+msgstr "Devise"
+
+msgctxt "field:restaurant.order,date:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "field:restaurant.order,delivery_address:"
+msgid "Delivery Address"
+msgstr "Adresse de livraison"
+
+msgctxt "field:restaurant.order,delivery_amount:"
+msgid "Delivery Fee"
+msgstr "Frais de livraison"
+
+msgctxt "field:restaurant.order,delivery_state:"
+msgid "Delivery Status"
+msgstr "État de la livraison"
+
+msgctxt "field:restaurant.order,discount_amount:"
+msgid "Discount"
+msgstr "Remise"
+
+msgctxt "field:restaurant.order,discount_percent:"
+msgid "Discount (%)"
+msgstr "Remise (%)"
+
+msgctxt "field:restaurant.order,driver:"
+msgid "Driver"
+msgstr "Livreur"
+
+msgctxt "field:restaurant.order,lines:"
+msgid "Items"
+msgstr "Articles"
+
+msgctxt "field:restaurant.order,notes:"
+msgid "Notes"
+msgstr "Notes"
+
+msgctxt "field:restaurant.order,number:"
+msgid "Number"
+msgstr "Numéro"
+
+msgctxt "field:restaurant.order,paid_amount:"
+msgid "Paid"
+msgstr "Payé"
+
+msgctxt "field:restaurant.order,party:"
+msgid "Customer"
+msgstr "Client"
+
+msgctxt "field:restaurant.order,payments:"
+msgid "Payments"
+msgstr "Paiements"
+
+msgctxt "field:restaurant.order,phone:"
+msgid "Phone"
+msgstr "Téléphone"
+
+msgctxt "field:restaurant.order,restaurant:"
+msgid "Restaurant"
+msgstr "Restaurant"
+
+msgctxt "field:restaurant.order,service_amount:"
+msgid "Service"
+msgstr "Service"
+
+msgctxt "field:restaurant.order,state:"
+msgid "State"
+msgstr "État"
+
+msgctxt "field:restaurant.order,subtotal:"
+msgid "Subtotal"
+msgstr "Sous-total"
+
+msgctxt "field:restaurant.order,tab_name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:restaurant.order,table:"
+msgid "Table"
+msgstr "Table"
+
+msgctxt "field:restaurant.order,tax_amount:"
+msgid "Tax Included"
+msgstr "Taxes incluses"
+
+msgctxt "field:restaurant.order,tip:"
+msgid "Tip"
+msgstr "Pourboire"
+
+msgctxt "field:restaurant.order,total:"
+msgid "Total"
+msgstr "Total"
+
+msgctxt "field:restaurant.order,type:"
+msgid "Type"
+msgstr "Type"
+
+msgctxt "field:restaurant.order,waiter:"
+msgid "Waiter"
+msgstr "Serveur"
+
+msgctxt "field:restaurant.order.line,amount:"
+msgid "Amount"
+msgstr "Montant"
+
+msgctxt "field:restaurant.order.line,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:restaurant.order.line,course:"
+msgid "Course"
+msgstr "Service"
+
+msgctxt "field:restaurant.order.line,currency:"
+msgid "Currency"
+msgstr "Devise"
+
+msgctxt "field:restaurant.order.line,delay:"
+msgid "Delay"
+msgstr "Retard"
+
+msgctxt "field:restaurant.order.line,discount_percent:"
+msgid "Happy Hour (%)"
+msgstr "Happy hour (%)"
+
+msgctxt "field:restaurant.order.line,elapsed_minutes:"
+msgid "Elapsed (min)"
+msgstr "Écoulé (min)"
+
+msgctxt "field:restaurant.order.line,guest:"
+msgid "Guest"
+msgstr "Convive"
+
+msgctxt "field:restaurant.order.line,ideal_minutes:"
+msgid "Ideal Time (min)"
+msgstr "Temps idéal (min)"
+
+msgctxt "field:restaurant.order.line,note:"
+msgid "Note"
+msgstr "Remarque"
+
+msgctxt "field:restaurant.order.line,notified_level:"
+msgid "Notified Level"
+msgstr "Niveau notifié"
+
+msgctxt "field:restaurant.order.line,order:"
+msgid "Order"
+msgstr "Commande"
+
+msgctxt "field:restaurant.order.line,order_type:"
+msgid "Order Type"
+msgstr "Type de commande"
+
+msgctxt "field:restaurant.order.line,product:"
+msgid "Item"
+msgstr "Article"
+
+msgctxt "field:restaurant.order.line,quantity:"
+msgid "Quantity"
+msgstr "Quantité"
+
+msgctxt "field:restaurant.order.line,ready_at:"
+msgid "Ready at"
+msgstr "Prêt à"
+
+msgctxt "field:restaurant.order.line,sent_at:"
+msgid "Sent at"
+msgstr "Envoyé à"
+
+msgctxt "field:restaurant.order.line,state:"
+msgid "State"
+msgstr "État"
+
+msgctxt "field:restaurant.order.line,station:"
+msgid "Preparation"
+msgstr "Préparation"
+
+msgctxt "field:restaurant.order.line,table:"
+msgid "Table"
+msgstr "Table"
+
+msgctxt "field:restaurant.order.line,unit_price:"
+msgid "Unit Price"
+msgstr "Prix unitaire"
+
+msgctxt "field:restaurant.payment,amount:"
+msgid "Amount"
+msgstr "Montant"
+
+msgctxt "field:restaurant.payment,change:"
+msgid "Change"
+msgstr "Monnaie rendue"
+
+msgctxt "field:restaurant.payment,currency:"
+msgid "Currency"
+msgstr "Devise"
+
+msgctxt "field:restaurant.payment,guest:"
+msgid "Guest"
+msgstr "Convive"
+
+msgctxt "field:restaurant.payment,method:"
+msgid "Method"
+msgstr "Mode"
+
+msgctxt "field:restaurant.payment,order:"
+msgid "Order"
+msgstr "Commande"
+
+msgctxt "field:restaurant.payment,reference:"
+msgid "Reference"
+msgstr "Référence"
+
+msgctxt "field:restaurant.payment,session:"
+msgid "Cash Session"
+msgstr "Session de caisse"
+
+msgctxt "field:restaurant.payment,tendered:"
+msgid "Cash Given"
+msgstr "Espèces remises"
+
+msgctxt "field:restaurant.recipe,lines:"
+msgid "Ingredients"
+msgstr "Ingrédients"
+
+msgctxt "field:restaurant.recipe,notes:"
+msgid "Preparation"
+msgstr "Préparation"
+
+msgctxt "field:restaurant.recipe,template:"
+msgid "Menu Item"
+msgstr "Article du menu"
+
+msgctxt "field:restaurant.recipe.line,product:"
+msgid "Ingredient"
+msgstr "Ingrédient"
+
+msgctxt "field:restaurant.recipe.line,quantity:"
+msgid "Quantity"
+msgstr "Quantité"
+
+msgctxt "field:restaurant.recipe.line,recipe:"
+msgid "Recipe"
+msgstr "Recette"
+
+msgctxt "field:restaurant.recipe.line,unit:"
+msgid "Unit"
+msgstr "Unité"
+
+msgctxt "field:restaurant.report.sales,amount:"
+msgid "Sales"
+msgstr "Ventes"
+
+msgctxt "field:restaurant.report.sales,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:restaurant.report.sales,date:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "field:restaurant.report.sales,product:"
+msgid "Item"
+msgstr "Article"
+
+msgctxt "field:restaurant.report.sales,quantity:"
+msgid "Quantity"
+msgstr "Quantité"
+
+msgctxt "field:restaurant.report.sales,restaurant:"
+msgid "Restaurant"
+msgstr "Restaurant"
+
+msgctxt "field:restaurant.report.sales,type:"
+msgid "Type"
+msgstr "Type"
+
+msgctxt "field:restaurant.reservation,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:restaurant.reservation,date:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "field:restaurant.reservation,duration:"
+msgid "Duration (min)"
+msgstr "Durée (min)"
+
+msgctxt "field:restaurant.reservation,guest_name:"
+msgid "Guest Name"
+msgstr "Nom du client"
+
+msgctxt "field:restaurant.reservation,notes:"
+msgid "Notes"
+msgstr "Notes"
+
+msgctxt "field:restaurant.reservation,number:"
+msgid "Number"
+msgstr "Numéro"
+
+msgctxt "field:restaurant.reservation,order:"
+msgid "Order"
+msgstr "Commande"
+
+msgctxt "field:restaurant.reservation,party:"
+msgid "Customer"
+msgstr "Client"
+
+msgctxt "field:restaurant.reservation,persons:"
+msgid "Persons"
+msgstr "Personnes"
+
+msgctxt "field:restaurant.reservation,phone:"
+msgid "Phone"
+msgstr "Téléphone"
+
+msgctxt "field:restaurant.reservation,restaurant:"
+msgid "Restaurant"
+msgstr "Restaurant"
+
+msgctxt "field:restaurant.reservation,state:"
+msgid "State"
+msgstr "État"
+
+msgctxt "field:restaurant.reservation,table:"
+msgid "Table"
+msgstr "Table"
+
+msgctxt "field:restaurant.reservation,time:"
+msgid "Time"
+msgstr "Heure"
+
+msgctxt "field:restaurant.restaurant,areas:"
+msgid "Areas"
+msgstr "Zones"
+
+msgctxt "field:restaurant.restaurant,bar_minutes:"
+msgid "Bar Ideal Time (min)"
+msgstr "Temps idéal du bar (min)"
+
+msgctxt "field:restaurant.restaurant,cash_control:"
+msgid "Cash Control"
+msgstr "Contrôle de caisse"
+
+msgctxt "field:restaurant.restaurant,cash_tolerance:"
+msgid "Cash Tolerance"
+msgstr "Tolérance de caisse"
+
+msgctxt "field:restaurant.restaurant,code:"
+msgid "Code"
+msgstr "Code"
+
+msgctxt "field:restaurant.restaurant,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:restaurant.restaurant,currency:"
+msgid "Currency"
+msgstr "Devise"
+
+msgctxt "field:restaurant.restaurant,delivery_fee:"
+msgid "Delivery Fee"
+msgstr "Frais de livraison"
+
+msgctxt "field:restaurant.restaurant,enforce_menus:"
+msgid "Enforce Menus"
+msgstr "Imposer les menus"
+
+msgctxt "field:restaurant.restaurant,free_delivery_amount:"
+msgid "Free Delivery From"
+msgstr "Livraison gratuite dès"
+
+msgctxt "field:restaurant.restaurant,kitchen_minutes:"
+msgid "Kitchen Ideal Time (min)"
+msgstr "Temps idéal de la cuisine (min)"
+
+msgctxt "field:restaurant.restaurant,max_discount:"
+msgid "Maximum Discount (%)"
+msgstr "Remise maximale (%)"
+
+msgctxt "field:restaurant.restaurant,menus:"
+msgid "Menus"
+msgstr "Menus"
+
+msgctxt "field:restaurant.restaurant,min_delivery_amount:"
+msgid "Minimum Delivery Amount"
+msgstr "Montant minimum de livraison"
+
+msgctxt "field:restaurant.restaurant,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:restaurant.restaurant,party:"
+msgid "Contact"
+msgstr "Contact"
+
+msgctxt "field:restaurant.restaurant,serve_minutes:"
+msgid "Ideal Serving Time (min)"
+msgstr "Temps idéal de service (min)"
+
+msgctxt "field:restaurant.restaurant,service_rate:"
+msgid "Service Charge (%)"
+msgstr "Frais de service (%)"
+
+msgctxt "field:restaurant.restaurant,tables:"
+msgid "Tables"
+msgstr "Tables"
+
+msgctxt "field:restaurant.restaurant,tax_rate:"
+msgid "Tax Rate (%)"
+msgstr "Taux de taxe (%)"
+
+msgctxt "field:restaurant.restaurant,warehouse:"
+msgid "Warehouse"
+msgstr "Entrepôt"
+
+msgctxt "field:restaurant.table,area:"
+msgid "Area"
+msgstr "Zone"
+
+msgctxt "field:restaurant.table,code:"
+msgid "Number"
+msgstr "Numéro"
+
+msgctxt "field:restaurant.table,order:"
+msgid "Current Order"
+msgstr "Commande en cours"
+
+msgctxt "field:restaurant.table,restaurant:"
+msgid "Restaurant"
+msgstr "Restaurant"
+
+msgctxt "field:restaurant.table,seats:"
+msgid "Seats"
+msgstr "Places"
+
+msgctxt "field:restaurant.table,status:"
+msgid "Status"
+msgstr "Statut"
+
+msgctxt "help:product.template,course:"
+msgid "Course of the menu in which the item is served."
+msgstr "Service du menu dans lequel l'article est servi."
+
+msgctxt "help:product.template,prep_minutes:"
+msgid ""
+"Ideal preparation time of this item, in minutes. Empty uses the ideal time "
+"of the kitchen or of the bar of the restaurant."
+msgstr ""
+"Temps de préparation idéal de cet article, en minutes. Vide : temps idéal de"
+" la cuisine ou du bar du restaurant."
+
+msgctxt "help:product.template,prep_station:"
+msgid "Where the item is prepared: its ticket appears on this screen."
+msgstr "Lieu de préparation : le bon s'affiche sur cet écran."
+
+msgctxt "help:product.template,recipe:"
+msgid "Ingredients used to prepare the item."
+msgstr "Ingrédients utilisés pour préparer l'article."
+
+msgctxt "help:product.template,restaurant_item:"
+msgid "Dish or drink sold in the restaurant and the bar."
+msgstr "Plat ou boisson vendu au restaurant et au bar."
+
+msgctxt "help:product.template,sold_out:"
+msgid "Temporarily unavailable: it can no longer be ordered."
+msgstr "Temporairement indisponible : il ne peut plus être commandé."
+
+msgctxt "help:product.template,track_stock:"
+msgid ""
+"Deduct the item itself from the stock when it is sold (bottled drinks). "
+"Items with a recipe deduct their ingredients."
+msgstr ""
+"Déduire l'article lui-même du stock lors de la vente (boissons en "
+"bouteille). Les articles avec recette déduisent leurs ingrédients."
+
+msgctxt "help:restaurant.area,name:"
+msgid "Dining room, terrace, bar, private room..."
+msgstr "Salle, terrasse, bar, salon privé..."
+
+msgctxt "help:restaurant.area,restaurant:"
+msgid "Restaurant concerned."
+msgstr "Restaurant concerné."
+
+msgctxt "help:restaurant.area,tables:"
+msgid "Tables of the restaurant."
+msgstr "Tables du restaurant."
+
+msgctxt "help:restaurant.cash.count,amount:"
+msgid "Amount in the currency of the document."
+msgstr "Montant dans la devise du document."
+
+msgctxt "help:restaurant.cash.count,currency:"
+msgid "Currency of the amounts."
+msgstr "Devise des montants."
+
+msgctxt "help:restaurant.cash.count,denomination:"
+msgid ""
+"Banknote or coin value counted. The denominations are shared with the points"
+" of sale (Sales > Denominations)."
+msgstr ""
+"Valeur du billet ou de la pièce comptée. Les coupures sont partagées avec "
+"les points de vente (Ventes > Coupures)."
+
+msgctxt "help:restaurant.cash.count,face_value:"
+msgid "Face value of the banknote or coin."
+msgstr "Valeur faciale du billet ou de la pièce."
+
+msgctxt "help:restaurant.cash.count,kind:"
+msgid "Banknote or coin."
+msgstr "Billet ou pièce."
+
+msgctxt "help:restaurant.cash.count,moment:"
+msgid "Opening or closing of the session."
+msgstr "Ouverture ou fermeture de la session."
+
+msgctxt "help:restaurant.cash.count,quantity:"
+msgid "Number of banknotes or coins counted in the drawer."
+msgstr "Nombre de billets ou pièces comptés dans le tiroir."
+
+msgctxt "help:restaurant.cash.count,session:"
+msgid "Cash session concerned."
+msgstr "Session de caisse concernée."
+
+msgctxt "help:restaurant.cash.count,session_company:"
+msgid "Company of the cash session."
+msgstr "Société de la session de caisse."
+
+msgctxt "help:restaurant.cash.count,suspect_amount:"
+msgid "Value of banknotes or coins that look counterfeit."
+msgstr "Valeur des billets ou pièces qui semblent faux."
+
+msgctxt "help:restaurant.cash.count,suspect_quantity:"
+msgid ""
+"Counterfeit, damaged or doubtful banknotes/coins among those counted. They "
+"are not added to the cash total."
+msgstr ""
+"Billets/pièces faux, abîmés ou douteux parmi ceux comptés. Ils ne sont pas "
+"ajoutés au total des espèces."
+
+msgctxt "help:restaurant.cash.session,cash_sales:"
+msgid "Sales collected in cash."
+msgstr "Ventes encaissées en espèces."
+
+msgctxt "help:restaurant.cash.session,cashier:"
+msgid "User who runs the cash session."
+msgstr "Utilisateur qui tient la session de caisse."
+
+msgctxt "help:restaurant.cash.session,closed_at:"
+msgid "Date and time of the closing."
+msgstr "Date et heure de la fermeture."
+
+msgctxt "help:restaurant.cash.session,closing_amount:"
+msgid "Total cash counted when the session is closed."
+msgstr "Total des espèces comptées à la fermeture de la session."
+
+msgctxt "help:restaurant.cash.session,closing_counts:"
+msgid "Banknotes and coins counted when closing."
+msgstr "Billets et pièces comptés à la fermeture."
+
+msgctxt "help:restaurant.cash.session,company:"
+msgid "Company that owns the record."
+msgstr "Société propriétaire de l'enregistrement."
+
+msgctxt "help:restaurant.cash.session,counts:"
+msgid "Count of banknotes and coins by denomination."
+msgstr "Comptage des billets et pièces par coupure."
+
+msgctxt "help:restaurant.cash.session,currency:"
+msgid "Currency of the amounts."
+msgstr "Devise des montants."
+
+msgctxt "help:restaurant.cash.session,date:"
+msgid "Date of the document."
+msgstr "Date du document."
+
+msgctxt "help:restaurant.cash.session,difference:"
+msgid "Difference between counted and expected amounts."
+msgstr "Écart entre les montants comptés et attendus."
+
+msgctxt "help:restaurant.cash.session,expected_amount:"
+msgid "Opening cash plus cash payments received."
+msgstr "Espèces d'ouverture plus les paiements en espèces reçus."
+
+msgctxt "help:restaurant.cash.session,notes:"
+msgid "Free text for internal use."
+msgstr "Texte libre à usage interne."
+
+msgctxt "help:restaurant.cash.session,number:"
+msgid "Number assigned automatically by the sequence."
+msgstr "Numéro attribué automatiquement par la séquence."
+
+msgctxt "help:restaurant.cash.session,opened_at:"
+msgid "Date and time of the opening."
+msgstr "Date et heure de l'ouverture."
+
+msgctxt "help:restaurant.cash.session,opening_amount:"
+msgid "Total cash counted when the session is opened."
+msgstr "Total des espèces comptées à l'ouverture de la session."
+
+msgctxt "help:restaurant.cash.session,opening_counts:"
+msgid "Banknotes and coins counted when opening."
+msgstr "Billets et pièces comptés à l'ouverture."
+
+msgctxt "help:restaurant.cash.session,payments:"
+msgid "Payments received for this record."
+msgstr "Paiements reçus pour cet enregistrement."
+
+msgctxt "help:restaurant.cash.session,restaurant:"
+msgid "Restaurant concerned."
+msgstr "Restaurant concerné."
+
+msgctxt "help:restaurant.cash.session,state:"
+msgid "Current step of the workflow."
+msgstr "Étape actuelle du flux de travail."
+
+msgctxt "help:restaurant.cash.session,suspect_amount:"
+msgid "Value of banknotes or coins that look counterfeit."
+msgstr "Valeur des billets ou pièces qui semblent faux."
+
+msgctxt "help:restaurant.dashboard,bar_queue:"
+msgid "Items sent to the bar and not served yet."
+msgstr "Articles envoyés au bar et pas encore servis."
+
+msgctxt "help:restaurant.dashboard,company:"
+msgid "Company that owns the record."
+msgstr "Société propriétaire de l'enregistrement."
+
+msgctxt "help:restaurant.dashboard,deliveries:"
+msgid "Orders being delivered at this moment."
+msgstr "Commandes en cours de livraison en ce moment."
+
+msgctxt "help:restaurant.dashboard,free_tables:"
+msgid "Tables without open order."
+msgstr "Tables sans commande ouverte."
+
+msgctxt "help:restaurant.dashboard,kitchen_queue:"
+msgid "Items sent to the kitchen and not served yet."
+msgstr "Articles envoyés en cuisine et pas encore servis."
+
+msgctxt "help:restaurant.dashboard,name:"
+msgid "Name displayed in lists and searches."
+msgstr "Nom affiché dans les listes et les recherches."
+
+msgctxt "help:restaurant.dashboard,occupied_tables:"
+msgid "Tables with an open order."
+msgstr "Tables avec une commande ouverte."
+
+msgctxt "help:restaurant.dashboard,open_orders:"
+msgid "Orders not yet paid or cancelled."
+msgstr "Commandes ni payées ni annulées."
+
+msgctxt "help:restaurant.dashboard,reservations:"
+msgid "Bookings expected today."
+msgstr "Réservations attendues aujourd'hui."
+
+msgctxt "help:restaurant.dashboard,restaurant:"
+msgid "Restaurant concerned."
+msgstr "Restaurant concerné."
+
+msgctxt "help:restaurant.dashboard,sales_today:"
+msgid "Sales of the day."
+msgstr "Ventes du jour."
+
+msgctxt "help:restaurant.driver,employee:"
+msgid "Link to an employee if the driver is on the payroll."
+msgstr "Lien vers un employé si le livreur est salarié."
+
+msgctxt "help:restaurant.driver,in_progress:"
+msgid "Orders on the way for this driver."
+msgstr "Commandes en route pour ce livreur."
+
+msgctxt "help:restaurant.driver,name:"
+msgid "Name displayed in lists and searches."
+msgstr "Nom affiché dans les listes et les recherches."
+
+msgctxt "help:restaurant.driver,phone:"
+msgid "Phone number to call for this record."
+msgstr "Numéro de téléphone à appeler."
+
+msgctxt "help:restaurant.driver,vehicle:"
+msgid "Motorbike, car, plate number..."
+msgstr "Moto, voiture, plaque..."
+
+msgctxt "help:restaurant.guide.start,content:"
+msgid "Text of the usage guide."
+msgstr "Texte du guide d'utilisation."
+
+msgctxt "help:restaurant.happy_hour,category:"
+msgid "Leave empty for every menu item."
+msgstr "Laisser vide pour tous les articles du menu."
+
+msgctxt "help:restaurant.happy_hour,discount:"
+msgid "Discount rate applied."
+msgstr "Taux de remise appliqué."
+
+msgctxt "help:restaurant.happy_hour,end_hour:"
+msgid "End of the period, as a decimal hour (19.5 = 19:30)."
+msgstr "Fin de la période, en heure décimale (19.5 = 19h30)."
+
+msgctxt "help:restaurant.happy_hour,name:"
+msgid "Name displayed in lists and searches."
+msgstr "Nom affiché dans les listes et les recherches."
+
+msgctxt "help:restaurant.happy_hour,restaurant:"
+msgid "Leave empty for every restaurant."
+msgstr "Laisser vide pour tous les restaurants."
+
+msgctxt "help:restaurant.happy_hour,start_hour:"
+msgid "Hour as a decimal: 17.5 means 17:30."
+msgstr "Heure en décimal : 17.5 signifie 17h30."
+
+msgctxt "help:restaurant.happy_hour,weekday:"
+msgid "Day of the week the rule applies to."
+msgstr "Jour de la semaine auquel la règle s'applique."
+
+msgctxt "help:restaurant.menu,end_hour:"
+msgid "End of the period, as a decimal hour (19.5 = 19:30)."
+msgstr "Fin de la période, en heure décimale (19.5 = 19h30)."
+
+msgctxt "help:restaurant.menu,items:"
+msgid "Items offered in this menu."
+msgstr "Articles proposés dans ce menu."
+
+msgctxt "help:restaurant.menu,name:"
+msgid "Name displayed in lists and searches."
+msgstr "Nom affiché dans les listes et les recherches."
+
+msgctxt "help:restaurant.menu,restaurant:"
+msgid "Restaurant concerned."
+msgstr "Restaurant concerné."
+
+msgctxt "help:restaurant.menu,start_hour:"
+msgid "Hour as a decimal: 17.5 means 17:30."
+msgstr "Heure en décimal : 17.5 signifie 17h30."
+
+msgctxt "help:restaurant.menu,weekday:"
+msgid "Day of the week the rule applies to."
+msgstr "Jour de la semaine auquel la règle s'applique."
+
+msgctxt "help:restaurant.menu.item,menu:"
+msgid "Menu card the item belongs to."
+msgstr "Carte à laquelle l'article appartient."
+
+msgctxt "help:restaurant.menu.item,price:"
+msgid "Leave empty to keep the list price."
+msgstr "Laisser vide pour garder le prix catalogue."
+
+msgctxt "help:restaurant.menu.item,template:"
+msgid "Product the record applies to."
+msgstr "Produit auquel l'enregistrement s'applique."
+
+msgctxt "help:restaurant.order,balance:"
+msgid "Amount still to be paid, tip included."
+msgstr "Montant restant à payer, pourboire compris."
+
+msgctxt "help:restaurant.order,company:"
+msgid "Company that owns the record."
+msgstr "Société propriétaire de l'enregistrement."
+
+msgctxt "help:restaurant.order,covers:"
+msgid "Number of guests at the table."
+msgstr "Nombre de convives à table."
+
+msgctxt "help:restaurant.order,currency:"
+msgid "Currency of the amounts."
+msgstr "Devise des montants."
+
+msgctxt "help:restaurant.order,date:"
+msgid "Date of the document."
+msgstr "Date du document."
+
+msgctxt "help:restaurant.order,delivery_address:"
+msgid "Address where the order must be delivered."
+msgstr "Adresse où la commande doit être livrée."
+
+msgctxt "help:restaurant.order,delivery_amount:"
+msgid "Delivery fee added to the order."
+msgstr "Frais de livraison ajoutés à la commande."
+
+msgctxt "help:restaurant.order,delivery_state:"
+msgid "Progress of the delivery."
+msgstr "Avancement de la livraison."
+
+msgctxt "help:restaurant.order,discount_amount:"
+msgid "Amount of the discount."
+msgstr "Montant de la remise."
+
+msgctxt "help:restaurant.order,discount_percent:"
+msgid "Discount rate in percent, including the happy hour discount."
+msgstr "Taux de remise en pourcentage, happy hour compris."
+
+msgctxt "help:restaurant.order,driver:"
+msgid "Person in charge of the delivery."
+msgstr "Personne chargée de la livraison."
+
+msgctxt "help:restaurant.order,lines:"
+msgid "Detail lines of the document."
+msgstr "Lignes de détail du document."
+
+msgctxt "help:restaurant.order,notes:"
+msgid "Free text for internal use."
+msgstr "Texte libre à usage interne."
+
+msgctxt "help:restaurant.order,number:"
+msgid "Number assigned automatically by the sequence."
+msgstr "Numéro attribué automatiquement par la séquence."
+
+msgctxt "help:restaurant.order,paid_amount:"
+msgid "Total of the payments received."
+msgstr "Total des paiements reçus."
+
+msgctxt "help:restaurant.order,party:"
+msgid "Customer or contact concerned."
+msgstr "Client ou contact concerné."
+
+msgctxt "help:restaurant.order,payments:"
+msgid "Payments received for this record."
+msgstr "Paiements reçus pour cet enregistrement."
+
+msgctxt "help:restaurant.order,phone:"
+msgid "Phone number to call for this record."
+msgstr "Numéro de téléphone à appeler."
+
+msgctxt "help:restaurant.order,restaurant:"
+msgid "Restaurant concerned."
+msgstr "Restaurant concerné."
+
+msgctxt "help:restaurant.order,service_amount:"
+msgid "Service charge added to table and bar orders."
+msgstr "Frais de service ajoutés aux commandes de table et de bar."
+
+msgctxt "help:restaurant.order,state:"
+msgid "Current step of the workflow."
+msgstr "Étape actuelle du flux de travail."
+
+msgctxt "help:restaurant.order,subtotal:"
+msgid "Total of the items before discount, service and delivery."
+msgstr "Total des articles avant remise, service et livraison."
+
+msgctxt "help:restaurant.order,tab_name:"
+msgid "Name of the bar tab or of the takeaway customer."
+msgstr "Nom de l'ardoise du bar ou du client à emporter."
+
+msgctxt "help:restaurant.order,table:"
+msgid "Table of the restaurant."
+msgstr "Table du restaurant."
+
+msgctxt "help:restaurant.order,tax_amount:"
+msgid "Tax contained in the total (informative)."
+msgstr "Taxe comprise dans le total (indicatif)."
+
+msgctxt "help:restaurant.order,tip:"
+msgid "Tip left by the customer, added to the balance."
+msgstr "Pourboire laissé par le client, ajouté au solde."
+
+msgctxt "help:restaurant.order,total:"
+msgid "Total to pay."
+msgstr "Total à payer."
+
+msgctxt "help:restaurant.order,type:"
+msgid "Kind of record."
+msgstr "Nature de l'enregistrement."
+
+msgctxt "help:restaurant.order,waiter:"
+msgid "Employee who takes care of the table."
+msgstr "Employé qui s'occupe de la table."
+
+msgctxt "help:restaurant.order.line,amount:"
+msgid "Amount in the currency of the document."
+msgstr "Montant dans la devise du document."
+
+msgctxt "help:restaurant.order.line,company:"
+msgid "Company that owns the record."
+msgstr "Société propriétaire de l'enregistrement."
+
+msgctxt "help:restaurant.order.line,course:"
+msgid "Course of the menu in which the item is served."
+msgstr "Service du menu dans lequel l'article est servi."
+
+msgctxt "help:restaurant.order.line,currency:"
+msgid "Currency of the amounts."
+msgstr "Devise des montants."
+
+msgctxt "help:restaurant.order.line,delay:"
+msgid ""
+"On time, over the ideal time, or very late (150% of the ideal time). Drives "
+"the colors of the kitchen and bar screens."
+msgstr ""
+"Dans les temps, au-delà du temps idéal, ou très en retard (150 % du temps "
+"idéal). Détermine les couleurs des écrans cuisine et bar."
+
+msgctxt "help:restaurant.order.line,discount_percent:"
+msgid "Discount rate in percent, including the happy hour discount."
+msgstr "Taux de remise en pourcentage, happy hour compris."
+
+msgctxt "help:restaurant.order.line,elapsed_minutes:"
+msgid "Minutes since the item was sent, or since it is ready."
+msgstr "Minutes depuis l'envoi de l'article, ou depuis qu'il est prêt."
+
+msgctxt "help:restaurant.order.line,guest:"
+msgid "Seat or guest number, to split the bill (0 = shared)."
+msgstr "Numéro de place ou de convive, pour diviser l'addition (0 = partagé)."
+
+msgctxt "help:restaurant.order.line,ideal_minutes:"
+msgid "Ideal time of the current step: preparation, then service."
+msgstr "Temps idéal de l'étape en cours : préparation, puis service."
+
+msgctxt "help:restaurant.order.line,note:"
+msgid "Cooking, allergies, no ice..."
+msgstr "Cuisson, allergies, sans glaçon..."
+
+msgctxt "help:restaurant.order.line,notified_level:"
+msgid ""
+"Highest delay level already notified for the current step (0 none, 1 over "
+"the ideal time, 2 very late)."
+msgstr ""
+"Plus haut niveau de retard déjà notifié pour l'étape en cours (0 aucun, 1 "
+"au-delà du temps idéal, 2 très en retard)."
+
+msgctxt "help:restaurant.order.line,order:"
+msgid "Order concerned."
+msgstr "Commande concernée."
+
+msgctxt "help:restaurant.order.line,order_type:"
+msgid "Dine-in, bar tab, takeaway or delivery."
+msgstr "Sur place, ardoise du bar, à emporter ou livraison."
+
+msgctxt "help:restaurant.order.line,product:"
+msgid "Product concerned."
+msgstr "Produit concerné."
+
+msgctxt "help:restaurant.order.line,quantity:"
+msgid "Quantity, in the unit of measure."
+msgstr "Quantité, dans l'unité de mesure."
+
+msgctxt "help:restaurant.order.line,ready_at:"
+msgid "Time the item was ready to be served."
+msgstr "Heure à laquelle l'article était prêt à être servi."
+
+msgctxt "help:restaurant.order.line,sent_at:"
+msgid "Time the item was sent to the kitchen or bar."
+msgstr "Heure d'envoi de l'article en cuisine ou au bar."
+
+msgctxt "help:restaurant.order.line,state:"
+msgid "Current step of the workflow."
+msgstr "Étape actuelle du flux de travail."
+
+msgctxt "help:restaurant.order.line,station:"
+msgid "Station concerned."
+msgstr "Station concernée."
+
+msgctxt "help:restaurant.order.line,table:"
+msgid "Table of the restaurant."
+msgstr "Table du restaurant."
+
+msgctxt "help:restaurant.order.line,unit_price:"
+msgid "Price of one unit before discount."
+msgstr "Prix d'une unité avant remise."
+
+msgctxt "help:restaurant.payment,amount:"
+msgid "Amount in the currency of the document."
+msgstr "Montant dans la devise du document."
+
+msgctxt "help:restaurant.payment,change:"
+msgid "Money given back to the customer."
+msgstr "Argent rendu au client."
+
+msgctxt "help:restaurant.payment,currency:"
+msgid "Currency of the amounts."
+msgstr "Devise des montants."
+
+msgctxt "help:restaurant.payment,guest:"
+msgid "Guest who pays this part of the bill (0 = whole table)."
+msgstr "Convive qui paie cette part de l'addition (0 = toute la table)."
+
+msgctxt "help:restaurant.payment,method:"
+msgid "How the customer pays."
+msgstr "Mode de paiement du client."
+
+msgctxt "help:restaurant.payment,order:"
+msgid "Order concerned."
+msgstr "Commande concernée."
+
+msgctxt "help:restaurant.payment,reference:"
+msgid "Reference of the payment (receipt number, voucher...)."
+msgstr "Référence du paiement (numéro de reçu, bon...)."
+
+msgctxt "help:restaurant.payment,session:"
+msgid "Cash session concerned."
+msgstr "Session de caisse concernée."
+
+msgctxt "help:restaurant.payment,tendered:"
+msgid "Cash handed over by the customer."
+msgstr "Espèces remises par le client."
+
+msgctxt "help:restaurant.recipe,lines:"
+msgid "Detail lines of the document."
+msgstr "Lignes de détail du document."
+
+msgctxt "help:restaurant.recipe,notes:"
+msgid "Free text for internal use."
+msgstr "Texte libre à usage interne."
+
+msgctxt "help:restaurant.recipe,template:"
+msgid "Product the record applies to."
+msgstr "Produit auquel l'enregistrement s'applique."
+
+msgctxt "help:restaurant.recipe.line,product:"
+msgid "Product concerned."
+msgstr "Produit concerné."
+
+msgctxt "help:restaurant.recipe.line,quantity:"
+msgid "Quantity used for one portion."
+msgstr "Quantité utilisée pour une portion."
+
+msgctxt "help:restaurant.recipe.line,recipe:"
+msgid "Ingredients used to prepare the item."
+msgstr "Ingrédients utilisés pour préparer l'article."
+
+msgctxt "help:restaurant.recipe.line,unit:"
+msgid "Unit of measure."
+msgstr "Unité de mesure."
+
+msgctxt "help:restaurant.report.sales,amount:"
+msgid "Amount in the currency of the document."
+msgstr "Montant dans la devise du document."
+
+msgctxt "help:restaurant.report.sales,company:"
+msgid "Company that owns the record."
+msgstr "Société propriétaire de l'enregistrement."
+
+msgctxt "help:restaurant.report.sales,date:"
+msgid "Date of the document."
+msgstr "Date du document."
+
+msgctxt "help:restaurant.report.sales,product:"
+msgid "Product concerned."
+msgstr "Produit concerné."
+
+msgctxt "help:restaurant.report.sales,quantity:"
+msgid "Quantity, in the unit of measure."
+msgstr "Quantité, dans l'unité de mesure."
+
+msgctxt "help:restaurant.report.sales,restaurant:"
+msgid "Restaurant concerned."
+msgstr "Restaurant concerné."
+
+msgctxt "help:restaurant.report.sales,type:"
+msgid "Kind of record."
+msgstr "Nature de l'enregistrement."
+
+msgctxt "help:restaurant.reservation,company:"
+msgid "Company that owns the record."
+msgstr "Société propriétaire de l'enregistrement."
+
+msgctxt "help:restaurant.reservation,date:"
+msgid "Date of the document."
+msgstr "Date du document."
+
+msgctxt "help:restaurant.reservation,duration:"
+msgid "Expected length of the booking, in minutes."
+msgstr "Durée prévue de la réservation, en minutes."
+
+msgctxt "help:restaurant.reservation,guest_name:"
+msgid "Name under which the table is booked."
+msgstr "Nom sous lequel la table est réservée."
+
+msgctxt "help:restaurant.reservation,notes:"
+msgid "Free text for internal use."
+msgstr "Texte libre à usage interne."
+
+msgctxt "help:restaurant.reservation,number:"
+msgid "Number assigned automatically by the sequence."
+msgstr "Numéro attribué automatiquement par la séquence."
+
+msgctxt "help:restaurant.reservation,order:"
+msgid "Order concerned."
+msgstr "Commande concernée."
+
+msgctxt "help:restaurant.reservation,party:"
+msgid "Customer or contact concerned."
+msgstr "Client ou contact concerné."
+
+msgctxt "help:restaurant.reservation,persons:"
+msgid "Number of guests expected."
+msgstr "Nombre de convives attendus."
+
+msgctxt "help:restaurant.reservation,phone:"
+msgid "Phone number to call for this record."
+msgstr "Numéro de téléphone à appeler."
+
+msgctxt "help:restaurant.reservation,restaurant:"
+msgid "Restaurant concerned."
+msgstr "Restaurant concerné."
+
+msgctxt "help:restaurant.reservation,state:"
+msgid "Current step of the workflow."
+msgstr "Étape actuelle du flux de travail."
+
+msgctxt "help:restaurant.reservation,table:"
+msgid "Table of the restaurant."
+msgstr "Table du restaurant."
+
+msgctxt "help:restaurant.reservation,time:"
+msgid "Time of the day."
+msgstr "Heure de la journée."
+
+msgctxt "help:restaurant.restaurant,areas:"
+msgid "Areas of the establishment."
+msgstr "Zones de l'établissement."
+
+msgctxt "help:restaurant.restaurant,bar_minutes:"
+msgid ""
+"Ideal time between sending a drink to the bar and its readiness. The item "
+"can override it with its own preparation time."
+msgstr ""
+"Temps idéal entre l'envoi d'une boisson au bar et sa disponibilité. "
+"L'article peut le remplacer par son propre temps de préparation."
+
+msgctxt "help:restaurant.restaurant,cash_control:"
+msgid ""
+"Require an open cash session, with a banknote and coin count at opening and "
+"closing, to take cash payments."
+msgstr ""
+"Exiger une session de caisse ouverte, avec comptage des billets et pièces à "
+"l'ouverture et à la fermeture, pour encaisser en espèces."
+
+msgctxt "help:restaurant.restaurant,cash_tolerance:"
+msgid "Closing difference accepted without warning."
+msgstr "Écart de fermeture accepté sans avertissement."
+
+msgctxt "help:restaurant.restaurant,code:"
+msgid "Short unique identifier."
+msgstr "Identifiant court et unique."
+
+msgctxt "help:restaurant.restaurant,company:"
+msgid "Company that owns the record."
+msgstr "Société propriétaire de l'enregistrement."
+
+msgctxt "help:restaurant.restaurant,currency:"
+msgid "Currency of the amounts."
+msgstr "Devise des montants."
+
+msgctxt "help:restaurant.restaurant,delivery_fee:"
+msgid "Fee charged for a delivery."
+msgstr "Frais facturés pour une livraison."
+
+msgctxt "help:restaurant.restaurant,enforce_menus:"
+msgid ""
+"Only items of a menu available now can be ordered, at the price of that menu"
+" if it has one."
+msgstr ""
+"Seuls les articles d'un menu disponible maintenant peuvent être commandés, "
+"au prix de ce menu s'il en a un."
+
+msgctxt "help:restaurant.restaurant,free_delivery_amount:"
+msgid "No delivery fee from this amount (0 = never free)."
+msgstr ""
+"Pas de frais de livraison à partir de ce montant (0 = jamais gratuit)."
+
+msgctxt "help:restaurant.restaurant,kitchen_minutes:"
+msgid ""
+"Ideal time between sending an item to the kitchen and its readiness. Over it"
+" the line turns orange on the kitchen screen and the kitchen is notified; at"
+" 150% it turns red."
+msgstr ""
+"Temps idéal entre l'envoi d'un article en cuisine et sa disponibilité. Au-"
+"delà, la ligne devient orange sur l'écran de la cuisine et la cuisine est "
+"notifiée ; à 150 % elle devient rouge."
+
+msgctxt "help:restaurant.restaurant,max_discount:"
+msgid "Discount a waiter may give; above, a manager is needed."
+msgstr ""
+"Remise qu'un serveur peut accorder ; au-delà, un responsable est requis."
+
+msgctxt "help:restaurant.restaurant,menus:"
+msgid "Menu cards of the restaurant."
+msgstr "Cartes du restaurant."
+
+msgctxt "help:restaurant.restaurant,min_delivery_amount:"
+msgid "Minimum value of the items of a delivery order."
+msgstr "Valeur minimale des articles d'une commande en livraison."
+
+msgctxt "help:restaurant.restaurant,name:"
+msgid "Name displayed in lists and searches."
+msgstr "Nom affiché dans les listes et les recherches."
+
+msgctxt "help:restaurant.restaurant,party:"
+msgid "Address and phone of the establishment."
+msgstr "Adresse et téléphone de l'établissement."
+
+msgctxt "help:restaurant.restaurant,serve_minutes:"
+msgid ""
+"Ideal time between an item ready and its service at the table. Over it the "
+"waiters are notified."
+msgstr ""
+"Temps idéal entre un article prêt et son service à la table. Au-delà, les "
+"serveurs sont notifiés."
+
+msgctxt "help:restaurant.restaurant,service_rate:"
+msgid "Added to table and bar orders."
+msgstr "Ajouté aux commandes de table et de bar."
+
+msgctxt "help:restaurant.restaurant,tables:"
+msgid "Tables of the restaurant."
+msgstr "Tables du restaurant."
+
+msgctxt "help:restaurant.restaurant,tax_rate:"
+msgid "Tax contained in the prices (informative on the bill)."
+msgstr "Taxe comprise dans les prix (à titre indicatif sur l'addition)."
+
+msgctxt "help:restaurant.restaurant,warehouse:"
+msgid ""
+"Stock used by the recipes and the drinks. Leave empty to disable the stock "
+"moves."
+msgstr ""
+"Stock utilisé par les recettes et les boissons. Laisser vide pour désactiver"
+" les mouvements de stock."
+
+msgctxt "help:restaurant.table,area:"
+msgid "Area (room, terrace, bar...) of the restaurant."
+msgstr "Zone (salle, terrasse, bar...) du restaurant."
+
+msgctxt "help:restaurant.table,code:"
+msgid "Short unique identifier."
+msgstr "Identifiant court et unique."
+
+msgctxt "help:restaurant.table,order:"
+msgid "Order concerned."
+msgstr "Commande concernée."
+
+msgctxt "help:restaurant.table,restaurant:"
+msgid "Restaurant concerned."
+msgstr "Restaurant concerné."
+
+msgctxt "help:restaurant.table,seats:"
+msgid "Number of seats at the table."
+msgstr "Nombre de places à la table."
+
+msgctxt "help:restaurant.table,status:"
+msgid "Current availability."
+msgstr "Disponibilité actuelle."
+
+msgctxt "model:ir.action,name:act_area"
+msgid "Areas"
+msgstr "Zones"
+
+msgctxt "model:ir.action,name:act_bar"
+msgid "Bar Screen"
+msgstr "Écran du bar"
+
+msgctxt "model:ir.action,name:act_carte"
+msgid "Menus"
+msgstr "Menus"
+
+msgctxt "model:ir.action,name:act_cash_session"
+msgid "Cash Sessions"
+msgstr "Sessions de caisse"
+
+msgctxt "model:ir.action,name:act_dashboard"
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+msgctxt "model:ir.action,name:act_delivery_order"
+msgid "Deliveries"
+msgstr "Livraisons"
+
+msgctxt "model:ir.action,name:act_driver"
+msgid "Drivers"
+msgstr "Livreurs"
+
+msgctxt "model:ir.action,name:act_happy_hour"
+msgid "Happy Hours"
+msgstr "Happy hours"
+
+msgctxt "model:ir.action,name:act_kitchen"
+msgid "Kitchen Screen"
+msgstr "Écran de la cuisine"
+
+msgctxt "model:ir.action,name:act_menu_item"
+msgid "Menu Items"
+msgstr "Articles du menu"
+
+msgctxt "model:ir.action,name:act_order"
+msgid "Orders"
+msgstr "Commandes"
+
+msgctxt "model:ir.action,name:act_recipe"
+msgid "Recipes"
+msgstr "Recettes"
+
+msgctxt "model:ir.action,name:act_reservation"
+msgid "Reservations"
+msgstr "Réservations"
+
+msgctxt "model:ir.action,name:act_restaurant"
+msgid "Restaurants"
+msgstr "Restaurants"
+
+msgctxt "model:ir.action,name:act_sales_report"
+msgid "Restaurant Sales"
+msgstr "Ventes du restaurant"
+
+msgctxt "model:ir.action,name:act_table"
+msgid "Tables"
+msgstr "Tables"
+
+msgctxt "model:ir.action,name:report_order_receipt"
+msgid "Bill"
+msgstr "Addition"
+
+msgctxt "model:ir.action,name:report_order_split"
+msgid "Bill by Guest"
+msgstr "Addition par convive"
+
+msgctxt "model:ir.action,name:report_order_ticket"
+msgid "Ticket (80 mm)"
+msgstr "Ticket (80 mm)"
+
+msgctxt "model:ir.action,name:wizard_guide"
+msgid "Usage Guide"
+msgstr "Guide d'utilisation"
+
+msgctxt "model:ir.action.act_window.domain,name:act_cash_session_domain_0"
+msgid "Open"
+msgstr "Ouvert"
+
+msgctxt "model:ir.action.act_window.domain,name:act_cash_session_domain_1"
+msgid "Closed"
+msgstr "Fermé"
+
+msgctxt "model:ir.action.act_window.domain,name:act_cash_session_domain_2"
+msgid "All"
+msgstr "Tous"
+
+msgctxt "model:ir.action.act_window.domain,name:act_delivery_order_domain_0"
+msgid "To Deliver"
+msgstr "À livrer"
+
+msgctxt "model:ir.action.act_window.domain,name:act_delivery_order_domain_1"
+msgid "Delivered"
+msgstr "Livré"
+
+msgctxt "model:ir.action.act_window.domain,name:act_delivery_order_domain_2"
+msgid "All"
+msgstr "Tous"
+
+msgctxt "model:ir.action.act_window.domain,name:act_order_domain_0"
+msgid "Open"
+msgstr "Ouvert"
+
+msgctxt "model:ir.action.act_window.domain,name:act_order_domain_1"
+msgid "Dine-in"
+msgstr "Sur place"
+
+msgctxt "model:ir.action.act_window.domain,name:act_order_domain_2"
+msgid "Takeaway"
+msgstr "À emporter"
+
+msgctxt "model:ir.action.act_window.domain,name:act_order_domain_3"
+msgid "Paid"
+msgstr "Payé"
+
+msgctxt "model:ir.action.act_window.domain,name:act_order_domain_4"
+msgid "All"
+msgstr "Tous"
+
+msgctxt "model:ir.action.act_window.domain,name:act_reservation_domain_0"
+msgid "Booked"
+msgstr "Réservé"
+
+msgctxt "model:ir.action.act_window.domain,name:act_reservation_domain_1"
+msgid "All"
+msgstr "Tous"
+
+msgctxt "model:ir.action.act_window.domain,name:act_table_domain_0"
+msgid "Free"
+msgstr "Libre"
+
+msgctxt "model:ir.action.act_window.domain,name:act_table_domain_1"
+msgid "Occupied"
+msgstr "Occupée"
+
+msgctxt "model:ir.action.act_window.domain,name:act_table_domain_2"
+msgid "All"
+msgstr "Tous"
+
+msgctxt "model:ir.message,text:msg_area_unique"
+msgid "The name of the area must be unique per restaurant."
+msgstr "Le nom de la zone doit être unique par restaurant."
+
+msgctxt "model:ir.message,text:msg_cash_count_currency"
+msgid ""
+"The denomination \"%(denomination)s\" is not in the currency of the company."
+msgstr ""
+"La coupure « %(denomination)s » n'est pas dans la devise de la société."
+
+msgctxt "model:ir.message,text:msg_cash_count_suspect"
+msgid "Suspect banknotes or coins cannot exceed the counted quantity."
+msgstr ""
+"Les billets ou pièces suspects ne peuvent pas dépasser la quantité comptée."
+
+msgctxt "model:ir.message,text:msg_cash_count_unique"
+msgid "A denomination can only be counted once per moment and session."
+msgstr ""
+"Une coupure ne peut être comptée qu'une fois par moment et par session."
+
+msgctxt "model:ir.message,text:msg_delay_item"
+msgid "%(where)s - %(product)s: %(elapsed)s min (ideal %(ideal)s)"
+msgstr "%(where)s - %(product)s : %(elapsed)s min (idéal %(ideal)s)"
+
+msgctxt "model:ir.message,text:msg_delay_title_prep_1"
+msgid "%(station)s: %(count)s item(s) over the ideal time"
+msgstr "%(station)s : %(count)s article(s) au-delà du temps idéal"
+
+msgctxt "model:ir.message,text:msg_delay_title_prep_2"
+msgid "%(station)s: %(count)s item(s) very late"
+msgstr "%(station)s : %(count)s article(s) très en retard"
+
+msgctxt "model:ir.message,text:msg_delay_title_serve_1"
+msgid "%(count)s item(s) ready and waiting to be served"
+msgstr "%(count)s article(s) prêt(s) en attente de service"
+
+msgctxt "model:ir.message,text:msg_delay_title_serve_2"
+msgid "%(count)s item(s) ready for too long: serve them now"
+msgstr ""
+"%(count)s article(s) prêt(s) depuis trop longtemps : servez-les maintenant"
+
+msgctxt "model:ir.message,text:msg_delivery_address"
+msgid "Delivery order \"%(order)s\" needs an address and a phone number."
+msgstr ""
+"La commande de livraison « %(order)s » nécessite une adresse et un "
+"téléphone."
+
+msgctxt "model:ir.message,text:msg_delivery_minimum"
+msgid "The minimum amount for delivery is %(minimum)s."
+msgstr "Le montant minimum pour une livraison est %(minimum)s."
+
+msgctxt "model:ir.message,text:msg_delivery_no_driver"
+msgid "Order \"%(order)s\" needs a driver."
+msgstr "La commande « %(order)s » nécessite un livreur."
+
+msgctxt "model:ir.message,text:msg_delivery_not_sent"
+msgid "Order \"%(order)s\" has not been sent to the kitchen yet."
+msgstr "La commande « %(order)s » n'a pas encore été envoyée en cuisine."
+
+msgctxt "model:ir.message,text:msg_denomination_unique"
+msgid "This banknote or coin already exists for the currency."
+msgstr "Ce billet ou cette pièce existe déjà pour la devise."
+
+msgctxt "model:ir.message,text:msg_denomination_unknown"
+msgid ""
+"No standard denominations are known for currency \"%(currency)s\". Create "
+"them by hand."
+msgstr ""
+"Aucune coupure standard n'est connue pour la devise « %(currency)s ». Créez-"
+"les à la main."
+
+msgctxt "model:ir.message,text:msg_discount_too_high"
+msgid "The discount cannot exceed %(maximum)s%% without a manager."
+msgstr "La remise ne peut pas dépasser %(maximum)s%% sans un responsable."
+
+msgctxt "model:ir.message,text:msg_guide_usage"
+msgid ""
+"RESTAURANT - USAGE GUIDE\n"
+"\n"
+"1. Setup (manager)\n"
+" - Restaurant > Configuration > Restaurants: create the restaurant, rates (service, taxes, delivery) and a warehouse for stock.\n"
+" - Create areas (room, terrace, bar) and tables with their seats.\n"
+" - Mark products as menu items (Restaurant tab): course, preparation station (kitchen/bar), recipe.\n"
+" - Menus: create menus with hours and optional prices (breakfast, lunch, happy hour).\n"
+" - Cash: create the banknote and coin denominations of your currency.\n"
+"\n"
+"2. Cash session (cashier)\n"
+" - Open your cash session and count the banknotes and coins of the drawer.\n"
+" - Cash payments are only accepted while a session is open.\n"
+" - At closing, count again: the difference and the suspect notes are shown to the manager.\n"
+"\n"
+"3. Service\n"
+" - Restaurant > Service > Orders: new order, choose type (dine-in, bar tab, takeaway, delivery) and the table.\n"
+" - Add items (give a guest number to split the bill), then click Send: items go to the kitchen or bar screen.\n"
+" - Kitchen/Bar screens: Start, Ready, then waiters click Serve.\n"
+"\n"
+"4. Payment\n"
+" - Add one or several payments (cash, card, mobile, voucher, account) then click Pay. Stock is consumed from recipes.\n"
+" - Print the bill, the 80 mm ticket or the bill by guest from the Print action.\n"
+"\n"
+"5. Delivery\n"
+" - Create a delivery order with address and phone, send it, assign a driver, Dispatch, then Delivered or Delivery Failed.\n"
+"\n"
+"6. Reservations\n"
+" - Book a table with date, time and guests; click Seat on arrival to open the order automatically.\n"
+"\n"
+"7. Reports\n"
+" - Dashboard shows live activity; Restaurant Sales gives daily sales by product."
+msgstr ""
+"RESTAURANT - GUIDE D'UTILISATION\n"
+"\n"
+"1. Configuration (responsable)\n"
+" - Restaurant > Configuration > Restaurants : créez le restaurant, ses taux (service, taxes, livraison) et un entrepôt pour le stock.\n"
+" - Créez les zones (salle, terrasse, bar) et les tables avec leur nombre de places.\n"
+" - Marquez les produits comme articles du menu (onglet Restaurant) : service, poste de préparation (cuisine/bar), recette.\n"
+" - Menus : créez des menus avec horaires et prix optionnels (petit-déjeuner, déjeuner, happy hour).\n"
+" - Caisse : créez les coupures de billets et de pièces de votre devise.\n"
+"\n"
+"2. Session de caisse (caissier)\n"
+" - Ouvrez votre session de caisse et comptez les billets et pièces du tiroir.\n"
+" - Les paiements en espèces ne sont acceptés que pendant qu'une session est ouverte.\n"
+" - À la fermeture, comptez à nouveau : l'écart et les billets suspects sont montrés au responsable.\n"
+"\n"
+"3. Service\n"
+" - Restaurant > Service > Commandes : nouvelle commande, choisissez le type (sur place, ardoise du bar, à emporter, livraison) et la table.\n"
+" - Ajoutez les articles (indiquez un numéro de convive pour diviser l'addition), puis cliquez sur Envoyer : les articles arrivent sur l'écran de la cuisine ou du bar.\n"
+" - Écrans cuisine/bar : Démarrer, Prêt, puis les serveurs cliquent sur Servir.\n"
+"\n"
+"4. Paiement\n"
+" - Ajoutez un ou plusieurs paiements (espèces, carte, mobile, bon, compte) puis cliquez sur Payer. Le stock est consommé selon les recettes.\n"
+" - Imprimez l'addition, le ticket 80 mm ou l'addition par convive avec l'action Imprimer.\n"
+"\n"
+"5. Livraison\n"
+" - Créez une commande de livraison avec adresse et téléphone, envoyez-la, assignez un livreur, Expédier, puis Livré ou Livraison échouée.\n"
+"\n"
+"6. Réservations\n"
+" - Réservez une table avec date, heure et nombre de personnes ; cliquez sur Installer à l'arrivée pour ouvrir la commande automatiquement.\n"
+"\n"
+"7. Rapports\n"
+" - Le tableau de bord montre l'activité en direct ; Ventes du restaurant donne les ventes quotidiennes par produit."
+
+msgctxt "model:ir.message,text:msg_happy_hour_hours"
+msgid "The end hour of happy hour \"%(rule)s\" must be after its start hour."
+msgstr ""
+"L'heure de fin du happy hour « %(rule)s » doit suivre son heure de début."
+
+msgctxt "model:ir.message,text:msg_line_not_on_menu"
+msgid "\"%(product)s\" is not on any menu available now."
+msgstr "« %(product)s » n'est dans aucun menu disponible maintenant."
+
+msgctxt "model:ir.message,text:msg_line_sent"
+msgid "The item \"%(product)s\" was already sent. Use the cancel button."
+msgstr ""
+"L'article « %(product)s » est déjà envoyé. Utilisez le bouton d'annulation."
+
+msgctxt "model:ir.message,text:msg_line_sold_out"
+msgid "\"%(product)s\" is sold out."
+msgstr "« %(product)s » est épuisé."
+
+msgctxt "model:ir.message,text:msg_line_state"
+msgid "The item \"%(product)s\" cannot go to this state."
+msgstr "L'article « %(product)s » ne peut pas passer à cet état."
+
+msgctxt "model:ir.message,text:msg_manager_required"
+msgid "Only a restaurant manager can grant this discount."
+msgstr "Seul un responsable du restaurant peut accorder cette remise."
+
+msgctxt "model:ir.message,text:msg_menu_hours"
+msgid "The end hour of menu \"%(menu)s\" must be after its start hour."
+msgstr "L'heure de fin du menu « %(menu)s » doit suivre son heure de début."
+
+msgctxt "model:ir.message,text:msg_menu_item_unique"
+msgid "An item can only appear once in a menu."
+msgstr "Un article ne peut apparaître qu'une fois dans un menu."
+
+msgctxt "model:ir.message,text:msg_no_customer_location"
+msgid "The customer location is not configured."
+msgstr "L'emplacement client n'est pas configuré."
+
+msgctxt "model:ir.message,text:msg_order_cancel_paid"
+msgid "Paid order \"%(order)s\" cannot be cancelled."
+msgstr "La commande payée « %(order)s » ne peut pas être annulée."
+
+msgctxt "model:ir.message,text:msg_order_company"
+msgid "The company of order \"%(order)s\" must match its restaurant."
+msgstr ""
+"La société de la commande « %(order)s » doit être celle de son restaurant."
+
+msgctxt "model:ir.message,text:msg_order_covers"
+msgid "Order \"%(order)s\" has %(covers)s guests for a table of %(seats)s seats."
+msgstr ""
+"La commande « %(order)s » compte %(covers)s couverts pour une table de "
+"%(seats)s places."
+
+msgctxt "model:ir.message,text:msg_order_delete"
+msgid "Order \"%(order)s\" cannot be deleted. Cancel it instead."
+msgstr "La commande « %(order)s » ne peut pas être supprimée. Annulez-la."
+
+msgctxt "model:ir.message,text:msg_order_empty"
+msgid "Order \"%(order)s\" has no item."
+msgstr "La commande « %(order)s » n'a aucun article."
+
+msgctxt "model:ir.message,text:msg_order_not_open"
+msgid "Order \"%(order)s\" is not open."
+msgstr "La commande « %(order)s » n'est pas ouverte."
+
+msgctxt "model:ir.message,text:msg_order_nothing_to_send"
+msgid "Order \"%(order)s\" has no new items to send."
+msgstr "La commande « %(order)s » n'a aucun nouvel article à envoyer."
+
+msgctxt "model:ir.message,text:msg_order_table_busy"
+msgid "Table \"%(table)s\" already has the open order \"%(order)s\"."
+msgstr "La table « %(table)s » a déjà la commande ouverte « %(order)s »."
+
+msgctxt "model:ir.message,text:msg_order_unpaid"
+msgid "Order \"%(order)s\" still has a balance of %(balance)s."
+msgstr "La commande « %(order)s » a encore un solde de %(balance)s."
+
+msgctxt "model:ir.message,text:msg_payment_account"
+msgid "Payment on account for order \"%(order)s\" requires a customer."
+msgstr ""
+"Le paiement sur compte de la commande « %(order)s » nécessite un client."
+
+msgctxt "model:ir.message,text:msg_payment_no_session"
+msgid ""
+"Open a cash session in restaurant \"%(restaurant)s\" to take cash payments."
+msgstr ""
+"Ouvrez une session de caisse au restaurant « %(restaurant)s » pour encaisser"
+" en espèces."
+
+msgctxt "model:ir.message,text:msg_payment_tendered"
+msgid "The amount tendered for order \"%(order)s\" is lower than the payment."
+msgstr ""
+"Le montant remis pour la commande « %(order)s » est inférieur au paiement."
+
+msgctxt "model:ir.message,text:msg_recipe_unique"
+msgid "A menu item can only have one recipe."
+msgstr "Un article du menu ne peut avoir qu'une recette."
+
+msgctxt "model:ir.message,text:msg_recipe_unit_digits"
+msgid ""
+"The quantity of \"%(product)s\" is too small for its unit \"%(unit)s\". Use "
+"a fractional unit (kg, l)."
+msgstr ""
+"La quantité de « %(product)s » est trop petite pour son unité « %(unit)s ». "
+"Utilisez une unité fractionnaire (kg, l)."
+
+msgctxt "model:ir.message,text:msg_reservation_delete"
+msgid "Reservation \"%(reservation)s\" cannot be deleted. Cancel it instead."
+msgstr ""
+"La réservation « %(reservation)s » ne peut pas être supprimée. Annulez-la."
+
+msgctxt "model:ir.message,text:msg_reservation_no_table"
+msgid "Reservation \"%(reservation)s\" needs a table."
+msgstr "La réservation « %(reservation)s » nécessite une table."
+
+msgctxt "model:ir.message,text:msg_reservation_overlap"
+msgid "Table \"%(table)s\" is already booked by \"%(reservation)s\"."
+msgstr "La table « %(table)s » est déjà réservée par « %(reservation)s »."
+
+msgctxt "model:ir.message,text:msg_reservation_seats"
+msgid "Table \"%(table)s\" has only %(seats)s seats."
+msgstr "La table « %(table)s » n'a que %(seats)s places."
+
+msgctxt "model:ir.message,text:msg_restaurant_code_unique"
+msgid "The code of the restaurant must be unique per company."
+msgstr "Le code du restaurant doit être unique par société."
+
+msgctxt "model:ir.message,text:msg_session_already_open"
+msgid ""
+"%(cashier)s already has the open cash session \"%(session)s\" in this "
+"restaurant."
+msgstr ""
+"%(cashier)s a déjà la session de caisse ouverte « %(session)s » dans ce "
+"restaurant."
+
+msgctxt "model:ir.message,text:msg_session_closed"
+msgid "Cash session \"%(session)s\" is closed."
+msgstr "La session de caisse « %(session)s » est fermée."
+
+msgctxt "model:ir.message,text:msg_session_company"
+msgid "The restaurant of cash session \"%(session)s\" must belong to its company."
+msgstr ""
+"Le restaurant de la session de caisse « %(session)s » doit appartenir à sa "
+"société."
+
+msgctxt "model:ir.message,text:msg_session_delete"
+msgid "Cash session \"%(session)s\" cannot be deleted once opened."
+msgstr ""
+"La session de caisse « %(session)s » ne peut plus être supprimée une fois "
+"ouverte."
+
+msgctxt "model:ir.message,text:msg_session_difference"
+msgid "Cash session \"%(session)s\" closes with a difference of %(difference)s."
+msgstr ""
+"La session de caisse « %(session)s » se ferme avec un écart de "
+"%(difference)s."
+
+msgctxt "model:ir.message,text:msg_session_no_closing_count"
+msgid ""
+"Count the banknotes and coins of cash session \"%(session)s\" before closing"
+" it."
+msgstr ""
+"Comptez les billets et pièces de la session de caisse « %(session)s » avant "
+"de la fermer."
+
+msgctxt "model:ir.message,text:msg_session_no_opening_count"
+msgid ""
+"Count the banknotes and coins of cash session \"%(session)s\" before opening"
+" it."
+msgstr ""
+"Comptez les billets et pièces de la session de caisse « %(session)s » avant "
+"de l'ouvrir."
+
+msgctxt "model:ir.message,text:msg_session_opening_locked"
+msgid ""
+"The opening count of cash session \"%(session)s\" can no longer be changed."
+msgstr ""
+"Le comptage d'ouverture de la session de caisse « %(session)s » ne peut plus"
+" être modifié."
+
+msgctxt "model:ir.message,text:msg_session_opening_mismatch"
+msgid ""
+"Cash session \"%(session)s\" opens with %(amount)s but the previous session "
+"closed with %(previous)s."
+msgstr ""
+"La session de caisse « %(session)s » s'ouvre avec %(amount)s mais la "
+"précédente s'est fermée avec %(previous)s."
+
+msgctxt "model:ir.message,text:msg_session_suspect"
+msgid ""
+"Cash session \"%(session)s\" holds %(amount)s of suspect banknotes or coins,"
+" excluded from the total."
+msgstr ""
+"La session de caisse « %(session)s » contient %(amount)s de billets ou "
+"pièces suspects, exclus du total."
+
+msgctxt "model:ir.message,text:msg_station_bar"
+msgid "Bar"
+msgstr "Bar"
+
+msgctxt "model:ir.message,text:msg_station_kitchen"
+msgid "Kitchen"
+msgstr "Cuisine"
+
+msgctxt "model:ir.message,text:msg_station_none"
+msgid "No Preparation"
+msgstr "Sans préparation"
+
+msgctxt "model:ir.message,text:msg_table_area"
+msgid "The area of table \"%(table)s\" must belong to its restaurant."
+msgstr "La zone de la table « %(table)s » doit appartenir à son restaurant."
+
+msgctxt "model:ir.message,text:msg_table_unique"
+msgid "The code of the table must be unique per restaurant."
+msgstr "Le code de la table doit être unique par restaurant."
+
+msgctxt "model:ir.model.button,string:cash_session_close_button"
+msgid "Close Cash Session"
+msgstr "Fermer la session de caisse"
+
+msgctxt "model:ir.model.button,string:cash_session_fill_closing_button"
+msgid "Fill Denominations"
+msgstr "Remplir les coupures"
+
+msgctxt "model:ir.model.button,string:cash_session_fill_opening_button"
+msgid "Fill Denominations"
+msgstr "Remplir les coupures"
+
+msgctxt "model:ir.model.button,string:cash_session_open__button"
+msgid "Open Cash Session"
+msgstr "Ouvrir la session de caisse"
+
+msgctxt "model:ir.model.button,string:order_cancel_button"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "model:ir.model.button,string:order_deliver_button"
+msgid "Delivered"
+msgstr "Livré"
+
+msgctxt "model:ir.model.button,string:order_delivery_failed_button"
+msgid "Delivery Failed"
+msgstr "Livraison échouée"
+
+msgctxt "model:ir.model.button,string:order_dispatch_button"
+msgid "Dispatch"
+msgstr "Expédier"
+
+msgctxt "model:ir.model.button,string:order_line_cancel_line_button"
+msgid "Cancel Item"
+msgstr "Annuler l'article"
+
+msgctxt "model:ir.model.button,string:order_line_ready_button"
+msgid "Ready"
+msgstr "Prêt"
+
+msgctxt "model:ir.model.button,string:order_line_serve_button"
+msgid "Serve"
+msgstr "Servir"
+
+msgctxt "model:ir.model.button,string:order_line_start_button"
+msgid "Start"
+msgstr "Démarrer"
+
+msgctxt "model:ir.model.button,string:order_pay_button"
+msgid "Pay"
+msgstr "Payer"
+
+msgctxt "model:ir.model.button,string:order_send_button"
+msgid "Send"
+msgstr "Envoyer"
+
+msgctxt "model:ir.model.button,string:reservation_cancel_button"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "model:ir.model.button,string:reservation_no_show__button"
+msgid "No Show"
+msgstr "Absent"
+
+msgctxt "model:ir.model.button,string:reservation_rebook_button"
+msgid "Book Again"
+msgstr "Réserver de nouveau"
+
+msgctxt "model:ir.model.button,string:reservation_seat_button"
+msgid "Seat"
+msgstr "Installer"
+
+msgctxt "model:ir.rule.group,name:rule_group_area"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_cash_count"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_cash_session"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_dashboard"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_menu_card"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_order"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_order_line"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_payment"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_reservation"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_restaurant"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_sales_report"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_table"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.sequence,name:sequence_cash"
+msgid "Restaurant Cash Session"
+msgstr "Session de caisse du restaurant"
+
+msgctxt "model:ir.sequence,name:sequence_order"
+msgid "Restaurant Order"
+msgstr "Commande du restaurant"
+
+msgctxt "model:ir.sequence,name:sequence_reservation"
+msgid "Table Reservation"
+msgstr "Réservation de table"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_cash"
+msgid "Restaurant Cash Session"
+msgstr "Session de caisse du restaurant"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_order"
+msgid "Restaurant Order"
+msgstr "Commande du restaurant"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_reservation"
+msgid "Table Reservation"
+msgstr "Réservation de table"
+
+msgctxt "model:ir.ui.menu,name:menu_area"
+msgid "Areas"
+msgstr "Zones"
+
+msgctxt "model:ir.ui.menu,name:menu_bar"
+msgid "Bar Screen"
+msgstr "Écran du bar"
+
+msgctxt "model:ir.ui.menu,name:menu_carte"
+msgid "Menus"
+msgstr "Menus"
+
+msgctxt "model:ir.ui.menu,name:menu_cash_session"
+msgid "Cash Sessions"
+msgstr "Sessions de caisse"
+
+msgctxt "model:ir.ui.menu,name:menu_dashboard"
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+msgctxt "model:ir.ui.menu,name:menu_delivery_order"
+msgid "Deliveries"
+msgstr "Livraisons"
+
+msgctxt "model:ir.ui.menu,name:menu_driver"
+msgid "Drivers"
+msgstr "Livreurs"
+
+msgctxt "model:ir.ui.menu,name:menu_guide"
+msgid "Usage Guide"
+msgstr "Guide d'utilisation"
+
+msgctxt "model:ir.ui.menu,name:menu_happy_hour"
+msgid "Happy Hours"
+msgstr "Happy hours"
+
+msgctxt "model:ir.ui.menu,name:menu_kitchen"
+msgid "Kitchen Screen"
+msgstr "Écran de la cuisine"
+
+msgctxt "model:ir.ui.menu,name:menu_menu"
+msgid "Menu"
+msgstr "Menu"
+
+msgctxt "model:ir.ui.menu,name:menu_menu_item"
+msgid "Menu Items"
+msgstr "Articles du menu"
+
+msgctxt "model:ir.ui.menu,name:menu_order"
+msgid "Orders"
+msgstr "Commandes"
+
+msgctxt "model:ir.ui.menu,name:menu_recipe"
+msgid "Recipes"
+msgstr "Recettes"
+
+msgctxt "model:ir.ui.menu,name:menu_reservation"
+msgid "Reservations"
+msgstr "Réservations"
+
+msgctxt "model:ir.ui.menu,name:menu_restaurant"
+msgid "Restaurant"
+msgstr "Restaurant"
+
+msgctxt "model:ir.ui.menu,name:menu_restaurant_config"
+msgid "Configuration"
+msgstr "Configuration"
+
+msgctxt "model:ir.ui.menu,name:menu_restaurant_list"
+msgid "Restaurants"
+msgstr "Restaurants"
+
+msgctxt "model:ir.ui.menu,name:menu_restaurant_reports"
+msgid "Reports"
+msgstr "Rapports"
+
+msgctxt "model:ir.ui.menu,name:menu_sales_report"
+msgid "Restaurant Sales"
+msgstr "Ventes du restaurant"
+
+msgctxt "model:ir.ui.menu,name:menu_service"
+msgid "Service"
+msgstr "Service"
+
+msgctxt "model:ir.ui.menu,name:menu_table"
+msgid "Tables"
+msgstr "Tables"
+
+msgctxt "model:ir.ui.menu,name:menu_table_config"
+msgid "Tables"
+msgstr "Tables"
+
+msgctxt "model:res.group,name:group_restaurant"
+msgid "Restaurant"
+msgstr "Restaurant"
+
+msgctxt "model:res.group,name:group_restaurant_admin"
+msgid "Restaurant Administration"
+msgstr "Administration du restaurant"
+
+msgctxt "model:res.group,name:group_restaurant_kitchen"
+msgid "Restaurant Kitchen and Bar"
+msgstr "Cuisine et bar du restaurant"
+
+msgctxt "model:res.group,name:group_restaurant_manager"
+msgid "Restaurant Manager"
+msgstr "Responsable du restaurant"
+
+msgctxt "model:restaurant.area,name:"
+msgid "Restaurant Area"
+msgstr "Zone du restaurant"
+
+msgctxt "model:restaurant.cash.count,name:"
+msgid "Restaurant Cash Count"
+msgstr "Comptage de caisse du restaurant"
+
+msgctxt "model:restaurant.cash.session,name:"
+msgid "Restaurant Cash Session"
+msgstr "Session de caisse du restaurant"
+
+msgctxt "model:restaurant.dashboard,name:"
+msgid "Restaurant Dashboard"
+msgstr "Tableau de bord du restaurant"
+
+msgctxt "model:restaurant.driver,name:"
+msgid "Delivery Driver"
+msgstr "Livreur"
+
+msgctxt "model:restaurant.guide.start,name:"
+msgid "Usage Guide"
+msgstr "Guide d'utilisation"
+
+msgctxt "model:restaurant.happy_hour,name:"
+msgid "Happy Hour"
+msgstr "Happy hour"
+
+msgctxt "model:restaurant.menu,name:"
+msgid "Restaurant Menu"
+msgstr "Carte du restaurant"
+
+msgctxt "model:restaurant.menu.item,name:"
+msgid "Restaurant Menu Item"
+msgstr "Article de la carte"
+
+msgctxt "model:restaurant.order,name:"
+msgid "Restaurant Order"
+msgstr "Commande du restaurant"
+
+msgctxt "model:restaurant.order.line,name:"
+msgid "Restaurant Order Item"
+msgstr "Article de commande"
+
+msgctxt "model:restaurant.payment,name:"
+msgid "Restaurant Payment"
+msgstr "Paiement du restaurant"
+
+msgctxt "model:restaurant.recipe,name:"
+msgid "Menu Item Recipe"
+msgstr "Recette d'un article du menu"
+
+msgctxt "model:restaurant.recipe.line,name:"
+msgid "Menu Item Recipe Ingredient"
+msgstr "Ingrédient de recette"
+
+msgctxt "model:restaurant.report.sales,name:"
+msgid "Restaurant Sales by Day"
+msgstr "Ventes du restaurant par jour"
+
+msgctxt "model:restaurant.reservation,name:"
+msgid "Table Reservation"
+msgstr "Réservation de table"
+
+msgctxt "model:restaurant.restaurant,name:"
+msgid "Restaurant"
+msgstr "Restaurant"
+
+msgctxt "model:restaurant.table,name:"
+msgid "Restaurant Table"
+msgstr "Table du restaurant"
+
+msgctxt "report:restaurant.order.receipt:"
+msgid "Balance:"
+msgstr "Solde :"
+
+msgctxt "report:restaurant.order.receipt:"
+msgid "Bill"
+msgstr "Addition"
+
+msgctxt "report:restaurant.order.receipt:"
+msgid "Delivery:"
+msgstr "Livraison :"
+
+msgctxt "report:restaurant.order.receipt:"
+msgid "Discount:"
+msgstr "Remise :"
+
+msgctxt "report:restaurant.order.receipt:"
+msgid "Paid:"
+msgstr "Payé :"
+
+msgctxt "report:restaurant.order.receipt:"
+msgid "Service:"
+msgstr "Service :"
+
+msgctxt "report:restaurant.order.receipt:"
+msgid "Subtotal:"
+msgstr "Sous-total :"
+
+msgctxt "report:restaurant.order.receipt:"
+msgid "Tax included:"
+msgstr "Taxes incluses :"
+
+msgctxt "report:restaurant.order.receipt:"
+msgid "Thank you!"
+msgstr "Merci !"
+
+msgctxt "report:restaurant.order.receipt:"
+msgid "Tip:"
+msgstr "Pourboire :"
+
+msgctxt "report:restaurant.order.receipt:"
+msgid "Total:"
+msgstr "Total :"
+
+msgctxt "report:restaurant.order.receipt:"
+msgid "x"
+msgstr "x"
+
+msgctxt "report:restaurant.order.split:"
+msgid "Balance:"
+msgstr "Solde :"
+
+msgctxt "report:restaurant.order.split:"
+msgid "Bill"
+msgstr "Addition"
+
+msgctxt "report:restaurant.order.split:"
+msgid "Discount:"
+msgstr "Remise :"
+
+msgctxt "report:restaurant.order.split:"
+msgid "Guest"
+msgstr "Convive"
+
+msgctxt "report:restaurant.order.split:"
+msgid "Paid:"
+msgstr "Payé :"
+
+msgctxt "report:restaurant.order.split:"
+msgid "Service:"
+msgstr "Service :"
+
+msgctxt "report:restaurant.order.split:"
+msgid "Subtotal:"
+msgstr "Sous-total :"
+
+msgctxt "report:restaurant.order.split:"
+msgid "Total:"
+msgstr "Total :"
+
+msgctxt "report:restaurant.order.split:"
+msgid "x"
+msgstr "x"
+
+msgctxt "report:restaurant.order.ticket:"
+msgid "Balance:"
+msgstr "Solde :"
+
+msgctxt "report:restaurant.order.ticket:"
+msgid "Bill"
+msgstr "Addition"
+
+msgctxt "report:restaurant.order.ticket:"
+msgid "Delivery:"
+msgstr "Livraison :"
+
+msgctxt "report:restaurant.order.ticket:"
+msgid "Discount:"
+msgstr "Remise :"
+
+msgctxt "report:restaurant.order.ticket:"
+msgid "Paid:"
+msgstr "Payé :"
+
+msgctxt "report:restaurant.order.ticket:"
+msgid "Service:"
+msgstr "Service :"
+
+msgctxt "report:restaurant.order.ticket:"
+msgid "Subtotal:"
+msgstr "Sous-total :"
+
+msgctxt "report:restaurant.order.ticket:"
+msgid "Tax included:"
+msgstr "Taxes incluses :"
+
+msgctxt "report:restaurant.order.ticket:"
+msgid "Thank you!"
+msgstr "Merci !"
+
+msgctxt "report:restaurant.order.ticket:"
+msgid "Tip:"
+msgstr "Pourboire :"
+
+msgctxt "report:restaurant.order.ticket:"
+msgid "Total:"
+msgstr "Total :"
+
+msgctxt "report:restaurant.order.ticket:"
+msgid "x"
+msgstr "x"
+
+msgctxt "selection:ir.cron,method:"
+msgid "Notify Kitchen and Bar Delays"
+msgstr "Notifier les retards cuisine et bar"
+
+msgctxt "selection:product.template,course:"
+msgid "Dessert"
+msgstr "Dessert"
+
+msgctxt "selection:product.template,course:"
+msgid "Drink"
+msgstr "Boisson"
+
+msgctxt "selection:product.template,course:"
+msgid "Main Course"
+msgstr "Plat principal"
+
+msgctxt "selection:product.template,course:"
+msgid "Other"
+msgstr "Autre"
+
+msgctxt "selection:product.template,course:"
+msgid "Starter"
+msgstr "Entrée"
+
+msgctxt "selection:product.template,prep_station:"
+msgid "Bar"
+msgstr "Bar"
+
+msgctxt "selection:product.template,prep_station:"
+msgid "Kitchen"
+msgstr "Cuisine"
+
+msgctxt "selection:product.template,prep_station:"
+msgid "No Preparation"
+msgstr "Sans préparation"
+
+msgctxt "selection:restaurant.cash.count,kind:"
+msgid "Banknote"
+msgstr "Billet"
+
+msgctxt "selection:restaurant.cash.count,kind:"
+msgid "Coin"
+msgstr "Pièce"
+
+msgctxt "selection:restaurant.cash.count,moment:"
+msgid "Closing"
+msgstr "Fermeture"
+
+msgctxt "selection:restaurant.cash.count,moment:"
+msgid "Opening"
+msgstr "Ouverture"
+
+msgctxt "selection:restaurant.cash.session,state:"
+msgid "Closed"
+msgstr "Fermé"
+
+msgctxt "selection:restaurant.cash.session,state:"
+msgid "Draft"
+msgstr "Brouillon"
+
+msgctxt "selection:restaurant.cash.session,state:"
+msgid "Open"
+msgstr "Ouvert"
+
+msgctxt "selection:restaurant.happy_hour,weekday:"
+msgid "Every day"
+msgstr "Tous les jours"
+
+msgctxt "selection:restaurant.happy_hour,weekday:"
+msgid "Friday"
+msgstr "Vendredi"
+
+msgctxt "selection:restaurant.happy_hour,weekday:"
+msgid "Monday"
+msgstr "Lundi"
+
+msgctxt "selection:restaurant.happy_hour,weekday:"
+msgid "Saturday"
+msgstr "Samedi"
+
+msgctxt "selection:restaurant.happy_hour,weekday:"
+msgid "Sunday"
+msgstr "Dimanche"
+
+msgctxt "selection:restaurant.happy_hour,weekday:"
+msgid "Thursday"
+msgstr "Jeudi"
+
+msgctxt "selection:restaurant.happy_hour,weekday:"
+msgid "Tuesday"
+msgstr "Mardi"
+
+msgctxt "selection:restaurant.happy_hour,weekday:"
+msgid "Wednesday"
+msgstr "Mercredi"
+
+msgctxt "selection:restaurant.menu,weekday:"
+msgid "Every day"
+msgstr "Tous les jours"
+
+msgctxt "selection:restaurant.menu,weekday:"
+msgid "Friday"
+msgstr "Vendredi"
+
+msgctxt "selection:restaurant.menu,weekday:"
+msgid "Monday"
+msgstr "Lundi"
+
+msgctxt "selection:restaurant.menu,weekday:"
+msgid "Saturday"
+msgstr "Samedi"
+
+msgctxt "selection:restaurant.menu,weekday:"
+msgid "Sunday"
+msgstr "Dimanche"
+
+msgctxt "selection:restaurant.menu,weekday:"
+msgid "Thursday"
+msgstr "Jeudi"
+
+msgctxt "selection:restaurant.menu,weekday:"
+msgid "Tuesday"
+msgstr "Mardi"
+
+msgctxt "selection:restaurant.menu,weekday:"
+msgid "Wednesday"
+msgstr "Mercredi"
+
+msgctxt "selection:restaurant.order,delivery_state:"
+msgid "Assigned"
+msgstr "Assignée"
+
+msgctxt "selection:restaurant.order,delivery_state:"
+msgid "Delivered"
+msgstr "Livré"
+
+msgctxt "selection:restaurant.order,delivery_state:"
+msgid "Failed"
+msgstr "Échouée"
+
+msgctxt "selection:restaurant.order,delivery_state:"
+msgid "On the Way"
+msgstr "En route"
+
+msgctxt "selection:restaurant.order,delivery_state:"
+msgid "Pending"
+msgstr "En attente"
+
+msgctxt "selection:restaurant.order,state:"
+msgid "Cancelled"
+msgstr "Annulée"
+
+msgctxt "selection:restaurant.order,state:"
+msgid "Open"
+msgstr "Ouvert"
+
+msgctxt "selection:restaurant.order,state:"
+msgid "Paid"
+msgstr "Payé"
+
+msgctxt "selection:restaurant.order,type:"
+msgid "Bar Tab"
+msgstr "Ardoise du bar"
+
+msgctxt "selection:restaurant.order,type:"
+msgid "Delivery"
+msgstr "Livraison"
+
+msgctxt "selection:restaurant.order,type:"
+msgid "Dine-in"
+msgstr "Sur place"
+
+msgctxt "selection:restaurant.order,type:"
+msgid "Takeaway"
+msgstr "À emporter"
+
+msgctxt "selection:restaurant.order.line,course:"
+msgid "Dessert"
+msgstr "Dessert"
+
+msgctxt "selection:restaurant.order.line,course:"
+msgid "Drink"
+msgstr "Boisson"
+
+msgctxt "selection:restaurant.order.line,course:"
+msgid "Main Course"
+msgstr "Plat principal"
+
+msgctxt "selection:restaurant.order.line,course:"
+msgid "Other"
+msgstr "Autre"
+
+msgctxt "selection:restaurant.order.line,course:"
+msgid "Starter"
+msgstr "Entrée"
+
+msgctxt "selection:restaurant.order.line,delay:"
+msgid "On Time"
+msgstr "Dans les temps"
+
+msgctxt "selection:restaurant.order.line,delay:"
+msgid "Over the Ideal Time"
+msgstr "Au-delà du temps idéal"
+
+msgctxt "selection:restaurant.order.line,delay:"
+msgid "Very Late"
+msgstr "Très en retard"
+
+msgctxt "selection:restaurant.order.line,order_type:"
+msgid "Bar Tab"
+msgstr "Ardoise du bar"
+
+msgctxt "selection:restaurant.order.line,order_type:"
+msgid "Delivery"
+msgstr "Livraison"
+
+msgctxt "selection:restaurant.order.line,order_type:"
+msgid "Dine-in"
+msgstr "Sur place"
+
+msgctxt "selection:restaurant.order.line,order_type:"
+msgid "Takeaway"
+msgstr "À emporter"
+
+msgctxt "selection:restaurant.order.line,state:"
+msgid "Cancelled"
+msgstr "Annulée"
+
+msgctxt "selection:restaurant.order.line,state:"
+msgid "New"
+msgstr "Nouveau"
+
+msgctxt "selection:restaurant.order.line,state:"
+msgid "Preparing"
+msgstr "En préparation"
+
+msgctxt "selection:restaurant.order.line,state:"
+msgid "Ready"
+msgstr "Prêt"
+
+msgctxt "selection:restaurant.order.line,state:"
+msgid "Sent"
+msgstr "Envoyé"
+
+msgctxt "selection:restaurant.order.line,state:"
+msgid "Served"
+msgstr "Servi"
+
+msgctxt "selection:restaurant.order.line,station:"
+msgid "Bar"
+msgstr "Bar"
+
+msgctxt "selection:restaurant.order.line,station:"
+msgid "Kitchen"
+msgstr "Cuisine"
+
+msgctxt "selection:restaurant.order.line,station:"
+msgid "No Preparation"
+msgstr "Sans préparation"
+
+msgctxt "selection:restaurant.payment,method:"
+msgid "Card"
+msgstr "Carte"
+
+msgctxt "selection:restaurant.payment,method:"
+msgid "Cash"
+msgstr "Espèces"
+
+msgctxt "selection:restaurant.payment,method:"
+msgid "Mobile Money"
+msgstr "Argent mobile"
+
+msgctxt "selection:restaurant.payment,method:"
+msgid "On Account"
+msgstr "Sur compte"
+
+msgctxt "selection:restaurant.payment,method:"
+msgid "Voucher"
+msgstr "Bon"
+
+msgctxt "selection:restaurant.report.sales,type:"
+msgid "Bar Tab"
+msgstr "Ardoise du bar"
+
+msgctxt "selection:restaurant.report.sales,type:"
+msgid "Delivery"
+msgstr "Livraison"
+
+msgctxt "selection:restaurant.report.sales,type:"
+msgid "Dine-in"
+msgstr "Sur place"
+
+msgctxt "selection:restaurant.report.sales,type:"
+msgid "Takeaway"
+msgstr "À emporter"
+
+msgctxt "selection:restaurant.reservation,state:"
+msgid "Booked"
+msgstr "Réservé"
+
+msgctxt "selection:restaurant.reservation,state:"
+msgid "Cancelled"
+msgstr "Annulée"
+
+msgctxt "selection:restaurant.reservation,state:"
+msgid "No Show"
+msgstr "Absent"
+
+msgctxt "selection:restaurant.reservation,state:"
+msgid "Seated"
+msgstr "Installé"
+
+msgctxt "selection:restaurant.table,status:"
+msgid "Free"
+msgstr "Libre"
+
+msgctxt "selection:restaurant.table,status:"
+msgid "Occupied"
+msgstr "Occupée"
+
+msgctxt "view:product.template:"
+msgid "Restaurant"
+msgstr "Restaurant"
+
+msgctxt "view:restaurant.cash.session:"
+msgid "Closing"
+msgstr "Fermeture"
+
+msgctxt "view:restaurant.cash.session:"
+msgid "Control"
+msgstr "Contrôle"
+
+msgctxt "view:restaurant.cash.session:"
+msgid "Fill Denominations"
+msgstr "Remplir les coupures"
+
+msgctxt "view:restaurant.cash.session:"
+msgid "Notes"
+msgstr "Notes"
+
+msgctxt "view:restaurant.cash.session:"
+msgid "Opening"
+msgstr "Ouverture"
+
+msgctxt "view:restaurant.cash.session:"
+msgid "Payments"
+msgstr "Paiements"
+
+msgctxt "view:restaurant.dashboard:"
+msgid "Preparation"
+msgstr "Préparation"
+
+msgctxt "view:restaurant.dashboard:"
+msgid "Service"
+msgstr "Service"
+
+msgctxt "view:restaurant.dashboard:"
+msgid "Today"
+msgstr "Aujourd'hui"
+
+msgctxt "view:restaurant.order:"
+msgid "Bill"
+msgstr "Addition"
+
+msgctxt "view:restaurant.order:"
+msgid "Delivery"
+msgstr "Livraison"
+
+msgctxt "view:restaurant.order:"
+msgid "Items"
+msgstr "Articles"
+
+msgctxt "view:restaurant.order:"
+msgid "Notes"
+msgstr "Notes"
+
+msgctxt "view:restaurant.order:"
+msgid "Payments"
+msgstr "Paiements"
+
+msgctxt "view:restaurant.restaurant:"
+msgid "Areas"
+msgstr "Zones"
+
+msgctxt "view:restaurant.restaurant:"
+msgid "Billing"
+msgstr "Facturation"
+
+msgctxt "view:restaurant.restaurant:"
+msgid "Delivery"
+msgstr "Livraison"
+
+msgctxt "view:restaurant.restaurant:"
+msgid "Kitchen and Bar Screens"
+msgstr "Écrans cuisine et bar"
+
+msgctxt "view:restaurant.restaurant:"
+msgid "Menus"
+msgstr "Menus"
+
+msgctxt "view:restaurant.restaurant:"
+msgid "Tables"
+msgstr "Tables"
+
+msgctxt "wizard_button:restaurant.guide,start,end:"
+msgid "Close"
+msgstr "Fermer"
+
+msgctxt "field:restaurant.cash.count,value:"
+msgid "Value"
+msgstr "Valeur"
+
+msgctxt "help:restaurant.cash.count,amount:"
+msgid ""
+"Amount in the currency of the document, without the suspect banknotes and "
+"coins."
+msgstr ""
+"Montant dans la devise du document, sans les billets et pièces suspects."
+
+msgctxt "help:restaurant.cash.count,quantity:"
+msgid "Number of banknotes or coins found in the drawer."
+msgstr "Nombre de billets ou de pièces trouvés dans le tiroir-caisse."
+
+msgctxt "help:restaurant.cash.count,value:"
+msgid "Value of the banknote or coin."
+msgstr "Valeur du billet ou de la pièce."

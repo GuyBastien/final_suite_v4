@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton fuel_station_cash_control module. -->
+<data>
+    <xpath expr="/form/notebook/page[@id='cash']/field[@name='opening_float']" position="after">
+        <group col="-1" colspan="2" id="cash_buttons">
+            <button name="load_denominations" icon="tryton-list-add"/>
+        </group>
+        <field name="cash_counts" colspan="4"/>
+    </xpath>
+</data>

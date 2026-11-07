@@ -1,0 +1,414 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_rates_plus module. -->
+<tryton>
+    <data>
+        <!-- Menu -->
+        <menuitem name="Rates &amp; Revenue" parent="hotel.menu_hotel"
+            id="menu_rates" sequence="45" icon="tryton-hotel-rate"/>
+
+        <!-- Stay Restrictions -->
+        <record model="ir.ui.view" id="restriction_view_form">
+            <field name="model">hotel.rate.restriction</field>
+            <field name="type">form</field>
+            <field name="name">restriction_form</field>
+        </record>
+        <record model="ir.ui.view" id="restriction_view_list">
+            <field name="model">hotel.rate.restriction</field>
+            <field name="type">tree</field>
+            <field name="name">restriction_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_restriction">
+            <field name="name">Stay Restrictions</field>
+            <field name="res_model">hotel.rate.restriction</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_restriction_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="restriction_view_list"/>
+            <field name="act_window" ref="act_restriction"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_restriction_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="restriction_view_form"/>
+            <field name="act_window" ref="act_restriction"/>
+        </record>
+        <menuitem name="Restrictions" parent="menu_rates" action="act_restriction"
+            id="menu_restriction" sequence="10" icon="tryton-hotel-restriction"/>
+        <record model="ir.model.access" id="access_restriction">
+            <field name="model" search="[('model', '=', 'hotel.rate.restriction')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_restriction_hotel">
+            <field name="model" search="[('model', '=', 'hotel.rate.restriction')]"/>
+            <field name="group" ref="hotel.group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_restriction_admin">
+            <field name="model" search="[('model', '=', 'hotel.rate.restriction')]"/>
+            <field name="group" ref="hotel.group_hotel_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_restriction_companies">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'hotel.rate.restriction')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_restriction_companies">
+            <field name="domain"
+                eval="[('hotel.company', 'in', Eval('companies', []))]"
+                pyson="1"/>
+            <field name="rule_group" ref="rule_group_restriction_companies"/>
+        </record>
+
+        <!-- Meal Plans -->
+        <record model="ir.ui.view" id="meal_plan_view_form">
+            <field name="model">hotel.meal.plan</field>
+            <field name="type">form</field>
+            <field name="name">meal_plan_form</field>
+        </record>
+        <record model="ir.ui.view" id="meal_plan_view_list">
+            <field name="model">hotel.meal.plan</field>
+            <field name="type">tree</field>
+            <field name="name">meal_plan_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_meal_plan">
+            <field name="name">Meal Plans</field>
+            <field name="res_model">hotel.meal.plan</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_meal_plan_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="meal_plan_view_list"/>
+            <field name="act_window" ref="act_meal_plan"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_meal_plan_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="meal_plan_view_form"/>
+            <field name="act_window" ref="act_meal_plan"/>
+        </record>
+        <menuitem name="Meal Plans" parent="menu_rates" action="act_meal_plan"
+            id="menu_meal_plan" sequence="20" icon="tryton-hotel-meal"/>
+        <record model="ir.model.access" id="access_meal_plan">
+            <field name="model" search="[('model', '=', 'hotel.meal.plan')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_meal_plan_hotel">
+            <field name="model" search="[('model', '=', 'hotel.meal.plan')]"/>
+            <field name="group" ref="hotel.group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_meal_plan_admin">
+            <field name="model" search="[('model', '=', 'hotel.meal.plan')]"/>
+            <field name="group" ref="hotel.group_hotel_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_meal_plan_companies">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'hotel.meal.plan')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_meal_plan_companies">
+            <field name="domain"
+                eval="[('hotel.company', 'in', Eval('companies', []))]"
+                pyson="1"/>
+            <field name="rule_group" ref="rule_group_meal_plan_companies"/>
+        </record>
+
+        <!-- Occupancy Supplements -->
+        <record model="ir.ui.view" id="supplement_view_form">
+            <field name="model">hotel.rate.supplement</field>
+            <field name="type">form</field>
+            <field name="name">supplement_form</field>
+        </record>
+        <record model="ir.ui.view" id="supplement_view_list">
+            <field name="model">hotel.rate.supplement</field>
+            <field name="type">tree</field>
+            <field name="name">supplement_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_supplement">
+            <field name="name">Occupancy Supplements</field>
+            <field name="res_model">hotel.rate.supplement</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_supplement_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="supplement_view_list"/>
+            <field name="act_window" ref="act_supplement"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_supplement_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="supplement_view_form"/>
+            <field name="act_window" ref="act_supplement"/>
+        </record>
+        <menuitem name="Supplements" parent="menu_rates" action="act_supplement"
+            id="menu_supplement" sequence="30" icon="tryton-hotel-supplement"/>
+        <record model="ir.model.access" id="access_supplement">
+            <field name="model" search="[('model', '=', 'hotel.rate.supplement')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_supplement_hotel">
+            <field name="model" search="[('model', '=', 'hotel.rate.supplement')]"/>
+            <field name="group" ref="hotel.group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_supplement_admin">
+            <field name="model" search="[('model', '=', 'hotel.rate.supplement')]"/>
+            <field name="group" ref="hotel.group_hotel_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_supplement_companies">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'hotel.rate.supplement')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_supplement_companies">
+            <field name="domain"
+                eval="[('room_type.hotel.company', 'in', Eval('companies', []))]"
+                pyson="1"/>
+            <field name="rule_group" ref="rule_group_supplement_companies"/>
+        </record>
+
+        <!-- Rate Contracts -->
+        <record model="ir.ui.view" id="contract_view_form">
+            <field name="model">hotel.rate.contract</field>
+            <field name="type">form</field>
+            <field name="name">contract_form</field>
+        </record>
+        <record model="ir.ui.view" id="contract_view_list">
+            <field name="model">hotel.rate.contract</field>
+            <field name="type">tree</field>
+            <field name="name">contract_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_contract">
+            <field name="name">Rate Contracts</field>
+            <field name="res_model">hotel.rate.contract</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_contract_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="contract_view_list"/>
+            <field name="act_window" ref="act_contract"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_contract_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="contract_view_form"/>
+            <field name="act_window" ref="act_contract"/>
+        </record>
+        <menuitem name="Contracts" parent="menu_rates" action="act_contract"
+            id="menu_contract" sequence="40" icon="tryton-hotel-contract"/>
+        <record model="ir.model.access" id="access_contract">
+            <field name="model" search="[('model', '=', 'hotel.rate.contract')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_contract_hotel">
+            <field name="model" search="[('model', '=', 'hotel.rate.contract')]"/>
+            <field name="group" ref="hotel.group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_contract_admin">
+            <field name="model" search="[('model', '=', 'hotel.rate.contract')]"/>
+            <field name="group" ref="hotel.group_hotel_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_contract_companies">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'hotel.rate.contract')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_contract_companies">
+            <field name="domain"
+                eval="[('hotel.company', 'in', Eval('companies', []))]"
+                pyson="1"/>
+            <field name="rule_group" ref="rule_group_contract_companies"/>
+        </record>
+
+        <!-- Pricing Rules -->
+        <record model="ir.ui.view" id="pricing_rule_view_form">
+            <field name="model">hotel.pricing.rule</field>
+            <field name="type">form</field>
+            <field name="name">pricing_rule_form</field>
+        </record>
+        <record model="ir.ui.view" id="pricing_rule_view_list">
+            <field name="model">hotel.pricing.rule</field>
+            <field name="type">tree</field>
+            <field name="name">pricing_rule_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_pricing_rule">
+            <field name="name">Pricing Rules</field>
+            <field name="res_model">hotel.pricing.rule</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_pricing_rule_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="pricing_rule_view_list"/>
+            <field name="act_window" ref="act_pricing_rule"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_pricing_rule_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="pricing_rule_view_form"/>
+            <field name="act_window" ref="act_pricing_rule"/>
+        </record>
+        <menuitem name="Pricing Rules" parent="menu_rates" action="act_pricing_rule"
+            id="menu_pricing_rule" sequence="50" icon="tryton-hotel-pricing"/>
+        <record model="ir.model.access" id="access_pricing_rule">
+            <field name="model" search="[('model', '=', 'hotel.pricing.rule')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_pricing_rule_hotel">
+            <field name="model" search="[('model', '=', 'hotel.pricing.rule')]"/>
+            <field name="group" ref="hotel.group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_pricing_rule_admin">
+            <field name="model" search="[('model', '=', 'hotel.pricing.rule')]"/>
+            <field name="group" ref="hotel.group_hotel_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_pricing_rule_companies">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'hotel.pricing.rule')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_pricing_rule_companies">
+            <field name="domain"
+                eval="[('hotel.company', 'in', Eval('companies', []))]"
+                pyson="1"/>
+            <field name="rule_group" ref="rule_group_pricing_rule_companies"/>
+        </record>
+
+        <!-- Revenue KPIs -->
+        <record model="ir.ui.view" id="kpi_view_form">
+            <field name="model">hotel.revenue.kpi</field>
+            <field name="type">form</field>
+            <field name="name">kpi_form</field>
+        </record>
+        <record model="ir.ui.view" id="kpi_view_list">
+            <field name="model">hotel.revenue.kpi</field>
+            <field name="type">tree</field>
+            <field name="name">kpi_list</field>
+        </record>
+        <record model="ir.ui.view" id="kpi_view_graph">
+            <field name="model">hotel.revenue.kpi</field>
+            <field name="type">graph</field>
+            <field name="name">kpi_graph</field>
+        </record>
+        <record model="ir.action.act_window" id="act_kpi">
+            <field name="name">Revenue Indicators</field>
+            <field name="res_model">hotel.revenue.kpi</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_kpi_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="kpi_view_list"/>
+            <field name="act_window" ref="act_kpi"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_kpi_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="kpi_view_form"/>
+            <field name="act_window" ref="act_kpi"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_kpi_view3">
+            <field name="sequence" eval="30"/>
+            <field name="view" ref="kpi_view_graph"/>
+            <field name="act_window" ref="act_kpi"/>
+        </record>
+        <menuitem name="Revenue Indicators" parent="menu_rates"
+            action="act_kpi" id="menu_kpi" sequence="60"
+            icon="tryton-hotel-kpi"/>
+        <record model="ir.model.access" id="access_kpi">
+            <field name="model" search="[('model', '=', 'hotel.revenue.kpi')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_kpi_hotel">
+            <field name="model" search="[('model', '=', 'hotel.revenue.kpi')]"/>
+            <field name="group" ref="hotel.group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_kpi_companies">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'hotel.revenue.kpi')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_kpi_companies">
+            <field name="domain"
+                eval="[('company', 'in', Eval('companies', []))]"
+                pyson="1"/>
+            <field name="rule_group" ref="rule_group_kpi_companies"/>
+        </record>
+
+        <!-- Hotel and reservation extensions -->
+        <record model="ir.ui.view" id="hotel_view_form">
+            <field name="model">hotel.hotel</field>
+            <field name="inherit" ref="hotel.hotel_view_form"/>
+            <field name="name">hotel_form</field>
+        </record>
+        <record model="ir.ui.view" id="reservation_view_form">
+            <field name="model">hotel.reservation</field>
+            <field name="inherit" ref="hotel_pms.reservation_view_form"/>
+            <field name="name">reservation_form</field>
+        </record>
+        <record model="ir.model.button" id="reservation_add_meal_plan_button">
+            <field name="model" search="[('model', '=', 'hotel.reservation')]"/>
+            <field name="name">add_meal_plan</field>
+            <field name="string">Add Meals</field>
+        </record>
+        <record model="ir.model.button-res.group" id="reservation_add_meal_plan_button_group_hotel">
+            <field name="button" ref="reservation_add_meal_plan_button"/>
+            <field name="group" ref="hotel.group_hotel"/>
+        </record>
+        <record model="ir.model.button" id="reservation_add_supplements_button">
+            <field name="model" search="[('model', '=', 'hotel.reservation')]"/>
+            <field name="name">add_supplements</field>
+            <field name="string">Add Supplements</field>
+        </record>
+        <record model="ir.model.button-res.group" id="reservation_add_supplements_button_group_hotel">
+            <field name="button" ref="reservation_add_supplements_button"/>
+            <field name="group" ref="hotel.group_hotel"/>
+        </record>
+    </data>
+</tryton>

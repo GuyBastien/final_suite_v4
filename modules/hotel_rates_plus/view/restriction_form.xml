@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_rates_plus module. -->
+<form>
+    <label name="hotel"/>
+    <field name="hotel"/>
+    <label name="room_type"/>
+    <field name="room_type"/>
+    <label name="start_date"/>
+    <field name="start_date"/>
+    <label name="end_date"/>
+    <field name="end_date"/>
+    <label name="min_stay"/>
+    <field name="min_stay"/>
+    <label name="max_stay"/>
+    <field name="max_stay"/>
+    <label name="closed"/>
+    <field name="closed"/>
+    <label name="closed_to_arrival"/>
+    <field name="closed_to_arrival"/>
+    <label name="closed_to_departure"/>
+    <field name="closed_to_departure"/>
+    <label name="active"/>
+    <field name="active"/>
+</form>

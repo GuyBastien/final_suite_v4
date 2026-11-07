@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_channel_manager module. -->
+<tree>
+    <field name="channel"/>
+    <field name="mapping"/>
+    <field name="summary"/>
+    <!-- DateTime: <field name="start"/> -->
+    <!-- DateTime: <field name="end"/> -->
+    <field name="reservation"/>
+    <field name="state"/>
+</tree>

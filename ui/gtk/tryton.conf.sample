@@ -1,0 +1,5 @@
+; À ajouter dans ~/.config/tryton/7.0/tryton.conf
+; Couleurs des lignes de liste (dans l'ordre : muted, success, warning, danger).
+; Le fond coloré est appliqué pour success/warning/danger, le texte pour muted.
+[tree]
+colors = #6b7280,#d9f0e3,#fff1cc,#fbdcdc

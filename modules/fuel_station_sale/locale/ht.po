@@ -1,0 +1,34 @@
+#
+msgid ""
+msgstr ""
+"Language: ht\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:fuel.authorization,sale:"
+msgid "Sale"
+msgstr "Vant"
+
+msgctxt "field:fuel.station,sale_party:"
+msgid "Default Customer"
+msgstr "Kliyan pa defo"
+
+msgctxt "help:fuel.authorization,sale:"
+msgid "Sale generated from this record."
+msgstr "Vant done sa a jenere."
+
+msgctxt "help:fuel.station,sale_party:"
+msgid ""
+"Customer of the sales created for authorizations without customer (walk-in "
+"customers)."
+msgstr ""
+"Kliyan vant yo kreye pou otorizasyon ki pa gen kliyan (kliyan ki pase)."
+
+msgctxt "model:ir.message,text:msg_no_sale"
+msgid ""
+"No customer on the authorization or on the station: no sale was created."
+msgstr ""
+"Pa gen kliyan sou otorizasyon an ni sou estasyon an : pa kreye okenn vant."
+
+msgctxt "model:ir.message,text:msg_sale_created"
+msgid "Sale %(sale)s created."
+msgstr "Vant %(sale)s kreye."

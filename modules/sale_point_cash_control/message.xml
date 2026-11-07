@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton sale_point_cash_control module. -->
+<tryton>
+    <data grouped="1">
+        <record model="ir.message" id="msg_denomination_unique">
+            <field name="text">The value of a banknote or coin must be unique per company and kind.</field>
+        </record>
+        <record model="ir.message" id="msg_count_unique">
+            <field name="text">A denomination can only be counted once per session and moment.</field>
+        </record>
+        <record model="ir.message" id="msg_count_suspect">
+            <field name="text">The suspect quantity cannot be greater than the counted quantity.</field>
+        </record>
+        <record model="ir.message" id="msg_closing_difference">
+            <field name="text">The closing count of session "%(session)s" differs from the expected amount by %(difference)s. Close anyway? The difference will be recorded as a cash transfer.</field>
+        </record>
+        <record model="ir.message" id="msg_count_session_closed">
+            <field name="text">The count of session "%(session)s" can no longer be changed because the session is not open.</field>
+        </record>
+        <record model="ir.message" id="msg_count_missing">
+            <field name="text">Count the banknotes and coins of session "%(session)s" before closing it.</field>
+        </record>
+        <record model="ir.message" id="msg_difference_type">
+            <field name="text">Select a difference type on point "%(point)s" to record a cash shortage or overage.</field>
+        </record>
+        <record model="ir.message" id="msg_opening_difference">
+            <field name="text">The opening count of session "%(session)s" differs from the amount left by the previous session by %(difference)s. Close it anyway?</field>
+        </record>
+    </data>
+</tryton>

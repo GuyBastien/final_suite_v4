@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton fuel_station_cash_control module. -->
+<tryton>
+    <data grouped="1">
+        <record model="ir.message" id="msg_cash_count_unique">
+            <field name="text">A denomination can only be counted once per shift.</field>
+        </record>
+        <record model="ir.message" id="msg_cash_count_suspect">
+            <field name="text">The suspect quantity cannot exceed the counted quantity.</field>
+        </record>
+        <record model="ir.message" id="msg_cash_count_company">
+            <field name="text">The denomination "%(denomination)s" does not belong to the company of the shift.</field>
+        </record>
+        <record model="ir.message" id="msg_shift_cash_count_required">
+            <field name="text">The cash of shift "%(shift)s" must be counted before it is closed.</field>
+        </record>
+        <record model="ir.message" id="msg_shift_suspect_cash">
+            <field name="text">Shift "%(shift)s": suspect banknotes or coins for %(amount)s were set aside. Close the shift anyway?</field>
+        </record>
+        <record model="ir.message" id="msg_shift_cash_count_difference">
+            <field name="text">Shift "%(shift)s": the counted cash differs from the cash payments by %(difference)s. Close the shift anyway?</field>
+        </record>
+        <record model="ir.message" id="msg_shift_no_denomination">
+            <field name="text">No denomination is defined for the company "%(company)s". Create them in Sales > Denominations.</field>
+        </record>
+    </data>
+</tryton>

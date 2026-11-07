@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton fuel_station module. -->
+<data>
+    <xpath expr="/form/notebook/page[@id='general']" position="after">
+        <page string="Fuel Station" id="fuel">
+            <label name="fuel"/>
+            <field name="fuel"/>
+            <label name="fuel_family"/>
+            <field name="fuel_family"/>
+            <label name="fuel_density"/>
+            <field name="fuel_density"/>
+        </page>
+    </xpath>
+</data>

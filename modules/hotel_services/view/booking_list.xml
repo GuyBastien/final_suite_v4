@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_services module. -->
+<tree>
+    <field name="number"/>
+    <field name="hotel"/>
+    <field name="service"/>
+    <field name="resource"/>
+    <field name="party"/>
+    <field name="date"/>
+    <field name="start_time"/>
+    <field optional="1" name="participants"/>
+    <field optional="1" name="amount"/>
+    <field optional="1" name="state"/>
+</tree>

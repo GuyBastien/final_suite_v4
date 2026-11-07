@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_services module. -->
+<form>
+    <label name="hotel"/>
+    <field name="hotel"/>
+    <label name="table"/>
+    <field name="table"/>
+    <label name="date"/>
+    <field name="date"/>
+    <label name="time"/>
+    <field name="time"/>
+    <label name="duration"/>
+    <field name="duration"/>
+    <label name="covers"/>
+    <field name="covers"/>
+    <label name="party"/>
+    <field name="party"/>
+    <label name="guest_name"/>
+    <field name="guest_name"/>
+    <label name="reservation"/>
+    <field name="reservation"/>
+    <label name="state"/>
+    <field name="state"/>
+    <field name="notes" colspan="4"/>
+    <group col="8" colspan="4" id="buttons">
+        <button name="seat" icon="tryton-forward"/>
+        <button name="finish" icon="tryton-ok"/>
+        <button name="cancel" icon="tryton-cancel"/>
+        <button name="no_show" icon="tryton-hotel-departure"/>
+    </group>
+</form>

@@ -1,0 +1,2924 @@
+#
+msgid ""
+msgstr ""
+"Language: fr\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:fuel.authorization,approved_at:"
+msgid "Approved at"
+msgstr "Validée le"
+
+msgctxt "field:fuel.authorization,approved_by:"
+msgid "Approved by"
+msgstr "Validée par"
+
+msgctxt "field:fuel.authorization,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:fuel.authorization,controller_ref:"
+msgid "Controller Reference"
+msgstr "Référence du contrôleur"
+
+msgctxt "field:fuel.authorization,currency:"
+msgid "Currency"
+msgstr "Devise"
+
+msgctxt "field:fuel.authorization,dispensed_amount:"
+msgid "Dispensed Amount"
+msgstr "Montant distribué"
+
+msgctxt "field:fuel.authorization,dispensed_quantity:"
+msgid "Dispensed Quantity"
+msgstr "Quantité distribuée"
+
+msgctxt "field:fuel.authorization,expires_at:"
+msgid "Expires at"
+msgstr "Expire le"
+
+msgctxt "field:fuel.authorization,limit_type:"
+msgid "Limit"
+msgstr "Limite"
+
+msgctxt "field:fuel.authorization,logs:"
+msgid "Audit Log"
+msgstr "Journal d'audit"
+
+msgctxt "field:fuel.authorization,max_amount:"
+msgid "Maximum Amount"
+msgstr "Montant maximal"
+
+msgctxt "field:fuel.authorization,max_quantity:"
+msgid "Maximum Quantity"
+msgstr "Quantité maximale"
+
+msgctxt "field:fuel.authorization,move:"
+msgid "Stock Move"
+msgstr "Mouvement de stock"
+
+msgctxt "field:fuel.authorization,notes:"
+msgid "Notes"
+msgstr "Notes"
+
+msgctxt "field:fuel.authorization,nozzle:"
+msgid "Nozzle"
+msgstr "Pistolet"
+
+msgctxt "field:fuel.authorization,number:"
+msgid "Number"
+msgstr "Numéro"
+
+msgctxt "field:fuel.authorization,party:"
+msgid "Customer"
+msgstr "Client"
+
+msgctxt "field:fuel.authorization,product:"
+msgid "Fuel"
+msgstr "Carburant"
+
+msgctxt "field:fuel.authorization,pump:"
+msgid "Pump"
+msgstr "Pompe"
+
+msgctxt "field:fuel.authorization,requested_at:"
+msgid "Requested at"
+msgstr "Demandée le"
+
+msgctxt "field:fuel.authorization,requested_by:"
+msgid "Requested by"
+msgstr "Demandée par"
+
+msgctxt "field:fuel.authorization,shift:"
+msgid "Shift"
+msgstr "Quart"
+
+msgctxt "field:fuel.authorization,state:"
+msgid "State"
+msgstr "État"
+
+msgctxt "field:fuel.authorization,station:"
+msgid "Station"
+msgstr "Station"
+
+msgctxt "field:fuel.authorization,transaction_ref:"
+msgid "Transaction Reference"
+msgstr "Référence de transaction"
+
+msgctxt "field:fuel.authorization,unit:"
+msgid "Unit"
+msgstr "Unité"
+
+msgctxt "field:fuel.authorization,unit_price:"
+msgid "Unit Price"
+msgstr "Prix unitaire"
+
+msgctxt "field:fuel.authorization,vehicle:"
+msgid "Vehicle"
+msgstr "Véhicule"
+
+msgctxt "field:fuel.authorization.log,authorization:"
+msgid "Authorization"
+msgstr "Autorisation"
+
+msgctxt "field:fuel.authorization.log,event:"
+msgid "Event"
+msgstr "Événement"
+
+msgctxt "field:fuel.authorization.log,note:"
+msgid "Note"
+msgstr "Note"
+
+msgctxt "field:fuel.authorization.log,state:"
+msgid "State"
+msgstr "État"
+
+msgctxt "field:fuel.authorization.log,timestamp:"
+msgid "Date and Time"
+msgstr "Date et heure"
+
+msgctxt "field:fuel.authorization.log,user:"
+msgid "User"
+msgstr "Utilisateur"
+
+msgctxt "field:fuel.dashboard,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:fuel.dashboard,deliveries_month:"
+msgid "Delivered This Month"
+msgstr "Livré ce mois-ci"
+
+msgctxt "field:fuel.dashboard,low_tanks:"
+msgid "Low Tanks"
+msgstr "Cuves basses"
+
+msgctxt "field:fuel.dashboard,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:fuel.dashboard,open_shifts:"
+msgid "Open Shifts"
+msgstr "Quarts ouverts"
+
+msgctxt "field:fuel.dashboard,quantity_today:"
+msgid "Gallons Today"
+msgstr "Gallons aujourd'hui"
+
+msgctxt "field:fuel.dashboard,sales_today:"
+msgid "Sales Today"
+msgstr "Ventes du jour"
+
+msgctxt "field:fuel.dashboard,station:"
+msgid "Station"
+msgstr "Station"
+
+msgctxt "field:fuel.dashboard,tanks:"
+msgid "Tanks"
+msgstr "Cuves"
+
+msgctxt "field:fuel.delivery,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:fuel.delivery,date:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "field:fuel.delivery,driver:"
+msgid "Driver / Truck"
+msgstr "Chauffeur / Camion"
+
+msgctxt "field:fuel.delivery,lines:"
+msgid "Lines"
+msgstr "Lignes"
+
+msgctxt "field:fuel.delivery,notes:"
+msgid "Notes"
+msgstr "Notes"
+
+msgctxt "field:fuel.delivery,number:"
+msgid "Number"
+msgstr "Numéro"
+
+msgctxt "field:fuel.delivery,reference:"
+msgid "Delivery Note"
+msgstr "Bon de livraison"
+
+msgctxt "field:fuel.delivery,state:"
+msgid "State"
+msgstr "État"
+
+msgctxt "field:fuel.delivery,station:"
+msgid "Station"
+msgstr "Station"
+
+msgctxt "field:fuel.delivery,supplier:"
+msgid "Supplier"
+msgstr "Fournisseur"
+
+msgctxt "field:fuel.delivery,total_quantity:"
+msgid "Total Quantity"
+msgstr "Quantité totale"
+
+msgctxt "field:fuel.delivery.line,delivery:"
+msgid "Delivery"
+msgstr "Livraison"
+
+msgctxt "field:fuel.delivery.line,density:"
+msgid "Density"
+msgstr "Densité"
+
+msgctxt "field:fuel.delivery.line,move:"
+msgid "Stock Move"
+msgstr "Mouvement de stock"
+
+msgctxt "field:fuel.delivery.line,net_quantity:"
+msgid "Quantity at 15 °C"
+msgstr "Quantité à 15 °C"
+
+msgctxt "field:fuel.delivery.line,ordered_quantity:"
+msgid "Delivery Note Quantity"
+msgstr "Quantité du bon de livraison"
+
+msgctxt "field:fuel.delivery.line,product:"
+msgid "Fuel"
+msgstr "Carburant"
+
+msgctxt "field:fuel.delivery.line,quantity:"
+msgid "Received Quantity"
+msgstr "Quantité reçue"
+
+msgctxt "field:fuel.delivery.line,tank:"
+msgid "Tank"
+msgstr "Cuve"
+
+msgctxt "field:fuel.delivery.line,temperature:"
+msgid "Temperature (°C)"
+msgstr "Température (°C)"
+
+msgctxt "field:fuel.delivery.line,unit:"
+msgid "Unit"
+msgstr "Unité"
+
+msgctxt "field:fuel.delivery.line,unit_cost:"
+msgid "Unit Cost"
+msgstr "Coût unitaire"
+
+msgctxt "field:fuel.delivery.line,vcf:"
+msgid "Correction Factor"
+msgstr "Facteur de correction"
+
+msgctxt "field:fuel.dip,adjust:"
+msgid "Adjust Stock"
+msgstr "Ajuster le stock"
+
+msgctxt "field:fuel.dip,book_quantity:"
+msgid "Book Quantity"
+msgstr "Quantité comptable"
+
+msgctxt "field:fuel.dip,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:fuel.dip,date:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "field:fuel.dip,measured_quantity:"
+msgid "Measured Quantity"
+msgstr "Quantité mesurée"
+
+msgctxt "field:fuel.dip,move:"
+msgid "Stock Move"
+msgstr "Mouvement de stock"
+
+msgctxt "field:fuel.dip,net_quantity:"
+msgid "Quantity at 15 °C"
+msgstr "Quantité à 15 °C"
+
+msgctxt "field:fuel.dip,notes:"
+msgid "Notes"
+msgstr "Notes"
+
+msgctxt "field:fuel.dip,number:"
+msgid "Number"
+msgstr "Numéro"
+
+msgctxt "field:fuel.dip,state:"
+msgid "State"
+msgstr "État"
+
+msgctxt "field:fuel.dip,station:"
+msgid "Station"
+msgstr "Station"
+
+msgctxt "field:fuel.dip,tank:"
+msgid "Tank"
+msgstr "Cuve"
+
+msgctxt "field:fuel.dip,temperature:"
+msgid "Temperature (°C)"
+msgstr "Température (°C)"
+
+msgctxt "field:fuel.dip,unit:"
+msgid "Unit"
+msgstr "Unité"
+
+msgctxt "field:fuel.dip,variance:"
+msgid "Variance"
+msgstr "Écart"
+
+msgctxt "field:fuel.dip,variance_percent:"
+msgid "Variance (%)"
+msgstr "Écart (%)"
+
+msgctxt "field:fuel.guide.start,content:"
+msgid "Guide"
+msgstr "Guide"
+
+msgctxt "field:fuel.meter.reading,index:"
+msgid "Index"
+msgstr "Index"
+
+msgctxt "field:fuel.meter.reading,nozzle:"
+msgid "Nozzle"
+msgstr "Pistolet"
+
+msgctxt "field:fuel.meter.reading,source:"
+msgid "Source"
+msgstr "Source"
+
+msgctxt "field:fuel.meter.reading,station:"
+msgid "Station"
+msgstr "Station"
+
+msgctxt "field:fuel.meter.reading,timestamp:"
+msgid "Date and Time"
+msgstr "Date et heure"
+
+msgctxt "field:fuel.meter.reading.import.start,file:"
+msgid "File"
+msgstr "Fichier"
+
+msgctxt "field:fuel.nozzle,meter_index:"
+msgid "Meter Index"
+msgstr "Index du compteur"
+
+msgctxt "field:fuel.nozzle,number:"
+msgid "Number"
+msgstr "Numéro"
+
+msgctxt "field:fuel.nozzle,product:"
+msgid "Fuel"
+msgstr "Carburant"
+
+msgctxt "field:fuel.nozzle,pump:"
+msgid "Pump"
+msgstr "Pompe"
+
+msgctxt "field:fuel.nozzle,station:"
+msgid "Station"
+msgstr "Station"
+
+msgctxt "field:fuel.nozzle,tank:"
+msgid "Tank"
+msgstr "Cuve"
+
+msgctxt "field:fuel.price,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:fuel.price,currency:"
+msgid "Currency"
+msgstr "Devise"
+
+msgctxt "field:fuel.price,date:"
+msgid "Effective Date"
+msgstr "Date d'effet"
+
+msgctxt "field:fuel.price,price:"
+msgid "Price"
+msgstr "Prix"
+
+msgctxt "field:fuel.price,product:"
+msgid "Fuel"
+msgstr "Carburant"
+
+msgctxt "field:fuel.price,station:"
+msgid "Station"
+msgstr "Station"
+
+msgctxt "field:fuel.pump,code:"
+msgid "Code"
+msgstr "Code"
+
+msgctxt "field:fuel.pump,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:fuel.pump,nozzles:"
+msgid "Nozzles"
+msgstr "Pistolets"
+
+msgctxt "field:fuel.pump,station:"
+msgid "Station"
+msgstr "Station"
+
+msgctxt "field:fuel.report.sales,amount:"
+msgid "Sales"
+msgstr "Ventes"
+
+msgctxt "field:fuel.report.sales,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:fuel.report.sales,date:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "field:fuel.report.sales,product:"
+msgid "Fuel"
+msgstr "Carburant"
+
+msgctxt "field:fuel.report.sales,quantity:"
+msgid "Gallons Sold"
+msgstr "Gallons vendus"
+
+msgctxt "field:fuel.report.sales,station:"
+msgid "Station"
+msgstr "Station"
+
+msgctxt "field:fuel.shift,attendant:"
+msgid "Attendant"
+msgstr "Pompiste"
+
+msgctxt "field:fuel.shift,authorized_total:"
+msgid "Authorized Sales"
+msgstr "Ventes autorisées"
+
+msgctxt "field:fuel.shift,cash_counted:"
+msgid "Cash Counted"
+msgstr "Caisse comptée"
+
+msgctxt "field:fuel.shift,cash_difference:"
+msgid "Cash Difference"
+msgstr "Écart de caisse"
+
+msgctxt "field:fuel.shift,cash_expected:"
+msgid "Cash Expected"
+msgstr "Espèces attendues"
+
+msgctxt "field:fuel.shift,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:fuel.shift,currency:"
+msgid "Currency"
+msgstr "Devise"
+
+msgctxt "field:fuel.shift,date:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "field:fuel.shift,difference:"
+msgid "Difference"
+msgstr "Différence"
+
+msgctxt "field:fuel.shift,end_time:"
+msgid "End"
+msgstr "Fin"
+
+msgctxt "field:fuel.shift,fuel_sales:"
+msgid "Fuel Sales"
+msgstr "Ventes de carburant"
+
+msgctxt "field:fuel.shift,lines:"
+msgid "Pump Readings"
+msgstr "Relevés des pistolets"
+
+msgctxt "field:fuel.shift,long_notified:"
+msgid "Long Shift Notified"
+msgstr "Poste long notifié"
+
+msgctxt "field:fuel.shift,notes:"
+msgid "Notes"
+msgstr "Notes"
+
+msgctxt "field:fuel.shift,number:"
+msgid "Number"
+msgstr "Numéro"
+
+msgctxt "field:fuel.shift,opening_float:"
+msgid "Opening Float"
+msgstr "Fonds de caisse"
+
+msgctxt "field:fuel.shift,payments:"
+msgid "Payments"
+msgstr "Paiements"
+
+msgctxt "field:fuel.shift,shop_sales:"
+msgid "Shop Sales"
+msgstr "Ventes boutique"
+
+msgctxt "field:fuel.shift,shop_total:"
+msgid "Shop Sales"
+msgstr "Ventes boutique"
+
+msgctxt "field:fuel.shift,start_time:"
+msgid "Start"
+msgstr "Début"
+
+msgctxt "field:fuel.shift,state:"
+msgid "State"
+msgstr "État"
+
+msgctxt "field:fuel.shift,station:"
+msgid "Station"
+msgstr "Station"
+
+msgctxt "field:fuel.shift,suspect_total:"
+msgid "Suspect Cash"
+msgstr "Espèces suspectes"
+
+msgctxt "field:fuel.shift,total_paid:"
+msgid "Collected"
+msgstr "Encaissé"
+
+msgctxt "field:fuel.shift,total_quantity:"
+msgid "Gallons Sold"
+msgstr "Gallons vendus"
+
+msgctxt "field:fuel.shift,total_sales:"
+msgid "Sales"
+msgstr "Ventes"
+
+msgctxt "field:fuel.shift.line,amount:"
+msgid "Amount"
+msgstr "Montant"
+
+msgctxt "field:fuel.shift.line,closing_index:"
+msgid "Closing Index"
+msgstr "Index de fermeture"
+
+msgctxt "field:fuel.shift.line,currency:"
+msgid "Currency"
+msgstr "Devise"
+
+msgctxt "field:fuel.shift.line,move:"
+msgid "Stock Move"
+msgstr "Mouvement de stock"
+
+msgctxt "field:fuel.shift.line,nozzle:"
+msgid "Nozzle"
+msgstr "Pistolet"
+
+msgctxt "field:fuel.shift.line,opening_index:"
+msgid "Opening Index"
+msgstr "Index d'ouverture"
+
+msgctxt "field:fuel.shift.line,product:"
+msgid "Fuel"
+msgstr "Carburant"
+
+msgctxt "field:fuel.shift.line,quantity:"
+msgid "Gallons Sold"
+msgstr "Gallons vendus"
+
+msgctxt "field:fuel.shift.line,shift:"
+msgid "Shift"
+msgstr "Quart"
+
+msgctxt "field:fuel.shift.line,test_quantity:"
+msgid "Test Quantity"
+msgstr "Quantité d'essai"
+
+msgctxt "field:fuel.shift.line,unit:"
+msgid "Unit"
+msgstr "Unité"
+
+msgctxt "field:fuel.shift.line,unit_price:"
+msgid "Unit Price"
+msgstr "Prix unitaire"
+
+msgctxt "field:fuel.shift.payment,amount:"
+msgid "Amount"
+msgstr "Montant"
+
+msgctxt "field:fuel.shift.payment,currency:"
+msgid "Currency"
+msgstr "Devise"
+
+msgctxt "field:fuel.shift.payment,method:"
+msgid "Method"
+msgstr "Mode"
+
+msgctxt "field:fuel.shift.payment,party:"
+msgid "Customer"
+msgstr "Client"
+
+msgctxt "field:fuel.shift.payment,reference:"
+msgid "Reference"
+msgstr "Référence"
+
+msgctxt "field:fuel.shift.payment,shift:"
+msgid "Shift"
+msgstr "Quart"
+
+msgctxt "field:fuel.shift.payment,shift_company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:fuel.shift.sale,amount:"
+msgid "Amount"
+msgstr "Montant"
+
+msgctxt "field:fuel.shift.sale,currency:"
+msgid "Currency"
+msgstr "Devise"
+
+msgctxt "field:fuel.shift.sale,move:"
+msgid "Stock Move"
+msgstr "Mouvement de stock"
+
+msgctxt "field:fuel.shift.sale,product:"
+msgid "Product"
+msgstr "Produit"
+
+msgctxt "field:fuel.shift.sale,quantity:"
+msgid "Quantity"
+msgstr "Quantité"
+
+msgctxt "field:fuel.shift.sale,shift:"
+msgid "Shift"
+msgstr "Quart"
+
+msgctxt "field:fuel.shift.sale,unit:"
+msgid "Unit"
+msgstr "Unité"
+
+msgctxt "field:fuel.shift.sale,unit_price:"
+msgid "Unit Price"
+msgstr "Prix unitaire"
+
+msgctxt "field:fuel.station,authorization_control:"
+msgid "Authorization Control"
+msgstr "Contrôle des autorisations"
+
+msgctxt "field:fuel.station,authorization_ttl:"
+msgid "Authorization Validity (min)"
+msgstr "Validité de l'autorisation (min)"
+
+msgctxt "field:fuel.station,cash_tolerance:"
+msgid "Cash Tolerance"
+msgstr "Tolérance de caisse"
+
+msgctxt "field:fuel.station,code:"
+msgid "Code"
+msgstr "Code"
+
+msgctxt "field:fuel.station,communication_blocked:"
+msgid "Block Communication"
+msgstr "Bloquer la communication"
+
+msgctxt "field:fuel.station,communication_ok:"
+msgid "Communication OK"
+msgstr "Communication OK"
+
+msgctxt "field:fuel.station,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:fuel.station,currency:"
+msgid "Currency"
+msgstr "Devise"
+
+msgctxt "field:fuel.station,dip_tolerance:"
+msgid "Dip Tolerance (%)"
+msgstr "Tolérance de jaugeage (%)"
+
+msgctxt "field:fuel.station,heartbeat_timeout:"
+msgid "Communication Timeout (s)"
+msgstr "Délai de communication (s)"
+
+msgctxt "field:fuel.station,last_heartbeat:"
+msgid "Last Middleware Signal"
+msgstr "Dernier signal du middleware"
+
+msgctxt "field:fuel.station,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:fuel.station,party:"
+msgid "Contact"
+msgstr "Contact"
+
+msgctxt "field:fuel.station,pumps:"
+msgid "Pumps"
+msgstr "Pompes"
+
+msgctxt "field:fuel.station,shift_max_hours:"
+msgid "Maximum Shift Length (h)"
+msgstr "Durée maximale d'un poste (h)"
+
+msgctxt "field:fuel.station,tanks:"
+msgid "Tanks"
+msgstr "Cuves"
+
+msgctxt "field:fuel.station,temperature_correction:"
+msgid "Book at 15 °C"
+msgstr "Comptabiliser à 15 °C"
+
+msgctxt "field:fuel.station,warehouse:"
+msgid "Warehouse"
+msgstr "Entrepôt"
+
+msgctxt "field:fuel.tank,capacity:"
+msgid "Capacity"
+msgstr "Capacité"
+
+msgctxt "field:fuel.tank,code:"
+msgid "Code"
+msgstr "Code"
+
+msgctxt "field:fuel.tank,fill_ratio:"
+msgid "Filling"
+msgstr "Remplissage"
+
+msgctxt "field:fuel.tank,free_space:"
+msgid "Free Space"
+msgstr "Espace libre"
+
+msgctxt "field:fuel.tank,location:"
+msgid "Stock Location"
+msgstr "Emplacement de stock"
+
+msgctxt "field:fuel.tank,low:"
+msgid "Low"
+msgstr "Bas"
+
+msgctxt "field:fuel.tank,low_notified:"
+msgid "Low Level Notified"
+msgstr "Niveau bas notifié"
+
+msgctxt "field:fuel.tank,min_level:"
+msgid "Minimum Level"
+msgstr "Niveau minimum"
+
+msgctxt "field:fuel.tank,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:fuel.tank,product:"
+msgid "Fuel"
+msgstr "Carburant"
+
+msgctxt "field:fuel.tank,quantity:"
+msgid "Quantity"
+msgstr "Quantité"
+
+msgctxt "field:fuel.tank,station:"
+msgid "Station"
+msgstr "Station"
+
+msgctxt "field:fuel.tank,unit:"
+msgid "Unit"
+msgstr "Unité"
+
+msgctxt "field:product.template,fuel:"
+msgid "Fuel"
+msgstr "Carburant"
+
+msgctxt "field:product.template,fuel_density:"
+msgid "Density at 15 °C"
+msgstr "Densité à 15 °C"
+
+msgctxt "field:product.template,fuel_family:"
+msgid "Fuel Family"
+msgstr "Famille de carburant"
+
+msgctxt "help:fuel.authorization,approved_at:"
+msgid "Date and time of the approval."
+msgstr "Date et heure de l'approbation."
+
+msgctxt "help:fuel.authorization,approved_by:"
+msgid "User who approved the request."
+msgstr "Utilisateur qui a approuvé la demande."
+
+msgctxt "help:fuel.authorization,company:"
+msgid "Company that owns the record."
+msgstr "Société propriétaire de l'enregistrement."
+
+msgctxt "help:fuel.authorization,controller_ref:"
+msgid "Reference given by the pump controller for this authorization."
+msgstr "Référence donnée par le contrôleur de pompe pour cette autorisation."
+
+msgctxt "help:fuel.authorization,currency:"
+msgid "Currency of the amounts."
+msgstr "Devise des montants."
+
+msgctxt "help:fuel.authorization,dispensed_amount:"
+msgid "Amount reported by the controller for the distribution."
+msgstr "Montant rapporté par le contrôleur pour la distribution."
+
+msgctxt "help:fuel.authorization,dispensed_quantity:"
+msgid "Quantity reported by the controller for the distribution."
+msgstr "Quantité rapportée par le contrôleur pour la distribution."
+
+msgctxt "help:fuel.authorization,expires_at:"
+msgid "After this time the authorization can no longer be used."
+msgstr "Après cette heure, l'autorisation ne peut plus être utilisée."
+
+msgctxt "help:fuel.authorization,limit_type:"
+msgid "Whether the limit is a quantity or an amount."
+msgstr "Indique si la limite est une quantité ou un montant."
+
+msgctxt "help:fuel.authorization,logs:"
+msgid "Audit trail of every change of state."
+msgstr "Piste d'audit de chaque changement d'état."
+
+msgctxt "help:fuel.authorization,max_amount:"
+msgid "Maximum amount the pump may dispense."
+msgstr "Montant maximal que la pompe peut distribuer."
+
+msgctxt "help:fuel.authorization,max_quantity:"
+msgid "Maximum volume (gallons) the pump may dispense."
+msgstr "Volume maximal (gallons) que la pompe peut distribuer."
+
+msgctxt "help:fuel.authorization,move:"
+msgid "Stock move generated by this record."
+msgstr "Mouvement de stock généré par cet enregistrement."
+
+msgctxt "help:fuel.authorization,notes:"
+msgid "Free text for internal use."
+msgstr "Texte libre à usage interne."
+
+msgctxt "help:fuel.authorization,nozzle:"
+msgid "The nozzle imposes the fuel and the tank."
+msgstr "Le pistolet impose le carburant et la cuve."
+
+msgctxt "help:fuel.authorization,number:"
+msgid "Number assigned automatically by the sequence."
+msgstr "Numéro attribué automatiquement par la séquence."
+
+msgctxt "help:fuel.authorization,party:"
+msgid "Customer or contact concerned."
+msgstr "Client ou contact concerné."
+
+msgctxt "help:fuel.authorization,product:"
+msgid "Product concerned."
+msgstr "Produit concerné."
+
+msgctxt "help:fuel.authorization,pump:"
+msgid "Pump concerned."
+msgstr "Pompe concernée."
+
+msgctxt "help:fuel.authorization,requested_at:"
+msgid "Date and time of the request."
+msgstr "Date et heure de la demande."
+
+msgctxt "help:fuel.authorization,requested_by:"
+msgid "User who made the request."
+msgstr "Utilisateur qui a fait la demande."
+
+msgctxt "help:fuel.authorization,shift:"
+msgid "Shift concerned."
+msgstr "Équipe concernée."
+
+msgctxt "help:fuel.authorization,state:"
+msgid "Current step of the workflow."
+msgstr "Étape actuelle du flux de travail."
+
+msgctxt "help:fuel.authorization,station:"
+msgid "Station concerned."
+msgstr "Station concernée."
+
+msgctxt "help:fuel.authorization,transaction_ref:"
+msgid "Transaction number given by the controller."
+msgstr "Numéro de transaction donné par le contrôleur."
+
+msgctxt "help:fuel.authorization,unit:"
+msgid "Unit of measure."
+msgstr "Unité de mesure."
+
+msgctxt "help:fuel.authorization,unit_price:"
+msgid "Price of one unit before discount."
+msgstr "Prix d'une unité avant remise."
+
+msgctxt "help:fuel.authorization,vehicle:"
+msgid "Plate number or identification of the vehicle."
+msgstr "Plaque d'immatriculation ou identification du véhicule."
+
+msgctxt "help:fuel.authorization.log,authorization:"
+msgid "Distribution authorization linked to this record."
+msgstr "Autorisation de distribution liée à cet enregistrement."
+
+msgctxt "help:fuel.authorization.log,event:"
+msgid "Type of the event recorded in the audit log."
+msgstr "Type d'événement enregistré dans le journal d'audit."
+
+msgctxt "help:fuel.authorization.log,note:"
+msgid "Free remark visible on the order."
+msgstr "Remarque libre visible sur la commande."
+
+msgctxt "help:fuel.authorization.log,state:"
+msgid "Current step of the workflow."
+msgstr "Étape actuelle du flux de travail."
+
+msgctxt "help:fuel.authorization.log,timestamp:"
+msgid "Date and time of the event."
+msgstr "Date et heure de l'événement."
+
+msgctxt "help:fuel.authorization.log,user:"
+msgid "User concerned."
+msgstr "Utilisateur concerné."
+
+msgctxt "help:fuel.dashboard,company:"
+msgid "Company that owns the record."
+msgstr "Société propriétaire de l'enregistrement."
+
+msgctxt "help:fuel.dashboard,deliveries_month:"
+msgid "Volume received by the tanks this month."
+msgstr "Volume reçu par les cuves ce mois-ci."
+
+msgctxt "help:fuel.dashboard,low_tanks:"
+msgid "Tanks under their minimum level."
+msgstr "Cuves sous leur niveau minimum."
+
+msgctxt "help:fuel.dashboard,name:"
+msgid "Name displayed in lists and searches."
+msgstr "Nom affiché dans les listes et les recherches."
+
+msgctxt "help:fuel.dashboard,open_shifts:"
+msgid "Shifts still open."
+msgstr "Équipes encore ouvertes."
+
+msgctxt "help:fuel.dashboard,quantity_today:"
+msgid "Volume sold today."
+msgstr "Volume vendu aujourd'hui."
+
+msgctxt "help:fuel.dashboard,sales_today:"
+msgid "Sales of the day."
+msgstr "Ventes du jour."
+
+msgctxt "help:fuel.dashboard,station:"
+msgid "Station concerned."
+msgstr "Station concernée."
+
+msgctxt "help:fuel.dashboard,tanks:"
+msgid "Tanks of the station."
+msgstr "Cuves de la station."
+
+msgctxt "help:fuel.delivery,company:"
+msgid "Company that owns the record."
+msgstr "Société propriétaire de l'enregistrement."
+
+msgctxt "help:fuel.delivery,date:"
+msgid "Date of the document."
+msgstr "Date du document."
+
+msgctxt "help:fuel.delivery,driver:"
+msgid "Person in charge of the delivery."
+msgstr "Personne chargée de la livraison."
+
+msgctxt "help:fuel.delivery,lines:"
+msgid "Detail lines of the document."
+msgstr "Lignes de détail du document."
+
+msgctxt "help:fuel.delivery,notes:"
+msgid "Free text for internal use."
+msgstr "Texte libre à usage interne."
+
+msgctxt "help:fuel.delivery,number:"
+msgid "Number assigned automatically by the sequence."
+msgstr "Numéro attribué automatiquement par la séquence."
+
+msgctxt "help:fuel.delivery,reference:"
+msgid "Number of the supplier's delivery note."
+msgstr "Numéro du bon de livraison du fournisseur."
+
+msgctxt "help:fuel.delivery,state:"
+msgid "Current step of the workflow."
+msgstr "Étape actuelle du flux de travail."
+
+msgctxt "help:fuel.delivery,station:"
+msgid "Station concerned."
+msgstr "Station concernée."
+
+msgctxt "help:fuel.delivery,supplier:"
+msgid "Company that supplies the goods."
+msgstr "Société qui fournit les marchandises."
+
+msgctxt "help:fuel.delivery,total_quantity:"
+msgid "Total volume."
+msgstr "Volume total."
+
+msgctxt "help:fuel.delivery.line,delivery:"
+msgid "Fuel delivery linked to this record."
+msgstr "Livraison de carburant liée à cet enregistrement."
+
+msgctxt "help:fuel.delivery.line,density:"
+msgid "Density at 15 °C in kg/m³. Defaults to the density of the fuel."
+msgstr "Densité à 15 °C en kg/m³. Par défaut, celle du carburant."
+
+msgctxt "help:fuel.delivery.line,move:"
+msgid "Stock move generated by this record."
+msgstr "Mouvement de stock généré par cet enregistrement."
+
+msgctxt "help:fuel.delivery.line,net_quantity:"
+msgid "Volume converted to the reference temperature of 15 °C."
+msgstr "Volume converti à la température de référence de 15 °C."
+
+msgctxt "help:fuel.delivery.line,ordered_quantity:"
+msgid "Quantity written on the supplier's delivery note."
+msgstr "Quantité inscrite sur le bon de livraison du fournisseur."
+
+msgctxt "help:fuel.delivery.line,product:"
+msgid "Product concerned."
+msgstr "Produit concerné."
+
+msgctxt "help:fuel.delivery.line,quantity:"
+msgid "Quantity really measured in the tank after unloading."
+msgstr "Quantité réellement mesurée dans la cuve après le dépotage."
+
+msgctxt "help:fuel.delivery.line,tank:"
+msgid "Tank concerned."
+msgstr "Cuve concernée."
+
+msgctxt "help:fuel.delivery.line,temperature:"
+msgid "Temperature of the fuel measured at unloading."
+msgstr "Température du carburant mesurée au dépotage."
+
+msgctxt "help:fuel.delivery.line,unit:"
+msgid "Unit of measure."
+msgstr "Unité de mesure."
+
+msgctxt "help:fuel.delivery.line,unit_cost:"
+msgid "Purchase cost per gallon (without tax)."
+msgstr "Coût d'achat par gallon (hors taxes)."
+
+msgctxt "help:fuel.delivery.line,vcf:"
+msgid "Factor converting the measured volume to 15 °C."
+msgstr "Facteur convertissant le volume mesuré à 15 °C."
+
+msgctxt "help:fuel.dip,adjust:"
+msgid ""
+"Create the stock move that aligns the book stock on the measured quantity."
+msgstr ""
+"Crée le mouvement de stock qui aligne le stock comptable sur la quantité "
+"mesurée."
+
+msgctxt "help:fuel.dip,book_quantity:"
+msgid "Quantity given by the stock when the dip is validated."
+msgstr "Quantité donnée par le stock à la validation du jaugeage."
+
+msgctxt "help:fuel.dip,company:"
+msgid "Company that owns the record."
+msgstr "Société propriétaire de l'enregistrement."
+
+msgctxt "help:fuel.dip,date:"
+msgid "Date of the document."
+msgstr "Date du document."
+
+msgctxt "help:fuel.dip,measured_quantity:"
+msgid "Quantity read with the dip stick or the probe."
+msgstr "Quantité lue avec la jauge ou la sonde."
+
+msgctxt "help:fuel.dip,move:"
+msgid "Stock move generated by this record."
+msgstr "Mouvement de stock généré par cet enregistrement."
+
+msgctxt "help:fuel.dip,net_quantity:"
+msgid "Volume converted to the reference temperature of 15 °C."
+msgstr "Volume converti à la température de référence de 15 °C."
+
+msgctxt "help:fuel.dip,notes:"
+msgid "Free text for internal use."
+msgstr "Texte libre à usage interne."
+
+msgctxt "help:fuel.dip,number:"
+msgid "Number assigned automatically by the sequence."
+msgstr "Numéro attribué automatiquement par la séquence."
+
+msgctxt "help:fuel.dip,state:"
+msgid "Current step of the workflow."
+msgstr "Étape actuelle du flux de travail."
+
+msgctxt "help:fuel.dip,station:"
+msgid "Station concerned."
+msgstr "Station concernée."
+
+msgctxt "help:fuel.dip,tank:"
+msgid "Tank concerned."
+msgstr "Cuve concernée."
+
+msgctxt "help:fuel.dip,temperature:"
+msgid ""
+"Temperature of the fuel. With the station option \"Book at 15 °C\" the "
+"measured quantity is corrected to 15 °C."
+msgstr ""
+"Température du carburant. Avec l'option de station « Comptabiliser à 15 °C "
+"», la quantité mesurée est corrigée à 15 °C."
+
+msgctxt "help:fuel.dip,unit:"
+msgid "Unit of measure."
+msgstr "Unité de mesure."
+
+msgctxt "help:fuel.dip,variance:"
+msgid "Measured minus book quantity: negative = loss."
+msgstr "Quantité mesurée moins quantité comptable : négatif = perte."
+
+msgctxt "help:fuel.dip,variance_percent:"
+msgid "Gap between expected and measured volume, in percent."
+msgstr "Écart entre le volume attendu et mesuré, en pourcentage."
+
+msgctxt "help:fuel.guide.start,content:"
+msgid "Text of the usage guide."
+msgstr "Texte du guide d'utilisation."
+
+msgctxt "help:fuel.meter.reading,index:"
+msgid "Value of the totalizer (gallons)."
+msgstr "Valeur du totalisateur (gallons)."
+
+msgctxt "help:fuel.meter.reading,nozzle:"
+msgid "Nozzle of the pump used."
+msgstr "Pistolet de la pompe utilisé."
+
+msgctxt "help:fuel.meter.reading,source:"
+msgid "Where the record comes from."
+msgstr "Origine de l'enregistrement."
+
+msgctxt "help:fuel.meter.reading,station:"
+msgid "Station concerned."
+msgstr "Station concernée."
+
+msgctxt "help:fuel.meter.reading,timestamp:"
+msgid "Date and time of the event."
+msgstr "Date et heure de l'événement."
+
+msgctxt "help:fuel.meter.reading.import.start,file:"
+msgid ""
+"CSV file with the columns: station, pump, nozzle, index (separator comma or "
+"semicolon, header line optional)."
+msgstr ""
+"Fichier CSV avec les colonnes : station, pompe, pistolet, index (séparateur "
+"virgule ou point-virgule, ligne d'en-tête facultative)."
+
+msgctxt "help:fuel.nozzle,meter_index:"
+msgid ""
+"Current reading of the totalizer (gallons). It is updated automatically when"
+" a shift is closed."
+msgstr ""
+"Lecture actuelle du totalisateur (gallons). Elle est mise à jour "
+"automatiquement à la fermeture d'un quart."
+
+msgctxt "help:fuel.nozzle,number:"
+msgid "Number assigned automatically by the sequence."
+msgstr "Numéro attribué automatiquement par la séquence."
+
+msgctxt "help:fuel.nozzle,product:"
+msgid "Product concerned."
+msgstr "Produit concerné."
+
+msgctxt "help:fuel.nozzle,pump:"
+msgid "Pump concerned."
+msgstr "Pompe concernée."
+
+msgctxt "help:fuel.nozzle,station:"
+msgid "Station concerned."
+msgstr "Station concernée."
+
+msgctxt "help:fuel.nozzle,tank:"
+msgid "Tank concerned."
+msgstr "Cuve concernée."
+
+msgctxt "help:fuel.price,company:"
+msgid "Company that owns the record."
+msgstr "Société propriétaire de l'enregistrement."
+
+msgctxt "help:fuel.price,currency:"
+msgid "Currency of the amounts."
+msgstr "Devise des montants."
+
+msgctxt "help:fuel.price,date:"
+msgid "The price applies from this date until the next price."
+msgstr "Le prix s'applique à partir de cette date jusqu'au prochain prix."
+
+msgctxt "help:fuel.price,price:"
+msgid "Selling price per gallon, taxes included."
+msgstr "Prix de vente par gallon, taxes comprises."
+
+msgctxt "help:fuel.price,product:"
+msgid "Product concerned."
+msgstr "Produit concerné."
+
+msgctxt "help:fuel.price,station:"
+msgid ""
+"Leave empty for a price valid for every station of the company; a price set "
+"for a station takes precedence."
+msgstr ""
+"Laissez vide pour un prix valable pour toutes les stations de la société ; "
+"un prix défini pour une station est prioritaire."
+
+msgctxt "help:fuel.pump,code:"
+msgid "Short unique identifier."
+msgstr "Identifiant court et unique."
+
+msgctxt "help:fuel.pump,name:"
+msgid "Name displayed in lists and searches."
+msgstr "Nom affiché dans les listes et les recherches."
+
+msgctxt "help:fuel.pump,nozzles:"
+msgid "Nozzles of the pump."
+msgstr "Pistolets de la pompe."
+
+msgctxt "help:fuel.pump,station:"
+msgid "Station concerned."
+msgstr "Station concernée."
+
+msgctxt "help:fuel.report.sales,amount:"
+msgid "Amount in the currency of the document."
+msgstr "Montant dans la devise du document."
+
+msgctxt "help:fuel.report.sales,company:"
+msgid "Company that owns the record."
+msgstr "Société propriétaire de l'enregistrement."
+
+msgctxt "help:fuel.report.sales,date:"
+msgid "Date of the document."
+msgstr "Date du document."
+
+msgctxt "help:fuel.report.sales,product:"
+msgid "Product concerned."
+msgstr "Produit concerné."
+
+msgctxt "help:fuel.report.sales,quantity:"
+msgid "Quantity, in the unit of measure."
+msgstr "Quantité, dans l'unité de mesure."
+
+msgctxt "help:fuel.report.sales,station:"
+msgid "Station concerned."
+msgstr "Station concernée."
+
+msgctxt "help:fuel.shift,attendant:"
+msgid "Employee in charge of the pumps during the shift."
+msgstr "Employé responsable des pompes pendant l'équipe."
+
+msgctxt "help:fuel.shift,authorized_total:"
+msgid "Sales made under a validated authorization."
+msgstr "Ventes réalisées sous une autorisation validée."
+
+msgctxt "help:fuel.shift,cash_counted:"
+msgid "Cash counted at the end of the shift."
+msgstr "Espèces comptées à la fin de l'équipe."
+
+msgctxt "help:fuel.shift,cash_difference:"
+msgid "Counted cash minus expected cash. A negative value is a shortage."
+msgstr ""
+"Espèces comptées moins espèces attendues. Une valeur négative est un manque."
+
+msgctxt "help:fuel.shift,cash_expected:"
+msgid "Cash the shift should contain according to the sales."
+msgstr "Espèces que l'équipe devrait détenir d'après les ventes."
+
+msgctxt "help:fuel.shift,company:"
+msgid "Company that owns the record."
+msgstr "Société propriétaire de l'enregistrement."
+
+msgctxt "help:fuel.shift,currency:"
+msgid "Currency of the amounts."
+msgstr "Devise des montants."
+
+msgctxt "help:fuel.shift,date:"
+msgid "Date of the document."
+msgstr "Date du document."
+
+msgctxt "help:fuel.shift,difference:"
+msgid "Difference between counted and expected amounts."
+msgstr "Écart entre les montants comptés et attendus."
+
+msgctxt "help:fuel.shift,end_time:"
+msgid "End of the period."
+msgstr "Fin de la période."
+
+msgctxt "help:fuel.shift,fuel_sales:"
+msgid "Sales of fuel during the shift."
+msgstr "Ventes de carburant pendant l'équipe."
+
+msgctxt "help:fuel.shift,lines:"
+msgid "Detail lines of the document."
+msgstr "Lignes de détail du document."
+
+msgctxt "help:fuel.shift,long_notified:"
+msgid "A notification was sent because the shift is open for too long."
+msgstr ""
+"Une notification a été envoyée car le poste est ouvert depuis trop "
+"longtemps."
+
+msgctxt "help:fuel.shift,notes:"
+msgid "Free text for internal use."
+msgstr "Texte libre à usage interne."
+
+msgctxt "help:fuel.shift,number:"
+msgid "Number assigned automatically by the sequence."
+msgstr "Numéro attribué automatiquement par la séquence."
+
+msgctxt "help:fuel.shift,opening_float:"
+msgid ""
+"Cash already in the drawer at the start of the shift. It is deducted from "
+"the counted cash."
+msgstr ""
+"Espèces déjà présentes dans le tiroir au début du quart. Elles sont déduites"
+" de la caisse comptée."
+
+msgctxt "help:fuel.shift,payments:"
+msgid "Payments received for this record."
+msgstr "Paiements reçus pour cet enregistrement."
+
+msgctxt "help:fuel.shift,shop_sales:"
+msgid "Shop items sold during the shift."
+msgstr "Articles de boutique vendus pendant l'équipe."
+
+msgctxt "help:fuel.shift,shop_total:"
+msgid "Total of the shop sales."
+msgstr "Total des ventes de la boutique."
+
+msgctxt "help:fuel.shift,start_time:"
+msgid "Beginning of the period."
+msgstr "Début de la période."
+
+msgctxt "help:fuel.shift,state:"
+msgid "Current step of the workflow."
+msgstr "Étape actuelle du flux de travail."
+
+msgctxt "help:fuel.shift,station:"
+msgid "Station concerned."
+msgstr "Station concernée."
+
+msgctxt "help:fuel.shift,suspect_total:"
+msgid "Total value of doubtful banknotes and coins, excluded from the cash."
+msgstr "Valeur totale des billets et pièces douteux, exclus des espèces."
+
+msgctxt "help:fuel.shift,total_paid:"
+msgid "Total collected."
+msgstr "Total encaissé."
+
+msgctxt "help:fuel.shift,total_quantity:"
+msgid "Total volume."
+msgstr "Volume total."
+
+msgctxt "help:fuel.shift,total_sales:"
+msgid "Total sales."
+msgstr "Total des ventes."
+
+msgctxt "help:fuel.shift.line,amount:"
+msgid "Amount in the currency of the document."
+msgstr "Montant dans la devise du document."
+
+msgctxt "help:fuel.shift.line,closing_index:"
+msgid "Reading of the totalizer at the end of the shift."
+msgstr "Lecture du totalisateur à la fin du quart."
+
+msgctxt "help:fuel.shift.line,currency:"
+msgid "Currency of the amounts."
+msgstr "Devise des montants."
+
+msgctxt "help:fuel.shift.line,move:"
+msgid "Stock move generated by this record."
+msgstr "Mouvement de stock généré par cet enregistrement."
+
+msgctxt "help:fuel.shift.line,nozzle:"
+msgid "Nozzle of the pump used."
+msgstr "Pistolet de la pompe utilisé."
+
+msgctxt "help:fuel.shift.line,opening_index:"
+msgid "Meter index at the beginning of the shift."
+msgstr "Index du compteur au début de l'équipe."
+
+msgctxt "help:fuel.shift.line,product:"
+msgid "Product concerned."
+msgstr "Produit concerné."
+
+msgctxt "help:fuel.shift.line,quantity:"
+msgid "Quantity, in the unit of measure."
+msgstr "Quantité, dans l'unité de mesure."
+
+msgctxt "help:fuel.shift.line,shift:"
+msgid "Shift concerned."
+msgstr "Équipe concernée."
+
+msgctxt "help:fuel.shift.line,test_quantity:"
+msgid ""
+"Fuel pumped for calibration/tests and poured back into the tank: it is not "
+"sold."
+msgstr ""
+"Carburant débité pour étalonnage/essais et reversé dans la cuve : il n'est "
+"pas vendu."
+
+msgctxt "help:fuel.shift.line,unit:"
+msgid "Unit of measure."
+msgstr "Unité de mesure."
+
+msgctxt "help:fuel.shift.line,unit_price:"
+msgid "Price of one unit before discount."
+msgstr "Prix d'une unité avant remise."
+
+msgctxt "help:fuel.shift.payment,amount:"
+msgid "Amount in the currency of the document."
+msgstr "Montant dans la devise du document."
+
+msgctxt "help:fuel.shift.payment,currency:"
+msgid "Currency of the amounts."
+msgstr "Devise des montants."
+
+msgctxt "help:fuel.shift.payment,method:"
+msgid "How the customer pays."
+msgstr "Mode de paiement du client."
+
+msgctxt "help:fuel.shift.payment,party:"
+msgid "Customer who owes the amount (credit sales)."
+msgstr "Client qui doit le montant (ventes à crédit)."
+
+msgctxt "help:fuel.shift.payment,reference:"
+msgid "Reference of the payment (receipt number, voucher...)."
+msgstr "Référence du paiement (numéro de reçu, bon...)."
+
+msgctxt "help:fuel.shift.payment,shift:"
+msgid "Shift concerned."
+msgstr "Équipe concernée."
+
+msgctxt "help:fuel.shift.payment,shift_company:"
+msgid "Company of the shift."
+msgstr "Société de l'équipe."
+
+msgctxt "help:fuel.shift.sale,amount:"
+msgid "Amount in the currency of the document."
+msgstr "Montant dans la devise du document."
+
+msgctxt "help:fuel.shift.sale,currency:"
+msgid "Currency of the amounts."
+msgstr "Devise des montants."
+
+msgctxt "help:fuel.shift.sale,move:"
+msgid "Stock move generated by this record."
+msgstr "Mouvement de stock généré par cet enregistrement."
+
+msgctxt "help:fuel.shift.sale,product:"
+msgid "Shop article, lubricant, LPG cylinder, etc."
+msgstr "Article de boutique, lubrifiant, bouteille de GPL, etc."
+
+msgctxt "help:fuel.shift.sale,quantity:"
+msgid "Quantity, in the unit of measure."
+msgstr "Quantité, dans l'unité de mesure."
+
+msgctxt "help:fuel.shift.sale,shift:"
+msgid "Shift concerned."
+msgstr "Équipe concernée."
+
+msgctxt "help:fuel.shift.sale,unit:"
+msgid "Unit of measure."
+msgstr "Unité de mesure."
+
+msgctxt "help:fuel.shift.sale,unit_price:"
+msgid "Price of one unit before discount."
+msgstr "Prix d'une unité avant remise."
+
+msgctxt "help:fuel.station,authorization_control:"
+msgid ""
+"Pump dispensing requires an authorization requested in Tryton, approved by a"
+" manager and confirmed by the controller."
+msgstr ""
+"La distribution à la pompe exige une autorisation demandée dans Tryton, "
+"validée par un responsable et confirmée par le contrôleur."
+
+msgctxt "help:fuel.station,authorization_ttl:"
+msgid ""
+"An approved authorization that the controller has not confirmed within this "
+"delay expires."
+msgstr ""
+"Une autorisation validée que le contrôleur n'a pas confirmée dans ce délai "
+"expire."
+
+msgctxt "help:fuel.station,cash_tolerance:"
+msgid ""
+"A shift whose cash difference exceeds this amount asks for a confirmation "
+"when it is closed."
+msgstr ""
+"Un quart dont la différence de caisse dépasse ce montant demande une "
+"confirmation à la fermeture."
+
+msgctxt "help:fuel.station,code:"
+msgid "Short unique identifier."
+msgstr "Identifiant court et unique."
+
+msgctxt "help:fuel.station,communication_blocked:"
+msgid "Manual block: nothing is authorized while it is checked."
+msgstr "Blocage manuel : rien n'est autorisé tant que la case est cochée."
+
+msgctxt "help:fuel.station,communication_ok:"
+msgid ""
+"Uncheck when the link with the controller is lost: new authorizations are "
+"then blocked."
+msgstr ""
+"Décochez quand le lien avec le contrôleur est perdu : les nouvelles "
+"autorisations sont alors bloquées."
+
+msgctxt "help:fuel.station,company:"
+msgid "Company that owns the record."
+msgstr "Société propriétaire de l'enregistrement."
+
+msgctxt "help:fuel.station,currency:"
+msgid "Currency of the amounts."
+msgstr "Devise des montants."
+
+msgctxt "help:fuel.station,dip_tolerance:"
+msgid ""
+"A dip whose variance exceeds this percentage of the book quantity asks for a"
+" confirmation."
+msgstr ""
+"Un jaugeage dont l'écart dépasse ce pourcentage de la quantité comptable "
+"demande une confirmation."
+
+msgctxt "help:fuel.station,heartbeat_timeout:"
+msgid ""
+"Without a signal from the middleware within this delay, the communication is"
+" considered lost and no authorization can be requested, approved or "
+"transmitted."
+msgstr ""
+"Sans signal du middleware dans ce délai, la communication est considérée "
+"comme perdue et aucune autorisation ne peut être demandée, validée ou "
+"transmise."
+
+msgctxt "help:fuel.station,last_heartbeat:"
+msgid "Last time the middleware signaled that it is alive."
+msgstr "Dernière fois que le middleware a signalé qu'il était actif."
+
+msgctxt "help:fuel.station,name:"
+msgid "Name displayed in lists and searches."
+msgstr "Nom affiché dans les listes et les recherches."
+
+msgctxt "help:fuel.station,party:"
+msgid "Address and phone number of the station."
+msgstr "Adresse et téléphone de la station."
+
+msgctxt "help:fuel.station,pumps:"
+msgid "Pumps of the station."
+msgstr "Pompes de la station."
+
+msgctxt "help:fuel.station,shift_max_hours:"
+msgid ""
+"A shift still open after this number of hours raises a notification to the "
+"station managers."
+msgstr ""
+"Un poste encore ouvert après ce nombre d'heures déclenche une notification "
+"aux responsables de la station."
+
+msgctxt "help:fuel.station,tanks:"
+msgid "Tanks of the station."
+msgstr "Cuves de la station."
+
+msgctxt "help:fuel.station,temperature_correction:"
+msgid ""
+"Deliveries and dips are booked in the stock at the volume corrected to 15 °C"
+" when the temperature is entered."
+msgstr ""
+"Les livraisons et jaugeages sont comptabilisés en stock au volume corrigé à "
+"15 °C lorsque la température est saisie."
+
+msgctxt "help:fuel.station,warehouse:"
+msgid ""
+"The tanks are stock locations created under the storage location of this "
+"warehouse."
+msgstr ""
+"Les cuves sont des emplacements de stock créés sous l'emplacement de "
+"stockage de cet entrepôt."
+
+msgctxt "help:fuel.tank,capacity:"
+msgid "Maximum volume the tank can hold."
+msgstr "Volume maximal que la cuve peut contenir."
+
+msgctxt "help:fuel.tank,code:"
+msgid "Short unique identifier."
+msgstr "Identifiant court et unique."
+
+msgctxt "help:fuel.tank,fill_ratio:"
+msgid "Percentage of the capacity filled."
+msgstr "Pourcentage de la capacité rempli."
+
+msgctxt "help:fuel.tank,free_space:"
+msgid "Volume that can still be received."
+msgstr "Volume pouvant encore être reçu."
+
+msgctxt "help:fuel.tank,location:"
+msgid ""
+"Created automatically under the storage location of the warehouse of the "
+"station."
+msgstr ""
+"Créé automatiquement sous l'emplacement de stockage de l'entrepôt de la "
+"station."
+
+msgctxt "help:fuel.tank,low:"
+msgid "Checked when the level is under the minimum."
+msgstr "Coché quand le niveau est sous le minimum."
+
+msgctxt "help:fuel.tank,low_notified:"
+msgid ""
+"A notification was sent for the current low level. It is reset when the tank"
+" is refilled above its minimum level."
+msgstr ""
+"Une notification a été envoyée pour le niveau bas actuel. Elle est "
+"réinitialisée quand la cuve est remplie au-dessus de son minimum."
+
+msgctxt "help:fuel.tank,min_level:"
+msgid "Below this quantity the tank is flagged as low."
+msgstr "En dessous de cette quantité, la cuve est signalée comme basse."
+
+msgctxt "help:fuel.tank,name:"
+msgid "Name displayed in lists and searches."
+msgstr "Nom affiché dans les listes et les recherches."
+
+msgctxt "help:fuel.tank,product:"
+msgid "The fuel stored in the tank (cannot change after creation)."
+msgstr ""
+"Le carburant stocké dans la cuve (ne peut plus changer après la création)."
+
+msgctxt "help:fuel.tank,quantity:"
+msgid "Quantity, in the unit of measure."
+msgstr "Quantité, dans l'unité de mesure."
+
+msgctxt "help:fuel.tank,station:"
+msgid "Station concerned."
+msgstr "Station concernée."
+
+msgctxt "help:fuel.tank,unit:"
+msgid "Unit of measure."
+msgstr "Unité de mesure."
+
+msgctxt "help:product.template,fuel:"
+msgid ""
+"Check for products sold at the pumps (petrol, diesel, kerosene, LPG...). "
+"Only these products can be stored in tanks. Their unit of measure is the "
+"gallon."
+msgstr ""
+"À cocher pour les produits vendus aux pompes (essence, diesel, kérosène, "
+"GPL...). Seuls ces produits peuvent être stockés en cuve. Leur unité de "
+"mesure est le gallon."
+
+msgctxt "help:product.template,fuel_density:"
+msgid ""
+"Density in kg/m³ at 15 °C. Used for the temperature correction of volumes."
+msgstr ""
+"Densité en kg/m³ à 15 °C. Utilisée pour la correction des volumes en "
+"fonction de la température."
+
+msgctxt "help:product.template,fuel_family:"
+msgid "Used for the temperature correction of volumes."
+msgstr "Utilisé pour la correction des volumes en fonction de la température."
+
+msgctxt "model:fuel.authorization,name:"
+msgid "Fuel Dispensing Authorization"
+msgstr "Autorisation de distribution de carburant"
+
+msgctxt "model:fuel.authorization.log,name:"
+msgid "Fuel Dispensing Authorization Log"
+msgstr "Journal des autorisations de distribution"
+
+msgctxt "model:fuel.dashboard,name:"
+msgid "Fuel Station Dashboard"
+msgstr "Tableau de bord de la station-service"
+
+msgctxt "model:fuel.delivery,name:"
+msgid "Fuel Delivery"
+msgstr "Livraison de carburant"
+
+msgctxt "model:fuel.delivery.line,name:"
+msgid "Fuel Delivery Line"
+msgstr "Ligne de livraison de carburant"
+
+msgctxt "model:fuel.dip,name:"
+msgid "Tank Dip"
+msgstr "Jaugeage de cuve"
+
+msgctxt "model:fuel.guide.start,name:"
+msgid "Usage Guide"
+msgstr "Guide d'utilisation"
+
+msgctxt "model:fuel.meter.reading,name:"
+msgid "Fuel Meter Reading"
+msgstr "Relevé de compteur carburant"
+
+msgctxt "model:fuel.meter.reading.import.start,name:"
+msgid "Import Meter Readings"
+msgstr "Importer des relevés de compteur"
+
+msgctxt "model:fuel.nozzle,name:"
+msgid "Fuel Nozzle"
+msgstr "Pistolet de carburant"
+
+msgctxt "model:fuel.price,name:"
+msgid "Fuel Price"
+msgstr "Prix du carburant"
+
+msgctxt "model:fuel.pump,name:"
+msgid "Fuel Pump"
+msgstr "Pompe à carburant"
+
+msgctxt "model:fuel.report.sales,name:"
+msgid "Fuel Sales by Day"
+msgstr "Ventes de carburant par jour"
+
+msgctxt "model:fuel.shift,name:"
+msgid "Fuel Shift"
+msgstr "Quart de carburant"
+
+msgctxt "model:fuel.shift.line,name:"
+msgid "Fuel Shift Pump Reading"
+msgstr "Relevé de pistolet du quart"
+
+msgctxt "model:fuel.shift.payment,name:"
+msgid "Fuel Shift Payment"
+msgstr "Paiement du quart"
+
+msgctxt "model:fuel.shift.sale,name:"
+msgid "Fuel Shift Shop Sale"
+msgstr "Vente boutique du quart"
+
+msgctxt "model:fuel.station,name:"
+msgid "Fuel Station"
+msgstr "Station-service"
+
+msgctxt "model:fuel.tank,name:"
+msgid "Fuel Tank"
+msgstr "Cuve de carburant"
+
+msgctxt "model:ir.action,name:act_authorization"
+msgid "Authorizations"
+msgstr "Autorisations"
+
+msgctxt "model:ir.action,name:act_authorization_pending"
+msgid "Authorizations to Approve"
+msgstr "Autorisations à valider"
+
+msgctxt "model:ir.action,name:act_dashboard"
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+msgctxt "model:ir.action,name:act_delivery"
+msgid "Deliveries"
+msgstr "Livraisons"
+
+msgctxt "model:ir.action,name:act_dip"
+msgid "Tank Dips"
+msgstr "Jaugeages"
+
+msgctxt "model:ir.action,name:act_fuel_product"
+msgid "Fuels"
+msgstr "Carburants"
+
+msgctxt "model:ir.action,name:act_meter_reading"
+msgid "Meter Readings"
+msgstr "Relevés de compteur"
+
+msgctxt "model:ir.action,name:act_move"
+msgid "Fuel Stock Moves"
+msgstr "Mouvements de stock carburant"
+
+msgctxt "model:ir.action,name:act_nozzle"
+msgid "Nozzles"
+msgstr "Pistolets"
+
+msgctxt "model:ir.action,name:act_price"
+msgid "Fuel Prices"
+msgstr "Prix des carburants"
+
+msgctxt "model:ir.action,name:act_pump"
+msgid "Pumps"
+msgstr "Pompes"
+
+msgctxt "model:ir.action,name:act_sales_report"
+msgid "Sales by Day"
+msgstr "Ventes par jour"
+
+msgctxt "model:ir.action,name:act_shift"
+msgid "Shifts"
+msgstr "Quarts"
+
+msgctxt "model:ir.action,name:act_station"
+msgid "Stations"
+msgstr "Stations"
+
+msgctxt "model:ir.action,name:act_tank"
+msgid "Tanks"
+msgstr "Cuves"
+
+msgctxt "model:ir.action,name:act_tank_low"
+msgid "Low Tanks"
+msgstr "Cuves basses"
+
+msgctxt "model:ir.action,name:report_shift_sheet"
+msgid "Shift Sheet"
+msgstr "Fiche de quart"
+
+msgctxt "model:ir.action,name:wizard_guide"
+msgid "Usage Guide"
+msgstr "Guide d'utilisation"
+
+msgctxt "model:ir.action,name:wizard_meter_reading_import"
+msgid "Import Meter Readings"
+msgstr "Importer des relevés de compteur"
+
+msgctxt "model:ir.action.act_window.domain,name:act_authorization_domain_0"
+msgid "Pending"
+msgstr "En attente"
+
+msgctxt "model:ir.action.act_window.domain,name:act_authorization_domain_1"
+msgid "In Progress"
+msgstr "En cours"
+
+msgctxt "model:ir.action.act_window.domain,name:act_authorization_domain_2"
+msgid "Discrepancies"
+msgstr "Écarts"
+
+msgctxt "model:ir.action.act_window.domain,name:act_authorization_domain_3"
+msgid "All"
+msgstr "Tous"
+
+msgctxt "model:ir.action.act_window.domain,name:act_delivery_domain_0"
+msgid "Draft"
+msgstr "Brouillon"
+
+msgctxt "model:ir.action.act_window.domain,name:act_delivery_domain_1"
+msgid "Done"
+msgstr "Terminé"
+
+msgctxt "model:ir.action.act_window.domain,name:act_dip_domain_0"
+msgid "Draft"
+msgstr "Brouillon"
+
+msgctxt "model:ir.action.act_window.domain,name:act_dip_domain_1"
+msgid "Done"
+msgstr "Terminé"
+
+msgctxt "model:ir.action.act_window.domain,name:act_shift_domain_0"
+msgid "Draft"
+msgstr "Brouillon"
+
+msgctxt "model:ir.action.act_window.domain,name:act_shift_domain_1"
+msgid "Open"
+msgstr "Ouvert"
+
+msgctxt "model:ir.action.act_window.domain,name:act_shift_domain_2"
+msgid "Closed"
+msgstr "Fermé"
+
+msgctxt "model:ir.action.act_window.domain,name:act_tank_domain_0"
+msgid "Low"
+msgstr "Bas"
+
+msgctxt "model:ir.action.act_window.domain,name:act_tank_domain_1"
+msgid "All"
+msgstr "Tous"
+
+msgctxt "model:ir.message,text:msg_alert_shift_item"
+msgid "%(shift)s (%(attendant)s) is still open: close it or hand it over."
+msgstr ""
+"%(shift)s (%(attendant)s) est toujours ouvert : fermez-le ou passez la main."
+
+msgctxt "model:ir.message,text:msg_alert_shift_title"
+msgid "%(count)s shift(s) open for too long"
+msgstr "%(count)s poste(s) ouvert(s) depuis trop longtemps"
+
+msgctxt "model:ir.message,text:msg_alert_tank_item"
+msgid "%(tank)s: %(quantity)s left, minimum %(minimum)s"
+msgstr "%(tank)s : %(quantity)s restant, minimum %(minimum)s"
+
+msgctxt "model:ir.message,text:msg_alert_tank_title"
+msgid "%(count)s fuel tank(s) under the minimum level"
+msgstr "%(count)s cuve(s) sous le niveau minimum"
+
+msgctxt "model:ir.message,text:msg_authorization_comm_lost"
+msgid ""
+"The communication with the controller of station \"%(station)s\" is lost or "
+"blocked: no authorization can be requested, approved or transmitted."
+msgstr ""
+"La communication avec le contrôleur de la station « %(station)s » est perdue"
+" ou bloquée : aucune autorisation ne peut être demandée, validée ou "
+"transmise."
+
+msgctxt "model:ir.message,text:msg_authorization_delete"
+msgid ""
+"Authorizations cannot be deleted: they are part of the audit trail. Cancel "
+"them instead."
+msgstr ""
+"Les autorisations ne peuvent pas être supprimées : elles font partie de la "
+"piste d'audit. Annulez-les plutôt."
+
+msgctxt "model:ir.message,text:msg_authorization_expired"
+msgid "The authorization \"%(authorization)s\" has expired."
+msgstr "L'autorisation « %(authorization)s » a expiré."
+
+msgctxt "model:ir.message,text:msg_authorization_locked"
+msgid ""
+"The authorization \"%(authorization)s\" is no longer pending: its request "
+"cannot be changed."
+msgstr ""
+"L'autorisation « %(authorization)s » n'est plus en attente : sa demande ne "
+"peut plus être modifiée."
+
+msgctxt "model:ir.message,text:msg_authorization_log_ack"
+msgid "Cancellation acknowledged by the controller."
+msgstr "Annulation acquittée par le contrôleur."
+
+msgctxt "model:ir.message,text:msg_authorization_log_amount"
+msgid "Dispensed amount %(dispensed)s exceeds the authorized %(limit)s."
+msgstr ""
+"Le montant distribué %(dispensed)s dépasse le montant autorisé %(limit)s."
+
+msgctxt "model:ir.message,text:msg_authorization_log_cancel"
+msgid "Cancellation requested: the controller must acknowledge it."
+msgstr "Annulation demandée : le contrôleur doit l'acquitter."
+
+msgctxt "model:ir.message,text:msg_authorization_log_late"
+msgid ""
+"The controller confirmed an authorization that is no longer valid in Tryton."
+msgstr ""
+"Le contrôleur a confirmé une autorisation qui n'est plus valable dans "
+"Tryton."
+
+msgctxt "model:ir.message,text:msg_authorization_log_quantity"
+msgid "Dispensed quantity %(dispensed)s exceeds the authorized %(limit)s."
+msgstr ""
+"La quantité distribuée %(dispensed)s dépasse la quantité autorisée "
+"%(limit)s."
+
+msgctxt "model:ir.message,text:msg_authorization_log_readonly"
+msgid "The audit log cannot be changed."
+msgstr "Le journal d'audit ne peut pas être modifié."
+
+msgctxt "model:ir.message,text:msg_authorization_log_requested"
+msgid "Authorization requested."
+msgstr "Autorisation demandée."
+
+msgctxt "model:ir.message,text:msg_authorization_log_reuse"
+msgid "Second result for a single-use authorization."
+msgstr "Deuxième résultat pour une autorisation à usage unique."
+
+msgctxt "model:ir.message,text:msg_authorization_log_state"
+msgid "A result arrived while the authorization was \"%(state)s\"."
+msgstr "Un résultat est arrivé alors que l'autorisation était « %(state)s »."
+
+msgctxt "model:ir.message,text:msg_authorization_not_enabled"
+msgid ""
+"Station \"%(station)s\" does not use authorizations. Enable \"Authorization "
+"Control\" in its configuration."
+msgstr ""
+"La station « %(station)s » n'utilise pas les autorisations. Activez « "
+"Contrôle des autorisations » dans sa configuration."
+
+msgctxt "model:ir.message,text:msg_authorization_not_manager"
+msgid "Only an authorization manager can do this."
+msgstr "Seul un responsable des autorisations peut le faire."
+
+msgctxt "model:ir.message,text:msg_authorization_not_middleware"
+msgid "Only the middleware user can do this."
+msgstr "Seul l'utilisateur du middleware peut le faire."
+
+msgctxt "model:ir.message,text:msg_authorization_nozzle"
+msgid ""
+"The nozzle \"%(nozzle)s\" does not belong to the pump and the station of the"
+" authorization."
+msgstr ""
+"Le pistolet « %(nozzle)s » n'appartient pas à la pompe et à la station de "
+"l'autorisation."
+
+msgctxt "model:ir.message,text:msg_authorization_pump_busy"
+msgid ""
+"Pump \"%(pump)s\" already has the live authorization \"%(authorization)s\". "
+"Wait for it to end or cancel it."
+msgstr ""
+"La pompe « %(pump)s » a déjà l'autorisation active « %(authorization)s ». "
+"Attendez sa fin ou annulez-la."
+
+msgctxt "model:ir.message,text:msg_authorization_same_user"
+msgid ""
+"The authorization \"%(authorization)s\" must be approved by someone other "
+"than its requester."
+msgstr ""
+"L'autorisation « %(authorization)s » doit être validée par une autre "
+"personne que son demandeur."
+
+msgctxt "model:ir.message,text:msg_authorization_state"
+msgid ""
+"The authorization \"%(authorization)s\" is \"%(state)s\": this action is not"
+" possible."
+msgstr ""
+"L'autorisation « %(authorization)s » est « %(state)s » : cette action est "
+"impossible."
+
+msgctxt "model:ir.message,text:msg_authorization_transaction"
+msgid ""
+"The transaction \"%(transaction)s\" is already linked to another "
+"authorization."
+msgstr ""
+"La transaction « %(transaction)s » est déjà liée à une autre autorisation."
+
+msgctxt "model:ir.message,text:msg_authorization_unknown"
+msgid "Unknown authorization \"%(number)s\"."
+msgstr "Autorisation « %(number)s » inconnue."
+
+msgctxt "model:ir.message,text:msg_authorization_unknown_station"
+msgid "Unknown station \"%(station)s\"."
+msgstr "Station « %(station)s » inconnue."
+
+msgctxt "model:ir.message,text:msg_delivery_delete_done"
+msgid "The delivery \"%(delivery)s\" is done and cannot be deleted."
+msgstr ""
+"La livraison « %(delivery)s » est terminée et ne peut pas être supprimée."
+
+msgctxt "model:ir.message,text:msg_delivery_no_lines"
+msgid "The delivery \"%(delivery)s\" has no line."
+msgstr "La livraison « %(delivery)s » n'a aucune ligne."
+
+msgctxt "model:ir.message,text:msg_delivery_overfill"
+msgid ""
+"Tank \"%(tank)s\" can only receive %(free)s but %(quantity)s are delivered. "
+"Continue anyway?"
+msgstr ""
+"La cuve « %(tank)s » ne peut recevoir que %(free)s mais %(quantity)s sont "
+"livrés. Continuer quand même ?"
+
+msgctxt "model:ir.message,text:msg_delivery_tank_station"
+msgid "Tank \"%(tank)s\" does not belong to station \"%(station)s\"."
+msgstr "La cuve « %(tank)s » n'appartient pas à la station « %(station)s »."
+
+msgctxt "model:ir.message,text:msg_dip_delete_done"
+msgid "The dip \"%(dip)s\" is done and cannot be deleted."
+msgstr "Le jaugeage « %(dip)s » est terminé et ne peut pas être supprimé."
+
+msgctxt "model:ir.message,text:msg_dip_no_lost_found"
+msgid "No stock location of type \"Lost and Found\" exists."
+msgstr "Aucun emplacement de stock de type « Perdu et retrouvé » n'existe."
+
+msgctxt "model:ir.message,text:msg_dip_tank_station"
+msgid "Tank \"%(tank)s\" does not belong to the station of the dip."
+msgstr "La cuve « %(tank)s » n'appartient pas à la station du jaugeage."
+
+msgctxt "model:ir.message,text:msg_dip_variance"
+msgid ""
+"Tank \"%(tank)s\": the measure differs from the book quantity (%(book)s) by "
+"%(variance)s. Validate anyway?"
+msgstr ""
+"Cuve « %(tank)s » : la mesure diffère de la quantité comptable (%(book)s) de"
+" %(variance)s. Valider quand même ?"
+
+msgctxt "model:ir.message,text:msg_fuel_uom"
+msgid ""
+"The fuel \"%(product)s\" must be measured in gallons (or another volume "
+"unit)."
+msgstr ""
+"Le carburant « %(product)s » doit être mesuré en gallons (ou une autre unité"
+" de volume)."
+
+msgctxt "model:ir.message,text:msg_guide_usage"
+msgid ""
+"USAGE GUIDE - FUEL STATION\n"
+"\n"
+"1. DAILY WORK\n"
+"- Operations > Shifts: open the shift (Open), enter the closing index of each nozzle, the payments and the shop sales, count the banknotes and coins (Cash Control tab), then Close.\n"
+"- Operations > Deliveries: receive the fuel in the tanks. Operations > Tank Dips: compare the measured level to the stock.\n"
+"- Stock > Tank Levels / Low Tanks: monitor the tanks. Reports > Fuel Sales: sales by day, station and fuel.\n"
+"- Quantities are in gallons.\n"
+"\n"
+"2. DISPENSING AUTHORIZATIONS\n"
+"Tryton requests and records. The certified controller of the station decides physically whether a pump may dispense. Tryton is never connected to the pump control circuits: a middleware, validated by the equipment manufacturer and the authorized installer, carries the authorizations to the controller.\n"
+"Flow:\n"
+"1. Operator: Operations > Dispensing Authorizations > New. Choose the station, the pump, the nozzle (it imposes the fuel), the limit (maximum quantity or maximum amount), the customer and/or the vehicle. Save: the authorization is Pending.\n"
+"2. Manager: Operations > Authorizations to Approve > Approve (or Reject). The approver must not be the requester. Tryton keeps the user, the time and the authorized limits. The authorization then expires after the validity delay of the station.\n"
+"3. Middleware: reads the approved authorizations, gives them to the controller (Transmitted), the controller confirms (Confirmed), then sends back the quantity, the amount and the transaction reference.\n"
+"4. Tryton compares the result with the authorization: if it is correct the authorization is Completed, the stock is moved and, with the sale module, the sale and the invoice are created. Any difference (limit exceeded, late or repeated result, expiry) puts it in Discrepancy for a manager to resolve; nothing is hidden.\n"
+"Rules: single use, one live authorization per pump, short expiry, quantity or amount ceiling, pump and fuel imposed, cancellation controlled (after transmission only a manager can request it and the controller must acknowledge), full audit log in the Audit Log tab, no authorization when the communication with the controller is lost or blocked.\n"
+"\n"
+"3. WHO DOES WHAT\n"
+"- Fuel Station: operators (request, shifts, deliveries, dips).\n"
+"- Fuel Authorization Manager: approve, reject, resolve discrepancies, request cancellation after transmission.\n"
+"- Fuel Middleware: technical user of the middleware only.\n"
+"- Fuel Station Administration: configuration.\n"
+"\n"
+"4. WHEN SOMETHING GOES WRONG\n"
+"- \"Communication lost\": the middleware sent no signal within the timeout of the station. Check the middleware and the controller; the pumps are not affected, they simply stay under the control of the controller.\n"
+"- Authorization Expired: request a new one.\n"
+"- Discrepancy: open the audit log, check the controller records, then Resolve with a note.\n"
+msgstr ""
+"GUIDE D'UTILISATION - STATION-SERVICE\n"
+"\n"
+"1. TRAVAIL QUOTIDIEN\n"
+"- Opérations > Quarts : ouvrir le quart (Ouvrir), saisir l'index de fermeture de chaque pistolet, les paiements et les ventes boutique, compter les billets et pièces (onglet Contrôle de caisse), puis Fermer.\n"
+"- Opérations > Livraisons : recevoir le carburant dans les cuves. Opérations > Jaugeages : comparer le niveau mesuré au stock.\n"
+"- Stock > Niveaux des cuves / Cuves basses : surveiller les cuves. Rapports > Ventes de carburant : ventes par jour, station et carburant.\n"
+"- Les quantités sont en gallons.\n"
+"\n"
+"2. AUTORISATIONS DE DISTRIBUTION\n"
+"Tryton demande et enregistre. Le contrôleur certifié de la station décide physiquement si une pompe peut distribuer. Tryton n'est jamais branché sur les circuits de commande des pompes : un middleware, validé par le fabricant de l'équipement et l'installateur habilité, transmet les autorisations au contrôleur.\n"
+"Déroulement :\n"
+"1. Opérateur : Opérations > Autorisations de distribution > Nouveau. Choisir la station, la pompe, le pistolet (il impose le carburant), la limite (quantité maximale ou montant maximal), le client et/ou le véhicule. Enregistrer : l'autorisation est En attente.\n"
+"2. Responsable : Opérations > Autorisations à valider > Valider (ou Rejeter). Le valideur ne peut pas être le demandeur. Tryton conserve l'utilisateur, l'heure et les limites autorisées. L'autorisation expire ensuite après le délai de validité de la station.\n"
+"3. Middleware : lit les autorisations validées, les remet au contrôleur (Transmise), le contrôleur confirme (Confirmée), puis renvoie la quantité, le montant et la référence de transaction.\n"
+"4. Tryton rapproche le résultat de l'autorisation : s'il est correct, l'autorisation est Terminée, le stock est mouvementé et, avec le module de vente, la vente et la facture sont créées. Tout écart (limite dépassée, résultat tardif ou répété, expiration) la met en Écart pour qu'un responsable le traite ; rien n'est caché.\n"
+"Règles : usage unique, une seule autorisation active par pompe, expiration courte, plafond de quantité ou de montant, pompe et carburant imposés, annulation contrôlée (après transmission, seul un responsable peut la demander et le contrôleur doit l'acquitter), journal d'audit complet dans l'onglet Journal d'audit, aucune autorisation si la communication avec le contrôleur est perdue ou bloquée.\n"
+"\n"
+"3. QUI FAIT QUOI\n"
+"- Station-service : opérateurs (demande, quarts, livraisons, jaugeages).\n"
+"- Responsable des autorisations : valider, rejeter, traiter les écarts, demander l'annulation après transmission.\n"
+"- Middleware carburant : utilisateur technique du middleware uniquement.\n"
+"- Administration station-service : configuration.\n"
+"\n"
+"4. EN CAS DE PROBLÈME\n"
+"- « Communication perdue » : le middleware n'a envoyé aucun signal dans le délai de la station. Vérifiez le middleware et le contrôleur ; les pompes ne sont pas touchées, elles restent simplement sous la responsabilité du contrôleur.\n"
+"- Autorisation expirée : en demander une nouvelle.\n"
+"- Écart : ouvrir le journal d'audit, vérifier les enregistrements du contrôleur, puis Traiter avec une note.\n"
+
+msgctxt "model:ir.message,text:msg_line_delete_move"
+msgid ""
+"The reading of nozzle \"%(nozzle)s\" has stock moves and cannot be deleted."
+msgstr ""
+"Le relevé du pistolet « %(nozzle)s » a des mouvements de stock et ne peut "
+"pas être supprimé."
+
+msgctxt "model:ir.message,text:msg_line_index_order"
+msgid "The closing index cannot be lower than the opening index."
+msgstr ""
+"L'index de fermeture ne peut pas être inférieur à l'index d'ouverture."
+
+msgctxt "model:ir.message,text:msg_line_nozzle_station"
+msgid "Nozzle \"%(nozzle)s\" does not belong to station \"%(station)s\"."
+msgstr ""
+"Le pistolet « %(nozzle)s » n'appartient pas à la station « %(station)s »."
+
+msgctxt "model:ir.message,text:msg_line_nozzle_unique"
+msgid "A nozzle can appear only once per shift."
+msgstr "Un pistolet ne peut apparaître qu'une fois par quart."
+
+msgctxt "model:ir.message,text:msg_line_test_too_big"
+msgid "The test quantity of nozzle \"%(nozzle)s\" exceeds the pumped quantity."
+msgstr ""
+"La quantité d'essai du pistolet « %(nozzle)s » dépasse la quantité débitée."
+
+msgctxt "model:ir.message,text:msg_nozzle_number_unique"
+msgid "The number of the nozzle must be unique per pump."
+msgstr "Le numéro du pistolet doit être unique par pompe."
+
+msgctxt "model:ir.message,text:msg_nozzle_station"
+msgid "The tank of nozzle \"%(nozzle)s\" must belong to the station of its pump."
+msgstr ""
+"La cuve du pistolet « %(nozzle)s » doit appartenir à la station de sa pompe."
+
+msgctxt "model:ir.message,text:msg_payment_credit_party"
+msgid "Credit payments of shift \"%(shift)s\" must name the customer."
+msgstr ""
+"Les paiements à crédit du quart « %(shift)s » doivent indiquer le client."
+
+msgctxt "model:ir.message,text:msg_payment_shift_closed"
+msgid "The payments of shift \"%(shift)s\" can no longer be changed."
+msgstr "Les paiements du quart « %(shift)s » ne peuvent plus être modifiés."
+
+msgctxt "model:ir.message,text:msg_price_missing"
+msgid "No price is defined for \"%(product)s\" at \"%(station)s\" on %(date)s."
+msgstr ""
+"Aucun prix n'est défini pour « %(product)s » à « %(station)s » le %(date)s."
+
+msgctxt "model:ir.message,text:msg_price_unique"
+msgid "A price already exists for this station, fuel and date."
+msgstr "Un prix existe déjà pour cette station, ce carburant et cette date."
+
+msgctxt "model:ir.message,text:msg_pump_code_unique"
+msgid "The code of the pump must be unique per station."
+msgstr "Le code de la pompe doit être unique par station."
+
+msgctxt "model:ir.message,text:msg_reading_lower"
+msgid ""
+"The reading %(index)s of nozzle \"%(nozzle)s\" is lower than its opening "
+"index %(opening)s."
+msgstr ""
+"La lecture %(index)s du pistolet « %(nozzle)s » est inférieure à son index "
+"d'ouverture %(opening)s."
+
+msgctxt "model:ir.message,text:msg_reading_unknown_nozzle"
+msgid ""
+"No nozzle found for station \"%(station)s\", pump \"%(pump)s\", number "
+"%(number)s."
+msgstr ""
+"Aucun pistolet trouvé pour la station « %(station)s », pompe « %(pump)s », "
+"numéro %(number)s."
+
+msgctxt "model:ir.message,text:msg_shift_already_open"
+msgid ""
+"Station \"%(station)s\" already has an open shift: %(shift)s. Close it "
+"first."
+msgstr ""
+"La station « %(station)s » a déjà un quart ouvert : %(shift)s. Fermez-le "
+"d'abord."
+
+msgctxt "model:ir.message,text:msg_shift_cash_difference"
+msgid ""
+"Shift \"%(shift)s\" has a cash difference of %(difference)s. Close it "
+"anyway?"
+msgstr ""
+"Le quart « %(shift)s » a une différence de caisse de %(difference)s. Le "
+"fermer quand même ?"
+
+msgctxt "model:ir.message,text:msg_shift_delete"
+msgid "The shift \"%(shift)s\" cannot be deleted: cancel it first."
+msgstr ""
+"Le quart « %(shift)s » ne peut pas être supprimé : annulez-le d'abord."
+
+msgctxt "model:ir.message,text:msg_shift_missing_index"
+msgid ""
+"Enter the closing index of nozzle \"%(nozzle)s\" before closing shift "
+"\"%(shift)s\"."
+msgstr ""
+"Saisissez l'index de fermeture du pistolet « %(nozzle)s » avant de fermer le"
+" quart « %(shift)s »."
+
+msgctxt "model:ir.message,text:msg_shift_no_customer_location"
+msgid "No stock location of type \"Customer\" exists."
+msgstr "Aucun emplacement de stock de type « Client » n'existe."
+
+msgctxt "model:ir.message,text:msg_shift_no_lines"
+msgid "The shift \"%(shift)s\" has no pump reading."
+msgstr "Le quart « %(shift)s » n'a aucun relevé de pistolet."
+
+msgctxt "model:ir.message,text:msg_shift_no_nozzle"
+msgid "Station \"%(station)s\" has no active nozzle."
+msgstr "La station « %(station)s » n'a aucun pistolet actif."
+
+msgctxt "model:ir.message,text:msg_shift_stock_short"
+msgid ""
+"Tank \"%(tank)s\" holds %(book)s but %(sold)s were sold. A delivery may be "
+"missing. Continue anyway?"
+msgstr ""
+"La cuve « %(tank)s » contient %(book)s mais %(sold)s ont été vendus. Une "
+"livraison manque peut-être. Continuer quand même ?"
+
+msgctxt "model:ir.message,text:msg_station_code_unique"
+msgid "The code of the station must be unique per company."
+msgstr "Le code de la station doit être unique par société."
+
+msgctxt "model:ir.message,text:msg_station_no_storage"
+msgid "The warehouse of station \"%(station)s\" has no storage location."
+msgstr ""
+"L'entrepôt de la station « %(station)s » n'a pas d'emplacement de stockage."
+
+msgctxt "model:ir.message,text:msg_tank_code_unique"
+msgid "The code of the tank must be unique per station."
+msgstr "Le code de la cuve doit être unique par station."
+
+msgctxt "model:ir.message,text:msg_tank_min_capacity"
+msgid "The minimum level of a tank cannot exceed its capacity."
+msgstr "Le niveau minimum d'une cuve ne peut pas dépasser sa capacité."
+
+msgctxt "model:ir.model.button,string:authorization_approve_button"
+msgid "Approve"
+msgstr "Valider"
+
+msgctxt "model:ir.model.button,string:authorization_cancel_button"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "model:ir.model.button,string:authorization_reject_button"
+msgid "Reject"
+msgstr "Rejeter"
+
+msgctxt "model:ir.model.button,string:authorization_resolve_button"
+msgid "Resolve"
+msgstr "Traiter"
+
+msgctxt "model:ir.model.button,string:delivery_cancel_button"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "model:ir.model.button,string:delivery_draft_button"
+msgid "Draft"
+msgstr "Brouillon"
+
+msgctxt "model:ir.model.button,string:delivery_receive_button"
+msgid "Receive"
+msgstr "Recevoir"
+
+msgctxt "model:ir.model.button,string:dip_cancel_button"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "model:ir.model.button,string:dip_draft_button"
+msgid "Draft"
+msgstr "Brouillon"
+
+msgctxt "model:ir.model.button,string:dip_validate_dip_button"
+msgid "Validate"
+msgstr "Valider"
+
+msgctxt "model:ir.model.button,string:shift_cancel_button"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "model:ir.model.button,string:shift_close_button"
+msgid "Close"
+msgstr "Fermer"
+
+msgctxt "model:ir.model.button,string:shift_draft_button"
+msgid "Draft"
+msgstr "Brouillon"
+
+msgctxt "model:ir.model.button,string:shift_fetch_readings_button"
+msgid "Fetch Readings"
+msgstr "Récupérer les relevés"
+
+msgctxt "model:ir.model.button,string:shift_open_shift_button"
+msgid "Open"
+msgstr "Ouvert"
+
+msgctxt "model:ir.rule.group,name:rule_group_authorization"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_authorization_log"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_dashboard"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_delivery"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_delivery_line"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_dip"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_meter_reading"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_nozzle"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_price"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_pump"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_sales_report"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_shift"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_shift_line"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_shift_payment"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_shift_sale"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_station"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_tank"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.sequence,name:sequence_authorization"
+msgid "Fuel Authorization"
+msgstr "Autorisation carburant"
+
+msgctxt "model:ir.sequence,name:sequence_delivery"
+msgid "Fuel Delivery"
+msgstr "Livraison de carburant"
+
+msgctxt "model:ir.sequence,name:sequence_dip"
+msgid "Tank Dip"
+msgstr "Jaugeage de cuve"
+
+msgctxt "model:ir.sequence,name:sequence_shift"
+msgid "Fuel Shift"
+msgstr "Quart de carburant"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_authorization"
+msgid "Fuel Authorization"
+msgstr "Autorisation carburant"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_delivery"
+msgid "Fuel Delivery"
+msgstr "Livraison de carburant"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_dip"
+msgid "Tank Dip"
+msgstr "Jaugeage de cuve"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_shift"
+msgid "Fuel Shift"
+msgstr "Quart de carburant"
+
+msgctxt "model:ir.ui.menu,name:menu_authorization"
+msgid "Dispensing Authorizations"
+msgstr "Autorisations de distribution"
+
+msgctxt "model:ir.ui.menu,name:menu_authorization_pending"
+msgid "Authorizations to Approve"
+msgstr "Autorisations à valider"
+
+msgctxt "model:ir.ui.menu,name:menu_configuration"
+msgid "Configuration"
+msgstr "Configuration"
+
+msgctxt "model:ir.ui.menu,name:menu_dashboard"
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+msgctxt "model:ir.ui.menu,name:menu_delivery"
+msgid "Deliveries"
+msgstr "Livraisons"
+
+msgctxt "model:ir.ui.menu,name:menu_dip"
+msgid "Tank Dips"
+msgstr "Jaugeages"
+
+msgctxt "model:ir.ui.menu,name:menu_fuel"
+msgid "Fuel Station"
+msgstr "Station-service"
+
+msgctxt "model:ir.ui.menu,name:menu_fuel_product"
+msgid "Fuels"
+msgstr "Carburants"
+
+msgctxt "model:ir.ui.menu,name:menu_guide"
+msgid "Usage Guide"
+msgstr "Guide d'utilisation"
+
+msgctxt "model:ir.ui.menu,name:menu_meter_reading"
+msgid "Meter Readings"
+msgstr "Relevés de compteur"
+
+msgctxt "model:ir.ui.menu,name:menu_meter_reading_import"
+msgid "Import Meter Readings"
+msgstr "Importer des relevés de compteur"
+
+msgctxt "model:ir.ui.menu,name:menu_move"
+msgid "Fuel Stock Moves"
+msgstr "Mouvements de stock carburant"
+
+msgctxt "model:ir.ui.menu,name:menu_nozzle"
+msgid "Nozzles"
+msgstr "Pistolets"
+
+msgctxt "model:ir.ui.menu,name:menu_operations"
+msgid "Operations"
+msgstr "Opérations"
+
+msgctxt "model:ir.ui.menu,name:menu_price"
+msgid "Fuel Prices"
+msgstr "Prix des carburants"
+
+msgctxt "model:ir.ui.menu,name:menu_pump"
+msgid "Pumps"
+msgstr "Pompes"
+
+msgctxt "model:ir.ui.menu,name:menu_reports"
+msgid "Reports"
+msgstr "Rapports"
+
+msgctxt "model:ir.ui.menu,name:menu_sales_report"
+msgid "Fuel Sales"
+msgstr "Ventes de carburant"
+
+msgctxt "model:ir.ui.menu,name:menu_shift"
+msgid "Shifts"
+msgstr "Quarts"
+
+msgctxt "model:ir.ui.menu,name:menu_station"
+msgid "Stations"
+msgstr "Stations"
+
+msgctxt "model:ir.ui.menu,name:menu_stock"
+msgid "Stock"
+msgstr "Stock"
+
+msgctxt "model:ir.ui.menu,name:menu_tank"
+msgid "Tank Levels"
+msgstr "Niveaux des cuves"
+
+msgctxt "model:ir.ui.menu,name:menu_tank_low"
+msgid "Low Tanks"
+msgstr "Cuves basses"
+
+msgctxt "model:res.group,name:group_fuel"
+msgid "Fuel Station"
+msgstr "Station-service"
+
+msgctxt "model:res.group,name:group_fuel_admin"
+msgid "Fuel Station Administration"
+msgstr "Administration station-service"
+
+msgctxt "model:res.group,name:group_fuel_manager"
+msgid "Fuel Authorization Manager"
+msgstr "Responsable des autorisations carburant"
+
+msgctxt "model:res.group,name:group_fuel_middleware"
+msgid "Fuel Middleware"
+msgstr "Middleware carburant"
+
+msgctxt "report:fuel.shift.report:"
+msgid "Amount"
+msgstr "Montant"
+
+msgctxt "report:fuel.shift.report:"
+msgid "Closing"
+msgstr "Fermeture"
+
+msgctxt "report:fuel.shift.report:"
+msgid "Difference:"
+msgstr "Différence :"
+
+msgctxt "report:fuel.shift.report:"
+msgid "Fuel"
+msgstr "Carburant"
+
+msgctxt "report:fuel.shift.report:"
+msgid "Method"
+msgstr "Mode"
+
+msgctxt "report:fuel.shift.report:"
+msgid "Nozzle"
+msgstr "Pistolet"
+
+msgctxt "report:fuel.shift.report:"
+msgid "Nozzles"
+msgstr "Pistolets"
+
+msgctxt "report:fuel.shift.report:"
+msgid "Opening"
+msgstr "Ouverture"
+
+msgctxt "report:fuel.shift.report:"
+msgid "Payments"
+msgstr "Paiements"
+
+msgctxt "report:fuel.shift.report:"
+msgid "Price"
+msgstr "Prix"
+
+msgctxt "report:fuel.shift.report:"
+msgid "Quantity"
+msgstr "Quantité"
+
+msgctxt "report:fuel.shift.report:"
+msgid "Reference"
+msgstr "Référence"
+
+msgctxt "report:fuel.shift.report:"
+msgid "Shift Report"
+msgstr "Rapport de quart"
+
+msgctxt "report:fuel.shift.report:"
+msgid "Test"
+msgstr "Essai"
+
+msgctxt "report:fuel.shift.report:"
+msgid "Total paid:"
+msgstr "Total payé :"
+
+msgctxt "report:fuel.shift.report:"
+msgid "Total quantity:"
+msgstr "Quantité totale :"
+
+msgctxt "report:fuel.shift.report:"
+msgid "Total sales:"
+msgstr "Total des ventes :"
+
+msgctxt "report:fuel.shift.report:"
+msgid "—"
+msgstr "—"
+
+msgctxt "selection:fuel.authorization,limit_type:"
+msgid "Maximum Amount"
+msgstr "Montant maximal"
+
+msgctxt "selection:fuel.authorization,limit_type:"
+msgid "Maximum Quantity"
+msgstr "Quantité maximale"
+
+msgctxt "selection:fuel.authorization,state:"
+msgid "Approved"
+msgstr "Validée"
+
+msgctxt "selection:fuel.authorization,state:"
+msgid "Cancellation Requested"
+msgstr "Annulation demandée"
+
+msgctxt "selection:fuel.authorization,state:"
+msgid "Cancelled"
+msgstr "Annulé"
+
+msgctxt "selection:fuel.authorization,state:"
+msgid "Completed"
+msgstr "Terminée"
+
+msgctxt "selection:fuel.authorization,state:"
+msgid "Confirmed"
+msgstr "Confirmée"
+
+msgctxt "selection:fuel.authorization,state:"
+msgid "Discrepancy"
+msgstr "Écart"
+
+msgctxt "selection:fuel.authorization,state:"
+msgid "Expired"
+msgstr "Expirée"
+
+msgctxt "selection:fuel.authorization,state:"
+msgid "Pending"
+msgstr "En attente"
+
+msgctxt "selection:fuel.authorization,state:"
+msgid "Refused"
+msgstr "Refusée"
+
+msgctxt "selection:fuel.authorization,state:"
+msgid "Rejected"
+msgstr "Rejetée"
+
+msgctxt "selection:fuel.authorization,state:"
+msgid "Resolved"
+msgstr "Traitée"
+
+msgctxt "selection:fuel.authorization,state:"
+msgid "Transmitted"
+msgstr "Transmise"
+
+msgctxt "selection:fuel.authorization.log,event:"
+msgid "Approved"
+msgstr "Validée"
+
+msgctxt "selection:fuel.authorization.log,event:"
+msgid "Cancellation requested"
+msgstr "Annulation demandée"
+
+msgctxt "selection:fuel.authorization.log,event:"
+msgid "Cancelled"
+msgstr "Annulé"
+
+msgctxt "selection:fuel.authorization.log,event:"
+msgid "Completed"
+msgstr "Terminée"
+
+msgctxt "selection:fuel.authorization.log,event:"
+msgid "Confirmed by the controller"
+msgstr "Confirmée par le contrôleur"
+
+msgctxt "selection:fuel.authorization.log,event:"
+msgid "Discrepancy"
+msgstr "Écart"
+
+msgctxt "selection:fuel.authorization.log,event:"
+msgid "Discrepancy resolved"
+msgstr "Écart traité"
+
+msgctxt "selection:fuel.authorization.log,event:"
+msgid "Expired"
+msgstr "Expirée"
+
+msgctxt "selection:fuel.authorization.log,event:"
+msgid "Information"
+msgstr "Information"
+
+msgctxt "selection:fuel.authorization.log,event:"
+msgid "Refused by the controller"
+msgstr "Refusée par le contrôleur"
+
+msgctxt "selection:fuel.authorization.log,event:"
+msgid "Rejected"
+msgstr "Rejetée"
+
+msgctxt "selection:fuel.authorization.log,event:"
+msgid "Requested"
+msgstr "Demandée"
+
+msgctxt "selection:fuel.authorization.log,event:"
+msgid "Transmitted to the controller"
+msgstr "Transmise au contrôleur"
+
+msgctxt "selection:fuel.delivery,state:"
+msgid "Cancelled"
+msgstr "Annulé"
+
+msgctxt "selection:fuel.delivery,state:"
+msgid "Done"
+msgstr "Terminé"
+
+msgctxt "selection:fuel.delivery,state:"
+msgid "Draft"
+msgstr "Brouillon"
+
+msgctxt "selection:fuel.dip,state:"
+msgid "Cancelled"
+msgstr "Annulé"
+
+msgctxt "selection:fuel.dip,state:"
+msgid "Done"
+msgstr "Terminé"
+
+msgctxt "selection:fuel.dip,state:"
+msgid "Draft"
+msgstr "Brouillon"
+
+msgctxt "selection:fuel.meter.reading,source:"
+msgid "File Import"
+msgstr "Import de fichier"
+
+msgctxt "selection:fuel.meter.reading,source:"
+msgid "Manual"
+msgstr "Manuel"
+
+msgctxt "selection:fuel.meter.reading,source:"
+msgid "Pump Controller"
+msgstr "Contrôleur de pompes"
+
+msgctxt "selection:fuel.shift,state:"
+msgid "Cancelled"
+msgstr "Annulé"
+
+msgctxt "selection:fuel.shift,state:"
+msgid "Closed"
+msgstr "Fermé"
+
+msgctxt "selection:fuel.shift,state:"
+msgid "Draft"
+msgstr "Brouillon"
+
+msgctxt "selection:fuel.shift,state:"
+msgid "Open"
+msgstr "Ouvert"
+
+msgctxt "selection:fuel.shift.payment,method:"
+msgid "Card"
+msgstr "Carte"
+
+msgctxt "selection:fuel.shift.payment,method:"
+msgid "Cash"
+msgstr "Espèces"
+
+msgctxt "selection:fuel.shift.payment,method:"
+msgid "Customer Credit"
+msgstr "Crédit client"
+
+msgctxt "selection:fuel.shift.payment,method:"
+msgid "Fuel Voucher"
+msgstr "Bon de carburant"
+
+msgctxt "selection:fuel.shift.payment,method:"
+msgid "Mobile Money"
+msgstr "Argent mobile"
+
+msgctxt "selection:ir.cron,method:"
+msgid "Expire Fuel Dispensing Authorizations"
+msgstr "Faire expirer les autorisations de distribution"
+
+msgctxt "selection:ir.cron,method:"
+msgid "Notify Fuel Station Alerts"
+msgstr "Notifier les alertes de la station-service"
+
+msgctxt "selection:product.template,fuel_family:"
+msgid "Diesel"
+msgstr "Diesel"
+
+msgctxt "selection:product.template,fuel_family:"
+msgid "Gasoline"
+msgstr "Essence"
+
+msgctxt "selection:product.template,fuel_family:"
+msgid "Kerosene / Jet"
+msgstr "Kérosène / Jet"
+
+msgctxt "selection:product.template,fuel_family:"
+msgid "Other (LPG, additive...)"
+msgstr "Autre (GPL, additif...)"
+
+msgctxt "view:fuel.authorization:"
+msgid "Approval and Controller"
+msgstr "Validation et contrôleur"
+
+msgctxt "view:fuel.authorization:"
+msgid "Audit Log"
+msgstr "Journal d'audit"
+
+msgctxt "view:fuel.authorization:"
+msgid "Dispensing"
+msgstr "Distribution"
+
+msgctxt "view:fuel.authorization:"
+msgid "Request"
+msgstr "Demande"
+
+msgctxt "view:fuel.dashboard:"
+msgid "Stock"
+msgstr "Stock"
+
+msgctxt "view:fuel.dashboard:"
+msgid "Today"
+msgstr "Aujourd'hui"
+
+msgctxt "view:fuel.delivery:"
+msgid "Tanks Unloaded"
+msgstr "Cuves dépotées"
+
+msgctxt "view:fuel.delivery:"
+msgid "Transport"
+msgstr "Transport"
+
+msgctxt "view:fuel.dip:"
+msgid "Measure"
+msgstr "Mesure"
+
+msgctxt "view:fuel.dip:"
+msgid "Result"
+msgstr "Résultat"
+
+msgctxt "view:fuel.shift:"
+msgid "Cash Control"
+msgstr "Contrôle de caisse"
+
+msgctxt "view:fuel.shift:"
+msgid "Cash Reconciliation"
+msgstr "Rapprochement de caisse"
+
+msgctxt "view:fuel.shift:"
+msgid "Notes"
+msgstr "Notes"
+
+msgctxt "view:fuel.shift:"
+msgid "Payments"
+msgstr "Paiements"
+
+msgctxt "view:fuel.shift:"
+msgid "Pump Readings"
+msgstr "Relevés des pistolets"
+
+msgctxt "view:fuel.shift:"
+msgid "Shop and LPG"
+msgstr "Boutique et GPL"
+
+msgctxt "view:fuel.shift:"
+msgid "Totals"
+msgstr "Totaux"
+
+msgctxt "view:fuel.station:"
+msgid "Authorizations"
+msgstr "Autorisations"
+
+msgctxt "view:fuel.station:"
+msgid "Controls"
+msgstr "Contrôles"
+
+msgctxt "view:fuel.station:"
+msgid "Pumps"
+msgstr "Pompes"
+
+msgctxt "view:fuel.station:"
+msgid "Tanks"
+msgstr "Cuves"
+
+msgctxt "view:fuel.tank:"
+msgid "Level"
+msgstr "Niveau"
+
+msgctxt "view:product.template:"
+msgid "Fuel Station"
+msgstr "Station-service"
+
+msgctxt "wizard_button:fuel.guide,start,end:"
+msgid "Close"
+msgstr "Fermer"
+
+msgctxt "wizard_button:fuel.meter.reading.import,start,end:"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "wizard_button:fuel.meter.reading.import,start,import_:"
+msgid "Import"
+msgstr "Importer"

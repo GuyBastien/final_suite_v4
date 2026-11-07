@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_communication module. -->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="template_view_form">
+            <field name="model">hotel.message.template</field>
+            <field name="type">form</field>
+            <field name="name">template_form</field>
+        </record>
+        <record model="ir.ui.view" id="template_view_list">
+            <field name="model">hotel.message.template</field>
+            <field name="type">tree</field>
+            <field name="name">template_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_template">
+            <field name="name">Message Templates</field>
+            <field name="res_model">hotel.message.template</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_template_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="template_view_list"/>
+            <field name="act_window" ref="act_template"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_template_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="template_view_form"/>
+            <field name="act_window" ref="act_template"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_template_domain_all">
+            <field name="name">All</field>
+            <field name="sequence" eval="9999"/>
+            <field name="domain" eval="[]" pyson="1"/>
+            <field name="act_window" ref="act_template"/>
+        </record>
+        <record model="ir.model.access" id="access_template_default">
+            <field name="model" search="[('model', '=', 'hotel.message.template')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_template_group_hotel">
+            <field name="model" search="[('model', '=', 'hotel.message.template')]"/>
+            <field name="group" ref="hotel.group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_template_companies">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'hotel.message.template')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_template_companies">
+            <field name="domain" eval="[('company', 'in', Eval('companies', []))]" pyson="1"/>
+            <field name="rule_group" ref="rule_group_template_companies"/>
+        </record>
+        <record model="ir.ui.view" id="message_view_form">
+            <field name="model">hotel.message</field>
+            <field name="type">form</field>
+            <field name="name">message_form</field>
+        </record>
+        <record model="ir.ui.view" id="message_view_list">
+            <field name="model">hotel.message</field>
+            <field name="type">tree</field>
+            <field name="name">message_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_message">
+            <field name="name">Messages</field>
+            <field name="res_model">hotel.message</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_message_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="message_view_list"/>
+            <field name="act_window" ref="act_message"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_message_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="message_view_form"/>
+            <field name="act_window" ref="act_message"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_message_domain1">
+            <field name="name">Queued</field>
+            <field name="sequence" eval="10"/>
+            <field name="domain" eval="[('state', '=', 'queued')]" pyson="1"/>
+            <field name="act_window" ref="act_message"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_message_domain2">
+            <field name="name">Failed</field>
+            <field name="sequence" eval="20"/>
+            <field name="domain" eval="[('state', '=', 'failed')]" pyson="1"/>
+            <field name="act_window" ref="act_message"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_message_domain_all">
+            <field name="name">All</field>
+            <field name="sequence" eval="9999"/>
+            <field name="domain" eval="[]" pyson="1"/>
+            <field name="act_window" ref="act_message"/>
+        </record>
+        <record model="ir.model.access" id="access_message_default">
+            <field name="model" search="[('model', '=', 'hotel.message')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_message_group_hotel">
+            <field name="model" search="[('model', '=', 'hotel.message')]"/>
+            <field name="group" ref="hotel.group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_message_companies">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'hotel.message')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_message_companies">
+            <field name="domain" eval="[('company', 'in', Eval('companies', []))]" pyson="1"/>
+            <field name="rule_group" ref="rule_group_message_companies"/>
+        </record>
+        <record model="ir.model.button" id="message_send_button">
+            <field name="model" search="[('model', '=', 'hotel.message')]"/>
+            <field name="name">send</field>
+            <field name="string">Send</field>
+        </record>
+        <record model="ir.model.button" id="message_retry_button">
+            <field name="model" search="[('model', '=', 'hotel.message')]"/>
+            <field name="name">retry</field>
+            <field name="string">Retry</field>
+        </record>
+        <record model="ir.model.button" id="message_cancel_button">
+            <field name="model" search="[('model', '=', 'hotel.message')]"/>
+            <field name="name">cancel</field>
+            <field name="string">Cancel</field>
+        </record>
+        <record model="ir.cron" id="cron_send">
+            <field name="method">hotel.message|send_queued</field>
+            <field name="interval_number" eval="10"/>
+            <field name="interval_type">minutes</field>
+        </record>
+        <record model="ir.cron" id="cron_reminders">
+            <field name="method">hotel.message|generate_reminders</field>
+            <field name="interval_number" eval="1"/>
+            <field name="interval_type">hours</field>
+        </record>
+        <record model="ir.ui.view" id="hotel_view_form">
+            <field name="model">hotel.hotel</field>
+            <field name="inherit" ref="hotel.hotel_view_form"/>
+            <field name="name">hotel_form</field>
+        </record>
+        <record model="ir.ui.view" id="reservation_view_form">
+            <field name="model">hotel.reservation</field>
+            <field name="inherit" ref="hotel_pms.reservation_view_form"/>
+            <field name="name">reservation_form</field>
+        </record>
+        <record model="ir.model.button" id="hotel_create_default_templates_button">
+            <field name="model" search="[('model', '=', 'hotel.hotel')]"/>
+            <field name="name">create_default_templates</field>
+            <field name="string">Create Default Templates</field>
+        </record>
+        <record model="ir.model.button-res.group" id="hotel_create_default_templates_button_group_admin">
+            <field name="button" ref="hotel_create_default_templates_button"/>
+            <field name="group" ref="hotel.group_hotel_admin"/>
+        </record>
+        <record model="ir.model.button" id="reservation_send_precheckin_button">
+            <field name="model" search="[('model', '=', 'hotel.reservation')]"/>
+            <field name="name">send_precheckin</field>
+            <field name="string">Send Pre-check-in</field>
+        </record>
+        <record model="ir.model.button-res.group" id="reservation_send_precheckin_button_group_hotel">
+            <field name="button" ref="reservation_send_precheckin_button"/>
+            <field name="group" ref="hotel.group_hotel"/>
+        </record>
+
+        <menuitem icon="tryton-hotel-message" name="Messages" parent="hotel.menu_hotel" id="menu_communication" sequence="60"/>
+        <menuitem icon="tryton-hotel-message" parent="menu_communication" action="act_message" id="menu_message" sequence="10"/>
+        <menuitem icon="tryton-hotel-message" parent="menu_communication" action="act_template" id="menu_template" sequence="20"/>
+    </data>
+</tryton>

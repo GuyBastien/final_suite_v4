@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton restaurant module. -->
+<tree>
+    <field name="number"/>
+    <field name="date"/>
+    <field name="restaurant"/>
+    <field name="cashier"/>
+    <field name="opening_amount"/>
+    <field name="cash_sales"/>
+    <field name="closing_amount"/>
+    <field optional="1" name="difference"/>
+    <field optional="1" name="state"/>
+    <!-- <field name="opened_at"/> -->
+    <!-- <field name="closed_at"/> -->
+</tree>

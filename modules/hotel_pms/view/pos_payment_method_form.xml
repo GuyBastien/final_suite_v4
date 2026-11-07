@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_pms module. -->
+<data>
+    <xpath expr="/form/field[@name='cash']" position="after">
+        <label name="room_charge"/>
+        <field name="room_charge"/>
+    </xpath>
+</data>

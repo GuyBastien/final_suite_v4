@@ -1,0 +1,444 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:hotel.restaurant.booking,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:hotel.restaurant.booking,covers:"
+msgid "Covers"
+msgstr "Couverts"
+
+msgctxt "field:hotel.restaurant.booking,date:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "field:hotel.restaurant.booking,duration:"
+msgid "Duration (min)"
+msgstr "Durée (min)"
+
+msgctxt "field:hotel.restaurant.booking,guest_name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:hotel.restaurant.booking,hotel:"
+msgid "Hotel"
+msgstr "Hôtel"
+
+msgctxt "field:hotel.restaurant.booking,notes:"
+msgid "Notes"
+msgstr "Notes"
+
+msgctxt "field:hotel.restaurant.booking,party:"
+msgid "Guest"
+msgstr "Client"
+
+msgctxt "field:hotel.restaurant.booking,reservation:"
+msgid "Reservation"
+msgstr "Réservation"
+
+msgctxt "field:hotel.restaurant.booking,state:"
+msgid "State"
+msgstr "État"
+
+msgctxt "field:hotel.restaurant.booking,table:"
+msgid "Table"
+msgstr "Table"
+
+msgctxt "field:hotel.restaurant.booking,time:"
+msgid "Time"
+msgstr "Heure"
+
+msgctxt "field:hotel.restaurant.table,area:"
+msgid "Area"
+msgstr "Zone"
+
+msgctxt "field:hotel.restaurant.table,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:hotel.restaurant.table,hotel:"
+msgid "Hotel"
+msgstr "Hôtel"
+
+msgctxt "field:hotel.restaurant.table,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:hotel.restaurant.table,seats:"
+msgid "Seats"
+msgstr "Places"
+
+msgctxt "field:hotel.service,capacity:"
+msgid "Capacity"
+msgstr "Capacité"
+
+msgctxt "field:hotel.service,category:"
+msgid "Category"
+msgstr "Catégorie"
+
+msgctxt "field:hotel.service,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:hotel.service,duration:"
+msgid "Duration (min)"
+msgstr "Durée (min)"
+
+msgctxt "field:hotel.service,hotel:"
+msgid "Hotel"
+msgstr "Hôtel"
+
+msgctxt "field:hotel.service,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:hotel.service,product:"
+msgid "Product"
+msgstr "Produit"
+
+msgctxt "field:hotel.service.booking,amount:"
+msgid "Amount"
+msgstr "Montant"
+
+msgctxt "field:hotel.service.booking,charge:"
+msgid "Charge"
+msgstr "Frais"
+
+msgctxt "field:hotel.service.booking,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:hotel.service.booking,date:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "field:hotel.service.booking,duration:"
+msgid "Duration (min)"
+msgstr "Durée (min)"
+
+msgctxt "field:hotel.service.booking,end_time:"
+msgid "End"
+msgstr "Fin"
+
+msgctxt "field:hotel.service.booking,hotel:"
+msgid "Hotel"
+msgstr "Hôtel"
+
+msgctxt "field:hotel.service.booking,notes:"
+msgid "Notes"
+msgstr "Notes"
+
+msgctxt "field:hotel.service.booking,number:"
+msgid "Number"
+msgstr "Numéro"
+
+msgctxt "field:hotel.service.booking,participants:"
+msgid "Participants"
+msgstr "Participants"
+
+msgctxt "field:hotel.service.booking,party:"
+msgid "Guest"
+msgstr "Client"
+
+msgctxt "field:hotel.service.booking,reservation:"
+msgid "Reservation"
+msgstr "Réservation"
+
+msgctxt "field:hotel.service.booking,resource:"
+msgid "Resource"
+msgstr "Ressource"
+
+msgctxt "field:hotel.service.booking,sale:"
+msgid "Sale"
+msgstr "Vente"
+
+msgctxt "field:hotel.service.booking,service:"
+msgid "Service"
+msgstr "Service"
+
+msgctxt "field:hotel.service.booking,start_time:"
+msgid "Start"
+msgstr "Début"
+
+msgctxt "field:hotel.service.booking,state:"
+msgid "State"
+msgstr "État"
+
+msgctxt "field:hotel.service.booking,unit_price:"
+msgid "Unit Price"
+msgstr "Prix unitaire"
+
+msgctxt "field:hotel.service.resource,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:hotel.service.resource,hotel:"
+msgid "Hotel"
+msgstr "Hôtel"
+
+msgctxt "field:hotel.service.resource,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:hotel.service.resource,notes:"
+msgid "Notes"
+msgstr "Notes"
+
+msgctxt "help:hotel.restaurant.booking,reservation:"
+msgid "Stay of the guest, for the room charge at the restaurant."
+msgstr ""
+"Séjour du client, pour le report sur la note de chambre au restaurant."
+
+msgctxt "help:hotel.restaurant.table,area:"
+msgid "Terrace, main room, bar..."
+msgstr "Terrasse, salle principale, bar..."
+
+msgctxt "help:hotel.service,capacity:"
+msgid "Number of participants at the same time."
+msgstr "Nombre de participants en même temps."
+
+msgctxt "help:hotel.service,product:"
+msgid "The service invoiced to the guest."
+msgstr "Le service facturé au client."
+
+msgctxt "help:hotel.service.booking,reservation:"
+msgid ""
+"The price is added to the charges of the reservation. Without reservation a "
+"sale is created."
+msgstr ""
+"Le prix est ajouté aux frais de la réservation. Sans réservation, une vente "
+"est créée."
+
+msgctxt "help:hotel.service.booking,resource:"
+msgid "Therapist, room or vehicle."
+msgstr "Thérapeute, salle ou véhicule."
+
+msgctxt "model:hotel.restaurant.booking,name:"
+msgid "Restaurant Booking"
+msgstr "Réservation de restaurant"
+
+msgctxt "model:hotel.restaurant.table,name:"
+msgid "Restaurant Table"
+msgstr "Table du restaurant"
+
+msgctxt "model:hotel.service,name:"
+msgid "Hotel Service"
+msgstr "Service de l'hôtel"
+
+msgctxt "model:hotel.service.booking,name:"
+msgid "Service Booking"
+msgstr "Réservation de service"
+
+msgctxt "model:hotel.service.resource,name:"
+msgid "Service Resource"
+msgstr "Ressource de service"
+
+msgctxt "model:ir.action,name:act_booking"
+msgid "Service Bookings"
+msgstr "Réservations de services"
+
+msgctxt "model:ir.action,name:act_resource"
+msgid "Service Resources"
+msgstr "Ressources de service"
+
+msgctxt "model:ir.action,name:act_service"
+msgid "Services"
+msgstr "Services"
+
+msgctxt "model:ir.action,name:act_table"
+msgid "Restaurant Tables"
+msgstr "Tables de restaurant"
+
+msgctxt "model:ir.action,name:act_table_booking"
+msgid "Restaurant Bookings"
+msgstr "Réservations de restaurant"
+
+msgctxt "model:ir.message,text:msg_booking_capacity"
+msgid ""
+"The booking \"%(booking)s\" exceeds the capacity (%(capacity)s) of the "
+"service \"%(service)s\" on this slot."
+msgstr ""
+"La réservation « %(booking)s » dépasse la capacité (%(capacity)s) du service"
+" « %(service)s » sur ce créneau."
+
+msgctxt "model:ir.message,text:msg_booking_delete_done"
+msgid "You cannot delete the completed booking \"%(booking)s\"."
+msgstr "Vous ne pouvez pas supprimer la réservation terminée « %(booking)s »."
+
+msgctxt "model:ir.message,text:msg_booking_resource_busy"
+msgid ""
+"The resource \"%(resource)s\" is already booked for \"%(booking)s\" (see "
+"\"%(other)s\")."
+msgstr ""
+"La ressource « %(resource)s » est déjà réservée pour « %(booking)s » (voir «"
+" %(other)s »)."
+
+msgctxt "model:ir.message,text:msg_resource_unique"
+msgid "A resource with this name already exists in the hotel."
+msgstr "Une ressource portant ce nom existe déjà dans l'hôtel."
+
+msgctxt "model:ir.message,text:msg_table_busy"
+msgid "The table \"%(table)s\" is already booked around %(time)s."
+msgstr "La table « %(table)s » est déjà réservée autour de %(time)s."
+
+msgctxt "model:ir.message,text:msg_table_seats"
+msgid "The table \"%(table)s\" has %(seats)s seats, not %(covers)s."
+msgstr "La table « %(table)s » a %(seats)s places, pas %(covers)s."
+
+msgctxt "model:ir.message,text:msg_table_unique"
+msgid "A table with this name already exists in the hotel."
+msgstr "Une table portant ce nom existe déjà dans l'hôtel."
+
+msgctxt "model:ir.model.button,string:booking_cancel_button"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "model:ir.model.button,string:booking_complete_button"
+msgid "Complete"
+msgstr "Terminer"
+
+msgctxt "model:ir.model.button,string:booking_confirm_button"
+msgid "Confirm"
+msgstr "Confirmer"
+
+msgctxt "model:ir.model.button,string:booking_draft_button"
+msgid "Draft"
+msgstr "Brouillon"
+
+msgctxt "model:ir.model.button,string:table_booking_cancel_button"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "model:ir.model.button,string:table_booking_finish_button"
+msgid "Finish"
+msgstr "Terminer"
+
+msgctxt "model:ir.model.button,string:table_booking_no_show_button"
+msgid "No-Show"
+msgstr "Non-présentation"
+
+msgctxt "model:ir.model.button,string:table_booking_seat_button"
+msgid "Seat"
+msgstr "Installer"
+
+msgctxt "model:ir.rule.group,name:rule_group_booking_companies"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_resource_companies"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_service_companies"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_table_booking_companies"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_table_companies"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.sequence,name:sequence_booking"
+msgid "Hotel Service Booking"
+msgstr "Réservation de service de l'hôtel"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_booking"
+msgid "Hotel Service Booking"
+msgstr "Réservation de service de l'hôtel"
+
+msgctxt "model:ir.ui.menu,name:menu_booking"
+msgid "Service Bookings"
+msgstr "Réservations de services"
+
+msgctxt "model:ir.ui.menu,name:menu_resource"
+msgid "Service Resources"
+msgstr "Ressources de service"
+
+msgctxt "model:ir.ui.menu,name:menu_service"
+msgid "Services"
+msgstr "Services"
+
+msgctxt "model:ir.ui.menu,name:menu_services"
+msgid "Services"
+msgstr "Services"
+
+msgctxt "model:ir.ui.menu,name:menu_table"
+msgid "Restaurant Tables"
+msgstr "Tables de restaurant"
+
+msgctxt "model:ir.ui.menu,name:menu_table_booking"
+msgid "Restaurant Bookings"
+msgstr "Réservations de restaurant"
+
+msgctxt "selection:hotel.restaurant.booking,state:"
+msgid "Booked"
+msgstr "Réservé"
+
+msgctxt "selection:hotel.restaurant.booking,state:"
+msgid "Cancelled"
+msgstr "Annulée"
+
+msgctxt "selection:hotel.restaurant.booking,state:"
+msgid "Done"
+msgstr "Terminé"
+
+msgctxt "selection:hotel.restaurant.booking,state:"
+msgid "No-Show"
+msgstr "Non-présentation"
+
+msgctxt "selection:hotel.restaurant.booking,state:"
+msgid "Seated"
+msgstr "Installé"
+
+msgctxt "selection:hotel.service,category:"
+msgid "Activity"
+msgstr "Activité"
+
+msgctxt "selection:hotel.service,category:"
+msgid "Other"
+msgstr "Autre"
+
+msgctxt "selection:hotel.service,category:"
+msgid "Spa & Wellness"
+msgstr "Spa et bien-être"
+
+msgctxt "selection:hotel.service,category:"
+msgid "Transport"
+msgstr "Transport"
+
+msgctxt "selection:hotel.service.booking,state:"
+msgid "Cancelled"
+msgstr "Annulée"
+
+msgctxt "selection:hotel.service.booking,state:"
+msgid "Confirmed"
+msgstr "Confirmée"
+
+msgctxt "selection:hotel.service.booking,state:"
+msgid "Done"
+msgstr "Terminé"
+
+msgctxt "selection:hotel.service.booking,state:"
+msgid "Draft"
+msgstr "Brouillon"
+
+msgctxt "model:ir.action.act_window.domain,name:act_booking_domain_todo"
+msgid "To Do"
+msgstr "À faire"
+
+msgctxt "model:ir.action.act_window.domain,name:act_booking_domain_all"
+msgid "All"
+msgstr "Toutes"
+
+msgctxt "model:ir.action.act_window.domain,name:act_table_booking_domain_todo"
+msgid "Upcoming"
+msgstr "À venir"
+
+msgctxt "model:ir.action.act_window.domain,name:act_table_booking_domain_all"
+msgid "All"
+msgstr "Toutes"

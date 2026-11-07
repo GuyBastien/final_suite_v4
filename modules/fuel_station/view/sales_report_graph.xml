@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton fuel_station module. -->
+<graph type="vbar">
+    <x>
+        <field name="date"/>
+    </x>
+    <y>
+        <field name="amount"/>
+    </y>
+</graph>

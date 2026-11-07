@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton fuel_station module. -->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="shift_sale_view_form">
+            <field name="model">fuel.shift.sale</field>
+            <field name="type">form</field>
+            <field name="name">shift_sale_form</field>
+        </record>
+        <record model="ir.ui.view" id="shift_sale_view_list">
+            <field name="model">fuel.shift.sale</field>
+            <field name="type">tree</field>
+            <field name="name">shift_sale_list</field>
+        </record>
+        <record model="ir.model.access" id="access_shift_sale">
+            <field name="model" search="[('model', '=', 'fuel.shift.sale')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_shift_sale_user">
+            <field name="model" search="[('model', '=', 'fuel.shift.sale')]"/>
+            <field name="group" ref="group_fuel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.model.access" id="access_shift_sale_admin">
+            <field name="model" search="[('model', '=', 'fuel.shift.sale')]"/>
+            <field name="group" ref="group_fuel_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_shift_sale">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'fuel.shift.sale')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_shift_sale">
+            <field name="domain"
+                eval="[('shift.company', 'in', Eval('companies', []))]"
+                pyson="1"/>
+            <field name="rule_group" ref="rule_group_shift_sale"/>
+        </record>
+        <record model="ir.ui.view" id="meter_reading_view_form">
+            <field name="model">fuel.meter.reading</field>
+            <field name="type">form</field>
+            <field name="name">meter_reading_form</field>
+        </record>
+        <record model="ir.ui.view" id="meter_reading_view_list">
+            <field name="model">fuel.meter.reading</field>
+            <field name="type">tree</field>
+            <field name="name">meter_reading_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_meter_reading">
+            <field name="name">Meter Readings</field>
+            <field name="res_model">fuel.meter.reading</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_meter_reading_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="meter_reading_view_list"/>
+            <field name="act_window" ref="act_meter_reading"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_meter_reading_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="meter_reading_view_form"/>
+            <field name="act_window" ref="act_meter_reading"/>
+        </record>
+        <menuitem icon="tryton-fuel-pump" name="Meter Readings" parent="menu_operations" id="menu_meter_reading" sequence="40" action="act_meter_reading"/>
+        <record model="ir.ui.view" id="meter_reading_import_start_view_form">
+            <field name="model">fuel.meter.reading.import.start</field>
+            <field name="type">form</field>
+            <field name="name">meter_reading_import_start_form</field>
+        </record>
+        <record model="ir.action.wizard" id="wizard_meter_reading_import">
+            <field name="name">Import Meter Readings</field>
+            <field name="wiz_name">fuel.meter.reading.import</field>
+        </record>
+        <menuitem icon="tryton-fuel-pump" parent="menu_operations" action="wizard_meter_reading_import" id="menu_meter_reading_import" sequence="45"/>
+        <record model="ir.model.access" id="access_meter_reading">
+            <field name="model" search="[('model', '=', 'fuel.meter.reading')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_meter_reading_user">
+            <field name="model" search="[('model', '=', 'fuel.meter.reading')]"/>
+            <field name="group" ref="group_fuel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.model.access" id="access_meter_reading_admin">
+            <field name="model" search="[('model', '=', 'fuel.meter.reading')]"/>
+            <field name="group" ref="group_fuel_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_meter_reading">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'fuel.meter.reading')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_meter_reading">
+            <field name="domain"
+                eval="[('nozzle.pump.station.company', 'in', Eval('companies', []))]"
+                pyson="1"/>
+            <field name="rule_group" ref="rule_group_meter_reading"/>
+        </record>
+        <record model="ir.model.button" id="shift_fetch_readings_button">
+            <field name="model" search="[('model', '=', 'fuel.shift')]"/>
+            <field name="name">fetch_readings</field>
+            <field name="string">Fetch Readings</field>
+        </record>
+    </data>
+</tryton>

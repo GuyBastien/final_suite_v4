@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton restaurant module. -->
+<form col="4">
+    <label name="name"/>
+    <field name="name"/>
+    <label name="code"/>
+    <field name="code"/>
+    <label name="company"/>
+    <field name="company"/>
+    <label name="active"/>
+    <field name="active"/>
+    <label name="warehouse"/>
+    <field name="warehouse"/>
+    <label name="party"/>
+    <field name="party"/>
+    <notebook colspan="4">
+        <page string="Areas" id="areas">
+            <field name="areas" colspan="4"/>
+        </page>
+        <page string="Tables" id="tables">
+            <field name="tables" colspan="4"/>
+        </page>
+        <page string="Billing" id="billing">
+            <label name="currency"/>
+            <field name="currency"/>
+            <newline/>
+            <label name="service_rate"/>
+            <field name="service_rate"/>
+            <label name="tax_rate"/>
+            <field name="tax_rate"/>
+            <label name="max_discount"/>
+            <field name="max_discount"/>
+            <label name="cash_control"/>
+            <field name="cash_control"/>
+            <label name="cash_tolerance"/>
+            <field name="cash_tolerance"/>
+            <label name="enforce_menus"/>
+            <field name="enforce_menus"/>
+        </page>
+        <page string="Menus" id="menus">
+            <field name="menus" colspan="4"/>
+        </page>
+        <page string="Delivery" id="delivery">
+            <label name="delivery_fee"/>
+            <field name="delivery_fee"/>
+            <label name="min_delivery_amount"/>
+            <field name="min_delivery_amount"/>
+            <label name="free_delivery_amount"/>
+            <field name="free_delivery_amount"/>
+        </page>
+    </notebook>
+</form>

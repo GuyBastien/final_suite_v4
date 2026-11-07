@@ -1,0 +1,350 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton fuel_station module. -->
+<tryton>
+    <data>
+        <!-- Groups -->
+        <record model="res.group" id="group_fuel">
+            <field name="name">Fuel Station</field>
+        </record>
+        <record model="res.group" id="group_fuel_admin">
+            <field name="name">Fuel Station Administration</field>
+            <field name="parent" ref="group_fuel"/>
+        </record>
+        <record model="res.user-res.group" id="user_admin_group_fuel">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_fuel"/>
+        </record>
+        <record model="res.user-res.group" id="user_admin_group_fuel_admin">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_fuel_admin"/>
+        </record>
+
+        <!-- Menus -->
+        <menuitem icon="tryton-fuel" name="Fuel Station" id="menu_fuel" sequence="55"/>
+        <record model="ir.ui.menu-res.group" id="menu_fuel_group_fuel">
+            <field name="menu" ref="menu_fuel"/>
+            <field name="group" ref="group_fuel"/>
+        </record>
+        <menuitem icon="tryton-fuel-shift" name="Operations" parent="menu_fuel"
+            id="menu_operations" sequence="20"/>
+        <menuitem icon="tryton-fuel-tank" name="Stock" parent="menu_fuel"
+            id="menu_stock" sequence="30"/>
+        <menuitem icon="tryton-fuel-report" name="Reports" parent="menu_fuel"
+            id="menu_reports" sequence="90"/>
+        <menuitem icon="tryton-settings" name="Configuration" parent="menu_fuel"
+            id="menu_configuration" sequence="100"/>
+
+        <!-- Product -->
+        <record model="ir.ui.view" id="template_view_form">
+            <field name="model">product.template</field>
+            <field name="inherit" ref="product.template_view_form"/>
+            <field name="name">template_form</field>
+        </record>
+        <record model="ir.action.act_window" id="act_fuel_product">
+            <field name="name">Fuels</field>
+            <field name="res_model">product.product</field>
+            <field name="domain" eval="[('template.fuel', '=', True)]" pyson="1"/>
+            <field name="context" eval="{'default_fuel': True}" pyson="1"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_fuel_product_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="product.product_view_tree"/>
+            <field name="act_window" ref="act_fuel_product"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_fuel_product_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="product.product_view_form"/>
+            <field name="act_window" ref="act_fuel_product"/>
+        </record>
+        <menuitem icon="tryton-fuel-pump" parent="menu_configuration" action="act_fuel_product"
+            id="menu_fuel_product" sequence="5"/>
+
+        <!-- Station -->
+        <record model="ir.ui.view" id="station_view_form">
+            <field name="model">fuel.station</field>
+            <field name="type">form</field>
+            <field name="name">station_form</field>
+        </record>
+        <record model="ir.ui.view" id="station_view_list">
+            <field name="model">fuel.station</field>
+            <field name="type">tree</field>
+            <field name="name">station_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_station">
+            <field name="name">Stations</field>
+            <field name="res_model">fuel.station</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_station_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="station_view_list"/>
+            <field name="act_window" ref="act_station"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_station_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="station_view_form"/>
+            <field name="act_window" ref="act_station"/>
+        </record>
+        <menuitem icon="tryton-fuel" name="Stations" parent="menu_configuration" id="menu_station" sequence="10" action="act_station"/>
+        <record model="ir.model.access" id="access_station">
+            <field name="model" search="[('model', '=', 'fuel.station')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_station_user">
+            <field name="model" search="[('model', '=', 'fuel.station')]"/>
+            <field name="group" ref="group_fuel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_station_admin">
+            <field name="model" search="[('model', '=', 'fuel.station')]"/>
+            <field name="group" ref="group_fuel_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_station">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'fuel.station')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_station">
+            <field name="domain"
+                eval="[('company', 'in', Eval('companies', []))]"
+                pyson="1"/>
+            <field name="rule_group" ref="rule_group_station"/>
+        </record>
+        <!-- Tank -->
+        <record model="ir.ui.view" id="tank_view_form">
+            <field name="model">fuel.tank</field>
+            <field name="type">form</field>
+            <field name="name">tank_form</field>
+        </record>
+        <record model="ir.ui.view" id="tank_view_list">
+            <field name="model">fuel.tank</field>
+            <field name="type">tree</field>
+            <field name="name">tank_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_tank">
+            <field name="name">Tanks</field>
+            <field name="res_model">fuel.tank</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_tank_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="tank_view_list"/>
+            <field name="act_window" ref="act_tank"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_tank_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="tank_view_form"/>
+            <field name="act_window" ref="act_tank"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_tank_domain_0">
+            <field name="name">Low</field>
+            <field name="sequence" eval="10"/>
+            <field name="domain" eval="[('low', '=', True)]" pyson="1"></field>
+            <field name="act_window" ref="act_tank"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_tank_domain_1">
+            <field name="name">All</field>
+            <field name="sequence" eval="20"/>
+            <field name="domain" eval="[]" pyson="1"></field>
+            <field name="act_window" ref="act_tank"/>
+        </record>
+        <menuitem icon="tryton-fuel-tank" name="Tank Levels" parent="menu_stock" id="menu_tank" sequence="10" action="act_tank"/>
+        <record model="ir.action.act_window" id="act_tank_low">
+            <field name="name">Low Tanks</field>
+            <field name="res_model">fuel.tank</field>
+            <field name="domain" eval="[('low', '=', True)]" pyson="1"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_tank_low_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="tank_view_list"/>
+            <field name="act_window" ref="act_tank_low"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_tank_low_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="tank_view_form"/>
+            <field name="act_window" ref="act_tank_low"/>
+        </record>
+        <menuitem icon="tryton-fuel-tank" name="Low Tanks" parent="menu_stock" id="menu_tank_low" sequence="20" action="act_tank_low"/>
+        <record model="ir.model.access" id="access_tank">
+            <field name="model" search="[('model', '=', 'fuel.tank')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_tank_user">
+            <field name="model" search="[('model', '=', 'fuel.tank')]"/>
+            <field name="group" ref="group_fuel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_tank_admin">
+            <field name="model" search="[('model', '=', 'fuel.tank')]"/>
+            <field name="group" ref="group_fuel_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_tank">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'fuel.tank')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_tank">
+            <field name="domain"
+                eval="[('station.company', 'in', Eval('companies', []))]"
+                pyson="1"/>
+            <field name="rule_group" ref="rule_group_tank"/>
+        </record>
+        <!-- Stock moves generated by the module -->
+        <record model="ir.action.act_window" id="act_move">
+            <field name="name">Fuel Stock Moves</field>
+            <field name="res_model">stock.move</field>
+            <field name="domain"
+                eval="['OR', ('origin', 'like', 'fuel.shift.line,%'), ('origin', 'like', 'fuel.delivery.line,%'), ('origin', 'like', 'fuel.dip,%')]"
+                pyson="1"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_move_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="stock.move_view_tree"/>
+            <field name="act_window" ref="act_move"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_move_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="stock.move_view_form"/>
+            <field name="act_window" ref="act_move"/>
+        </record>
+        <menuitem icon="tryton-fuel-delivery" name="Fuel Stock Moves" parent="menu_stock" id="menu_move" sequence="30" action="act_move"/>
+        <!-- Pump -->
+        <record model="ir.ui.view" id="pump_view_form">
+            <field name="model">fuel.pump</field>
+            <field name="type">form</field>
+            <field name="name">pump_form</field>
+        </record>
+        <record model="ir.ui.view" id="pump_view_list">
+            <field name="model">fuel.pump</field>
+            <field name="type">tree</field>
+            <field name="name">pump_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_pump">
+            <field name="name">Pumps</field>
+            <field name="res_model">fuel.pump</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_pump_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="pump_view_list"/>
+            <field name="act_window" ref="act_pump"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_pump_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="pump_view_form"/>
+            <field name="act_window" ref="act_pump"/>
+        </record>
+        <menuitem icon="tryton-fuel-pump" name="Pumps" parent="menu_configuration" id="menu_pump" sequence="20" action="act_pump"/>
+        <record model="ir.model.access" id="access_pump">
+            <field name="model" search="[('model', '=', 'fuel.pump')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_pump_user">
+            <field name="model" search="[('model', '=', 'fuel.pump')]"/>
+            <field name="group" ref="group_fuel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_pump_admin">
+            <field name="model" search="[('model', '=', 'fuel.pump')]"/>
+            <field name="group" ref="group_fuel_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_pump">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'fuel.pump')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_pump">
+            <field name="domain"
+                eval="[('station.company', 'in', Eval('companies', []))]"
+                pyson="1"/>
+            <field name="rule_group" ref="rule_group_pump"/>
+        </record>
+        <!-- Nozzle -->
+        <record model="ir.ui.view" id="nozzle_view_form">
+            <field name="model">fuel.nozzle</field>
+            <field name="type">form</field>
+            <field name="name">nozzle_form</field>
+        </record>
+        <record model="ir.ui.view" id="nozzle_view_list">
+            <field name="model">fuel.nozzle</field>
+            <field name="type">tree</field>
+            <field name="name">nozzle_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_nozzle">
+            <field name="name">Nozzles</field>
+            <field name="res_model">fuel.nozzle</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_nozzle_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="nozzle_view_list"/>
+            <field name="act_window" ref="act_nozzle"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_nozzle_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="nozzle_view_form"/>
+            <field name="act_window" ref="act_nozzle"/>
+        </record>
+        <menuitem icon="tryton-fuel-pump" name="Nozzles" parent="menu_configuration" id="menu_nozzle" sequence="30" action="act_nozzle"/>
+        <record model="ir.model.access" id="access_nozzle">
+            <field name="model" search="[('model', '=', 'fuel.nozzle')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_nozzle_user">
+            <field name="model" search="[('model', '=', 'fuel.nozzle')]"/>
+            <field name="group" ref="group_fuel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_nozzle_admin">
+            <field name="model" search="[('model', '=', 'fuel.nozzle')]"/>
+            <field name="group" ref="group_fuel_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_nozzle">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'fuel.nozzle')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_nozzle">
+            <field name="domain"
+                eval="[('pump.station.company', 'in', Eval('companies', []))]"
+                pyson="1"/>
+            <field name="rule_group" ref="rule_group_nozzle"/>
+        </record>
+    </data>
+</tryton>

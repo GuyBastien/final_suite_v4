@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton restaurant module. -->
+<tryton>
+    <data grouped="1">
+        <record model="ir.message" id="msg_guide_usage">
+            <field name="text">RESTAURANT - USAGE GUIDE
+
+1. Setup (manager)
+ - Restaurant > Configuration > Restaurants: create the restaurant, rates (service, taxes, delivery) and a warehouse for stock.
+ - Create areas (room, terrace, bar) and tables with their seats.
+ - Mark products as menu items (Restaurant tab): course, preparation station (kitchen/bar), recipe.
+ - Menus: create menus with hours and optional prices (breakfast, lunch, happy hour).
+ - Cash: create the banknote and coin denominations of your currency.
+
+2. Cash session (cashier)
+ - Open your cash session and count the banknotes and coins of the drawer.
+ - Cash payments are only accepted while a session is open.
+ - At closing, count again: the difference and the suspect notes are shown to the manager.
+
+3. Service
+ - Restaurant > Service > Orders: new order, choose type (dine-in, bar tab, takeaway, delivery) and the table.
+ - Add items (give a guest number to split the bill), then click Send: items go to the kitchen or bar screen.
+ - Kitchen/Bar screens: Start, Ready, then waiters click Serve.
+
+4. Payment
+ - Add one or several payments (cash, card, mobile, voucher, account) then click Pay. Stock is consumed from recipes.
+ - Print the bill, the 80 mm ticket or the bill by guest from the Print action.
+
+5. Delivery
+ - Create a delivery order with address and phone, send it, assign a driver, Dispatch, then Delivered or Delivery Failed.
+
+6. Reservations
+ - Book a table with date, time and guests; click Seat on arrival to open the order automatically.
+
+7. Reports
+ - Dashboard shows live activity; Restaurant Sales gives daily sales by product.</field>
+        </record>
+        <record model="ir.message" id="msg_recipe_unique">
+            <field name="text">A menu item can only have one recipe.</field>
+        </record>
+        <record model="ir.message" id="msg_happy_hour_hours">
+            <field name="text">The end hour of happy hour "%(rule)s" must be after its start hour.</field>
+        </record>
+        <record model="ir.message" id="msg_manager_required">
+            <field name="text">Only a restaurant manager can grant this discount.</field>
+        </record>
+        <record model="ir.message" id="msg_discount_too_high">
+            <field name="text">The discount cannot exceed %(maximum)s%% without a manager.</field>
+        </record>
+        <record model="ir.message" id="msg_order_delete">
+            <field name="text">Order "%(order)s" cannot be deleted. Cancel it instead.</field>
+        </record>
+        <record model="ir.message" id="msg_order_company">
+            <field name="text">The company of order "%(order)s" must match its restaurant.</field>
+        </record>
+        <record model="ir.message" id="msg_order_table_busy">
+            <field name="text">Table "%(table)s" already has the open order "%(order)s".</field>
+        </record>
+        <record model="ir.message" id="msg_order_not_open">
+            <field name="text">Order "%(order)s" is not open.</field>
+        </record>
+        <record model="ir.message" id="msg_order_nothing_to_send">
+            <field name="text">Order "%(order)s" has no new items to send.</field>
+        </record>
+        <record model="ir.message" id="msg_line_sold_out">
+            <field name="text">"%(product)s" is sold out.</field>
+        </record>
+        <record model="ir.message" id="msg_order_covers">
+            <field name="text">Order "%(order)s" has %(covers)s guests for a table of %(seats)s seats.</field>
+        </record>
+        <record model="ir.message" id="msg_delivery_minimum">
+            <field name="text">The minimum amount for delivery is %(minimum)s.</field>
+        </record>
+        <record model="ir.message" id="msg_delivery_address">
+            <field name="text">Delivery order "%(order)s" needs an address and a phone number.</field>
+        </record>
+        <record model="ir.message" id="msg_order_empty">
+            <field name="text">Order "%(order)s" has no item.</field>
+        </record>
+        <record model="ir.message" id="msg_order_unpaid">
+            <field name="text">Order "%(order)s" still has a balance of %(balance)s.</field>
+        </record>
+        <record model="ir.message" id="msg_order_cancel_paid">
+            <field name="text">Paid order "%(order)s" cannot be cancelled.</field>
+        </record>
+        <record model="ir.message" id="msg_delivery_no_driver">
+            <field name="text">Order "%(order)s" needs a driver.</field>
+        </record>
+        <record model="ir.message" id="msg_delivery_not_sent">
+            <field name="text">Order "%(order)s" has not been sent to the kitchen yet.</field>
+        </record>
+        <record model="ir.message" id="msg_no_customer_location">
+            <field name="text">The customer location is not configured.</field>
+        </record>
+        <record model="ir.message" id="msg_line_sent">
+            <field name="text">The item "%(product)s" was already sent. Use the cancel button.</field>
+        </record>
+        <record model="ir.message" id="msg_line_state">
+            <field name="text">The item "%(product)s" cannot go to this state.</field>
+        </record>
+        <record model="ir.message" id="msg_payment_tendered">
+            <field name="text">The amount tendered for order "%(order)s" is lower than the payment.</field>
+        </record>
+        <record model="ir.message" id="msg_payment_account">
+            <field name="text">Payment on account for order "%(order)s" requires a customer.</field>
+        </record>
+        <record model="ir.message" id="msg_reservation_delete">
+            <field name="text">Reservation "%(reservation)s" cannot be deleted. Cancel it instead.</field>
+        </record>
+        <record model="ir.message" id="msg_reservation_seats">
+            <field name="text">Table "%(table)s" has only %(seats)s seats.</field>
+        </record>
+        <record model="ir.message" id="msg_reservation_overlap">
+            <field name="text">Table "%(table)s" is already booked by "%(reservation)s".</field>
+        </record>
+        <record model="ir.message" id="msg_reservation_no_table">
+            <field name="text">Reservation "%(reservation)s" needs a table.</field>
+        </record>
+        <record model="ir.message" id="msg_restaurant_code_unique">
+            <field name="text">The code of the restaurant must be unique per company.</field>
+        </record>
+        <record model="ir.message" id="msg_area_unique">
+            <field name="text">The name of the area must be unique per restaurant.</field>
+        </record>
+        <record model="ir.message" id="msg_table_unique">
+            <field name="text">The code of the table must be unique per restaurant.</field>
+        </record>
+        <record model="ir.message" id="msg_table_area">
+            <field name="text">The area of table "%(table)s" must belong to its restaurant.</field>
+        </record>
+        <record model="ir.message" id="msg_denomination_unique">
+            <field name="text">This banknote or coin already exists for the currency.</field>
+        </record>
+        <record model="ir.message" id="msg_denomination_unknown">
+            <field name="text">No standard denominations are known for currency "%(currency)s". Create them by hand.</field>
+        </record>
+        <record model="ir.message" id="msg_cash_count_unique">
+            <field name="text">A denomination can only be counted once per moment and session.</field>
+        </record>
+        <record model="ir.message" id="msg_cash_count_suspect">
+            <field name="text">Suspect banknotes or coins cannot exceed the counted quantity.</field>
+        </record>
+        <record model="ir.message" id="msg_cash_count_currency">
+            <field name="text">The denomination "%(denomination)s" is not in the currency of the company.</field>
+        </record>
+        <record model="ir.message" id="msg_session_delete">
+            <field name="text">Cash session "%(session)s" cannot be deleted once opened.</field>
+        </record>
+        <record model="ir.message" id="msg_session_company">
+            <field name="text">The restaurant of cash session "%(session)s" must belong to its company.</field>
+        </record>
+        <record model="ir.message" id="msg_session_already_open">
+            <field name="text">%(cashier)s already has the open cash session "%(session)s" in this restaurant.</field>
+        </record>
+        <record model="ir.message" id="msg_session_no_opening_count">
+            <field name="text">Count the banknotes and coins of cash session "%(session)s" before opening it.</field>
+        </record>
+        <record model="ir.message" id="msg_session_no_closing_count">
+            <field name="text">Count the banknotes and coins of cash session "%(session)s" before closing it.</field>
+        </record>
+        <record model="ir.message" id="msg_session_difference">
+            <field name="text">Cash session "%(session)s" closes with a difference of %(difference)s.</field>
+        </record>
+        <record model="ir.message" id="msg_session_suspect">
+            <field name="text">Cash session "%(session)s" holds %(amount)s of suspect banknotes or coins, excluded from the total.</field>
+        </record>
+        <record model="ir.message" id="msg_session_closed">
+            <field name="text">Cash session "%(session)s" is closed.</field>
+        </record>
+        <record model="ir.message" id="msg_session_opening_locked">
+            <field name="text">The opening count of cash session "%(session)s" can no longer be changed.</field>
+        </record>
+        <record model="ir.message" id="msg_session_opening_mismatch">
+            <field name="text">Cash session "%(session)s" opens with %(amount)s but the previous session closed with %(previous)s.</field>
+        </record>
+        <record model="ir.message" id="msg_payment_no_session">
+            <field name="text">Open a cash session in restaurant "%(restaurant)s" to take cash payments.</field>
+        </record>
+        <record model="ir.message" id="msg_menu_hours">
+            <field name="text">The end hour of menu "%(menu)s" must be after its start hour.</field>
+        </record>
+        <record model="ir.message" id="msg_menu_item_unique">
+            <field name="text">An item can only appear once in a menu.</field>
+        </record>
+        <record model="ir.message" id="msg_line_not_on_menu">
+            <field name="text">"%(product)s" is not on any menu available now.</field>
+        </record>
+        <record model="ir.message" id="msg_recipe_unit_digits">
+            <field name="text">The quantity of "%(product)s" is too small for its unit "%(unit)s". Use a fractional unit (kg, l).</field>
+        </record>
+        <record model="ir.message" id="msg_delay_title_prep_1">
+            <field name="text">%(station)s: %(count)s item(s) over the ideal time</field>
+        </record>
+        <record model="ir.message" id="msg_delay_title_prep_2">
+            <field name="text">%(station)s: %(count)s item(s) very late</field>
+        </record>
+        <record model="ir.message" id="msg_delay_title_serve_1">
+            <field name="text">%(count)s item(s) ready and waiting to be served</field>
+        </record>
+        <record model="ir.message" id="msg_delay_title_serve_2">
+            <field name="text">%(count)s item(s) ready for too long: serve them now</field>
+        </record>
+        <record model="ir.message" id="msg_delay_item">
+            <field name="text">%(where)s - %(product)s: %(elapsed)s min (ideal %(ideal)s)</field>
+        </record>
+        <record model="ir.message" id="msg_station_kitchen">
+            <field name="text">Kitchen</field>
+        </record>
+        <record model="ir.message" id="msg_station_bar">
+            <field name="text">Bar</field>
+        </record>
+        <record model="ir.message" id="msg_station_none">
+            <field name="text">No Preparation</field>
+        </record>
+    </data>
+</tryton>

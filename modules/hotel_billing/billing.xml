@@ -1,0 +1,250 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_billing module. -->
+<tryton>
+    <data>
+        <menuitem icon="tryton-hotel-billing" name="Billing" parent="hotel.menu_hotel" id="menu_billing" sequence="13"/>
+        <record model="ir.ui.view" id="tourist_tax_view_form">
+            <field name="model">hotel.tourist.tax</field>
+            <field name="type">form</field>
+            <field name="name">tourist_tax_form</field>
+        </record>
+        <record model="ir.ui.view" id="tourist_tax_view_list">
+            <field name="model">hotel.tourist.tax</field>
+            <field name="type">tree</field>
+            <field name="name">tourist_tax_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_tourist_tax">
+            <field name="name">Tourist Taxes</field>
+            <field name="res_model">hotel.tourist.tax</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_tourist_tax_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="tourist_tax_view_list"/>
+            <field name="act_window" ref="act_tourist_tax"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_tourist_tax_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="tourist_tax_view_form"/>
+            <field name="act_window" ref="act_tourist_tax"/>
+        </record>
+        <menuitem icon="tryton-hotel-billing" parent="hotel.menu_configuration" action="act_tourist_tax" id="menu_tourist_tax" sequence="50"/>
+        <record model="ir.model.access" id="access_tourist_tax">
+            <field name="model" search="[('model', '=', 'hotel.tourist.tax')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_tourist_tax_hotel">
+            <field name="model" search="[('model', '=', 'hotel.tourist.tax')]"/>
+            <field name="group" ref="hotel.group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_tourist_tax_admin">
+            <field name="model" search="[('model', '=', 'hotel.tourist.tax')]"/>
+            <field name="group" ref="hotel.group_hotel_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_tourist_tax_companies">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'hotel.tourist.tax')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_tourist_tax_companies">
+            <field name="domain" eval="[('company', 'in', Eval('companies', []))]" pyson="1"/>
+            <field name="rule_group" ref="rule_group_tourist_tax_companies"/>
+        </record>
+        <record model="ir.ui.view" id="deposit_view_form">
+            <field name="model">hotel.deposit</field>
+            <field name="type">form</field>
+            <field name="name">deposit_form</field>
+        </record>
+        <record model="ir.ui.view" id="deposit_view_list">
+            <field name="model">hotel.deposit</field>
+            <field name="type">tree</field>
+            <field name="name">deposit_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_deposit">
+            <field name="name">Deposits</field>
+            <field name="res_model">hotel.deposit</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_deposit_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="deposit_view_list"/>
+            <field name="act_window" ref="act_deposit"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_deposit_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="deposit_view_form"/>
+            <field name="act_window" ref="act_deposit"/>
+        </record>
+        <menuitem icon="tryton-hotel-deposit" parent="menu_billing" action="act_deposit" id="menu_deposit" sequence="10"/>
+        <record model="ir.model.button" id="deposit_refund_button">
+            <field name="model" search="[('model', '=', 'hotel.deposit')]"/>
+            <field name="name">refund</field>
+            <field name="string">Refund</field>
+        </record>
+        <record model="ir.model.button-res.group" id="deposit_refund_button_group_hotel">
+            <field name="button" ref="deposit_refund_button"/>
+            <field name="group" ref="hotel.group_hotel"/>
+        </record>
+        <record model="ir.model.access" id="access_deposit">
+            <field name="model" search="[('model', '=', 'hotel.deposit')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_deposit_hotel">
+            <field name="model" search="[('model', '=', 'hotel.deposit')]"/>
+            <field name="group" ref="hotel.group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_deposit_companies">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'hotel.deposit')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_deposit_companies">
+            <field name="domain" eval="[('company', 'in', Eval('companies', []))]" pyson="1"/>
+            <field name="rule_group" ref="rule_group_deposit_companies"/>
+        </record>
+        <record model="ir.ui.view" id="night_audit_view_form">
+            <field name="model">hotel.night.audit</field>
+            <field name="type">form</field>
+            <field name="name">night_audit_form</field>
+        </record>
+        <record model="ir.ui.view" id="night_audit_view_list">
+            <field name="model">hotel.night.audit</field>
+            <field name="type">tree</field>
+            <field name="name">night_audit_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_night_audit">
+            <field name="name">Night Audits</field>
+            <field name="res_model">hotel.night.audit</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_night_audit_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="night_audit_view_list"/>
+            <field name="act_window" ref="act_night_audit"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_night_audit_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="night_audit_view_form"/>
+            <field name="act_window" ref="act_night_audit"/>
+        </record>
+        <menuitem icon="tryton-hotel-audit" parent="menu_billing" action="act_night_audit" id="menu_night_audit" sequence="20"/>
+        <record model="ir.model.button" id="night_audit_close_day_button">
+            <field name="model" search="[('model', '=', 'hotel.night.audit')]"/>
+            <field name="name">close_day</field>
+            <field name="string">Close the Day</field>
+        </record>
+        <record model="ir.model.button-res.group" id="night_audit_close_day_button_group_hotel">
+            <field name="button" ref="night_audit_close_day_button"/>
+            <field name="group" ref="hotel.group_hotel"/>
+        </record>
+        <record model="ir.model.access" id="access_night_audit">
+            <field name="model" search="[('model', '=', 'hotel.night.audit')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_night_audit_hotel">
+            <field name="model" search="[('model', '=', 'hotel.night.audit')]"/>
+            <field name="group" ref="hotel.group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_night_audit_companies">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'hotel.night.audit')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_night_audit_companies">
+            <field name="domain" eval="[('company', 'in', Eval('companies', []))]" pyson="1"/>
+            <field name="rule_group" ref="rule_group_night_audit_companies"/>
+        </record>
+        <record model="ir.model.button" id="reservation_create_split_sales_button">
+            <field name="model" search="[('model', '=', 'hotel.reservation')]"/>
+            <field name="name">create_split_sales</field>
+            <field name="string">Bill to Payers</field>
+        </record>
+        <record model="ir.model.button-res.group" id="reservation_create_split_sales_button_group_hotel">
+            <field name="button" ref="reservation_create_split_sales_button"/>
+            <field name="group" ref="hotel.group_hotel"/>
+        </record>
+
+        <record model="ir.ui.view" id="party_view_form">
+            <field name="model">party.party</field>
+            <field name="inherit" ref="party.party_view_form"/>
+            <field name="name">party_form</field>
+        </record>
+        <record model="ir.ui.view" id="hotel_view_form_inherit">
+            <field name="model">hotel.hotel</field>
+            <field name="inherit" ref="hotel.hotel_view_form"/>
+            <field name="name">hotel_form</field>
+        </record>
+        <record model="ir.ui.view" id="reservation_view_form_inherit">
+            <field name="model">hotel.reservation</field>
+            <field name="inherit" ref="hotel_pms.reservation_view_form"/>
+            <field name="name">reservation_form</field>
+        </record>
+        <record model="ir.ui.view" id="reservation_line_view_list_inherit">
+            <field name="model">hotel.reservation.line</field>
+            <field name="inherit" ref="hotel_pms.reservation_line_view_list"/>
+            <field name="name">reservation_line_list</field>
+        </record>
+        <record model="ir.ui.view" id="reservation_line_view_form_inherit">
+            <field name="model">hotel.reservation.line</field>
+            <field name="inherit" ref="hotel_pms.reservation_line_view_form"/>
+            <field name="name">reservation_line_form</field>
+        </record>
+        <record model="ir.ui.view" id="reservation_charge_view_list_inherit">
+            <field name="model">hotel.reservation.charge</field>
+            <field name="inherit" ref="hotel_pms.reservation_charge_view_list"/>
+            <field name="name">reservation_charge_list</field>
+        </record>
+        <record model="ir.ui.view" id="reservation_charge_view_form_inherit">
+            <field name="model">hotel.reservation.charge</field>
+            <field name="inherit" ref="hotel_pms.reservation_charge_view_form"/>
+            <field name="name">reservation_charge_form</field>
+        </record>
+
+        <record model="ir.action.act_window.domain" id="act_deposit_domain_held">
+            <field name="name">Held</field>
+            <field name="sequence" eval="10"/>
+            <field name="domain" eval="[('state', '=', 'received')]" pyson="1"/>
+            <field name="act_window" ref="act_deposit"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_deposit_domain_all">
+            <field name="name">All</field>
+            <field name="sequence" eval="9999"/>
+            <field name="domain" eval="[]" pyson="1"/>
+            <field name="act_window" ref="act_deposit"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_night_audit_domain_todo">
+            <field name="name">To Close</field>
+            <field name="sequence" eval="10"/>
+            <field name="domain" eval="[('state', '=', 'draft')]" pyson="1"/>
+            <field name="act_window" ref="act_night_audit"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_night_audit_domain_all">
+            <field name="name">All</field>
+            <field name="sequence" eval="9999"/>
+            <field name="domain" eval="[]" pyson="1"/>
+            <field name="act_window" ref="act_night_audit"/>
+        </record>
+    </data>
+</tryton>

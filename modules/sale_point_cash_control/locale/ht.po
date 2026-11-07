@@ -1,0 +1,348 @@
+#
+msgid ""
+msgstr ""
+"Language: ht\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:sale.point,cash_control:"
+msgid "Cash Control"
+msgstr "Kontwòl kès"
+
+msgctxt "field:sale.point,difference_type:"
+msgid "Difference Type"
+msgstr "Tip diferans"
+
+msgctxt "field:sale.point.cash.count,amount:"
+msgid "Amount"
+msgstr "Montan"
+
+msgctxt "field:sale.point.cash.count,denomination:"
+msgid "Denomination"
+msgstr "Valè biyè ak pyès"
+
+msgctxt "field:sale.point.cash.count,kind:"
+msgid "Kind"
+msgstr "Kalite"
+
+msgctxt "field:sale.point.cash.count,moment:"
+msgid "Moment"
+msgstr "Moman"
+
+msgctxt "field:sale.point.cash.count,quantity:"
+msgid "Quantity"
+msgstr "Kantite"
+
+msgctxt "field:sale.point.cash.count,session:"
+msgid "Session"
+msgstr "Sesyon"
+
+msgctxt "field:sale.point.cash.count,value:"
+msgid "Value"
+msgstr "Valè"
+
+msgctxt "field:sale.point.cash.session,cash_control:"
+msgid "Cash Control"
+msgstr "Kontwòl kès"
+
+msgctxt "field:sale.point.cash.session,closing_counted:"
+msgid "Closing Counted"
+msgstr "Total ki konte lè yo fèmen"
+
+msgctxt "field:sale.point.cash.session,closing_counts:"
+msgid "Closing Count"
+msgstr "Konte fèmti"
+
+msgctxt "field:sale.point.cash.session,closing_difference:"
+msgid "Closing Difference"
+msgstr "Diferans fèmti"
+
+msgctxt "field:sale.point.cash.session,expected_amount:"
+msgid "Expected Amount"
+msgstr "Montan yo atann"
+
+msgctxt "field:sale.point.cash.session,opening_counted:"
+msgid "Opening Counted"
+msgstr "Total ki konte lè yo louvri"
+
+msgctxt "field:sale.point.cash.session,opening_counts:"
+msgid "Opening Count"
+msgstr "Konte ouvèti"
+
+msgctxt "field:sale.point.cash.session,opening_difference:"
+msgid "Opening Difference"
+msgstr "Diferans ouvèti"
+
+msgctxt "field:sale.point.denomination,company:"
+msgid "Company"
+msgstr "Konpayi"
+
+msgctxt "field:sale.point.denomination,currency:"
+msgid "Currency"
+msgstr "Lajan (monnen)"
+
+msgctxt "field:sale.point.denomination,kind:"
+msgid "Kind"
+msgstr "Kalite"
+
+msgctxt "field:sale.point.denomination,value:"
+msgid "Value"
+msgstr "Valè"
+
+msgctxt "help:sale.point,cash_control:"
+msgid ""
+"Require the count of banknotes and coins when the cash session opens and "
+"closes."
+msgstr "Mande konte biyè ak pyès lè sesyon kès la louvri ak lè l fèmen."
+
+msgctxt "help:sale.point,difference_type:"
+msgid ""
+"Transfer type used to record a cash shortage or overage found at the closing"
+" count."
+msgstr ""
+"Tip transfè yo itilize pou anrejistre yon manke oswa yon plis nan kès la yo "
+"jwenn lè yo fèmen."
+
+msgctxt "help:sale.point.cash.count,amount:"
+msgid "Amount in the currency of the document."
+msgstr "Montan nan lajan dokiman an."
+
+msgctxt "help:sale.point.cash.count,denomination:"
+msgid "The banknote or the coin that is counted."
+msgstr "Biyè oswa pyès yo konte a."
+
+msgctxt "help:sale.point.cash.count,kind:"
+msgid "Banknote or coin."
+msgstr "Biyè oswa pyès."
+
+msgctxt "help:sale.point.cash.count,moment:"
+msgid "Count made when the session opens or when it closes."
+msgstr "Konte yo fè lè sesyon an louvri oswa lè l fèmen."
+
+msgctxt "help:sale.point.cash.count,quantity:"
+msgid "Number of banknotes or coins found in the drawer."
+msgstr "Kantite biyè oswa pyès yo jwenn nan tiwa a."
+
+msgctxt "help:sale.point.cash.count,session:"
+msgid "The cash session that is counted."
+msgstr "Sesyon kès yo konte a."
+
+msgctxt "help:sale.point.cash.count,value:"
+msgid "Value of the banknote or coin."
+msgstr "Valè biyè a oswa pyès la."
+
+msgctxt "help:sale.point.cash.session,cash_control:"
+msgid "Require a count of banknotes and coins at opening and closing."
+msgstr "Mande yon konte biyè ak pyès lè yo louvri ak lè yo fèmen."
+
+msgctxt "help:sale.point.cash.session,closing_counted:"
+msgid "Total of the closing count."
+msgstr "Total konte fèmti a."
+
+msgctxt "help:sale.point.cash.session,closing_counts:"
+msgid "Banknotes and coins found in the drawer when the session closes."
+msgstr "Biyè ak pyès yo jwenn nan tiwa a lè sesyon an fèmen."
+
+msgctxt "help:sale.point.cash.session,closing_difference:"
+msgid ""
+"Counted amount minus expected amount. Negative: shortage; positive: overage."
+msgstr ""
+"Montan ki konte mwens montan yo atann. Negatif : manke ; pozitif : plis."
+
+msgctxt "help:sale.point.cash.session,expected_amount:"
+msgid ""
+"Amount that must be in the drawer: start amount plus the cash received."
+msgstr ""
+"Montan ki dwe nan tiwa a : montan kòmansman plis lajan kach yo resevwa."
+
+msgctxt "help:sale.point.cash.session,opening_counted:"
+msgid "Total of the opening count."
+msgstr "Total konte ouvèti a."
+
+msgctxt "help:sale.point.cash.session,opening_counts:"
+msgid "Banknotes and coins found in the drawer when the session opens."
+msgstr "Biyè ak pyès yo jwenn nan tiwa a lè sesyon an louvri."
+
+msgctxt "help:sale.point.cash.session,opening_difference:"
+msgid "Counted amount minus the amount left by the previous session."
+msgstr "Montan ki konte mwens montan sesyon anvan an kite."
+
+msgctxt "help:sale.point.denomination,company:"
+msgid "The company that counts this banknote or coin."
+msgstr "Konpayi ki konte biyè oswa pyès sa a."
+
+msgctxt "help:sale.point.denomination,currency:"
+msgid "Currency of the amounts."
+msgstr "Lajan montan yo."
+
+msgctxt "help:sale.point.denomination,kind:"
+msgid "Banknote or coin."
+msgstr "Biyè oswa pyès."
+
+msgctxt "help:sale.point.denomination,value:"
+msgid "Face value of one banknote or one coin."
+msgstr "Valè ki make sou yon biyè oswa yon pyès."
+
+msgctxt "model:ir.action,name:act_denomination"
+msgid "Banknotes and Coins"
+msgstr "Biyè ak pyès"
+
+msgctxt "model:ir.message,text:msg_count_missing"
+msgid ""
+"Count the banknotes and coins of session \"%(session)s\" before closing it."
+msgstr "Konte biyè ak pyès sesyon « %(session)s » la anvan ou fèmen l."
+
+msgctxt "model:ir.message,text:msg_count_session_closed"
+msgid ""
+"The count of session \"%(session)s\" can no longer be changed because the "
+"session is not open."
+msgstr ""
+"Yo pa ka chanje konte sesyon « %(session)s » la ankò paske sesyon an pa "
+"louvri."
+
+msgctxt "model:ir.message,text:msg_count_unique"
+msgid "A denomination can only be counted once per session and moment."
+msgstr "Yo ka konte yon valè yon sèl fwa pou chak sesyon ak chak moman."
+
+msgctxt "model:ir.message,text:msg_denomination_unique"
+msgid "The value of a banknote or coin must be unique per company and kind."
+msgstr "Valè yon biyè oswa yon pyès dwe inik pou chak konpayi ak chak kalite."
+
+msgctxt "model:ir.message,text:msg_difference_type"
+msgid ""
+"Select a difference type on point \"%(point)s\" to record a cash shortage or"
+" overage."
+msgstr ""
+"Chwazi yon tip diferans sou pwen « %(point)s » la pou anrejistre yon manke "
+"oswa yon plis nan kès la."
+
+msgctxt "model:ir.message,text:msg_opening_difference"
+msgid ""
+"The opening count of session \"%(session)s\" differs from the amount left by"
+" the previous session by %(difference)s. Close it anyway?"
+msgstr ""
+"Konte ouvèti sesyon « %(session)s » la diferan de montan sesyon anvan an "
+"kite a pa %(difference)s. Kontinye kanmenm ?"
+
+msgctxt "model:ir.model.button,string:session_record_difference_button"
+msgid "Record Difference"
+msgstr "Anrejistre diferans lan"
+
+msgctxt "model:ir.model.button,string:session_use_count_button"
+msgid "Use Count"
+msgstr "Sèvi ak konte a"
+
+msgctxt "model:ir.rule.group,name:rule_group_denomination"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.ui.menu,name:menu_denomination"
+msgid "Banknotes and Coins"
+msgstr "Biyè ak pyès"
+
+msgctxt "model:sale.point.cash.count,name:"
+msgid "Cash Count Line"
+msgstr "Liy konte kès"
+
+msgctxt "model:sale.point.denomination,name:"
+msgid "Cash Denomination"
+msgstr "Valè kès"
+
+msgctxt "selection:sale.point.cash.count,kind:"
+msgid "Banknote"
+msgstr "Biyè"
+
+msgctxt "selection:sale.point.cash.count,kind:"
+msgid "Coin"
+msgstr "Pyès"
+
+msgctxt "selection:sale.point.cash.count,moment:"
+msgid "Closing"
+msgstr "Fèmti"
+
+msgctxt "selection:sale.point.cash.count,moment:"
+msgid "Opening"
+msgstr "Ouvèti"
+
+msgctxt "selection:sale.point.denomination,kind:"
+msgid "Banknote"
+msgstr "Biyè"
+
+msgctxt "selection:sale.point.denomination,kind:"
+msgid "Coin"
+msgstr "Pyès"
+
+msgctxt "view:sale.point.cash.session:"
+msgid "Closing Count"
+msgstr "Konte fèmti"
+
+msgctxt "view:sale.point.cash.session:"
+msgid "Opening Count"
+msgstr "Konte ouvèti"
+
+msgctxt "view:sale.point:"
+msgid "Cash Control"
+msgstr "Kontwòl kès"
+
+msgctxt "field:sale.point,cash_tolerance:"
+msgid "Cash Tolerance"
+msgstr "Tolerans kès"
+
+msgctxt "field:sale.point.cash.count,quantity:"
+msgid "Counted"
+msgstr "Konte"
+
+msgctxt "field:sale.point.cash.count,suspect_amount:"
+msgid "Suspect Amount"
+msgstr "Montan ki sispèk"
+
+msgctxt "field:sale.point.cash.count,suspect_quantity:"
+msgid "Suspect"
+msgstr "Sispèk"
+
+msgctxt "field:sale.point.cash.session,closing_suspect:"
+msgid "Suspect at Closing"
+msgstr "Sispèk nan fèmti"
+
+msgctxt "help:sale.point,cash_tolerance:"
+msgid "Closing difference accepted without warning."
+msgstr "Diferans nan fèmti yo aksepte san avètisman."
+
+msgctxt "help:sale.point.cash.count,amount:"
+msgid ""
+"Amount in the currency of the document, without the suspect banknotes and "
+"coins."
+msgstr "Montan nan lajan dokiman an, san biyè ak pyès ki sispèk yo."
+
+msgctxt "help:sale.point.cash.count,suspect_amount:"
+msgid "Value of banknotes or coins that look counterfeit."
+msgstr "Valè biyè oswa pyès ki sanble fo."
+
+msgctxt "help:sale.point.cash.count,suspect_quantity:"
+msgid ""
+"Counterfeit, damaged or doubtful banknotes/coins among those counted. They "
+"are not added to the cash total."
+msgstr ""
+"Biyè/pyès fo, domaje oswa ki dout nan sa yo konte yo. Yo pa ajoute yo nan "
+"total kès la."
+
+msgctxt "help:sale.point.cash.session,closing_suspect:"
+msgid ""
+"Value of the suspect banknotes and coins found at the closing count. They "
+"are not part of the counted total."
+msgstr ""
+"Valè biyè ak pyès sispèk yo jwenn nan konte fèmti a. Yo pa fè pati total yo "
+"konte a."
+
+msgctxt "model:ir.message,text:msg_closing_difference"
+msgid ""
+"The closing count of session \"%(session)s\" differs from the expected "
+"amount by %(difference)s. Close anyway? The difference will be recorded as a"
+" cash transfer."
+msgstr ""
+"Kantite lajan nan fèmti sesyon \"%(session)s\" lan pa menm ak sa ki te dwe "
+"genyen, diferans lan se %(difference)s. Fèmen kanmenm ? Y ap anrejistre "
+"diferans lan kòm yon transfè lajan kach."
+
+msgctxt "model:ir.message,text:msg_count_suspect"
+msgid "The suspect quantity cannot be greater than the counted quantity."
+msgstr "Kantite sispèk la pa ka depase kantite yo konte a."

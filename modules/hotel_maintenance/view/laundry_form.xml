@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_maintenance module. -->
+<form>
+    <label name="number"/>
+    <field name="number"/>
+    <label name="hotel"/>
+    <field name="hotel"/>
+    <label name="supplier"/>
+    <field name="supplier"/>
+    <label name="date"/>
+    <field name="date"/>
+    <label name="state"/>
+    <field name="state"/>
+    <notebook colspan="4">
+        <page string="Lines" id="lines">
+            <field name="lines" colspan="4"/>
+        </page>
+        <page string="Notes" id="notes">
+            <field name="notes" colspan="4"/>
+        </page>
+    </notebook>
+    <button icon="tryton-forward" name="send" string="Send"/>
+    <button icon="tryton-ok" name="receive" string="Receive"/>
+</form>

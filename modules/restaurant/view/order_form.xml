@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton restaurant module. -->
+<form col="6">
+    <group col="6" colspan="6" id="header">
+        <label name="number"/>
+        <field name="number"/>
+        <label name="restaurant"/>
+        <field name="restaurant"/>
+        <label name="state"/>
+        <field name="state"/>
+        <label name="type"/>
+        <field name="type"/>
+        <label name="table"/>
+        <field name="table"/>
+        <label name="tab_name"/>
+        <field name="tab_name"/>
+        <label name="party"/>
+        <field name="party"/>
+        <label name="covers"/>
+        <field name="covers"/>
+        <label name="waiter"/>
+        <field name="waiter"/>
+    </group>
+    <notebook colspan="6">
+        <page string="Items" id="items">
+            <field name="lines" colspan="4" view_ids="restaurant.order_line_view_list_edit"/>
+            <group col="-1" colspan="4" id="line_buttons">
+                <button name="send" icon="tryton-forward"/>
+            </group>
+        </page>
+        <page string="Payments" id="payments">
+            <field name="payments" colspan="4"/>
+            <label name="tip"/>
+            <field name="tip"/>
+            <label name="discount_percent"/>
+            <field name="discount_percent"/>
+        </page>
+        <page string="Delivery" id="delivery">
+            <label name="delivery_state"/>
+            <field name="delivery_state"/>
+            <label name="driver"/>
+            <field name="driver"/>
+            <label name="phone"/>
+            <field name="phone"/>
+            <newline/>
+            <label name="delivery_address"/>
+            <field name="delivery_address" colspan="3"/>
+            <group col="-1" colspan="4" id="delivery_buttons">
+                <button name="dispatch" icon="tryton-forward"/>
+                <button name="deliver" icon="tryton-ok"/>
+                <button name="delivery_failed" icon="tryton-cancel"/>
+            </group>
+        </page>
+        <page string="Notes" id="notes">
+            <label name="date"/>
+            <field name="date"/>
+            <label name="company"/>
+            <field name="company"/>
+            <field name="notes" colspan="4"/>
+        </page>
+    </notebook>
+    <group col="16" colspan="6" id="totals" string="Bill">
+        <label name="subtotal"/>
+        <field name="subtotal"/>
+        <label name="discount_amount"/>
+        <field name="discount_amount"/>
+        <label name="service_amount"/>
+        <field name="service_amount"/>
+        <label name="delivery_amount"/>
+        <field name="delivery_amount"/>
+        <label name="total"/>
+        <field name="total"/>
+        <label name="tax_amount"/>
+        <field name="tax_amount"/>
+        <label name="paid_amount"/>
+        <field name="paid_amount"/>
+        <label name="balance"/>
+        <field name="balance"/>
+    </group>
+    <group col="-1" colspan="6" id="buttons">
+        <button name="cancel" icon="tryton-cancel"/>
+        <button name="pay" icon="tryton-ok"/>
+    </group>
+</form>

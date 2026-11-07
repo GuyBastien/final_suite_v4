@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel module. -->
+<tryton>
+    <data>
+        <record model="ir.ui.icon" id="icon_hotel">
+            <field name="name">tryton-hotel</field>
+            <field name="path">icons/tryton-hotel.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_hotel_room">
+            <field name="name">tryton-hotel-room</field>
+            <field name="path">icons/tryton-hotel-room.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_hotel_rate">
+            <field name="name">tryton-hotel-rate</field>
+            <field name="path">icons/tryton-hotel-rate.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_hotel_article">
+            <field name="name">tryton-hotel-article</field>
+            <field name="path">icons/tryton-hotel-article.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_hotel_consumption">
+            <field name="name">tryton-hotel-consumption</field>
+            <field name="path">icons/tryton-hotel-consumption.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_hotel_move">
+            <field name="name">tryton-hotel-move</field>
+            <field name="path">icons/tryton-hotel-move.svg</field>
+        </record>
+    </data>
+</tryton>

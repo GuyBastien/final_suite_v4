@@ -1,0 +1,69 @@
+#
+msgid ""
+msgstr ""
+"Language: ht\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:restaurant.order,invoices:"
+msgid "Invoices"
+msgstr "Fakti yo"
+
+msgctxt "field:restaurant.restaurant,invoice_mode:"
+msgid "Invoicing"
+msgstr "Fakti"
+
+msgctxt "help:restaurant.order,invoices:"
+msgid "Invoices generated from this record."
+msgstr "Fakti yo kreye apati done sa a."
+
+msgctxt "help:restaurant.restaurant,invoice_mode:"
+msgid "When a draft customer invoice is created for a paid order."
+msgstr "Ki lè yo kreye yon bouyon fakti kliyan pou yon kòmand ki peye."
+
+msgctxt "model:ir.message,text:msg_line_delivery"
+msgid "Delivery fee"
+msgstr "Frè livrezon"
+
+msgctxt "model:ir.message,text:msg_line_discount"
+msgid "Discount"
+msgstr "Rabè"
+
+msgctxt "model:ir.message,text:msg_line_service"
+msgid "Service charge"
+msgstr "Frè sèvis"
+
+msgctxt "model:ir.message,text:msg_no_invoice_address"
+msgid ""
+"Customer \"%(party)s\" has no address: it is needed to invoice order "
+"\"%(order)s\"."
+msgstr ""
+"Kliyan « %(party)s » la pa gen adrès : li nesesè pou fakti kòmand « "
+"%(order)s » la."
+
+msgctxt "model:ir.message,text:msg_no_revenue_account"
+msgid ""
+"Item \"%(product)s\" has no revenue account: it is needed to invoice order "
+"\"%(order)s\"."
+msgstr ""
+"Atik « %(product)s » la pa gen kont revni : li nesesè pou fakti kòmand « "
+"%(order)s » la."
+
+msgctxt "model:ir.model.button,string:order_invoice_button"
+msgid "Invoice"
+msgstr "Fakti"
+
+msgctxt "selection:restaurant.restaurant,invoice_mode:"
+msgid "Every Order With a Customer"
+msgstr "Tout kòmand ki gen yon kliyan"
+
+msgctxt "selection:restaurant.restaurant,invoice_mode:"
+msgid "Never"
+msgstr "Janm"
+
+msgctxt "selection:restaurant.restaurant,invoice_mode:"
+msgid "On Account Payments"
+msgstr "Peman sou kont"
+
+msgctxt "view:restaurant.order:"
+msgid "Invoices"
+msgstr "Fakti yo"

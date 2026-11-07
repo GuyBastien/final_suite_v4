@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_maintenance module. -->
+<form>
+    <label name="hotel"/>
+    <field name="hotel"/>
+    <label name="room"/>
+    <field name="room"/>
+    <label name="title"/>
+    <field name="title"/>
+    <label name="priority"/>
+    <field name="priority"/>
+    <label name="every_days"/>
+    <field name="every_days"/>
+    <label name="next_date"/>
+    <field name="next_date"/>
+    <label name="block_room"/>
+    <field name="block_room"/>
+    <label name="active"/>
+    <field name="active"/>
+    <notebook colspan="4">
+        <page string="Description" id="description">
+            <field name="description" colspan="4"/>
+        </page>
+    </notebook>
+</form>

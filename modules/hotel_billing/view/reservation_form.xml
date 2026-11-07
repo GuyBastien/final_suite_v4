@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_billing module. -->
+<data>
+    <xpath expr="/form/notebook/page[@id='charges']" position="after">
+        <page string="Deposits" id="deposits">
+            <field name="deposits" colspan="4"/>
+            <label name="deposit_total"/>
+            <field name="deposit_total"/>
+            <label name="balance_due"/>
+            <field name="balance_due"/>
+        </page>
+    </xpath>
+    <xpath expr="/form/notebook/page[@id='info']/field[@name='pos_amount']" position="after">
+        <label name="tourist_tax_exempt"/>
+        <field name="tourist_tax_exempt"/>
+        <label name="no_show"/>
+        <field name="no_show"/>
+        <label name="sales"/>
+        <field name="sales" colspan="3"/>
+    </xpath>
+    <xpath expr="/form/group[@id='buttons']/button[@name='create_sale']" position="after">
+        <button name="create_split_sales" icon="tryton-hotel-billing"/>
+    </xpath>
+</data>

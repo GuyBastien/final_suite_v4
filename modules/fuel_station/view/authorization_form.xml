@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton fuel_station module. -->
+<form col="6">
+    <group col="6" colspan="6" id="header">
+        <label name="number"/>
+        <field name="number"/>
+        <label name="station"/>
+        <field name="station"/>
+        <label name="state"/>
+        <field name="state"/>
+        <label name="pump"/>
+        <field name="pump"/>
+        <label name="nozzle"/>
+        <field name="nozzle"/>
+        <label name="company"/>
+        <field name="company"/>
+    </group>
+    <notebook colspan="6">
+        <page string="Request" id="request">
+            <label name="product"/>
+            <field name="product"/>
+            <label name="unit"/>
+            <field name="unit"/>
+            <label name="party"/>
+            <field name="party"/>
+            <label name="vehicle"/>
+            <field name="vehicle"/>
+            <label name="limit_type"/>
+            <field name="limit_type"/>
+            <label name="unit_price"/>
+            <field name="unit_price"/>
+            <label name="max_quantity"/>
+            <field name="max_quantity"/>
+            <label name="max_amount"/>
+            <field name="max_amount"/>
+            <field name="notes" colspan="4"/>
+        </page>
+        <page string="Approval and Controller" id="control">
+            <label name="requested_by"/>
+            <field name="requested_by"/>
+            <label name="requested_at"/>
+            <field name="requested_at"/>
+            <label name="approved_by"/>
+            <field name="approved_by"/>
+            <label name="approved_at"/>
+            <field name="approved_at"/>
+            <label name="expires_at"/>
+            <field name="expires_at"/>
+            <label name="controller_ref"/>
+            <field name="controller_ref"/>
+        </page>
+        <page string="Dispensing" id="result">
+            <label name="dispensed_quantity"/>
+            <field name="dispensed_quantity"/>
+            <label name="dispensed_amount"/>
+            <field name="dispensed_amount"/>
+            <label name="transaction_ref"/>
+            <field name="transaction_ref"/>
+            <label name="shift"/>
+            <field name="shift"/>
+            <label name="move"/>
+            <field name="move"/>
+        </page>
+        <page string="Audit Log" id="audit">
+            <field name="logs" colspan="4"/>
+        </page>
+    </notebook>
+    <group col="-1" colspan="6" id="buttons">
+        <button name="reject" icon="tryton-cancel"/>
+        <button name="cancel" icon="tryton-back"/>
+        <button name="resolve" icon="tryton-ok"/>
+        <button name="approve" icon="tryton-forward"/>
+    </group>
+</form>

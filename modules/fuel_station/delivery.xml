@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton fuel_station module. -->
+<tryton>
+    <data>
+        <record model="ir.sequence.type" id="sequence_type_delivery">
+            <field name="name">Fuel Delivery</field>
+        </record>
+        <record model="ir.sequence.type-res.group" id="sequence_type_delivery_group_admin">
+            <field name="sequence_type" ref="sequence_type_delivery"/>
+            <field name="group" ref="res.group_admin"/>
+        </record>
+        <record model="ir.sequence.type-res.group" id="sequence_type_delivery_group_fuel">
+            <field name="sequence_type" ref="sequence_type_delivery"/>
+            <field name="group" ref="group_fuel"/>
+        </record>
+        <record model="ir.sequence" id="sequence_delivery">
+            <field name="name">Fuel Delivery</field>
+            <field name="sequence_type" ref="sequence_type_delivery"/>
+            <field name="prefix">DL/</field>
+        </record>
+        <record model="ir.ui.view" id="delivery_view_form">
+            <field name="model">fuel.delivery</field>
+            <field name="type">form</field>
+            <field name="name">delivery_form</field>
+        </record>
+        <record model="ir.ui.view" id="delivery_view_list">
+            <field name="model">fuel.delivery</field>
+            <field name="type">tree</field>
+            <field name="name">delivery_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_delivery">
+            <field name="name">Deliveries</field>
+            <field name="res_model">fuel.delivery</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_delivery_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="delivery_view_list"/>
+            <field name="act_window" ref="act_delivery"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_delivery_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="delivery_view_form"/>
+            <field name="act_window" ref="act_delivery"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_delivery_domain_0">
+            <field name="name">Draft</field>
+            <field name="sequence" eval="10"/>
+            <field name="domain" eval="[('state', '=', 'draft')]" pyson="1"></field>
+            <field name="act_window" ref="act_delivery"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_delivery_domain_1">
+            <field name="name">Done</field>
+            <field name="sequence" eval="20"/>
+            <field name="domain" eval="[('state', '=', 'done')]" pyson="1"></field>
+            <field name="act_window" ref="act_delivery"/>
+        </record>
+        <menuitem icon="tryton-fuel-delivery" name="Deliveries" parent="menu_operations" id="menu_delivery" sequence="20" action="act_delivery"/>
+        <record model="ir.model.access" id="access_delivery">
+            <field name="model" search="[('model', '=', 'fuel.delivery')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_delivery_user">
+            <field name="model" search="[('model', '=', 'fuel.delivery')]"/>
+            <field name="group" ref="group_fuel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.model.access" id="access_delivery_admin">
+            <field name="model" search="[('model', '=', 'fuel.delivery')]"/>
+            <field name="group" ref="group_fuel_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_delivery">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'fuel.delivery')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_delivery">
+            <field name="domain"
+                eval="[('company', 'in', Eval('companies', []))]"
+                pyson="1"/>
+            <field name="rule_group" ref="rule_group_delivery"/>
+        </record>
+        <record model="ir.model.button" id="delivery_cancel_button">
+            <field name="model" search="[('model', '=', 'fuel.delivery')]"/>
+            <field name="name">cancel</field>
+            <field name="string">Cancel</field>
+        </record>
+        <record model="ir.model.button" id="delivery_draft_button">
+            <field name="model" search="[('model', '=', 'fuel.delivery')]"/>
+            <field name="name">draft</field>
+            <field name="string">Draft</field>
+        </record>
+        <record model="ir.model.button" id="delivery_receive_button">
+            <field name="model" search="[('model', '=', 'fuel.delivery')]"/>
+            <field name="name">receive</field>
+            <field name="string">Receive</field>
+        </record>
+        <record model="ir.ui.view" id="delivery_line_view_form">
+            <field name="model">fuel.delivery.line</field>
+            <field name="type">form</field>
+            <field name="name">delivery_line_form</field>
+        </record>
+        <record model="ir.ui.view" id="delivery_line_view_list">
+            <field name="model">fuel.delivery.line</field>
+            <field name="type">tree</field>
+            <field name="name">delivery_line_list</field>
+        </record>
+        <record model="ir.model.access" id="access_delivery_line">
+            <field name="model" search="[('model', '=', 'fuel.delivery.line')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_delivery_line_user">
+            <field name="model" search="[('model', '=', 'fuel.delivery.line')]"/>
+            <field name="group" ref="group_fuel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.model.access" id="access_delivery_line_admin">
+            <field name="model" search="[('model', '=', 'fuel.delivery.line')]"/>
+            <field name="group" ref="group_fuel_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_delivery_line">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'fuel.delivery.line')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_delivery_line">
+            <field name="domain"
+                eval="[('delivery.company', 'in', Eval('companies', []))]"
+                pyson="1"/>
+            <field name="rule_group" ref="rule_group_delivery_line"/>
+        </record>
+    </data>
+</tryton>

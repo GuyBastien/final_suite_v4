@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton restaurant_invoice module. -->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="restaurant_view_form">
+            <field name="model">restaurant.restaurant</field>
+            <field name="inherit" ref="restaurant.restaurant_view_form"/>
+            <field name="name">restaurant_form</field>
+        </record>
+        <record model="ir.ui.view" id="order_view_form">
+            <field name="model">restaurant.order</field>
+            <field name="inherit" ref="restaurant.order_view_form"/>
+            <field name="name">order_form</field>
+        </record>
+        <record model="ir.model.button" id="order_invoice_button">
+            <field name="model" search="[('model', '=', 'restaurant.order')]"/>
+            <field name="name">invoice</field>
+            <field name="string">Invoice</field>
+        </record>
+    </data>
+</tryton>

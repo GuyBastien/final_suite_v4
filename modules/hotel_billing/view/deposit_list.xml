@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_billing module. -->
+<tree>
+    <field name="reservation"/>
+    <field name="date"/>
+    <field name="amount"/>
+    <field name="method"/>
+    <field name="reference"/>
+    <field name="state"/>
+</tree>

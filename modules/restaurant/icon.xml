@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton restaurant module. -->
+<tryton>
+    <data>
+        <record model="ir.ui.icon" id="icon_restaurant">
+            <field name="name">tryton-restaurant</field>
+            <field name="path">icons/tryton-restaurant.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_restaurant_table">
+            <field name="name">tryton-restaurant-table</field>
+            <field name="path">icons/tryton-restaurant-table.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_restaurant_order">
+            <field name="name">tryton-restaurant-order</field>
+            <field name="path">icons/tryton-restaurant-order.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_restaurant_menu">
+            <field name="name">tryton-restaurant-menu</field>
+            <field name="path">icons/tryton-restaurant-menu.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_restaurant_kitchen">
+            <field name="name">tryton-restaurant-kitchen</field>
+            <field name="path">icons/tryton-restaurant-kitchen.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_restaurant_bar">
+            <field name="name">tryton-restaurant-bar</field>
+            <field name="path">icons/tryton-restaurant-bar.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_restaurant_delivery">
+            <field name="name">tryton-restaurant-delivery</field>
+            <field name="path">icons/tryton-restaurant-delivery.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_restaurant_reservation">
+            <field name="name">tryton-restaurant-reservation</field>
+            <field name="path">icons/tryton-restaurant-reservation.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_restaurant_report">
+            <field name="name">tryton-restaurant-report</field>
+            <field name="path">icons/tryton-restaurant-report.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_restaurant_guide">
+            <field name="name">tryton-restaurant-guide</field>
+            <field name="path">icons/tryton-restaurant-guide.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_restaurant_cash">
+            <field name="name">tryton-restaurant-cash</field>
+            <field name="path">icons/tryton-restaurant-cash.svg</field>
+        </record>
+    </data>
+</tryton>

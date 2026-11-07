@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton fuel_station module. -->
+<tryton>
+    <data>
+        <record model="ir.sequence.type" id="sequence_type_dip">
+            <field name="name">Tank Dip</field>
+        </record>
+        <record model="ir.sequence.type-res.group" id="sequence_type_dip_group_admin">
+            <field name="sequence_type" ref="sequence_type_dip"/>
+            <field name="group" ref="res.group_admin"/>
+        </record>
+        <record model="ir.sequence.type-res.group" id="sequence_type_dip_group_fuel">
+            <field name="sequence_type" ref="sequence_type_dip"/>
+            <field name="group" ref="group_fuel"/>
+        </record>
+        <record model="ir.sequence" id="sequence_dip">
+            <field name="name">Tank Dip</field>
+            <field name="sequence_type" ref="sequence_type_dip"/>
+            <field name="prefix">DP/</field>
+        </record>
+        <record model="ir.ui.view" id="dip_view_form">
+            <field name="model">fuel.dip</field>
+            <field name="type">form</field>
+            <field name="name">dip_form</field>
+        </record>
+        <record model="ir.ui.view" id="dip_view_list">
+            <field name="model">fuel.dip</field>
+            <field name="type">tree</field>
+            <field name="name">dip_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_dip">
+            <field name="name">Tank Dips</field>
+            <field name="res_model">fuel.dip</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_dip_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="dip_view_list"/>
+            <field name="act_window" ref="act_dip"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_dip_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="dip_view_form"/>
+            <field name="act_window" ref="act_dip"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_dip_domain_0">
+            <field name="name">Draft</field>
+            <field name="sequence" eval="10"/>
+            <field name="domain" eval="[('state', '=', 'draft')]" pyson="1"></field>
+            <field name="act_window" ref="act_dip"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_dip_domain_1">
+            <field name="name">Done</field>
+            <field name="sequence" eval="20"/>
+            <field name="domain" eval="[('state', '=', 'done')]" pyson="1"></field>
+            <field name="act_window" ref="act_dip"/>
+        </record>
+        <menuitem icon="tryton-fuel-dip" name="Tank Dips" parent="menu_operations" id="menu_dip" sequence="30" action="act_dip"/>
+        <record model="ir.model.access" id="access_dip">
+            <field name="model" search="[('model', '=', 'fuel.dip')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_dip_user">
+            <field name="model" search="[('model', '=', 'fuel.dip')]"/>
+            <field name="group" ref="group_fuel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.model.access" id="access_dip_admin">
+            <field name="model" search="[('model', '=', 'fuel.dip')]"/>
+            <field name="group" ref="group_fuel_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_dip">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'fuel.dip')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_dip">
+            <field name="domain"
+                eval="[('company', 'in', Eval('companies', []))]"
+                pyson="1"/>
+            <field name="rule_group" ref="rule_group_dip"/>
+        </record>
+        <record model="ir.model.button" id="dip_cancel_button">
+            <field name="model" search="[('model', '=', 'fuel.dip')]"/>
+            <field name="name">cancel</field>
+            <field name="string">Cancel</field>
+        </record>
+        <record model="ir.model.button" id="dip_draft_button">
+            <field name="model" search="[('model', '=', 'fuel.dip')]"/>
+            <field name="name">draft</field>
+            <field name="string">Draft</field>
+        </record>
+        <record model="ir.model.button" id="dip_validate_dip_button">
+            <field name="model" search="[('model', '=', 'fuel.dip')]"/>
+            <field name="name">validate_dip</field>
+            <field name="string">Validate</field>
+        </record>
+    </data>
+</tryton>

@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_pms module. -->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="documentation_view_form">
+            <field name="model">hotel.documentation</field>
+            <field name="type">form</field>
+            <field name="name">documentation_form</field>
+        </record>
+        <record model="ir.ui.view" id="documentation_view_list">
+            <field name="model">hotel.documentation</field>
+            <field name="type">tree</field>
+            <field name="name">documentation_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_documentation">
+            <field name="name">Documentation</field>
+            <field name="res_model">hotel.documentation</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_documentation_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="documentation_view_list"/>
+            <field name="act_window" ref="act_documentation"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_documentation_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="documentation_view_form"/>
+            <field name="act_window" ref="act_documentation"/>
+        </record>
+        <menuitem icon="tryton-hotel-doc" name="Documentation" parent="hotel.menu_hotel"
+            action="act_documentation" id="menu_documentation" sequence="110"/>
+
+        <record model="ir.model.access" id="access_documentation">
+            <field name="model" search="[('model', '=', 'hotel.documentation')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_documentation_hotel">
+            <field name="model" search="[('model', '=', 'hotel.documentation')]"/>
+            <field name="group" ref="hotel.group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_documentation_admin">
+            <field name="model" search="[('model', '=', 'hotel.documentation')]"/>
+            <field name="group" ref="hotel.group_hotel_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+
+        <record model="hotel.documentation" id="doc_getting_started">
+            <field name="title">Getting Started</field>
+            <field name="sequence" eval="10"/>
+            <field name="content">The hotel suite has two modules: Hotel (rooms, rates, articles, stock) and Hotel PMS (reservations, billing, reports, dashboard).
+
+Daily routine:
+1. Open the Dashboard (Hotel &gt; Dashboard) to see arrivals, departures, room status and the open notifications.
+2. Handle arrivals and departures from Front Desk &gt; Reservations.
+3. Record what guests consume in Stock &gt; Stock Operations.
+4. Review Notifications and mark them done.
+
+Every field has a help text: hover it to read it.</field>
+        </record>
+        <record model="hotel.documentation" id="doc_guests">
+            <field name="title">Guests and Parties</field>
+            <field name="sequence" eval="20"/>
+            <field name="content">Guests are parties (Party &gt; Parties).
+
+- For a person, tick Person and fill First Name: the name is then the family name and the party is shown as "First Name Name" everywhere (reservations, folios, sales, invoices, reports).
+- For a company or a travel agency, leave Person unticked: only the Name is used.
+- You can search a party by first name or by name.
+- A guest needs an address to quote or invoice a stay.</field>
+        </record>
+        <record model="hotel.documentation" id="doc_reservations">
+            <field name="title">Reservations and Front Desk</field>
+            <field name="sequence" eval="30"/>
+            <field name="content">A reservation has a guest, an arrival and a departure date-time, and one line per room.
+
+Workflow:
+- Draft: enter the room type and the room of each line, then Compute Prices.
+- Confirm: checks that every room is free for the period; prices are calculated from the hotel rates.
+- Check In: the rooms must be Available; they become Occupied.
+- Check Out: billable consumptions are added to the charges; the rooms become Dirty.
+- Cancel: releases the rooms.
+
+A room in maintenance or out of order cannot be booked. Two reservations never overlap on the same room; a departure and an arrival at the same time do not conflict.</field>
+        </record>
+        <record model="hotel.documentation" id="doc_pricing">
+            <field name="title">Rates and Pricing</field>
+            <field name="sequence" eval="40"/>
+            <field name="content">Rates are defined per room type, with an optional validity period (seasons). The most specific active rate applies.
+
+- Night price, plus an optional weekend night price (nights starting on Friday and Saturday).
+- Hour price, minimum hours and maximum hours.
+
+Pricing mode of a reservation line: Automatic uses the hourly rate for short stays (up to the maximum hours) and the nightly rate otherwise. An hourly stay never costs more than one night. Hourly and Nightly force the mode.
+
+A discount rate can be set on each room line (0.10 for 10%).</field>
+        </record>
+        <record model="hotel.documentation" id="doc_stock">
+            <field name="title">Articles, Consumables and Stock</field>
+            <field name="sequence" eval="50"/>
+            <field name="content">Hotel articles are ordinary products flagged Hotel Article, with a hotel category and a Billed to Guest flag.
+
+Stock operations (Hotel &gt; Stock &gt; Stock Operations):
+- Replenishment moves articles from the warehouse into a room (minibar, linen...).
+- Consumption takes articles out of the room towards the consumption location. When the consumption is billable and the room has a guest in house, it is linked to the stay and charged at check-out.
+
+Each room has its own stock location under the hotel warehouse, so room stock counts in the warehouse stock. Standard articles per room type define the quantities expected in each room.</field>
+        </record>
+        <record model="hotel.documentation" id="doc_billing">
+            <field name="title">Billing: Sales, Invoices and Discounts</field>
+            <field name="sequence" eval="60"/>
+            <field name="content">From a reservation, Create Sale builds a draft sale with the rooms (at the agreed price and discount) and the charges. Quote, confirm and process the sale as usual: the invoice is created by the standard sale flow. The reservation shows the sale state and the invoice state.
+
+Prerequisites: an account category on the room products, a chart of accounts, a fiscal year with invoice sequences, and an address on the guest to quote the sale.</field>
+        </record>
+        <record model="hotel.documentation" id="doc_long_stays">
+            <field name="title">Long Stays (Subscriptions)</field>
+            <field name="sequence" eval="70"/>
+            <field name="content">For long stays, set an Invoice Recurrence on the reservation (for example monthly) and use Create Subscription. The room is then billed one night per day at the agreed price, instead of one sale for the whole stay.
+
+The night product of the room type needs a subscription service with a daily consumption recurrence. Once the subscription exists, Create Sale only sells the remaining charges.</field>
+        </record>
+        <record model="hotel.documentation" id="doc_pos">
+            <field name="title">Point of Sale and Room Charges</field>
+            <field name="sequence" eval="80"/>
+            <field name="content">At the bar or the restaurant, a point of sale ticket can be paid with the Room Charge payment method: select the checked-in reservation on the ticket.
+
+The amount is not collected. When the sale of the stay is created, the pending room charges are added as a line (Room Charge Product of the hotel) and flagged as settled, so they are never billed twice. The reservation shows the pending POS charges.</field>
+        </record>
+        <record model="hotel.documentation" id="doc_purchasing">
+            <field name="title">Purchasing of Consumables</field>
+            <field name="sequence" eval="90"/>
+            <field name="content">On the hotel, Update Order Points creates a purchase order point for each standard article: target stock = quantity per room x number of rooms, minimum = target x Reorder Ratio.
+
+Then use Hotel &gt; Purchasing: Reorder Points, Purchase Requests (generated by the standard Tryton wizard) and Purchases. A warning notification is raised when an article falls under its minimum.</field>
+        </record>
+        <record model="hotel.documentation" id="doc_reports">
+            <field name="title">Reports</field>
+            <field name="sequence" eval="100"/>
+            <field name="content">Hotel &gt; Reports:
+- Arrivals and Departures of a period.
+- Occupancy: per day, rooms sold and available, occupancy rate, room revenue, ADR (average daily rate per sold room) and RevPAR (revenue per available room).
+- Revenue by room type and by article category.
+
+The Guest Folio is printed from a reservation (Print). Each report asks for the hotel and the period.</field>
+        </record>
+        <record model="hotel.documentation" id="doc_notifications">
+            <field name="title">Dashboard and Notifications</field>
+            <field name="sequence" eval="110"/>
+            <field name="content">The Dashboard shows, for each hotel and at the moment you open or reload it: room status, occupancy rate, arrivals and departures of the day, guests in house, room revenue (day and month), ADR, RevPAR and the open notifications. The Refresh button raises the notifications immediately.
+
+Notifications are raised automatically every 15 minutes and shown as a pop-up to the hotel users:
+- Reminder: arrivals and departures of the day.
+- Alert: check-out overdue, no-show.
+- Warning: guest late, room not ready for an arrival, stay not billed or not paid, article under its minimum stock.
+- Information: rooms in maintenance or out of order, high occupancy.
+
+When the condition disappears the notification is marked done by itself. Dismissed notifications are not raised again. You can also create your own reminders (Hotel &gt; Notifications).</field>
+        </record>
+        <record model="hotel.documentation" id="doc_housekeeping">
+            <field name="title">Housekeeping (module hotel_housekeeping)</field>
+            <field name="sequence" eval="120"/>
+            <field name="content">Available when the module Hotel Housekeeping is installed.
+
+- A departure cleaning task is created at each check-out; the scheduled action also creates one for every dirty room.
+- Housekeeping &gt; My Tasks lists your tasks with large buttons: Take, Start, Finish. Required checklist items must be done first.
+- Finishing a cleaning makes the room Available, or waits for the supervisor's Inspect if the hotel requires inspection.
+- Report a problem with Housekeeping &gt; Issues: a blocking issue puts the room in Maintenance until it is resolved.
+- Use the Tryton web client on a phone or tablet: there is no native mobile application.</field>
+        </record>
+        <record model="hotel.documentation" id="doc_channels">
+            <field name="title">Channel Manager (module hotel_channel_manager)</field>
+            <field name="sequence" eval="130"/>
+            <field name="content">Available when the module Hotel Channel Manager is installed. It synchronizes calendars (iCal) only.
+
+- Create a channel per site, then add each room with the iCal address given by the site (import).
+- Every 30 minutes the calendars are read: new events block the room, moved or removed events free it.
+- An event on a room that is not free is a Conflict: an alert is raised; use Retry once the room is free.
+- Give each site the Export Address of the room (prefixed by the server URL) so it sees your occupancy. Use New Token to revoke it.
+- Rates and availability are not pushed to Booking.com or Expedia: this needs their partner APIs.</field>
+        </record>
+        <record model="hotel.documentation" id="doc_configuration">
+            <field name="title">Configuration Checklist</field>
+            <field name="sequence" eval="140"/>
+            <field name="content">1. Chart of accounts, fiscal year with invoice sequences, payment terms.
+2. Hotel (warehouse, consumption location), room types, rooms, rates.
+3. Night and hour products: salable services with an account category, set on each room type.
+4. Long stays: a subscription service on the night product (daily recurrence) and a monthly recurrence rule set.
+5. Point of sale: a payment method flagged Room Charge, and on the hotel a Room Charge Product.
+6. Users: group Hotel for the staff, Hotel Administration for managers. Notifications are pushed to the Hotel group.
+7. Notifications: the scheduled task Hotel Notifications runs every 15 minutes (Administration &gt; Scheduler).</field>
+        </record>
+    </data>
+</tryton>

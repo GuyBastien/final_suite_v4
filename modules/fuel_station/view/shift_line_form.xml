@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton fuel_station module. -->
+<form>
+    <label name="shift"/>
+    <field name="shift"/>
+    <label name="nozzle"/>
+    <field name="nozzle"/>
+    <label name="product"/>
+    <field name="product"/>
+    <label name="unit"/>
+    <field name="unit"/>
+    <label name="opening_index"/>
+    <field name="opening_index"/>
+    <label name="closing_index"/>
+    <field name="closing_index"/>
+    <label name="test_quantity"/>
+    <field name="test_quantity"/>
+    <label name="quantity"/>
+    <field name="quantity"/>
+    <label name="unit_price"/>
+    <field name="unit_price"/>
+    <label name="amount"/>
+    <field name="amount"/>
+    <label name="currency"/>
+    <field name="currency"/>
+    <label name="move"/>
+    <field name="move"/>
+</form>

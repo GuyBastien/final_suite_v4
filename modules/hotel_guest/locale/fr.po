@@ -1,0 +1,455 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:hotel.guest.registration,birth_date:"
+msgid "Birth Date"
+msgstr "Date de naissance"
+
+msgctxt "field:hotel.guest.registration,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:hotel.guest.registration,first_name:"
+msgid "First Name"
+msgstr "Prénom"
+
+msgctxt "field:hotel.guest.registration,id_number:"
+msgid "ID Document Number"
+msgstr "Numéro de la pièce d'identité"
+
+msgctxt "field:hotel.guest.registration,id_type:"
+msgid "ID Document Type"
+msgstr "Type de pièce d'identité"
+
+msgctxt "field:hotel.guest.registration,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:hotel.guest.registration,nationality:"
+msgid "Nationality"
+msgstr "Nationalité"
+
+msgctxt "field:hotel.guest.registration,reservation:"
+msgid "Reservation"
+msgstr "Réservation"
+
+msgctxt "field:hotel.hotel,require_registration:"
+msgid "Require Guest Registration"
+msgstr "Exiger la fiche de police"
+
+msgctxt "field:hotel.keycard,code:"
+msgid "Code"
+msgstr "Code"
+
+msgctxt "field:hotel.keycard,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:hotel.keycard,reservation:"
+msgid "Reservation"
+msgstr "Réservation"
+
+msgctxt "field:hotel.keycard,room:"
+msgid "Room"
+msgstr "Chambre"
+
+msgctxt "field:hotel.keycard,state:"
+msgid "State"
+msgstr "État"
+
+msgctxt "field:hotel.keycard,valid_from:"
+msgid "Valid From"
+msgstr "Valide à partir du"
+
+msgctxt "field:hotel.keycard,valid_to:"
+msgid "Valid To"
+msgstr "Valide jusqu'au"
+
+msgctxt "field:hotel.keycard,valid_to_date:"
+msgid "Valid Until"
+msgstr "Valide jusqu'au"
+
+msgctxt "field:hotel.loyalty.entry,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:hotel.loyalty.entry,date:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "field:hotel.loyalty.entry,kind:"
+msgid "Kind"
+msgstr "Genre"
+
+msgctxt "field:hotel.loyalty.entry,party:"
+msgid "Guest"
+msgstr "Client"
+
+msgctxt "field:hotel.loyalty.entry,points:"
+msgid "Points"
+msgstr "Points"
+
+msgctxt "field:hotel.loyalty.entry,reason:"
+msgid "Reason"
+msgstr "Motif"
+
+msgctxt "field:hotel.loyalty.entry,reservation:"
+msgid "Reservation"
+msgstr "Réservation"
+
+msgctxt "field:hotel.loyalty.program,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:hotel.loyalty.program,gold_threshold:"
+msgid "Gold Threshold"
+msgstr "Seuil Or"
+
+msgctxt "field:hotel.loyalty.program,points_per_currency:"
+msgid "Points per Currency Unit"
+msgstr "Points par unité monétaire"
+
+msgctxt "field:hotel.loyalty.program,silver_threshold:"
+msgid "Silver Threshold"
+msgstr "Seuil Argent"
+
+msgctxt "field:hotel.reservation,keycards:"
+msgid "Key Cards"
+msgstr "Cartes-clés"
+
+msgctxt "field:hotel.reservation,registrations:"
+msgid "Guest Registrations"
+msgstr "Fiches de police"
+
+msgctxt "field:party.party,anonymized:"
+msgid "Anonymized"
+msgstr "Anonymisé"
+
+msgctxt "field:party.party,birth_date:"
+msgid "Birth Date"
+msgstr "Date de naissance"
+
+msgctxt "field:party.party,blacklist_reason:"
+msgid "Blacklist Reason"
+msgstr "Motif de la liste noire"
+
+msgctxt "field:party.party,blacklisted:"
+msgid "Blacklisted"
+msgstr "Sur liste noire"
+
+msgctxt "field:party.party,consent_date:"
+msgid "Consent Date"
+msgstr "Date du consentement"
+
+msgctxt "field:party.party,gdpr_consent:"
+msgid "Data Processing Consent"
+msgstr "Consentement au traitement des données"
+
+msgctxt "field:party.party,id_expiry:"
+msgid "ID Document Expiry"
+msgstr "Expiration de la pièce d'identité"
+
+msgctxt "field:party.party,id_number:"
+msgid "ID Document Number"
+msgstr "Numéro de la pièce d'identité"
+
+msgctxt "field:party.party,id_type:"
+msgid "ID Document Type"
+msgstr "Type de pièce d'identité"
+
+msgctxt "field:party.party,loyalty_points:"
+msgid "Loyalty Points"
+msgstr "Points de fidélité"
+
+msgctxt "field:party.party,loyalty_tier:"
+msgid "Loyalty Tier"
+msgstr "Niveau de fidélité"
+
+msgctxt "field:party.party,marketing_consent:"
+msgid "Marketing Consent"
+msgstr "Consentement marketing"
+
+msgctxt "field:party.party,nationality:"
+msgid "Nationality"
+msgstr "Nationalité"
+
+msgctxt "field:party.party,preferences:"
+msgid "Preferences"
+msgstr "Préférences"
+
+msgctxt "field:party.party,stays_count:"
+msgid "Stays"
+msgstr "Séjours"
+
+msgctxt "field:party.party,vip:"
+msgid "VIP"
+msgstr "VIP"
+
+msgctxt "help:hotel.hotel,require_registration:"
+msgid ""
+"Require a registration card for every guest (adults and children) at check-"
+"in."
+msgstr ""
+"Exige une fiche de police pour chaque client (adultes et enfants) à "
+"l'arrivée."
+
+msgctxt "help:hotel.loyalty.program,points_per_currency:"
+msgid "Points earned for each currency unit of the stay."
+msgstr "Points gagnés pour chaque unité monétaire du séjour."
+
+msgctxt "help:party.party,blacklisted:"
+msgid "A blacklisted guest cannot be confirmed in a reservation."
+msgstr ""
+"Un client sur liste noire ne peut pas être confirmé dans une réservation."
+
+msgctxt "help:party.party,preferences:"
+msgid "Room, pillow, diet and other preferences."
+msgstr "Chambre, oreiller, régime alimentaire et autres préférences."
+
+msgctxt "model:hotel.guest.registration,name:"
+msgid "Guest Registration"
+msgstr "Fiche de police"
+
+msgctxt "model:hotel.keycard,name:"
+msgid "Key Card"
+msgstr "Carte-clé"
+
+msgctxt "model:hotel.loyalty.entry,name:"
+msgid "Loyalty Entry"
+msgstr "Mouvement de fidélité"
+
+msgctxt "model:hotel.loyalty.program,name:"
+msgid "Loyalty Program"
+msgstr "Programme de fidélité"
+
+msgctxt "model:ir.action,name:act_guest"
+msgid "Guests"
+msgstr "Clients"
+
+msgctxt "model:ir.action,name:act_keycard"
+msgid "Key Cards"
+msgstr "Cartes-clés"
+
+msgctxt "model:ir.action,name:act_loyalty_entry"
+msgid "Loyalty Entries"
+msgstr "Mouvements de fidélité"
+
+msgctxt "model:ir.action,name:act_loyalty_program"
+msgid "Loyalty Program"
+msgstr "Programme de fidélité"
+
+msgctxt "model:ir.action,name:act_registration"
+msgid "Guest Registrations"
+msgstr "Fiches de police"
+
+msgctxt "model:ir.action.act_window.domain,name:act_guest_domain1"
+msgid "VIP"
+msgstr "VIP"
+
+msgctxt "model:ir.action.act_window.domain,name:act_guest_domain2"
+msgid "Blacklisted"
+msgstr "Sur liste noire"
+
+msgctxt "model:ir.action.act_window.domain,name:act_guest_domain3"
+msgid "Persons"
+msgstr "Personnes"
+
+msgctxt "model:ir.action.act_window.domain,name:act_guest_domain4"
+msgid "All"
+msgstr "Toutes"
+
+msgctxt "model:ir.action.act_window.domain,name:act_keycard_domain1"
+msgid "Issued"
+msgstr "Remise"
+
+msgctxt "model:ir.action.act_window.domain,name:act_keycard_domain2"
+msgid "All"
+msgstr "Toutes"
+
+msgctxt "model:ir.action.act_window.domain,name:act_loyalty_entry_domain1"
+msgid "Earned"
+msgstr "Gagné"
+
+msgctxt "model:ir.action.act_window.domain,name:act_loyalty_entry_domain2"
+msgid "All"
+msgstr "Toutes"
+
+msgctxt "model:ir.action.act_window.domain,name:act_loyalty_program_domain1"
+msgid "All"
+msgstr "Toutes"
+
+msgctxt "model:ir.action.act_window.domain,name:act_registration_domain1"
+msgid "All"
+msgstr "Toutes"
+
+msgctxt "model:ir.message,text:msg_guest_anonymize_open"
+msgid ""
+"You cannot anonymize \"%(party)s\" because the guest has open reservations."
+msgstr ""
+"Vous ne pouvez pas anonymiser « %(party)s » car le client a des réservations"
+" en cours."
+
+msgctxt "model:ir.message,text:msg_guest_anonymized_name"
+msgid "Anonymized"
+msgstr "Anonymisé"
+
+msgctxt "model:ir.message,text:msg_guest_blacklisted"
+msgid ""
+"The guest \"%(party)s\" is blacklisted: the reservation \"%(reservation)s\" "
+"cannot be confirmed."
+msgstr ""
+"Le client « %(party)s » est sur liste noire : la réservation « "
+"%(reservation)s » ne peut pas être confirmée."
+
+msgctxt "model:ir.message,text:msg_guest_registration_missing"
+msgid ""
+"The reservation \"%(reservation)s\" needs %(needed)s guest registrations at "
+"check-in but has only %(count)s."
+msgstr ""
+"La réservation « %(reservation)s » exige %(needed)s fiches de police à "
+"l'arrivée mais n'en a que %(count)s."
+
+msgctxt "model:ir.message,text:msg_loyalty_program_unique"
+msgid "A company can have only one loyalty program."
+msgstr "Une société ne peut avoir qu'un seul programme de fidélité."
+
+msgctxt "model:ir.model.button,confirm:party_anonymize_button"
+msgid "This erases the personal data of the guest. Continue?"
+msgstr "Cela efface les données personnelles du client. Continuer ?"
+
+msgctxt "model:ir.model.button,string:keycard_give_back_button"
+msgid "Returned"
+msgstr "Retourné"
+
+msgctxt "model:ir.model.button,string:keycard_issue_button"
+msgid "Issue"
+msgstr "Remettre"
+
+msgctxt "model:ir.model.button,string:keycard_revoke_button"
+msgid "Revoke"
+msgstr "Révoquer"
+
+msgctxt "model:ir.model.button,string:party_anonymize_button"
+msgid "Anonymize (GDPR)"
+msgstr "Anonymiser (RGPD)"
+
+msgctxt "model:ir.rule.group,name:rule_group_keycard_companies"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_loyalty_entry_companies"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_loyalty_program_companies"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_registration_companies"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.ui.menu,name:menu_guest"
+msgid "Guests"
+msgstr "Clients"
+
+msgctxt "model:ir.ui.menu,name:menu_guests"
+msgid "Guests"
+msgstr "Clients"
+
+msgctxt "model:ir.ui.menu,name:menu_keycard"
+msgid "Key Cards"
+msgstr "Cartes-clés"
+
+msgctxt "model:ir.ui.menu,name:menu_loyalty_entry"
+msgid "Loyalty Entries"
+msgstr "Mouvements de fidélité"
+
+msgctxt "model:ir.ui.menu,name:menu_loyalty_program"
+msgid "Loyalty Program"
+msgstr "Programme de fidélité"
+
+msgctxt "model:ir.ui.menu,name:menu_registration"
+msgid "Guest Registrations"
+msgstr "Fiches de police"
+
+msgctxt "selection:hotel.guest.registration,id_type:"
+msgid "Driving License"
+msgstr "Permis de conduire"
+
+msgctxt "selection:hotel.guest.registration,id_type:"
+msgid "ID Card"
+msgstr "Carte d'identité"
+
+msgctxt "selection:hotel.guest.registration,id_type:"
+msgid "Other"
+msgstr "Autre"
+
+msgctxt "selection:hotel.guest.registration,id_type:"
+msgid "Passport"
+msgstr "Passeport"
+
+msgctxt "selection:hotel.keycard,state:"
+msgid "Draft"
+msgstr "Brouillon"
+
+msgctxt "selection:hotel.keycard,state:"
+msgid "Issued"
+msgstr "Remise"
+
+msgctxt "selection:hotel.keycard,state:"
+msgid "Returned"
+msgstr "Retourné"
+
+msgctxt "selection:hotel.keycard,state:"
+msgid "Revoked"
+msgstr "Révoquée"
+
+msgctxt "selection:hotel.loyalty.entry,kind:"
+msgid "Adjustment"
+msgstr "Ajustement"
+
+msgctxt "selection:hotel.loyalty.entry,kind:"
+msgid "Earned"
+msgstr "Gagné"
+
+msgctxt "selection:hotel.loyalty.entry,kind:"
+msgid "Redeemed"
+msgstr "Utilisé"
+
+msgctxt "selection:party.party,id_type:"
+msgid "Driving License"
+msgstr "Permis de conduire"
+
+msgctxt "selection:party.party,id_type:"
+msgid "ID Card"
+msgstr "Carte d'identité"
+
+msgctxt "selection:party.party,id_type:"
+msgid "Other"
+msgstr "Autre"
+
+msgctxt "selection:party.party,id_type:"
+msgid "Passport"
+msgstr "Passeport"
+
+msgctxt "selection:party.party,loyalty_tier:"
+msgid "Gold"
+msgstr "Or"
+
+msgctxt "selection:party.party,loyalty_tier:"
+msgid "Silver"
+msgstr "Argent"
+
+msgctxt "view:hotel.reservation:"
+msgid "Guest Registrations"
+msgstr "Fiches de police"
+
+msgctxt "view:hotel.reservation:"
+msgid "Key Cards"
+msgstr "Cartes-clés"
+
+msgctxt "view:party.party:"
+msgid "Hotel Guest"
+msgstr "Client de l'hôtel"

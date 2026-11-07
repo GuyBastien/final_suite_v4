@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_rates_plus module. -->
+<tryton>
+    <data grouped="1">
+        <record model="ir.message" id="msg_restriction_closed">
+            <field name="text">The stay of "%(reservation)s" includes a night closed for the room type "%(room_type)s".</field>
+        </record>
+        <record model="ir.message" id="msg_restriction_arrival">
+            <field name="text">Arrivals are closed on this date for the room type "%(room_type)s" (reservation "%(reservation)s").</field>
+        </record>
+        <record model="ir.message" id="msg_restriction_departure">
+            <field name="text">Departures are closed on this date for the room type "%(room_type)s" (reservation "%(reservation)s").</field>
+        </record>
+        <record model="ir.message" id="msg_restriction_min_stay">
+            <field name="text">The reservation "%(reservation)s" is shorter than the minimum stay of %(min_stay)s nights for the room type "%(room_type)s".</field>
+        </record>
+        <record model="ir.message" id="msg_restriction_max_stay">
+            <field name="text">The reservation "%(reservation)s" is longer than the maximum stay of %(max_stay)s nights for the room type "%(room_type)s".</field>
+        </record>
+        <record model="ir.message" id="msg_meal_plan_code_unique">
+            <field name="text">The code of a meal plan must be unique per hotel.</field>
+        </record>
+        <record model="ir.message" id="msg_supplement_unique">
+            <field name="text">A room type can have only one occupancy supplement.</field>
+        </record>
+        <record model="ir.message" id="msg_contract_empty">
+            <field name="text">The contract "%(contract)s" needs a discount rate or a fixed rate.</field>
+        </record>
+        <record model="ir.message" id="msg_meal_plan_no_product">
+            <field name="text">Set the product of the meal plan "%(plan)s" to charge the meals.</field>
+        </record>
+        <record model="ir.message" id="msg_supplement_missing">
+            <field name="text">No occupancy supplement is defined for the room types of "%(reservation)s".</field>
+        </record>
+        <record model="ir.message" id="msg_label_adults">
+            <field name="text">Adults</field>
+        </record>
+        <record model="ir.message" id="msg_label_children">
+            <field name="text">Children</field>
+        </record>
+        <record model="ir.message" id="msg_label_extra_adults">
+            <field name="text">Extra adults</field>
+        </record>
+        <record model="ir.message" id="msg_label_extra_children">
+            <field name="text">Extra children</field>
+        </record>
+    </data>
+</tryton>

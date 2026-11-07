@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_mobile_payment module. -->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="reservation_view_form">
+            <field name="model">hotel.reservation</field>
+            <field name="inherit" ref="hotel_pms.reservation_view_form"/>
+            <field name="name">reservation_form</field>
+        </record>
+        <record model="ir.ui.view" id="deposit_view_form">
+            <field name="model">hotel.deposit</field>
+            <field name="inherit" ref="hotel_billing.deposit_view_form"/>
+            <field name="name">deposit_form</field>
+        </record>
+        <record model="ir.model.button" id="reservation_pay_mobile_button">
+            <field name="model" search="[('model', '=', 'hotel.reservation')]"/>
+            <field name="name">pay_mobile</field>
+            <field name="string">Pay by Mobile</field>
+        </record>
+        <record model="ir.model.button-res.group" id="reservation_pay_mobile_button_group_hotel">
+            <field name="button" ref="reservation_pay_mobile_button"/>
+            <field name="group" ref="hotel.group_hotel"/>
+        </record>
+
+        <record model="ir.model.access" id="access_transaction_hotel">
+            <field name="model" search="[('model', '=', 'mobile.payment.transaction')]"/>
+            <field name="group" ref="hotel.group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_account_hotel">
+            <field name="model" search="[('model', '=', 'mobile.payment.account')]"/>
+            <field name="group" ref="hotel.group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.ui.menu-res.group" id="menu_mobile_payment_group_hotel">
+            <field name="menu" ref="mobile_payment.menu_mobile_payment"/>
+            <field name="group" ref="hotel.group_hotel"/>
+        </record>
+    </data>
+</tryton>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_guest module. -->
+<tryton>
+    <data grouped="1">
+        <record model="ir.message" id="msg_guest_blacklisted">
+            <field name="text">The guest "%(party)s" is blacklisted: the reservation "%(reservation)s" cannot be confirmed.</field>
+        </record>
+        <record model="ir.message" id="msg_guest_registration_missing">
+            <field name="text">The reservation "%(reservation)s" needs %(needed)s guest registrations at check-in but has only %(count)s.</field>
+        </record>
+        <record model="ir.message" id="msg_guest_anonymize_open">
+            <field name="text">You cannot anonymize "%(party)s" because the guest has open reservations.</field>
+        </record>
+        <record model="ir.message" id="msg_guest_anonymized_name">
+            <field name="text">Anonymized</field>
+        </record>
+        <record model="ir.message" id="msg_loyalty_program_unique">
+            <field name="text">A company can have only one loyalty program.</field>
+        </record>
+    </data>
+</tryton>

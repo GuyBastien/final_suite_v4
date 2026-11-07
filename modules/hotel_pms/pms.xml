@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<tryton>
+    <data>
+        <menuitem icon="tryton-hotel-frontdesk" name="Front Desk" parent="hotel.menu_hotel"
+            id="menu_pms" sequence="10"/>
+    </data>
+</tryton>

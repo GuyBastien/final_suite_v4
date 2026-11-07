@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_billing module. -->
+<form>
+    <label name="hotel"/>
+    <field name="hotel"/>
+    <label name="date"/>
+    <field name="date"/>
+    <label name="state"/>
+    <field name="state"/>
+    <label name="user"/>
+    <field name="user"/>
+    <label name="in_house"/>
+    <field name="in_house"/>
+    <label name="arrivals"/>
+    <field name="arrivals"/>
+    <label name="departures"/>
+    <field name="departures"/>
+    <label name="no_shows"/>
+    <field name="no_shows"/>
+    <label name="rooms_dirty"/>
+    <field name="rooms_dirty"/>
+    <label name="room_revenue"/>
+    <field name="room_revenue"/>
+    <field name="notes" colspan="4"/>
+    <group col="8" colspan="4" id="buttons">
+        <button name="close_day" icon="tryton-ok"/>
+    </group>
+</form>

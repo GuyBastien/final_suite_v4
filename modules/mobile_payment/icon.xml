@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton mobile_payment module. -->
+<tryton>
+    <data>
+        <record model="ir.ui.icon" id="icon_mobile_payment">
+            <field name="name">tryton-mobile-payment</field>
+            <field name="path">icons/tryton-mobile-payment.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_mobile_account">
+            <field name="name">tryton-mobile-account</field>
+            <field name="path">icons/tryton-mobile-account.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_mobile_pending">
+            <field name="name">tryton-mobile-pending</field>
+            <field name="path">icons/tryton-mobile-pending.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_mobile_push">
+            <field name="name">tryton-mobile-push</field>
+            <field name="path">icons/tryton-mobile-push.svg</field>
+        </record>
+    </data>
+</tryton>

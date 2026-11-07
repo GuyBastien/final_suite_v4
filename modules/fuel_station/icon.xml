@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton fuel_station module. -->
+<tryton>
+    <data>
+        <record model="ir.ui.icon" id="icon_fuel">
+            <field name="name">tryton-fuel</field>
+            <field name="path">icons/tryton-fuel.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_fuel_tank">
+            <field name="name">tryton-fuel-tank</field>
+            <field name="path">icons/tryton-fuel-tank.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_fuel_pump">
+            <field name="name">tryton-fuel-pump</field>
+            <field name="path">icons/tryton-fuel-pump.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_fuel_price">
+            <field name="name">tryton-fuel-price</field>
+            <field name="path">icons/tryton-fuel-price.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_fuel_shift">
+            <field name="name">tryton-fuel-shift</field>
+            <field name="path">icons/tryton-fuel-shift.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_fuel_delivery">
+            <field name="name">tryton-fuel-delivery</field>
+            <field name="path">icons/tryton-fuel-delivery.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_fuel_dip">
+            <field name="name">tryton-fuel-dip</field>
+            <field name="path">icons/tryton-fuel-dip.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_fuel_report">
+            <field name="name">tryton-fuel-report</field>
+            <field name="path">icons/tryton-fuel-report.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_fuel_cash">
+            <field name="name">tryton-fuel-cash</field>
+            <field name="path">icons/tryton-fuel-cash.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_fuel_shop">
+            <field name="name">tryton-fuel-shop</field>
+            <field name="path">icons/tryton-fuel-shop.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_fuel_guide">
+            <field name="name">tryton-fuel-guide</field>
+            <field name="path">icons/tryton-fuel-guide.svg</field>
+        </record>
+    </data>
+</tryton>

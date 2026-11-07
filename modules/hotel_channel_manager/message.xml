@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_channel_manager module. -->
+<tryton>
+    <data grouped="1">
+        <record model="ir.message" id="msg_mapping_room_unique">
+            <field name="text">A room can be linked only once to a channel.</field>
+        </record>
+        <record model="ir.message" id="msg_mapping_token_unique">
+            <field name="text">The token of the room calendar must be unique.</field>
+        </record>
+        <record model="ir.message" id="msg_mapping_room_hotel">
+            <field name="text">The room "%(room)s" does not belong to the hotel of the channel.</field>
+        </record>
+        <record model="ir.message" id="msg_channel_url_scheme">
+            <field name="text">Only http and https calendar addresses are allowed.</field>
+        </record>
+        <record model="ir.message" id="msg_channel_fetch">
+            <field name="text">The calendar cannot be read: %(error)s</field>
+        </record>
+        <record model="ir.message" id="msg_channel_too_large">
+            <field name="text">The calendar is too large.</field>
+        </record>
+        <record model="ir.message" id="msg_booking_uid_unique">
+            <field name="text">This booking is already imported for the room.</field>
+        </record>
+        <record model="ir.message" id="msg_booking_period">
+            <field name="text">The end of the booking is not after its start.</field>
+        </record>
+        <record model="ir.message" id="msg_booking_unavailable">
+            <field name="text">The room %(room)s is not available between %(start)s and %(end)s.</field>
+        </record>
+        <record model="ir.message" id="msg_ch_conflict_title">
+            <field name="text">Overbooking: room %(room)s (%(channel)s)</field>
+        </record>
+        <record model="ir.message" id="msg_ch_conflict">
+            <field name="text">The %(channel)s booking "%(summary)s" from %(start)s to %(end)s cannot be accepted: the room is not free.</field>
+        </record>
+        <record model="ir.message" id="msg_ch_error_title">
+            <field name="text">Synchronization failed: %(channel)s</field>
+        </record>
+        <record model="ir.message" id="msg_ch_error">
+            <field name="text">The calendar of room %(room)s cannot be imported: %(error)s</field>
+        </record>
+    </data>
+</tryton>

@@ -1,0 +1,427 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:hotel.channel,bookings:"
+msgid "Bookings"
+msgstr "Réservations"
+
+msgctxt "field:hotel.channel,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:hotel.channel,compute_prices:"
+msgid "Compute Prices"
+msgstr "Calculer les prix"
+
+msgctxt "field:hotel.channel,hotel:"
+msgid "Hotel"
+msgstr "Hôtel"
+
+msgctxt "field:hotel.channel,last_synchronization:"
+msgid "Last Synchronization"
+msgstr "Dernière synchronisation"
+
+msgctxt "field:hotel.channel,logs:"
+msgid "Logs"
+msgstr "Journaux"
+
+msgctxt "field:hotel.channel,mappings:"
+msgid "Rooms"
+msgstr "Chambres"
+
+msgctxt "field:hotel.channel,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:hotel.channel,party:"
+msgid "Party"
+msgstr "Tiers"
+
+msgctxt "field:hotel.channel,provider:"
+msgid "Provider"
+msgstr "Opérateur"
+
+msgctxt "field:hotel.channel.booking,channel:"
+msgid "Channel"
+msgstr "Canal"
+
+msgctxt "field:hotel.channel.booking,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:hotel.channel.booking,end:"
+msgid "End"
+msgstr "Fin"
+
+msgctxt "field:hotel.channel.booking,mapping:"
+msgid "Room"
+msgstr "Chambre"
+
+msgctxt "field:hotel.channel.booking,message:"
+msgid "Message"
+msgstr "Message"
+
+msgctxt "field:hotel.channel.booking,reservation:"
+msgid "Reservation"
+msgstr "Réservation"
+
+msgctxt "field:hotel.channel.booking,start:"
+msgid "Start"
+msgstr "Début"
+
+msgctxt "field:hotel.channel.booking,state:"
+msgid "State"
+msgstr "État"
+
+msgctxt "field:hotel.channel.booking,summary:"
+msgid "Summary"
+msgstr "Résumé"
+
+msgctxt "field:hotel.channel.booking,uid:"
+msgid "Reference"
+msgstr "Référence"
+
+msgctxt "field:hotel.channel.log,cancelled:"
+msgid "Cancelled"
+msgstr "Annulée"
+
+msgctxt "field:hotel.channel.log,channel:"
+msgid "Channel"
+msgstr "Canal"
+
+msgctxt "field:hotel.channel.log,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:hotel.channel.log,conflicts:"
+msgid "Conflicts"
+msgstr "Conflits"
+
+msgctxt "field:hotel.channel.log,created:"
+msgid "Created"
+msgstr "Créées"
+
+msgctxt "field:hotel.channel.log,date:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "field:hotel.channel.log,direction:"
+msgid "Direction"
+msgstr "Sens"
+
+msgctxt "field:hotel.channel.log,mapping:"
+msgid "Room"
+msgstr "Chambre"
+
+msgctxt "field:hotel.channel.log,message:"
+msgid "Message"
+msgstr "Message"
+
+msgctxt "field:hotel.channel.log,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:hotel.channel.log,state:"
+msgid "State"
+msgstr "État"
+
+msgctxt "field:hotel.channel.log,updated:"
+msgid "Updated"
+msgstr "Mises à jour"
+
+msgctxt "field:hotel.channel.mapping,channel:"
+msgid "Channel"
+msgstr "Canal"
+
+msgctxt "field:hotel.channel.mapping,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:hotel.channel.mapping,export_path:"
+msgid "Export Address"
+msgstr "Adresse d'export"
+
+msgctxt "field:hotel.channel.mapping,external_id:"
+msgid "External ID"
+msgstr "Identifiant externe"
+
+msgctxt "field:hotel.channel.mapping,hotel:"
+msgid "Hotel"
+msgstr "Hôtel"
+
+msgctxt "field:hotel.channel.mapping,import_url:"
+msgid "Import URL"
+msgstr "URL d'import"
+
+msgctxt "field:hotel.channel.mapping,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:hotel.channel.mapping,room:"
+msgid "Room"
+msgstr "Chambre"
+
+msgctxt "field:hotel.channel.mapping,token:"
+msgid "Token"
+msgstr "Jeton"
+
+msgctxt "field:hotel.reservation,channel:"
+msgid "Channel"
+msgstr "Canal"
+
+msgctxt "field:hotel.reservation,external_reference:"
+msgid "External Reference"
+msgstr "Référence externe"
+
+msgctxt "help:hotel.channel,compute_prices:"
+msgid ""
+"Price the imported reservations with the hotel rates. Otherwise they are "
+"created at price 0 (the channel collects the payment)."
+msgstr ""
+"Calcule le prix des réservations importées avec les tarifs de l'hôtel. Sinon"
+" elles sont créées à 0 (le canal encaisse le paiement)."
+
+msgctxt "help:hotel.channel,party:"
+msgid ""
+"The party of the reservations coming from the channel (usually the OTA "
+"itself)."
+msgstr ""
+"Le tiers des réservations provenant du canal (en général l'OTA lui-même)."
+
+msgctxt "help:hotel.channel.mapping,export_path:"
+msgid ""
+"Give the channel this address (prefixed by the server URL): it publishes the"
+" occupancy of the room."
+msgstr ""
+"Donnez cette adresse au canal (précédée de l'URL du serveur) : elle publie "
+"l'occupation de la chambre."
+
+msgctxt "help:hotel.channel.mapping,external_id:"
+msgid "The identifier of the room on the channel."
+msgstr "L'identifiant de la chambre sur le canal."
+
+msgctxt "help:hotel.channel.mapping,import_url:"
+msgid ""
+"The iCal address of the room calendar published by the channel. Its "
+"reservations block the room."
+msgstr ""
+"L'adresse iCal du calendrier de la chambre publié par le canal. Ses "
+"réservations bloquent la chambre."
+
+msgctxt "help:hotel.channel.mapping,token:"
+msgid "Secret of the export address."
+msgstr "Secret de l'adresse d'export."
+
+msgctxt "help:hotel.reservation,channel:"
+msgid "The distribution channel the reservation comes from."
+msgstr "Le canal de distribution d'où provient la réservation."
+
+msgctxt "help:hotel.reservation,external_reference:"
+msgid "The reference of the reservation on the channel."
+msgstr "La référence de la réservation sur le canal."
+
+msgctxt "model:hotel.channel,name:"
+msgid "Hotel Distribution Channel"
+msgstr "Canal de distribution"
+
+msgctxt "model:hotel.channel.booking,name:"
+msgid "Hotel Channel Booking"
+msgstr "Réservation de canal"
+
+msgctxt "model:hotel.channel.log,name:"
+msgid "Hotel Channel Log"
+msgstr "Journal de canal"
+
+msgctxt "model:hotel.channel.mapping,name:"
+msgid "Hotel Channel Room"
+msgstr "Chambre de canal"
+
+msgctxt "model:ir.action,name:act_booking"
+msgid "Channel Bookings"
+msgstr "Réservations des canaux"
+
+msgctxt "model:ir.action,name:act_channel"
+msgid "Channels"
+msgstr "Canaux"
+
+msgctxt "model:ir.action,name:act_log"
+msgid "Synchronization Logs"
+msgstr "Journaux de synchronisation"
+
+msgctxt "model:ir.action.act_window.domain,name:act_booking_domain_all"
+msgid "All"
+msgstr "Toutes"
+
+msgctxt "model:ir.action.act_window.domain,name:act_booking_domain_confirmed"
+msgid "Confirmed"
+msgstr "Confirmée"
+
+msgctxt "model:ir.action.act_window.domain,name:act_booking_domain_conflict"
+msgid "Conflicts"
+msgstr "Conflits"
+
+msgctxt "model:ir.message,text:msg_booking_period"
+msgid "The end of the booking is not after its start."
+msgstr "La fin de la réservation n'est pas postérieure à son début."
+
+msgctxt "model:ir.message,text:msg_booking_uid_unique"
+msgid "This booking is already imported for the room."
+msgstr "Cette réservation est déjà importée pour la chambre."
+
+msgctxt "model:ir.message,text:msg_booking_unavailable"
+msgid "The room %(room)s is not available between %(start)s and %(end)s."
+msgstr "La chambre %(room)s n'est pas disponible entre %(start)s et %(end)s."
+
+msgctxt "model:ir.message,text:msg_ch_conflict"
+msgid ""
+"The %(channel)s booking \"%(summary)s\" from %(start)s to %(end)s cannot be "
+"accepted: the room is not free."
+msgstr ""
+"La réservation %(channel)s « %(summary)s » du %(start)s au %(end)s ne peut "
+"pas être acceptée : la chambre n'est pas libre."
+
+msgctxt "model:ir.message,text:msg_ch_conflict_title"
+msgid "Overbooking: room %(room)s (%(channel)s)"
+msgstr "Surréservation : chambre %(room)s (%(channel)s)"
+
+msgctxt "model:ir.message,text:msg_ch_error"
+msgid "The calendar of room %(room)s cannot be imported: %(error)s"
+msgstr ""
+"Le calendrier de la chambre %(room)s ne peut pas être importé : %(error)s"
+
+msgctxt "model:ir.message,text:msg_ch_error_title"
+msgid "Synchronization failed: %(channel)s"
+msgstr "Échec de la synchronisation : %(channel)s"
+
+msgctxt "model:ir.message,text:msg_channel_fetch"
+msgid "The calendar cannot be read: %(error)s"
+msgstr "Le calendrier ne peut pas être lu : %(error)s"
+
+msgctxt "model:ir.message,text:msg_channel_too_large"
+msgid "The calendar is too large."
+msgstr "Le calendrier est trop volumineux."
+
+msgctxt "model:ir.message,text:msg_channel_url_scheme"
+msgid "Only http and https calendar addresses are allowed."
+msgstr "Seules les adresses de calendrier http et https sont autorisées."
+
+msgctxt "model:ir.message,text:msg_mapping_room_hotel"
+msgid "The room \"%(room)s\" does not belong to the hotel of the channel."
+msgstr "La chambre « %(room)s » n'appartient pas à l'hôtel du canal."
+
+msgctxt "model:ir.message,text:msg_mapping_room_unique"
+msgid "A room can be linked only once to a channel."
+msgstr "Une chambre ne peut être liée qu'une fois à un canal."
+
+msgctxt "model:ir.message,text:msg_mapping_token_unique"
+msgid "The token of the room calendar must be unique."
+msgstr "Le jeton du calendrier de la chambre doit être unique."
+
+msgctxt "model:ir.model.button,string:booking_retry_button"
+msgid "Retry"
+msgstr "Réessayer"
+
+msgctxt "model:ir.model.button,string:channel_synchronize_button"
+msgid "Synchronize"
+msgstr "Synchroniser"
+
+msgctxt "model:ir.model.button,string:mapping_new_token_button"
+msgid "New Token"
+msgstr "Nouveau jeton"
+
+msgctxt "model:ir.rule.group,name:rule_group_hotel_channel_booking_companies"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_hotel_channel_companies"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_hotel_channel_log_companies"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_hotel_channel_mapping_companies"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.ui.menu,name:menu_booking"
+msgid "Channel Bookings"
+msgstr "Réservations des canaux"
+
+msgctxt "model:ir.ui.menu,name:menu_channel"
+msgid "Channels"
+msgstr "Canaux"
+
+msgctxt "model:ir.ui.menu,name:menu_channel_manager"
+msgid "Channel Manager"
+msgstr "Gestionnaire de canaux"
+
+msgctxt "model:ir.ui.menu,name:menu_log"
+msgid "Synchronization Logs"
+msgstr "Journaux de synchronisation"
+
+msgctxt "selection:hotel.channel,provider:"
+msgid "Airbnb"
+msgstr "Airbnb"
+
+msgctxt "selection:hotel.channel,provider:"
+msgid "Booking.com"
+msgstr "Booking.com"
+
+msgctxt "selection:hotel.channel,provider:"
+msgid "Expedia"
+msgstr "Expedia"
+
+msgctxt "selection:hotel.channel,provider:"
+msgid "Other"
+msgstr "Autre"
+
+msgctxt "selection:hotel.channel,provider:"
+msgid "iCal Calendar"
+msgstr "Calendrier iCal"
+
+msgctxt "selection:hotel.channel.booking,state:"
+msgid "Cancelled"
+msgstr "Annulée"
+
+msgctxt "selection:hotel.channel.booking,state:"
+msgid "Confirmed"
+msgstr "Confirmée"
+
+msgctxt "selection:hotel.channel.booking,state:"
+msgid "Conflict"
+msgstr "Conflit"
+
+msgctxt "selection:hotel.channel.log,direction:"
+msgid "Export"
+msgstr "Export"
+
+msgctxt "selection:hotel.channel.log,direction:"
+msgid "Import"
+msgstr "Import"
+
+msgctxt "selection:hotel.channel.log,state:"
+msgid "Error"
+msgstr "Erreur"
+
+msgctxt "selection:hotel.channel.log,state:"
+msgid "Success"
+msgstr "Succès"
+
+msgctxt "selection:ir.cron,method:"
+msgid "Synchronize Hotel Channels"
+msgstr "Synchroniser les canaux de l'hôtel"
+
+msgctxt "view:hotel.channel:"
+msgid "Bookings"
+msgstr "Réservations"
+
+msgctxt "view:hotel.channel:"
+msgid "Logs"
+msgstr "Journaux"
+
+msgctxt "view:hotel.channel:"
+msgid "Rooms"
+msgstr "Chambres"

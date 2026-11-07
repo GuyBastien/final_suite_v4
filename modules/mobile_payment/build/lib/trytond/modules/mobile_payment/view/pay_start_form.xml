@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton mobile_payment module. -->
+<form col="2">
+    <image name="tryton-mobile-payment" xexpand="0" xfill="0"/>
+    <label string="Choose the operator, check the amount and request the payment. The customer then confirms on the phone."
+        id="help" yalign="0.0" xalign="0.0"/>
+    <label name="document"/>
+    <field name="document"/>
+    <label name="account"/>
+    <field name="account"/>
+    <label name="amount"/>
+    <field name="amount"/>
+    <label name="channel"/>
+    <field name="channel"/>
+    <label name="phone"/>
+    <field name="phone"/>
+    <field name="ussd_available" invisible="1" colspan="2"/>
+    <field name="target_model" invisible="1" colspan="2"/>
+    <field name="target_id" invisible="1" colspan="2"/>
+    <field name="company" invisible="1" colspan="2"/>
+    <field name="currency" invisible="1" colspan="2"/>
+    <field name="transaction_id" invisible="1" colspan="2"/>
+</form>

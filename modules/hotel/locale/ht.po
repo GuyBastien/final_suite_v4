@@ -1,0 +1,660 @@
+#
+msgid ""
+msgstr ""
+"Language: ht\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:hotel.consumption,company:"
+msgid "Company"
+msgstr "Konpayi"
+
+msgctxt "field:hotel.consumption,date:"
+msgid "Date"
+msgstr "Dat"
+
+msgctxt "field:hotel.consumption,hotel:"
+msgid "Hotel"
+msgstr "Otèl"
+
+msgctxt "field:hotel.consumption,kind:"
+msgid "Kind"
+msgstr "Kalite"
+
+msgctxt "field:hotel.consumption,lines:"
+msgid "Lines"
+msgstr "Liy"
+
+msgctxt "field:hotel.consumption,notes:"
+msgid "Notes"
+msgstr "Nòt"
+
+msgctxt "field:hotel.consumption,number:"
+msgid "Number"
+msgstr "Nimewo"
+
+msgctxt "field:hotel.consumption,room:"
+msgid "Room"
+msgstr "Chanm"
+
+msgctxt "field:hotel.consumption,state:"
+msgid "State"
+msgstr "Eta"
+
+msgctxt "field:hotel.consumption.line,billable:"
+msgid "Billable"
+msgstr "Faktirab"
+
+msgctxt "field:hotel.consumption.line,consumption:"
+msgid "Operation"
+msgstr "Operasyon"
+
+msgctxt "field:hotel.consumption.line,move:"
+msgid "Stock Move"
+msgstr "Mouvman estòk"
+
+msgctxt "field:hotel.consumption.line,product:"
+msgid "Product"
+msgstr "Pwodui"
+
+msgctxt "field:hotel.consumption.line,product_uom_category:"
+msgid "Product UoM Category"
+msgstr "Kategori inite pwodui"
+
+msgctxt "field:hotel.consumption.line,quantity:"
+msgid "Quantity"
+msgstr "Kantite"
+
+msgctxt "field:hotel.consumption.line,unit:"
+msgid "Unit"
+msgstr "Inite"
+
+msgctxt "field:hotel.consumption.line,unit_price:"
+msgid "Unit Price"
+msgstr "Pri inite"
+
+msgctxt "field:hotel.hotel,check_in_time:"
+msgid "Check-in Time"
+msgstr "Lè arive"
+
+msgctxt "field:hotel.hotel,check_out_time:"
+msgid "Check-out Time"
+msgstr "Lè pati"
+
+msgctxt "field:hotel.hotel,code:"
+msgid "Code"
+msgstr "Kòd"
+
+msgctxt "field:hotel.hotel,company:"
+msgid "Company"
+msgstr "Konpayi"
+
+msgctxt "field:hotel.hotel,consumption_location:"
+msgid "Consumption Location"
+msgstr "Kote konsomasyon"
+
+msgctxt "field:hotel.hotel,currency:"
+msgid "Currency"
+msgstr "Lajan (monnen)"
+
+msgctxt "field:hotel.hotel,name:"
+msgid "Name"
+msgstr "Non"
+
+msgctxt "field:hotel.hotel,party:"
+msgid "Party"
+msgstr "Tyè"
+
+msgctxt "field:hotel.hotel,room_types:"
+msgid "Room Types"
+msgstr "Kalite chanm"
+
+msgctxt "field:hotel.hotel,rooms:"
+msgid "Rooms"
+msgstr "Chanm yo"
+
+msgctxt "field:hotel.hotel,warehouse:"
+msgid "Warehouse"
+msgstr "Depo"
+
+msgctxt "field:hotel.rate,currency:"
+msgid "Currency"
+msgstr "Lajan (monnen)"
+
+msgctxt "field:hotel.rate,end_date:"
+msgid "End Date"
+msgstr "Dat fen"
+
+msgctxt "field:hotel.rate,hour_price:"
+msgid "Hour Price"
+msgstr "Pri pa èdtan"
+
+msgctxt "field:hotel.rate,max_hours:"
+msgid "Maximum Hours"
+msgstr "Maksimòm èdtan"
+
+msgctxt "field:hotel.rate,min_hours:"
+msgid "Minimum Hours"
+msgstr "Minimòm èdtan"
+
+msgctxt "field:hotel.rate,name:"
+msgid "Name"
+msgstr "Non"
+
+msgctxt "field:hotel.rate,night_price:"
+msgid "Night Price"
+msgstr "Pri pa nwit"
+
+msgctxt "field:hotel.rate,room_type:"
+msgid "Room Type"
+msgstr "Kalite chanm"
+
+msgctxt "field:hotel.rate,start_date:"
+msgid "Start Date"
+msgstr "Dat kòmansman"
+
+msgctxt "field:hotel.rate,weekend_night_price:"
+msgid "Weekend Night Price"
+msgstr "Pri nwit wikenn"
+
+msgctxt "field:hotel.room,floor:"
+msgid "Floor"
+msgstr "Etaj"
+
+msgctxt "field:hotel.room,hotel:"
+msgid "Hotel"
+msgstr "Otèl"
+
+msgctxt "field:hotel.room,location:"
+msgid "Stock Location"
+msgstr "Kote estòk"
+
+msgctxt "field:hotel.room,name:"
+msgid "Number"
+msgstr "Nimewo"
+
+msgctxt "field:hotel.room,notes:"
+msgid "Notes"
+msgstr "Nòt"
+
+msgctxt "field:hotel.room,state:"
+msgid "State"
+msgstr "Eta"
+
+msgctxt "field:hotel.room,type:"
+msgid "Type"
+msgstr "Tip"
+
+msgctxt "field:hotel.room.type,articles:"
+msgid "Standard Articles"
+msgstr "Atik estanda"
+
+msgctxt "field:hotel.room.type,capacity:"
+msgid "Capacity"
+msgstr "Kapasite"
+
+msgctxt "field:hotel.room.type,code:"
+msgid "Code"
+msgstr "Kòd"
+
+msgctxt "field:hotel.room.type,description:"
+msgid "Description"
+msgstr "Deskripsyon"
+
+msgctxt "field:hotel.room.type,hotel:"
+msgid "Hotel"
+msgstr "Otèl"
+
+msgctxt "field:hotel.room.type,hour_product:"
+msgid "Hour Product"
+msgstr "Pwodui èdtan"
+
+msgctxt "field:hotel.room.type,name:"
+msgid "Name"
+msgstr "Non"
+
+msgctxt "field:hotel.room.type,night_product:"
+msgid "Night Product"
+msgstr "Pwodui nwit"
+
+msgctxt "field:hotel.room.type,rates:"
+msgid "Rates"
+msgstr "Tarif"
+
+msgctxt "field:hotel.room.type,rooms:"
+msgid "Rooms"
+msgstr "Chanm yo"
+
+msgctxt "field:hotel.room.type.article,product:"
+msgid "Product"
+msgstr "Pwodui"
+
+msgctxt "field:hotel.room.type.article,product_uom_category:"
+msgid "Product UoM Category"
+msgstr "Kategori inite pwodui"
+
+msgctxt "field:hotel.room.type.article,quantity:"
+msgid "Quantity"
+msgstr "Kantite"
+
+msgctxt "field:hotel.room.type.article,room_type:"
+msgid "Room Type"
+msgstr "Kalite chanm"
+
+msgctxt "field:hotel.room.type.article,unit:"
+msgid "Unit"
+msgstr "Inite"
+
+msgctxt "field:product.template,hotel_article:"
+msgid "Hotel Article"
+msgstr "Atik otèl"
+
+msgctxt "field:product.template,hotel_billable:"
+msgid "Billed to Guest"
+msgstr "Faktire bay kliyan"
+
+msgctxt "field:product.template,hotel_category:"
+msgid "Hotel Category"
+msgstr "Kategori otèl"
+
+msgctxt "help:hotel.consumption,kind:"
+msgid ""
+"Consumption takes the articles out of the room (or the warehouse) to the "
+"consumption location. Replenishment moves them from the warehouse into the "
+"room."
+msgstr ""
+"Konsomasyon an pran atik yo nan chanm nan (oswa nan depo a) pou mennen yo "
+"kote konsomasyon an. Ranplasman an retounen yo soti nan depo a nan chanm "
+"nan."
+
+msgctxt "help:hotel.consumption.line,billable:"
+msgid "Charge this consumption to the guest."
+msgstr "Chaje konsomasyon sa a sou kliyan an."
+
+msgctxt "help:hotel.consumption.line,unit_price:"
+msgid "The price charged to the guest when billable."
+msgstr "Pri yo chaje kliyan an lè li faktirab."
+
+msgctxt "help:hotel.hotel,consumption_location:"
+msgid "Where the stock goes when consumed in a room."
+msgstr "Kote stòk la ale lè yo konsome nan yon chanm."
+
+msgctxt "help:hotel.hotel,party:"
+msgid "The party representing the hotel (address, contacts)."
+msgstr "Pati ki reprezante otèl la (adrès, kontak)."
+
+msgctxt "help:hotel.hotel,warehouse:"
+msgid "The warehouse storing the hotel articles and consumables."
+msgstr "Depo ki kenbe atik ak founiti otèl la."
+
+msgctxt "help:hotel.rate,end_date:"
+msgid "Last day of validity. Empty means no upper bound."
+msgstr "Dènye jou validite. Vid vle di pa gen limit anwo."
+
+msgctxt "help:hotel.rate,hour_price:"
+msgid "Price per hour. Empty disables hourly pricing."
+msgstr "Pri pa èdtan. Vid dezaktive pri pa èdtan."
+
+msgctxt "help:hotel.rate,max_hours:"
+msgid ""
+"Longest stay still billed per hour; beyond it the nightly price applies."
+msgstr ""
+"Pi long sejou yo toujou faktire pa èdtan; pi lwen pase sa, pri pa nwit "
+"aplike."
+
+msgctxt "help:hotel.rate,min_hours:"
+msgid "Minimum number of hours billed for an hourly stay."
+msgstr "Minimòm kantite èdtan yo faktire pou yon sejou pa èdtan."
+
+msgctxt "help:hotel.rate,start_date:"
+msgid "First day of validity. Empty means no lower bound."
+msgstr "Premye jou validite. Vid vle di pa gen limit anba."
+
+msgctxt "help:hotel.rate,weekend_night_price:"
+msgid ""
+"Price of nights starting on Friday and Saturday. Empty means the night price"
+" applies."
+msgstr ""
+"Pri nwit ki kòmanse vandredi ak samdi. Vid vle di pri nwit nòmal aplike."
+
+msgctxt "help:hotel.room,location:"
+msgid ""
+"The stock location of the room (minibar, linen, amenities). Created "
+"automatically if left empty."
+msgstr ""
+"Kote stòk chanm nan (minibar, dra, founiti akèy). Kreye otomatikman si ou "
+"kite l vid."
+
+msgctxt "help:hotel.room.type,articles:"
+msgid "Articles and consumables normally stocked in each room."
+msgstr "Atik ak founiti ki nòmalman nan chak chanm."
+
+msgctxt "help:hotel.room.type,hour_product:"
+msgid "The service product invoiced for an hour."
+msgstr "Pwodui sèvis yo faktire pou yon èdtan."
+
+msgctxt "help:hotel.room.type,night_product:"
+msgid "The service product invoiced for a night."
+msgstr "Pwodui sèvis yo faktire pou yon nwit."
+
+msgctxt "help:product.template,hotel_article:"
+msgid ""
+"Check to manage this product as a hotel article or consumable (stocked in "
+"the hotel warehouse and rooms)."
+msgstr ""
+"Make si ou vle jere pwodui sa a kòm atik oswa founiti otèl (nan depo otèl la"
+" ak nan chanm yo)."
+
+msgctxt "help:product.template,hotel_billable:"
+msgid ""
+"Check if its consumption in a room is charged to the guest (e.g. minibar "
+"items)."
+msgstr ""
+"Make si konsomasyon li nan yon chanm chaje sou kliyan an (pa egzanp atik "
+"minibar)."
+
+msgctxt "model:hotel.consumption,name:"
+msgid "Hotel Stock Operation"
+msgstr "Operasyon stòk otèl"
+
+msgctxt "model:hotel.consumption.line,name:"
+msgid "Hotel Stock Operation Line"
+msgstr "Liy operasyon stòk otèl"
+
+msgctxt "model:hotel.hotel,name:"
+msgid "Hotel"
+msgstr "Otèl"
+
+msgctxt "model:hotel.rate,name:"
+msgid "Room Rate (per hour and per night)"
+msgstr "Tarif chanm (pa èdtan ak pa nwit)"
+
+msgctxt "model:hotel.room,name:"
+msgid "Hotel Room"
+msgstr "Chanm otèl"
+
+msgctxt "model:hotel.room.type,name:"
+msgid "Room Type"
+msgstr "Kalite chanm"
+
+msgctxt "model:hotel.room.type.article,name:"
+msgid "Room Type Standard Article"
+msgstr "Atik estanda kalite chanm"
+
+msgctxt "model:ir.action,name:act_article_form"
+msgid "Articles and Consumables"
+msgstr "Atik ak founiti"
+
+msgctxt "model:ir.action,name:act_consumption_form"
+msgid "Stock Operations"
+msgstr "Operasyon stòk"
+
+msgctxt "model:ir.action,name:act_hotel_form"
+msgid "Hotels"
+msgstr "Otèl yo"
+
+msgctxt "model:ir.action,name:act_hotel_move_form"
+msgid "Hotel Stock Moves"
+msgstr "Mouvman stòk otèl"
+
+msgctxt "model:ir.action,name:act_rate_form"
+msgid "Rates"
+msgstr "Tarif"
+
+msgctxt "model:ir.action,name:act_room_form"
+msgid "Rooms"
+msgstr "Chanm yo"
+
+msgctxt "model:ir.action,name:act_room_type_form"
+msgid "Room Types"
+msgstr "Kalite chanm"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_consumption_form_domain_all"
+msgid "All"
+msgstr "Tout"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_consumption_form_domain_done"
+msgid "Done"
+msgstr "Fini"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_consumption_form_domain_draft"
+msgid "Draft"
+msgstr "Bouyon"
+
+msgctxt "model:ir.message,text:msg_consumption_delete_done"
+msgid "You cannot delete the done operation \"%(consumption)s\"."
+msgstr "Ou pa kapab efase operasyon fini \"%(consumption)s\" lan."
+
+msgctxt "model:ir.message,text:msg_consumption_no_lines"
+msgid "The operation \"%(consumption)s\" has no lines to process."
+msgstr "Operasyon \"%(consumption)s\" pa gen liy pou trete."
+
+msgctxt "model:ir.message,text:msg_consumption_no_room_location"
+msgid "The operation \"%(consumption)s\" needs a room with a stock location."
+msgstr "Operasyon \"%(consumption)s\" bezwen yon chanm ki gen yon kote stòk."
+
+msgctxt "model:ir.message,text:msg_hotel_code_unique"
+msgid "The code of the hotel must be unique per company."
+msgstr "Kòd otèl la dwe inik pou chak konpayi."
+
+msgctxt "model:ir.message,text:msg_rate_invalid_period"
+msgid "The end of the stay must be after its start."
+msgstr "Fen sejou a dwe vini apre kòmansman li."
+
+msgctxt "model:ir.message,text:msg_rate_no_hour_price"
+msgid "The rate \"%(rate)s\" has no hour price."
+msgstr "Tarif \"%(rate)s\" pa gen pri pa èdtan."
+
+msgctxt "model:ir.message,text:msg_room_name_unique"
+msgid "The room number must be unique per hotel."
+msgstr "Nimewo chanm lan dwe inik pou chak otèl."
+
+msgctxt "model:ir.message,text:msg_room_type_article_unique"
+msgid "A product can be set only once per room type."
+msgstr "Yon pwodui kapab mete yon sèl fwa pou chak kalite chanm."
+
+msgctxt "model:ir.message,text:msg_room_type_code_unique"
+msgid "The code of the room type must be unique per hotel."
+msgstr "Kòd kalite chanm lan dwe inik pou chak otèl."
+
+msgctxt "model:ir.message,text:msg_room_type_no_rate"
+msgid "No rate is defined for room type \"%(room_type)s\" on %(date)s."
+msgstr "Pa gen tarif defini pou kalite chanm \"%(room_type)s\" nan dat %(date)s."
+
+msgctxt "model:ir.model.button,string:consumption_cancel_button"
+msgid "Cancel"
+msgstr "Anile"
+
+msgctxt "model:ir.model.button,string:consumption_draft_button"
+msgid "Draft"
+msgstr "Bouyon"
+
+msgctxt "model:ir.model.button,string:consumption_process_button"
+msgid "Process"
+msgstr "Trete"
+
+msgctxt "model:ir.model.button,string:room_make_available_button"
+msgid "Available"
+msgstr "Disponib"
+
+msgctxt "model:ir.model.button,string:room_make_dirty_button"
+msgid "Dirty"
+msgstr "Sal"
+
+msgctxt "model:ir.model.button,string:room_make_maintenance_button"
+msgid "Maintenance"
+msgstr "Antretyen"
+
+msgctxt "model:ir.rule.group,name:rule_group_consumption_companies"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.rule.group,name:rule_group_hotel_companies"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.sequence,name:sequence_consumption"
+msgid "Hotel Stock Operation"
+msgstr "Operasyon stòk otèl"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_consumption"
+msgid "Hotel Stock Operation"
+msgstr "Operasyon stòk otèl"
+
+msgctxt "model:ir.ui.menu,name:menu_article_form"
+msgid "Articles and Consumables"
+msgstr "Atik ak founiti"
+
+msgctxt "model:ir.ui.menu,name:menu_configuration"
+msgid "Configuration"
+msgstr "Konfigirasyon"
+
+msgctxt "model:ir.ui.menu,name:menu_consumption_form"
+msgid "Stock Operations"
+msgstr "Operasyon stòk"
+
+msgctxt "model:ir.ui.menu,name:menu_hotel"
+msgid "Hotel"
+msgstr "Otèl"
+
+msgctxt "model:ir.ui.menu,name:menu_hotel_form"
+msgid "Hotels"
+msgstr "Otèl yo"
+
+msgctxt "model:ir.ui.menu,name:menu_hotel_move_form"
+msgid "Hotel Stock Moves"
+msgstr "Mouvman stòk otèl"
+
+msgctxt "model:ir.ui.menu,name:menu_rate_form"
+msgid "Rates"
+msgstr "Tarif"
+
+msgctxt "model:ir.ui.menu,name:menu_room_form"
+msgid "Rooms"
+msgstr "Chanm yo"
+
+msgctxt "model:ir.ui.menu,name:menu_room_type_form"
+msgid "Room Types"
+msgstr "Kalite chanm"
+
+msgctxt "model:ir.ui.menu,name:menu_rooms"
+msgid "Rooms"
+msgstr "Chanm yo"
+
+msgctxt "model:ir.ui.menu,name:menu_stock"
+msgid "Stock"
+msgstr "Estòk"
+
+msgctxt "model:res.group,name:group_hotel"
+msgid "Hotel"
+msgstr "Otèl"
+
+msgctxt "model:res.group,name:group_hotel_admin"
+msgid "Hotel Administration"
+msgstr "Administrasyon otèl"
+
+msgctxt "selection:hotel.consumption,kind:"
+msgid "Consumption"
+msgstr "Konsomasyon"
+
+msgctxt "selection:hotel.consumption,kind:"
+msgid "Replenishment"
+msgstr "Ranplasman"
+
+msgctxt "selection:hotel.consumption,state:"
+msgid "Cancelled"
+msgstr "Anile"
+
+msgctxt "selection:hotel.consumption,state:"
+msgid "Done"
+msgstr "Fini"
+
+msgctxt "selection:hotel.consumption,state:"
+msgid "Draft"
+msgstr "Bouyon"
+
+msgctxt "selection:hotel.room,state:"
+msgid "Available"
+msgstr "Disponib"
+
+msgctxt "selection:hotel.room,state:"
+msgid "Dirty"
+msgstr "Sal"
+
+msgctxt "selection:hotel.room,state:"
+msgid "Maintenance"
+msgstr "Antretyen"
+
+msgctxt "selection:hotel.room,state:"
+msgid "Occupied"
+msgstr "Okipe"
+
+msgctxt "selection:hotel.room,state:"
+msgid "Out of Order"
+msgstr "Andeyò sèvis"
+
+msgctxt "selection:product.template,hotel_category:"
+msgid "Cleaning Supply"
+msgstr "Founiti netwayaj"
+
+msgctxt "selection:product.template,hotel_category:"
+msgid "Equipment"
+msgstr "Ekipman"
+
+msgctxt "selection:product.template,hotel_category:"
+msgid "Food & Beverage"
+msgstr "Manje ak bwason"
+
+msgctxt "selection:product.template,hotel_category:"
+msgid "Guest Amenity"
+msgstr "Founiti akèy pou kliyan"
+
+msgctxt "selection:product.template,hotel_category:"
+msgid "Linen"
+msgstr "Dra ak sèvyèt"
+
+msgctxt "selection:product.template,hotel_category:"
+msgid "Maintenance Supply"
+msgstr "Founiti antretyen"
+
+msgctxt "selection:product.template,hotel_category:"
+msgid "Minibar"
+msgstr "Minibar"
+
+msgctxt "view:hotel.hotel:"
+msgid "Room Types"
+msgstr "Kalite chanm"
+
+msgctxt "view:hotel.hotel:"
+msgid "Rooms"
+msgstr "Chanm yo"
+
+msgctxt "view:hotel.rate:"
+msgid "Hourly"
+msgstr "Pa èdtan"
+
+msgctxt "view:hotel.rate:"
+msgid "Nightly"
+msgstr "Pa nwit"
+
+msgctxt "view:hotel.room.type:"
+msgid "Description"
+msgstr "Deskripsyon"
+
+msgctxt "view:hotel.room.type:"
+msgid "Rates"
+msgstr "Tarif"
+
+msgctxt "view:hotel.room.type:"
+msgid "Rooms"
+msgstr "Chanm yo"
+
+msgctxt "view:hotel.room.type:"
+msgid "Standard Articles"
+msgstr "Atik estanda"
+
+msgctxt "view:product.template:"
+msgid "Hotel"
+msgstr "Otèl"

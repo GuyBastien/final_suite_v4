@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_pms module. -->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="pos_sale_view_form">
+            <field name="model">sale.point.sale</field>
+            <field name="inherit" ref="sale_point.sale_view_form"/>
+            <field name="name">pos_sale_form</field>
+        </record>
+        <record model="ir.ui.view" id="pos_payment_method_view_form">
+            <field name="model">sale.point.payment.method</field>
+            <field name="inherit" ref="sale_point.payment_method_view_form"/>
+            <field name="name">pos_payment_method_form</field>
+        </record>
+    </data>
+</tryton>

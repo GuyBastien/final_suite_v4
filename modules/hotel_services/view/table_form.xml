@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_services module. -->
+<form>
+    <label name="hotel"/>
+    <field name="hotel"/>
+    <label name="name"/>
+    <field name="name"/>
+    <label name="area"/>
+    <field name="area"/>
+    <label name="seats"/>
+    <field name="seats"/>
+    <label name="active"/>
+    <field name="active"/>
+</form>

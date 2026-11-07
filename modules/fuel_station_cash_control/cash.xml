@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton fuel_station_cash_control module. -->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="shift_cash_count_view_form">
+            <field name="model">fuel.shift.cash.count</field>
+            <field name="type">form</field>
+            <field name="name">cash_count_form</field>
+        </record>
+        <record model="ir.ui.view" id="shift_cash_count_view_list">
+            <field name="model">fuel.shift.cash.count</field>
+            <field name="type">tree</field>
+            <field name="name">cash_count_list</field>
+        </record>
+        <record model="ir.ui.view" id="shift_view_form">
+            <field name="model">fuel.shift</field>
+            <field name="inherit" ref="fuel_station.shift_view_form"/>
+            <field name="name">shift_form</field>
+        </record>
+        <record model="ir.ui.view" id="station_view_form">
+            <field name="model">fuel.station</field>
+            <field name="inherit" ref="fuel_station.station_view_form"/>
+            <field name="name">station_form</field>
+        </record>
+        <record model="ir.model.access" id="access_shift_cash_count">
+            <field name="model" search="[('model', '=', 'fuel.shift.cash.count')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_shift_cash_count_user">
+            <field name="model" search="[('model', '=', 'fuel.shift.cash.count')]"/>
+            <field name="group" ref="fuel_station.group_fuel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.model.access" id="access_shift_cash_count_admin">
+            <field name="model" search="[('model', '=', 'fuel.shift.cash.count')]"/>
+            <field name="group" ref="fuel_station.group_fuel_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_shift_cash_count">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'fuel.shift.cash.count')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_shift_cash_count">
+            <field name="domain"
+                eval="[('company', 'in', Eval('companies', []))]"
+                pyson="1"/>
+            <field name="rule_group" ref="rule_group_shift_cash_count"/>
+        </record>
+        <record model="ir.model.button" id="shift_load_denominations_button">
+            <field name="model" search="[('model', '=', 'fuel.shift')]"/>
+            <field name="name">load_denominations</field>
+            <field name="string">Load Denominations</field>
+        </record>
+    </data>
+</tryton>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel module. -->
+<tree>
+    <field name="hotel"/>
+    <field name="name"/>
+    <field name="type"/>
+    <field name="floor"/>
+    <field name="state"/>
+    <field name="active" tree_invisible="1"/>
+</tree>

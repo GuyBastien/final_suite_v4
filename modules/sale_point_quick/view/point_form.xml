@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton sale_point_quick module. -->
+<data>
+    <xpath expr="/form/field[@name='journal']" position="after">
+        <label name="card_method"/>
+        <field name="card_method"/>
+    </xpath>
+</data>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_rates_plus module. -->
+<tree>
+    <field name="hotel"/>
+    <field name="currency_digits" tree_invisible="1"/>
+    <field name="rooms_total"/>
+    <field name="occupancy_today"/>
+    <field name="adr_today"/>
+    <field name="revpar_today"/>
+    <field name="occupancy_mtd"/>
+    <field optional="1" name="room_revenue"/>
+    <field optional="1" name="adr"/>
+    <field optional="1" name="revpar"/>
+    <field optional="1" name="forecast_occupancy"/>
+    <field optional="1" name="forecast_revenue"/>
+</tree>

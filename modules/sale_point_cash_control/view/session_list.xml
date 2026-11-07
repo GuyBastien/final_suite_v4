@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton sale_point_cash_control module. -->
+<data>
+    <xpath expr="/tree/field[@name='end_amount']" position="after">
+        <field name="closing_difference" optional="0"/>
+    </xpath>
+</data>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton restaurant module. -->
+<form col="6">
+    <label name="name"/>
+    <field name="name" colspan="5"/>
+    <group col="12" colspan="6" id="service" string="Service">
+        <label name="open_orders"/>
+        <field name="open_orders"/>
+        <label name="occupied_tables"/>
+        <field name="occupied_tables"/>
+        <label name="free_tables"/>
+        <field name="free_tables"/>
+    </group>
+    <group col="12" colspan="6" id="prep" string="Preparation">
+        <label name="kitchen_queue"/>
+        <field name="kitchen_queue"/>
+        <label name="bar_queue"/>
+        <field name="bar_queue"/>
+        <label name="deliveries"/>
+        <field name="deliveries"/>
+    </group>
+    <group col="12" colspan="6" id="day" string="Today">
+        <label name="reservations"/>
+        <field name="reservations"/>
+        <label name="sales_today"/>
+        <field name="sales_today"/>
+    </group>
+</form>

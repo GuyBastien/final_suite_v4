@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_rates_plus module. -->
+<data>
+    <xpath expr="/form/field[@name='children']" position="after">
+        <label name="meal_plan"/>
+        <field name="meal_plan"/>
+    </xpath>
+    <xpath expr="/form/group[@id='buttons']/button[@name='check_out']" position="after">
+        <button name="add_meal_plan" icon="tryton-hotel-meal"/>
+        <button name="add_supplements" icon="tryton-hotel-supplement"/>
+    </xpath>
+</data>

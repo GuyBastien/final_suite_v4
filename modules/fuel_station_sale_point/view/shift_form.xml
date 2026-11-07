@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton fuel_station_sale_point module. -->
+<data>
+    <xpath expr="/form/notebook/page[@id='shop']/field[@name='shop_sales']" position="after">
+        <label name="pos_sale_count"/>
+        <field name="pos_sale_count"/>
+        <label name="pos_sale_total"/>
+        <field name="pos_sale_total"/>
+    </xpath>
+</data>

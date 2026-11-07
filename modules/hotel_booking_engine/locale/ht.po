@@ -1,0 +1,186 @@
+#
+msgid ""
+msgstr ""
+"Language: ht\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:hotel.hotel,booking_auto_confirm:"
+msgid "Confirm Automatically"
+msgstr "Konfime otomatikman"
+
+msgctxt "field:hotel.hotel,booking_deposit_rate:"
+msgid "Deposit Rate"
+msgstr "To depo"
+
+msgctxt "field:hotel.hotel,booking_engine_enabled:"
+msgid "Online Booking"
+msgstr "Rezèvasyon sou entènèt"
+
+msgctxt "field:hotel.hotel,booking_lead_hours:"
+msgid "Lead Time (hours)"
+msgstr "Delè anvan (èdtan)"
+
+msgctxt "field:hotel.hotel,booking_max_nights:"
+msgid "Maximum Nights"
+msgstr "Maksimòm nwit"
+
+msgctxt "field:hotel.hotel,booking_max_rooms:"
+msgid "Maximum Rooms"
+msgstr "Maksimòm chanm"
+
+msgctxt "field:hotel.hotel,booking_token:"
+msgid "Booking Token"
+msgstr "Jeton rezèvasyon"
+
+msgctxt "field:hotel.hotel,booking_url:"
+msgid "Booking Address"
+msgstr "Adrès rezèvasyon"
+
+msgctxt "field:hotel.reservation,deposit_requested:"
+msgid "Deposit Requested"
+msgstr "Depo mande"
+
+msgctxt "field:hotel.reservation,source:"
+msgid "Source"
+msgstr "Sous"
+
+msgctxt "help:hotel.hotel,booking_auto_confirm:"
+msgid ""
+"Assign the rooms and confirm the online reservations at once. Otherwise they"
+" stay as drafts for the front desk."
+msgstr ""
+"Bay chanm yo epi konfime rezèvasyon sou entènèt yo touswit. Sinon yo rete "
+"bouyon pou resepsyon an."
+
+msgctxt "help:hotel.hotel,booking_deposit_rate:"
+msgid ""
+"Share of the total requested as a deposit (0.30 for 30%). Payment itself is "
+"not handled online."
+msgstr ""
+"Pati nan total la yo mande kòm depo (0,30 pou 30%). Peman an pa jere sou "
+"entènèt."
+
+msgctxt "help:hotel.hotel,booking_engine_enabled:"
+msgid "Publish the booking page and the availability API of the hotel."
+msgstr "Pibliye paj rezèvasyon an ak API disponibilite otèl la."
+
+msgctxt "help:hotel.hotel,booking_lead_hours:"
+msgid "Minimum delay between the booking and the arrival."
+msgstr "Delè minimòm ant rezèvasyon an ak rive a."
+
+msgctxt "help:hotel.hotel,booking_token:"
+msgid "Secret of the booking address."
+msgstr "Sekrè adrès rezèvasyon an."
+
+msgctxt "help:hotel.hotel,booking_url:"
+msgid ""
+"Give this address (prefixed by the server URL) to the guests: it is the "
+"public booking page."
+msgstr ""
+"Bay kliyan yo adrès sa a (ak URL sèvè a devan): se paj piblik rezèvasyon an."
+
+msgctxt "help:hotel.reservation,deposit_requested:"
+msgid ""
+"Deposit asked to the guest by the online booking. Collecting it is not "
+"handled online."
+msgstr ""
+"Depo yo mande kliyan an nan rezèvasyon sou entènèt la. Koleksyon li pa jere "
+"sou entènèt."
+
+msgctxt "help:hotel.reservation,source:"
+msgid "How the reservation was received."
+msgstr "Ki jan yo te resevwa rezèvasyon an."
+
+msgctxt "model:ir.message,text:msg_booking_capacity"
+msgid "The selected rooms are too small for the number of guests."
+msgstr "Chanm yo chwazi yo twò piti pou kantite kliyan yo."
+
+msgctxt "model:ir.message,text:msg_booking_dates_invalid"
+msgid "The departure must be after the arrival."
+msgstr "Depa a dwe vini apre rive a."
+
+msgctxt "model:ir.message,text:msg_booking_email_invalid"
+msgid "The e-mail address is not valid."
+msgstr "Adrès imèl la pa valid."
+
+msgctxt "model:ir.message,text:msg_booking_field_invalid"
+msgid "The value of \"%(field)s\" is not valid."
+msgstr "Valè \"%(field)s\" la pa valid."
+
+msgctxt "model:ir.message,text:msg_booking_field_required"
+msgid "The field \"%(field)s\" is required."
+msgstr "Chan \"%(field)s\" la obligatwa."
+
+msgctxt "model:ir.message,text:msg_booking_field_too_long"
+msgid "The field \"%(field)s\" is too long."
+msgstr "Chan \"%(field)s\" la twò long."
+
+msgctxt "model:ir.message,text:msg_booking_guests"
+msgid "The number of guests is not valid."
+msgstr "Kantite kliyan yo pa valid."
+
+msgctxt "model:ir.message,text:msg_booking_in_past"
+msgid ""
+"The arrival is too early: online bookings need %(hours)s hours of notice."
+msgstr ""
+"Rive a twò bonè: rezèvasyon sou entènèt bezwen %(hours)s èdtan davans."
+
+msgctxt "model:ir.message,text:msg_booking_note_source"
+msgid "Online booking."
+msgstr "Rezèvasyon sou entènèt."
+
+msgctxt "model:ir.message,text:msg_booking_notification"
+msgid "Online reservation %(number)s"
+msgstr "Rezèvasyon sou entènèt %(number)s"
+
+msgctxt "model:ir.message,text:msg_booking_notification_text"
+msgid "%(party)s booked online from %(start)s to %(end)s (%(state)s)."
+msgstr "%(party)s rezève sou entènèt soti %(start)s rive %(end)s (%(state)s)."
+
+msgctxt "model:ir.message,text:msg_booking_room_type"
+msgid "The selected room type is not valid."
+msgstr "Kalite chanm yo chwazi a pa valid."
+
+msgctxt "model:ir.message,text:msg_booking_rooms"
+msgid "Choose between 1 and %(rooms)s rooms."
+msgstr "Chwazi ant 1 ak %(rooms)s chanm."
+
+msgctxt "model:ir.message,text:msg_booking_token_unique"
+msgid "The booking token must be unique."
+msgstr "Jeton rezèvasyon an dwe inik."
+
+msgctxt "model:ir.message,text:msg_booking_too_far"
+msgid "The arrival is too far in the future."
+msgstr "Rive a twò lwen nan lavni."
+
+msgctxt "model:ir.message,text:msg_booking_too_long"
+msgid "The stay cannot exceed %(nights)s nights."
+msgstr "Sejou a pa kapab depase %(nights)s nwit."
+
+msgctxt "model:ir.message,text:msg_booking_unavailable"
+msgid "The room type \"%(room_type)s\" is no longer available for these dates."
+msgstr "Kalite chanm \"%(room_type)s\" pa disponib ankò pou dat sa yo."
+
+msgctxt "model:ir.model.button,string:hotel_new_booking_token_button"
+msgid "New Booking Address"
+msgstr "Nouvo adrès rezèvasyon"
+
+msgctxt "selection:hotel.reservation,source:"
+msgid "Channel"
+msgstr "Kanal"
+
+msgctxt "selection:hotel.reservation,source:"
+msgid "Direct"
+msgstr "Dirèk"
+
+msgctxt "selection:hotel.reservation,source:"
+msgid "Other"
+msgstr "Lòt"
+
+msgctxt "selection:hotel.reservation,source:"
+msgid "Phone"
+msgstr "Telefòn"
+
+msgctxt "selection:hotel.reservation,source:"
+msgid "Web"
+msgstr "Wèb"

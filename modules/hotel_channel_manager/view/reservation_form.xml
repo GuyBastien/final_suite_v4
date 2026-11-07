@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_channel_manager module. -->
+<data>
+    <xpath expr="/form/field[@name='children']" position="after">
+        <label name="channel"/>
+        <field name="channel"/>
+        <label name="external_reference"/>
+        <field name="external_reference"/>
+    </xpath>
+</data>

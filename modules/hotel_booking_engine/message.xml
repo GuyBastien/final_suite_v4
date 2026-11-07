@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_booking_engine module. -->
+<tryton>
+    <data grouped="1">
+        <record model="ir.message" id="msg_booking_capacity">
+            <field name="text">The selected rooms are too small for the number of guests.</field>
+        </record>
+        <record model="ir.message" id="msg_booking_dates_invalid">
+            <field name="text">The departure must be after the arrival.</field>
+        </record>
+        <record model="ir.message" id="msg_booking_email_invalid">
+            <field name="text">The e-mail address is not valid.</field>
+        </record>
+        <record model="ir.message" id="msg_booking_field_invalid">
+            <field name="text">The value of "%(field)s" is not valid.</field>
+        </record>
+        <record model="ir.message" id="msg_booking_field_required">
+            <field name="text">The field "%(field)s" is required.</field>
+        </record>
+        <record model="ir.message" id="msg_booking_field_too_long">
+            <field name="text">The field "%(field)s" is too long.</field>
+        </record>
+        <record model="ir.message" id="msg_booking_guests">
+            <field name="text">The number of guests is not valid.</field>
+        </record>
+        <record model="ir.message" id="msg_booking_in_past">
+            <field name="text">The arrival is too early: online bookings need %(hours)s hours of notice.</field>
+        </record>
+        <record model="ir.message" id="msg_booking_note_source">
+            <field name="text">Online booking.</field>
+        </record>
+        <record model="ir.message" id="msg_booking_notification">
+            <field name="text">Online reservation %(number)s</field>
+        </record>
+        <record model="ir.message" id="msg_booking_notification_text">
+            <field name="text">%(party)s booked online from %(start)s to %(end)s (%(state)s).</field>
+        </record>
+        <record model="ir.message" id="msg_booking_room_type">
+            <field name="text">The selected room type is not valid.</field>
+        </record>
+        <record model="ir.message" id="msg_booking_rooms">
+            <field name="text">Choose between 1 and %(rooms)s rooms.</field>
+        </record>
+        <record model="ir.message" id="msg_booking_token_unique">
+            <field name="text">The booking token must be unique.</field>
+        </record>
+        <record model="ir.message" id="msg_booking_too_far">
+            <field name="text">The arrival is too far in the future.</field>
+        </record>
+        <record model="ir.message" id="msg_booking_too_long">
+            <field name="text">The stay cannot exceed %(nights)s nights.</field>
+        </record>
+        <record model="ir.message" id="msg_booking_unavailable">
+            <field name="text">The room type "%(room_type)s" is no longer available for these dates.</field>
+        </record>
+    </data>
+</tryton>

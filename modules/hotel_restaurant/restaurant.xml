@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_restaurant module. -->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="restaurant_view_form">
+            <field name="model">restaurant.restaurant</field>
+            <field name="inherit" ref="restaurant.restaurant_view_form"/>
+            <field name="name">restaurant_form</field>
+        </record>
+        <record model="ir.ui.view" id="order_view_form">
+            <field name="model">restaurant.order</field>
+            <field name="inherit" ref="restaurant.order_view_form"/>
+            <field name="name">order_form</field>
+        </record>
+        <record model="ir.ui.view" id="payment_view_form">
+            <field name="model">restaurant.payment</field>
+            <field name="inherit" ref="restaurant.payment_view_form"/>
+            <field name="name">payment_form</field>
+        </record>
+        <record model="ir.ui.view" id="table_reservation_view_form">
+            <field name="model">restaurant.reservation</field>
+            <field name="inherit" ref="restaurant.reservation_view_form"/>
+            <field name="name">table_reservation_form</field>
+        </record>
+        <record model="ir.ui.view" id="hotel_reservation_view_form">
+            <field name="model">hotel.reservation</field>
+            <field name="inherit" ref="hotel_pms.reservation_view_form"/>
+            <field name="name">hotel_reservation_form</field>
+        </record>
+
+        <record model="ir.model.button" id="restaurant_import_hotel_bookings_button">
+            <field name="model" search="[('model', '=', 'restaurant.restaurant')]"/>
+            <field name="name">import_hotel_bookings</field>
+            <field name="string">Import Hotel Table Bookings</field>
+        </record>
+        <record model="ir.model.button-res.group" id="restaurant_import_hotel_bookings_button_group_admin">
+            <field name="button" ref="restaurant_import_hotel_bookings_button"/>
+            <field name="group" ref="restaurant.group_restaurant_admin"/>
+        </record>
+
+        <!-- One restaurant: the tables and bookings of hotel_services are
+             hidden; the restaurant ones are reachable from the hotel menu. -->
+        <record model="ir.ui.menu" id="hotel_services.menu_table_booking">
+            <field name="active" eval="False"/>
+        </record>
+        <menuitem icon="tryton-restaurant-reservation"
+            name="Restaurant Reservations" parent="hotel_services.menu_services"
+            action="restaurant.act_reservation" id="menu_restaurant_reservation"
+            sequence="20"/>
+    </data>
+</tryton>

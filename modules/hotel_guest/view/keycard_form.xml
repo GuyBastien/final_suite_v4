@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_guest module. -->
+<form>
+    <label name="reservation"/>
+    <field name="reservation"/>
+    <label name="room"/>
+    <field name="room"/>
+    <label name="code"/>
+    <field name="code"/>
+    <label name="state"/>
+    <field name="state"/>
+    <label name="valid_from"/>
+    <field name="valid_from"/>
+    <label name="valid_to"/>
+    <field name="valid_to"/>
+    <group col="3" colspan="4" id="buttons">
+        <button name="issue" icon="tryton-ok"/>
+        <button name="revoke" icon="tryton-cancel"/>
+        <button name="give_back" icon="tryton-back"/>
+    </group>
+</form>

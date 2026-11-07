@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton fuel_station_cash_control module. -->
+<tree editable="1">
+    <field name="denomination"/>
+    <field name="kind"/>
+    <field name="value"/>
+    <field name="quantity"/>
+    <field name="suspect_quantity"/>
+    <field name="amount" sum="1"/>
+    <field name="suspect_amount" sum="1"/>
+</tree>

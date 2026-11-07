@@ -1,0 +1,218 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton fuel_station module. -->
+<tryton>
+    <data>
+        <record model="ir.sequence.type" id="sequence_type_shift">
+            <field name="name">Fuel Shift</field>
+        </record>
+        <record model="ir.sequence.type-res.group" id="sequence_type_shift_group_admin">
+            <field name="sequence_type" ref="sequence_type_shift"/>
+            <field name="group" ref="res.group_admin"/>
+        </record>
+        <record model="ir.sequence.type-res.group" id="sequence_type_shift_group_fuel">
+            <field name="sequence_type" ref="sequence_type_shift"/>
+            <field name="group" ref="group_fuel"/>
+        </record>
+        <record model="ir.sequence" id="sequence_shift">
+            <field name="name">Fuel Shift</field>
+            <field name="sequence_type" ref="sequence_type_shift"/>
+            <field name="prefix">SH/</field>
+        </record>
+        <record model="ir.ui.view" id="shift_view_form">
+            <field name="model">fuel.shift</field>
+            <field name="type">form</field>
+            <field name="name">shift_form</field>
+        </record>
+        <record model="ir.ui.view" id="shift_view_list">
+            <field name="model">fuel.shift</field>
+            <field name="type">tree</field>
+            <field name="name">shift_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_shift">
+            <field name="name">Shifts</field>
+            <field name="res_model">fuel.shift</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_shift_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="shift_view_list"/>
+            <field name="act_window" ref="act_shift"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_shift_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="shift_view_form"/>
+            <field name="act_window" ref="act_shift"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_shift_domain_0">
+            <field name="name">Draft</field>
+            <field name="sequence" eval="10"/>
+            <field name="domain" eval="[('state', '=', 'draft')]" pyson="1"></field>
+            <field name="act_window" ref="act_shift"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_shift_domain_1">
+            <field name="name">Open</field>
+            <field name="sequence" eval="20"/>
+            <field name="domain" eval="[('state', '=', 'open')]" pyson="1"></field>
+            <field name="act_window" ref="act_shift"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_shift_domain_2">
+            <field name="name">Closed</field>
+            <field name="sequence" eval="30"/>
+            <field name="domain" eval="[('state', '=', 'closed')]" pyson="1"></field>
+            <field name="act_window" ref="act_shift"/>
+        </record>
+        <menuitem icon="tryton-fuel-shift" name="Shifts" parent="menu_operations" id="menu_shift" sequence="10" action="act_shift"/>
+        <record model="ir.model.access" id="access_shift">
+            <field name="model" search="[('model', '=', 'fuel.shift')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_shift_user">
+            <field name="model" search="[('model', '=', 'fuel.shift')]"/>
+            <field name="group" ref="group_fuel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.model.access" id="access_shift_admin">
+            <field name="model" search="[('model', '=', 'fuel.shift')]"/>
+            <field name="group" ref="group_fuel_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_shift">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'fuel.shift')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_shift">
+            <field name="domain"
+                eval="[('company', 'in', Eval('companies', []))]"
+                pyson="1"/>
+            <field name="rule_group" ref="rule_group_shift"/>
+        </record>
+        <record model="ir.model.button" id="shift_cancel_button">
+            <field name="model" search="[('model', '=', 'fuel.shift')]"/>
+            <field name="name">cancel</field>
+            <field name="string">Cancel</field>
+        </record>
+        <record model="ir.model.button" id="shift_draft_button">
+            <field name="model" search="[('model', '=', 'fuel.shift')]"/>
+            <field name="name">draft</field>
+            <field name="string">Draft</field>
+        </record>
+        <record model="ir.model.button" id="shift_open_shift_button">
+            <field name="model" search="[('model', '=', 'fuel.shift')]"/>
+            <field name="name">open_shift</field>
+            <field name="string">Open</field>
+        </record>
+        <record model="ir.model.button" id="shift_close_button">
+            <field name="model" search="[('model', '=', 'fuel.shift')]"/>
+            <field name="name">close</field>
+            <field name="string">Close</field>
+        </record>
+        <record model="ir.ui.view" id="shift_line_view_form">
+            <field name="model">fuel.shift.line</field>
+            <field name="type">form</field>
+            <field name="name">shift_line_form</field>
+        </record>
+        <record model="ir.ui.view" id="shift_line_view_list">
+            <field name="model">fuel.shift.line</field>
+            <field name="type">tree</field>
+            <field name="name">shift_line_list</field>
+        </record>
+        <record model="ir.model.access" id="access_shift_line">
+            <field name="model" search="[('model', '=', 'fuel.shift.line')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_shift_line_user">
+            <field name="model" search="[('model', '=', 'fuel.shift.line')]"/>
+            <field name="group" ref="group_fuel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.model.access" id="access_shift_line_admin">
+            <field name="model" search="[('model', '=', 'fuel.shift.line')]"/>
+            <field name="group" ref="group_fuel_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_shift_line">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'fuel.shift.line')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_shift_line">
+            <field name="domain"
+                eval="[('shift.company', 'in', Eval('companies', []))]"
+                pyson="1"/>
+            <field name="rule_group" ref="rule_group_shift_line"/>
+        </record>
+        <record model="ir.ui.view" id="shift_payment_view_form">
+            <field name="model">fuel.shift.payment</field>
+            <field name="type">form</field>
+            <field name="name">shift_payment_form</field>
+        </record>
+        <record model="ir.ui.view" id="shift_payment_view_list">
+            <field name="model">fuel.shift.payment</field>
+            <field name="type">tree</field>
+            <field name="name">shift_payment_list</field>
+        </record>
+        <record model="ir.model.access" id="access_shift_payment">
+            <field name="model" search="[('model', '=', 'fuel.shift.payment')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_shift_payment_user">
+            <field name="model" search="[('model', '=', 'fuel.shift.payment')]"/>
+            <field name="group" ref="group_fuel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.model.access" id="access_shift_payment_admin">
+            <field name="model" search="[('model', '=', 'fuel.shift.payment')]"/>
+            <field name="group" ref="group_fuel_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_shift_payment">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'fuel.shift.payment')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_shift_payment">
+            <field name="domain"
+                eval="[('shift_company', 'in', Eval('companies', []))]"
+                pyson="1"/>
+            <field name="rule_group" ref="rule_group_shift_payment"/>
+        </record>
+        <record model="ir.action.report" id="report_shift_sheet">
+            <field name="name">Shift Sheet</field>
+            <field name="model">fuel.shift</field>
+            <field name="report_name">fuel.shift.report</field>
+            <field name="report">fuel_station/shift.fodt</field>
+        </record>
+        <record model="ir.action.keyword" id="report_shift_sheet_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">fuel.shift,-1</field>
+            <field name="action" ref="report_shift_sheet"/>
+        </record>
+    </data>
+</tryton>

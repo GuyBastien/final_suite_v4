@@ -1,0 +1,23 @@
+#
+msgid ""
+msgstr ""
+"Language: fr\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "model:ir.message,text:msg_no_reservation"
+msgid ""
+"Select the checked-in reservation of sale \"%(sale)s\" to charge it to the "
+"room."
+msgstr ""
+"Sélectionnez la réservation enregistrée de la vente « %(sale)s » pour la "
+"porter sur la chambre."
+
+msgctxt "model:ir.message,text:msg_no_room_method"
+msgid "Company \"%(company)s\" has no payment method flagged Room Charge."
+msgstr ""
+"La société « %(company)s » n'a aucun mode de paiement marqué Facturation "
+"chambre."
+
+msgctxt "model:ir.model.button,string:sale_pay_room_button"
+msgid "Charge to Room"
+msgstr "Porter sur la chambre"

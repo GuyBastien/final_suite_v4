@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_groups module. -->
+<tree>
+    <field name="date"/>
+    <field name="name"/>
+    <field name="space"/>
+    <field name="group"/>
+    <field name="attendees"/>
+    <field name="state"/>
+</tree>

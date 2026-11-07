@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_services module. -->
+<tree>
+    <field name="hotel"/>
+    <field name="table"/>
+    <field name="date"/>
+    <field name="time"/>
+    <field name="covers"/>
+    <field name="party"/>
+    <field name="guest_name"/>
+    <field name="state"/>
+</tree>

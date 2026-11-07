@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_communication module. -->
+<data>
+    <xpath expr="/form/notebook/page[@id='info']" position="after">
+        <page string="Messages" id="messages">
+            <label name="precheckin_at"/>
+            <field name="precheckin_at"/>
+            <label name="precheckin_eta"/>
+            <field name="precheckin_eta"/>
+            <field name="messages" colspan="4"/>
+        </page>
+    </xpath>
+    <xpath expr="/form/group[@id='buttons']/button[@name='check_out']" position="after">
+        <button name="send_precheckin" icon="tryton-hotel-message"/>
+    </xpath>
+</data>

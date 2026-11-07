@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton mobile_payment module. -->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="transaction_view_form">
+            <field name="model">mobile.payment.transaction</field>
+            <field name="type">form</field>
+            <field name="name">transaction_form</field>
+        </record>
+        <record model="ir.ui.view" id="transaction_view_list">
+            <field name="model">mobile.payment.transaction</field>
+            <field name="type">tree</field>
+            <field name="name">transaction_list</field>
+        </record>
+        <record model="ir.ui.view" id="sale_tx_view_list">
+            <field name="model">mobile.payment.transaction</field>
+            <field name="type">tree</field>
+            <field name="name">sale_tx_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_transaction">
+            <field name="name">Mobile Payments</field>
+            <field name="res_model">mobile.payment.transaction</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_transaction_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="transaction_view_list"/>
+            <field name="act_window" ref="act_transaction"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_transaction_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="transaction_view_form"/>
+            <field name="act_window" ref="act_transaction"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_transaction_domain_0">
+            <field name="name">Pending</field>
+            <field name="sequence" eval="10"/>
+            <field name="domain" eval="[('state', '=', 'pending')]" pyson="1"></field>
+            <field name="act_window" ref="act_transaction"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_transaction_domain_1">
+            <field name="name">To Review</field>
+            <field name="sequence" eval="20"/>
+            <field name="domain" eval="[('orphan', '=', True)]" pyson="1"></field>
+            <field name="act_window" ref="act_transaction"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_transaction_domain_2">
+            <field name="name">Paid</field>
+            <field name="sequence" eval="30"/>
+            <field name="domain" eval="[('state', '=', 'succeeded')]" pyson="1"></field>
+            <field name="act_window" ref="act_transaction"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_transaction_domain_3">
+            <field name="name">Failed or Expired</field>
+            <field name="sequence" eval="40"/>
+            <field name="domain" eval="[('state', 'in', ['failed', 'expired'])]" pyson="1"></field>
+            <field name="act_window" ref="act_transaction"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_transaction_domain_4">
+            <field name="name">All</field>
+            <field name="sequence" eval="50"/>
+            <field name="domain" eval="[]" pyson="1"></field>
+            <field name="act_window" ref="act_transaction"/>
+        </record>
+        <menuitem icon="tryton-mobile-payment" name="Mobile Payments" parent="menu_mobile_payment" id="menu_transaction" sequence="10" action="act_transaction"/>
+        <record model="ir.action.act_window" id="act_transaction_pending">
+            <field name="name">Payments Waiting for the Customer</field>
+            <field name="res_model">mobile.payment.transaction</field>
+            <field name="domain" eval="[('state', '=', 'pending')]" pyson="1"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_transaction_pending_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="transaction_view_list"/>
+            <field name="act_window" ref="act_transaction_pending"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_transaction_pending_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="transaction_view_form"/>
+            <field name="act_window" ref="act_transaction_pending"/>
+        </record>
+        <menuitem icon="tryton-mobile-pending" name="Waiting for the Customer" parent="menu_mobile_payment" id="menu_transaction_pending" sequence="5" action="act_transaction_pending"/>
+        <record model="ir.model.button" id="transaction_request_button">
+            <field name="model" search="[('model', '=', 'mobile.payment.transaction')]"/>
+            <field name="name">request</field>
+            <field name="string">Request Payment</field>
+        </record>
+        <record model="ir.model.button" id="transaction_check_button">
+            <field name="model" search="[('model', '=', 'mobile.payment.transaction')]"/>
+            <field name="name">check</field>
+            <field name="string">Verify Payment</field>
+        </record>
+        <record model="ir.model.button" id="transaction_cancel_button">
+            <field name="model" search="[('model', '=', 'mobile.payment.transaction')]"/>
+            <field name="name">cancel</field>
+            <field name="string">Cancel</field>
+        </record>
+        <record model="ir.model.button" id="transaction_resolve_button">
+            <field name="model" search="[('model', '=', 'mobile.payment.transaction')]"/>
+            <field name="name">resolve</field>
+            <field name="string">Mark as Handled</field>
+        </record>
+        <record model="ir.model.button" id="transaction_confirm_ussd_button">
+            <field name="model" search="[('model', '=', 'mobile.payment.transaction')]"/>
+            <field name="name">confirm_ussd</field>
+            <field name="string">Confirm Receipt</field>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_transaction_domain_5">
+            <field name="name">USSD to Confirm</field>
+            <field name="sequence" eval="15"/>
+            <field name="domain" eval="[('channel', '=', 'ussd'), ('state', '=', 'pending')]" pyson="1"></field>
+            <field name="act_window" ref="act_transaction"/>
+        </record>
+        <record model="ir.model.access" id="access_transaction">
+            <field name="model" search="[('model', '=', 'mobile.payment.transaction')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_transaction_user">
+            <field name="model" search="[('model', '=', 'mobile.payment.transaction')]"/>
+            <field name="group" ref="sale_point.group_sale_point"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_transaction_admin">
+            <field name="model" search="[('model', '=', 'mobile.payment.transaction')]"/>
+            <field name="group" ref="group_mobile_payment_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_transaction">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'mobile.payment.transaction')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_transaction">
+            <field name="domain"
+                eval="[('company', 'in', Eval('companies', []))]"
+                pyson="1"/>
+            <field name="rule_group" ref="rule_group_transaction"/>
+        </record>
+        <record model="ir.cron" id="cron_reconcile">
+            <field name="method">mobile.payment.transaction|reconcile</field>
+            <field name="interval_number" eval="2"/>
+            <field name="interval_type">minutes</field>
+        </record>
+    </data>
+</tryton>

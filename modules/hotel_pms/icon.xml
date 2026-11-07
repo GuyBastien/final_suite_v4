@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_pms module. -->
+<tryton>
+    <data>
+        <record model="ir.ui.icon" id="icon_hotel_reservation">
+            <field name="name">tryton-hotel-reservation</field>
+            <field name="path">icons/tryton-hotel-reservation.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_hotel_frontdesk">
+            <field name="name">tryton-hotel-frontdesk</field>
+            <field name="path">icons/tryton-hotel-frontdesk.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_hotel_report">
+            <field name="name">tryton-hotel-report</field>
+            <field name="path">icons/tryton-hotel-report.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_hotel_purchase">
+            <field name="name">tryton-hotel-purchase</field>
+            <field name="path">icons/tryton-hotel-purchase.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_hotel_arrival">
+            <field name="name">tryton-hotel-arrival</field>
+            <field name="path">icons/tryton-hotel-arrival.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_hotel_departure">
+            <field name="name">tryton-hotel-departure</field>
+            <field name="path">icons/tryton-hotel-departure.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_hotel_occupancy">
+            <field name="name">tryton-hotel-occupancy</field>
+            <field name="path">icons/tryton-hotel-occupancy.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_hotel_revenue">
+            <field name="name">tryton-hotel-revenue</field>
+            <field name="path">icons/tryton-hotel-revenue.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_hotel_reorder">
+            <field name="name">tryton-hotel-reorder</field>
+            <field name="path">icons/tryton-hotel-reorder.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_hotel_dashboard">
+            <field name="name">tryton-hotel-dashboard</field>
+            <field name="path">icons/tryton-hotel-dashboard.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_hotel_notification">
+            <field name="name">tryton-hotel-notification</field>
+            <field name="path">icons/tryton-hotel-notification.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_hotel_doc">
+            <field name="name">tryton-hotel-doc</field>
+            <field name="path">icons/tryton-hotel-doc.svg</field>
+        </record>
+    </data>
+</tryton>

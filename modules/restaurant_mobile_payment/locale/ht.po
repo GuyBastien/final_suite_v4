@@ -1,0 +1,78 @@
+#
+msgid ""
+msgstr ""
+"Language: ht\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgctxt "field:mobile.payment.transaction,restaurant_order:"
+msgid "Restaurant Order"
+msgstr "Kòmand restoran"
+
+msgctxt "field:restaurant.order,mobile_pending:"
+msgid "Mobile Payment Pending"
+msgstr "Peman mobil k ap tann"
+
+msgctxt "field:restaurant.order,mobile_transactions:"
+msgid "Mobile Payments"
+msgstr "Peman mobil"
+
+msgctxt "field:restaurant.payment,mobile_transaction:"
+msgid "Mobile Payment"
+msgstr "Peman mobil"
+
+msgctxt "help:mobile.payment.transaction,restaurant_order:"
+msgid "Restaurant order paid by this transaction."
+msgstr "Kòmand restoran tranzaksyon sa a peye."
+
+msgctxt "help:restaurant.order,mobile_transactions:"
+msgid "MonCash, NatCash and other mobile payments of this order."
+msgstr "Peman MonCash, NatCash ak lòt peman mobil pou kòmand sa a."
+
+msgctxt "help:restaurant.payment,mobile_transaction:"
+msgid "Operator confirmation that created this payment."
+msgstr "Konfirmasyon operatè a ki kreye peman sa a."
+
+msgctxt "model:ir.message,text:msg_cancel_pending"
+msgid ""
+"Order \"%(order)s\" cannot be cancelled while a mobile payment is waiting "
+"for the customer. Cancel or verify the payment first."
+msgstr ""
+"Pa ka anile kòmand « %(order)s » la pandan yon peman mobil ap tann kliyan "
+"an. Anile oswa verifye peman an anvan."
+
+msgctxt "model:ir.message,text:msg_close_pending"
+msgid ""
+"Order \"%(order)s\" cannot be closed while a mobile payment is waiting for "
+"the customer. Verify or cancel the payment first."
+msgstr ""
+"Pa ka fèmen kòmand « %(order)s » la pandan yon peman mobil ap tann kliyan "
+"an. Verifye oswa anile peman an anvan."
+
+msgctxt "model:ir.message,text:msg_company"
+msgid ""
+"The mobile payment \"%(transaction)s\" and its order must belong to the same"
+" company."
+msgstr ""
+"Peman mobil « %(transaction)s » la ak kòmand li a dwe nan menm konpayi a."
+
+msgctxt "model:ir.message,text:msg_mobile_typed"
+msgid ""
+"A mobile payment cannot be typed. Use \"Pay by Mobile\": the payment is "
+"recorded when the operator confirms it."
+msgstr ""
+"Yo pa ka antre yon peman mobil alamen. Itilize « Peye pa mobil » : peman an "
+"anrejistre lè operatè a konfime l."
+
+msgctxt "model:ir.message,text:msg_nothing_due"
+msgid "Order \"%(order)s\" has nothing left to pay."
+msgstr "Kòmand « %(order)s » la pa gen anyen ankò pou peye."
+
+msgctxt "model:ir.model.button,string:order_pay_mobile_button"
+msgid "Pay by Mobile"
+msgstr "Peye pa mobil"
+
+msgctxt "view:restaurant.order:"
+msgid "Mobile Payments"
+msgstr "Peman mobil"

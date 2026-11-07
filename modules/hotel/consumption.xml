@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<tryton>
+    <data>
+        <!-- Sequence -->
+        <record model="ir.sequence.type" id="sequence_type_consumption">
+            <field name="name">Hotel Stock Operation</field>
+        </record>
+        <record model="ir.sequence.type-res.group"
+            id="sequence_type_consumption_group_admin">
+            <field name="sequence_type" ref="sequence_type_consumption"/>
+            <field name="group" ref="res.group_admin"/>
+        </record>
+        <record model="ir.sequence.type-res.group"
+            id="sequence_type_consumption_group_hotel">
+            <field name="sequence_type" ref="sequence_type_consumption"/>
+            <field name="group" ref="group_hotel"/>
+        </record>
+        <record model="ir.sequence" id="sequence_consumption">
+            <field name="name">Hotel Stock Operation</field>
+            <field name="sequence_type" ref="sequence_type_consumption"/>
+        </record>
+
+        <!-- Views -->
+        <record model="ir.ui.view" id="consumption_view_form">
+            <field name="model">hotel.consumption</field>
+            <field name="type">form</field>
+            <field name="name">consumption_form</field>
+        </record>
+        <record model="ir.ui.view" id="consumption_view_list">
+            <field name="model">hotel.consumption</field>
+            <field name="type">tree</field>
+            <field name="name">consumption_list</field>
+        </record>
+        <record model="ir.ui.view" id="consumption_line_view_form">
+            <field name="model">hotel.consumption.line</field>
+            <field name="type">form</field>
+            <field name="name">consumption_line_form</field>
+        </record>
+        <record model="ir.ui.view" id="consumption_line_view_list">
+            <field name="model">hotel.consumption.line</field>
+            <field name="type">tree</field>
+            <field name="name">consumption_line_list</field>
+        </record>
+
+        <record model="ir.action.act_window" id="act_consumption_form">
+            <field name="name">Stock Operations</field>
+            <field name="res_model">hotel.consumption</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_consumption_form_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="consumption_view_list"/>
+            <field name="act_window" ref="act_consumption_form"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_consumption_form_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="consumption_view_form"/>
+            <field name="act_window" ref="act_consumption_form"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_consumption_form_domain_draft">
+            <field name="name">Draft</field>
+            <field name="sequence" eval="10"/>
+            <field name="domain" eval="[('state', '=', 'draft')]" pyson="1"/>
+            <field name="act_window" ref="act_consumption_form"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_consumption_form_domain_done">
+            <field name="name">Done</field>
+            <field name="sequence" eval="20"/>
+            <field name="domain" eval="[('state', '=', 'done')]" pyson="1"/>
+            <field name="act_window" ref="act_consumption_form"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_consumption_form_domain_all">
+            <field name="name">All</field>
+            <field name="sequence" eval="9999"/>
+            <field name="domain"></field>
+            <field name="act_window" ref="act_consumption_form"/>
+        </record>
+        <menuitem icon="tryton-hotel-consumption" parent="menu_stock" action="act_consumption_form"
+            id="menu_consumption_form" sequence="20"/>
+
+        <!-- Buttons -->
+        <record model="ir.model.button" id="consumption_cancel_button">
+            <field name="model" search="[('model', '=', 'hotel.consumption')]"/>
+            <field name="name">cancel</field>
+            <field name="string">Cancel</field>
+        </record>
+        <record model="ir.model.button" id="consumption_draft_button">
+            <field name="model" search="[('model', '=', 'hotel.consumption')]"/>
+            <field name="name">draft</field>
+            <field name="string">Draft</field>
+        </record>
+        <record model="ir.model.button" id="consumption_process_button">
+            <field name="model" search="[('model', '=', 'hotel.consumption')]"/>
+            <field name="name">process</field>
+            <field name="string">Process</field>
+        </record>
+
+        <!-- Access -->
+        <record model="ir.model.access" id="access_consumption">
+            <field name="model" search="[('model', '=', 'hotel.consumption')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_consumption_hotel">
+            <field name="model" search="[('model', '=', 'hotel.consumption')]"/>
+            <field name="group" ref="group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+
+        <record model="ir.model.access" id="access_consumption_line">
+            <field name="model" search="[('model', '=', 'hotel.consumption.line')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_consumption_line_hotel">
+            <field name="model" search="[('model', '=', 'hotel.consumption.line')]"/>
+            <field name="group" ref="group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+
+        <record model="ir.model.button-res.group" id="consumption_process_button_group_hotel">
+            <field name="button" ref="consumption_process_button"/>
+            <field name="group" ref="group_hotel"/>
+        </record>
+        <record model="ir.model.button-res.group" id="consumption_cancel_button_group_hotel">
+            <field name="button" ref="consumption_cancel_button"/>
+            <field name="group" ref="group_hotel"/>
+        </record>
+        <record model="ir.model.button-res.group" id="consumption_draft_button_group_hotel">
+            <field name="button" ref="consumption_draft_button"/>
+            <field name="group" ref="group_hotel"/>
+        </record>
+
+        <record model="ir.rule.group" id="rule_group_consumption_companies">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'hotel.consumption')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_consumption_companies">
+            <field name="domain"
+                eval="[('company', 'in', Eval('companies', []))]"
+                pyson="1"/>
+            <field name="rule_group" ref="rule_group_consumption_companies"/>
+        </record>
+    </data>
+</tryton>

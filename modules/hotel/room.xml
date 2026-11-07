@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<tryton>
+    <data>
+        <!-- Room type -->
+        <record model="ir.ui.view" id="room_type_view_form">
+            <field name="model">hotel.room.type</field>
+            <field name="type">form</field>
+            <field name="name">room_type_form</field>
+        </record>
+        <record model="ir.ui.view" id="room_type_view_list">
+            <field name="model">hotel.room.type</field>
+            <field name="type">tree</field>
+            <field name="name">room_type_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_room_type_form">
+            <field name="name">Room Types</field>
+            <field name="res_model">hotel.room.type</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_room_type_form_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="room_type_view_list"/>
+            <field name="act_window" ref="act_room_type_form"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_room_type_form_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="room_type_view_form"/>
+            <field name="act_window" ref="act_room_type_form"/>
+        </record>
+        <menuitem icon="tryton-hotel-room" parent="menu_configuration" action="act_room_type_form"
+            id="menu_room_type_form" sequence="20"/>
+
+        <!-- Room type standard articles -->
+        <record model="ir.ui.view" id="room_type_article_view_form">
+            <field name="model">hotel.room.type.article</field>
+            <field name="type">form</field>
+            <field name="name">room_type_article_form</field>
+        </record>
+        <record model="ir.ui.view" id="room_type_article_view_list">
+            <field name="model">hotel.room.type.article</field>
+            <field name="type">tree</field>
+            <field name="name">room_type_article_list</field>
+        </record>
+
+        <!-- Room -->
+        <record model="ir.ui.view" id="room_view_form">
+            <field name="model">hotel.room</field>
+            <field name="type">form</field>
+            <field name="name">room_form</field>
+        </record>
+        <record model="ir.ui.view" id="room_view_list">
+            <field name="model">hotel.room</field>
+            <field name="type">tree</field>
+            <field name="name">room_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_room_form">
+            <field name="name">Rooms</field>
+            <field name="res_model">hotel.room</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_room_form_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="room_view_list"/>
+            <field name="act_window" ref="act_room_form"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_room_form_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="room_view_form"/>
+            <field name="act_window" ref="act_room_form"/>
+        </record>
+        <menuitem icon="tryton-hotel-room" parent="menu_rooms" action="act_room_form"
+            id="menu_room_form" sequence="10"/>
+
+        <record model="ir.model.button" id="room_make_available_button">
+            <field name="model" search="[('model', '=', 'hotel.room')]"/>
+            <field name="name">make_available</field>
+            <field name="string">Available</field>
+        </record>
+        <record model="ir.model.button" id="room_make_dirty_button">
+            <field name="model" search="[('model', '=', 'hotel.room')]"/>
+            <field name="name">make_dirty</field>
+            <field name="string">Dirty</field>
+        </record>
+        <record model="ir.model.button" id="room_make_maintenance_button">
+            <field name="model" search="[('model', '=', 'hotel.room')]"/>
+            <field name="name">make_maintenance</field>
+            <field name="string">Maintenance</field>
+        </record>
+
+        <!-- Access: configuration models are read-only for Hotel users -->
+        <record model="ir.model.access" id="access_room_type">
+            <field name="model" search="[('model', '=', 'hotel.room.type')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_room_type_hotel">
+            <field name="model" search="[('model', '=', 'hotel.room.type')]"/>
+            <field name="group" ref="group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_room_type_hotel_admin">
+            <field name="model" search="[('model', '=', 'hotel.room.type')]"/>
+            <field name="group" ref="group_hotel_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+
+        <record model="ir.model.access" id="access_room_type_article">
+            <field name="model" search="[('model', '=', 'hotel.room.type.article')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_room_type_article_hotel">
+            <field name="model" search="[('model', '=', 'hotel.room.type.article')]"/>
+            <field name="group" ref="group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_room_type_article_hotel_admin">
+            <field name="model" search="[('model', '=', 'hotel.room.type.article')]"/>
+            <field name="group" ref="group_hotel_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+
+        <!-- Access: rooms are operational data -->
+        <record model="ir.model.access" id="access_room">
+            <field name="model" search="[('model', '=', 'hotel.room')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_room_hotel">
+            <field name="model" search="[('model', '=', 'hotel.room')]"/>
+            <field name="group" ref="group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_room_hotel_admin">
+            <field name="model" search="[('model', '=', 'hotel.room')]"/>
+            <field name="group" ref="group_hotel_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+    </data>
+</tryton>

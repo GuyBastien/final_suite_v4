@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_groups module. -->
+<tree>
+    <field name="reservation"/>
+    <field name="guest"/>
+    <field name="room_type"/>
+    <field name="room"/>
+</tree>

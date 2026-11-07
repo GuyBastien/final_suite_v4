@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_channel_manager module. -->
+<form>
+    <label name="channel"/>
+    <field name="channel"/>
+    <label name="mapping"/>
+    <field name="mapping"/>
+    <label name="date"/>
+    <field name="date"/>
+    <label name="direction"/>
+    <field name="direction"/>
+    <label name="state"/>
+    <field name="state"/>
+    <newline/>
+    <label name="created"/>
+    <field name="created"/>
+    <label name="updated"/>
+    <field name="updated"/>
+    <label name="cancelled"/>
+    <field name="cancelled"/>
+    <label name="conflicts"/>
+    <field name="conflicts"/>
+    <field name="message" colspan="4"/>
+</form>

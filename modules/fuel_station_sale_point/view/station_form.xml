@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton fuel_station_sale_point module. -->
+<data>
+    <xpath expr="/form/field[@name='company']" position="after">
+        <label name="sale_point"/>
+        <field name="sale_point"/>
+    </xpath>
+</data>

@@ -1,0 +1,188 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:hotel.hotel,booking_auto_confirm:"
+msgid "Confirm Automatically"
+msgstr "Confirmer automatiquement"
+
+msgctxt "field:hotel.hotel,booking_deposit_rate:"
+msgid "Deposit Rate"
+msgstr "Taux d'acompte"
+
+msgctxt "field:hotel.hotel,booking_engine_enabled:"
+msgid "Online Booking"
+msgstr "Réservation en ligne"
+
+msgctxt "field:hotel.hotel,booking_lead_hours:"
+msgid "Lead Time (hours)"
+msgstr "Délai (heures)"
+
+msgctxt "field:hotel.hotel,booking_max_nights:"
+msgid "Maximum Nights"
+msgstr "Nuits maximum"
+
+msgctxt "field:hotel.hotel,booking_max_rooms:"
+msgid "Maximum Rooms"
+msgstr "Chambres maximum"
+
+msgctxt "field:hotel.hotel,booking_token:"
+msgid "Booking Token"
+msgstr "Jeton de réservation"
+
+msgctxt "field:hotel.hotel,booking_url:"
+msgid "Booking Address"
+msgstr "Adresse de réservation"
+
+msgctxt "field:hotel.reservation,deposit_requested:"
+msgid "Deposit Requested"
+msgstr "Acompte demandé"
+
+msgctxt "field:hotel.reservation,source:"
+msgid "Source"
+msgstr "Source"
+
+msgctxt "help:hotel.hotel,booking_auto_confirm:"
+msgid ""
+"Assign the rooms and confirm the online reservations at once. Otherwise they"
+" stay as drafts for the front desk."
+msgstr ""
+"Attribue les chambres et confirme aussitôt les réservations en ligne. Sinon "
+"elles restent en brouillon pour la réception."
+
+msgctxt "help:hotel.hotel,booking_deposit_rate:"
+msgid ""
+"Share of the total requested as a deposit (0.30 for 30%). Payment itself is "
+"not handled online."
+msgstr ""
+"Part du total demandée en acompte (0,30 pour 30 %). Le paiement lui-même "
+"n'est pas géré en ligne."
+
+msgctxt "help:hotel.hotel,booking_engine_enabled:"
+msgid "Publish the booking page and the availability API of the hotel."
+msgstr "Publie la page de réservation et l'API de disponibilité de l'hôtel."
+
+msgctxt "help:hotel.hotel,booking_lead_hours:"
+msgid "Minimum delay between the booking and the arrival."
+msgstr "Délai minimal entre la réservation et l'arrivée."
+
+msgctxt "help:hotel.hotel,booking_token:"
+msgid "Secret of the booking address."
+msgstr "Secret de l'adresse de réservation."
+
+msgctxt "help:hotel.hotel,booking_url:"
+msgid ""
+"Give this address (prefixed by the server URL) to the guests: it is the "
+"public booking page."
+msgstr ""
+"Donnez cette adresse (précédée de l'URL du serveur) aux clients : c'est la "
+"page publique de réservation."
+
+msgctxt "help:hotel.reservation,deposit_requested:"
+msgid ""
+"Deposit asked to the guest by the online booking. Collecting it is not "
+"handled online."
+msgstr ""
+"Acompte demandé au client lors de la réservation en ligne. Son encaissement "
+"n'est pas géré en ligne."
+
+msgctxt "help:hotel.reservation,source:"
+msgid "How the reservation was received."
+msgstr "Mode de réception de la réservation."
+
+msgctxt "model:ir.message,text:msg_booking_capacity"
+msgid "The selected rooms are too small for the number of guests."
+msgstr ""
+"Les chambres sélectionnées sont trop petites pour le nombre de personnes."
+
+msgctxt "model:ir.message,text:msg_booking_dates_invalid"
+msgid "The departure must be after the arrival."
+msgstr "Le départ doit être postérieur à l'arrivée."
+
+msgctxt "model:ir.message,text:msg_booking_email_invalid"
+msgid "The e-mail address is not valid."
+msgstr "L'adresse e-mail n'est pas valide."
+
+msgctxt "model:ir.message,text:msg_booking_field_invalid"
+msgid "The value of \"%(field)s\" is not valid."
+msgstr "La valeur de « %(field)s » n'est pas valide."
+
+msgctxt "model:ir.message,text:msg_booking_field_required"
+msgid "The field \"%(field)s\" is required."
+msgstr "Le champ « %(field)s » est obligatoire."
+
+msgctxt "model:ir.message,text:msg_booking_field_too_long"
+msgid "The field \"%(field)s\" is too long."
+msgstr "Le champ « %(field)s » est trop long."
+
+msgctxt "model:ir.message,text:msg_booking_guests"
+msgid "The number of guests is not valid."
+msgstr "Le nombre de personnes n'est pas valide."
+
+msgctxt "model:ir.message,text:msg_booking_in_past"
+msgid ""
+"The arrival is too early: online bookings need %(hours)s hours of notice."
+msgstr ""
+"L'arrivée est trop proche : les réservations en ligne exigent %(hours)s "
+"heures de préavis."
+
+msgctxt "model:ir.message,text:msg_booking_note_source"
+msgid "Online booking."
+msgstr "Réservation en ligne."
+
+msgctxt "model:ir.message,text:msg_booking_notification"
+msgid "Online reservation %(number)s"
+msgstr "Réservation en ligne %(number)s"
+
+msgctxt "model:ir.message,text:msg_booking_notification_text"
+msgid "%(party)s booked online from %(start)s to %(end)s (%(state)s)."
+msgstr "%(party)s a réservé en ligne du %(start)s au %(end)s (%(state)s)."
+
+msgctxt "model:ir.message,text:msg_booking_room_type"
+msgid "The selected room type is not valid."
+msgstr "Le type de chambre sélectionné n'est pas valide."
+
+msgctxt "model:ir.message,text:msg_booking_rooms"
+msgid "Choose between 1 and %(rooms)s rooms."
+msgstr "Choisissez entre 1 et %(rooms)s chambres."
+
+msgctxt "model:ir.message,text:msg_booking_token_unique"
+msgid "The booking token must be unique."
+msgstr "Le jeton de réservation doit être unique."
+
+msgctxt "model:ir.message,text:msg_booking_too_far"
+msgid "The arrival is too far in the future."
+msgstr "L'arrivée est trop éloignée dans le temps."
+
+msgctxt "model:ir.message,text:msg_booking_too_long"
+msgid "The stay cannot exceed %(nights)s nights."
+msgstr "Le séjour ne peut pas dépasser %(nights)s nuits."
+
+msgctxt "model:ir.message,text:msg_booking_unavailable"
+msgid "The room type \"%(room_type)s\" is no longer available for these dates."
+msgstr ""
+"Le type de chambre « %(room_type)s » n'est plus disponible pour ces dates."
+
+msgctxt "model:ir.model.button,string:hotel_new_booking_token_button"
+msgid "New Booking Address"
+msgstr "Nouvelle adresse de réservation"
+
+msgctxt "selection:hotel.reservation,source:"
+msgid "Channel"
+msgstr "Canal"
+
+msgctxt "selection:hotel.reservation,source:"
+msgid "Direct"
+msgstr "Direct"
+
+msgctxt "selection:hotel.reservation,source:"
+msgid "Other"
+msgstr "Autre"
+
+msgctxt "selection:hotel.reservation,source:"
+msgid "Phone"
+msgstr "Téléphone"
+
+msgctxt "selection:hotel.reservation,source:"
+msgid "Web"
+msgstr "Web"

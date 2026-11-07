@@ -1,0 +1,21 @@
+#
+msgid ""
+msgstr ""
+"Language: ht\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "model:ir.message,text:msg_no_reservation"
+msgid ""
+"Select the checked-in reservation of sale \"%(sale)s\" to charge it to the "
+"room."
+msgstr ""
+"Chwazi rezèvasyon ki anrejistre a nan vant \"%(sale)s\" lan pou mete l sou "
+"chanm nan."
+
+msgctxt "model:ir.message,text:msg_no_room_method"
+msgid "Company \"%(company)s\" has no payment method flagged Room Charge."
+msgstr "Konpayi \"%(company)s\" pa gen okenn metòd peman make Chaj chanm."
+
+msgctxt "model:ir.model.button,string:sale_pay_room_button"
+msgid "Charge to Room"
+msgstr "Mete sou chanm"

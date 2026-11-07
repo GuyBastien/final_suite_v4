@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton party_person_ht module. -->
+<data>
+    <xpath expr="/tree/field[@name='name']" position="after">
+        <field name="first_name" expand="1"/>
+        <field name="is_person" optional="1"/>
+    </xpath>
+</data>

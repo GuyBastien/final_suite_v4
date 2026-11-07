@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_maintenance module. -->
+<data>
+    <xpath expr="/form/field[@name='check_out_time']" position="after">
+        <label name="laundry_location"/>
+        <field name="laundry_location"/>
+    </xpath>
+</data>

@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<tryton>
+    <data grouped="1">
+        <record model="ir.message" id="msg_reservation_delete_state">
+            <field name="text">You cannot delete the reservation "%(reservation)s" because it is not draft or cancelled.</field>
+        </record>
+        <record model="ir.message" id="msg_reservation_no_lines">
+            <field name="text">The reservation "%(reservation)s" has no room.</field>
+        </record>
+        <record model="ir.message" id="msg_reservation_line_no_room">
+            <field name="text">The reservation "%(reservation)s" needs a room for the type "%(room_type)s".</field>
+        </record>
+        <record model="ir.message" id="msg_reservation_room_duplicate">
+            <field name="text">The room "%(room)s" is used twice in the reservation "%(reservation)s".</field>
+        </record>
+        <record model="ir.message" id="msg_reservation_room_unavailable">
+            <field name="text">The room "%(room)s" is not available between %(start)s and %(end)s for the reservation "%(reservation)s".</field>
+        </record>
+        <record model="ir.message" id="msg_reservation_room_not_ready">
+            <field name="text">The room "%(room)s" cannot be checked in for the reservation "%(reservation)s" because its state is "%(state)s".</field>
+        </record>
+        <record model="ir.message" id="msg_reservation_sale_exists">
+            <field name="text">The reservation "%(reservation)s" already has a sale.</field>
+        </record>
+        <record model="ir.message" id="msg_reservation_no_product">
+            <field name="text">The room type "%(room_type)s" has no %(mode)s product to sell.</field>
+        </record>
+        <record model="ir.message" id="msg_reservation_billed">
+            <field name="text">The reservation "%(reservation)s" is already billed by a sale or a subscription.</field>
+        </record>
+        <record model="ir.message" id="msg_reservation_no_recurrence">
+            <field name="text">Set an invoice recurrence on the reservation "%(reservation)s" to create its subscription.</field>
+        </record>
+        <record model="ir.message" id="msg_reservation_no_service">
+            <field name="text">The night product of room type "%(room_type)s" has no subscription service.</field>
+        </record>
+        <record model="ir.message" id="msg_reservation_nothing_to_sell">
+            <field name="text">The reservation "%(reservation)s" is billed by subscription and has no charge to sell.</field>
+        </record>
+        <record model="ir.message" id="msg_pos_room_charge_no_reservation">
+            <field name="text">The POS sale "%(sale)s" is paid by room charge: select the checked-in reservation to charge.</field>
+        </record>
+        <record model="ir.message" id="msg_reservation_no_room_charge_product">
+            <field name="text">Set a room charge product on hotel "%(hotel)s" to settle the point of sale charges.</field>
+        </record>
+        <record model="ir.message" id="msg_pos_room_charge_line">
+            <field name="text">Point of sale charges - %(reservation)s</field>
+        </record>
+        <record model="ir.message" id="msg_notification_key_unique">
+            <field name="text">This situation has already been notified.</field>
+        </record>
+        <record model="ir.message" id="msg_notice_capacity">
+            <field name="text">%(guests)s guests for a total capacity of %(capacity)s.</field>
+        </record>
+        <record model="ir.message" id="msg_notice_room_busy">
+            <field name="text">The room %(room)s is not available on these dates.</field>
+        </record>
+        <record model="ir.message" id="msg_notif_arrival_title">
+            <field name="text">Arrival today: %(number)s</field>
+        </record>
+        <record model="ir.message" id="msg_notif_arrival">
+            <field name="text">%(guest)s arrives at %(time)s (rooms: %(rooms)s).</field>
+        </record>
+        <record model="ir.message" id="msg_notif_departure_title">
+            <field name="text">Departure today: %(number)s</field>
+        </record>
+        <record model="ir.message" id="msg_notif_departure">
+            <field name="text">%(guest)s leaves at %(time)s (rooms: %(rooms)s).</field>
+        </record>
+        <record model="ir.message" id="msg_notif_late_title">
+            <field name="text">Guest late: %(number)s</field>
+        </record>
+        <record model="ir.message" id="msg_notif_late">
+            <field name="text">%(guest)s was expected at %(time)s and is not checked in yet.</field>
+        </record>
+        <record model="ir.message" id="msg_notif_overdue_title">
+            <field name="text">Check-out overdue: %(number)s</field>
+        </record>
+        <record model="ir.message" id="msg_notif_overdue">
+            <field name="text">%(guest)s should have left (rooms: %(rooms)s) on %(time)s.</field>
+        </record>
+        <record model="ir.message" id="msg_notif_noshow_title">
+            <field name="text">No-show: %(number)s</field>
+        </record>
+        <record model="ir.message" id="msg_notif_noshow">
+            <field name="text">%(guest)s did not arrive on %(time)s: cancel or check in the reservation.</field>
+        </record>
+        <record model="ir.message" id="msg_notif_notready_title">
+            <field name="text">Room %(room)s is not ready</field>
+        </record>
+        <record model="ir.message" id="msg_notif_notready">
+            <field name="text">Room %(room)s is "%(state)s" but reservation %(number)s arrives at %(time)s.</field>
+        </record>
+        <record model="ir.message" id="msg_notif_unbilled_title">
+            <field name="text">Stay not billed: %(number)s</field>
+        </record>
+        <record model="ir.message" id="msg_notif_unbilled">
+            <field name="text">The stay of %(guest)s is checked out and not billed (%(amount)s).</field>
+        </record>
+        <record model="ir.message" id="msg_notif_unpaid_title">
+            <field name="text">Stay not paid: %(number)s</field>
+        </record>
+        <record model="ir.message" id="msg_notif_unpaid">
+            <field name="text">The invoice of %(guest)s is still waiting for payment.</field>
+        </record>
+        <record model="ir.message" id="msg_notif_lowstock_title">
+            <field name="text">Low stock: %(product)s</field>
+        </record>
+        <record model="ir.message" id="msg_notif_lowstock">
+            <field name="text">%(product)s: %(quantity)s left, minimum %(minimum)s.</field>
+        </record>
+        <record model="ir.message" id="msg_notif_roomout_title">
+            <field name="text">Room %(room)s unavailable</field>
+        </record>
+        <record model="ir.message" id="msg_notif_roomout">
+            <field name="text">Room %(room)s is "%(state)s".</field>
+        </record>
+        <record model="ir.message" id="msg_notif_occupancy_title">
+            <field name="text">High occupancy</field>
+        </record>
+        <record model="ir.message" id="msg_notif_occupancy">
+            <field name="text">%(occupied)s of %(total)s rooms are occupied.</field>
+        </record>
+    </data>
+</tryton>

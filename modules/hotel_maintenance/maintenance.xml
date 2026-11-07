@@ -1,0 +1,401 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_maintenance module. -->
+<tryton>
+    <data>
+        <record model="ir.ui.icon" id="icon_tryton_hotel_maintenance">
+            <field name="name">tryton-hotel-maintenance</field>
+            <field name="path">icons/tryton-hotel-maintenance.svg</field>
+        </record>
+        <record model="ir.ui.view" id="order_view_form">
+            <field name="model">hotel.maintenance.order</field>
+            <field name="type">form</field>
+            <field name="name">order_form</field>
+        </record>
+        <record model="ir.ui.view" id="order_view_list">
+            <field name="model">hotel.maintenance.order</field>
+            <field name="type">tree</field>
+            <field name="name">order_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_order">
+            <field name="name">Work Orders</field>
+            <field name="res_model">hotel.maintenance.order</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_order_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="order_view_list"/>
+            <field name="act_window" ref="act_order"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_order_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="order_view_form"/>
+            <field name="act_window" ref="act_order"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_order_domain1">
+            <field name="name">To Do</field>
+            <field name="sequence" eval="10"/>
+            <field name="domain" eval="[('state', 'in', ['open', 'assigned', 'in_progress'])]" pyson="1"/>
+            <field name="act_window" ref="act_order"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_order_domain2">
+            <field name="name">Urgent</field>
+            <field name="sequence" eval="20"/>
+            <field name="domain" eval="[('priority', '=', 'urgent'), ('state', 'in', ['open', 'assigned', 'in_progress'])]" pyson="1"/>
+            <field name="act_window" ref="act_order"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_order_domain_all">
+            <field name="name">All</field>
+            <field name="sequence" eval="9999"/>
+            <field name="domain" eval="[]" pyson="1"/>
+            <field name="act_window" ref="act_order"/>
+        </record>
+        <record model="ir.model.access" id="access_order_default">
+            <field name="model" search="[('model', '=', 'hotel.maintenance.order')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_order_group_hotel">
+            <field name="model" search="[('model', '=', 'hotel.maintenance.order')]"/>
+            <field name="group" ref="hotel.group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_order_companies">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'hotel.maintenance.order')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_order_companies">
+            <field name="domain" eval="[('company', 'in', Eval('companies', []))]" pyson="1"/>
+            <field name="rule_group" ref="rule_group_order_companies"/>
+        </record>
+        <record model="ir.model.button" id="order_assign_button">
+            <field name="model" search="[('model', '=', 'hotel.maintenance.order')]"/>
+            <field name="name">assign</field>
+            <field name="string">Assign</field>
+        </record>
+        <record model="ir.model.button" id="order_start_button">
+            <field name="model" search="[('model', '=', 'hotel.maintenance.order')]"/>
+            <field name="name">start</field>
+            <field name="string">Start</field>
+        </record>
+        <record model="ir.model.button" id="order_finish_button">
+            <field name="model" search="[('model', '=', 'hotel.maintenance.order')]"/>
+            <field name="name">finish</field>
+            <field name="string">Finish</field>
+        </record>
+        <record model="ir.model.button" id="order_cancel_button">
+            <field name="model" search="[('model', '=', 'hotel.maintenance.order')]"/>
+            <field name="name">cancel</field>
+            <field name="string">Cancel</field>
+        </record>
+        <record model="ir.model.button" id="order_reopen_button">
+            <field name="model" search="[('model', '=', 'hotel.maintenance.order')]"/>
+            <field name="name">reopen</field>
+            <field name="string">Reopen</field>
+        </record>
+        <record model="ir.ui.view" id="schedule_view_form">
+            <field name="model">hotel.maintenance.schedule</field>
+            <field name="type">form</field>
+            <field name="name">schedule_form</field>
+        </record>
+        <record model="ir.ui.view" id="schedule_view_list">
+            <field name="model">hotel.maintenance.schedule</field>
+            <field name="type">tree</field>
+            <field name="name">schedule_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_schedule">
+            <field name="name">Preventive Schedules</field>
+            <field name="res_model">hotel.maintenance.schedule</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_schedule_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="schedule_view_list"/>
+            <field name="act_window" ref="act_schedule"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_schedule_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="schedule_view_form"/>
+            <field name="act_window" ref="act_schedule"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_schedule_domain_all">
+            <field name="name">All</field>
+            <field name="sequence" eval="9999"/>
+            <field name="domain" eval="[]" pyson="1"/>
+            <field name="act_window" ref="act_schedule"/>
+        </record>
+        <record model="ir.model.access" id="access_schedule_default">
+            <field name="model" search="[('model', '=', 'hotel.maintenance.schedule')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_schedule_group_hotel">
+            <field name="model" search="[('model', '=', 'hotel.maintenance.schedule')]"/>
+            <field name="group" ref="hotel.group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_schedule_companies">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'hotel.maintenance.schedule')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_schedule_companies">
+            <field name="domain" eval="[('company', 'in', Eval('companies', []))]" pyson="1"/>
+            <field name="rule_group" ref="rule_group_schedule_companies"/>
+        </record>
+        <record model="ir.ui.view" id="lost_view_form">
+            <field name="model">hotel.lost.item</field>
+            <field name="type">form</field>
+            <field name="name">lost_form</field>
+        </record>
+        <record model="ir.ui.view" id="lost_view_list">
+            <field name="model">hotel.lost.item</field>
+            <field name="type">tree</field>
+            <field name="name">lost_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_lost">
+            <field name="name">Lost and Found</field>
+            <field name="res_model">hotel.lost.item</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_lost_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="lost_view_list"/>
+            <field name="act_window" ref="act_lost"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_lost_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="lost_view_form"/>
+            <field name="act_window" ref="act_lost"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_lost_domain1">
+            <field name="name">Stored</field>
+            <field name="sequence" eval="10"/>
+            <field name="domain" eval="[('state', '=', 'stored')]" pyson="1"/>
+            <field name="act_window" ref="act_lost"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_lost_domain_all">
+            <field name="name">All</field>
+            <field name="sequence" eval="9999"/>
+            <field name="domain" eval="[]" pyson="1"/>
+            <field name="act_window" ref="act_lost"/>
+        </record>
+        <record model="ir.model.access" id="access_lost_default">
+            <field name="model" search="[('model', '=', 'hotel.lost.item')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_lost_group_hotel">
+            <field name="model" search="[('model', '=', 'hotel.lost.item')]"/>
+            <field name="group" ref="hotel.group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_lost_companies">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'hotel.lost.item')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_lost_companies">
+            <field name="domain" eval="[('company', 'in', Eval('companies', []))]" pyson="1"/>
+            <field name="rule_group" ref="rule_group_lost_companies"/>
+        </record>
+        <record model="ir.model.button" id="lost_claim_button">
+            <field name="model" search="[('model', '=', 'hotel.lost.item')]"/>
+            <field name="name">claim</field>
+            <field name="string">Claim</field>
+        </record>
+        <record model="ir.model.button" id="lost_dispose_button">
+            <field name="model" search="[('model', '=', 'hotel.lost.item')]"/>
+            <field name="name">dispose</field>
+            <field name="string">Dispose</field>
+        </record>
+        <record model="ir.ui.view" id="laundry_view_form">
+            <field name="model">hotel.laundry.batch</field>
+            <field name="type">form</field>
+            <field name="name">laundry_form</field>
+        </record>
+        <record model="ir.ui.view" id="laundry_view_list">
+            <field name="model">hotel.laundry.batch</field>
+            <field name="type">tree</field>
+            <field name="name">laundry_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_laundry">
+            <field name="name">Laundry</field>
+            <field name="res_model">hotel.laundry.batch</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_laundry_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="laundry_view_list"/>
+            <field name="act_window" ref="act_laundry"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_laundry_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="laundry_view_form"/>
+            <field name="act_window" ref="act_laundry"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_laundry_domain1">
+            <field name="name">At the Laundry</field>
+            <field name="sequence" eval="10"/>
+            <field name="domain" eval="[('state', '=', 'sent')]" pyson="1"/>
+            <field name="act_window" ref="act_laundry"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_laundry_domain_all">
+            <field name="name">All</field>
+            <field name="sequence" eval="9999"/>
+            <field name="domain" eval="[]" pyson="1"/>
+            <field name="act_window" ref="act_laundry"/>
+        </record>
+        <record model="ir.model.access" id="access_laundry_default">
+            <field name="model" search="[('model', '=', 'hotel.laundry.batch')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_laundry_group_hotel">
+            <field name="model" search="[('model', '=', 'hotel.laundry.batch')]"/>
+            <field name="group" ref="hotel.group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_laundry_companies">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'hotel.laundry.batch')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_laundry_companies">
+            <field name="domain" eval="[('company', 'in', Eval('companies', []))]" pyson="1"/>
+            <field name="rule_group" ref="rule_group_laundry_companies"/>
+        </record>
+        <record model="ir.model.button" id="laundry_send_button">
+            <field name="model" search="[('model', '=', 'hotel.laundry.batch')]"/>
+            <field name="name">send</field>
+            <field name="string">Send</field>
+        </record>
+        <record model="ir.model.button" id="laundry_receive_button">
+            <field name="model" search="[('model', '=', 'hotel.laundry.batch')]"/>
+            <field name="name">receive</field>
+            <field name="string">Receive</field>
+        </record>
+        <record model="ir.ui.view" id="laundry_line_view_form">
+            <field name="model">hotel.laundry.batch.line</field>
+            <field name="type">form</field>
+            <field name="name">laundry_line_form</field>
+        </record>
+        <record model="ir.ui.view" id="laundry_line_view_list">
+            <field name="model">hotel.laundry.batch.line</field>
+            <field name="type">tree</field>
+            <field name="name">laundry_line_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_laundry_line">
+            <field name="name">Laundry Lines</field>
+            <field name="res_model">hotel.laundry.batch.line</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_laundry_line_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="laundry_line_view_list"/>
+            <field name="act_window" ref="act_laundry_line"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_laundry_line_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="laundry_line_view_form"/>
+            <field name="act_window" ref="act_laundry_line"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_laundry_line_domain_all">
+            <field name="name">All</field>
+            <field name="sequence" eval="9999"/>
+            <field name="domain" eval="[]" pyson="1"/>
+            <field name="act_window" ref="act_laundry_line"/>
+        </record>
+        <record model="ir.model.access" id="access_laundry_line_default">
+            <field name="model" search="[('model', '=', 'hotel.laundry.batch.line')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_laundry_line_group_hotel">
+            <field name="model" search="[('model', '=', 'hotel.laundry.batch.line')]"/>
+            <field name="group" ref="hotel.group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.sequence.type" id="sequence_type_order">
+            <field name="name">Hotel Maintenance Order</field>
+        </record>
+        <record model="ir.sequence.type-res.group" id="sequence_type_order_group_admin">
+            <field name="sequence_type" ref="sequence_type_order"/>
+            <field name="group" ref="res.group_admin"/>
+        </record>
+        <record model="ir.sequence.type-res.group" id="sequence_type_order_group_hotel">
+            <field name="sequence_type" ref="sequence_type_order"/>
+            <field name="group" ref="hotel.group_hotel"/>
+        </record>
+        <record model="ir.sequence" id="sequence_order">
+            <field name="name">Hotel Maintenance Order</field>
+            <field name="sequence_type" ref="sequence_type_order"/>
+        </record>
+        <record model="ir.sequence.type" id="sequence_type_lost_item">
+            <field name="name">Hotel Lost Item</field>
+        </record>
+        <record model="ir.sequence.type-res.group" id="sequence_type_lost_item_group_admin">
+            <field name="sequence_type" ref="sequence_type_lost_item"/>
+            <field name="group" ref="res.group_admin"/>
+        </record>
+        <record model="ir.sequence.type-res.group" id="sequence_type_lost_item_group_hotel">
+            <field name="sequence_type" ref="sequence_type_lost_item"/>
+            <field name="group" ref="hotel.group_hotel"/>
+        </record>
+        <record model="ir.sequence" id="sequence_lost_item">
+            <field name="name">Hotel Lost Item</field>
+            <field name="sequence_type" ref="sequence_type_lost_item"/>
+        </record>
+        <record model="ir.sequence.type" id="sequence_type_laundry">
+            <field name="name">Hotel Laundry Batch</field>
+        </record>
+        <record model="ir.sequence.type-res.group" id="sequence_type_laundry_group_admin">
+            <field name="sequence_type" ref="sequence_type_laundry"/>
+            <field name="group" ref="res.group_admin"/>
+        </record>
+        <record model="ir.sequence.type-res.group" id="sequence_type_laundry_group_hotel">
+            <field name="sequence_type" ref="sequence_type_laundry"/>
+            <field name="group" ref="hotel.group_hotel"/>
+        </record>
+        <record model="ir.sequence" id="sequence_laundry">
+            <field name="name">Hotel Laundry Batch</field>
+            <field name="sequence_type" ref="sequence_type_laundry"/>
+        </record>
+        <record model="ir.cron" id="cron_schedule">
+            <field name="method">hotel.maintenance.schedule|generate</field>
+            <field name="interval_number" eval="1"/>
+            <field name="interval_type">days</field>
+        </record>
+        <record model="ir.ui.view" id="hotel_view_form">
+            <field name="model">hotel.hotel</field>
+            <field name="inherit" ref="hotel.hotel_view_form"/>
+            <field name="name">hotel_form</field>
+        </record>
+
+        <menuitem icon="tryton-hotel-maintenance" name="Maintenance" parent="hotel.menu_hotel" id="menu_maintenance" sequence="17"/>
+        <menuitem icon="tryton-hotel-maintenance" parent="menu_maintenance" action="act_order" id="menu_order" sequence="10"/>
+        <menuitem icon="tryton-hotel-maintenance" parent="menu_maintenance" action="act_schedule" id="menu_schedule" sequence="20"/>
+        <menuitem icon="tryton-hotel-notification" parent="menu_maintenance" action="act_lost" id="menu_lost" sequence="30"/>
+        <menuitem icon="tryton-hotel-article" parent="menu_maintenance" action="act_laundry" id="menu_laundry" sequence="40"/>
+    </data>
+</tryton>

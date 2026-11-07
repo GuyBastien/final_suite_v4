@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<tryton>
+    <data>
+        <!-- Groups -->
+        <record model="res.group" id="group_hotel">
+            <field name="name">Hotel</field>
+        </record>
+        <record model="res.group" id="group_hotel_admin">
+            <field name="name">Hotel Administration</field>
+            <field name="parent" ref="group_hotel"/>
+        </record>
+        <record model="res.user-res.group" id="user_admin_group_hotel">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_hotel"/>
+        </record>
+        <record model="res.user-res.group" id="user_admin_group_hotel_admin">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_hotel_admin"/>
+        </record>
+
+        <!-- Menus -->
+        <menuitem icon="tryton-hotel" name="Hotel" id="menu_hotel" sequence="50"/>
+        <menuitem icon="tryton-settings" name="Configuration" parent="menu_hotel"
+            id="menu_configuration" sequence="100"/>
+        <menuitem icon="tryton-hotel-room" name="Rooms" parent="menu_hotel"
+            id="menu_rooms" sequence="20"/>
+        <menuitem icon="tryton-hotel-article" name="Stock" parent="menu_hotel"
+            id="menu_stock" sequence="30"/>
+
+        <record model="ir.ui.menu-res.group" id="menu_hotel_group_hotel">
+            <field name="menu" ref="menu_hotel"/>
+            <field name="group" ref="group_hotel"/>
+        </record>
+
+        <!-- Hotel -->
+        <record model="ir.ui.view" id="hotel_view_form">
+            <field name="model">hotel.hotel</field>
+            <field name="type">form</field>
+            <field name="name">hotel_form</field>
+        </record>
+        <record model="ir.ui.view" id="hotel_view_list">
+            <field name="model">hotel.hotel</field>
+            <field name="type">tree</field>
+            <field name="name">hotel_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_hotel_form">
+            <field name="name">Hotels</field>
+            <field name="res_model">hotel.hotel</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_hotel_form_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="hotel_view_list"/>
+            <field name="act_window" ref="act_hotel_form"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_hotel_form_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="hotel_view_form"/>
+            <field name="act_window" ref="act_hotel_form"/>
+        </record>
+        <menuitem icon="tryton-hotel" parent="menu_configuration" action="act_hotel_form"
+            id="menu_hotel_form" sequence="10"/>
+
+        <record model="ir.model.access" id="access_hotel">
+            <field name="model" search="[('model', '=', 'hotel.hotel')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_hotel_hotel">
+            <field name="model" search="[('model', '=', 'hotel.hotel')]"/>
+            <field name="group" ref="group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_hotel_hotel_admin">
+            <field name="model" search="[('model', '=', 'hotel.hotel')]"/>
+            <field name="group" ref="group_hotel_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+
+        <record model="ir.rule.group" id="rule_group_hotel_companies">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'hotel.hotel')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_hotel_companies">
+            <field name="domain"
+                eval="[('company', 'in', Eval('companies', []))]"
+                pyson="1"/>
+            <field name="rule_group" ref="rule_group_hotel_companies"/>
+        </record>
+    </data>
+</tryton>

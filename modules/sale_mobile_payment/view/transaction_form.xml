@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton sale_mobile_payment module. -->
+<data>
+    <xpath expr="/form/field[@name='document']" position="after">
+        <label name="invoice"/>
+        <field name="invoice"/>
+    </xpath>
+</data>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton fuel_station module. -->
+<tree>
+    <field name="number"/>
+    <field name="date"/>
+    <field name="station"/>
+    <field name="supplier"/>
+    <field name="reference"/>
+    <field name="total_quantity"/>
+    <field name="state"/>
+</tree>

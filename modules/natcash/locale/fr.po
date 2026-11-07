@@ -1,0 +1,145 @@
+#
+msgid ""
+msgstr ""
+"Language: fr\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:mobile.payment.account,natcash_callback_url:"
+msgid "NatCash Callback URL"
+msgstr "URL de retour NatCash"
+
+msgctxt "field:mobile.payment.account,natcash_function_code:"
+msgid "NatCash Function Code"
+msgstr "Code fonction NatCash"
+
+msgctxt "field:mobile.payment.account,natcash_language:"
+msgid "NatCash Page Language"
+msgstr "Langue de la page NatCash"
+
+msgctxt "field:mobile.payment.account,natcash_partner_code:"
+msgid "NatCash Partner Code"
+msgstr "Code partenaire NatCash"
+
+msgctxt "field:mobile.payment.account,natcash_password:"
+msgid "NatCash Password"
+msgstr "Mot de passe NatCash"
+
+msgctxt "field:mobile.payment.account,natcash_payer_pays_fee:"
+msgid "Customer Pays the Fee"
+msgstr "Le client paie les frais"
+
+msgctxt "field:mobile.payment.account,natcash_private_key:"
+msgid "NatCash Private Key"
+msgstr "Clé privée NatCash"
+
+msgctxt "field:mobile.payment.account,natcash_username:"
+msgid "NatCash Username"
+msgstr "Nom d'utilisateur NatCash"
+
+msgctxt "help:mobile.payment.account,natcash_callback_url:"
+msgid ""
+"Where NatCash sends the customer back after paying: "
+"https://<server>/<database>/mobile_payment/natcash/return"
+msgstr ""
+"Où NatCash renvoie le client après le paiement : "
+"https://<serveur>/<base>/mobile_payment/natcash/return"
+
+msgctxt "help:mobile.payment.account,natcash_function_code:"
+msgid ""
+"Function code given by Natcom. Only the administrators of mobile payments "
+"can read it."
+msgstr ""
+"Code fonction donné par Natcom. Seuls les administrateurs des paiements "
+"mobiles peuvent le lire."
+
+msgctxt "help:mobile.payment.account,natcash_language:"
+msgid "Language of the NatCash payment page."
+msgstr "Langue de la page de paiement NatCash."
+
+msgctxt "help:mobile.payment.account,natcash_partner_code:"
+msgid "Partner code given by Natcom for your merchant account."
+msgstr "Code partenaire donné par Natcom pour votre compte marchand."
+
+msgctxt "help:mobile.payment.account,natcash_password:"
+msgid "API password of the merchant account."
+msgstr "Mot de passe API du compte marchand."
+
+msgctxt "help:mobile.payment.account,natcash_payer_pays_fee:"
+msgid "The NatCash fee is added to the amount paid by the customer."
+msgstr "Les frais NatCash s'ajoutent au montant payé par le client."
+
+msgctxt "help:mobile.payment.account,natcash_private_key:"
+msgid ""
+"Private key used to sign the requests and to verify the callback of NatCash."
+msgstr ""
+"Clé privée utilisée pour signer les requêtes et vérifier le retour de "
+"NatCash."
+
+msgctxt "help:mobile.payment.account,natcash_username:"
+msgid "API username of the merchant account."
+msgstr "Nom d'utilisateur API du compte marchand."
+
+msgctxt "model:ir.message,text:msg_api_error"
+msgid "NatCash refused the request: %(error)s"
+msgstr "NatCash a refusé la demande : %(error)s"
+
+msgctxt "model:ir.message,text:msg_config"
+msgid "The NatCash settings are incomplete or invalid: %(error)s"
+msgstr "Les paramètres NatCash sont incomplets ou invalides : %(error)s"
+
+msgctxt "model:ir.message,text:msg_currency"
+msgid ""
+"NatCash only accepts gourdes (HTG). The currency of the ticket is "
+"%(currency)s."
+msgstr ""
+"NatCash n'accepte que les gourdes (HTG). La devise du ticket est "
+"%(currency)s."
+
+msgctxt "model:ir.message,text:msg_forged"
+msgid "The NatCash callback signature is invalid. The request was ignored."
+msgstr ""
+"La signature du retour NatCash est invalide. La requête a été ignorée."
+
+msgctxt "model:ir.message,text:msg_mode_live"
+msgid "live"
+msgstr "réel"
+
+msgctxt "model:ir.message,text:msg_mode_sandbox"
+msgid "sandbox"
+msgstr "test"
+
+msgctxt "model:ir.message,text:msg_refused"
+msgid "NatCash declined the payment (code %(code)s)."
+msgstr "NatCash a refusé le paiement (code %(code)s)."
+
+msgctxt "model:ir.message,text:msg_sdk_missing"
+msgid ""
+"The Python package \"natcashify\" is not installed on the server. Run: pip "
+"install natcashify"
+msgstr ""
+"Le paquet Python « natcashify » n'est pas installé sur le serveur. Exécutez "
+": pip install natcashify"
+
+msgctxt "model:ir.message,text:msg_test_ok"
+msgid ""
+"The NatCash settings are valid (%(mode)s mode). The connection itself is "
+"only tested by a real payment."
+msgstr ""
+"Les paramètres NatCash sont valides (mode %(mode)s). La connexion elle-même "
+"n'est testée que par un vrai paiement."
+
+msgctxt "model:ir.message,text:msg_waiting"
+msgid "Waiting for the customer on NatCash."
+msgstr "En attente du client sur NatCash."
+
+msgctxt "selection:mobile.payment.account,natcash_language:"
+msgid "English"
+msgstr "Anglais"
+
+msgctxt "selection:mobile.payment.account,natcash_language:"
+msgid "French"
+msgstr "Français"
+
+msgctxt "selection:mobile.payment.account,natcash_language:"
+msgid "Haitian Creole"
+msgstr "Créole haïtien"

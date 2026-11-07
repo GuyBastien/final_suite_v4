@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_restaurant module. -->
+<data>
+    <xpath expr="/form/group[@id='header']/field[@name='party']" position="after">
+        <label name="reservation"/>
+        <field name="reservation"/>
+        <field name="hotel" invisible="1" colspan="2"/>
+    </xpath>
+</data>

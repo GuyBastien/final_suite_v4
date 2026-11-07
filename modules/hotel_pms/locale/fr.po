@@ -1,0 +1,1655 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:hotel.consumption,reservation:"
+msgid "Reservation"
+msgstr "Réservation"
+
+msgctxt "field:hotel.dashboard,adr:"
+msgid "ADR"
+msgstr "PMC"
+
+msgctxt "field:hotel.dashboard,arrivals:"
+msgid "Arrivals"
+msgstr "Arrivées"
+
+msgctxt "field:hotel.dashboard,arrivals_left:"
+msgid "Arrivals Left"
+msgstr "Arrivées restantes"
+
+msgctxt "field:hotel.dashboard,arrivals_today:"
+msgid "Arrivals Today"
+msgstr "Arrivées du jour"
+
+msgctxt "field:hotel.dashboard,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:hotel.dashboard,currency_digits:"
+msgid "Currency Digits"
+msgstr "Décimales de la devise"
+
+msgctxt "field:hotel.dashboard,departures:"
+msgid "Departures"
+msgstr "Départs"
+
+msgctxt "field:hotel.dashboard,departures_left:"
+msgid "Departures Left"
+msgstr "Départs restants"
+
+msgctxt "field:hotel.dashboard,departures_today:"
+msgid "Departures Today"
+msgstr "Départs du jour"
+
+msgctxt "field:hotel.dashboard,guests_in_house:"
+msgid "Guests In House"
+msgstr "Clients en séjour"
+
+msgctxt "field:hotel.dashboard,hotel:"
+msgid "Hotel"
+msgstr "Hôtel"
+
+msgctxt "field:hotel.dashboard,in_house:"
+msgid "In House"
+msgstr "En séjour"
+
+msgctxt "field:hotel.dashboard,in_house_reservations:"
+msgid "In House"
+msgstr "En séjour"
+
+msgctxt "field:hotel.dashboard,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:hotel.dashboard,notifications:"
+msgid "Notifications"
+msgstr "Notifications"
+
+msgctxt "field:hotel.dashboard,occupancy_rate:"
+msgid "Occupancy (%)"
+msgstr "Occupation (%)"
+
+msgctxt "field:hotel.dashboard,open_alerts:"
+msgid "Alerts"
+msgstr "Alertes"
+
+msgctxt "field:hotel.dashboard,open_reminders:"
+msgid "Reminders"
+msgstr "Rappels"
+
+msgctxt "field:hotel.dashboard,open_warnings:"
+msgid "Warnings"
+msgstr "Avertissements"
+
+msgctxt "field:hotel.dashboard,pos_pending:"
+msgid "POS Charges Pending"
+msgstr "Frais de caisse en attente"
+
+msgctxt "field:hotel.dashboard,revenue_month:"
+msgid "Room Revenue This Month"
+msgstr "Revenu chambres du mois"
+
+msgctxt "field:hotel.dashboard,revenue_today:"
+msgid "Room Revenue Today"
+msgstr "Revenu chambres du jour"
+
+msgctxt "field:hotel.dashboard,revpar:"
+msgid "RevPAR"
+msgstr "RevPAR"
+
+msgctxt "field:hotel.dashboard,rooms_available:"
+msgid "Available"
+msgstr "Disponible"
+
+msgctxt "field:hotel.dashboard,rooms_dirty:"
+msgid "Dirty"
+msgstr "À nettoyer"
+
+msgctxt "field:hotel.dashboard,rooms_maintenance:"
+msgid "Maintenance"
+msgstr "Maintenance"
+
+msgctxt "field:hotel.dashboard,rooms_occupied:"
+msgid "Occupied"
+msgstr "Occupée"
+
+msgctxt "field:hotel.dashboard,rooms_out_of_order:"
+msgid "Out of Order"
+msgstr "Hors service"
+
+msgctxt "field:hotel.dashboard,rooms_total:"
+msgid "Rooms"
+msgstr "Chambres"
+
+msgctxt "field:hotel.documentation,content:"
+msgid "Content"
+msgstr "Contenu"
+
+msgctxt "field:hotel.documentation,title:"
+msgid "Title"
+msgstr "Titre"
+
+msgctxt "field:hotel.hotel,no_show_hours:"
+msgid "No-show Hours"
+msgstr "Heures de no-show"
+
+msgctxt "field:hotel.hotel,notice_hours:"
+msgid "Notice Hours"
+msgstr "Heures de préavis"
+
+msgctxt "field:hotel.hotel,reorder_ratio:"
+msgid "Reorder Ratio"
+msgstr "Ratio de réapprovisionnement"
+
+msgctxt "field:hotel.hotel,room_charge_product:"
+msgid "Room Charge Product"
+msgstr "Produit de facturation chambre"
+
+msgctxt "field:hotel.notification,automatic:"
+msgid "Automatic"
+msgstr "Automatique"
+
+msgctxt "field:hotel.notification,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:hotel.notification,date:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "field:hotel.notification,due_date:"
+msgid "Due Date"
+msgstr "Échéance"
+
+msgctxt "field:hotel.notification,hotel:"
+msgid "Hotel"
+msgstr "Hôtel"
+
+msgctxt "field:hotel.notification,key:"
+msgid "Key"
+msgstr "Clé"
+
+msgctxt "field:hotel.notification,kind:"
+msgid "Kind"
+msgstr "Genre"
+
+msgctxt "field:hotel.notification,message:"
+msgid "Message"
+msgstr "Message"
+
+msgctxt "field:hotel.notification,origin:"
+msgid "Origin"
+msgstr "Origine"
+
+msgctxt "field:hotel.notification,state:"
+msgid "State"
+msgstr "État"
+
+msgctxt "field:hotel.notification,title:"
+msgid "Title"
+msgstr "Titre"
+
+msgctxt "field:hotel.notification,user:"
+msgid "User"
+msgstr "Utilisateur"
+
+msgctxt "field:hotel.reservation,actual_end:"
+msgid "Checked-out At"
+msgstr "Check-out le"
+
+msgctxt "field:hotel.reservation,actual_start:"
+msgid "Checked-in At"
+msgstr "Check-in le"
+
+msgctxt "field:hotel.reservation,adults:"
+msgid "Adults"
+msgstr "Adultes"
+
+msgctxt "field:hotel.reservation,charges:"
+msgid "Charges"
+msgstr "Frais"
+
+msgctxt "field:hotel.reservation,children:"
+msgid "Children"
+msgstr "Enfants"
+
+msgctxt "field:hotel.reservation,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:hotel.reservation,currency:"
+msgid "Currency"
+msgstr "Devise"
+
+msgctxt "field:hotel.reservation,currency_digits:"
+msgid "Currency Digits"
+msgstr "Décimales de la devise"
+
+msgctxt "field:hotel.reservation,end:"
+msgid "Departure"
+msgstr "Départ"
+
+msgctxt "field:hotel.reservation,hotel:"
+msgid "Hotel"
+msgstr "Hôtel"
+
+msgctxt "field:hotel.reservation,invoice_recurrence:"
+msgid "Invoice Recurrence"
+msgstr "Récurrence de facturation"
+
+msgctxt "field:hotel.reservation,invoice_state:"
+msgid "Invoice State"
+msgstr "État de la facture"
+
+msgctxt "field:hotel.reservation,lines:"
+msgid "Rooms"
+msgstr "Chambres"
+
+msgctxt "field:hotel.reservation,notes:"
+msgid "Notes"
+msgstr "Notes"
+
+msgctxt "field:hotel.reservation,number:"
+msgid "Number"
+msgstr "Numéro"
+
+msgctxt "field:hotel.reservation,party:"
+msgid "Guest"
+msgstr "Client"
+
+msgctxt "field:hotel.reservation,pos_amount:"
+msgid "POS Charges"
+msgstr "Frais de caisse"
+
+msgctxt "field:hotel.reservation,pos_sales:"
+msgid "POS Sales"
+msgstr "Ventes de caisse"
+
+msgctxt "field:hotel.reservation,sale:"
+msgid "Sale"
+msgstr "Vente"
+
+msgctxt "field:hotel.reservation,sale_state:"
+msgid "Sale State"
+msgstr "État de la vente"
+
+msgctxt "field:hotel.reservation,start:"
+msgid "Arrival"
+msgstr "Arrivée"
+
+msgctxt "field:hotel.reservation,state:"
+msgid "State"
+msgstr "État"
+
+msgctxt "field:hotel.reservation,subscription:"
+msgid "Subscription"
+msgstr "Abonnement"
+
+msgctxt "field:hotel.reservation,total_amount:"
+msgid "Total"
+msgstr "Total"
+
+msgctxt "field:hotel.reservation.charge,amount:"
+msgid "Amount"
+msgstr "Montant"
+
+msgctxt "field:hotel.reservation.charge,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:hotel.reservation.charge,consumption_line:"
+msgid "Consumption"
+msgstr "Consommation"
+
+msgctxt "field:hotel.reservation.charge,currency_digits:"
+msgid "Currency Digits"
+msgstr "Décimales de la devise"
+
+msgctxt "field:hotel.reservation.charge,description:"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "field:hotel.reservation.charge,product:"
+msgid "Product"
+msgstr "Produit"
+
+msgctxt "field:hotel.reservation.charge,product_uom_category:"
+msgid "Product UoM Category"
+msgstr "Catégorie d'unité du produit"
+
+msgctxt "field:hotel.reservation.charge,quantity:"
+msgid "Quantity"
+msgstr "Quantité"
+
+msgctxt "field:hotel.reservation.charge,reservation:"
+msgid "Reservation"
+msgstr "Réservation"
+
+msgctxt "field:hotel.reservation.charge,unit:"
+msgid "Unit"
+msgstr "Unité"
+
+msgctxt "field:hotel.reservation.charge,unit_price:"
+msgid "Unit Price"
+msgstr "Prix unitaire"
+
+msgctxt "field:hotel.reservation.line,amount:"
+msgid "Amount"
+msgstr "Montant"
+
+msgctxt "field:hotel.reservation.line,billed_as:"
+msgid "Billed As"
+msgstr "Facturé en"
+
+msgctxt "field:hotel.reservation.line,currency_digits:"
+msgid "Currency Digits"
+msgstr "Décimales de la devise"
+
+msgctxt "field:hotel.reservation.line,discount_rate:"
+msgid "Discount Rate"
+msgstr "Taux de remise"
+
+msgctxt "field:hotel.reservation.line,hotel:"
+msgid "Hotel"
+msgstr "Hôtel"
+
+msgctxt "field:hotel.reservation.line,pricing:"
+msgid "Pricing"
+msgstr "Tarification"
+
+msgctxt "field:hotel.reservation.line,quantity:"
+msgid "Quantity"
+msgstr "Quantité"
+
+msgctxt "field:hotel.reservation.line,reservation:"
+msgid "Reservation"
+msgstr "Réservation"
+
+msgctxt "field:hotel.reservation.line,room:"
+msgid "Room"
+msgstr "Chambre"
+
+msgctxt "field:hotel.reservation.line,room_type:"
+msgid "Room Type"
+msgstr "Type de chambre"
+
+msgctxt "field:hotel.reservation.line,unit_price:"
+msgid "Unit Price"
+msgstr "Prix unitaire"
+
+msgctxt "field:hotel_pms.report.start,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:hotel_pms.report.start,end_date:"
+msgid "End Date"
+msgstr "Date de fin"
+
+msgctxt "field:hotel_pms.report.start,hotel:"
+msgid "Hotel"
+msgstr "Hôtel"
+
+msgctxt "field:hotel_pms.report.start,start_date:"
+msgid "Start Date"
+msgstr "Date de début"
+
+msgctxt "field:sale.point.payment,settled:"
+msgid "Settled"
+msgstr "Réglé"
+
+msgctxt "field:sale.point.payment.method,room_charge:"
+msgid "Room Charge"
+msgstr "Imputation sur la chambre"
+
+msgctxt "field:sale.point.sale,reservation:"
+msgid "Reservation"
+msgstr "Réservation"
+
+msgctxt "help:hotel.consumption,reservation:"
+msgid "The stay to which billable consumptions are charged at check-out."
+msgstr ""
+"Le séjour auquel les consommations facturables sont imputées au check-out."
+
+msgctxt "help:hotel.hotel,no_show_hours:"
+msgid ""
+"A confirmed reservation not checked in this many hours after its arrival is "
+"a no-show."
+msgstr ""
+"Une réservation confirmée sans check-in passé ce nombre d'heures après "
+"l'arrivée est un no-show."
+
+msgctxt "help:hotel.hotel,notice_hours:"
+msgid "Arrivals and departures are notified this many hours ahead."
+msgstr "Les arrivées et départs sont notifiés ce nombre d'heures à l'avance."
+
+msgctxt "help:hotel.hotel,reorder_ratio:"
+msgid ""
+"Fraction of the target stock under which a purchase request is raised (0.5 "
+"reorders when half of the stock is left)."
+msgstr ""
+"Fraction du stock cible en dessous de laquelle une demande d'achat est créée"
+" (0,5 recommande quand il reste la moitié du stock)."
+
+msgctxt "help:hotel.hotel,room_charge_product:"
+msgid ""
+"Service sold on the stay to settle the room charges of the point of sale. "
+"Its revenue account must be the clearing account of the room charge payment "
+"method."
+msgstr ""
+"Service vendu sur le séjour pour régler les frais de caisse imputés à la "
+"chambre. Son compte de produits doit être le compte de compensation du mode "
+"de paiement « Facturé à la chambre »."
+
+msgctxt "help:hotel.notification,due_date:"
+msgid "When the reminder is due."
+msgstr "Date d'échéance du rappel."
+
+msgctxt "help:hotel.notification,key:"
+msgid "Identifies the condition that raised an automatic notification."
+msgstr "Identifie la condition qui a déclenché une notification automatique."
+
+msgctxt "help:hotel.notification,user:"
+msgid "Restrict the notification to a user. Empty is for everybody."
+msgstr "Limite la notification à un utilisateur. Vide : pour tous."
+
+msgctxt "help:hotel.reservation,invoice_recurrence:"
+msgid ""
+"Long stays: rooms are billed by subscription with this recurrence instead of"
+" a single sale."
+msgstr ""
+"Longs séjours : les chambres sont facturées par abonnement avec cette "
+"récurrence au lieu d'une vente unique."
+
+msgctxt "help:hotel.reservation,pos_amount:"
+msgid "Point of sale charges not yet settled."
+msgstr "Frais de caisse non encore réglés."
+
+msgctxt "help:hotel.reservation.line,discount_rate:"
+msgid "Discount applied on the room price (0.10 for 10%)."
+msgstr "Remise appliquée sur le prix de la chambre (0,10 pour 10 %)."
+
+msgctxt "help:hotel.reservation.line,pricing:"
+msgid ""
+"Automatic uses the hourly rate for short stays and the nightly rate "
+"otherwise."
+msgstr ""
+"Automatique applique le tarif horaire aux séjours courts et le tarif de nuit"
+" sinon."
+
+msgctxt "help:hotel.reservation.line,quantity:"
+msgid "Number of hours or nights."
+msgstr "Nombre d'heures ou de nuits."
+
+msgctxt "help:hotel.reservation.line,room:"
+msgid "Required to confirm the reservation."
+msgstr "Obligatoire pour confirmer la réservation."
+
+msgctxt "help:sale.point.payment.method,room_charge:"
+msgid ""
+"Charge the guest of the checked-in reservation. The amount is settled with the sale of the stay at check-out.\n"
+"The account must be a revenue account used to clear the charges."
+msgstr ""
+"Impute le montant au client de la réservation en séjour. Il est réglé avec la vente du séjour au check-out.\n"
+"Le compte doit être un compte de produits servant à solder les frais."
+
+msgctxt "help:sale.point.sale,reservation:"
+msgid "The stay to which the sale can be charged."
+msgstr "Le séjour auquel la vente peut être imputée."
+
+msgctxt "model:hotel.dashboard,name:"
+msgid "Live figures of a hotel."
+msgstr "Chiffres en direct d'un hôtel."
+
+msgctxt "model:hotel.documentation,content:doc_billing"
+msgid ""
+"From a reservation, Create Sale builds a draft sale with the rooms (at the agreed price and discount) and the charges. Quote, confirm and process the sale as usual: the invoice is created by the standard sale flow. The reservation shows the sale state and the invoice state.\n"
+"\n"
+"Prerequisites: an account category on the room products, a chart of accounts, a fiscal year with invoice sequences, and an address on the guest to quote the sale."
+msgstr ""
+"Depuis une réservation, Créer la vente prépare une vente brouillon avec les chambres (au prix et à la remise convenus) et les frais. Cotez, confirmez et traitez la vente comme d'habitude : la facture est créée par le circuit standard des ventes. La réservation affiche l'état de la vente et celui de la facture.\n"
+"\n"
+"Prérequis : une catégorie comptable sur les produits chambre, un plan comptable, un exercice avec séquences de facture, et une adresse chez le client pour coter la vente."
+
+msgctxt "model:hotel.documentation,content:doc_channels"
+msgid ""
+"Available when the module Hotel Channel Manager is installed. It synchronizes calendars (iCal) only.\n"
+"\n"
+"- Create a channel per site, then add each room with the iCal address given by the site (import).\n"
+"- Every 30 minutes the calendars are read: new events block the room, moved or removed events free it.\n"
+"- An event on a room that is not free is a Conflict: an alert is raised; use Retry once the room is free.\n"
+"- Give each site the Export Address of the room (prefixed by the server URL) so it sees your occupancy. Use New Token to revoke it.\n"
+"- Rates and availability are not pushed to Booking.com or Expedia: this needs their partner APIs."
+msgstr ""
+"Disponible lorsque le module Hotel Channel Manager est installé. Il ne synchronise que les calendriers (iCal).\n"
+"\n"
+"- Créez un canal par site, puis ajoutez chaque chambre avec l'adresse iCal fournie par le site (import).\n"
+"- Toutes les 30 minutes les calendriers sont lus : les nouveaux événements bloquent la chambre, les événements déplacés ou supprimés la libèrent.\n"
+"- Un événement sur une chambre non libre est un Conflit : une alerte est créée ; utilisez Réessayer une fois la chambre libre.\n"
+"- Donnez à chaque site l'Adresse d'export de la chambre (précédée de l'URL du serveur) pour qu'il voie votre occupation. Nouveau jeton la révoque.\n"
+"- Les tarifs et disponibilités ne sont pas envoyés à Booking.com ni Expedia : cela demande leurs API partenaires."
+
+msgctxt "model:hotel.documentation,content:doc_configuration"
+msgid ""
+"1. Chart of accounts, fiscal year with invoice sequences, payment terms.\n"
+"2. Hotel (warehouse, consumption location), room types, rooms, rates.\n"
+"3. Night and hour products: salable services with an account category, set on each room type.\n"
+"4. Long stays: a subscription service on the night product (daily recurrence) and a monthly recurrence rule set.\n"
+"5. Point of sale: a payment method flagged Room Charge, and on the hotel a Room Charge Product.\n"
+"6. Users: group Hotel for the staff, Hotel Administration for managers. Notifications are pushed to the Hotel group.\n"
+"7. Notifications: the scheduled task Hotel Notifications runs every 15 minutes (Administration > Scheduler)."
+msgstr ""
+"1. Plan comptable, exercice avec séquences de facture, conditions de paiement.\n"
+"2. Hôtel (entrepôt, emplacement de consommation), types de chambre, chambres, tarifs.\n"
+"3. Produits nuit et heure : services vendables avec une catégorie comptable, renseignés sur chaque type de chambre.\n"
+"4. Longs séjours : un service d'abonnement sur le produit nuit (récurrence quotidienne) et une règle de récurrence mensuelle.\n"
+"5. Point de vente : un mode de paiement marqué Facturé à la chambre, et sur l'hôtel un Produit de facturation chambre.\n"
+"6. Utilisateurs : groupe Hôtel pour le personnel, Administration hôtel pour les responsables. Les notifications sont envoyées au groupe Hôtel.\n"
+"7. Notifications : la tâche planifiée Notifications hôtel s'exécute toutes les 15 minutes (Administration > Planificateur)."
+
+msgctxt "model:hotel.documentation,content:doc_getting_started"
+msgid ""
+"The hotel suite has two modules: Hotel (rooms, rates, articles, stock) and Hotel PMS (reservations, billing, reports, dashboard).\n"
+"\n"
+"Daily routine:\n"
+"1. Open the Dashboard (Hotel > Dashboard) to see arrivals, departures, room status and the open notifications.\n"
+"2. Handle arrivals and departures from Front Desk > Reservations.\n"
+"3. Record what guests consume in Stock > Stock Operations.\n"
+"4. Review Notifications and mark them done.\n"
+"\n"
+"Every field has a help text: hover it to read it."
+msgstr ""
+"La suite hôtelière comprend deux modules : Hôtel (chambres, tarifs, articles, stock) et Hôtel PMS (réservations, facturation, rapports, tableau de bord).\n"
+"\n"
+"Routine quotidienne :\n"
+"1. Ouvrez le tableau de bord (Hôtel > Tableau de bord) : arrivées, départs, état des chambres et notifications ouvertes.\n"
+"2. Traitez les arrivées et les départs depuis Réception > Réservations.\n"
+"3. Saisissez ce que les clients consomment dans Stock > Opérations de stock.\n"
+"4. Consultez les notifications et marquez-les comme traitées.\n"
+"\n"
+"Chaque champ a une aide : survolez-le pour la lire."
+
+msgctxt "model:hotel.documentation,content:doc_guests"
+msgid ""
+"Guests are parties (Party > Parties).\n"
+"\n"
+"- For a person, tick Person and fill First Name: the name is then the family name and the party is shown as \"First Name Name\" everywhere (reservations, folios, sales, invoices, reports).\n"
+"- For a company or a travel agency, leave Person unticked: only the Name is used.\n"
+"- You can search a party by first name or by name.\n"
+"- A guest needs an address to quote or invoice a stay."
+msgstr ""
+"Les clients sont des tiers (Tiers > Tiers).\n"
+"\n"
+"- Pour une personne, cochez Personne et renseignez le Prénom : le nom est alors le nom de famille et le tiers s'affiche « Prénom Nom » partout (réservations, notes, ventes, factures, rapports).\n"
+"- Pour une société ou une agence de voyage, laissez Personne décoché : seul le Nom est utilisé.\n"
+"- On peut rechercher un tiers par prénom ou par nom.\n"
+"- Un client a besoin d'une adresse pour établir un devis ou facturer un séjour."
+
+msgctxt "model:hotel.documentation,content:doc_housekeeping"
+msgid ""
+"Available when the module Hotel Housekeeping is installed.\n"
+"\n"
+"- A departure cleaning task is created at each check-out; the scheduled action also creates one for every dirty room.\n"
+"- Housekeeping > My Tasks lists your tasks with large buttons: Take, Start, Finish. Required checklist items must be done first.\n"
+"- Finishing a cleaning makes the room Available, or waits for the supervisor's Inspect if the hotel requires inspection.\n"
+"- Report a problem with Housekeeping > Issues: a blocking issue puts the room in Maintenance until it is resolved.\n"
+"- Use the Tryton web client on a phone or tablet: there is no native mobile application."
+msgstr ""
+"Disponible lorsque le module Hotel Housekeeping est installé.\n"
+"\n"
+"- Une tâche de nettoyage de départ est créée à chaque check-out ; la tâche planifiée en crée aussi une pour chaque chambre à nettoyer.\n"
+"- Ménage > Mes tâches liste vos tâches avec de grands boutons : Prendre, Démarrer, Terminer. Les points obligatoires de la liste de contrôle doivent être faits d'abord.\n"
+"- Terminer un nettoyage rend la chambre Disponible, ou attend l'inspection de la gouvernante si l'hôtel l'exige.\n"
+"- Signalez un problème avec Ménage > Anomalies : une anomalie bloquante met la chambre en Maintenance jusqu'à sa résolution.\n"
+"- Utilisez le client web de Tryton sur téléphone ou tablette : il n'y a pas d'application mobile native."
+
+msgctxt "model:hotel.documentation,content:doc_long_stays"
+msgid ""
+"For long stays, set an Invoice Recurrence on the reservation (for example monthly) and use Create Subscription. The room is then billed one night per day at the agreed price, instead of one sale for the whole stay.\n"
+"\n"
+"The night product of the room type needs a subscription service with a daily consumption recurrence. Once the subscription exists, Create Sale only sells the remaining charges."
+msgstr ""
+"Pour un long séjour, définissez une Récurrence de facturation sur la réservation (par exemple mensuelle) puis utilisez Créer l'abonnement. La chambre est alors facturée une nuit par jour au prix convenu, au lieu d'une vente unique pour tout le séjour.\n"
+"\n"
+"Le produit nuit du type de chambre doit avoir un service d'abonnement à consommation quotidienne. Une fois l'abonnement créé, Créer la vente ne vend plus que les frais restants."
+
+msgctxt "model:hotel.documentation,content:doc_notifications"
+msgid ""
+"The Dashboard shows, for each hotel and at the moment you open or reload it: room status, occupancy rate, arrivals and departures of the day, guests in house, room revenue (day and month), ADR, RevPAR and the open notifications. The Refresh button raises the notifications immediately.\n"
+"\n"
+"Notifications are raised automatically every 15 minutes and shown as a pop-up to the hotel users:\n"
+"- Reminder: arrivals and departures of the day.\n"
+"- Alert: check-out overdue, no-show.\n"
+"- Warning: guest late, room not ready for an arrival, stay not billed or not paid, article under its minimum stock.\n"
+"- Information: rooms in maintenance or out of order, high occupancy.\n"
+"\n"
+"When the condition disappears the notification is marked done by itself. Dismissed notifications are not raised again. You can also create your own reminders (Hotel > Notifications)."
+msgstr ""
+"Le tableau de bord affiche, pour chaque hôtel et au moment où vous l'ouvrez ou le rechargez : l'état des chambres, le taux d'occupation, les arrivées et départs du jour, les clients en séjour, le revenu chambres (jour et mois), le PMC, le RevPAR et les notifications ouvertes. Le bouton Actualiser génère les notifications immédiatement.\n"
+"\n"
+"Les notifications sont créées automatiquement toutes les 15 minutes et affichées en pop-up aux utilisateurs de l'hôtel :\n"
+"- Rappel : arrivées et départs du jour.\n"
+"- Alerte : départ dépassé, non-présentation.\n"
+"- Avertissement : client en retard, chambre non prête pour une arrivée, séjour non facturé ou non payé, article sous son stock minimum.\n"
+"- Information : chambres en maintenance ou hors service, forte occupation.\n"
+"\n"
+"Quand la condition disparaît, la notification est marquée traitée automatiquement. Les notifications ignorées ne sont pas recréées. Vous pouvez aussi créer vos propres rappels (Hôtel > Notifications)."
+
+msgctxt "model:hotel.documentation,content:doc_pos"
+msgid ""
+"At the bar or the restaurant, a point of sale ticket can be paid with the Room Charge payment method: select the checked-in reservation on the ticket.\n"
+"\n"
+"The amount is not collected. When the sale of the stay is created, the pending room charges are added as a line (Room Charge Product of the hotel) and flagged as settled, so they are never billed twice. The reservation shows the pending POS charges."
+msgstr ""
+"Au bar ou au restaurant, un ticket de caisse peut être payé avec le mode Facturé à la chambre : sélectionnez la réservation en séjour sur le ticket.\n"
+"\n"
+"Le montant n'est pas encaissé. À la création de la vente du séjour, les frais de caisse en attente sont ajoutés comme une ligne (Produit de facturation chambre de l'hôtel) et marqués réglés : ils ne sont jamais facturés deux fois. La réservation affiche les frais de caisse en attente."
+
+msgctxt "model:hotel.documentation,content:doc_pricing"
+msgid ""
+"Rates are defined per room type, with an optional validity period (seasons). The most specific active rate applies.\n"
+"\n"
+"- Night price, plus an optional weekend night price (nights starting on Friday and Saturday).\n"
+"- Hour price, minimum hours and maximum hours.\n"
+"\n"
+"Pricing mode of a reservation line: Automatic uses the hourly rate for short stays (up to the maximum hours) and the nightly rate otherwise. An hourly stay never costs more than one night. Hourly and Nightly force the mode.\n"
+"\n"
+"A discount rate can be set on each room line (0.10 for 10%)."
+msgstr ""
+"Les tarifs sont définis par type de chambre, avec une période de validité facultative (saisons). Le tarif actif le plus précis s'applique.\n"
+"\n"
+"- Prix de la nuit, et prix facultatif de la nuit de week-end (nuits commençant le vendredi et le samedi).\n"
+"- Prix à l'heure, heures minimum et heures maximum.\n"
+"\n"
+"Mode de tarification d'une ligne : Automatique applique le tarif horaire aux séjours courts (jusqu'aux heures maximum) et le tarif de nuit sinon. Un séjour à l'heure ne coûte jamais plus qu'une nuit. À l'heure et À la nuit forcent le mode.\n"
+"\n"
+"Un taux de remise peut être saisi sur chaque ligne de chambre (0,10 pour 10 %)."
+
+msgctxt "model:hotel.documentation,content:doc_purchasing"
+msgid ""
+"On the hotel, Update Order Points creates a purchase order point for each standard article: target stock = quantity per room x number of rooms, minimum = target x Reorder Ratio.\n"
+"\n"
+"Then use Hotel > Purchasing: Reorder Points, Purchase Requests (generated by the standard Tryton wizard) and Purchases. A warning notification is raised when an article falls under its minimum."
+msgstr ""
+"Sur l'hôtel, Mettre à jour les points de commande crée un point de commande pour chaque article standard : stock cible = quantité par chambre x nombre de chambres, minimum = cible x Ratio de réapprovisionnement.\n"
+"\n"
+"Utilisez ensuite Hôtel > Achats : Points de commande, Demandes d'achat (générées par l'assistant standard de Tryton) et Achats. Un avertissement est créé lorsqu'un article passe sous son minimum."
+
+msgctxt "model:hotel.documentation,content:doc_reports"
+msgid ""
+"Hotel > Reports:\n"
+"- Arrivals and Departures of a period.\n"
+"- Occupancy: per day, rooms sold and available, occupancy rate, room revenue, ADR (average daily rate per sold room) and RevPAR (revenue per available room).\n"
+"- Revenue by room type and by article category.\n"
+"\n"
+"The Guest Folio is printed from a reservation (Print). Each report asks for the hotel and the period."
+msgstr ""
+"Hôtel > Rapports :\n"
+"- Arrivées et Départs d'une période.\n"
+"- Occupation : par jour, chambres vendues et disponibles, taux d'occupation, revenu chambres, PMC (prix moyen par chambre vendue) et RevPAR (revenu par chambre disponible).\n"
+"- Chiffre d'affaires par type de chambre et par catégorie d'article.\n"
+"\n"
+"La note du client s'imprime depuis une réservation (Imprimer). Chaque rapport demande l'hôtel et la période."
+
+msgctxt "model:hotel.documentation,content:doc_reservations"
+msgid ""
+"A reservation has a guest, an arrival and a departure date-time, and one line per room.\n"
+"\n"
+"Workflow:\n"
+"- Draft: enter the room type and the room of each line, then Compute Prices.\n"
+"- Confirm: checks that every room is free for the period; prices are calculated from the hotel rates.\n"
+"- Check In: the rooms must be Available; they become Occupied.\n"
+"- Check Out: billable consumptions are added to the charges; the rooms become Dirty.\n"
+"- Cancel: releases the rooms.\n"
+"\n"
+"A room in maintenance or out of order cannot be booked. Two reservations never overlap on the same room; a departure and an arrival at the same time do not conflict."
+msgstr ""
+"Une réservation comporte un client, une date-heure d'arrivée et de départ, et une ligne par chambre.\n"
+"\n"
+"Déroulement :\n"
+"- Brouillon : saisissez le type et la chambre de chaque ligne, puis Calculer les prix.\n"
+"- Confirmer : vérifie que chaque chambre est libre sur la période ; les prix sont calculés d'après les tarifs de l'hôtel.\n"
+"- Check-in : les chambres doivent être Disponibles ; elles passent à Occupée.\n"
+"- Check-out : les consommations facturables sont ajoutées aux frais ; les chambres passent à À nettoyer.\n"
+"- Annuler : libère les chambres.\n"
+"\n"
+"Une chambre en maintenance ou hors service ne peut pas être réservée. Deux réservations ne se chevauchent jamais sur une même chambre ; un départ et une arrivée à la même heure ne sont pas en conflit."
+
+msgctxt "model:hotel.documentation,content:doc_stock"
+msgid ""
+"Hotel articles are ordinary products flagged Hotel Article, with a hotel category and a Billed to Guest flag.\n"
+"\n"
+"Stock operations (Hotel > Stock > Stock Operations):\n"
+"- Replenishment moves articles from the warehouse into a room (minibar, linen...).\n"
+"- Consumption takes articles out of the room towards the consumption location. When the consumption is billable and the room has a guest in house, it is linked to the stay and charged at check-out.\n"
+"\n"
+"Each room has its own stock location under the hotel warehouse, so room stock counts in the warehouse stock. Standard articles per room type define the quantities expected in each room."
+msgstr ""
+"Les articles hôteliers sont des produits ordinaires marqués Article hôtelier, avec une catégorie hôtelière et l'indicateur Facturé au client.\n"
+"\n"
+"Opérations de stock (Hôtel > Stock > Opérations de stock) :\n"
+"- Le réapprovisionnement déplace des articles de l'entrepôt vers une chambre (minibar, linge...).\n"
+"- La consommation sort des articles de la chambre vers l'emplacement de consommation. Si elle est facturable et que la chambre a un client en séjour, elle est rattachée au séjour et facturée au check-out.\n"
+"\n"
+"Chaque chambre a son emplacement de stock sous l'entrepôt de l'hôtel : le stock des chambres compte donc dans le stock de l'entrepôt. Les articles standard par type de chambre définissent les quantités attendues dans chaque chambre."
+
+msgctxt "model:hotel.documentation,name:"
+msgid "Hotel Documentation"
+msgstr "Documentation hôtel"
+
+msgctxt "model:hotel.documentation,title:doc_billing"
+msgid "Billing: Sales, Invoices and Discounts"
+msgstr "Facturation : ventes, factures et remises"
+
+msgctxt "model:hotel.documentation,title:doc_channels"
+msgid "Channel Manager (module hotel_channel_manager)"
+msgstr "Gestionnaire de canaux (module hotel_channel_manager)"
+
+msgctxt "model:hotel.documentation,title:doc_configuration"
+msgid "Configuration Checklist"
+msgstr "Liste de configuration"
+
+msgctxt "model:hotel.documentation,title:doc_getting_started"
+msgid "Getting Started"
+msgstr "Prise en main"
+
+msgctxt "model:hotel.documentation,title:doc_guests"
+msgid "Guests and Parties"
+msgstr "Clients et tiers"
+
+msgctxt "model:hotel.documentation,title:doc_housekeeping"
+msgid "Housekeeping (module hotel_housekeeping)"
+msgstr "Ménage (module hotel_housekeeping)"
+
+msgctxt "model:hotel.documentation,title:doc_long_stays"
+msgid "Long Stays (Subscriptions)"
+msgstr "Longs séjours (abonnements)"
+
+msgctxt "model:hotel.documentation,title:doc_notifications"
+msgid "Dashboard and Notifications"
+msgstr "Tableau de bord et notifications"
+
+msgctxt "model:hotel.documentation,title:doc_pos"
+msgid "Point of Sale and Room Charges"
+msgstr "Point de vente et facturation chambre"
+
+msgctxt "model:hotel.documentation,title:doc_pricing"
+msgid "Rates and Pricing"
+msgstr "Tarifs et tarification"
+
+msgctxt "model:hotel.documentation,title:doc_purchasing"
+msgid "Purchasing of Consumables"
+msgstr "Achats de consommables"
+
+msgctxt "model:hotel.documentation,title:doc_reports"
+msgid "Reports"
+msgstr "Rapports"
+
+msgctxt "model:hotel.documentation,title:doc_reservations"
+msgid "Reservations and Front Desk"
+msgstr "Réservations et réception"
+
+msgctxt "model:hotel.documentation,title:doc_stock"
+msgid "Articles, Consumables and Stock"
+msgstr "Articles, consommables et stock"
+
+msgctxt "model:hotel.notification,name:"
+msgid "Hotel Notification"
+msgstr "Notification hôtel"
+
+msgctxt "model:hotel.reservation,name:"
+msgid "Hotel Reservation"
+msgstr "Réservation"
+
+msgctxt "model:hotel.reservation.charge,name:"
+msgid "Hotel Reservation Charge"
+msgstr "Frais de réservation"
+
+msgctxt "model:hotel.reservation.line,name:"
+msgid "Hotel Reservation Line"
+msgstr "Ligne de réservation"
+
+msgctxt "model:hotel_pms.report.start,name:"
+msgid "Hotel Report"
+msgstr "Rapport hôtel"
+
+msgctxt "model:ir.action,name:act_dashboard"
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+msgctxt "model:ir.action,name:act_documentation"
+msgid "Documentation"
+msgstr "Documentation"
+
+msgctxt "model:ir.action,name:act_movements"
+msgid "Today's Movements"
+msgstr "Mouvements du jour"
+
+msgctxt "model:ir.action,name:act_notification"
+msgid "Notifications"
+msgstr "Notifications"
+
+msgctxt "model:ir.action,name:act_order_point_hotel"
+msgid "Reorder Points"
+msgstr "Points de commande"
+
+msgctxt "model:ir.action,name:act_purchase_hotel"
+msgid "Purchases"
+msgstr "Achats"
+
+msgctxt "model:ir.action,name:act_purchase_request_hotel"
+msgid "Purchase Requests"
+msgstr "Demandes d'achat"
+
+msgctxt "model:ir.action,name:act_reservation_form"
+msgid "Reservations"
+msgstr "Réservations"
+
+msgctxt "model:ir.action,name:act_room_status"
+msgid "Room Status"
+msgstr "État des chambres"
+
+msgctxt "model:ir.action,name:report_arrivals"
+msgid "Arrivals"
+msgstr "Arrivées"
+
+msgctxt "model:ir.action,name:report_departures"
+msgid "Departures"
+msgstr "Départs"
+
+msgctxt "model:ir.action,name:report_folio"
+msgid "Guest Folio"
+msgstr "Note du client"
+
+msgctxt "model:ir.action,name:report_occupancy"
+msgid "Occupancy Report"
+msgstr "Rapport d'occupation"
+
+msgctxt "model:ir.action,name:report_revenue"
+msgid "Revenue Report"
+msgstr "Rapport de chiffre d'affaires"
+
+msgctxt "model:ir.action,name:wizard_print_arrivals"
+msgid "Arrivals"
+msgstr "Arrivées"
+
+msgctxt "model:ir.action,name:wizard_print_departures"
+msgid "Departures"
+msgstr "Départs"
+
+msgctxt "model:ir.action,name:wizard_print_occupancy"
+msgid "Occupancy Report"
+msgstr "Rapport d'occupation"
+
+msgctxt "model:ir.action,name:wizard_print_revenue"
+msgid "Revenue Report"
+msgstr "Rapport de chiffre d'affaires"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_notification_domain_alerts"
+msgid "Alerts and Warnings"
+msgstr "Alertes et avertissements"
+
+msgctxt "model:ir.action.act_window.domain,name:act_notification_domain_all"
+msgid "All"
+msgstr "Toutes"
+
+msgctxt "model:ir.action.act_window.domain,name:act_notification_domain_open"
+msgid "Open"
+msgstr "Ouverte"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_notification_domain_reminders"
+msgid "Reminders"
+msgstr "Rappels"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_reservation_form_domain_all"
+msgid "All"
+msgstr "Toutes"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_reservation_form_domain_confirmed"
+msgid "Confirmed"
+msgstr "Confirmée"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_reservation_form_domain_draft"
+msgid "Draft"
+msgstr "Brouillon"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_reservation_form_domain_in_house"
+msgid "In House"
+msgstr "En séjour"
+
+msgctxt "model:ir.message,text:msg_notice_capacity"
+msgid "%(guests)s guests for a total capacity of %(capacity)s."
+msgstr "%(guests)s clients pour une capacité totale de %(capacity)s."
+
+msgctxt "model:ir.message,text:msg_notice_room_busy"
+msgid "The room %(room)s is not available on these dates."
+msgstr "La chambre %(room)s n'est pas disponible à ces dates."
+
+msgctxt "model:ir.message,text:msg_notif_arrival"
+msgid "%(guest)s arrives at %(time)s (rooms: %(rooms)s)."
+msgstr "%(guest)s arrive à %(time)s (chambres : %(rooms)s)."
+
+msgctxt "model:ir.message,text:msg_notif_arrival_title"
+msgid "Arrival today: %(number)s"
+msgstr "Arrivée aujourd'hui : %(number)s"
+
+msgctxt "model:ir.message,text:msg_notif_departure"
+msgid "%(guest)s leaves at %(time)s (rooms: %(rooms)s)."
+msgstr "%(guest)s part à %(time)s (chambres : %(rooms)s)."
+
+msgctxt "model:ir.message,text:msg_notif_departure_title"
+msgid "Departure today: %(number)s"
+msgstr "Départ aujourd'hui : %(number)s"
+
+msgctxt "model:ir.message,text:msg_notif_late"
+msgid "%(guest)s was expected at %(time)s and is not checked in yet."
+msgstr ""
+"%(guest)s était attendu à %(time)s et n'a pas encore fait son check-in."
+
+msgctxt "model:ir.message,text:msg_notif_late_title"
+msgid "Guest late: %(number)s"
+msgstr "Client en retard : %(number)s"
+
+msgctxt "model:ir.message,text:msg_notif_lowstock"
+msgid "%(product)s: %(quantity)s left, minimum %(minimum)s."
+msgstr "%(product)s : %(quantity)s restant, minimum %(minimum)s."
+
+msgctxt "model:ir.message,text:msg_notif_lowstock_title"
+msgid "Low stock: %(product)s"
+msgstr "Stock bas : %(product)s"
+
+msgctxt "model:ir.message,text:msg_notif_noshow"
+msgid ""
+"%(guest)s did not arrive on %(time)s: cancel or check in the reservation."
+msgstr ""
+"%(guest)s ne s'est pas présenté le %(time)s : annulez la réservation ou "
+"faites le check-in."
+
+msgctxt "model:ir.message,text:msg_notif_noshow_title"
+msgid "No-show: %(number)s"
+msgstr "No-show : %(number)s"
+
+msgctxt "model:ir.message,text:msg_notif_notready"
+msgid ""
+"Room %(room)s is \"%(state)s\" but reservation %(number)s arrives at "
+"%(time)s."
+msgstr ""
+"La chambre %(room)s est « %(state)s » mais la réservation %(number)s arrive "
+"à %(time)s."
+
+msgctxt "model:ir.message,text:msg_notif_notready_title"
+msgid "Room %(room)s is not ready"
+msgstr "La chambre %(room)s n'est pas prête"
+
+msgctxt "model:ir.message,text:msg_notif_occupancy"
+msgid "%(occupied)s of %(total)s rooms are occupied."
+msgstr "%(occupied)s chambres occupées sur %(total)s."
+
+msgctxt "model:ir.message,text:msg_notif_occupancy_title"
+msgid "High occupancy"
+msgstr "Forte occupation"
+
+msgctxt "model:ir.message,text:msg_notif_overdue"
+msgid "%(guest)s should have left (rooms: %(rooms)s) on %(time)s."
+msgstr "%(guest)s aurait dû partir (chambres : %(rooms)s) le %(time)s."
+
+msgctxt "model:ir.message,text:msg_notif_overdue_title"
+msgid "Check-out overdue: %(number)s"
+msgstr "Départ dépassé : %(number)s"
+
+msgctxt "model:ir.message,text:msg_notif_roomout"
+msgid "Room %(room)s is \"%(state)s\"."
+msgstr "La chambre %(room)s est « %(state)s »."
+
+msgctxt "model:ir.message,text:msg_notif_roomout_title"
+msgid "Room %(room)s unavailable"
+msgstr "Chambre %(room)s indisponible"
+
+msgctxt "model:ir.message,text:msg_notif_unbilled"
+msgid "The stay of %(guest)s is checked out and not billed (%(amount)s)."
+msgstr "Le séjour de %(guest)s est terminé et non facturé (%(amount)s)."
+
+msgctxt "model:ir.message,text:msg_notif_unbilled_title"
+msgid "Stay not billed: %(number)s"
+msgstr "Séjour non facturé : %(number)s"
+
+msgctxt "model:ir.message,text:msg_notif_unpaid"
+msgid "The invoice of %(guest)s is still waiting for payment."
+msgstr "La facture de %(guest)s attend toujours son paiement."
+
+msgctxt "model:ir.message,text:msg_notif_unpaid_title"
+msgid "Stay not paid: %(number)s"
+msgstr "Séjour non payé : %(number)s"
+
+msgctxt "model:ir.message,text:msg_notification_key_unique"
+msgid "This situation has already been notified."
+msgstr "Cette situation a déjà été notifiée."
+
+msgctxt "model:ir.message,text:msg_pos_room_charge_line"
+msgid "Point of sale charges - %(reservation)s"
+msgstr "Frais de caisse - %(reservation)s"
+
+msgctxt "model:ir.message,text:msg_pos_room_charge_no_reservation"
+msgid ""
+"The POS sale \"%(sale)s\" is paid by room charge: select the checked-in "
+"reservation to charge."
+msgstr ""
+"La vente de caisse « %(sale)s » est payée à la chambre : sélectionnez la "
+"réservation en séjour à débiter."
+
+msgctxt "model:ir.message,text:msg_reservation_billed"
+msgid ""
+"The reservation \"%(reservation)s\" is already billed by a sale or a "
+"subscription."
+msgstr ""
+"La réservation « %(reservation)s » est déjà facturée par une vente ou un "
+"abonnement."
+
+msgctxt "model:ir.message,text:msg_reservation_delete_state"
+msgid ""
+"You cannot delete the reservation \"%(reservation)s\" because it is not "
+"draft or cancelled."
+msgstr ""
+"Vous ne pouvez pas supprimer la réservation « %(reservation)s » car elle "
+"n'est ni brouillon ni annulée."
+
+msgctxt "model:ir.message,text:msg_reservation_line_no_room"
+msgid ""
+"The reservation \"%(reservation)s\" needs a room for the type "
+"\"%(room_type)s\"."
+msgstr ""
+"La réservation « %(reservation)s » nécessite une chambre pour le type « "
+"%(room_type)s »."
+
+msgctxt "model:ir.message,text:msg_reservation_no_lines"
+msgid "The reservation \"%(reservation)s\" has no room."
+msgstr "La réservation « %(reservation)s » n'a aucune chambre."
+
+msgctxt "model:ir.message,text:msg_reservation_no_product"
+msgid "The room type \"%(room_type)s\" has no %(mode)s product to sell."
+msgstr ""
+"Le type de chambre « %(room_type)s » n'a pas de produit %(mode)s à vendre."
+
+msgctxt "model:ir.message,text:msg_reservation_no_recurrence"
+msgid ""
+"Set an invoice recurrence on the reservation \"%(reservation)s\" to create "
+"its subscription."
+msgstr ""
+"Définissez une récurrence de facturation sur la réservation « "
+"%(reservation)s » pour créer son abonnement."
+
+msgctxt "model:ir.message,text:msg_reservation_no_room_charge_product"
+msgid ""
+"Set a room charge product on hotel \"%(hotel)s\" to settle the point of sale"
+" charges."
+msgstr ""
+"Définissez un produit de facturation chambre sur l'hôtel « %(hotel)s » pour "
+"régler les frais de caisse."
+
+msgctxt "model:ir.message,text:msg_reservation_no_service"
+msgid ""
+"The night product of room type \"%(room_type)s\" has no subscription "
+"service."
+msgstr ""
+"Le produit nuit du type de chambre « %(room_type)s » n'a pas de service "
+"d'abonnement."
+
+msgctxt "model:ir.message,text:msg_reservation_nothing_to_sell"
+msgid ""
+"The reservation \"%(reservation)s\" is billed by subscription and has no "
+"charge to sell."
+msgstr ""
+"La réservation « %(reservation)s » est facturée par abonnement et n'a aucun "
+"frais à vendre."
+
+msgctxt "model:ir.message,text:msg_reservation_room_duplicate"
+msgid "The room \"%(room)s\" is used twice in the reservation \"%(reservation)s\"."
+msgstr ""
+"La chambre « %(room)s » est utilisée deux fois dans la réservation « "
+"%(reservation)s »."
+
+msgctxt "model:ir.message,text:msg_reservation_room_not_ready"
+msgid ""
+"The room \"%(room)s\" cannot be checked in for the reservation "
+"\"%(reservation)s\" because its state is \"%(state)s\"."
+msgstr ""
+"La chambre « %(room)s » ne peut pas être attribuée à la réservation « "
+"%(reservation)s » car son état est « %(state)s »."
+
+msgctxt "model:ir.message,text:msg_reservation_room_unavailable"
+msgid ""
+"The room \"%(room)s\" is not available between %(start)s and %(end)s for the"
+" reservation \"%(reservation)s\"."
+msgstr ""
+"La chambre « %(room)s » n'est pas disponible entre %(start)s et %(end)s pour"
+" la réservation « %(reservation)s »."
+
+msgctxt "model:ir.message,text:msg_reservation_sale_exists"
+msgid "The reservation \"%(reservation)s\" already has a sale."
+msgstr "La réservation « %(reservation)s » a déjà une vente."
+
+msgctxt "model:ir.model.button,help:dashboard_refresh_button"
+msgid "Raise the notifications and reload the figures"
+msgstr "Générer les notifications et recharger les chiffres"
+
+msgctxt "model:ir.model.button,help:hotel_update_order_points_button"
+msgid ""
+"Create or update the purchase order points from the standard articles of the"
+" rooms"
+msgstr ""
+"Crée ou met à jour les points de commande à partir des articles standard des"
+" chambres"
+
+msgctxt "model:ir.model.button,string:dashboard_refresh_button"
+msgid "Refresh"
+msgstr "Actualiser"
+
+msgctxt "model:ir.model.button,string:hotel_update_order_points_button"
+msgid "Update Order Points"
+msgstr "Mettre à jour les points de commande"
+
+msgctxt "model:ir.model.button,string:notification_dismiss_button"
+msgid "Dismiss"
+msgstr "Ignorer"
+
+msgctxt "model:ir.model.button,string:notification_done_button"
+msgid "Done"
+msgstr "Terminé"
+
+msgctxt "model:ir.model.button,string:notification_reopen_button"
+msgid "Reopen"
+msgstr "Rouvrir"
+
+msgctxt "model:ir.model.button,string:reservation_cancel_button"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "model:ir.model.button,string:reservation_check_in_button"
+msgid "Check In"
+msgstr "Check-in"
+
+msgctxt "model:ir.model.button,string:reservation_check_out_button"
+msgid "Check Out"
+msgstr "Check-out"
+
+msgctxt "model:ir.model.button,string:reservation_compute_button"
+msgid "Compute Prices"
+msgstr "Calculer les prix"
+
+msgctxt "model:ir.model.button,string:reservation_confirm_button"
+msgid "Confirm"
+msgstr "Confirmer"
+
+msgctxt "model:ir.model.button,string:reservation_create_sale_button"
+msgid "Create Sale"
+msgstr "Créer la vente"
+
+msgctxt "model:ir.model.button,string:reservation_create_subscription_button"
+msgid "Create Subscription"
+msgstr "Créer l'abonnement"
+
+msgctxt "model:ir.model.button,string:reservation_draft_button"
+msgid "Draft"
+msgstr "Brouillon"
+
+msgctxt "model:ir.rule.group,name:rule_group_dashboard_companies"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_notification_companies"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_reservation_charge_companies"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_reservation_companies"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.sequence,name:sequence_reservation"
+msgid "Hotel Reservation"
+msgstr "Réservation"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_reservation"
+msgid "Hotel Reservation"
+msgstr "Réservation"
+
+msgctxt "model:ir.ui.menu,name:menu_dashboard"
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+msgctxt "model:ir.ui.menu,name:menu_documentation"
+msgid "Documentation"
+msgstr "Documentation"
+
+msgctxt "model:ir.ui.menu,name:menu_movements"
+msgid "Today's Movements"
+msgstr "Mouvements du jour"
+
+msgctxt "model:ir.ui.menu,name:menu_notification"
+msgid "Notifications"
+msgstr "Notifications"
+
+msgctxt "model:ir.ui.menu,name:menu_order_point_hotel"
+msgid "Reorder Points"
+msgstr "Points de commande"
+
+msgctxt "model:ir.ui.menu,name:menu_pms"
+msgid "Front Desk"
+msgstr "Réception"
+
+msgctxt "model:ir.ui.menu,name:menu_print_arrivals"
+msgid "Arrivals"
+msgstr "Arrivées"
+
+msgctxt "model:ir.ui.menu,name:menu_print_departures"
+msgid "Departures"
+msgstr "Départs"
+
+msgctxt "model:ir.ui.menu,name:menu_print_occupancy"
+msgid "Occupancy Report"
+msgstr "Rapport d'occupation"
+
+msgctxt "model:ir.ui.menu,name:menu_print_revenue"
+msgid "Revenue Report"
+msgstr "Rapport de chiffre d'affaires"
+
+msgctxt "model:ir.ui.menu,name:menu_purchase"
+msgid "Purchasing"
+msgstr "Achats"
+
+msgctxt "model:ir.ui.menu,name:menu_purchase_hotel"
+msgid "Purchases"
+msgstr "Achats"
+
+msgctxt "model:ir.ui.menu,name:menu_purchase_request_hotel"
+msgid "Purchase Requests"
+msgstr "Demandes d'achat"
+
+msgctxt "model:ir.ui.menu,name:menu_report"
+msgid "Reports"
+msgstr "Rapports"
+
+msgctxt "model:ir.ui.menu,name:menu_reservation_form"
+msgid "Reservations"
+msgstr "Réservations"
+
+msgctxt "model:ir.ui.menu,name:menu_room_status"
+msgid "Room Status"
+msgstr "État des chambres"
+
+msgctxt "model:ir.ui.menu,name:menu_statistics"
+msgid "Statistics"
+msgstr "Statistiques"
+
+msgctxt "report:hotel.reservation.folio:"
+msgid "Amount"
+msgstr "Montant"
+
+msgctxt "report:hotel.reservation.folio:"
+msgid "Billed As"
+msgstr "Facturé en"
+
+msgctxt "report:hotel.reservation.folio:"
+msgid "Charges"
+msgstr "Frais"
+
+msgctxt "report:hotel.reservation.folio:"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "report:hotel.reservation.folio:"
+msgid "Guest Folio"
+msgstr "Note du client"
+
+msgctxt "report:hotel.reservation.folio:"
+msgid "Quantity"
+msgstr "Quantité"
+
+msgctxt "report:hotel.reservation.folio:"
+msgid "Room"
+msgstr "Chambre"
+
+msgctxt "report:hotel.reservation.folio:"
+msgid "Rooms"
+msgstr "Chambres"
+
+msgctxt "report:hotel.reservation.folio:"
+msgid "Total:"
+msgstr "Total :"
+
+msgctxt "report:hotel.reservation.folio:"
+msgid "Type"
+msgstr "Type"
+
+msgctxt "report:hotel.reservation.folio:"
+msgid "Unit Price"
+msgstr "Prix unitaire"
+
+msgctxt "report:hotel.reservation.folio:"
+msgid "—"
+msgstr "—"
+
+msgctxt "report:hotel.reservation.folio:"
+msgid "→"
+msgstr "→"
+
+msgctxt "report:hotel_pms.report.arrivals:"
+msgid "Adults"
+msgstr "Adultes"
+
+msgctxt "report:hotel_pms.report.arrivals:"
+msgid "Arrival"
+msgstr "Arrivée"
+
+msgctxt "report:hotel_pms.report.arrivals:"
+msgid "Arrivals"
+msgstr "Arrivées"
+
+msgctxt "report:hotel_pms.report.arrivals:"
+msgid "Children"
+msgstr "Enfants"
+
+msgctxt "report:hotel_pms.report.arrivals:"
+msgid "Departure"
+msgstr "Départ"
+
+msgctxt "report:hotel_pms.report.arrivals:"
+msgid "Guest"
+msgstr "Client"
+
+msgctxt "report:hotel_pms.report.arrivals:"
+msgid "Reservation"
+msgstr "Réservation"
+
+msgctxt "report:hotel_pms.report.arrivals:"
+msgid "Rooms"
+msgstr "Chambres"
+
+msgctxt "report:hotel_pms.report.arrivals:"
+msgid "State"
+msgstr "État"
+
+msgctxt "report:hotel_pms.report.arrivals:"
+msgid "—"
+msgstr "—"
+
+msgctxt "report:hotel_pms.report.arrivals:"
+msgid "→"
+msgstr "→"
+
+msgctxt "report:hotel_pms.report.departures:"
+msgid "Adults"
+msgstr "Adultes"
+
+msgctxt "report:hotel_pms.report.departures:"
+msgid "Arrival"
+msgstr "Arrivée"
+
+msgctxt "report:hotel_pms.report.departures:"
+msgid "Children"
+msgstr "Enfants"
+
+msgctxt "report:hotel_pms.report.departures:"
+msgid "Departure"
+msgstr "Départ"
+
+msgctxt "report:hotel_pms.report.departures:"
+msgid "Departures"
+msgstr "Départs"
+
+msgctxt "report:hotel_pms.report.departures:"
+msgid "Guest"
+msgstr "Client"
+
+msgctxt "report:hotel_pms.report.departures:"
+msgid "Reservation"
+msgstr "Réservation"
+
+msgctxt "report:hotel_pms.report.departures:"
+msgid "Rooms"
+msgstr "Chambres"
+
+msgctxt "report:hotel_pms.report.departures:"
+msgid "State"
+msgstr "État"
+
+msgctxt "report:hotel_pms.report.departures:"
+msgid "—"
+msgstr "—"
+
+msgctxt "report:hotel_pms.report.departures:"
+msgid "→"
+msgstr "→"
+
+msgctxt "report:hotel_pms.report.occupancy:"
+msgid "ADR"
+msgstr "PMC"
+
+msgctxt "report:hotel_pms.report.occupancy:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "report:hotel_pms.report.occupancy:"
+msgid "Occupancy (%)"
+msgstr "Occupation (%)"
+
+msgctxt "report:hotel_pms.report.occupancy:"
+msgid "Occupancy Report"
+msgstr "Rapport d'occupation"
+
+msgctxt "report:hotel_pms.report.occupancy:"
+msgid "Occupied"
+msgstr "Occupée"
+
+msgctxt "report:hotel_pms.report.occupancy:"
+msgid "RevPAR"
+msgstr "RevPAR"
+
+msgctxt "report:hotel_pms.report.occupancy:"
+msgid "Room Revenue"
+msgstr "Revenu chambres"
+
+msgctxt "report:hotel_pms.report.occupancy:"
+msgid "Rooms"
+msgstr "Chambres"
+
+msgctxt "report:hotel_pms.report.occupancy:"
+msgid "Total"
+msgstr "Total"
+
+msgctxt "report:hotel_pms.report.occupancy:"
+msgid "—"
+msgstr "—"
+
+msgctxt "report:hotel_pms.report.occupancy:"
+msgid "→"
+msgstr "→"
+
+msgctxt "report:hotel_pms.report.revenue:"
+msgid "Amount"
+msgstr "Montant"
+
+msgctxt "report:hotel_pms.report.revenue:"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "report:hotel_pms.report.revenue:"
+msgid "Quantity"
+msgstr "Quantité"
+
+msgctxt "report:hotel_pms.report.revenue:"
+msgid "Revenue Report"
+msgstr "Rapport de chiffre d'affaires"
+
+msgctxt "report:hotel_pms.report.revenue:"
+msgid "Total"
+msgstr "Total"
+
+msgctxt "report:hotel_pms.report.revenue:"
+msgid "—"
+msgstr "—"
+
+msgctxt "report:hotel_pms.report.revenue:"
+msgid "→"
+msgstr "→"
+
+msgctxt "selection:hotel.notification,kind:"
+msgid "Alert"
+msgstr "Alerte"
+
+msgctxt "selection:hotel.notification,kind:"
+msgid "Information"
+msgstr "Information"
+
+msgctxt "selection:hotel.notification,kind:"
+msgid "Reminder"
+msgstr "Rappel"
+
+msgctxt "selection:hotel.notification,kind:"
+msgid "Warning"
+msgstr "Avertissement"
+
+msgctxt "selection:hotel.notification,state:"
+msgid "Dismissed"
+msgstr "Ignorée"
+
+msgctxt "selection:hotel.notification,state:"
+msgid "Done"
+msgstr "Terminé"
+
+msgctxt "selection:hotel.notification,state:"
+msgid "Open"
+msgstr "Ouverte"
+
+msgctxt "selection:hotel.reservation,state:"
+msgid "Cancelled"
+msgstr "Annulée"
+
+msgctxt "selection:hotel.reservation,state:"
+msgid "Checked In"
+msgstr "En séjour"
+
+msgctxt "selection:hotel.reservation,state:"
+msgid "Checked Out"
+msgstr "Terminée"
+
+msgctxt "selection:hotel.reservation,state:"
+msgid "Confirmed"
+msgstr "Confirmée"
+
+msgctxt "selection:hotel.reservation,state:"
+msgid "Draft"
+msgstr "Brouillon"
+
+msgctxt "selection:hotel.reservation.line,billed_as:"
+msgid "Hourly"
+msgstr "À l'heure"
+
+msgctxt "selection:hotel.reservation.line,billed_as:"
+msgid "Nightly"
+msgstr "À la nuit"
+
+msgctxt "selection:hotel.reservation.line,pricing:"
+msgid "Automatic"
+msgstr "Automatique"
+
+msgctxt "selection:hotel.reservation.line,pricing:"
+msgid "Hourly"
+msgstr "À l'heure"
+
+msgctxt "selection:hotel.reservation.line,pricing:"
+msgid "Nightly"
+msgstr "À la nuit"
+
+msgctxt "selection:ir.cron,method:"
+msgid "Generate Hotel Notifications"
+msgstr "Générer les notifications de l'hôtel"
+
+msgctxt "view:hotel.dashboard:"
+msgid "Arrivals"
+msgstr "Arrivées"
+
+msgctxt "view:hotel.dashboard:"
+msgid "Departures"
+msgstr "Départs"
+
+msgctxt "view:hotel.dashboard:"
+msgid "In House"
+msgstr "En séjour"
+
+msgctxt "view:hotel.dashboard:"
+msgid "Notifications"
+msgstr "Notifications"
+
+msgctxt "view:hotel.dashboard:"
+msgid "Refresh"
+msgstr "Actualiser"
+
+msgctxt "view:hotel.dashboard:"
+msgid "Revenue"
+msgstr "Revenu"
+
+msgctxt "view:hotel.dashboard:"
+msgid "Rooms"
+msgstr "Chambres"
+
+msgctxt "view:hotel.dashboard:"
+msgid "Today"
+msgstr "Aujourd'hui"
+
+msgctxt "view:hotel.hotel:"
+msgid "Update Order Points"
+msgstr "Mettre à jour les points de commande"
+
+msgctxt "view:hotel.reservation:"
+msgid "Charges"
+msgstr "Frais"
+
+msgctxt "view:hotel.reservation:"
+msgid "Other Info"
+msgstr "Autres informations"
+
+msgctxt "view:hotel.reservation:"
+msgid "Rooms"
+msgstr "Chambres"
+
+msgctxt "wizard_button:hotel_pms.report.print_arrivals,start,end:"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "wizard_button:hotel_pms.report.print_arrivals,start,print_:"
+msgid "Print"
+msgstr "Imprimer"
+
+msgctxt "wizard_button:hotel_pms.report.print_departures,start,end:"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "wizard_button:hotel_pms.report.print_departures,start,print_:"
+msgid "Print"
+msgstr "Imprimer"
+
+msgctxt "wizard_button:hotel_pms.report.print_occupancy,start,end:"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "wizard_button:hotel_pms.report.print_occupancy,start,print_:"
+msgid "Print"
+msgstr "Imprimer"
+
+msgctxt "wizard_button:hotel_pms.report.print_revenue,start,end:"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "wizard_button:hotel_pms.report.print_revenue,start,print_:"
+msgid "Print"
+msgstr "Imprimer"

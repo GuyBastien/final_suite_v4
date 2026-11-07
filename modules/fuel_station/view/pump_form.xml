@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton fuel_station module. -->
+<form>
+    <label name="station"/>
+    <field name="station"/>
+    <label name="code"/>
+    <field name="code"/>
+    <label name="name"/>
+    <field name="name"/>
+    <label name="active"/>
+    <field name="active"/>
+    <field name="nozzles" colspan="4"/>
+</form>

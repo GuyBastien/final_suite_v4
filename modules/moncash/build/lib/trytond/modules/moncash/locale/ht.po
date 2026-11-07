@@ -1,0 +1,68 @@
+#
+msgid ""
+msgstr ""
+"Language: ht\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:mobile.payment.account,moncash_client_id:"
+msgid "MonCash Client ID"
+msgstr "Client ID MonCash"
+
+msgctxt "field:mobile.payment.account,moncash_client_secret:"
+msgid "MonCash Secret Key"
+msgstr "Kle sekrè MonCash"
+
+msgctxt "help:mobile.payment.account,moncash_client_id:"
+msgid ""
+"Client ID of the application created in the MonCash Business portal (sandbox"
+" or live, matching the Sandbox box)."
+msgstr ""
+"Client ID aplikasyon yo kreye nan pòtal MonCash Business la (tès oswa reyèl,"
+" selon bwat Sandbox la)."
+
+msgctxt "help:mobile.payment.account,moncash_client_secret:"
+msgid ""
+"Secret key of the application. Only the administrators of mobile payments "
+"can read it."
+msgstr ""
+"Kle sekrè aplikasyon an. Se sèlman administratè peman mobil yo ki ka li l."
+
+msgctxt "model:ir.message,text:msg_auth_failed"
+msgid ""
+"MonCash refused the credentials (HTTP %(status)s). Check the Client ID, the "
+"Secret Key and the Sandbox box."
+msgstr ""
+"MonCash refize idantifyan yo (HTTP %(status)s). Verifye Client ID a, kle "
+"sekrè a ak bwat Sandbox la."
+
+msgctxt "model:ir.message,text:msg_check_failed"
+msgid ""
+"MonCash could not verify the payment (HTTP %(status)s). Try again in a "
+"moment."
+msgstr "MonCash pa t ka verifye peman an (HTTP %(status)s). Eseye ankò talè."
+
+msgctxt "model:ir.message,text:msg_create_failed"
+msgid "MonCash did not create the payment (HTTP %(status)s): %(detail)s"
+msgstr "MonCash pa t kreye peman an (HTTP %(status)s) : %(detail)s"
+
+msgctxt "model:ir.message,text:msg_currency"
+msgid ""
+"MonCash only accepts gourdes (HTG). The currency of the ticket is "
+"%(currency)s."
+msgstr "MonCash aksepte sèlman goud (HTG). Lajan tikè a se %(currency)s."
+
+msgctxt "model:ir.message,text:msg_mode_live"
+msgid "live"
+msgstr "reyèl"
+
+msgctxt "model:ir.message,text:msg_mode_sandbox"
+msgid "sandbox"
+msgstr "tès"
+
+msgctxt "model:ir.message,text:msg_test_ok"
+msgid "MonCash accepted the credentials (%(mode)s mode)."
+msgstr "MonCash aksepte idantifyan yo (mòd %(mode)s)."
+
+msgctxt "model:ir.message,text:msg_waiting"
+msgid "Waiting for the customer on MonCash."
+msgstr "Ap tann kliyan an sou MonCash."

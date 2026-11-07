@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_pms module. -->
+<tree>
+    <field name="kind"/>
+    <field name="title"/>
+    <field name="hotel"/>
+    <!-- DateTime: <field name="date"/> -->
+    <!-- DateTime: <field name="due_date"/> -->
+    <field name="state"/>
+</tree>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_channel_manager module. -->
+<form>
+    <label name="channel"/>
+    <field name="channel"/>
+    <label name="room"/>
+    <field name="room"/>
+    <label name="external_id"/>
+    <field name="external_id"/>
+    <label name="import_url"/>
+    <field name="import_url" colspan="3"/>
+    <label name="export_path"/>
+    <field name="export_path" colspan="3"/>
+    <button name="new_token" icon="tryton-refresh" colspan="4"/>
+</form>

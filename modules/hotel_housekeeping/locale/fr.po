@@ -1,0 +1,463 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:hotel.hotel,checklist:"
+msgid "Checklist"
+msgstr "Liste de contrôle"
+
+msgctxt "field:hotel.hotel,daily_refresh:"
+msgid "Daily Refresh Tasks"
+msgstr "Tâches de rafraîchissement quotidiennes"
+
+msgctxt "field:hotel.hotel,inspection_required:"
+msgid "Inspection Required"
+msgstr "Inspection obligatoire"
+
+msgctxt "field:hotel.housekeeping.checklist,hotel:"
+msgid "Hotel"
+msgstr "Hôtel"
+
+msgctxt "field:hotel.housekeeping.checklist,kind:"
+msgid "Kind"
+msgstr "Genre"
+
+msgctxt "field:hotel.housekeeping.checklist,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:hotel.housekeeping.checklist,required:"
+msgid "Required"
+msgstr "Obligatoire"
+
+msgctxt "field:hotel.housekeeping.issue,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:hotel.housekeeping.issue,description:"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "field:hotel.housekeeping.issue,hotel:"
+msgid "Hotel"
+msgstr "Hôtel"
+
+msgctxt "field:hotel.housekeeping.issue,reported_at:"
+msgid "Reported At"
+msgstr "Signalée le"
+
+msgctxt "field:hotel.housekeeping.issue,reported_by:"
+msgid "Reported By"
+msgstr "Signalée par"
+
+msgctxt "field:hotel.housekeeping.issue,resolution:"
+msgid "Resolution"
+msgstr "Résolution"
+
+msgctxt "field:hotel.housekeeping.issue,resolved_at:"
+msgid "Resolved At"
+msgstr "Résolue le"
+
+msgctxt "field:hotel.housekeeping.issue,room:"
+msgid "Room"
+msgstr "Chambre"
+
+msgctxt "field:hotel.housekeeping.issue,severity:"
+msgid "Severity"
+msgstr "Gravité"
+
+msgctxt "field:hotel.housekeeping.issue,state:"
+msgid "State"
+msgstr "État"
+
+msgctxt "field:hotel.housekeeping.issue,task:"
+msgid "Task"
+msgstr "Tâche"
+
+msgctxt "field:hotel.housekeeping.task,assigned_to:"
+msgid "Assigned To"
+msgstr "Assignée à"
+
+msgctxt "field:hotel.housekeeping.task,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:hotel.housekeeping.task,finished_at:"
+msgid "Finished At"
+msgstr "Terminée le"
+
+msgctxt "field:hotel.housekeeping.task,hotel:"
+msgid "Hotel"
+msgstr "Hôtel"
+
+msgctxt "field:hotel.housekeeping.task,issues:"
+msgid "Issues"
+msgstr "Anomalies"
+
+msgctxt "field:hotel.housekeeping.task,items:"
+msgid "Checklist"
+msgstr "Liste de contrôle"
+
+msgctxt "field:hotel.housekeeping.task,kind:"
+msgid "Kind"
+msgstr "Genre"
+
+msgctxt "field:hotel.housekeeping.task,mine:"
+msgid "Assigned to Me"
+msgstr "Assignée à moi"
+
+msgctxt "field:hotel.housekeeping.task,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:hotel.housekeeping.task,notes:"
+msgid "Notes"
+msgstr "Notes"
+
+msgctxt "field:hotel.housekeeping.task,planned_date:"
+msgid "Planned Date"
+msgstr "Date prévue"
+
+msgctxt "field:hotel.housekeeping.task,priority:"
+msgid "Priority"
+msgstr "Priorité"
+
+msgctxt "field:hotel.housekeeping.task,reservation:"
+msgid "Reservation"
+msgstr "Réservation"
+
+msgctxt "field:hotel.housekeeping.task,room:"
+msgid "Room"
+msgstr "Chambre"
+
+msgctxt "field:hotel.housekeeping.task,started_at:"
+msgid "Started At"
+msgstr "Démarrée le"
+
+msgctxt "field:hotel.housekeeping.task,state:"
+msgid "State"
+msgstr "État"
+
+msgctxt "field:hotel.housekeeping.task.item,done:"
+msgid "Done"
+msgstr "Terminé"
+
+msgctxt "field:hotel.housekeeping.task.item,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:hotel.housekeeping.task.item,required:"
+msgid "Required"
+msgstr "Obligatoire"
+
+msgctxt "field:hotel.housekeeping.task.item,task:"
+msgid "Task"
+msgstr "Tâche"
+
+msgctxt "help:hotel.hotel,checklist:"
+msgid "The items copied on each new housekeeping task."
+msgstr "Les points copiés sur chaque nouvelle tâche de ménage."
+
+msgctxt "help:hotel.hotel,daily_refresh:"
+msgid "Create a stay-over refresh task every day for the occupied rooms."
+msgstr ""
+"Crée chaque jour une tâche de rafraîchissement pour les chambres occupées."
+
+msgctxt "help:hotel.hotel,inspection_required:"
+msgid ""
+"If checked, a cleaned room becomes available only once a supervisor has "
+"inspected it."
+msgstr ""
+"Si coché, une chambre nettoyée n'est disponible qu'après inspection par une "
+"gouvernante."
+
+msgctxt "help:hotel.housekeeping.checklist,kind:"
+msgid "Empty applies the item to every kind of task."
+msgstr "Vide : le point s'applique à tous les types de tâche."
+
+msgctxt "help:hotel.housekeeping.checklist,required:"
+msgid "The task cannot be finished while this item is not done."
+msgstr "La tâche ne peut pas être terminée tant que ce point n'est pas fait."
+
+msgctxt "help:hotel.housekeeping.task,reservation:"
+msgid "The stay whose check-out raised the task."
+msgstr "Le séjour dont le check-out a déclenché la tâche."
+
+msgctxt "model:hotel.housekeeping.checklist,name:"
+msgid "Hotel Housekeeping Checklist Item"
+msgstr "Point de la liste de contrôle ménage"
+
+msgctxt "model:hotel.housekeeping.issue,name:"
+msgid "Hotel Housekeeping Issue"
+msgstr "Anomalie de ménage"
+
+msgctxt "model:hotel.housekeeping.task,name:"
+msgid "Hotel Housekeeping Task"
+msgstr "Tâche de ménage"
+
+msgctxt "model:hotel.housekeeping.task.item,name:"
+msgid "Hotel Housekeeping Task Item"
+msgstr "Point de contrôle de tâche de ménage"
+
+msgctxt "model:ir.action,name:act_issue"
+msgid "Issues"
+msgstr "Anomalies"
+
+msgctxt "model:ir.action,name:act_my_task"
+msgid "My Tasks"
+msgstr "Mes tâches"
+
+msgctxt "model:ir.action,name:act_task"
+msgid "Tasks"
+msgstr "Tâches"
+
+msgctxt "model:ir.action.act_window.domain,name:act_issue_domain1"
+msgid "Open"
+msgstr "Ouverte"
+
+msgctxt "model:ir.action.act_window.domain,name:act_issue_domain2"
+msgid "All"
+msgstr "Toutes"
+
+msgctxt "model:ir.action.act_window.domain,name:act_my_task_domain1"
+msgid "To Do"
+msgstr "À faire"
+
+msgctxt "model:ir.action.act_window.domain,name:act_my_task_domain2"
+msgid "Done"
+msgstr "Terminé"
+
+msgctxt "model:ir.action.act_window.domain,name:act_task_domain1"
+msgid "To Do"
+msgstr "À faire"
+
+msgctxt "model:ir.action.act_window.domain,name:act_task_domain2"
+msgid "Unassigned"
+msgstr "Non assignées"
+
+msgctxt "model:ir.action.act_window.domain,name:act_task_domain3"
+msgid "To Inspect"
+msgstr "À inspecter"
+
+msgctxt "model:ir.action.act_window.domain,name:act_task_domain4"
+msgid "All"
+msgstr "Toutes"
+
+msgctxt "model:ir.message,text:msg_hk_issue"
+msgid "%(severity)s issue: %(description)s"
+msgstr "Anomalie %(severity)s : %(description)s"
+
+msgctxt "model:ir.message,text:msg_hk_issue_title"
+msgid "Issue in room %(room)s"
+msgstr "Anomalie dans la chambre %(room)s"
+
+msgctxt "model:ir.message,text:msg_hk_task_late"
+msgid "The task \"%(task)s\" planned on %(date)s is not finished."
+msgstr "La tâche « %(task)s » prévue le %(date)s n'est pas terminée."
+
+msgctxt "model:ir.message,text:msg_hk_task_late_title"
+msgid "Housekeeping late: room %(room)s"
+msgstr "Ménage en retard : chambre %(room)s"
+
+msgctxt "model:ir.message,text:msg_issue_resolution_required"
+msgid "Describe the resolution of the issue \"%(issue)s\" before resolving it."
+msgstr ""
+"Décrivez la résolution de l'anomalie « %(issue)s » avant de la résoudre."
+
+msgctxt "model:ir.message,text:msg_task_checklist_incomplete"
+msgid "Complete the required checklist items of the task \"%(task)s\" first."
+msgstr ""
+"Terminez d'abord les points obligatoires de la liste de contrôle de la tâche"
+" « %(task)s »."
+
+msgctxt "model:ir.message,text:msg_task_delete_state"
+msgid "You cannot delete the task \"%(task)s\" because it is started or done."
+msgstr ""
+"Vous ne pouvez pas supprimer la tâche « %(task)s » car elle est commencée ou"
+" terminée."
+
+msgctxt "model:ir.message,text:msg_task_room_hotel"
+msgid "The room \"%(room)s\" of the task \"%(task)s\" does not belong to its hotel."
+msgstr ""
+"La chambre « %(room)s » de la tâche « %(task)s » n'appartient pas à son "
+"hôtel."
+
+msgctxt "model:ir.model.button,string:issue_reopen_button"
+msgid "Reopen"
+msgstr "Rouvrir"
+
+msgctxt "model:ir.model.button,string:issue_resolve_button"
+msgid "Resolve"
+msgstr "Résoudre"
+
+msgctxt "model:ir.model.button,string:task_cancel_button"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "model:ir.model.button,string:task_finish_button"
+msgid "Finish"
+msgstr "Terminer"
+
+msgctxt "model:ir.model.button,string:task_inspect_button"
+msgid "Inspect"
+msgstr "Inspecter"
+
+msgctxt "model:ir.model.button,string:task_redo_button"
+msgid "Redo"
+msgstr "Refaire"
+
+msgctxt "model:ir.model.button,string:task_reopen_button"
+msgid "Reopen"
+msgstr "Rouvrir"
+
+msgctxt "model:ir.model.button,string:task_start_button"
+msgid "Start"
+msgstr "Début"
+
+msgctxt "model:ir.model.button,string:task_take_button"
+msgid "Take"
+msgstr "Prendre"
+
+msgctxt "model:ir.rule.group,name:rule_group_issue_companies"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_task_companies"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.ui.menu,name:menu_housekeeping"
+msgid "Housekeeping"
+msgstr "Ménage"
+
+msgctxt "model:ir.ui.menu,name:menu_issue"
+msgid "Issues"
+msgstr "Anomalies"
+
+msgctxt "model:ir.ui.menu,name:menu_my_task"
+msgid "My Tasks"
+msgstr "Mes tâches"
+
+msgctxt "model:ir.ui.menu,name:menu_task"
+msgid "Tasks"
+msgstr "Tâches"
+
+msgctxt "model:res.group,name:group_housekeeping"
+msgid "Hotel Housekeeping"
+msgstr "Ménage hôtel"
+
+msgctxt "model:res.group,name:group_housekeeping_supervisor"
+msgid "Hotel Housekeeping Supervisor"
+msgstr "Gouvernante hôtel"
+
+msgctxt "selection:hotel.housekeeping.checklist,kind:"
+msgid "Deep Cleaning"
+msgstr "Nettoyage en profondeur"
+
+msgctxt "selection:hotel.housekeeping.checklist,kind:"
+msgid "Departure Cleaning"
+msgstr "Nettoyage de départ"
+
+msgctxt "selection:hotel.housekeeping.checklist,kind:"
+msgid "Inspection"
+msgstr "Inspection"
+
+msgctxt "selection:hotel.housekeeping.checklist,kind:"
+msgid "Stay-over Refresh"
+msgstr "Rafraîchissement en séjour"
+
+msgctxt "selection:hotel.housekeeping.checklist,kind:"
+msgid "Turndown"
+msgstr "Couverture du soir"
+
+msgctxt "selection:hotel.housekeeping.issue,severity:"
+msgid "Blocking"
+msgstr "Bloquante"
+
+msgctxt "selection:hotel.housekeeping.issue,severity:"
+msgid "Major"
+msgstr "Majeure"
+
+msgctxt "selection:hotel.housekeeping.issue,severity:"
+msgid "Minor"
+msgstr "Mineure"
+
+msgctxt "selection:hotel.housekeeping.issue,state:"
+msgid "Open"
+msgstr "Ouverte"
+
+msgctxt "selection:hotel.housekeeping.issue,state:"
+msgid "Resolved"
+msgstr "Résolue"
+
+msgctxt "selection:hotel.housekeeping.task,kind:"
+msgid "Deep Cleaning"
+msgstr "Nettoyage en profondeur"
+
+msgctxt "selection:hotel.housekeeping.task,kind:"
+msgid "Departure Cleaning"
+msgstr "Nettoyage de départ"
+
+msgctxt "selection:hotel.housekeeping.task,kind:"
+msgid "Inspection"
+msgstr "Inspection"
+
+msgctxt "selection:hotel.housekeeping.task,kind:"
+msgid "Stay-over Refresh"
+msgstr "Rafraîchissement en séjour"
+
+msgctxt "selection:hotel.housekeeping.task,kind:"
+msgid "Turndown"
+msgstr "Couverture du soir"
+
+msgctxt "selection:hotel.housekeeping.task,priority:"
+msgid "High"
+msgstr "Haute"
+
+msgctxt "selection:hotel.housekeeping.task,priority:"
+msgid "Low"
+msgstr "Basse"
+
+msgctxt "selection:hotel.housekeeping.task,priority:"
+msgid "Normal"
+msgstr "Normale"
+
+msgctxt "selection:hotel.housekeeping.task,priority:"
+msgid "Urgent"
+msgstr "Urgente"
+
+msgctxt "selection:hotel.housekeeping.task,state:"
+msgid "Cancelled"
+msgstr "Annulée"
+
+msgctxt "selection:hotel.housekeeping.task,state:"
+msgid "Done"
+msgstr "Terminé"
+
+msgctxt "selection:hotel.housekeeping.task,state:"
+msgid "In Progress"
+msgstr "En cours"
+
+msgctxt "selection:hotel.housekeeping.task,state:"
+msgid "Inspected"
+msgstr "Inspectée"
+
+msgctxt "selection:hotel.housekeeping.task,state:"
+msgid "To Do"
+msgstr "À faire"
+
+msgctxt "selection:ir.cron,method:"
+msgid "Generate Housekeeping Tasks"
+msgstr "Générer les tâches de ménage"
+
+msgctxt "view:hotel.housekeeping.task:"
+msgid "Checklist"
+msgstr "Liste de contrôle"
+
+msgctxt "view:hotel.housekeeping.task:"
+msgid "Issues"
+msgstr "Anomalies"
+
+msgctxt "view:hotel.housekeeping.task:"
+msgid "Notes"
+msgstr "Notes"

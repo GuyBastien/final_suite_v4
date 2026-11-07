@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_maintenance module. -->
+<form>
+    <label name="number"/>
+    <field name="number"/>
+    <label name="hotel"/>
+    <field name="hotel"/>
+    <label name="room"/>
+    <field name="room"/>
+    <label name="location"/>
+    <field name="location"/>
+    <label name="title"/>
+    <field name="title"/>
+    <label name="priority"/>
+    <field name="priority"/>
+    <label name="state"/>
+    <field name="state"/>
+    <label name="assigned_to"/>
+    <field name="assigned_to"/>
+    <label name="requested_by"/>
+    <field name="requested_by"/>
+    <label name="planned_date"/>
+    <field name="planned_date"/>
+    <label name="started_at"/>
+    <field name="started_at"/>
+    <label name="finished_at"/>
+    <field name="finished_at"/>
+    <label name="cost"/>
+    <field name="cost"/>
+    <label name="block_room"/>
+    <field name="block_room"/>
+    <label name="schedule"/>
+    <field name="schedule"/>
+    <notebook colspan="4">
+        <page string="Description" id="description">
+            <field name="description" colspan="4"/>
+        </page>
+    </notebook>
+    <button icon="tryton-forward" name="assign" string="Assign"/>
+    <button icon="tryton-forward" name="start" string="Start"/>
+    <button icon="tryton-ok" name="finish" string="Finish"/>
+    <button icon="tryton-cancel" name="cancel" string="Cancel"/>
+    <button icon="tryton-undo" name="reopen" string="Reopen"/>
+</form>

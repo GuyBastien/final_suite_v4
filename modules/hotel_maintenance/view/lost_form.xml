@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_maintenance module. -->
+<form>
+    <label name="number"/>
+    <field name="number"/>
+    <label name="hotel"/>
+    <field name="hotel"/>
+    <label name="found_date"/>
+    <field name="found_date"/>
+    <label name="room"/>
+    <field name="room"/>
+    <label name="found_by"/>
+    <field name="found_by"/>
+    <label name="state"/>
+    <field name="state"/>
+    <label name="claimed_by"/>
+    <field name="claimed_by"/>
+    <label name="claim_date"/>
+    <field name="claim_date"/>
+    <notebook colspan="4">
+        <page string="Description" id="description">
+            <field name="description" colspan="4"/>
+        </page>
+    </notebook>
+    <button icon="tryton-ok" name="claim" string="Claim"/>
+    <button icon="tryton-warning" name="dispose" string="Dispose"/>
+</form>

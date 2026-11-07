@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel module. -->
+<data>
+    <xpath expr="/form/notebook/page[@id='general']" position="after">
+        <page string="Hotel" id="hotel">
+            <label name="hotel_article"/>
+            <field name="hotel_article"/>
+            <label name="hotel_category"/>
+            <field name="hotel_category"/>
+            <label name="hotel_billable"/>
+            <field name="hotel_billable"/>
+        </page>
+    </xpath>
+</data>

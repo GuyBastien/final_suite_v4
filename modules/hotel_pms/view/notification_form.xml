@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_pms module. -->
+<form>
+    <label name="hotel"/>
+    <field name="hotel"/>
+    <label name="kind"/>
+    <field name="kind"/>
+    <label name="title"/>
+    <field name="title" colspan="3"/>
+    <label name="date"/>
+    <field name="date"/>
+    <label name="due_date"/>
+    <field name="due_date"/>
+    <label name="user"/>
+    <field name="user"/>
+    <label name="origin"/>
+    <field name="origin"/>
+    <label name="automatic"/>
+    <field name="automatic"/>
+    <label name="state"/>
+    <field name="state"/>
+    <field name="message" colspan="4"/>
+    <group col="3" colspan="4" id="buttons">
+        <button name="done" icon="tryton-ok"/>
+        <button name="dismiss" icon="tryton-cancel"/>
+        <button name="reopen" icon="tryton-undo"/>
+    </group>
+</form>

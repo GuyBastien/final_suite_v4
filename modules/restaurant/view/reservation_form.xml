@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton restaurant module. -->
+<form col="6">
+    <group col="6" colspan="6" id="header">
+        <label name="number"/>
+        <field name="number"/>
+        <label name="restaurant"/>
+        <field name="restaurant"/>
+        <label name="state"/>
+        <field name="state"/>
+        <label name="date"/>
+        <field name="date"/>
+        <label name="time"/>
+        <field name="time"/>
+        <label name="duration"/>
+        <field name="duration"/>
+        <label name="party"/>
+        <field name="party"/>
+        <label name="guest_name"/>
+        <field name="guest_name"/>
+        <label name="phone"/>
+        <field name="phone"/>
+        <label name="persons"/>
+        <field name="persons"/>
+        <label name="table"/>
+        <field name="table"/>
+        <label name="order"/>
+        <field name="order"/>
+    </group>
+    <label name="company"/>
+    <field name="company"/>
+    <field name="notes" colspan="6"/>
+    <group col="-1" colspan="6" id="buttons">
+        <button name="cancel" icon="tryton-cancel"/>
+        <button name="no_show_" icon="tryton-fuel-dip"/>
+        <button name="rebook" icon="tryton-back"/>
+        <button name="seat" icon="tryton-ok"/>
+    </group>
+</form>

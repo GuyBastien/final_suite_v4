@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_pms module. -->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="dashboard_view_form">
+            <field name="model">hotel.dashboard</field>
+            <field name="type">form</field>
+            <field name="name">dashboard_form</field>
+        </record>
+        <record model="ir.ui.view" id="dashboard_view_list">
+            <field name="model">hotel.dashboard</field>
+            <field name="type">tree</field>
+            <field name="name">dashboard_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_dashboard">
+            <field name="name">Dashboard</field>
+            <field name="res_model">hotel.dashboard</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_dashboard_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="dashboard_view_list"/>
+            <field name="act_window" ref="act_dashboard"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_dashboard_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="dashboard_view_form"/>
+            <field name="act_window" ref="act_dashboard"/>
+        </record>
+        <menuitem icon="tryton-hotel-dashboard" name="Dashboard" parent="hotel.menu_hotel"
+            action="act_dashboard" id="menu_dashboard" sequence="1"/>
+        <record model="ir.model.button" id="dashboard_refresh_button">
+            <field name="model" search="[('model', '=', 'hotel.dashboard')]"/>
+            <field name="name">refresh</field>
+            <field name="string">Refresh</field>
+            <field name="help">Raise the notifications and reload the figures</field>
+        </record>
+        <record model="ir.model.button-res.group" id="dashboard_refresh_button_group_hotel">
+            <field name="button" ref="dashboard_refresh_button"/>
+            <field name="group" ref="hotel.group_hotel"/>
+        </record>
+        <record model="ir.model.access" id="access_dashboard">
+            <field name="model" search="[('model', '=', 'hotel.dashboard')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_dashboard_hotel">
+            <field name="model" search="[('model', '=', 'hotel.dashboard')]"/>
+            <field name="group" ref="hotel.group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_dashboard_companies">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'hotel.dashboard')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_dashboard_companies">
+            <field name="domain"
+                eval="[('company', 'in', Eval('companies', []))]"
+                pyson="1"/>
+            <field name="rule_group" ref="rule_group_dashboard_companies"/>
+        </record>
+        <record model="ir.ui.view" id="dashboard_view_graph_rooms">
+            <field name="model">hotel.dashboard</field>
+            <field name="type">graph</field>
+            <field name="name">dashboard_graph_rooms</field>
+        </record>
+        <record model="ir.ui.view" id="dashboard_view_graph_movements">
+            <field name="model">hotel.dashboard</field>
+            <field name="type">graph</field>
+            <field name="name">dashboard_graph_movements</field>
+        </record>
+        <menuitem icon="tryton-hotel-occupancy" name="Statistics" parent="hotel.menu_hotel"
+            id="menu_statistics" sequence="2"/>
+        <record model="ir.action.act_window" id="act_room_status">
+            <field name="name">Room Status</field>
+            <field name="res_model">hotel.dashboard</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_room_status_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="dashboard_view_graph_rooms"/>
+            <field name="act_window" ref="act_room_status"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_room_status_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="dashboard_view_list"/>
+            <field name="act_window" ref="act_room_status"/>
+        </record>
+        <menuitem icon="tryton-hotel-room" parent="menu_statistics" action="act_room_status"
+            id="menu_room_status" sequence="10"/>
+        <record model="ir.action.act_window" id="act_movements">
+            <field name="name">Today's Movements</field>
+            <field name="res_model">hotel.dashboard</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_movements_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="dashboard_view_graph_movements"/>
+            <field name="act_window" ref="act_movements"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_movements_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="dashboard_view_list"/>
+            <field name="act_window" ref="act_movements"/>
+        </record>
+        <menuitem icon="tryton-hotel-reservation" parent="menu_statistics" action="act_movements"
+            id="menu_movements" sequence="20"/>
+    </data>
+</tryton>

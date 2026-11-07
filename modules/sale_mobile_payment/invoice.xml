@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton sale_mobile_payment module. -->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="account_view_form">
+            <field name="model">mobile.payment.account</field>
+            <field name="inherit" ref="mobile_payment.account_view_form"/>
+            <field name="name">account_form</field>
+        </record>
+        <record model="ir.ui.view" id="invoice_view_form">
+            <field name="model">account.invoice</field>
+            <field name="inherit" ref="account_invoice.invoice_view_form"/>
+            <field name="name">invoice_form</field>
+        </record>
+        <record model="ir.ui.view" id="sale_view_form">
+            <field name="model">sale.sale</field>
+            <field name="inherit" ref="sale.sale_view_form"/>
+            <field name="name">sale_form</field>
+        </record>
+        <record model="ir.ui.view" id="transaction_view_form">
+            <field name="model">mobile.payment.transaction</field>
+            <field name="inherit" ref="mobile_payment.transaction_view_form"/>
+            <field name="name">transaction_form</field>
+        </record>
+
+        <record model="ir.model.button" id="invoice_pay_mobile_button">
+            <field name="model" search="[('model', '=', 'account.invoice')]"/>
+            <field name="name">pay_mobile</field>
+            <field name="string">Pay by Mobile</field>
+        </record>
+        <record model="ir.model.button-res.group" id="invoice_pay_mobile_button_group_account">
+            <field name="button" ref="invoice_pay_mobile_button"/>
+            <field name="group" ref="account.group_account"/>
+        </record>
+        <record model="ir.model.button" id="sale_pay_mobile_button">
+            <field name="model" search="[('model', '=', 'sale.sale')]"/>
+            <field name="name">pay_mobile</field>
+            <field name="string">Pay by Mobile</field>
+        </record>
+        <record model="ir.model.button-res.group" id="sale_pay_mobile_button_group_sale">
+            <field name="button" ref="sale_pay_mobile_button"/>
+            <field name="group" ref="sale.group_sale"/>
+        </record>
+
+        <record model="ir.model.access" id="access_transaction_sale">
+            <field name="model" search="[('model', '=', 'mobile.payment.transaction')]"/>
+            <field name="group" ref="sale.group_sale"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_account_sale">
+            <field name="model" search="[('model', '=', 'mobile.payment.account')]"/>
+            <field name="group" ref="sale.group_sale"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_transaction_account">
+            <field name="model" search="[('model', '=', 'mobile.payment.transaction')]"/>
+            <field name="group" ref="account.group_account"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_account_account">
+            <field name="model" search="[('model', '=', 'mobile.payment.account')]"/>
+            <field name="group" ref="account.group_account"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.ui.menu-res.group" id="menu_mobile_payment_group_sale">
+            <field name="menu" ref="mobile_payment.menu_mobile_payment"/>
+            <field name="group" ref="sale.group_sale"/>
+        </record>
+        <record model="ir.ui.menu-res.group" id="menu_mobile_payment_group_account">
+            <field name="menu" ref="mobile_payment.menu_mobile_payment"/>
+            <field name="group" ref="account.group_account"/>
+        </record>
+    </data>
+</tryton>

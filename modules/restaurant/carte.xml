@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton restaurant module. -->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="menu_view_form">
+            <field name="model">restaurant.menu</field>
+            <field name="type">form</field>
+            <field name="name">menu_form</field>
+        </record>
+        <record model="ir.ui.view" id="menu_view_list">
+            <field name="model">restaurant.menu</field>
+            <field name="type">tree</field>
+            <field name="name">menu_list</field>
+        </record>
+        <record model="ir.ui.view" id="menu_item_view_form">
+            <field name="model">restaurant.menu.item</field>
+            <field name="type">form</field>
+            <field name="name">menu_item_form</field>
+        </record>
+        <record model="ir.ui.view" id="menu_item_view_list">
+            <field name="model">restaurant.menu.item</field>
+            <field name="type">tree</field>
+            <field name="name">menu_item_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_carte">
+            <field name="name">Menus</field>
+            <field name="res_model">restaurant.menu</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_carte_view_10">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="menu_view_list"/>
+            <field name="act_window" ref="act_carte"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_carte_view_20">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="menu_view_form"/>
+            <field name="act_window" ref="act_carte"/>
+        </record>
+        <menuitem icon="tryton-restaurant-menu" name="Menus" parent="menu_menu" id="menu_carte" sequence="15" action="act_carte"/>
+        <record model="ir.model.access" id="access_menu_card">
+            <field name="model" search="[('model', '=', 'restaurant.menu')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_menu_card_service">
+            <field name="model" search="[('model', '=', 'restaurant.menu')]"/>
+            <field name="group" ref="group_restaurant"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_menu_card_kitchen">
+            <field name="model" search="[('model', '=', 'restaurant.menu')]"/>
+            <field name="group" ref="group_restaurant_kitchen"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_menu_card_admin">
+            <field name="model" search="[('model', '=', 'restaurant.menu')]"/>
+            <field name="group" ref="group_restaurant_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_menu_card">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'restaurant.menu')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_menu_card">
+            <field name="domain" eval="[('restaurant.company', 'in', Eval('companies', []))]" pyson="1"/>
+            <field name="rule_group" ref="rule_group_menu_card"/>
+        </record>
+        <record model="ir.model.access" id="access_menu_item">
+            <field name="model" search="[('model', '=', 'restaurant.menu.item')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_menu_item_service">
+            <field name="model" search="[('model', '=', 'restaurant.menu.item')]"/>
+            <field name="group" ref="group_restaurant"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_menu_item_kitchen">
+            <field name="model" search="[('model', '=', 'restaurant.menu.item')]"/>
+            <field name="group" ref="group_restaurant_kitchen"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_menu_item_admin">
+            <field name="model" search="[('model', '=', 'restaurant.menu.item')]"/>
+            <field name="group" ref="group_restaurant_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.action.report" id="report_order_ticket">
+            <field name="name">Ticket (80 mm)</field>
+            <field name="model">restaurant.order</field>
+            <field name="report_name">restaurant.order.ticket</field>
+            <field name="report">restaurant/ticket.fodt</field>
+        </record>
+        <record model="ir.action.keyword" id="report_order_ticket_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">restaurant.order,-1</field>
+            <field name="action" ref="report_order_ticket"/>
+        </record>
+        <record model="ir.action.report" id="report_order_split">
+            <field name="name">Bill by Guest</field>
+            <field name="model">restaurant.order</field>
+            <field name="report_name">restaurant.order.split</field>
+            <field name="report">restaurant/split.fodt</field>
+        </record>
+        <record model="ir.action.keyword" id="report_order_split_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">restaurant.order,-1</field>
+            <field name="action" ref="report_order_split"/>
+        </record>
+    </data>
+</tryton>

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_guest module. -->
+<data>
+    <xpath expr="/form/notebook" position="inside">
+        <page string="Hotel Guest" id="hotel_guest">
+            <label name="vip"/>
+            <field name="vip"/>
+            <label name="loyalty_tier"/>
+            <field name="loyalty_tier"/>
+            <label name="nationality"/>
+            <field name="nationality"/>
+            <label name="loyalty_points"/>
+            <field name="loyalty_points"/>
+            <label name="birth_date"/>
+            <field name="birth_date"/>
+            <label name="stays_count"/>
+            <field name="stays_count"/>
+            <label name="id_type"/>
+            <field name="id_type"/>
+            <label name="id_number"/>
+            <field name="id_number"/>
+            <label name="id_expiry"/>
+            <field name="id_expiry"/>
+            <newline/>
+            <separator name="preferences" colspan="4"/>
+            <field name="preferences" colspan="4"/>
+            <label name="blacklisted"/>
+            <field name="blacklisted"/>
+            <label name="blacklist_reason"/>
+            <field name="blacklist_reason"/>
+            <label name="gdpr_consent"/>
+            <field name="gdpr_consent"/>
+            <label name="consent_date"/>
+            <field name="consent_date"/>
+            <label name="marketing_consent"/>
+            <field name="marketing_consent"/>
+            <label name="anonymized"/>
+            <field name="anonymized"/>
+            <button name="anonymize" colspan="2"/>
+        </page>
+    </xpath>
+</data>

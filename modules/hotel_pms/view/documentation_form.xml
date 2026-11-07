@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_pms module. -->
+<form>
+    <label name="title"/>
+    <field name="title" colspan="3"/>
+    <field name="content" colspan="4" yexpand="1" yfill="1"/>
+</form>

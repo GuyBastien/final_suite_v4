@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_booking_engine module. -->
+<data>
+    <xpath expr="/form/field[@name='children']" position="after">
+        <label name="source"/>
+        <field name="source"/>
+        <label name="deposit_requested"/>
+        <field name="deposit_requested"/>
+    </xpath>
+</data>

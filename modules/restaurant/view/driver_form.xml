@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton restaurant module. -->
+<form col="4">
+    <label name="name"/>
+    <field name="name"/>
+    <label name="active"/>
+    <field name="active"/>
+    <label name="phone"/>
+    <field name="phone"/>
+    <label name="vehicle"/>
+    <field name="vehicle"/>
+    <label name="employee"/>
+    <field name="employee"/>
+    <label name="in_progress"/>
+    <field name="in_progress"/>
+</form>

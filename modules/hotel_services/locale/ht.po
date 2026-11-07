@@ -1,0 +1,442 @@
+#
+msgid ""
+msgstr ""
+"Language: ht\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:hotel.restaurant.booking,company:"
+msgid "Company"
+msgstr "Konpayi"
+
+msgctxt "field:hotel.restaurant.booking,covers:"
+msgid "Covers"
+msgstr "Kouvè"
+
+msgctxt "field:hotel.restaurant.booking,date:"
+msgid "Date"
+msgstr "Dat"
+
+msgctxt "field:hotel.restaurant.booking,duration:"
+msgid "Duration (min)"
+msgstr "Dire (minit)"
+
+msgctxt "field:hotel.restaurant.booking,guest_name:"
+msgid "Name"
+msgstr "Non"
+
+msgctxt "field:hotel.restaurant.booking,hotel:"
+msgid "Hotel"
+msgstr "Otèl"
+
+msgctxt "field:hotel.restaurant.booking,notes:"
+msgid "Notes"
+msgstr "Nòt"
+
+msgctxt "field:hotel.restaurant.booking,party:"
+msgid "Guest"
+msgstr "Envite"
+
+msgctxt "field:hotel.restaurant.booking,reservation:"
+msgid "Reservation"
+msgstr "Rezèvasyon"
+
+msgctxt "field:hotel.restaurant.booking,state:"
+msgid "State"
+msgstr "Eta"
+
+msgctxt "field:hotel.restaurant.booking,table:"
+msgid "Table"
+msgstr "Tab"
+
+msgctxt "field:hotel.restaurant.booking,time:"
+msgid "Time"
+msgstr "Lè"
+
+msgctxt "field:hotel.restaurant.table,area:"
+msgid "Area"
+msgstr "Zòn"
+
+msgctxt "field:hotel.restaurant.table,company:"
+msgid "Company"
+msgstr "Konpayi"
+
+msgctxt "field:hotel.restaurant.table,hotel:"
+msgid "Hotel"
+msgstr "Otèl"
+
+msgctxt "field:hotel.restaurant.table,name:"
+msgid "Name"
+msgstr "Non"
+
+msgctxt "field:hotel.restaurant.table,seats:"
+msgid "Seats"
+msgstr "Plas"
+
+msgctxt "field:hotel.service,capacity:"
+msgid "Capacity"
+msgstr "Kapasite"
+
+msgctxt "field:hotel.service,category:"
+msgid "Category"
+msgstr "Kategori"
+
+msgctxt "field:hotel.service,company:"
+msgid "Company"
+msgstr "Konpayi"
+
+msgctxt "field:hotel.service,duration:"
+msgid "Duration (min)"
+msgstr "Dire (minit)"
+
+msgctxt "field:hotel.service,hotel:"
+msgid "Hotel"
+msgstr "Otèl"
+
+msgctxt "field:hotel.service,name:"
+msgid "Name"
+msgstr "Non"
+
+msgctxt "field:hotel.service,product:"
+msgid "Product"
+msgstr "Pwodui"
+
+msgctxt "field:hotel.service.booking,amount:"
+msgid "Amount"
+msgstr "Montan"
+
+msgctxt "field:hotel.service.booking,charge:"
+msgid "Charge"
+msgstr "Chaj"
+
+msgctxt "field:hotel.service.booking,company:"
+msgid "Company"
+msgstr "Konpayi"
+
+msgctxt "field:hotel.service.booking,date:"
+msgid "Date"
+msgstr "Dat"
+
+msgctxt "field:hotel.service.booking,duration:"
+msgid "Duration (min)"
+msgstr "Dire (minit)"
+
+msgctxt "field:hotel.service.booking,end_time:"
+msgid "End"
+msgstr "Fen"
+
+msgctxt "field:hotel.service.booking,hotel:"
+msgid "Hotel"
+msgstr "Otèl"
+
+msgctxt "field:hotel.service.booking,notes:"
+msgid "Notes"
+msgstr "Nòt"
+
+msgctxt "field:hotel.service.booking,number:"
+msgid "Number"
+msgstr "Nimewo"
+
+msgctxt "field:hotel.service.booking,participants:"
+msgid "Participants"
+msgstr "Patisipan"
+
+msgctxt "field:hotel.service.booking,party:"
+msgid "Guest"
+msgstr "Envite"
+
+msgctxt "field:hotel.service.booking,reservation:"
+msgid "Reservation"
+msgstr "Rezèvasyon"
+
+msgctxt "field:hotel.service.booking,resource:"
+msgid "Resource"
+msgstr "Resous"
+
+msgctxt "field:hotel.service.booking,sale:"
+msgid "Sale"
+msgstr "Vant"
+
+msgctxt "field:hotel.service.booking,service:"
+msgid "Service"
+msgstr "Sèvis"
+
+msgctxt "field:hotel.service.booking,start_time:"
+msgid "Start"
+msgstr "Kòmanse"
+
+msgctxt "field:hotel.service.booking,state:"
+msgid "State"
+msgstr "Eta"
+
+msgctxt "field:hotel.service.booking,unit_price:"
+msgid "Unit Price"
+msgstr "Pri inite"
+
+msgctxt "field:hotel.service.resource,company:"
+msgid "Company"
+msgstr "Konpayi"
+
+msgctxt "field:hotel.service.resource,hotel:"
+msgid "Hotel"
+msgstr "Otèl"
+
+msgctxt "field:hotel.service.resource,name:"
+msgid "Name"
+msgstr "Non"
+
+msgctxt "field:hotel.service.resource,notes:"
+msgid "Notes"
+msgstr "Nòt"
+
+msgctxt "help:hotel.restaurant.booking,reservation:"
+msgid "Stay of the guest, for the room charge at the restaurant."
+msgstr "Sejou kliyan an, pou chaj chanm nan restoran an."
+
+msgctxt "help:hotel.restaurant.table,area:"
+msgid "Terrace, main room, bar..."
+msgstr "Teras, gwo sal, ba..."
+
+msgctxt "help:hotel.service,capacity:"
+msgid "Number of participants at the same time."
+msgstr "Kantite patisipan alafwa."
+
+msgctxt "help:hotel.service,product:"
+msgid "The service invoiced to the guest."
+msgstr "Sèvis yo faktire bay kliyan an."
+
+msgctxt "help:hotel.service.booking,reservation:"
+msgid ""
+"The price is added to the charges of the reservation. Without reservation a "
+"sale is created."
+msgstr ""
+"Pri a ajoute nan chaj rezèvasyon an. San rezèvasyon, yo kreye yon vant."
+
+msgctxt "help:hotel.service.booking,resource:"
+msgid "Therapist, room or vehicle."
+msgstr "Terapis, sal oswa veyikil."
+
+msgctxt "model:hotel.restaurant.booking,name:"
+msgid "Restaurant Booking"
+msgstr "Rezèvasyon restoran"
+
+msgctxt "model:hotel.restaurant.table,name:"
+msgid "Restaurant Table"
+msgstr "Tab restoran"
+
+msgctxt "model:hotel.service,name:"
+msgid "Hotel Service"
+msgstr "Sèvis otèl"
+
+msgctxt "model:hotel.service.booking,name:"
+msgid "Service Booking"
+msgstr "Rezèvasyon sèvis"
+
+msgctxt "model:hotel.service.resource,name:"
+msgid "Service Resource"
+msgstr "Resous sèvis"
+
+msgctxt "model:ir.action,name:act_booking"
+msgid "Service Bookings"
+msgstr "Rezèvasyon sèvis yo"
+
+msgctxt "model:ir.action,name:act_resource"
+msgid "Service Resources"
+msgstr "Resous sèvis yo"
+
+msgctxt "model:ir.action,name:act_service"
+msgid "Services"
+msgstr "Sèvis yo"
+
+msgctxt "model:ir.action,name:act_table"
+msgid "Restaurant Tables"
+msgstr "Tab restoran"
+
+msgctxt "model:ir.action,name:act_table_booking"
+msgid "Restaurant Bookings"
+msgstr "Rezèvasyon restoran yo"
+
+msgctxt "model:ir.message,text:msg_booking_capacity"
+msgid ""
+"The booking \"%(booking)s\" exceeds the capacity (%(capacity)s) of the "
+"service \"%(service)s\" on this slot."
+msgstr ""
+"Rezèvasyon \"%(booking)s\" lan depase kapasite (%(capacity)s) sèvis "
+"\"%(service)s\" la nan kreno sa a."
+
+msgctxt "model:ir.message,text:msg_booking_delete_done"
+msgid "You cannot delete the completed booking \"%(booking)s\"."
+msgstr "Ou pa kapab efase rezèvasyon fini \"%(booking)s\" lan."
+
+msgctxt "model:ir.message,text:msg_booking_resource_busy"
+msgid ""
+"The resource \"%(resource)s\" is already booked for \"%(booking)s\" (see "
+"\"%(other)s\")."
+msgstr "Resous \"%(resource)s\" la deja rezève pou \"%(booking)s\" (gade \"%(other)s\")."
+
+msgctxt "model:ir.message,text:msg_resource_unique"
+msgid "A resource with this name already exists in the hotel."
+msgstr "Yon resous ak non sa a deja egziste nan otèl la."
+
+msgctxt "model:ir.message,text:msg_table_busy"
+msgid "The table \"%(table)s\" is already booked around %(time)s."
+msgstr "Tab \"%(table)s\" la deja rezève alantou %(time)s."
+
+msgctxt "model:ir.message,text:msg_table_seats"
+msgid "The table \"%(table)s\" has %(seats)s seats, not %(covers)s."
+msgstr "Tab \"%(table)s\" la gen %(seats)s plas, pa %(covers)s."
+
+msgctxt "model:ir.message,text:msg_table_unique"
+msgid "A table with this name already exists in the hotel."
+msgstr "Yon tab ak non sa a deja egziste nan otèl la."
+
+msgctxt "model:ir.model.button,string:booking_cancel_button"
+msgid "Cancel"
+msgstr "Anile"
+
+msgctxt "model:ir.model.button,string:booking_complete_button"
+msgid "Complete"
+msgstr "Konplete"
+
+msgctxt "model:ir.model.button,string:booking_confirm_button"
+msgid "Confirm"
+msgstr "Konfime"
+
+msgctxt "model:ir.model.button,string:booking_draft_button"
+msgid "Draft"
+msgstr "Bouyon"
+
+msgctxt "model:ir.model.button,string:table_booking_cancel_button"
+msgid "Cancel"
+msgstr "Anile"
+
+msgctxt "model:ir.model.button,string:table_booking_finish_button"
+msgid "Finish"
+msgstr "Fini"
+
+msgctxt "model:ir.model.button,string:table_booking_no_show_button"
+msgid "No-Show"
+msgstr "Pa vini"
+
+msgctxt "model:ir.model.button,string:table_booking_seat_button"
+msgid "Seat"
+msgstr "Enstale"
+
+msgctxt "model:ir.rule.group,name:rule_group_booking_companies"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.rule.group,name:rule_group_resource_companies"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.rule.group,name:rule_group_service_companies"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.rule.group,name:rule_group_table_booking_companies"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.rule.group,name:rule_group_table_companies"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.sequence,name:sequence_booking"
+msgid "Hotel Service Booking"
+msgstr "Rezèvasyon sèvis otèl"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_booking"
+msgid "Hotel Service Booking"
+msgstr "Rezèvasyon sèvis otèl"
+
+msgctxt "model:ir.ui.menu,name:menu_booking"
+msgid "Service Bookings"
+msgstr "Rezèvasyon sèvis yo"
+
+msgctxt "model:ir.ui.menu,name:menu_resource"
+msgid "Service Resources"
+msgstr "Resous sèvis yo"
+
+msgctxt "model:ir.ui.menu,name:menu_service"
+msgid "Services"
+msgstr "Sèvis yo"
+
+msgctxt "model:ir.ui.menu,name:menu_services"
+msgid "Services"
+msgstr "Sèvis yo"
+
+msgctxt "model:ir.ui.menu,name:menu_table"
+msgid "Restaurant Tables"
+msgstr "Tab restoran"
+
+msgctxt "model:ir.ui.menu,name:menu_table_booking"
+msgid "Restaurant Bookings"
+msgstr "Rezèvasyon restoran yo"
+
+msgctxt "selection:hotel.restaurant.booking,state:"
+msgid "Booked"
+msgstr "Rezève"
+
+msgctxt "selection:hotel.restaurant.booking,state:"
+msgid "Cancelled"
+msgstr "Anile"
+
+msgctxt "selection:hotel.restaurant.booking,state:"
+msgid "Done"
+msgstr "Fini"
+
+msgctxt "selection:hotel.restaurant.booking,state:"
+msgid "No-Show"
+msgstr "Pa vini"
+
+msgctxt "selection:hotel.restaurant.booking,state:"
+msgid "Seated"
+msgstr "Enstale"
+
+msgctxt "selection:hotel.service,category:"
+msgid "Activity"
+msgstr "Aktivite"
+
+msgctxt "selection:hotel.service,category:"
+msgid "Other"
+msgstr "Lòt"
+
+msgctxt "selection:hotel.service,category:"
+msgid "Spa & Wellness"
+msgstr "Spa ak byennèt"
+
+msgctxt "selection:hotel.service,category:"
+msgid "Transport"
+msgstr "Transpò"
+
+msgctxt "selection:hotel.service.booking,state:"
+msgid "Cancelled"
+msgstr "Anile"
+
+msgctxt "selection:hotel.service.booking,state:"
+msgid "Confirmed"
+msgstr "Konfime"
+
+msgctxt "selection:hotel.service.booking,state:"
+msgid "Done"
+msgstr "Fini"
+
+msgctxt "selection:hotel.service.booking,state:"
+msgid "Draft"
+msgstr "Bouyon"
+
+msgctxt "model:ir.action.act_window.domain,name:act_booking_domain_todo"
+msgid "To Do"
+msgstr "Pou fè"
+
+msgctxt "model:ir.action.act_window.domain,name:act_booking_domain_all"
+msgid "All"
+msgstr "Tout"
+
+msgctxt "model:ir.action.act_window.domain,name:act_table_booking_domain_todo"
+msgid "Upcoming"
+msgstr "Ki gen pou vini"
+
+msgctxt "model:ir.action.act_window.domain,name:act_table_booking_domain_all"
+msgid "All"
+msgstr "Tout"

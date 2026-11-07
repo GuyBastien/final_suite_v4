@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton fuel_station module. -->
+<tree>
+    <field name="station"/>
+    <field name="code"/>
+    <field name="product"/>
+    <field name="capacity"/>
+    <field name="quantity"/>
+    <field name="fill_ratio" widget="progressbar"/>
+    <field name="min_level"/>
+    <field name="low"/>
+</tree>

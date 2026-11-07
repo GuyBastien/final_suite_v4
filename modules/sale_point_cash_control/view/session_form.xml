@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton sale_point_cash_control module. -->
+<data>
+    <xpath expr="/form/field[@name='transfers']" position="after">
+        <notebook colspan="6">
+            <page string="Opening Count" id="opening">
+                <label name="opening_counted"/>
+                <field name="opening_counted"/>
+                <label name="opening_difference"/>
+                <field name="opening_difference"/>
+                <field name="opening_counts" colspan="4"
+                    view_ids="sale_point_cash_control.count_view_list"/>
+            </page>
+            <page string="Closing Count" id="closing">
+                <label name="expected_amount"/>
+                <field name="expected_amount"/>
+                <label name="closing_counted"/>
+                <field name="closing_counted"/>
+                <label name="closing_suspect"/>
+                <field name="closing_suspect"/>
+                <label name="closing_difference"/>
+                <field name="closing_difference"/>
+                <newline/>
+                <field name="closing_counts" colspan="4"
+                    view_ids="sale_point_cash_control.count_view_list"/>
+                <group id="count_buttons" col="-1" colspan="4">
+                    <button name="record_difference" icon="tryton-forward"/>
+                    <button name="use_count" icon="tryton-ok"/>
+                </group>
+            </page>
+        </notebook>
+        <field name="cash_control" invisible="1" colspan="6"/>
+    </xpath>
+</data>

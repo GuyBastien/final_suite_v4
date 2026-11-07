@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton fuel_station_sale_point module. -->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="station_view_form">
+            <field name="model">fuel.station</field>
+            <field name="inherit" ref="fuel_station.station_view_form"/>
+            <field name="name">station_form</field>
+        </record>
+        <record model="ir.ui.view" id="shift_view_form">
+            <field name="model">fuel.shift</field>
+            <field name="inherit" ref="fuel_station.shift_view_form"/>
+            <field name="name">shift_form</field>
+        </record>
+    </data>
+</tryton>

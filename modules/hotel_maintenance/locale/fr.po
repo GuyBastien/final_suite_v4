@@ -1,0 +1,603 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:hotel.hotel,laundry_location:"
+msgid "Laundry Location"
+msgstr "Emplacement de blanchisserie"
+
+msgctxt "field:hotel.laundry.batch,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:hotel.laundry.batch,date:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "field:hotel.laundry.batch,hotel:"
+msgid "Hotel"
+msgstr "Hôtel"
+
+msgctxt "field:hotel.laundry.batch,lines:"
+msgid "Lines"
+msgstr "Lignes"
+
+msgctxt "field:hotel.laundry.batch,notes:"
+msgid "Notes"
+msgstr "Notes"
+
+msgctxt "field:hotel.laundry.batch,number:"
+msgid "Number"
+msgstr "Numéro"
+
+msgctxt "field:hotel.laundry.batch,state:"
+msgid "State"
+msgstr "État"
+
+msgctxt "field:hotel.laundry.batch,supplier:"
+msgid "Laundry"
+msgstr "Blanchisserie"
+
+msgctxt "field:hotel.laundry.batch.line,batch:"
+msgid "Batch"
+msgstr "Lot"
+
+msgctxt "field:hotel.laundry.batch.line,lost:"
+msgid "Lost"
+msgstr "Perdu"
+
+msgctxt "field:hotel.laundry.batch.line,product:"
+msgid "Product"
+msgstr "Produit"
+
+msgctxt "field:hotel.laundry.batch.line,product_uom_category:"
+msgid "Product UoM Category"
+msgstr "Catégorie d'unité du produit"
+
+msgctxt "field:hotel.laundry.batch.line,qty_returned:"
+msgid "Returned"
+msgstr "Retourné"
+
+msgctxt "field:hotel.laundry.batch.line,qty_sent:"
+msgid "Sent"
+msgstr "Envoyé"
+
+msgctxt "field:hotel.laundry.batch.line,return_move:"
+msgid "Return Move"
+msgstr "Mouvement de retour"
+
+msgctxt "field:hotel.laundry.batch.line,send_move:"
+msgid "Sent Move"
+msgstr "Mouvement d'envoi"
+
+msgctxt "field:hotel.laundry.batch.line,unit:"
+msgid "Unit"
+msgstr "Unité"
+
+msgctxt "field:hotel.lost.item,claim_date:"
+msgid "Claim Date"
+msgstr "Date de réclamation"
+
+msgctxt "field:hotel.lost.item,claimed_by:"
+msgid "Claimed By"
+msgstr "Réclamé par"
+
+msgctxt "field:hotel.lost.item,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:hotel.lost.item,description:"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "field:hotel.lost.item,found_by:"
+msgid "Found By"
+msgstr "Trouvé par"
+
+msgctxt "field:hotel.lost.item,found_date:"
+msgid "Found On"
+msgstr "Trouvé le"
+
+msgctxt "field:hotel.lost.item,hotel:"
+msgid "Hotel"
+msgstr "Hôtel"
+
+msgctxt "field:hotel.lost.item,number:"
+msgid "Number"
+msgstr "Numéro"
+
+msgctxt "field:hotel.lost.item,room:"
+msgid "Room"
+msgstr "Chambre"
+
+msgctxt "field:hotel.lost.item,state:"
+msgid "State"
+msgstr "État"
+
+msgctxt "field:hotel.maintenance.order,assigned_to:"
+msgid "Assigned To"
+msgstr "Assignée à"
+
+msgctxt "field:hotel.maintenance.order,block_room:"
+msgid "Block Room"
+msgstr "Bloquer la chambre"
+
+msgctxt "field:hotel.maintenance.order,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:hotel.maintenance.order,cost:"
+msgid "Cost"
+msgstr "Coût"
+
+msgctxt "field:hotel.maintenance.order,currency_digits:"
+msgid "Currency Digits"
+msgstr "Décimales de la devise"
+
+msgctxt "field:hotel.maintenance.order,description:"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "field:hotel.maintenance.order,finished_at:"
+msgid "Finished At"
+msgstr "Terminée le"
+
+msgctxt "field:hotel.maintenance.order,hotel:"
+msgid "Hotel"
+msgstr "Hôtel"
+
+msgctxt "field:hotel.maintenance.order,location:"
+msgid "Location"
+msgstr "Emplacement"
+
+msgctxt "field:hotel.maintenance.order,number:"
+msgid "Number"
+msgstr "Numéro"
+
+msgctxt "field:hotel.maintenance.order,planned_date:"
+msgid "Planned Date"
+msgstr "Date prévue"
+
+msgctxt "field:hotel.maintenance.order,priority:"
+msgid "Priority"
+msgstr "Priorité"
+
+msgctxt "field:hotel.maintenance.order,requested_by:"
+msgid "Requested By"
+msgstr "Demandé par"
+
+msgctxt "field:hotel.maintenance.order,room:"
+msgid "Room"
+msgstr "Chambre"
+
+msgctxt "field:hotel.maintenance.order,schedule:"
+msgid "Schedule"
+msgstr "Planning"
+
+msgctxt "field:hotel.maintenance.order,started_at:"
+msgid "Started At"
+msgstr "Démarrée le"
+
+msgctxt "field:hotel.maintenance.order,state:"
+msgid "State"
+msgstr "État"
+
+msgctxt "field:hotel.maintenance.order,title:"
+msgid "Title"
+msgstr "Titre"
+
+msgctxt "field:hotel.maintenance.schedule,block_room:"
+msgid "Block Room"
+msgstr "Bloquer la chambre"
+
+msgctxt "field:hotel.maintenance.schedule,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:hotel.maintenance.schedule,description:"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "field:hotel.maintenance.schedule,every_days:"
+msgid "Every (days)"
+msgstr "Tous les (jours)"
+
+msgctxt "field:hotel.maintenance.schedule,hotel:"
+msgid "Hotel"
+msgstr "Hôtel"
+
+msgctxt "field:hotel.maintenance.schedule,next_date:"
+msgid "Next Date"
+msgstr "Prochaine date"
+
+msgctxt "field:hotel.maintenance.schedule,priority:"
+msgid "Priority"
+msgstr "Priorité"
+
+msgctxt "field:hotel.maintenance.schedule,room:"
+msgid "Room"
+msgstr "Chambre"
+
+msgctxt "field:hotel.maintenance.schedule,title:"
+msgid "Title"
+msgstr "Titre"
+
+msgctxt "help:hotel.hotel,laundry_location:"
+msgid "Where the linen sent to the laundry is stored meanwhile."
+msgstr "Lieu où est rangé le linge envoyé à la blanchisserie en attendant."
+
+msgctxt "help:hotel.laundry.batch.line,qty_returned:"
+msgid "Empty means everything comes back."
+msgstr "Vide signifie que tout est restitué."
+
+msgctxt "help:hotel.maintenance.order,block_room:"
+msgid "Take the room out of service while the work is in progress."
+msgstr "Met la chambre hors service pendant les travaux."
+
+msgctxt "help:hotel.maintenance.order,location:"
+msgid "Place of the work when it is not a room."
+msgstr "Lieu des travaux lorsque ce n'est pas une chambre."
+
+msgctxt "model:hotel.laundry.batch,name:"
+msgid "Laundry Batch"
+msgstr "Lot de blanchisserie"
+
+msgctxt "model:hotel.laundry.batch.line,name:"
+msgid "Laundry Batch Line"
+msgstr "Ligne de lot de blanchisserie"
+
+msgctxt "model:hotel.lost.item,name:"
+msgid "Lost and Found Item"
+msgstr "Objet trouvé"
+
+msgctxt "model:hotel.maintenance.order,name:"
+msgid "Hotel Maintenance Work Order"
+msgstr "Ordre de travail de maintenance de l'hôtel"
+
+msgctxt "model:hotel.maintenance.schedule,name:"
+msgid "Preventive Maintenance Schedule"
+msgstr "Planning de maintenance préventive"
+
+msgctxt "model:ir.action,name:act_laundry"
+msgid "Laundry"
+msgstr "Blanchisserie"
+
+msgctxt "model:ir.action,name:act_laundry_line"
+msgid "Laundry Lines"
+msgstr "Lignes de blanchisserie"
+
+msgctxt "model:ir.action,name:act_lost"
+msgid "Lost and Found"
+msgstr "Objets trouvés"
+
+msgctxt "model:ir.action,name:act_order"
+msgid "Work Orders"
+msgstr "Ordres de travail"
+
+msgctxt "model:ir.action,name:act_schedule"
+msgid "Preventive Schedules"
+msgstr "Plannings préventifs"
+
+msgctxt "model:ir.action.act_window.domain,name:act_laundry_domain1"
+msgid "At the Laundry"
+msgstr "À la blanchisserie"
+
+msgctxt "model:ir.action.act_window.domain,name:act_laundry_domain_all"
+msgid "All"
+msgstr "Toutes"
+
+msgctxt "model:ir.action.act_window.domain,name:act_laundry_line_domain_all"
+msgid "All"
+msgstr "Toutes"
+
+msgctxt "model:ir.action.act_window.domain,name:act_lost_domain1"
+msgid "Stored"
+msgstr "Rangé"
+
+msgctxt "model:ir.action.act_window.domain,name:act_lost_domain_all"
+msgid "All"
+msgstr "Toutes"
+
+msgctxt "model:ir.action.act_window.domain,name:act_order_domain1"
+msgid "To Do"
+msgstr "À faire"
+
+msgctxt "model:ir.action.act_window.domain,name:act_order_domain2"
+msgid "Urgent"
+msgstr "Urgente"
+
+msgctxt "model:ir.action.act_window.domain,name:act_order_domain_all"
+msgid "All"
+msgstr "Toutes"
+
+msgctxt "model:ir.action.act_window.domain,name:act_schedule_domain_all"
+msgid "All"
+msgstr "Toutes"
+
+msgctxt "model:ir.message,text:msg_laundry_delete_state"
+msgid "You cannot delete the laundry batch \"%(batch)s\" because it is sent."
+msgstr ""
+"Vous ne pouvez pas supprimer le lot de blanchisserie « %(batch)s » car il "
+"est envoyé."
+
+msgctxt "model:ir.message,text:msg_laundry_no_lines"
+msgid "The laundry batch \"%(batch)s\" has no lines."
+msgstr "Le lot de blanchisserie « %(batch)s » n'a aucune ligne."
+
+msgctxt "model:ir.message,text:msg_laundry_no_location"
+msgid "Set the laundry location of the hotel \"%(hotel)s\" first."
+msgstr ""
+"Renseignez d'abord l'emplacement de blanchisserie de l'hôtel « %(hotel)s »."
+
+msgctxt "model:ir.message,text:msg_laundry_returned_more"
+msgid ""
+"The returned quantity of \"%(product)s\" in the laundry batch \"%(batch)s\" "
+"must be between 0 and the sent quantity."
+msgstr ""
+"La quantité retournée de « %(product)s » dans le lot de blanchisserie « "
+"%(batch)s » doit être comprise entre 0 et la quantité envoyée."
+
+msgctxt "model:ir.message,text:msg_lost_no_claimant"
+msgid "Select who claims the item \"%(item)s\" first."
+msgstr "Indiquez d'abord qui réclame l'objet « %(item)s »."
+
+msgctxt "model:ir.message,text:msg_order_delete_state"
+msgid ""
+"You cannot delete the work order \"%(order)s\" because it is started or "
+"done."
+msgstr ""
+"Vous ne pouvez pas supprimer l'ordre de travail « %(order)s » car il est "
+"commencé ou terminé."
+
+msgctxt "model:ir.message,text:msg_order_no_assignee"
+msgid "Select who is in charge of the work order \"%(order)s\" first."
+msgstr ""
+"Indiquez d'abord qui est responsable de l'ordre de travail « %(order)s »."
+
+msgctxt "model:ir.message,text:msg_order_room_hotel"
+msgid ""
+"The room \"%(room)s\" of the work order \"%(order)s\" does not belong to its"
+" hotel."
+msgstr ""
+"La chambre « %(room)s » de l'ordre de travail « %(order)s » n'appartient pas"
+" à son hôtel."
+
+msgctxt "model:ir.message,text:msg_order_room_occupied"
+msgid ""
+"The room \"%(room)s\" is occupied: the work order \"%(order)s\" cannot block"
+" it."
+msgstr ""
+"La chambre « %(room)s » est occupée : l'ordre de travail « %(order)s » ne "
+"peut pas la bloquer."
+
+msgctxt "model:ir.model.button,string:laundry_receive_button"
+msgid "Receive"
+msgstr "Recevoir"
+
+msgctxt "model:ir.model.button,string:laundry_send_button"
+msgid "Send"
+msgstr "Envoyer"
+
+msgctxt "model:ir.model.button,string:lost_claim_button"
+msgid "Claim"
+msgstr "Réclamer"
+
+msgctxt "model:ir.model.button,string:lost_dispose_button"
+msgid "Dispose"
+msgstr "Mettre au rebut"
+
+msgctxt "model:ir.model.button,string:order_assign_button"
+msgid "Assign"
+msgstr "Attribuer"
+
+msgctxt "model:ir.model.button,string:order_cancel_button"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "model:ir.model.button,string:order_finish_button"
+msgid "Finish"
+msgstr "Terminer"
+
+msgctxt "model:ir.model.button,string:order_reopen_button"
+msgid "Reopen"
+msgstr "Rouvrir"
+
+msgctxt "model:ir.model.button,string:order_start_button"
+msgid "Start"
+msgstr "Début"
+
+msgctxt "model:ir.rule.group,name:rule_group_laundry_companies"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_lost_companies"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_order_companies"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_schedule_companies"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.sequence,name:sequence_laundry"
+msgid "Hotel Laundry Batch"
+msgstr "Lot de blanchisserie de l'hôtel"
+
+msgctxt "model:ir.sequence,name:sequence_lost_item"
+msgid "Hotel Lost Item"
+msgstr "Objet trouvé de l'hôtel"
+
+msgctxt "model:ir.sequence,name:sequence_order"
+msgid "Hotel Maintenance Order"
+msgstr "Ordre de maintenance de l'hôtel"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_laundry"
+msgid "Hotel Laundry Batch"
+msgstr "Lot de blanchisserie de l'hôtel"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_lost_item"
+msgid "Hotel Lost Item"
+msgstr "Objet trouvé de l'hôtel"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_order"
+msgid "Hotel Maintenance Order"
+msgstr "Ordre de maintenance de l'hôtel"
+
+msgctxt "model:ir.ui.menu,name:menu_laundry"
+msgid "Laundry"
+msgstr "Blanchisserie"
+
+msgctxt "model:ir.ui.menu,name:menu_lost"
+msgid "Lost and Found"
+msgstr "Objets trouvés"
+
+msgctxt "model:ir.ui.menu,name:menu_maintenance"
+msgid "Maintenance"
+msgstr "Maintenance"
+
+msgctxt "model:ir.ui.menu,name:menu_order"
+msgid "Work Orders"
+msgstr "Ordres de travail"
+
+msgctxt "model:ir.ui.menu,name:menu_schedule"
+msgid "Preventive Schedules"
+msgstr "Plannings préventifs"
+
+msgctxt "selection:hotel.laundry.batch,state:"
+msgid "Draft"
+msgstr "Brouillon"
+
+msgctxt "selection:hotel.laundry.batch,state:"
+msgid "Received"
+msgstr "Reçu"
+
+msgctxt "selection:hotel.laundry.batch,state:"
+msgid "Sent"
+msgstr "Envoyé"
+
+msgctxt "selection:hotel.lost.item,state:"
+msgid "Claimed"
+msgstr "Réclamé"
+
+msgctxt "selection:hotel.lost.item,state:"
+msgid "Disposed"
+msgstr "Mis au rebut"
+
+msgctxt "selection:hotel.lost.item,state:"
+msgid "Stored"
+msgstr "Rangé"
+
+msgctxt "selection:hotel.maintenance.order,priority:"
+msgid "High"
+msgstr "Haute"
+
+msgctxt "selection:hotel.maintenance.order,priority:"
+msgid "Low"
+msgstr "Basse"
+
+msgctxt "selection:hotel.maintenance.order,priority:"
+msgid "Normal"
+msgstr "Normale"
+
+msgctxt "selection:hotel.maintenance.order,priority:"
+msgid "Urgent"
+msgstr "Urgente"
+
+msgctxt "selection:hotel.maintenance.order,state:"
+msgid "Assigned"
+msgstr "Attribué"
+
+msgctxt "selection:hotel.maintenance.order,state:"
+msgid "Cancelled"
+msgstr "Annulée"
+
+msgctxt "selection:hotel.maintenance.order,state:"
+msgid "Done"
+msgstr "Terminé"
+
+msgctxt "selection:hotel.maintenance.order,state:"
+msgid "In Progress"
+msgstr "En cours"
+
+msgctxt "selection:hotel.maintenance.order,state:"
+msgid "Open"
+msgstr "Ouverte"
+
+msgctxt "selection:hotel.maintenance.schedule,priority:"
+msgid "High"
+msgstr "Haute"
+
+msgctxt "selection:hotel.maintenance.schedule,priority:"
+msgid "Low"
+msgstr "Basse"
+
+msgctxt "selection:hotel.maintenance.schedule,priority:"
+msgid "Normal"
+msgstr "Normale"
+
+msgctxt "selection:hotel.maintenance.schedule,priority:"
+msgid "Urgent"
+msgstr "Urgente"
+
+msgctxt "selection:ir.cron,method:"
+msgid "Generate Preventive Maintenance Orders"
+msgstr "Générer les ordres de maintenance préventive"
+
+msgctxt "view:hotel.laundry.batch:"
+msgid "Lines"
+msgstr "Lignes"
+
+msgctxt "view:hotel.laundry.batch:"
+msgid "Notes"
+msgstr "Notes"
+
+msgctxt "view:hotel.laundry.batch:"
+msgid "Receive"
+msgstr "Recevoir"
+
+msgctxt "view:hotel.laundry.batch:"
+msgid "Send"
+msgstr "Envoyer"
+
+msgctxt "view:hotel.lost.item:"
+msgid "Claim"
+msgstr "Réclamer"
+
+msgctxt "view:hotel.lost.item:"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "view:hotel.lost.item:"
+msgid "Dispose"
+msgstr "Mettre au rebut"
+
+msgctxt "view:hotel.maintenance.order:"
+msgid "Assign"
+msgstr "Attribuer"
+
+msgctxt "view:hotel.maintenance.order:"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "view:hotel.maintenance.order:"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "view:hotel.maintenance.order:"
+msgid "Finish"
+msgstr "Terminer"
+
+msgctxt "view:hotel.maintenance.order:"
+msgid "Reopen"
+msgstr "Rouvrir"
+
+msgctxt "view:hotel.maintenance.order:"
+msgid "Start"
+msgstr "Début"
+
+msgctxt "view:hotel.maintenance.schedule:"
+msgid "Description"
+msgstr "Description"

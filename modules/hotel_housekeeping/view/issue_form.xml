@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_housekeeping module. -->
+<form>
+    <label name="room"/>
+    <field name="room"/>
+    <label name="task"/>
+    <field name="task"/>
+    <label name="severity"/>
+    <field name="severity"/>
+    <label name="state"/>
+    <field name="state"/>
+    <label name="description"/>
+    <field name="description" colspan="3"/>
+    <label name="reported_by"/>
+    <field name="reported_by"/>
+    <label name="reported_at"/>
+    <field name="reported_at"/>
+    <field name="resolution" colspan="4"/>
+    <group col="2" colspan="4" id="buttons">
+        <button name="resolve" icon="tryton-ok"/>
+        <button name="reopen" icon="tryton-undo"/>
+    </group>
+</form>

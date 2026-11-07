@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_booking_engine module. -->
+<data>
+    <xpath expr="/form/field[@name='check_out_time']" position="after">
+        <label name="booking_engine_enabled"/>
+        <field name="booking_engine_enabled"/>
+        <label name="booking_url"/>
+        <field name="booking_url"/>
+        <label name="booking_auto_confirm"/>
+        <field name="booking_auto_confirm"/>
+        <label name="booking_deposit_rate"/>
+        <field name="booking_deposit_rate"/>
+        <label name="booking_max_nights"/>
+        <field name="booking_max_nights"/>
+        <label name="booking_max_rooms"/>
+        <field name="booking_max_rooms"/>
+        <label name="booking_lead_hours"/>
+        <field name="booking_lead_hours"/>
+        <button name="new_booking_token" icon="tryton-refresh"/>
+    </xpath>
+</data>

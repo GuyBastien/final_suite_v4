@@ -1,0 +1,418 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:hotel.event,attendees:"
+msgid "Attendees"
+msgstr "Participants"
+
+msgctxt "field:hotel.event,charge:"
+msgid "Charge"
+msgstr "Frais"
+
+msgctxt "field:hotel.event,date:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "field:hotel.event,end:"
+msgid "End"
+msgstr "Fin"
+
+msgctxt "field:hotel.event,group:"
+msgid "Group"
+msgstr "Groupe"
+
+msgctxt "field:hotel.event,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:hotel.event,notes:"
+msgid "Notes"
+msgstr "Notes"
+
+msgctxt "field:hotel.event,reservation:"
+msgid "Billed On"
+msgstr "Facturé le"
+
+msgctxt "field:hotel.event,space:"
+msgid "Space"
+msgstr "Espace"
+
+msgctxt "field:hotel.event,start:"
+msgid "Start"
+msgstr "Début"
+
+msgctxt "field:hotel.event,state:"
+msgid "State"
+msgstr "État"
+
+msgctxt "field:hotel.event.space,capacity:"
+msgid "Capacity"
+msgstr "Capacité"
+
+msgctxt "field:hotel.event.space,hotel:"
+msgid "Hotel"
+msgstr "Hôtel"
+
+msgctxt "field:hotel.event.space,hourly_price:"
+msgid "Hourly Price"
+msgstr "Prix horaire"
+
+msgctxt "field:hotel.event.space,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:hotel.event.space,product:"
+msgid "Hourly Product"
+msgstr "Produit horaire"
+
+msgctxt "field:hotel.group,blocks:"
+msgid "Room Blocks"
+msgstr "Blocs de chambres"
+
+msgctxt "field:hotel.group,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:hotel.group,cutoff_date:"
+msgid "Cut-off Date"
+msgstr "Date limite"
+
+msgctxt "field:hotel.group,end_date:"
+msgid "Departure"
+msgstr "Départ"
+
+msgctxt "field:hotel.group,events:"
+msgid "Events"
+msgstr "Événements"
+
+msgctxt "field:hotel.group,hotel:"
+msgid "Hotel"
+msgstr "Hôtel"
+
+msgctxt "field:hotel.group,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:hotel.group,notes:"
+msgid "Notes"
+msgstr "Notes"
+
+msgctxt "field:hotel.group,number:"
+msgid "Number"
+msgstr "Numéro"
+
+msgctxt "field:hotel.group,party:"
+msgid "Organizer"
+msgstr "Organisateur"
+
+msgctxt "field:hotel.group,reservations:"
+msgid "Reservations"
+msgstr "Réservations"
+
+msgctxt "field:hotel.group,start_date:"
+msgid "Arrival"
+msgstr "Arrivée"
+
+msgctxt "field:hotel.group,state:"
+msgid "State"
+msgstr "État"
+
+msgctxt "field:hotel.group.block,group:"
+msgid "Group"
+msgstr "Groupe"
+
+msgctxt "field:hotel.group.block,hotel:"
+msgid "Hotel"
+msgstr "Hôtel"
+
+msgctxt "field:hotel.group.block,nightly_price:"
+msgid "Nightly Price"
+msgstr "Prix par nuit"
+
+msgctxt "field:hotel.group.block,pickup:"
+msgid "Picked Up"
+msgstr "Utilisé"
+
+msgctxt "field:hotel.group.block,quantity:"
+msgid "Rooms"
+msgstr "Chambres"
+
+msgctxt "field:hotel.group.block,remaining:"
+msgid "Remaining"
+msgstr "Restant"
+
+msgctxt "field:hotel.group.block,room_type:"
+msgid "Room Type"
+msgstr "Type de chambre"
+
+msgctxt "field:hotel.reservation,group:"
+msgid "Group"
+msgstr "Groupe"
+
+msgctxt "field:hotel.reservation.line,guest:"
+msgid "Guest"
+msgstr "Client"
+
+msgctxt "help:hotel.event,reservation:"
+msgid "The reservation of the group on which the space is charged."
+msgstr "La réservation du groupe sur laquelle l'espace est facturé."
+
+msgctxt "help:hotel.event.space,product:"
+msgid "The service product invoiced for each hour of use."
+msgstr "Le produit de service facturé pour chaque heure d'utilisation."
+
+msgctxt "help:hotel.group,cutoff_date:"
+msgid ""
+"After this date the blocked rooms that were not picked up can be released."
+msgstr ""
+"Après cette date, les chambres bloquées non utilisées peuvent être libérées."
+
+msgctxt "help:hotel.group,party:"
+msgid "The party invoiced and used as guest of the generated reservations."
+msgstr "Le tiers facturé, utilisé comme client des réservations générées."
+
+msgctxt "help:hotel.group.block,nightly_price:"
+msgid ""
+"Negotiated price of a night. Empty uses the hotel rates when the reservation"
+" is confirmed."
+msgstr ""
+"Prix négocié d'une nuit. Vide : les tarifs de l'hôtel sont utilisés à la "
+"confirmation de la réservation."
+
+msgctxt "model:hotel.event,name:"
+msgid "Hotel Event"
+msgstr "Événement de l'hôtel"
+
+msgctxt "model:hotel.event.space,name:"
+msgid "Hotel Event Space"
+msgstr "Espace événementiel de l'hôtel"
+
+msgctxt "model:hotel.group,name:"
+msgid "Hotel Group"
+msgstr "Groupe de l'hôtel"
+
+msgctxt "model:hotel.group.block,name:"
+msgid "Hotel Group Room Block"
+msgstr "Bloc de chambres d'un groupe"
+
+msgctxt "model:ir.action,name:act_block"
+msgid "Room Blocks"
+msgstr "Blocs de chambres"
+
+msgctxt "model:ir.action,name:act_event"
+msgid "Events"
+msgstr "Événements"
+
+msgctxt "model:ir.action,name:act_group"
+msgid "Groups"
+msgstr "Groupes"
+
+msgctxt "model:ir.action,name:act_rooming"
+msgid "Rooming List"
+msgstr "Liste d'hébergement"
+
+msgctxt "model:ir.action,name:act_space"
+msgid "Event Spaces"
+msgstr "Espaces événementiels"
+
+msgctxt "model:ir.action.act_window.domain,name:act_event_domain1"
+msgid "Upcoming"
+msgstr "À venir"
+
+msgctxt "model:ir.action.act_window.domain,name:act_event_domain2"
+msgid "All"
+msgstr "Toutes"
+
+msgctxt "model:ir.action.act_window.domain,name:act_group_domain1"
+msgid "Open"
+msgstr "Ouverte"
+
+msgctxt "model:ir.action.act_window.domain,name:act_group_domain2"
+msgid "All"
+msgstr "Toutes"
+
+msgctxt "model:ir.message,text:msg_block_too_many"
+msgid ""
+"You cannot block %(quantity)s rooms of the type \"%(room_type)s\": the hotel"
+" has only %(rooms)s."
+msgstr ""
+"Vous ne pouvez pas bloquer %(quantity)s chambres du type « %(room_type)s » :"
+" l'hôtel n'en a que %(rooms)s."
+
+msgctxt "model:ir.message,text:msg_block_unique"
+msgid "A group can have only one block per room type."
+msgstr "Un groupe ne peut avoir qu'un seul bloc par type de chambre."
+
+msgctxt "model:ir.message,text:msg_event_capacity"
+msgid ""
+"The attendees of the event \"%(event)s\" exceed the capacity (%(capacity)s) "
+"of the space \"%(space)s\"."
+msgstr ""
+"Les participants de l'événement « %(event)s » dépassent la capacité "
+"(%(capacity)s) de l'espace « %(space)s »."
+
+msgctxt "model:ir.message,text:msg_event_no_price"
+msgid ""
+"Set the hourly product and price of the space \"%(space)s\" to bill events."
+msgstr ""
+"Renseignez le produit et le prix horaires de l'espace « %(space)s » pour "
+"facturer les événements."
+
+msgctxt "model:ir.message,text:msg_event_no_reservation"
+msgid "Choose the reservation on which the event \"%(event)s\" is billed."
+msgstr ""
+"Choisissez la réservation sur laquelle l'événement « %(event)s » est "
+"facturé."
+
+msgctxt "model:ir.message,text:msg_event_overlap"
+msgid ""
+"The event \"%(event)s\" overlaps the event \"%(other)s\" in the space "
+"\"%(space)s\"."
+msgstr ""
+"L'événement « %(event)s » chevauche l'événement « %(other)s » dans l'espace "
+"« %(space)s »."
+
+msgctxt "model:ir.message,text:msg_group_cutoff"
+msgid ""
+"The cut-off date of the group \"%(group)s\" must not be after its arrival "
+"date."
+msgstr ""
+"La date limite du groupe « %(group)s » ne doit pas être postérieure à sa "
+"date d'arrivée."
+
+msgctxt "model:ir.message,text:msg_group_cutoff_not_passed"
+msgid "The cut-off date of the group \"%(group)s\" is not set or not yet passed."
+msgstr ""
+"La date limite du groupe « %(group)s » n'est pas définie ou n'est pas encore"
+" passée."
+
+msgctxt "model:ir.message,text:msg_group_delete_reservations"
+msgid "You cannot delete the group \"%(group)s\" because it has reservations."
+msgstr ""
+"Vous ne pouvez pas supprimer le groupe « %(group)s » car il a des "
+"réservations."
+
+msgctxt "model:ir.message,text:msg_group_no_blocks"
+msgid "Add at least one room block to the group \"%(group)s\"."
+msgstr "Ajoutez au moins un bloc de chambres au groupe « %(group)s »."
+
+msgctxt "model:ir.message,text:msg_space_unique"
+msgid "The event space name must be unique in a hotel."
+msgstr "Le nom de l'espace événementiel doit être unique dans un hôtel."
+
+msgctxt "model:ir.model.button,string:event_bill_button"
+msgid "Bill"
+msgstr "Facturer"
+
+msgctxt "model:ir.model.button,string:event_cancel_button"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "model:ir.model.button,string:event_confirm_button"
+msgid "Confirm"
+msgstr "Confirmer"
+
+msgctxt "model:ir.model.button,string:event_draft_button"
+msgid "Draft"
+msgstr "Brouillon"
+
+msgctxt "model:ir.model.button,string:group_cancel_button"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "model:ir.model.button,string:group_definite_button"
+msgid "Definite"
+msgstr "Définitif"
+
+msgctxt "model:ir.model.button,string:group_draft_button"
+msgid "Draft"
+msgstr "Brouillon"
+
+msgctxt "model:ir.model.button,string:group_generate_reservations_button"
+msgid "Generate Reservations"
+msgstr "Générer les réservations"
+
+msgctxt "model:ir.model.button,string:group_release_button"
+msgid "Release Unused Rooms"
+msgstr "Libérer les chambres non utilisées"
+
+msgctxt "model:ir.rule.group,name:rule_group_block_companies"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_event_companies"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_group_companies"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_space_companies"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.sequence,name:sequence_group"
+msgid "Hotel Group"
+msgstr "Groupe de l'hôtel"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_group"
+msgid "Hotel Group"
+msgstr "Groupe de l'hôtel"
+
+msgctxt "model:ir.ui.menu,name:menu_event"
+msgid "Events"
+msgstr "Événements"
+
+msgctxt "model:ir.ui.menu,name:menu_group"
+msgid "Groups"
+msgstr "Groupes"
+
+msgctxt "model:ir.ui.menu,name:menu_groups"
+msgid "Groups & Events"
+msgstr "Groupes et événements"
+
+msgctxt "model:ir.ui.menu,name:menu_space"
+msgid "Event Spaces"
+msgstr "Espaces événementiels"
+
+msgctxt "selection:hotel.event,state:"
+msgid "Cancelled"
+msgstr "Annulée"
+
+msgctxt "selection:hotel.event,state:"
+msgid "Confirmed"
+msgstr "Confirmée"
+
+msgctxt "selection:hotel.event,state:"
+msgid "Draft"
+msgstr "Brouillon"
+
+msgctxt "selection:hotel.group,state:"
+msgid "Cancelled"
+msgstr "Annulée"
+
+msgctxt "selection:hotel.group,state:"
+msgid "Definite"
+msgstr "Définitif"
+
+msgctxt "selection:hotel.group,state:"
+msgid "Draft"
+msgstr "Brouillon"
+
+msgctxt "view:hotel.group:"
+msgid "Events"
+msgstr "Événements"
+
+msgctxt "view:hotel.group:"
+msgid "Notes"
+msgstr "Notes"
+
+msgctxt "view:hotel.group:"
+msgid "Reservations"
+msgstr "Réservations"
+
+msgctxt "view:hotel.group:"
+msgid "Room Blocks"
+msgstr "Blocs de chambres"

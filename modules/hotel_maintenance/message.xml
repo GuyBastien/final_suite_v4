@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_maintenance module. -->
+<tryton>
+    <data grouped="1">
+        <record model="ir.message" id="msg_order_delete_state">
+            <field name="text">You cannot delete the work order "%(order)s" because it is started or done.</field>
+        </record>
+        <record model="ir.message" id="msg_order_room_hotel">
+            <field name="text">The room "%(room)s" of the work order "%(order)s" does not belong to its hotel.</field>
+        </record>
+        <record model="ir.message" id="msg_order_no_assignee">
+            <field name="text">Select who is in charge of the work order "%(order)s" first.</field>
+        </record>
+        <record model="ir.message" id="msg_order_room_occupied">
+            <field name="text">The room "%(room)s" is occupied: the work order "%(order)s" cannot block it.</field>
+        </record>
+        <record model="ir.message" id="msg_lost_no_claimant">
+            <field name="text">Select who claims the item "%(item)s" first.</field>
+        </record>
+        <record model="ir.message" id="msg_laundry_delete_state">
+            <field name="text">You cannot delete the laundry batch "%(batch)s" because it is sent.</field>
+        </record>
+        <record model="ir.message" id="msg_laundry_no_lines">
+            <field name="text">The laundry batch "%(batch)s" has no lines.</field>
+        </record>
+        <record model="ir.message" id="msg_laundry_no_location">
+            <field name="text">Set the laundry location of the hotel "%(hotel)s" first.</field>
+        </record>
+        <record model="ir.message" id="msg_laundry_returned_more">
+            <field name="text">The returned quantity of "%(product)s" in the laundry batch "%(batch)s" must be between 0 and the sent quantity.</field>
+        </record>
+    </data>
+</tryton>

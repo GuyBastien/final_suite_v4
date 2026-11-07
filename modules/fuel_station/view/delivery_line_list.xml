@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton fuel_station module. -->
+<tree editable="1">
+    <field name="tank"/>
+    <field name="product"/>
+    <field name="ordered_quantity"/>
+    <field name="quantity" sum="1"/>
+    <field name="temperature"/>
+    <field name="density"/>
+    <field name="net_quantity"/>
+    <field name="unit_cost"/>
+</tree>

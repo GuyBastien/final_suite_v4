@@ -1,0 +1,2 @@
+trytond<7.1,>=7.0
+mobile_payment-tryton

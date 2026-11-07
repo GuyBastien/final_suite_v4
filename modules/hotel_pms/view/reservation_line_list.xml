@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_pms module. -->
+<tree editable="1">
+    <field name="reservation" tree_invisible="1"/>
+    <field name="room_type"/>
+    <field name="room"/>
+    <field name="pricing"/>
+    <field name="billed_as"/>
+    <field name="quantity"/>
+    <field name="unit_price"/>
+    <field name="discount_rate"/>
+    <field name="amount"/>
+</tree>

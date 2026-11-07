@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_groups module. -->
+<tryton>
+    <data grouped="1">
+        <record model="ir.message" id="msg_group_cutoff">
+            <field name="text">The cut-off date of the group "%(group)s" must not be after its arrival date.</field>
+        </record>
+        <record model="ir.message" id="msg_group_delete_reservations">
+            <field name="text">You cannot delete the group "%(group)s" because it has reservations.</field>
+        </record>
+        <record model="ir.message" id="msg_group_no_blocks">
+            <field name="text">Add at least one room block to the group "%(group)s".</field>
+        </record>
+        <record model="ir.message" id="msg_group_cutoff_not_passed">
+            <field name="text">The cut-off date of the group "%(group)s" is not set or not yet passed.</field>
+        </record>
+        <record model="ir.message" id="msg_block_unique">
+            <field name="text">A group can have only one block per room type.</field>
+        </record>
+        <record model="ir.message" id="msg_block_too_many">
+            <field name="text">You cannot block %(quantity)s rooms of the type "%(room_type)s": the hotel has only %(rooms)s.</field>
+        </record>
+        <record model="ir.message" id="msg_space_unique">
+            <field name="text">The event space name must be unique in a hotel.</field>
+        </record>
+        <record model="ir.message" id="msg_event_capacity">
+            <field name="text">The attendees of the event "%(event)s" exceed the capacity (%(capacity)s) of the space "%(space)s".</field>
+        </record>
+        <record model="ir.message" id="msg_event_overlap">
+            <field name="text">The event "%(event)s" overlaps the event "%(other)s" in the space "%(space)s".</field>
+        </record>
+        <record model="ir.message" id="msg_event_no_reservation">
+            <field name="text">Choose the reservation on which the event "%(event)s" is billed.</field>
+        </record>
+        <record model="ir.message" id="msg_event_no_price">
+            <field name="text">Set the hourly product and price of the space "%(space)s" to bill events.</field>
+        </record>
+    </data>
+</tryton>

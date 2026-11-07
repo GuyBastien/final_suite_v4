@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton sale_point_cash_control module. -->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="denomination_view_form">
+            <field name="model">sale.point.denomination</field>
+            <field name="type">form</field>
+            <field name="name">denomination_form</field>
+        </record>
+        <record model="ir.ui.view" id="denomination_view_list">
+            <field name="model">sale.point.denomination</field>
+            <field name="type">tree</field>
+            <field name="name">denomination_list</field>
+        </record>
+        <record model="ir.ui.view" id="count_view_form">
+            <field name="model">sale.point.cash.count</field>
+            <field name="type">form</field>
+            <field name="name">count_form</field>
+        </record>
+        <record model="ir.ui.view" id="count_view_list">
+            <field name="model">sale.point.cash.count</field>
+            <field name="type">tree</field>
+            <field name="name">count_list</field>
+        </record>
+        <record model="ir.ui.view" id="point_view_form">
+            <field name="model">sale.point</field>
+            <field name="inherit" ref="sale_point.point_view_form"/>
+            <field name="name">point_form</field>
+        </record>
+        <record model="ir.ui.view" id="session_view_form">
+            <field name="model">sale.point.cash.session</field>
+            <field name="inherit" ref="sale_point.cash_session_view_form"/>
+            <field name="name">session_form</field>
+        </record>
+        <record model="ir.ui.view" id="session_view_list">
+            <field name="model">sale.point.cash.session</field>
+            <field name="inherit" ref="sale_point.cash_session_view_list"/>
+            <field name="name">session_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_denomination">
+            <field name="name">Banknotes and Coins</field>
+            <field name="res_model">sale.point.denomination</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_denomination_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="denomination_view_list"/>
+            <field name="act_window" ref="act_denomination"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_denomination_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="denomination_view_form"/>
+            <field name="act_window" ref="act_denomination"/>
+        </record>
+        <menuitem parent="sale.menu_sale" action="act_denomination" sequence="25" id="menu_denomination"/>
+        <record model="ir.model.access" id="access_denomination">
+            <field name="model" search="[('model', '=', 'sale.point.denomination')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_denomination_group_sale_point">
+            <field name="model" search="[('model', '=', 'sale.point.denomination')]"/>
+            <field name="group" ref="sale_point.group_sale_point"/>
+            <field name="perm_read" eval="1"/>
+            <field name="perm_write" eval="0"/>
+            <field name="perm_create" eval="0"/>
+            <field name="perm_delete" eval="0"/>
+        </record>
+        <record model="ir.model.access" id="access_denomination_group_sale_point_posting">
+            <field name="model" search="[('model', '=', 'sale.point.denomination')]"/>
+            <field name="group" ref="sale_point.group_sale_point_posting"/>
+            <field name="perm_read" eval="1"/>
+            <field name="perm_write" eval="1"/>
+            <field name="perm_create" eval="1"/>
+            <field name="perm_delete" eval="1"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_denomination">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'sale.point.denomination')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_denomination">
+            <field name="domain" eval="[('company', 'in', Eval('companies', []))]" pyson="1"/>
+            <field name="rule_group" ref="rule_group_denomination"/>
+        </record>
+        <record model="ir.model.access" id="access_count">
+            <field name="model" search="[('model', '=', 'sale.point.cash.count')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_count_group_sale_point">
+            <field name="model" search="[('model', '=', 'sale.point.cash.count')]"/>
+            <field name="group" ref="sale_point.group_sale_point"/>
+            <field name="perm_read" eval="1"/>
+            <field name="perm_write" eval="1"/>
+            <field name="perm_create" eval="1"/>
+            <field name="perm_delete" eval="1"/>
+        </record>
+        <record model="ir.model.button" id="session_use_count_button">
+            <field name="model" search="[('model', '=', 'sale.point.cash.session')]"/>
+            <field name="name">use_count</field>
+            <field name="string">Use Count</field>
+        </record>
+        <record model="ir.model.button" id="session_record_difference_button">
+            <field name="model" search="[('model', '=', 'sale.point.cash.session')]"/>
+            <field name="name">record_difference</field>
+            <field name="string">Record Difference</field>
+        </record>
+    </data>
+</tryton>

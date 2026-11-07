@@ -1,0 +1,29 @@
+#
+msgid ""
+msgstr ""
+"Language: ht\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:fuel.shift,invoices:"
+msgid "Invoices"
+msgstr "Fakti yo"
+
+msgctxt "help:fuel.shift,invoices:"
+msgid "Invoices generated from this record."
+msgstr "Fakti yo kreye apati done sa a."
+
+msgctxt "model:ir.message,text:msg_no_invoice_address"
+msgid ""
+"Customer \"%(party)s\" has no address: it is needed to invoice the credit "
+"sales of shift \"%(shift)s\"."
+msgstr ""
+"Kliyan « %(party)s » la pa gen adrès : li nesesè pou fakti vant kredi "
+"chanjman travay « %(shift)s » la."
+
+msgctxt "model:ir.message,text:msg_no_revenue_account"
+msgid ""
+"Fuel \"%(product)s\" has no revenue account: it is needed to invoice the "
+"credit sales of shift \"%(shift)s\"."
+msgstr ""
+"Kabiran « %(product)s » la pa gen kont revni : li nesesè pou fakti vant "
+"kredi chanjman travay « %(shift)s » la."

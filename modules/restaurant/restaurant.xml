@@ -1,0 +1,305 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton restaurant module. -->
+<tryton>
+    <data>
+        <record model="res.group" id="group_restaurant">
+            <field name="name">Restaurant</field>
+        </record>
+        <record model="res.group" id="group_restaurant_kitchen">
+            <field name="name">Restaurant Kitchen and Bar</field>
+        </record>
+        <record model="res.group" id="group_restaurant_manager">
+            <field name="name">Restaurant Manager</field>
+            <field name="parent" ref="group_restaurant"/>
+        </record>
+        <record model="res.group" id="group_restaurant_admin">
+            <field name="name">Restaurant Administration</field>
+            <field name="parent" ref="group_restaurant_manager"/>
+        </record>
+        <record model="res.user-res.group" id="user_admin_group_restaurant">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_restaurant"/>
+        </record>
+        <record model="res.user-res.group" id="user_admin_group_restaurant_kitchen">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_restaurant_kitchen"/>
+        </record>
+        <record model="res.user-res.group" id="user_admin_group_restaurant_manager">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_restaurant_manager"/>
+        </record>
+        <record model="res.user-res.group" id="user_admin_group_restaurant_admin">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_restaurant_admin"/>
+        </record>
+        <menuitem icon="tryton-restaurant" name="Restaurant" id="menu_restaurant" sequence="56"/>
+        <record model="ir.ui.menu-res.group" id="menu_restaurant_group_restaurant">
+            <field name="menu" ref="menu_restaurant"/>
+            <field name="group" ref="group_restaurant"/>
+        </record>
+        <record model="ir.ui.menu-res.group" id="menu_restaurant_group_restaurant_kitchen">
+            <field name="menu" ref="menu_restaurant"/>
+            <field name="group" ref="group_restaurant_kitchen"/>
+        </record>
+        <menuitem icon="tryton-restaurant-order" name="Service" parent="menu_restaurant" id="menu_service" sequence="20"/>
+        <menuitem icon="tryton-restaurant-menu" name="Menu" parent="menu_restaurant" id="menu_menu" sequence="30"/>
+        <menuitem icon="tryton-restaurant-report" name="Reports" parent="menu_restaurant" id="menu_restaurant_reports" sequence="90"/>
+        <menuitem icon="tryton-settings" name="Configuration" parent="menu_restaurant" id="menu_restaurant_config" sequence="100"/>
+        <record model="ir.ui.view" id="restaurant_view_form">
+            <field name="model">restaurant.restaurant</field>
+            <field name="type">form</field>
+            <field name="name">restaurant_form</field>
+        </record>
+        <record model="ir.ui.view" id="restaurant_view_list">
+            <field name="model">restaurant.restaurant</field>
+            <field name="type">tree</field>
+            <field name="name">restaurant_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_restaurant">
+            <field name="name">Restaurants</field>
+            <field name="res_model">restaurant.restaurant</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_restaurant_view_10">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="restaurant_view_list"/>
+            <field name="act_window" ref="act_restaurant"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_restaurant_view_20">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="restaurant_view_form"/>
+            <field name="act_window" ref="act_restaurant"/>
+        </record>
+        <menuitem icon="tryton-restaurant" name="Restaurants" parent="menu_restaurant_config" id="menu_restaurant_list" sequence="10" action="act_restaurant"/>
+        <record model="ir.model.access" id="access_restaurant">
+            <field name="model" search="[('model', '=', 'restaurant.restaurant')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_restaurant_service">
+            <field name="model" search="[('model', '=', 'restaurant.restaurant')]"/>
+            <field name="group" ref="group_restaurant"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_restaurant_kitchen">
+            <field name="model" search="[('model', '=', 'restaurant.restaurant')]"/>
+            <field name="group" ref="group_restaurant_kitchen"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_restaurant_admin">
+            <field name="model" search="[('model', '=', 'restaurant.restaurant')]"/>
+            <field name="group" ref="group_restaurant_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_restaurant">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'restaurant.restaurant')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_restaurant">
+            <field name="domain" eval="[('company', 'in', Eval('companies', []))]" pyson="1"/>
+            <field name="rule_group" ref="rule_group_restaurant"/>
+        </record>
+        <record model="ir.ui.view" id="area_view_form">
+            <field name="model">restaurant.area</field>
+            <field name="type">form</field>
+            <field name="name">area_form</field>
+        </record>
+        <record model="ir.ui.view" id="area_view_list">
+            <field name="model">restaurant.area</field>
+            <field name="type">tree</field>
+            <field name="name">area_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_area">
+            <field name="name">Areas</field>
+            <field name="res_model">restaurant.area</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_area_view_10">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="area_view_list"/>
+            <field name="act_window" ref="act_area"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_area_view_20">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="area_view_form"/>
+            <field name="act_window" ref="act_area"/>
+        </record>
+        <menuitem icon="tryton-restaurant-table" name="Areas" parent="menu_restaurant_config" id="menu_area" sequence="20" action="act_area"/>
+        <record model="ir.model.access" id="access_area">
+            <field name="model" search="[('model', '=', 'restaurant.area')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_area_service">
+            <field name="model" search="[('model', '=', 'restaurant.area')]"/>
+            <field name="group" ref="group_restaurant"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_area_kitchen">
+            <field name="model" search="[('model', '=', 'restaurant.area')]"/>
+            <field name="group" ref="group_restaurant_kitchen"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_area_admin">
+            <field name="model" search="[('model', '=', 'restaurant.area')]"/>
+            <field name="group" ref="group_restaurant_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_area">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'restaurant.area')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_area">
+            <field name="domain" eval="[('restaurant.company', 'in', Eval('companies', []))]" pyson="1"/>
+            <field name="rule_group" ref="rule_group_area"/>
+        </record>
+        <record model="ir.ui.view" id="table_view_form">
+            <field name="model">restaurant.table</field>
+            <field name="type">form</field>
+            <field name="name">table_form</field>
+        </record>
+        <record model="ir.ui.view" id="table_view_list">
+            <field name="model">restaurant.table</field>
+            <field name="type">tree</field>
+            <field name="name">table_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_table">
+            <field name="name">Tables</field>
+            <field name="res_model">restaurant.table</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_table_view_10">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="table_view_list"/>
+            <field name="act_window" ref="act_table"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_table_view_20">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="table_view_form"/>
+            <field name="act_window" ref="act_table"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_table_domain_0">
+            <field name="name">Free</field>
+            <field name="sequence" eval="10"/>
+            <field name="domain" eval="[('status', '=', 'free')]" pyson="1"/>
+            <field name="act_window" ref="act_table"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_table_domain_1">
+            <field name="name">Occupied</field>
+            <field name="sequence" eval="20"/>
+            <field name="domain" eval="[('status', '=', 'occupied')]" pyson="1"/>
+            <field name="act_window" ref="act_table"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_table_domain_2">
+            <field name="name">All</field>
+            <field name="sequence" eval="30"/>
+            <field name="domain" eval="[]" pyson="1"/>
+            <field name="act_window" ref="act_table"/>
+        </record>
+        <menuitem icon="tryton-restaurant-table" name="Tables" parent="menu_service" id="menu_table" sequence="20" action="act_table"/>
+        <menuitem icon="tryton-restaurant-table" name="Tables" parent="menu_restaurant_config" id="menu_table_config" sequence="30" action="act_table"/>
+        <record model="ir.model.access" id="access_table">
+            <field name="model" search="[('model', '=', 'restaurant.table')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_table_service">
+            <field name="model" search="[('model', '=', 'restaurant.table')]"/>
+            <field name="group" ref="group_restaurant"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_table_kitchen">
+            <field name="model" search="[('model', '=', 'restaurant.table')]"/>
+            <field name="group" ref="group_restaurant_kitchen"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_table_admin">
+            <field name="model" search="[('model', '=', 'restaurant.table')]"/>
+            <field name="group" ref="group_restaurant_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_table">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'restaurant.table')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_table">
+            <field name="domain" eval="[('restaurant.company', 'in', Eval('companies', []))]" pyson="1"/>
+            <field name="rule_group" ref="rule_group_table"/>
+        </record>
+        <record model="ir.sequence.type" id="sequence_type_order">
+            <field name="name">Restaurant Order</field>
+        </record>
+        <record model="ir.sequence.type-res.group" id="sequence_type_order_group_admin">
+            <field name="sequence_type" ref="sequence_type_order"/>
+            <field name="group" ref="res.group_admin"/>
+        </record>
+        <record model="ir.sequence.type-res.group" id="sequence_type_order_group_service">
+            <field name="sequence_type" ref="sequence_type_order"/>
+            <field name="group" ref="group_restaurant"/>
+        </record>
+        <record model="ir.sequence" id="sequence_order">
+            <field name="name">Restaurant Order</field>
+            <field name="sequence_type" ref="sequence_type_order"/>
+            <field name="prefix">CMD/</field>
+        </record>
+        <record model="ir.sequence.type" id="sequence_type_reservation">
+            <field name="name">Table Reservation</field>
+        </record>
+        <record model="ir.sequence.type-res.group" id="sequence_type_reservation_group_admin">
+            <field name="sequence_type" ref="sequence_type_reservation"/>
+            <field name="group" ref="res.group_admin"/>
+        </record>
+        <record model="ir.sequence.type-res.group" id="sequence_type_reservation_group_service">
+            <field name="sequence_type" ref="sequence_type_reservation"/>
+            <field name="group" ref="group_restaurant"/>
+        </record>
+        <record model="ir.sequence" id="sequence_reservation">
+            <field name="name">Table Reservation</field>
+            <field name="sequence_type" ref="sequence_type_reservation"/>
+            <field name="prefix">RSV/</field>
+        </record>
+        <record model="ir.ui.view" id="guide_start_view_form">
+            <field name="model">restaurant.guide.start</field>
+            <field name="type">form</field>
+            <field name="name">guide_start_form</field>
+        </record>
+        <record model="ir.action.wizard" id="wizard_guide">
+            <field name="name">Usage Guide</field>
+            <field name="wiz_name">restaurant.guide</field>
+        </record>
+        <menuitem icon="tryton-restaurant-guide" name="Usage Guide" parent="menu_restaurant" id="menu_guide" sequence="1" action="wizard_guide"/>
+    </data>
+</tryton>

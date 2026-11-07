@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel module. -->
+<form>
+    <label name="hotel"/>
+    <field name="hotel"/>
+    <label name="name"/>
+    <field name="name"/>
+    <label name="type"/>
+    <field name="type"/>
+    <label name="floor"/>
+    <field name="floor"/>
+    <label name="location"/>
+    <field name="location"/>
+    <label name="active"/>
+    <field name="active" xexpand="0" width="25"/>
+    <label name="state"/>
+    <field name="state"/>
+    <group col="3" colspan="2" id="buttons">
+        <button icon="tryton-ok" name="make_available"/>
+        <button icon="tryton-warning" name="make_dirty"/>
+        <button icon="tryton-warning" name="make_maintenance"/>
+    </group>
+    <separator name="notes" colspan="4"/>
+    <field name="notes" colspan="4"/>
+</form>

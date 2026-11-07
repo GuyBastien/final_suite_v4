@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton sale_point_cash_control module. -->
+<data>
+    <xpath expr="/form/field[@name='customer_location']" position="after">
+        <newline/>
+        <separator id="cash_control" string="Cash Control" colspan="4"/>
+        <label name="cash_control"/>
+        <field name="cash_control"/>
+        <label name="difference_type"/>
+        <field name="difference_type"/>
+        <label name="cash_tolerance"/>
+        <field name="cash_tolerance"/>
+    </xpath>
+</data>

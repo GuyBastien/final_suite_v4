@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton fuel_station module. -->
+<form>
+    <label name="delivery"/>
+    <field name="delivery"/>
+    <label name="tank"/>
+    <field name="tank"/>
+    <label name="product"/>
+    <field name="product"/>
+    <label name="unit"/>
+    <field name="unit"/>
+    <label name="ordered_quantity"/>
+    <field name="ordered_quantity"/>
+    <label name="quantity"/>
+    <field name="quantity"/>
+    <label name="temperature"/>
+    <field name="temperature"/>
+    <label name="density"/>
+    <field name="density"/>
+    <label name="vcf"/>
+    <field name="vcf"/>
+    <label name="net_quantity"/>
+    <field name="net_quantity"/>
+    <label name="unit_cost"/>
+    <field name="unit_cost"/>
+    <label name="move"/>
+    <field name="move"/>
+</form>

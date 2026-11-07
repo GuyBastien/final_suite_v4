@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_pms module. -->
+<tree>
+    <field name="hotel"/>
+    <field name="rooms_total"/>
+    <field name="rooms_occupied"/>
+    <field name="rooms_available"/>
+    <field name="rooms_dirty"/>
+    <field name="occupancy_rate"/>
+    <field name="arrivals_left"/>
+    <field optional="1" name="departures_left"/>
+    <field optional="1" name="in_house"/>
+    <field optional="1" name="revenue_today"/>
+    <field optional="1" name="open_alerts"/>
+    <field optional="1" name="open_warnings"/>
+    <field optional="1" name="open_reminders"/>
+</tree>

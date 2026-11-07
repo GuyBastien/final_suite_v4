@@ -1,0 +1,71 @@
+#
+msgid ""
+msgstr ""
+"Language: ht\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgctxt "field:hotel.deposit,mobile_transaction:"
+msgid "Mobile Payment"
+msgstr "Peman mobil"
+
+msgctxt "field:hotel.reservation,mobile_transactions:"
+msgid "Mobile Payments"
+msgstr "Peman mobil"
+
+msgctxt "field:mobile.payment.transaction,reservation:"
+msgid "Reservation"
+msgstr "Rezèvasyon"
+
+msgctxt "help:hotel.deposit,mobile_transaction:"
+msgid "Operator confirmation that created this deposit."
+msgstr "Konfirmasyon operatè a ki kreye avans sa a."
+
+msgctxt "help:hotel.reservation,mobile_transactions:"
+msgid "MonCash, NatCash and other mobile payments of this stay."
+msgstr "Peman MonCash, NatCash ak lòt peman mobil pou sejou sa a."
+
+msgctxt "help:mobile.payment.transaction,reservation:"
+msgid "Stay paid by this transaction."
+msgstr "Sejou tranzaksyon sa a peye."
+
+msgctxt "model:ir.message,text:msg_company"
+msgid ""
+"The mobile payment \"%(transaction)s\" and its reservation must belong to "
+"the same company."
+msgstr ""
+"Peman mobil « %(transaction)s » la ak rezèvasyon li a dwe nan menm konpayi "
+"a."
+
+msgctxt "model:ir.message,text:msg_mobile_typed"
+msgid ""
+"A mobile deposit cannot be typed. Use \"Pay by Mobile\": the deposit is "
+"recorded when the operator confirms the payment."
+msgstr ""
+"Yo pa ka antre yon avans mobil alamen. Itilize « Peye pa mobil » : avans lan"
+" anrejistre lè operatè a konfime peman an."
+
+msgctxt "model:ir.message,text:msg_not_payable"
+msgid ""
+"Reservation \"%(reservation)s\" can only be paid while it is confirmed or "
+"checked in."
+msgstr ""
+"Rezèvasyon « %(reservation)s » la ka peye sèlman lè li konfime oswa kliyan "
+"an rive deja."
+
+msgctxt "model:ir.message,text:msg_nothing_due"
+msgid ""
+"Reservation \"%(reservation)s\" has no balance left to pay. Compute its "
+"amounts first if the stay was changed."
+msgstr ""
+"Rezèvasyon « %(reservation)s » la pa gen rès pou peye ankò. Kalkile montan "
+"li yo anvan si sejou a chanje."
+
+msgctxt "model:ir.model.button,string:reservation_pay_mobile_button"
+msgid "Pay by Mobile"
+msgstr "Peye pa mobil"
+
+msgctxt "view:hotel.reservation:"
+msgid "Mobile Payments"
+msgstr "Peman mobil"

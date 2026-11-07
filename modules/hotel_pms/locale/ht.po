@@ -1,0 +1,1642 @@
+#
+msgid ""
+msgstr ""
+"Language: ht\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:hotel.consumption,reservation:"
+msgid "Reservation"
+msgstr "Rezèvasyon"
+
+msgctxt "field:hotel.dashboard,adr:"
+msgid "ADR"
+msgstr "ADR"
+
+msgctxt "field:hotel.dashboard,arrivals:"
+msgid "Arrivals"
+msgstr "Rive"
+
+msgctxt "field:hotel.dashboard,arrivals_left:"
+msgid "Arrivals Left"
+msgstr "Rive ki rete"
+
+msgctxt "field:hotel.dashboard,arrivals_today:"
+msgid "Arrivals Today"
+msgstr "Rive jodi a"
+
+msgctxt "field:hotel.dashboard,company:"
+msgid "Company"
+msgstr "Konpayi"
+
+msgctxt "field:hotel.dashboard,currency_digits:"
+msgid "Currency Digits"
+msgstr "Desimal lajan"
+
+msgctxt "field:hotel.dashboard,departures:"
+msgid "Departures"
+msgstr "Pati"
+
+msgctxt "field:hotel.dashboard,departures_left:"
+msgid "Departures Left"
+msgstr "Pati ki rete"
+
+msgctxt "field:hotel.dashboard,departures_today:"
+msgid "Departures Today"
+msgstr "Pati jodi a"
+
+msgctxt "field:hotel.dashboard,guests_in_house:"
+msgid "Guests In House"
+msgstr "Kliyan anndan otèl la"
+
+msgctxt "field:hotel.dashboard,hotel:"
+msgid "Hotel"
+msgstr "Otèl"
+
+msgctxt "field:hotel.dashboard,in_house:"
+msgid "In House"
+msgstr "Anndan otèl la"
+
+msgctxt "field:hotel.dashboard,in_house_reservations:"
+msgid "In House"
+msgstr "Anndan otèl la"
+
+msgctxt "field:hotel.dashboard,name:"
+msgid "Name"
+msgstr "Non"
+
+msgctxt "field:hotel.dashboard,notifications:"
+msgid "Notifications"
+msgstr "Notifikasyon"
+
+msgctxt "field:hotel.dashboard,occupancy_rate:"
+msgid "Occupancy (%)"
+msgstr "Okipasyon (%)"
+
+msgctxt "field:hotel.dashboard,open_alerts:"
+msgid "Alerts"
+msgstr "Alèt"
+
+msgctxt "field:hotel.dashboard,open_reminders:"
+msgid "Reminders"
+msgstr "Rapèl"
+
+msgctxt "field:hotel.dashboard,open_warnings:"
+msgid "Warnings"
+msgstr "Avètisman"
+
+msgctxt "field:hotel.dashboard,pos_pending:"
+msgid "POS Charges Pending"
+msgstr "Chaj POS annatant"
+
+msgctxt "field:hotel.dashboard,revenue_month:"
+msgid "Room Revenue This Month"
+msgstr "Revni chanm mwa sa a"
+
+msgctxt "field:hotel.dashboard,revenue_today:"
+msgid "Room Revenue Today"
+msgstr "Revni chanm jodi a"
+
+msgctxt "field:hotel.dashboard,revpar:"
+msgid "RevPAR"
+msgstr "RevPAR"
+
+msgctxt "field:hotel.dashboard,rooms_available:"
+msgid "Available"
+msgstr "Disponib"
+
+msgctxt "field:hotel.dashboard,rooms_dirty:"
+msgid "Dirty"
+msgstr "Sal"
+
+msgctxt "field:hotel.dashboard,rooms_maintenance:"
+msgid "Maintenance"
+msgstr "Antretyen"
+
+msgctxt "field:hotel.dashboard,rooms_occupied:"
+msgid "Occupied"
+msgstr "Okipe"
+
+msgctxt "field:hotel.dashboard,rooms_out_of_order:"
+msgid "Out of Order"
+msgstr "Andeyò sèvis"
+
+msgctxt "field:hotel.dashboard,rooms_total:"
+msgid "Rooms"
+msgstr "Chanm yo"
+
+msgctxt "field:hotel.documentation,content:"
+msgid "Content"
+msgstr "Kontni"
+
+msgctxt "field:hotel.documentation,title:"
+msgid "Title"
+msgstr "Tit"
+
+msgctxt "field:hotel.hotel,no_show_hours:"
+msgid "No-show Hours"
+msgstr "Èdtan pa vini"
+
+msgctxt "field:hotel.hotel,notice_hours:"
+msgid "Notice Hours"
+msgstr "Èdtan avètisman"
+
+msgctxt "field:hotel.hotel,reorder_ratio:"
+msgid "Reorder Ratio"
+msgstr "To rekòmand"
+
+msgctxt "field:hotel.hotel,room_charge_product:"
+msgid "Room Charge Product"
+msgstr "Pwodui chaj chanm"
+
+msgctxt "field:hotel.notification,automatic:"
+msgid "Automatic"
+msgstr "Otomatik"
+
+msgctxt "field:hotel.notification,company:"
+msgid "Company"
+msgstr "Konpayi"
+
+msgctxt "field:hotel.notification,date:"
+msgid "Date"
+msgstr "Dat"
+
+msgctxt "field:hotel.notification,due_date:"
+msgid "Due Date"
+msgstr "Dat limit"
+
+msgctxt "field:hotel.notification,hotel:"
+msgid "Hotel"
+msgstr "Otèl"
+
+msgctxt "field:hotel.notification,key:"
+msgid "Key"
+msgstr "Kle"
+
+msgctxt "field:hotel.notification,kind:"
+msgid "Kind"
+msgstr "Kalite"
+
+msgctxt "field:hotel.notification,message:"
+msgid "Message"
+msgstr "Mesaj"
+
+msgctxt "field:hotel.notification,origin:"
+msgid "Origin"
+msgstr "Orijin"
+
+msgctxt "field:hotel.notification,state:"
+msgid "State"
+msgstr "Eta"
+
+msgctxt "field:hotel.notification,title:"
+msgid "Title"
+msgstr "Tit"
+
+msgctxt "field:hotel.notification,user:"
+msgid "User"
+msgstr "Itilizatè"
+
+msgctxt "field:hotel.reservation,actual_end:"
+msgid "Checked-out At"
+msgstr "Pati a"
+
+msgctxt "field:hotel.reservation,actual_start:"
+msgid "Checked-in At"
+msgstr "Rive a"
+
+msgctxt "field:hotel.reservation,adults:"
+msgid "Adults"
+msgstr "Granmoun"
+
+msgctxt "field:hotel.reservation,charges:"
+msgid "Charges"
+msgstr "Chaj yo"
+
+msgctxt "field:hotel.reservation,children:"
+msgid "Children"
+msgstr "Pitit yo"
+
+msgctxt "field:hotel.reservation,company:"
+msgid "Company"
+msgstr "Konpayi"
+
+msgctxt "field:hotel.reservation,currency:"
+msgid "Currency"
+msgstr "Lajan (monnen)"
+
+msgctxt "field:hotel.reservation,currency_digits:"
+msgid "Currency Digits"
+msgstr "Desimal lajan"
+
+msgctxt "field:hotel.reservation,end:"
+msgid "Departure"
+msgstr "Depa"
+
+msgctxt "field:hotel.reservation,hotel:"
+msgid "Hotel"
+msgstr "Otèl"
+
+msgctxt "field:hotel.reservation,invoice_recurrence:"
+msgid "Invoice Recurrence"
+msgstr "Repetisyon fakti"
+
+msgctxt "field:hotel.reservation,invoice_state:"
+msgid "Invoice State"
+msgstr "Eta fakti"
+
+msgctxt "field:hotel.reservation,lines:"
+msgid "Rooms"
+msgstr "Chanm yo"
+
+msgctxt "field:hotel.reservation,notes:"
+msgid "Notes"
+msgstr "Nòt"
+
+msgctxt "field:hotel.reservation,number:"
+msgid "Number"
+msgstr "Nimewo"
+
+msgctxt "field:hotel.reservation,party:"
+msgid "Guest"
+msgstr "Envite"
+
+msgctxt "field:hotel.reservation,pos_amount:"
+msgid "POS Charges"
+msgstr "Chaj POS"
+
+msgctxt "field:hotel.reservation,pos_sales:"
+msgid "POS Sales"
+msgstr "Vant POS"
+
+msgctxt "field:hotel.reservation,sale:"
+msgid "Sale"
+msgstr "Vant"
+
+msgctxt "field:hotel.reservation,sale_state:"
+msgid "Sale State"
+msgstr "Eta vant"
+
+msgctxt "field:hotel.reservation,start:"
+msgid "Arrival"
+msgstr "Rive"
+
+msgctxt "field:hotel.reservation,state:"
+msgid "State"
+msgstr "Eta"
+
+msgctxt "field:hotel.reservation,subscription:"
+msgid "Subscription"
+msgstr "Abònman"
+
+msgctxt "field:hotel.reservation,total_amount:"
+msgid "Total"
+msgstr "Total"
+
+msgctxt "field:hotel.reservation.charge,amount:"
+msgid "Amount"
+msgstr "Montan"
+
+msgctxt "field:hotel.reservation.charge,company:"
+msgid "Company"
+msgstr "Konpayi"
+
+msgctxt "field:hotel.reservation.charge,consumption_line:"
+msgid "Consumption"
+msgstr "Konsomasyon"
+
+msgctxt "field:hotel.reservation.charge,currency_digits:"
+msgid "Currency Digits"
+msgstr "Desimal lajan"
+
+msgctxt "field:hotel.reservation.charge,description:"
+msgid "Description"
+msgstr "Deskripsyon"
+
+msgctxt "field:hotel.reservation.charge,product:"
+msgid "Product"
+msgstr "Pwodui"
+
+msgctxt "field:hotel.reservation.charge,product_uom_category:"
+msgid "Product UoM Category"
+msgstr "Kategori inite pwodui"
+
+msgctxt "field:hotel.reservation.charge,quantity:"
+msgid "Quantity"
+msgstr "Kantite"
+
+msgctxt "field:hotel.reservation.charge,reservation:"
+msgid "Reservation"
+msgstr "Rezèvasyon"
+
+msgctxt "field:hotel.reservation.charge,unit:"
+msgid "Unit"
+msgstr "Inite"
+
+msgctxt "field:hotel.reservation.charge,unit_price:"
+msgid "Unit Price"
+msgstr "Pri inite"
+
+msgctxt "field:hotel.reservation.line,amount:"
+msgid "Amount"
+msgstr "Montan"
+
+msgctxt "field:hotel.reservation.line,billed_as:"
+msgid "Billed As"
+msgstr "Faktire kòm"
+
+msgctxt "field:hotel.reservation.line,currency_digits:"
+msgid "Currency Digits"
+msgstr "Desimal lajan"
+
+msgctxt "field:hotel.reservation.line,discount_rate:"
+msgid "Discount Rate"
+msgstr "To rabè"
+
+msgctxt "field:hotel.reservation.line,hotel:"
+msgid "Hotel"
+msgstr "Otèl"
+
+msgctxt "field:hotel.reservation.line,pricing:"
+msgid "Pricing"
+msgstr "Fikse pri"
+
+msgctxt "field:hotel.reservation.line,quantity:"
+msgid "Quantity"
+msgstr "Kantite"
+
+msgctxt "field:hotel.reservation.line,reservation:"
+msgid "Reservation"
+msgstr "Rezèvasyon"
+
+msgctxt "field:hotel.reservation.line,room:"
+msgid "Room"
+msgstr "Chanm"
+
+msgctxt "field:hotel.reservation.line,room_type:"
+msgid "Room Type"
+msgstr "Kalite chanm"
+
+msgctxt "field:hotel.reservation.line,unit_price:"
+msgid "Unit Price"
+msgstr "Pri inite"
+
+msgctxt "field:hotel_pms.report.start,company:"
+msgid "Company"
+msgstr "Konpayi"
+
+msgctxt "field:hotel_pms.report.start,end_date:"
+msgid "End Date"
+msgstr "Dat fen"
+
+msgctxt "field:hotel_pms.report.start,hotel:"
+msgid "Hotel"
+msgstr "Otèl"
+
+msgctxt "field:hotel_pms.report.start,start_date:"
+msgid "Start Date"
+msgstr "Dat kòmansman"
+
+msgctxt "field:sale.point.payment,settled:"
+msgid "Settled"
+msgstr "Regle"
+
+msgctxt "field:sale.point.payment.method,room_charge:"
+msgid "Room Charge"
+msgstr "Chaj sou chanm nan"
+
+msgctxt "field:sale.point.sale,reservation:"
+msgid "Reservation"
+msgstr "Rezèvasyon"
+
+msgctxt "help:hotel.consumption,reservation:"
+msgid "The stay to which billable consumptions are charged at check-out."
+msgstr "Sejou kote yo chaje konsomasyon faktirab yo lè kliyan an pati."
+
+msgctxt "help:hotel.hotel,no_show_hours:"
+msgid ""
+"A confirmed reservation not checked in this many hours after its arrival is "
+"a no-show."
+msgstr ""
+"Yon rezèvasyon konfime ki pa anrejistre apre kantite èdtan sa yo apre rive "
+"li se yon moun ki pa vini."
+
+msgctxt "help:hotel.hotel,notice_hours:"
+msgid "Arrivals and departures are notified this many hours ahead."
+msgstr "Rive ak pati yo notifye kantite èdtan sa yo davans."
+
+msgctxt "help:hotel.hotel,reorder_ratio:"
+msgid ""
+"Fraction of the target stock under which a purchase request is raised (0.5 "
+"reorders when half of the stock is left)."
+msgstr ""
+"Fraksyon stòk objektif la anba li yo fè yon demann acha (0,5 re-kòmande lè "
+"mwatye stòk la rete)."
+
+msgctxt "help:hotel.hotel,room_charge_product:"
+msgid ""
+"Service sold on the stay to settle the room charges of the point of sale. "
+"Its revenue account must be the clearing account of the room charge payment "
+"method."
+msgstr ""
+"Sèvis yo vann sou sejou a pou regle chaj chanm pwen vant lan. Kont revni li "
+"dwe kont konpansasyon metòd peman chaj chanm nan."
+
+msgctxt "help:hotel.notification,due_date:"
+msgid "When the reminder is due."
+msgstr "Lè rapèl la dwe fèt."
+
+msgctxt "help:hotel.notification,key:"
+msgid "Identifies the condition that raised an automatic notification."
+msgstr "Idantifye kondisyon ki leve yon notifikasyon otomatik."
+
+msgctxt "help:hotel.notification,user:"
+msgid "Restrict the notification to a user. Empty is for everybody."
+msgstr "Limite notifikasyon an a yon itilizatè. Vid se pou tout moun."
+
+msgctxt "help:hotel.reservation,invoice_recurrence:"
+msgid ""
+"Long stays: rooms are billed by subscription with this recurrence instead of"
+" a single sale."
+msgstr ""
+"Sejou long: yo faktire chanm yo pa abònman ak repetisyon sa a olye yon sèl "
+"vant."
+
+msgctxt "help:hotel.reservation,pos_amount:"
+msgid "Point of sale charges not yet settled."
+msgstr "Chaj pwen vant ki poko regle."
+
+msgctxt "help:hotel.reservation.line,discount_rate:"
+msgid "Discount applied on the room price (0.10 for 10%)."
+msgstr "Rabè aplike sou pri chanm nan (0,10 pou 10%)."
+
+msgctxt "help:hotel.reservation.line,pricing:"
+msgid ""
+"Automatic uses the hourly rate for short stays and the nightly rate "
+"otherwise."
+msgstr "Otomatik itilize tarif èdtan pou sejou kout epi tarif nwit sinon."
+
+msgctxt "help:hotel.reservation.line,quantity:"
+msgid "Number of hours or nights."
+msgstr "Kantite èdtan oswa nwit."
+
+msgctxt "help:hotel.reservation.line,room:"
+msgid "Required to confirm the reservation."
+msgstr "Obligatwa pou konfime rezèvasyon an."
+
+msgctxt "help:sale.point.payment.method,room_charge:"
+msgid ""
+"Charge the guest of the checked-in reservation. The amount is settled with the sale of the stay at check-out.\n"
+"The account must be a revenue account used to clear the charges."
+msgstr ""
+"Chaje kliyan rezèvasyon ki anrejistre a. Montan an regle ak vant sejou a lè li pati.\n"
+"Kont lan dwe yon kont revni yo itilize pou konpanse chaj yo."
+
+msgctxt "help:sale.point.sale,reservation:"
+msgid "The stay to which the sale can be charged."
+msgstr "Sejou kote yo kapab chaje vant lan."
+
+msgctxt "model:hotel.dashboard,name:"
+msgid "Live figures of a hotel."
+msgstr "Chif an dirèk yon otèl."
+
+msgctxt "model:hotel.documentation,content:doc_billing"
+msgid ""
+"From a reservation, Create Sale builds a draft sale with the rooms (at the agreed price and discount) and the charges. Quote, confirm and process the sale as usual: the invoice is created by the standard sale flow. The reservation shows the sale state and the invoice state.\n"
+"\n"
+"Prerequisites: an account category on the room products, a chart of accounts, a fiscal year with invoice sequences, and an address on the guest to quote the sale."
+msgstr ""
+"Apati yon rezèvasyon, Kreye vant bati yon bouyon vant ak chanm yo (nan pri ak rabè yo dakò) ak chaj yo. Fè kotasyon, konfime epi trete vant lan kòm dabitid: fakti a kreye pa flo vant estanda a. Rezèvasyon an montre eta vant lan ak eta fakti a.\n"
+"\n"
+"Kondisyon preliminè: yon kategori kont sou pwodui chanm yo, yon plan kontab, yon ane fiskal ak sekans fakti, ak yon adrès sou kliyan an pou fè kotasyon vant lan."
+
+msgctxt "model:hotel.documentation,content:doc_channels"
+msgid ""
+"Available when the module Hotel Channel Manager is installed. It synchronizes calendars (iCal) only.\n"
+"\n"
+"- Create a channel per site, then add each room with the iCal address given by the site (import).\n"
+"- Every 30 minutes the calendars are read: new events block the room, moved or removed events free it.\n"
+"- An event on a room that is not free is a Conflict: an alert is raised; use Retry once the room is free.\n"
+"- Give each site the Export Address of the room (prefixed by the server URL) so it sees your occupancy. Use New Token to revoke it.\n"
+"- Rates and availability are not pushed to Booking.com or Expedia: this needs their partner APIs."
+msgstr ""
+"Disponib lè modil Jestyonè kanal otèl enstale. Li senkwonize kalandriye (iCal) sèlman.\n"
+"\n"
+"- Kreye yon kanal pou chak sit, apre sa ajoute chak chanm ak adrès iCal sit la bay (enpòtasyon).\n"
+"- Chak 30 minit yo li kalandriye yo: nouvo evènman bloke chanm nan, evènman ki deplase oswa ki retire libere l.\n"
+"- Yon evènman sou yon chanm ki pa lib se yon Konfli: yo leve yon alèt; sèvi ak Eseye ankò lè chanm nan lib.\n"
+"- Bay chak sit Adrès ekspòtasyon chanm nan (ak URL sèvè a devan) pou li wè okipasyon ou. Itilize Nouvo jeton pou revoke li.\n"
+"- Yo pa voye tarif ak disponibilite bay Booking.com oswa Expedia: sa bezwen API patnè yo."
+
+msgctxt "model:hotel.documentation,content:doc_configuration"
+msgid ""
+"1. Chart of accounts, fiscal year with invoice sequences, payment terms.\n"
+"2. Hotel (warehouse, consumption location), room types, rooms, rates.\n"
+"3. Night and hour products: salable services with an account category, set on each room type.\n"
+"4. Long stays: a subscription service on the night product (daily recurrence) and a monthly recurrence rule set.\n"
+"5. Point of sale: a payment method flagged Room Charge, and on the hotel a Room Charge Product.\n"
+"6. Users: group Hotel for the staff, Hotel Administration for managers. Notifications are pushed to the Hotel group.\n"
+"7. Notifications: the scheduled task Hotel Notifications runs every 15 minutes (Administration > Scheduler)."
+msgstr ""
+"1. Plan kontab, ane fiskal ak sekans fakti, kondisyon peman.\n"
+"2. Otèl (depo, kote konsomasyon), kalite chanm, chanm, tarif.\n"
+"3. Pwodui nwit ak èdtan: sèvis ki kapab vann ak yon kategori kont, mete sou chak kalite chanm.\n"
+"4. Sejou long: yon sèvis abònman sou pwodui nwit la (repetisyon chak jou) ak yon règ repetisyon chak mwa.\n"
+"5. Pwen vant: yon metòd peman make Chaj chanm, epi sou otèl la yon Pwodui chaj chanm.\n"
+"6. Itilizatè: gwoup Otèl pou anplwaye yo, Administrasyon otèl pou responsab yo. Notifikasyon yo voye bay gwoup Otèl la.\n"
+"7. Notifikasyon: tach pwograme Notifikasyon otèl la fèt chak 15 minit (Administrasyon > Orè)."
+
+msgctxt "model:hotel.documentation,content:doc_getting_started"
+msgid ""
+"The hotel suite has two modules: Hotel (rooms, rates, articles, stock) and Hotel PMS (reservations, billing, reports, dashboard).\n"
+"\n"
+"Daily routine:\n"
+"1. Open the Dashboard (Hotel > Dashboard) to see arrivals, departures, room status and the open notifications.\n"
+"2. Handle arrivals and departures from Front Desk > Reservations.\n"
+"3. Record what guests consume in Stock > Stock Operations.\n"
+"4. Review Notifications and mark them done.\n"
+"\n"
+"Every field has a help text: hover it to read it."
+msgstr ""
+"Sèvis otèl la gen de modil: Otèl (chanm, tarif, atik, stòk) ak PMS otèl (rezèvasyon, faktirasyon, rapò, tablo bò).\n"
+"\n"
+"Woutin chak jou:\n"
+"1. Louvri Tablo bò a (Otèl > Tablo bò) pou wè rive, pati, eta chanm yo ak notifikasyon ouvè yo.\n"
+"2. Jere rive ak pati yo nan Resepsyon > Rezèvasyon.\n"
+"3. Anrejistre sa kliyan yo konsome nan Stòk > Operasyon stòk.\n"
+"4. Revize Notifikasyon yo epi make yo fini.\n"
+"\n"
+"Chak chan gen yon tèks èd: pase koursè a sou li pou li l."
+
+msgctxt "model:hotel.documentation,content:doc_guests"
+msgid ""
+"Guests are parties (Party > Parties).\n"
+"\n"
+"- For a person, tick Person and fill First Name: the name is then the family name and the party is shown as \"First Name Name\" everywhere (reservations, folios, sales, invoices, reports).\n"
+"- For a company or a travel agency, leave Person unticked: only the Name is used.\n"
+"- You can search a party by first name or by name.\n"
+"- A guest needs an address to quote or invoice a stay."
+msgstr ""
+"Kliyan yo se pati (Pati > Pati yo).\n"
+"\n"
+"- Pou yon moun, make Moun epi ranpli Non: lè sa a Non an se non fanmi an epi pati a parèt kòm \"Non Non fanmi\" tout kote (rezèvasyon, foli, vant, fakti, rapò).\n"
+"- Pou yon konpayi oswa yon ajans vwayaj, kite Moun pa make: se sèlman Non an yo itilize.\n"
+"- Ou kapab chèche yon pati ak non oswa ak non fanmi.\n"
+"- Yon kliyan bezwen yon adrès pou fè kotasyon oswa faktire yon sejou."
+
+msgctxt "model:hotel.documentation,content:doc_housekeeping"
+msgid ""
+"Available when the module Hotel Housekeeping is installed.\n"
+"\n"
+"- A departure cleaning task is created at each check-out; the scheduled action also creates one for every dirty room.\n"
+"- Housekeeping > My Tasks lists your tasks with large buttons: Take, Start, Finish. Required checklist items must be done first.\n"
+"- Finishing a cleaning makes the room Available, or waits for the supervisor's Inspect if the hotel requires inspection.\n"
+"- Report a problem with Housekeeping > Issues: a blocking issue puts the room in Maintenance until it is resolved.\n"
+"- Use the Tryton web client on a phone or tablet: there is no native mobile application."
+msgstr ""
+"Disponib lè modil Netwayaj otèl enstale.\n"
+"\n"
+"- Yo kreye yon travay netwayaj depa nan chak depa; aksyon pwograme a kreye tou youn pou chak chanm sal.\n"
+"- Netwayaj > Travay mwen yo montre travay ou yo ak gwo bouton: Pran, Kòmanse, Fini. Atik obligatwa lis verifikasyon yo dwe fèt anvan.\n"
+"- Fini yon netwayaj fè chanm nan Disponib, oswa li tann Enspekte sipèvizè a si otèl la egzije enspeksyon.\n"
+"- Rapòte yon pwoblèm ak Netwayaj > Pwoblèm yo: yon pwoblèm ki bloke mete chanm nan an Antretyen jiskaske li rezoud.\n"
+"- Sèvi ak kliyan wèb Tryton sou yon telefòn oswa yon tablèt: pa gen aplikasyon mobil natif natal."
+
+msgctxt "model:hotel.documentation,content:doc_long_stays"
+msgid ""
+"For long stays, set an Invoice Recurrence on the reservation (for example monthly) and use Create Subscription. The room is then billed one night per day at the agreed price, instead of one sale for the whole stay.\n"
+"\n"
+"The night product of the room type needs a subscription service with a daily consumption recurrence. Once the subscription exists, Create Sale only sells the remaining charges."
+msgstr ""
+"Pou sejou long, mete yon Repetisyon fakti sou rezèvasyon an (pa egzanp chak mwa) epi sèvi ak Kreye abònman. Lè sa a yo faktire chanm nan yon nwit pa jou nan pri yo dakò a, olye yon sèl vant pou tout sejou a.\n"
+"\n"
+"Pwodui nwit kalite chanm lan bezwen yon sèvis abònman ak yon repetisyon konsomasyon chak jou. Yon fwa abònman an egziste, Kreye vant vann sèlman chaj ki rete yo."
+
+msgctxt "model:hotel.documentation,content:doc_notifications"
+msgid ""
+"The Dashboard shows, for each hotel and at the moment you open or reload it: room status, occupancy rate, arrivals and departures of the day, guests in house, room revenue (day and month), ADR, RevPAR and the open notifications. The Refresh button raises the notifications immediately.\n"
+"\n"
+"Notifications are raised automatically every 15 minutes and shown as a pop-up to the hotel users:\n"
+"- Reminder: arrivals and departures of the day.\n"
+"- Alert: check-out overdue, no-show.\n"
+"- Warning: guest late, room not ready for an arrival, stay not billed or not paid, article under its minimum stock.\n"
+"- Information: rooms in maintenance or out of order, high occupancy.\n"
+"\n"
+"When the condition disappears the notification is marked done by itself. Dismissed notifications are not raised again. You can also create your own reminders (Hotel > Notifications)."
+msgstr ""
+"Tablo bò a montre, pou chak otèl e nan moman ou louvri l oswa ou rechaje l: eta chanm yo, to okipasyon, rive ak pati jodi a, kliyan anndan otèl la, revni chanm (jou ak mwa), ADR, RevPAR ak notifikasyon ouvè yo. Bouton Rafrechi a leve notifikasyon yo touswit.\n"
+"\n"
+"Notifikasyon yo leve otomatikman chak 15 minit epi yo parèt kòm yon fenèt pou itilizatè otèl yo:\n"
+"- Rapèl: rive ak pati jodi a.\n"
+"- Alèt: pati an reta, moun ki pa vini.\n"
+"- Avètisman: kliyan an reta, chanm pa pare pou yon rive, sejou pa faktire oswa pa peye, atik anba stòk minimòm li.\n"
+"- Enfòmasyon: chanm nan antretyen oswa andeyò sèvis, gwo okipasyon.\n"
+"\n"
+"Lè kondisyon an disparèt, notifikasyon an make fini poukont li. Notifikasyon ki rejte yo pa leve ankò. Ou kapab kreye pwòp rapèl ou tou (Otèl > Notifikasyon)."
+
+msgctxt "model:hotel.documentation,content:doc_pos"
+msgid ""
+"At the bar or the restaurant, a point of sale ticket can be paid with the Room Charge payment method: select the checked-in reservation on the ticket.\n"
+"\n"
+"The amount is not collected. When the sale of the stay is created, the pending room charges are added as a line (Room Charge Product of the hotel) and flagged as settled, so they are never billed twice. The reservation shows the pending POS charges."
+msgstr ""
+"Nan ba a oswa nan restoran an, yo kapab peye yon tikè pwen vant ak metòd peman Chaj chanm: chwazi rezèvasyon ki anrejistre a sou tikè a.\n"
+"\n"
+"Yo pa ranmase montan an. Lè yo kreye vant sejou a, chaj pwen vant annatant yo ajoute kòm yon liy (Pwodui chaj chanm otèl la) epi make regle, konsa yo pa janm faktire de fwa. Rezèvasyon an montre chaj POS annatant yo."
+
+msgctxt "model:hotel.documentation,content:doc_pricing"
+msgid ""
+"Rates are defined per room type, with an optional validity period (seasons). The most specific active rate applies.\n"
+"\n"
+"- Night price, plus an optional weekend night price (nights starting on Friday and Saturday).\n"
+"- Hour price, minimum hours and maximum hours.\n"
+"\n"
+"Pricing mode of a reservation line: Automatic uses the hourly rate for short stays (up to the maximum hours) and the nightly rate otherwise. An hourly stay never costs more than one night. Hourly and Nightly force the mode.\n"
+"\n"
+"A discount rate can be set on each room line (0.10 for 10%)."
+msgstr ""
+"Yo defini tarif pa kalite chanm, ak yon peryòd validite opsyonèl (sezon). Tarif aktif ki pi espesifik la aplike.\n"
+"\n"
+"- Pri nwit, plis yon pri nwit wikenn opsyonèl (nwit ki kòmanse vandredi ak samdi).\n"
+"- Pri pa èdtan, minimòm èdtan ak maksimòm èdtan.\n"
+"\n"
+"Mòd pri yon liy rezèvasyon: Otomatik itilize tarif èdtan pou sejou kout (jiska maksimòm èdtan) epi tarif nwit sinon. Yon sejou pa èdtan pa janm koute plis pase yon nwit. Pa èdtan ak Pa nwit fòse mòd la.\n"
+"\n"
+"Yo kapab mete yon to rabè sou chak liy chanm (0,10 pou 10%)."
+
+msgctxt "model:hotel.documentation,content:doc_purchasing"
+msgid ""
+"On the hotel, Update Order Points creates a purchase order point for each standard article: target stock = quantity per room x number of rooms, minimum = target x Reorder Ratio.\n"
+"\n"
+"Then use Hotel > Purchasing: Reorder Points, Purchase Requests (generated by the standard Tryton wizard) and Purchases. A warning notification is raised when an article falls under its minimum."
+msgstr ""
+"Sou otèl la, Mete ajou pwen kòmand kreye yon pwen kòmand achte pou chak atik estanda: stòk objektif = kantite pa chanm x kantite chanm, minimòm = objektif x To rekòmand.\n"
+"\n"
+"Apre sa sèvi ak Otèl > Achte: Pwen kòmand, Demann achte (jenere pa asistan estanda Tryton) ak Achte. Yon notifikasyon avètisman leve lè yon atik desann anba minimòm li."
+
+msgctxt "model:hotel.documentation,content:doc_reports"
+msgid ""
+"Hotel > Reports:\n"
+"- Arrivals and Departures of a period.\n"
+"- Occupancy: per day, rooms sold and available, occupancy rate, room revenue, ADR (average daily rate per sold room) and RevPAR (revenue per available room).\n"
+"- Revenue by room type and by article category.\n"
+"\n"
+"The Guest Folio is printed from a reservation (Print). Each report asks for the hotel and the period."
+msgstr ""
+"Otèl > Rapò:\n"
+"- Rive ak pati yon peryòd.\n"
+"- Okipasyon: pa jou, chanm vann ak disponib, to okipasyon, revni chanm, ADR (pri mwayèn chak jou pa chanm vann) ak RevPAR (revni pa chanm disponib).\n"
+"- Revni pa kalite chanm ak pa kategori atik.\n"
+"\n"
+"Foli kliyan an enprime apati yon rezèvasyon (Enprime). Chak rapò mande otèl la ak peryòd la."
+
+msgctxt "model:hotel.documentation,content:doc_reservations"
+msgid ""
+"A reservation has a guest, an arrival and a departure date-time, and one line per room.\n"
+"\n"
+"Workflow:\n"
+"- Draft: enter the room type and the room of each line, then Compute Prices.\n"
+"- Confirm: checks that every room is free for the period; prices are calculated from the hotel rates.\n"
+"- Check In: the rooms must be Available; they become Occupied.\n"
+"- Check Out: billable consumptions are added to the charges; the rooms become Dirty.\n"
+"- Cancel: releases the rooms.\n"
+"\n"
+"A room in maintenance or out of order cannot be booked. Two reservations never overlap on the same room; a departure and an arrival at the same time do not conflict."
+msgstr ""
+"Yon rezèvasyon gen yon kliyan, yon dat-lè rive ak yon dat-lè pati, ak yon liy pou chak chanm.\n"
+"\n"
+"Flo travay:\n"
+"- Bouyon: antre kalite chanm ak chanm chak liy, apre sa Kalkile pri yo.\n"
+"- Konfime: verifye si chak chanm lib pou peryòd la; pri yo kalkile apati tarif otèl la.\n"
+"- Anrejistre rive: chanm yo dwe Disponib; yo vin Okipe.\n"
+"- Anrejistre pati: konsomasyon faktirab yo ajoute nan chaj yo; chanm yo vin Sal.\n"
+"- Anile: libere chanm yo.\n"
+"\n"
+"Yon chanm nan antretyen oswa andeyò sèvis pa kapab rezève. De rezèvasyon pa janm chevoche sou menm chanm nan; yon pati ak yon rive nan menm lè pa nan konfli."
+
+msgctxt "model:hotel.documentation,content:doc_stock"
+msgid ""
+"Hotel articles are ordinary products flagged Hotel Article, with a hotel category and a Billed to Guest flag.\n"
+"\n"
+"Stock operations (Hotel > Stock > Stock Operations):\n"
+"- Replenishment moves articles from the warehouse into a room (minibar, linen...).\n"
+"- Consumption takes articles out of the room towards the consumption location. When the consumption is billable and the room has a guest in house, it is linked to the stay and charged at check-out.\n"
+"\n"
+"Each room has its own stock location under the hotel warehouse, so room stock counts in the warehouse stock. Standard articles per room type define the quantities expected in each room."
+msgstr ""
+"Atik otèl yo se pwodui òdinè ki make Atik otèl, ak yon kategori otèl ak yon makè Faktire bay kliyan.\n"
+"\n"
+"Operasyon stòk (Otèl > Stòk > Operasyon stòk):\n"
+"- Ranplasman deplase atik soti nan depo a nan yon chanm (minibar, dra...).\n"
+"- Konsomasyon pran atik yo nan chanm nan pou mennen yo kote konsomasyon an. Lè konsomasyon an faktirab epi chanm nan gen yon kliyan anndan, li lye ak sejou a epi chaje lè kliyan an pati.\n"
+"\n"
+"Chak chanm gen pwòp kote stòk li anba depo otèl la, konsa stòk chanm yo konte nan stòk depo a. Atik estanda pou chak kalite chanm defini kantite yo atann nan chak chanm."
+
+msgctxt "model:hotel.documentation,name:"
+msgid "Hotel Documentation"
+msgstr "Dokimantasyon otèl"
+
+msgctxt "model:hotel.documentation,title:doc_billing"
+msgid "Billing: Sales, Invoices and Discounts"
+msgstr "Faktirasyon: vant, fakti ak rabè"
+
+msgctxt "model:hotel.documentation,title:doc_channels"
+msgid "Channel Manager (module hotel_channel_manager)"
+msgstr "Jestyonè kanal (modil hotel_channel_manager)"
+
+msgctxt "model:hotel.documentation,title:doc_configuration"
+msgid "Configuration Checklist"
+msgstr "Lis konfigirasyon"
+
+msgctxt "model:hotel.documentation,title:doc_getting_started"
+msgid "Getting Started"
+msgstr "Kòmanse"
+
+msgctxt "model:hotel.documentation,title:doc_guests"
+msgid "Guests and Parties"
+msgstr "Kliyan ak pati"
+
+msgctxt "model:hotel.documentation,title:doc_housekeeping"
+msgid "Housekeeping (module hotel_housekeeping)"
+msgstr "Netwayaj (modil hotel_housekeeping)"
+
+msgctxt "model:hotel.documentation,title:doc_long_stays"
+msgid "Long Stays (Subscriptions)"
+msgstr "Sejou long (abònman)"
+
+msgctxt "model:hotel.documentation,title:doc_notifications"
+msgid "Dashboard and Notifications"
+msgstr "Tablo bò ak notifikasyon"
+
+msgctxt "model:hotel.documentation,title:doc_pos"
+msgid "Point of Sale and Room Charges"
+msgstr "Pwen vant ak chaj chanm"
+
+msgctxt "model:hotel.documentation,title:doc_pricing"
+msgid "Rates and Pricing"
+msgstr "Tarif ak pri"
+
+msgctxt "model:hotel.documentation,title:doc_purchasing"
+msgid "Purchasing of Consumables"
+msgstr "Achte founiti"
+
+msgctxt "model:hotel.documentation,title:doc_reports"
+msgid "Reports"
+msgstr "Rapò"
+
+msgctxt "model:hotel.documentation,title:doc_reservations"
+msgid "Reservations and Front Desk"
+msgstr "Rezèvasyon ak resepsyon"
+
+msgctxt "model:hotel.documentation,title:doc_stock"
+msgid "Articles, Consumables and Stock"
+msgstr "Atik, founiti ak stòk"
+
+msgctxt "model:hotel.notification,name:"
+msgid "Hotel Notification"
+msgstr "Notifikasyon otèl"
+
+msgctxt "model:hotel.reservation,name:"
+msgid "Hotel Reservation"
+msgstr "Rezèvasyon otèl"
+
+msgctxt "model:hotel.reservation.charge,name:"
+msgid "Hotel Reservation Charge"
+msgstr "Chaj rezèvasyon otèl"
+
+msgctxt "model:hotel.reservation.line,name:"
+msgid "Hotel Reservation Line"
+msgstr "Liy rezèvasyon otèl"
+
+msgctxt "model:hotel_pms.report.start,name:"
+msgid "Hotel Report"
+msgstr "Rapò otèl"
+
+msgctxt "model:ir.action,name:act_dashboard"
+msgid "Dashboard"
+msgstr "Tablo de bò"
+
+msgctxt "model:ir.action,name:act_documentation"
+msgid "Documentation"
+msgstr "Dokimantasyon"
+
+msgctxt "model:ir.action,name:act_movements"
+msgid "Today's Movements"
+msgstr "Mouvman jodi a"
+
+msgctxt "model:ir.action,name:act_notification"
+msgid "Notifications"
+msgstr "Notifikasyon"
+
+msgctxt "model:ir.action,name:act_order_point_hotel"
+msgid "Reorder Points"
+msgstr "Pwen kòmand"
+
+msgctxt "model:ir.action,name:act_purchase_hotel"
+msgid "Purchases"
+msgstr "Achte"
+
+msgctxt "model:ir.action,name:act_purchase_request_hotel"
+msgid "Purchase Requests"
+msgstr "Demann achte"
+
+msgctxt "model:ir.action,name:act_reservation_form"
+msgid "Reservations"
+msgstr "Rezèvasyon yo"
+
+msgctxt "model:ir.action,name:act_room_status"
+msgid "Room Status"
+msgstr "Eta chanm yo"
+
+msgctxt "model:ir.action,name:report_arrivals"
+msgid "Arrivals"
+msgstr "Rive"
+
+msgctxt "model:ir.action,name:report_departures"
+msgid "Departures"
+msgstr "Pati"
+
+msgctxt "model:ir.action,name:report_folio"
+msgid "Guest Folio"
+msgstr "Foli kliyan"
+
+msgctxt "model:ir.action,name:report_occupancy"
+msgid "Occupancy Report"
+msgstr "Rapò okipasyon"
+
+msgctxt "model:ir.action,name:report_revenue"
+msgid "Revenue Report"
+msgstr "Rapò revni"
+
+msgctxt "model:ir.action,name:wizard_print_arrivals"
+msgid "Arrivals"
+msgstr "Rive"
+
+msgctxt "model:ir.action,name:wizard_print_departures"
+msgid "Departures"
+msgstr "Pati"
+
+msgctxt "model:ir.action,name:wizard_print_occupancy"
+msgid "Occupancy Report"
+msgstr "Rapò okipasyon"
+
+msgctxt "model:ir.action,name:wizard_print_revenue"
+msgid "Revenue Report"
+msgstr "Rapò revni"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_notification_domain_alerts"
+msgid "Alerts and Warnings"
+msgstr "Alèt ak avètisman"
+
+msgctxt "model:ir.action.act_window.domain,name:act_notification_domain_all"
+msgid "All"
+msgstr "Tout"
+
+msgctxt "model:ir.action.act_window.domain,name:act_notification_domain_open"
+msgid "Open"
+msgstr "Louvri"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_notification_domain_reminders"
+msgid "Reminders"
+msgstr "Rapèl"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_reservation_form_domain_all"
+msgid "All"
+msgstr "Tout"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_reservation_form_domain_confirmed"
+msgid "Confirmed"
+msgstr "Konfime"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_reservation_form_domain_draft"
+msgid "Draft"
+msgstr "Bouyon"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_reservation_form_domain_in_house"
+msgid "In House"
+msgstr "Anndan otèl la"
+
+msgctxt "model:ir.message,text:msg_notice_capacity"
+msgid "%(guests)s guests for a total capacity of %(capacity)s."
+msgstr "%(guests)s kliyan pou yon kapasite total %(capacity)s."
+
+msgctxt "model:ir.message,text:msg_notice_room_busy"
+msgid "The room %(room)s is not available on these dates."
+msgstr "Chanm %(room)s pa disponib nan dat sa yo."
+
+msgctxt "model:ir.message,text:msg_notif_arrival"
+msgid "%(guest)s arrives at %(time)s (rooms: %(rooms)s)."
+msgstr "%(guest)s rive a %(time)s (chanm: %(rooms)s)."
+
+msgctxt "model:ir.message,text:msg_notif_arrival_title"
+msgid "Arrival today: %(number)s"
+msgstr "Rive jodi a: %(number)s"
+
+msgctxt "model:ir.message,text:msg_notif_departure"
+msgid "%(guest)s leaves at %(time)s (rooms: %(rooms)s)."
+msgstr "%(guest)s pati a %(time)s (chanm: %(rooms)s)."
+
+msgctxt "model:ir.message,text:msg_notif_departure_title"
+msgid "Departure today: %(number)s"
+msgstr "Pati jodi a: %(number)s"
+
+msgctxt "model:ir.message,text:msg_notif_late"
+msgid "%(guest)s was expected at %(time)s and is not checked in yet."
+msgstr "Yo t ap tann %(guest)s a %(time)s e li poko anrejistre."
+
+msgctxt "model:ir.message,text:msg_notif_late_title"
+msgid "Guest late: %(number)s"
+msgstr "Kliyan an reta: %(number)s"
+
+msgctxt "model:ir.message,text:msg_notif_lowstock"
+msgid "%(product)s: %(quantity)s left, minimum %(minimum)s."
+msgstr "%(product)s: rete %(quantity)s, minimòm %(minimum)s."
+
+msgctxt "model:ir.message,text:msg_notif_lowstock_title"
+msgid "Low stock: %(product)s"
+msgstr "Stòk ba: %(product)s"
+
+msgctxt "model:ir.message,text:msg_notif_noshow"
+msgid ""
+"%(guest)s did not arrive on %(time)s: cancel or check in the reservation."
+msgstr "%(guest)s pa t rive %(time)s: anile oswa anrejistre rezèvasyon an."
+
+msgctxt "model:ir.message,text:msg_notif_noshow_title"
+msgid "No-show: %(number)s"
+msgstr "Pa vini: %(number)s"
+
+msgctxt "model:ir.message,text:msg_notif_notready"
+msgid ""
+"Room %(room)s is \"%(state)s\" but reservation %(number)s arrives at "
+"%(time)s."
+msgstr ""
+"Chanm %(room)s se \"%(state)s\" men rezèvasyon %(number)s rive a %(time)s."
+
+msgctxt "model:ir.message,text:msg_notif_notready_title"
+msgid "Room %(room)s is not ready"
+msgstr "Chanm %(room)s pa pare"
+
+msgctxt "model:ir.message,text:msg_notif_occupancy"
+msgid "%(occupied)s of %(total)s rooms are occupied."
+msgstr "%(occupied)s sou %(total)s chanm okipe."
+
+msgctxt "model:ir.message,text:msg_notif_occupancy_title"
+msgid "High occupancy"
+msgstr "Gwo okipasyon"
+
+msgctxt "model:ir.message,text:msg_notif_overdue"
+msgid "%(guest)s should have left (rooms: %(rooms)s) on %(time)s."
+msgstr "%(guest)s te dwe pati (chanm: %(rooms)s) a %(time)s."
+
+msgctxt "model:ir.message,text:msg_notif_overdue_title"
+msgid "Check-out overdue: %(number)s"
+msgstr "Pati an reta: %(number)s"
+
+msgctxt "model:ir.message,text:msg_notif_roomout"
+msgid "Room %(room)s is \"%(state)s\"."
+msgstr "Chanm %(room)s se \"%(state)s\"."
+
+msgctxt "model:ir.message,text:msg_notif_roomout_title"
+msgid "Room %(room)s unavailable"
+msgstr "Chanm %(room)s pa disponib"
+
+msgctxt "model:ir.message,text:msg_notif_unbilled"
+msgid "The stay of %(guest)s is checked out and not billed (%(amount)s)."
+msgstr "Sejou %(guest)s fini e li pa faktire (%(amount)s)."
+
+msgctxt "model:ir.message,text:msg_notif_unbilled_title"
+msgid "Stay not billed: %(number)s"
+msgstr "Sejou pa faktire: %(number)s"
+
+msgctxt "model:ir.message,text:msg_notif_unpaid"
+msgid "The invoice of %(guest)s is still waiting for payment."
+msgstr "Fakti %(guest)s toujou ap tann peman."
+
+msgctxt "model:ir.message,text:msg_notif_unpaid_title"
+msgid "Stay not paid: %(number)s"
+msgstr "Sejou pa peye: %(number)s"
+
+msgctxt "model:ir.message,text:msg_notification_key_unique"
+msgid "This situation has already been notified."
+msgstr "Sitiyasyon sa a deja notifye."
+
+msgctxt "model:ir.message,text:msg_pos_room_charge_line"
+msgid "Point of sale charges - %(reservation)s"
+msgstr "Chaj pwen vant - %(reservation)s"
+
+msgctxt "model:ir.message,text:msg_pos_room_charge_no_reservation"
+msgid ""
+"The POS sale \"%(sale)s\" is paid by room charge: select the checked-in "
+"reservation to charge."
+msgstr ""
+"Vant POS \"%(sale)s\" la peye pa chaj chanm: chwazi rezèvasyon ki anrejistre"
+" a pou chaje."
+
+msgctxt "model:ir.message,text:msg_reservation_billed"
+msgid ""
+"The reservation \"%(reservation)s\" is already billed by a sale or a "
+"subscription."
+msgstr ""
+"Rezèvasyon \"%(reservation)s\" lan deja faktire pa yon vant oswa yon "
+"abònman."
+
+msgctxt "model:ir.message,text:msg_reservation_delete_state"
+msgid ""
+"You cannot delete the reservation \"%(reservation)s\" because it is not "
+"draft or cancelled."
+msgstr ""
+"Ou pa kapab efase rezèvasyon \"%(reservation)s\" lan paske li pa bouyon ni "
+"anile."
+
+msgctxt "model:ir.message,text:msg_reservation_line_no_room"
+msgid ""
+"The reservation \"%(reservation)s\" needs a room for the type "
+"\"%(room_type)s\"."
+msgstr ""
+"Rezèvasyon \"%(reservation)s\" lan bezwen yon chanm pou kalite "
+"\"%(room_type)s\" la."
+
+msgctxt "model:ir.message,text:msg_reservation_no_lines"
+msgid "The reservation \"%(reservation)s\" has no room."
+msgstr "Rezèvasyon \"%(reservation)s\" lan pa gen chanm."
+
+msgctxt "model:ir.message,text:msg_reservation_no_product"
+msgid "The room type \"%(room_type)s\" has no %(mode)s product to sell."
+msgstr "Kalite chanm \"%(room_type)s\" pa gen pwodui %(mode)s pou vann."
+
+msgctxt "model:ir.message,text:msg_reservation_no_recurrence"
+msgid ""
+"Set an invoice recurrence on the reservation \"%(reservation)s\" to create "
+"its subscription."
+msgstr ""
+"Mete yon repetisyon fakti sou rezèvasyon \"%(reservation)s\" lan pou kreye "
+"abònman li."
+
+msgctxt "model:ir.message,text:msg_reservation_no_room_charge_product"
+msgid ""
+"Set a room charge product on hotel \"%(hotel)s\" to settle the point of sale"
+" charges."
+msgstr ""
+"Mete yon pwodui chaj chanm sou otèl \"%(hotel)s\" la pou regle chaj pwen "
+"vant yo."
+
+msgctxt "model:ir.message,text:msg_reservation_no_service"
+msgid ""
+"The night product of room type \"%(room_type)s\" has no subscription "
+"service."
+msgstr "Pwodui nwit kalite chanm \"%(room_type)s\" lan pa gen sèvis abònman."
+
+msgctxt "model:ir.message,text:msg_reservation_nothing_to_sell"
+msgid ""
+"The reservation \"%(reservation)s\" is billed by subscription and has no "
+"charge to sell."
+msgstr ""
+"Rezèvasyon \"%(reservation)s\" lan faktire pa abònman e li pa gen chaj pou "
+"vann."
+
+msgctxt "model:ir.message,text:msg_reservation_room_duplicate"
+msgid "The room \"%(room)s\" is used twice in the reservation \"%(reservation)s\"."
+msgstr "Chanm \"%(room)s\" la itilize de fwa nan rezèvasyon \"%(reservation)s\" lan."
+
+msgctxt "model:ir.message,text:msg_reservation_room_not_ready"
+msgid ""
+"The room \"%(room)s\" cannot be checked in for the reservation "
+"\"%(reservation)s\" because its state is \"%(state)s\"."
+msgstr ""
+"Chanm \"%(room)s\" pa kapab anrejistre pou rezèvasyon \"%(reservation)s\" "
+"lan paske eta li se \"%(state)s\"."
+
+msgctxt "model:ir.message,text:msg_reservation_room_unavailable"
+msgid ""
+"The room \"%(room)s\" is not available between %(start)s and %(end)s for the"
+" reservation \"%(reservation)s\"."
+msgstr ""
+"Chanm \"%(room)s\" pa disponib ant %(start)s ak %(end)s pou rezèvasyon "
+"\"%(reservation)s\" lan."
+
+msgctxt "model:ir.message,text:msg_reservation_sale_exists"
+msgid "The reservation \"%(reservation)s\" already has a sale."
+msgstr "Rezèvasyon \"%(reservation)s\" lan deja gen yon vant."
+
+msgctxt "model:ir.model.button,help:dashboard_refresh_button"
+msgid "Raise the notifications and reload the figures"
+msgstr "Leve notifikasyon yo epi rechaje chif yo"
+
+msgctxt "model:ir.model.button,help:hotel_update_order_points_button"
+msgid ""
+"Create or update the purchase order points from the standard articles of the"
+" rooms"
+msgstr "Kreye oswa mete ajou pwen kòmand achte yo apati atik estanda chanm yo"
+
+msgctxt "model:ir.model.button,string:dashboard_refresh_button"
+msgid "Refresh"
+msgstr "Rafrechi"
+
+msgctxt "model:ir.model.button,string:hotel_update_order_points_button"
+msgid "Update Order Points"
+msgstr "Mete ajou pwen kòmand"
+
+msgctxt "model:ir.model.button,string:notification_dismiss_button"
+msgid "Dismiss"
+msgstr "Rejte"
+
+msgctxt "model:ir.model.button,string:notification_done_button"
+msgid "Done"
+msgstr "Fini"
+
+msgctxt "model:ir.model.button,string:notification_reopen_button"
+msgid "Reopen"
+msgstr "Wouvri ankò"
+
+msgctxt "model:ir.model.button,string:reservation_cancel_button"
+msgid "Cancel"
+msgstr "Anile"
+
+msgctxt "model:ir.model.button,string:reservation_check_in_button"
+msgid "Check In"
+msgstr "Anrejistre rive"
+
+msgctxt "model:ir.model.button,string:reservation_check_out_button"
+msgid "Check Out"
+msgstr "Anrejistre pati"
+
+msgctxt "model:ir.model.button,string:reservation_compute_button"
+msgid "Compute Prices"
+msgstr "Kalkile pri yo"
+
+msgctxt "model:ir.model.button,string:reservation_confirm_button"
+msgid "Confirm"
+msgstr "Konfime"
+
+msgctxt "model:ir.model.button,string:reservation_create_sale_button"
+msgid "Create Sale"
+msgstr "Kreye vant"
+
+msgctxt "model:ir.model.button,string:reservation_create_subscription_button"
+msgid "Create Subscription"
+msgstr "Kreye abònman"
+
+msgctxt "model:ir.model.button,string:reservation_draft_button"
+msgid "Draft"
+msgstr "Bouyon"
+
+msgctxt "model:ir.rule.group,name:rule_group_dashboard_companies"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.rule.group,name:rule_group_notification_companies"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.rule.group,name:rule_group_reservation_charge_companies"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.rule.group,name:rule_group_reservation_companies"
+msgid "User in companies"
+msgstr "Itilizatè nan konpayi yo"
+
+msgctxt "model:ir.sequence,name:sequence_reservation"
+msgid "Hotel Reservation"
+msgstr "Rezèvasyon otèl"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_reservation"
+msgid "Hotel Reservation"
+msgstr "Rezèvasyon otèl"
+
+msgctxt "model:ir.ui.menu,name:menu_dashboard"
+msgid "Dashboard"
+msgstr "Tablo de bò"
+
+msgctxt "model:ir.ui.menu,name:menu_documentation"
+msgid "Documentation"
+msgstr "Dokimantasyon"
+
+msgctxt "model:ir.ui.menu,name:menu_movements"
+msgid "Today's Movements"
+msgstr "Mouvman jodi a"
+
+msgctxt "model:ir.ui.menu,name:menu_notification"
+msgid "Notifications"
+msgstr "Notifikasyon"
+
+msgctxt "model:ir.ui.menu,name:menu_order_point_hotel"
+msgid "Reorder Points"
+msgstr "Pwen kòmand"
+
+msgctxt "model:ir.ui.menu,name:menu_pms"
+msgid "Front Desk"
+msgstr "Resepsyon"
+
+msgctxt "model:ir.ui.menu,name:menu_print_arrivals"
+msgid "Arrivals"
+msgstr "Rive"
+
+msgctxt "model:ir.ui.menu,name:menu_print_departures"
+msgid "Departures"
+msgstr "Pati"
+
+msgctxt "model:ir.ui.menu,name:menu_print_occupancy"
+msgid "Occupancy Report"
+msgstr "Rapò okipasyon"
+
+msgctxt "model:ir.ui.menu,name:menu_print_revenue"
+msgid "Revenue Report"
+msgstr "Rapò revni"
+
+msgctxt "model:ir.ui.menu,name:menu_purchase"
+msgid "Purchasing"
+msgstr "Achte"
+
+msgctxt "model:ir.ui.menu,name:menu_purchase_hotel"
+msgid "Purchases"
+msgstr "Achte"
+
+msgctxt "model:ir.ui.menu,name:menu_purchase_request_hotel"
+msgid "Purchase Requests"
+msgstr "Demann achte"
+
+msgctxt "model:ir.ui.menu,name:menu_report"
+msgid "Reports"
+msgstr "Rapò"
+
+msgctxt "model:ir.ui.menu,name:menu_reservation_form"
+msgid "Reservations"
+msgstr "Rezèvasyon yo"
+
+msgctxt "model:ir.ui.menu,name:menu_room_status"
+msgid "Room Status"
+msgstr "Eta chanm yo"
+
+msgctxt "model:ir.ui.menu,name:menu_statistics"
+msgid "Statistics"
+msgstr "Estatistik"
+
+msgctxt "report:hotel.reservation.folio:"
+msgid "Amount"
+msgstr "Montan"
+
+msgctxt "report:hotel.reservation.folio:"
+msgid "Billed As"
+msgstr "Faktire kòm"
+
+msgctxt "report:hotel.reservation.folio:"
+msgid "Charges"
+msgstr "Chaj yo"
+
+msgctxt "report:hotel.reservation.folio:"
+msgid "Description"
+msgstr "Deskripsyon"
+
+msgctxt "report:hotel.reservation.folio:"
+msgid "Guest Folio"
+msgstr "Foli kliyan"
+
+msgctxt "report:hotel.reservation.folio:"
+msgid "Quantity"
+msgstr "Kantite"
+
+msgctxt "report:hotel.reservation.folio:"
+msgid "Room"
+msgstr "Chanm"
+
+msgctxt "report:hotel.reservation.folio:"
+msgid "Rooms"
+msgstr "Chanm yo"
+
+msgctxt "report:hotel.reservation.folio:"
+msgid "Total:"
+msgstr "Total :"
+
+msgctxt "report:hotel.reservation.folio:"
+msgid "Type"
+msgstr "Tip"
+
+msgctxt "report:hotel.reservation.folio:"
+msgid "Unit Price"
+msgstr "Pri inite"
+
+msgctxt "report:hotel.reservation.folio:"
+msgid "—"
+msgstr "—"
+
+msgctxt "report:hotel.reservation.folio:"
+msgid "→"
+msgstr "→"
+
+msgctxt "report:hotel_pms.report.arrivals:"
+msgid "Adults"
+msgstr "Granmoun"
+
+msgctxt "report:hotel_pms.report.arrivals:"
+msgid "Arrival"
+msgstr "Rive"
+
+msgctxt "report:hotel_pms.report.arrivals:"
+msgid "Arrivals"
+msgstr "Rive"
+
+msgctxt "report:hotel_pms.report.arrivals:"
+msgid "Children"
+msgstr "Pitit yo"
+
+msgctxt "report:hotel_pms.report.arrivals:"
+msgid "Departure"
+msgstr "Depa"
+
+msgctxt "report:hotel_pms.report.arrivals:"
+msgid "Guest"
+msgstr "Envite"
+
+msgctxt "report:hotel_pms.report.arrivals:"
+msgid "Reservation"
+msgstr "Rezèvasyon"
+
+msgctxt "report:hotel_pms.report.arrivals:"
+msgid "Rooms"
+msgstr "Chanm yo"
+
+msgctxt "report:hotel_pms.report.arrivals:"
+msgid "State"
+msgstr "Eta"
+
+msgctxt "report:hotel_pms.report.arrivals:"
+msgid "—"
+msgstr "—"
+
+msgctxt "report:hotel_pms.report.arrivals:"
+msgid "→"
+msgstr "→"
+
+msgctxt "report:hotel_pms.report.departures:"
+msgid "Adults"
+msgstr "Granmoun"
+
+msgctxt "report:hotel_pms.report.departures:"
+msgid "Arrival"
+msgstr "Rive"
+
+msgctxt "report:hotel_pms.report.departures:"
+msgid "Children"
+msgstr "Pitit yo"
+
+msgctxt "report:hotel_pms.report.departures:"
+msgid "Departure"
+msgstr "Depa"
+
+msgctxt "report:hotel_pms.report.departures:"
+msgid "Departures"
+msgstr "Pati"
+
+msgctxt "report:hotel_pms.report.departures:"
+msgid "Guest"
+msgstr "Envite"
+
+msgctxt "report:hotel_pms.report.departures:"
+msgid "Reservation"
+msgstr "Rezèvasyon"
+
+msgctxt "report:hotel_pms.report.departures:"
+msgid "Rooms"
+msgstr "Chanm yo"
+
+msgctxt "report:hotel_pms.report.departures:"
+msgid "State"
+msgstr "Eta"
+
+msgctxt "report:hotel_pms.report.departures:"
+msgid "—"
+msgstr "—"
+
+msgctxt "report:hotel_pms.report.departures:"
+msgid "→"
+msgstr "→"
+
+msgctxt "report:hotel_pms.report.occupancy:"
+msgid "ADR"
+msgstr "ADR"
+
+msgctxt "report:hotel_pms.report.occupancy:"
+msgid "Date"
+msgstr "Dat"
+
+msgctxt "report:hotel_pms.report.occupancy:"
+msgid "Occupancy (%)"
+msgstr "Okipasyon (%)"
+
+msgctxt "report:hotel_pms.report.occupancy:"
+msgid "Occupancy Report"
+msgstr "Rapò okipasyon"
+
+msgctxt "report:hotel_pms.report.occupancy:"
+msgid "Occupied"
+msgstr "Okipe"
+
+msgctxt "report:hotel_pms.report.occupancy:"
+msgid "RevPAR"
+msgstr "RevPAR"
+
+msgctxt "report:hotel_pms.report.occupancy:"
+msgid "Room Revenue"
+msgstr "Revni chanm"
+
+msgctxt "report:hotel_pms.report.occupancy:"
+msgid "Rooms"
+msgstr "Chanm yo"
+
+msgctxt "report:hotel_pms.report.occupancy:"
+msgid "Total"
+msgstr "Total"
+
+msgctxt "report:hotel_pms.report.occupancy:"
+msgid "—"
+msgstr "—"
+
+msgctxt "report:hotel_pms.report.occupancy:"
+msgid "→"
+msgstr "→"
+
+msgctxt "report:hotel_pms.report.revenue:"
+msgid "Amount"
+msgstr "Montan"
+
+msgctxt "report:hotel_pms.report.revenue:"
+msgid "Description"
+msgstr "Deskripsyon"
+
+msgctxt "report:hotel_pms.report.revenue:"
+msgid "Quantity"
+msgstr "Kantite"
+
+msgctxt "report:hotel_pms.report.revenue:"
+msgid "Revenue Report"
+msgstr "Rapò revni"
+
+msgctxt "report:hotel_pms.report.revenue:"
+msgid "Total"
+msgstr "Total"
+
+msgctxt "report:hotel_pms.report.revenue:"
+msgid "—"
+msgstr "—"
+
+msgctxt "report:hotel_pms.report.revenue:"
+msgid "→"
+msgstr "→"
+
+msgctxt "selection:hotel.notification,kind:"
+msgid "Alert"
+msgstr "Alèt"
+
+msgctxt "selection:hotel.notification,kind:"
+msgid "Information"
+msgstr "Enfòmasyon"
+
+msgctxt "selection:hotel.notification,kind:"
+msgid "Reminder"
+msgstr "Rapèl"
+
+msgctxt "selection:hotel.notification,kind:"
+msgid "Warning"
+msgstr "Avètisman"
+
+msgctxt "selection:hotel.notification,state:"
+msgid "Dismissed"
+msgstr "Rejte"
+
+msgctxt "selection:hotel.notification,state:"
+msgid "Done"
+msgstr "Fini"
+
+msgctxt "selection:hotel.notification,state:"
+msgid "Open"
+msgstr "Louvri"
+
+msgctxt "selection:hotel.reservation,state:"
+msgid "Cancelled"
+msgstr "Anile"
+
+msgctxt "selection:hotel.reservation,state:"
+msgid "Checked In"
+msgstr "Anrejistre (rive)"
+
+msgctxt "selection:hotel.reservation,state:"
+msgid "Checked Out"
+msgstr "Anrejistre (pati)"
+
+msgctxt "selection:hotel.reservation,state:"
+msgid "Confirmed"
+msgstr "Konfime"
+
+msgctxt "selection:hotel.reservation,state:"
+msgid "Draft"
+msgstr "Bouyon"
+
+msgctxt "selection:hotel.reservation.line,billed_as:"
+msgid "Hourly"
+msgstr "Pa èdtan"
+
+msgctxt "selection:hotel.reservation.line,billed_as:"
+msgid "Nightly"
+msgstr "Pa nwit"
+
+msgctxt "selection:hotel.reservation.line,pricing:"
+msgid "Automatic"
+msgstr "Otomatik"
+
+msgctxt "selection:hotel.reservation.line,pricing:"
+msgid "Hourly"
+msgstr "Pa èdtan"
+
+msgctxt "selection:hotel.reservation.line,pricing:"
+msgid "Nightly"
+msgstr "Pa nwit"
+
+msgctxt "selection:ir.cron,method:"
+msgid "Generate Hotel Notifications"
+msgstr "Jenere notifikasyon otèl yo"
+
+msgctxt "view:hotel.dashboard:"
+msgid "Arrivals"
+msgstr "Rive"
+
+msgctxt "view:hotel.dashboard:"
+msgid "Departures"
+msgstr "Pati"
+
+msgctxt "view:hotel.dashboard:"
+msgid "In House"
+msgstr "Anndan otèl la"
+
+msgctxt "view:hotel.dashboard:"
+msgid "Notifications"
+msgstr "Notifikasyon"
+
+msgctxt "view:hotel.dashboard:"
+msgid "Refresh"
+msgstr "Rafrechi"
+
+msgctxt "view:hotel.dashboard:"
+msgid "Revenue"
+msgstr "Revni"
+
+msgctxt "view:hotel.dashboard:"
+msgid "Rooms"
+msgstr "Chanm yo"
+
+msgctxt "view:hotel.dashboard:"
+msgid "Today"
+msgstr "Jodi a"
+
+msgctxt "view:hotel.hotel:"
+msgid "Update Order Points"
+msgstr "Mete ajou pwen kòmand"
+
+msgctxt "view:hotel.reservation:"
+msgid "Charges"
+msgstr "Chaj yo"
+
+msgctxt "view:hotel.reservation:"
+msgid "Other Info"
+msgstr "Lòt enfòmasyon"
+
+msgctxt "view:hotel.reservation:"
+msgid "Rooms"
+msgstr "Chanm yo"
+
+msgctxt "wizard_button:hotel_pms.report.print_arrivals,start,end:"
+msgid "Cancel"
+msgstr "Anile"
+
+msgctxt "wizard_button:hotel_pms.report.print_arrivals,start,print_:"
+msgid "Print"
+msgstr "Enprime"
+
+msgctxt "wizard_button:hotel_pms.report.print_departures,start,end:"
+msgid "Cancel"
+msgstr "Anile"
+
+msgctxt "wizard_button:hotel_pms.report.print_departures,start,print_:"
+msgid "Print"
+msgstr "Enprime"
+
+msgctxt "wizard_button:hotel_pms.report.print_occupancy,start,end:"
+msgid "Cancel"
+msgstr "Anile"
+
+msgctxt "wizard_button:hotel_pms.report.print_occupancy,start,print_:"
+msgid "Print"
+msgstr "Enprime"
+
+msgctxt "wizard_button:hotel_pms.report.print_revenue,start,end:"
+msgid "Cancel"
+msgstr "Anile"
+
+msgctxt "wizard_button:hotel_pms.report.print_revenue,start,print_:"
+msgid "Print"
+msgstr "Enprime"

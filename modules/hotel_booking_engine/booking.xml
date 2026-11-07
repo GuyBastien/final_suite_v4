@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_booking_engine module. -->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="hotel_view_form">
+            <field name="model">hotel.hotel</field>
+            <field name="inherit" ref="hotel.hotel_view_form"/>
+            <field name="name">hotel_form</field>
+        </record>
+        <record model="ir.ui.view" id="reservation_view_form">
+            <field name="model">hotel.reservation</field>
+            <field name="inherit" ref="hotel_pms.reservation_view_form"/>
+            <field name="name">reservation_form</field>
+        </record>
+        <record model="ir.model.button" id="hotel_new_booking_token_button">
+            <field name="model" search="[('model', '=', 'hotel.hotel')]"/>
+            <field name="name">new_booking_token</field>
+            <field name="string">New Booking Address</field>
+        </record>
+        <record model="ir.model.button-res.group" id="hotel_new_booking_token_button_group_admin">
+            <field name="button" ref="hotel_new_booking_token_button"/>
+            <field name="group" ref="hotel.group_hotel_admin"/>
+        </record>
+    </data>
+</tryton>

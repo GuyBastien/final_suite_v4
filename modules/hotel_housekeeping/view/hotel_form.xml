@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_housekeeping module. -->
+<data>
+    <xpath expr="/form/field[@name='check_out_time']" position="after">
+        <label name="inspection_required"/>
+        <field name="inspection_required"/>
+        <label name="daily_refresh"/>
+        <field name="daily_refresh"/>
+        <field name="checklist" colspan="4"
+            view_ids="hotel_housekeeping.checklist_view_list"/>
+    </xpath>
+</data>

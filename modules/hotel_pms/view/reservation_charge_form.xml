@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_pms module. -->
+<form>
+    <label name="reservation"/>
+    <field name="reservation"/>
+    <label name="product"/>
+    <field name="product"/>
+    <label name="description"/>
+    <field name="description"/>
+    <label name="quantity"/>
+    <field name="quantity"/>
+    <label name="unit"/>
+    <field name="unit"/>
+    <label name="unit_price"/>
+    <field name="unit_price"/>
+    <label name="amount"/>
+    <field name="amount"/>
+    <label name="consumption_line"/>
+    <field name="consumption_line"/>
+</form>

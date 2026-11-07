@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_mobile_payment module. -->
+<tryton>
+    <data grouped="1">
+        <record model="ir.message" id="msg_mobile_typed">
+            <field name="text">A mobile deposit cannot be typed. Use "Pay by Mobile": the deposit is recorded when the operator confirms the payment.</field>
+        </record>
+        <record model="ir.message" id="msg_company">
+            <field name="text">The mobile payment "%(transaction)s" and its reservation must belong to the same company.</field>
+        </record>
+        <record model="ir.message" id="msg_not_payable">
+            <field name="text">Reservation "%(reservation)s" can only be paid while it is confirmed or checked in.</field>
+        </record>
+        <record model="ir.message" id="msg_nothing_due">
+            <field name="text">Reservation "%(reservation)s" has no balance left to pay. Compute its amounts first if the stay was changed.</field>
+        </record>
+    </data>
+</tryton>

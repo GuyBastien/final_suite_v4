@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton moncash module. -->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="account_view_form">
+            <field name="model">mobile.payment.account</field>
+            <field name="inherit" ref="mobile_payment.account_view_form"/>
+            <field name="name">account_form</field>
+        </record>
+        <record model="ir.model.field.access" id="access_moncash_secret">
+            <field name="field" search="[('model.model', '=', 'mobile.payment.account'), ('name', '=', 'moncash_client_secret')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.field.access" id="access_moncash_secret_admin">
+            <field name="field" search="[('model.model', '=', 'mobile.payment.account'), ('name', '=', 'moncash_client_secret')]"/>
+            <field name="group" ref="mobile_payment.group_mobile_payment_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+    </data>
+</tryton>

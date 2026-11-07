@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton restaurant module. -->
+<tree>
+    <field name="order"/>
+    <field name="table"/>
+    <field name="product"/>
+    <field name="quantity"/>
+    <field name="note"/>
+    <field name="course"/>
+    <field name="state"/>
+    <field optional="1" name="elapsed_minutes"/>
+    <field optional="1" name="ideal_minutes"/>
+    <field optional="1" name="delay" tree_invisible="1"/>
+    <button name="start"/>
+    <button name="ready"/>
+    <button name="serve"/>
+    <!-- <field name="sent_at"/> -->
+</tree>

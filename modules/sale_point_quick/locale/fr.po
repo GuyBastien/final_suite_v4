@@ -1,0 +1,66 @@
+#
+msgid ""
+msgstr ""
+"Language: fr\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.template,pos_quick:"
+msgid "Quick Sale"
+msgstr "Vente rapide"
+
+msgctxt "field:sale.point,card_method:"
+msgid "Card Method"
+msgstr "Mode carte"
+
+msgctxt "field:sale.point.sale,quick_code:"
+msgid "Quick Code"
+msgstr "Code rapide"
+
+msgctxt "field:sale.point.sale,quick_product:"
+msgid "Quick Product"
+msgstr "Produit rapide"
+
+msgctxt "help:product.template,pos_quick:"
+msgid "Show the product in the quick sale selection of the point of sale."
+msgstr ""
+"Afficher le produit dans la sélection de vente rapide du point de vente."
+
+msgctxt "help:sale.point,card_method:"
+msgid "Payment method used by the one-click card button."
+msgstr "Mode de paiement utilisé par le bouton carte en un clic."
+
+msgctxt "help:sale.point.sale,quick_code:"
+msgid ""
+"Scan or type a product code, optionally preceded by a quantity: 3*COLA."
+msgstr ""
+"Scannez ou saisissez un code produit, éventuellement précédé d'une quantité "
+": 3*COLA."
+
+msgctxt "help:sale.point.sale,quick_product:"
+msgid "Pick a favourite product to add it to the sale."
+msgstr "Choisissez un produit favori pour l'ajouter à la vente."
+
+msgctxt "model:ir.message,text:msg_no_card_method"
+msgid "Point of sale \"%(point)s\" has no card payment method."
+msgstr ""
+"Le point de vente « %(point)s » n'a pas de mode de paiement par carte."
+
+msgctxt "model:ir.message,text:msg_no_cash_method"
+msgid "Company \"%(company)s\" has no cash payment method."
+msgstr "La société « %(company)s » n'a pas de mode de paiement en espèces."
+
+msgctxt "model:ir.message,text:msg_sale_empty"
+msgid "Sale \"%(sale)s\" has no line to pay."
+msgstr "La vente « %(sale)s » n'a aucune ligne à payer."
+
+msgctxt "model:ir.message,text:msg_unknown_code"
+msgid "No salable product has the code \"%(code)s\"."
+msgstr "Aucun produit vendable n'a le code « %(code)s »."
+
+msgctxt "model:ir.model.button,string:sale_pay_card_button"
+msgid "Pay by Card"
+msgstr "Payer par carte"
+
+msgctxt "model:ir.model.button,string:sale_pay_cash_button"
+msgid "Pay in Cash"
+msgstr "Payer en espèces"

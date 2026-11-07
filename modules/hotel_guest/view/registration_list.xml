@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_guest module. -->
+<tree>
+    <field name="reservation"/>
+    <field name="first_name"/>
+    <field name="name"/>
+    <field name="nationality"/>
+    <field name="id_type"/>
+    <field name="id_number"/>
+</tree>

@@ -1,0 +1,6 @@
+trytond<7.1,>=7.0
+trytond_company<7.1,>=7.0
+trytond_currency<7.1,>=7.0
+trytond_sale_point<7.1,>=7.0
+sale_point_quick-tryton
+segno>=1.5

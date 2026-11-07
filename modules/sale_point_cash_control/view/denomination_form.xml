@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton sale_point_cash_control module. -->
+<form>
+    <label name="company"/>
+    <field name="company"/>
+    <label name="active"/>
+    <field name="active"/>
+    <label name="kind"/>
+    <field name="kind"/>
+    <label name="value"/>
+    <field name="value"/>
+</form>

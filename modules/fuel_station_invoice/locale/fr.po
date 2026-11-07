@@ -1,0 +1,29 @@
+#
+msgid ""
+msgstr ""
+"Language: fr\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:fuel.shift,invoices:"
+msgid "Invoices"
+msgstr "Factures"
+
+msgctxt "help:fuel.shift,invoices:"
+msgid "Invoices generated from this record."
+msgstr "Factures générées à partir de cet enregistrement."
+
+msgctxt "model:ir.message,text:msg_no_invoice_address"
+msgid ""
+"Customer \"%(party)s\" has no address: it is needed to invoice the credit "
+"sales of shift \"%(shift)s\"."
+msgstr ""
+"Le client « %(party)s » n'a pas d'adresse : elle est nécessaire pour "
+"facturer les ventes à crédit du quart « %(shift)s »."
+
+msgctxt "model:ir.message,text:msg_no_revenue_account"
+msgid ""
+"Fuel \"%(product)s\" has no revenue account: it is needed to invoice the "
+"credit sales of shift \"%(shift)s\"."
+msgstr ""
+"Le carburant « %(product)s » n'a pas de compte de produits : il est "
+"nécessaire pour facturer les ventes à crédit du quart « %(shift)s »."

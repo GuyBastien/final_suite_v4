@@ -1,0 +1,664 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:hotel.consumption,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:hotel.consumption,date:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "field:hotel.consumption,hotel:"
+msgid "Hotel"
+msgstr "Hôtel"
+
+msgctxt "field:hotel.consumption,kind:"
+msgid "Kind"
+msgstr "Genre"
+
+msgctxt "field:hotel.consumption,lines:"
+msgid "Lines"
+msgstr "Lignes"
+
+msgctxt "field:hotel.consumption,notes:"
+msgid "Notes"
+msgstr "Notes"
+
+msgctxt "field:hotel.consumption,number:"
+msgid "Number"
+msgstr "Numéro"
+
+msgctxt "field:hotel.consumption,room:"
+msgid "Room"
+msgstr "Chambre"
+
+msgctxt "field:hotel.consumption,state:"
+msgid "State"
+msgstr "État"
+
+msgctxt "field:hotel.consumption.line,billable:"
+msgid "Billable"
+msgstr "Facturable"
+
+msgctxt "field:hotel.consumption.line,consumption:"
+msgid "Operation"
+msgstr "Opération"
+
+msgctxt "field:hotel.consumption.line,move:"
+msgid "Stock Move"
+msgstr "Mouvement de stock"
+
+msgctxt "field:hotel.consumption.line,product:"
+msgid "Product"
+msgstr "Produit"
+
+msgctxt "field:hotel.consumption.line,product_uom_category:"
+msgid "Product UoM Category"
+msgstr "Catégorie d'unité du produit"
+
+msgctxt "field:hotel.consumption.line,quantity:"
+msgid "Quantity"
+msgstr "Quantité"
+
+msgctxt "field:hotel.consumption.line,unit:"
+msgid "Unit"
+msgstr "Unité"
+
+msgctxt "field:hotel.consumption.line,unit_price:"
+msgid "Unit Price"
+msgstr "Prix unitaire"
+
+msgctxt "field:hotel.hotel,check_in_time:"
+msgid "Check-in Time"
+msgstr "Heure d'arrivée"
+
+msgctxt "field:hotel.hotel,check_out_time:"
+msgid "Check-out Time"
+msgstr "Heure de départ"
+
+msgctxt "field:hotel.hotel,code:"
+msgid "Code"
+msgstr "Code"
+
+msgctxt "field:hotel.hotel,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:hotel.hotel,consumption_location:"
+msgid "Consumption Location"
+msgstr "Emplacement de consommation"
+
+msgctxt "field:hotel.hotel,currency:"
+msgid "Currency"
+msgstr "Devise"
+
+msgctxt "field:hotel.hotel,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:hotel.hotel,party:"
+msgid "Party"
+msgstr "Tiers"
+
+msgctxt "field:hotel.hotel,room_types:"
+msgid "Room Types"
+msgstr "Types de chambre"
+
+msgctxt "field:hotel.hotel,rooms:"
+msgid "Rooms"
+msgstr "Chambres"
+
+msgctxt "field:hotel.hotel,warehouse:"
+msgid "Warehouse"
+msgstr "Entrepôt"
+
+msgctxt "field:hotel.rate,currency:"
+msgid "Currency"
+msgstr "Devise"
+
+msgctxt "field:hotel.rate,end_date:"
+msgid "End Date"
+msgstr "Date de fin"
+
+msgctxt "field:hotel.rate,hour_price:"
+msgid "Hour Price"
+msgstr "Prix à l'heure"
+
+msgctxt "field:hotel.rate,max_hours:"
+msgid "Maximum Hours"
+msgstr "Heures maximum"
+
+msgctxt "field:hotel.rate,min_hours:"
+msgid "Minimum Hours"
+msgstr "Heures minimum"
+
+msgctxt "field:hotel.rate,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:hotel.rate,night_price:"
+msgid "Night Price"
+msgstr "Prix de la nuit"
+
+msgctxt "field:hotel.rate,room_type:"
+msgid "Room Type"
+msgstr "Type de chambre"
+
+msgctxt "field:hotel.rate,start_date:"
+msgid "Start Date"
+msgstr "Date de début"
+
+msgctxt "field:hotel.rate,weekend_night_price:"
+msgid "Weekend Night Price"
+msgstr "Prix de la nuit de week-end"
+
+msgctxt "field:hotel.room,floor:"
+msgid "Floor"
+msgstr "Étage"
+
+msgctxt "field:hotel.room,hotel:"
+msgid "Hotel"
+msgstr "Hôtel"
+
+msgctxt "field:hotel.room,location:"
+msgid "Stock Location"
+msgstr "Emplacement de stock"
+
+msgctxt "field:hotel.room,name:"
+msgid "Number"
+msgstr "Numéro"
+
+msgctxt "field:hotel.room,notes:"
+msgid "Notes"
+msgstr "Notes"
+
+msgctxt "field:hotel.room,state:"
+msgid "State"
+msgstr "État"
+
+msgctxt "field:hotel.room,type:"
+msgid "Type"
+msgstr "Type"
+
+msgctxt "field:hotel.room.type,articles:"
+msgid "Standard Articles"
+msgstr "Articles standard"
+
+msgctxt "field:hotel.room.type,capacity:"
+msgid "Capacity"
+msgstr "Capacité"
+
+msgctxt "field:hotel.room.type,code:"
+msgid "Code"
+msgstr "Code"
+
+msgctxt "field:hotel.room.type,description:"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "field:hotel.room.type,hotel:"
+msgid "Hotel"
+msgstr "Hôtel"
+
+msgctxt "field:hotel.room.type,hour_product:"
+msgid "Hour Product"
+msgstr "Produit heure"
+
+msgctxt "field:hotel.room.type,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:hotel.room.type,night_product:"
+msgid "Night Product"
+msgstr "Produit nuit"
+
+msgctxt "field:hotel.room.type,rates:"
+msgid "Rates"
+msgstr "Tarifs"
+
+msgctxt "field:hotel.room.type,rooms:"
+msgid "Rooms"
+msgstr "Chambres"
+
+msgctxt "field:hotel.room.type.article,product:"
+msgid "Product"
+msgstr "Produit"
+
+msgctxt "field:hotel.room.type.article,product_uom_category:"
+msgid "Product UoM Category"
+msgstr "Catégorie d'unité du produit"
+
+msgctxt "field:hotel.room.type.article,quantity:"
+msgid "Quantity"
+msgstr "Quantité"
+
+msgctxt "field:hotel.room.type.article,room_type:"
+msgid "Room Type"
+msgstr "Type de chambre"
+
+msgctxt "field:hotel.room.type.article,unit:"
+msgid "Unit"
+msgstr "Unité"
+
+msgctxt "field:product.template,hotel_article:"
+msgid "Hotel Article"
+msgstr "Article hôtelier"
+
+msgctxt "field:product.template,hotel_billable:"
+msgid "Billed to Guest"
+msgstr "Facturé au client"
+
+msgctxt "field:product.template,hotel_category:"
+msgid "Hotel Category"
+msgstr "Catégorie hôtelière"
+
+msgctxt "help:hotel.consumption,kind:"
+msgid ""
+"Consumption takes the articles out of the room (or the warehouse) to the "
+"consumption location. Replenishment moves them from the warehouse into the "
+"room."
+msgstr ""
+"La consommation sort les articles de la chambre (ou de l'entrepôt) vers "
+"l'emplacement de consommation. Le réapprovisionnement les déplace de "
+"l'entrepôt vers la chambre."
+
+msgctxt "help:hotel.consumption.line,billable:"
+msgid "Charge this consumption to the guest."
+msgstr "Facturer cette consommation au client."
+
+msgctxt "help:hotel.consumption.line,unit_price:"
+msgid "The price charged to the guest when billable."
+msgstr "Le prix facturé au client lorsque c'est facturable."
+
+msgctxt "help:hotel.hotel,consumption_location:"
+msgid "Where the stock goes when consumed in a room."
+msgstr "Destination du stock lorsqu'il est consommé dans une chambre."
+
+msgctxt "help:hotel.hotel,party:"
+msgid "The party representing the hotel (address, contacts)."
+msgstr "Le tiers représentant l'hôtel (adresse, contacts)."
+
+msgctxt "help:hotel.hotel,warehouse:"
+msgid "The warehouse storing the hotel articles and consumables."
+msgstr "L'entrepôt qui stocke les articles et consommables de l'hôtel."
+
+msgctxt "help:hotel.rate,end_date:"
+msgid "Last day of validity. Empty means no upper bound."
+msgstr "Dernier jour de validité. Vide : pas de limite haute."
+
+msgctxt "help:hotel.rate,hour_price:"
+msgid "Price per hour. Empty disables hourly pricing."
+msgstr "Prix par heure. Vide : pas de tarification à l'heure."
+
+msgctxt "help:hotel.rate,max_hours:"
+msgid ""
+"Longest stay still billed per hour; beyond it the nightly price applies."
+msgstr ""
+"Plus long séjour encore facturé à l'heure ; au-delà, le prix de la nuit "
+"s'applique."
+
+msgctxt "help:hotel.rate,min_hours:"
+msgid "Minimum number of hours billed for an hourly stay."
+msgstr "Nombre minimum d'heures facturées pour un séjour à l'heure."
+
+msgctxt "help:hotel.rate,start_date:"
+msgid "First day of validity. Empty means no lower bound."
+msgstr "Premier jour de validité. Vide : pas de limite basse."
+
+msgctxt "help:hotel.rate,weekend_night_price:"
+msgid ""
+"Price of nights starting on Friday and Saturday. Empty means the night price"
+" applies."
+msgstr ""
+"Prix des nuits commençant le vendredi et le samedi. Vide : le prix de la "
+"nuit s'applique."
+
+msgctxt "help:hotel.room,location:"
+msgid ""
+"The stock location of the room (minibar, linen, amenities). Created "
+"automatically if left empty."
+msgstr ""
+"L'emplacement de stock de la chambre (minibar, linge, produits d'accueil). "
+"Créé automatiquement s'il est vide."
+
+msgctxt "help:hotel.room.type,articles:"
+msgid "Articles and consumables normally stocked in each room."
+msgstr "Articles et consommables normalement présents dans chaque chambre."
+
+msgctxt "help:hotel.room.type,hour_product:"
+msgid "The service product invoiced for an hour."
+msgstr "Le service facturé pour une heure."
+
+msgctxt "help:hotel.room.type,night_product:"
+msgid "The service product invoiced for a night."
+msgstr "Le service facturé pour une nuit."
+
+msgctxt "help:product.template,hotel_article:"
+msgid ""
+"Check to manage this product as a hotel article or consumable (stocked in "
+"the hotel warehouse and rooms)."
+msgstr ""
+"Cochez pour gérer ce produit comme article ou consommable hôtelier (stocké "
+"dans l'entrepôt et les chambres)."
+
+msgctxt "help:product.template,hotel_billable:"
+msgid ""
+"Check if its consumption in a room is charged to the guest (e.g. minibar "
+"items)."
+msgstr ""
+"Cochez si sa consommation dans une chambre est facturée au client (p. ex. "
+"minibar)."
+
+msgctxt "model:hotel.consumption,name:"
+msgid "Hotel Stock Operation"
+msgstr "Opération de stock hôtel"
+
+msgctxt "model:hotel.consumption.line,name:"
+msgid "Hotel Stock Operation Line"
+msgstr "Ligne d'opération de stock"
+
+msgctxt "model:hotel.hotel,name:"
+msgid "Hotel"
+msgstr "Hôtel"
+
+msgctxt "model:hotel.rate,name:"
+msgid "Room Rate (per hour and per night)"
+msgstr "Tarif de chambre (à l'heure et à la nuit)"
+
+msgctxt "model:hotel.room,name:"
+msgid "Hotel Room"
+msgstr "Chambre"
+
+msgctxt "model:hotel.room.type,name:"
+msgid "Room Type"
+msgstr "Type de chambre"
+
+msgctxt "model:hotel.room.type.article,name:"
+msgid "Room Type Standard Article"
+msgstr "Article standard du type de chambre"
+
+msgctxt "model:ir.action,name:act_article_form"
+msgid "Articles and Consumables"
+msgstr "Articles et consommables"
+
+msgctxt "model:ir.action,name:act_consumption_form"
+msgid "Stock Operations"
+msgstr "Opérations de stock"
+
+msgctxt "model:ir.action,name:act_hotel_form"
+msgid "Hotels"
+msgstr "Hôtels"
+
+msgctxt "model:ir.action,name:act_hotel_move_form"
+msgid "Hotel Stock Moves"
+msgstr "Mouvements de stock hôtel"
+
+msgctxt "model:ir.action,name:act_rate_form"
+msgid "Rates"
+msgstr "Tarifs"
+
+msgctxt "model:ir.action,name:act_room_form"
+msgid "Rooms"
+msgstr "Chambres"
+
+msgctxt "model:ir.action,name:act_room_type_form"
+msgid "Room Types"
+msgstr "Types de chambre"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_consumption_form_domain_all"
+msgid "All"
+msgstr "Toutes"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_consumption_form_domain_done"
+msgid "Done"
+msgstr "Terminé"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_consumption_form_domain_draft"
+msgid "Draft"
+msgstr "Brouillon"
+
+msgctxt "model:ir.message,text:msg_consumption_delete_done"
+msgid "You cannot delete the done operation \"%(consumption)s\"."
+msgstr ""
+"Vous ne pouvez pas supprimer l'opération terminée « %(consumption)s »."
+
+msgctxt "model:ir.message,text:msg_consumption_no_lines"
+msgid "The operation \"%(consumption)s\" has no lines to process."
+msgstr "L'opération « %(consumption)s » n'a aucune ligne à traiter."
+
+msgctxt "model:ir.message,text:msg_consumption_no_room_location"
+msgid "The operation \"%(consumption)s\" needs a room with a stock location."
+msgstr ""
+"L'opération « %(consumption)s » nécessite une chambre avec un emplacement de"
+" stock."
+
+msgctxt "model:ir.message,text:msg_hotel_code_unique"
+msgid "The code of the hotel must be unique per company."
+msgstr "Le code de l'hôtel doit être unique par société."
+
+msgctxt "model:ir.message,text:msg_rate_invalid_period"
+msgid "The end of the stay must be after its start."
+msgstr "La fin du séjour doit être postérieure à son début."
+
+msgctxt "model:ir.message,text:msg_rate_no_hour_price"
+msgid "The rate \"%(rate)s\" has no hour price."
+msgstr "Le tarif « %(rate)s » n'a pas de prix à l'heure."
+
+msgctxt "model:ir.message,text:msg_room_name_unique"
+msgid "The room number must be unique per hotel."
+msgstr "Le numéro de chambre doit être unique par hôtel."
+
+msgctxt "model:ir.message,text:msg_room_type_article_unique"
+msgid "A product can be set only once per room type."
+msgstr "Un produit ne peut être défini qu'une seule fois par type de chambre."
+
+msgctxt "model:ir.message,text:msg_room_type_code_unique"
+msgid "The code of the room type must be unique per hotel."
+msgstr "Le code du type de chambre doit être unique par hôtel."
+
+msgctxt "model:ir.message,text:msg_room_type_no_rate"
+msgid "No rate is defined for room type \"%(room_type)s\" on %(date)s."
+msgstr ""
+"Aucun tarif n'est défini pour le type de chambre « %(room_type)s » au "
+"%(date)s."
+
+msgctxt "model:ir.model.button,string:consumption_cancel_button"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "model:ir.model.button,string:consumption_draft_button"
+msgid "Draft"
+msgstr "Brouillon"
+
+msgctxt "model:ir.model.button,string:consumption_process_button"
+msgid "Process"
+msgstr "Traiter"
+
+msgctxt "model:ir.model.button,string:room_make_available_button"
+msgid "Available"
+msgstr "Disponible"
+
+msgctxt "model:ir.model.button,string:room_make_dirty_button"
+msgid "Dirty"
+msgstr "À nettoyer"
+
+msgctxt "model:ir.model.button,string:room_make_maintenance_button"
+msgid "Maintenance"
+msgstr "Maintenance"
+
+msgctxt "model:ir.rule.group,name:rule_group_consumption_companies"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.rule.group,name:rule_group_hotel_companies"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.sequence,name:sequence_consumption"
+msgid "Hotel Stock Operation"
+msgstr "Opération de stock hôtel"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_consumption"
+msgid "Hotel Stock Operation"
+msgstr "Opération de stock hôtel"
+
+msgctxt "model:ir.ui.menu,name:menu_article_form"
+msgid "Articles and Consumables"
+msgstr "Articles et consommables"
+
+msgctxt "model:ir.ui.menu,name:menu_configuration"
+msgid "Configuration"
+msgstr "Configuration"
+
+msgctxt "model:ir.ui.menu,name:menu_consumption_form"
+msgid "Stock Operations"
+msgstr "Opérations de stock"
+
+msgctxt "model:ir.ui.menu,name:menu_hotel"
+msgid "Hotel"
+msgstr "Hôtel"
+
+msgctxt "model:ir.ui.menu,name:menu_hotel_form"
+msgid "Hotels"
+msgstr "Hôtels"
+
+msgctxt "model:ir.ui.menu,name:menu_hotel_move_form"
+msgid "Hotel Stock Moves"
+msgstr "Mouvements de stock hôtel"
+
+msgctxt "model:ir.ui.menu,name:menu_rate_form"
+msgid "Rates"
+msgstr "Tarifs"
+
+msgctxt "model:ir.ui.menu,name:menu_room_form"
+msgid "Rooms"
+msgstr "Chambres"
+
+msgctxt "model:ir.ui.menu,name:menu_room_type_form"
+msgid "Room Types"
+msgstr "Types de chambre"
+
+msgctxt "model:ir.ui.menu,name:menu_rooms"
+msgid "Rooms"
+msgstr "Chambres"
+
+msgctxt "model:ir.ui.menu,name:menu_stock"
+msgid "Stock"
+msgstr "Stock"
+
+msgctxt "model:res.group,name:group_hotel"
+msgid "Hotel"
+msgstr "Hôtel"
+
+msgctxt "model:res.group,name:group_hotel_admin"
+msgid "Hotel Administration"
+msgstr "Administration hôtel"
+
+msgctxt "selection:hotel.consumption,kind:"
+msgid "Consumption"
+msgstr "Consommation"
+
+msgctxt "selection:hotel.consumption,kind:"
+msgid "Replenishment"
+msgstr "Réapprovisionnement"
+
+msgctxt "selection:hotel.consumption,state:"
+msgid "Cancelled"
+msgstr "Annulée"
+
+msgctxt "selection:hotel.consumption,state:"
+msgid "Done"
+msgstr "Terminé"
+
+msgctxt "selection:hotel.consumption,state:"
+msgid "Draft"
+msgstr "Brouillon"
+
+msgctxt "selection:hotel.room,state:"
+msgid "Available"
+msgstr "Disponible"
+
+msgctxt "selection:hotel.room,state:"
+msgid "Dirty"
+msgstr "À nettoyer"
+
+msgctxt "selection:hotel.room,state:"
+msgid "Maintenance"
+msgstr "Maintenance"
+
+msgctxt "selection:hotel.room,state:"
+msgid "Occupied"
+msgstr "Occupée"
+
+msgctxt "selection:hotel.room,state:"
+msgid "Out of Order"
+msgstr "Hors service"
+
+msgctxt "selection:product.template,hotel_category:"
+msgid "Cleaning Supply"
+msgstr "Produit d'entretien"
+
+msgctxt "selection:product.template,hotel_category:"
+msgid "Equipment"
+msgstr "Équipement"
+
+msgctxt "selection:product.template,hotel_category:"
+msgid "Food & Beverage"
+msgstr "Restauration"
+
+msgctxt "selection:product.template,hotel_category:"
+msgid "Guest Amenity"
+msgstr "Produit d'accueil"
+
+msgctxt "selection:product.template,hotel_category:"
+msgid "Linen"
+msgstr "Linge"
+
+msgctxt "selection:product.template,hotel_category:"
+msgid "Maintenance Supply"
+msgstr "Fourniture de maintenance"
+
+msgctxt "selection:product.template,hotel_category:"
+msgid "Minibar"
+msgstr "Minibar"
+
+msgctxt "view:hotel.hotel:"
+msgid "Room Types"
+msgstr "Types de chambre"
+
+msgctxt "view:hotel.hotel:"
+msgid "Rooms"
+msgstr "Chambres"
+
+msgctxt "view:hotel.rate:"
+msgid "Hourly"
+msgstr "À l'heure"
+
+msgctxt "view:hotel.rate:"
+msgid "Nightly"
+msgstr "À la nuit"
+
+msgctxt "view:hotel.room.type:"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "view:hotel.room.type:"
+msgid "Rates"
+msgstr "Tarifs"
+
+msgctxt "view:hotel.room.type:"
+msgid "Rooms"
+msgstr "Chambres"
+
+msgctxt "view:hotel.room.type:"
+msgid "Standard Articles"
+msgstr "Articles standard"
+
+msgctxt "view:product.template:"
+msgid "Hotel"
+msgstr "Hôtel"

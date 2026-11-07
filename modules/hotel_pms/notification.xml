@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_pms module. -->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="notification_view_form">
+            <field name="model">hotel.notification</field>
+            <field name="type">form</field>
+            <field name="name">notification_form</field>
+        </record>
+        <record model="ir.ui.view" id="notification_view_list">
+            <field name="model">hotel.notification</field>
+            <field name="type">tree</field>
+            <field name="name">notification_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_notification">
+            <field name="name">Notifications</field>
+            <field name="res_model">hotel.notification</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_notification_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="notification_view_list"/>
+            <field name="act_window" ref="act_notification"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_notification_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="notification_view_form"/>
+            <field name="act_window" ref="act_notification"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_notification_domain_open">
+            <field name="name">Open</field>
+            <field name="sequence" eval="10"/>
+            <field name="domain" eval="[('state', '=', 'open')]" pyson="1"></field>
+            <field name="act_window" ref="act_notification"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_notification_domain_alerts">
+            <field name="name">Alerts and Warnings</field>
+            <field name="sequence" eval="20"/>
+            <field name="domain" eval="[('state', '=', 'open'), ('kind', 'in', ['alert', 'warning'])]" pyson="1"></field>
+            <field name="act_window" ref="act_notification"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_notification_domain_reminders">
+            <field name="name">Reminders</field>
+            <field name="sequence" eval="30"/>
+            <field name="domain" eval="[('state', '=', 'open'), ('kind', '=', 'reminder')]" pyson="1"></field>
+            <field name="act_window" ref="act_notification"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_notification_domain_all">
+            <field name="name">All</field>
+            <field name="sequence" eval="9999"/>
+            <field name="domain" ></field>
+            <field name="act_window" ref="act_notification"/>
+        </record>
+        <menuitem icon="tryton-hotel-notification" name="Notifications" parent="hotel.menu_hotel"
+            action="act_notification" id="menu_notification" sequence="3"/>
+        <record model="ir.model.button" id="notification_done_button">
+            <field name="model" search="[('model', '=', 'hotel.notification')]"/>
+            <field name="name">done</field>
+            <field name="string">Done</field>
+        </record>
+        <record model="ir.model.button-res.group" id="notification_done_button_group_hotel">
+            <field name="button" ref="notification_done_button"/>
+            <field name="group" ref="hotel.group_hotel"/>
+        </record>
+        <record model="ir.model.button" id="notification_dismiss_button">
+            <field name="model" search="[('model', '=', 'hotel.notification')]"/>
+            <field name="name">dismiss</field>
+            <field name="string">Dismiss</field>
+        </record>
+        <record model="ir.model.button-res.group" id="notification_dismiss_button_group_hotel">
+            <field name="button" ref="notification_dismiss_button"/>
+            <field name="group" ref="hotel.group_hotel"/>
+        </record>
+        <record model="ir.model.button" id="notification_reopen_button">
+            <field name="model" search="[('model', '=', 'hotel.notification')]"/>
+            <field name="name">reopen</field>
+            <field name="string">Reopen</field>
+        </record>
+        <record model="ir.model.button-res.group" id="notification_reopen_button_group_hotel">
+            <field name="button" ref="notification_reopen_button"/>
+            <field name="group" ref="hotel.group_hotel"/>
+        </record>
+        <record model="ir.model.access" id="access_notification">
+            <field name="model" search="[('model', '=', 'hotel.notification')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_notification_hotel">
+            <field name="model" search="[('model', '=', 'hotel.notification')]"/>
+            <field name="group" ref="hotel.group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_notification_companies">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'hotel.notification')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_notification_companies">
+            <field name="domain"
+                eval="[('company', 'in', Eval('companies', []))]"
+                pyson="1"/>
+            <field name="rule_group" ref="rule_group_notification_companies"/>
+        </record>
+        <record model="ir.cron" id="cron_notifications">
+            <field name="method">hotel.notification|generate</field>
+            <field name="interval_number" eval="15"/>
+            <field name="interval_type">minutes</field>
+        </record>
+    </data>
+</tryton>

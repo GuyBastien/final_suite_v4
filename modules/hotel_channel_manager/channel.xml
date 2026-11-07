@@ -1,0 +1,251 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_channel_manager module. -->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="channel_view_form">
+            <field name="model">hotel.channel</field>
+            <field name="type">form</field>
+            <field name="name">channel_form</field>
+        </record>
+        <record model="ir.ui.view" id="channel_view_list">
+            <field name="model">hotel.channel</field>
+            <field name="type">tree</field>
+            <field name="name">channel_list</field>
+        </record>
+        <record model="ir.ui.view" id="mapping_view_form">
+            <field name="model">hotel.channel.mapping</field>
+            <field name="type">form</field>
+            <field name="name">mapping_form</field>
+        </record>
+        <record model="ir.ui.view" id="mapping_view_list">
+            <field name="model">hotel.channel.mapping</field>
+            <field name="type">tree</field>
+            <field name="name">mapping_list</field>
+        </record>
+        <record model="ir.ui.view" id="booking_view_form">
+            <field name="model">hotel.channel.booking</field>
+            <field name="type">form</field>
+            <field name="name">booking_form</field>
+        </record>
+        <record model="ir.ui.view" id="booking_view_list">
+            <field name="model">hotel.channel.booking</field>
+            <field name="type">tree</field>
+            <field name="name">booking_list</field>
+        </record>
+        <record model="ir.ui.view" id="log_view_form">
+            <field name="model">hotel.channel.log</field>
+            <field name="type">form</field>
+            <field name="name">log_form</field>
+        </record>
+        <record model="ir.ui.view" id="log_view_list">
+            <field name="model">hotel.channel.log</field>
+            <field name="type">tree</field>
+            <field name="name">log_list</field>
+        </record>
+        <record model="ir.ui.view" id="reservation_view_form">
+            <field name="model">hotel.reservation</field>
+            <field name="inherit" ref="hotel_pms.reservation_view_form"/>
+            <field name="name">reservation_form</field>
+        </record>
+        <record model="ir.action.act_window" id="act_channel">
+            <field name="name">Channels</field>
+            <field name="res_model">hotel.channel</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_channel_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="channel_view_list"/>
+            <field name="act_window" ref="act_channel"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_channel_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="channel_view_form"/>
+            <field name="act_window" ref="act_channel"/>
+        </record>
+        <record model="ir.action.act_window" id="act_booking">
+            <field name="name">Channel Bookings</field>
+            <field name="res_model">hotel.channel.booking</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_booking_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="booking_view_list"/>
+            <field name="act_window" ref="act_booking"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_booking_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="booking_view_form"/>
+            <field name="act_window" ref="act_booking"/>
+        </record>
+        <record model="ir.action.act_window" id="act_log">
+            <field name="name">Synchronization Logs</field>
+            <field name="res_model">hotel.channel.log</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_log_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="log_view_list"/>
+            <field name="act_window" ref="act_log"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_log_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="log_view_form"/>
+            <field name="act_window" ref="act_log"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_booking_domain_conflict">
+            <field name="name">Conflicts</field>
+            <field name="sequence" eval="10"/>
+            <field name="domain" eval="[('state', '=', 'conflict')]" pyson="1"></field>
+            <field name="act_window" ref="act_booking"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_booking_domain_confirmed">
+            <field name="name">Confirmed</field>
+            <field name="sequence" eval="20"/>
+            <field name="domain" eval="[('state', '=', 'confirmed')]" pyson="1"></field>
+            <field name="act_window" ref="act_booking"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_booking_domain_all">
+            <field name="name">All</field>
+            <field name="sequence" eval="9999"/>
+            <field name="domain"></field>
+            <field name="act_window" ref="act_booking"/>
+        </record>
+        <menuitem icon="tryton-hotel-channel" name="Channel Manager" parent="hotel.menu_hotel" id="menu_channel_manager" sequence="50"/>
+        <menuitem icon="tryton-hotel-channel" parent="menu_channel_manager" action="act_channel" id="menu_channel" sequence="10"/>
+        <menuitem icon="tryton-hotel-reservation" parent="menu_channel_manager" action="act_booking" id="menu_booking" sequence="20"/>
+        <menuitem icon="tryton-list" parent="menu_channel_manager" action="act_log" id="menu_log" sequence="30"/>
+        <record model="ir.model.button" id="channel_synchronize_button">
+            <field name="model" search="[('model', '=', 'hotel.channel')]"/>
+            <field name="name">synchronize</field>
+            <field name="string">Synchronize</field>
+        </record>
+        <record model="ir.model.button-res.group" id="channel_synchronize_button_group_hotel">
+            <field name="button" ref="channel_synchronize_button"/>
+            <field name="group" ref="hotel.group_hotel"/>
+        </record>
+        <record model="ir.model.button" id="mapping_new_token_button">
+            <field name="model" search="[('model', '=', 'hotel.channel.mapping')]"/>
+            <field name="name">new_token</field>
+            <field name="string">New Token</field>
+        </record>
+        <record model="ir.model.button-res.group" id="mapping_new_token_button_group_hotel">
+            <field name="button" ref="mapping_new_token_button"/>
+            <field name="group" ref="hotel.group_hotel"/>
+        </record>
+        <record model="ir.model.button" id="booking_retry_button">
+            <field name="model" search="[('model', '=', 'hotel.channel.booking')]"/>
+            <field name="name">retry</field>
+            <field name="string">Retry</field>
+        </record>
+        <record model="ir.model.button-res.group" id="booking_retry_button_group_hotel">
+            <field name="button" ref="booking_retry_button"/>
+            <field name="group" ref="hotel.group_hotel"/>
+        </record>
+        <record model="ir.model.access" id="access_hotel_channel">
+            <field name="model" search="[('model', '=', 'hotel.channel')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_hotel_channel_hotel">
+            <field name="model" search="[('model', '=', 'hotel.channel')]"/>
+            <field name="group" ref="hotel.group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_hotel_channel_companies">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'hotel.channel')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_hotel_channel_companies">
+            <field name="domain"
+                eval="[('company', 'in', Eval('companies', []))]"
+                pyson="1"/>
+            <field name="rule_group" ref="rule_group_hotel_channel_companies"/>
+        </record>
+        <record model="ir.model.access" id="access_hotel_channel_mapping">
+            <field name="model" search="[('model', '=', 'hotel.channel.mapping')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_hotel_channel_mapping_hotel">
+            <field name="model" search="[('model', '=', 'hotel.channel.mapping')]"/>
+            <field name="group" ref="hotel.group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_hotel_channel_mapping_companies">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'hotel.channel.mapping')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_hotel_channel_mapping_companies">
+            <field name="domain"
+                eval="[('company', 'in', Eval('companies', []))]"
+                pyson="1"/>
+            <field name="rule_group" ref="rule_group_hotel_channel_mapping_companies"/>
+        </record>
+        <record model="ir.model.access" id="access_hotel_channel_booking">
+            <field name="model" search="[('model', '=', 'hotel.channel.booking')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_hotel_channel_booking_hotel">
+            <field name="model" search="[('model', '=', 'hotel.channel.booking')]"/>
+            <field name="group" ref="hotel.group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_hotel_channel_booking_companies">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'hotel.channel.booking')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_hotel_channel_booking_companies">
+            <field name="domain"
+                eval="[('company', 'in', Eval('companies', []))]"
+                pyson="1"/>
+            <field name="rule_group" ref="rule_group_hotel_channel_booking_companies"/>
+        </record>
+        <record model="ir.model.access" id="access_hotel_channel_log">
+            <field name="model" search="[('model', '=', 'hotel.channel.log')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_hotel_channel_log_hotel">
+            <field name="model" search="[('model', '=', 'hotel.channel.log')]"/>
+            <field name="group" ref="hotel.group_hotel"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_hotel_channel_log_companies">
+            <field name="name">User in companies</field>
+            <field name="model" search="[('model', '=', 'hotel.channel.log')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_hotel_channel_log_companies">
+            <field name="domain"
+                eval="[('company', 'in', Eval('companies', []))]"
+                pyson="1"/>
+            <field name="rule_group" ref="rule_group_hotel_channel_log_companies"/>
+        </record>
+        <record model="ir.cron" id="cron_channels">
+            <field name="method">hotel.channel|synchronize_all</field>
+            <field name="interval_number" eval="30"/>
+            <field name="interval_type">minutes</field>
+        </record>
+    </data>
+</tryton>

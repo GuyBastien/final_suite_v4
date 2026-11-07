@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_booking_engine module. -->
+<tryton>
+    <data>
+        <record model="ir.ui.icon" id="icon_hotel_booking">
+            <field name="name">tryton-hotel-booking</field>
+            <field name="path">icons/tryton-hotel-booking.svg</field>
+        </record>
+    </data>
+</tryton>

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_groups module. -->
+<form>
+    <label name="number"/>
+    <field name="number"/>
+    <label name="name"/>
+    <field name="name"/>
+    <label name="company"/>
+    <field name="company"/>
+    <label name="hotel"/>
+    <field name="hotel"/>
+    <label name="party"/>
+    <field name="party"/>
+    <newline/>
+    <label name="start_date"/>
+    <field name="start_date"/>
+    <label name="end_date"/>
+    <field name="end_date"/>
+    <label name="cutoff_date"/>
+    <field name="cutoff_date"/>
+    <notebook colspan="4">
+        <page string="Room Blocks" id="blocks">
+            <field name="blocks" colspan="4"/>
+        </page>
+        <page string="Reservations" id="reservations">
+            <field name="reservations" colspan="4"/>
+        </page>
+        <page string="Events" id="events">
+            <field name="events" colspan="4"/>
+        </page>
+        <page string="Notes" id="notes">
+            <field name="notes" colspan="4"/>
+        </page>
+    </notebook>
+    <label name="state"/>
+    <field name="state"/>
+    <group col="6" colspan="4" id="buttons">
+        <button name="cancel" icon="tryton-cancel"/>
+        <button icon="tryton-undo" name="draft"/>
+        <button name="definite" icon="tryton-ok"/>
+        <button name="generate_reservations" icon="tryton-hotel-reservation"/>
+        <button name="release" icon="tryton-hotel-departure"/>
+    </group>
+</form>

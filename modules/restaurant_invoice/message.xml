@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton restaurant_invoice module. -->
+<tryton>
+    <data grouped="1">
+        <record model="ir.message" id="msg_no_revenue_account">
+            <field name="text">Item "%(product)s" has no revenue account: it is needed to invoice order "%(order)s".</field>
+        </record>
+        <record model="ir.message" id="msg_no_invoice_address">
+            <field name="text">Customer "%(party)s" has no address: it is needed to invoice order "%(order)s".</field>
+        </record>
+        <record model="ir.message" id="msg_line_discount">
+            <field name="text">Discount</field>
+        </record>
+        <record model="ir.message" id="msg_line_service">
+            <field name="text">Service charge</field>
+        </record>
+        <record model="ir.message" id="msg_line_delivery">
+            <field name="text">Delivery fee</field>
+        </record>
+    </data>
+</tryton>

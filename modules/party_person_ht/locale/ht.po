@@ -1,0 +1,1272 @@
+#
+msgid ""
+msgstr ""
+"Language: ht\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:party.party,first_name:"
+msgid "First Name"
+msgstr "Prenon"
+
+msgctxt "field:party.party,is_person:"
+msgid "Person"
+msgstr "Moun"
+
+msgctxt "help:party.party,first_name:"
+msgid ""
+"First name of the natural person. The field Name holds the family name."
+msgstr "Prenon moun nan. Jaden Non an gen non fanmi an."
+
+msgctxt "help:party.party,is_person:"
+msgid ""
+"Check if the party is a natural person: the first name is then available."
+msgstr "Make si tyè a se yon moun : lè sa a prenon an disponib."
+
+msgctxt "model:ir.lang,name:lang_ht"
+msgid "Haitian Creole"
+msgstr "Kreyòl ayisyen"
+
+msgctxt "model:ir.message,text:msg_invalid_code_nif"
+msgid ""
+"The NIF \"%(code)s\" of party \"%(party)s\" is invalid: it must have 10 "
+"digits (000-000-000-0)."
+msgstr ""
+"NIF « %(code)s » pou tyè « %(party)s » la pa valab : li dwe gen 10 chif "
+"(000-000-000-0)."
+
+msgctxt "model:ir.message,text:msg_invalid_code_ninu"
+msgid ""
+"The NINU number \"%(code)s\" of party \"%(party)s\" is invalid: it must "
+"contain 10 to 17 digits."
+msgstr ""
+"Nimewo NINU « %(code)s » pou tyè « %(party)s » la pa valab : li dwe gen 10 a"
+" 17 chif."
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Arrondissement"
+msgstr "Awondisman"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Communal Section"
+msgstr "Seksyon kominal"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Haitian Tax Identification Number (NIF)"
+msgstr "Nimewo Idantifikasyon Fiskal ayisyen (NIF)"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Haitian Unique National Identification Number (NINU)"
+msgstr "Nimewo Idantifikasyon Nasyonal Inik ayisyen (NINU)"
+
+msgctxt "field:ir.email.template,contact_mechanism:"
+msgid "Contact Mechanism"
+msgstr "Mwayen kontakt"
+
+msgctxt "field:party.address,city:"
+msgid "City"
+msgstr "Vil"
+
+msgctxt "field:party.address,contact_mechanisms:"
+msgid "Contact Mechanisms"
+msgstr "Mwayen kontakt yo"
+
+msgctxt "field:party.address,country:"
+msgid "Country"
+msgstr "Peyi"
+
+msgctxt "field:party.address,full_address:"
+msgid "Full Address"
+msgstr "Adrès konplè"
+
+msgctxt "field:party.address,identifiers:"
+msgid "Identifiers"
+msgstr "Idantifyan yo"
+
+msgctxt "field:party.address,name:"
+msgid "Building Name"
+msgstr "Non bilding"
+
+msgctxt "field:party.address,party:"
+msgid "Party"
+msgstr "Tyè"
+
+msgctxt "field:party.address,party_name:"
+msgid "Party Name"
+msgstr "Non tyè"
+
+msgctxt "field:party.address,postal_code:"
+msgid "Postal Code"
+msgstr "Kòd postal"
+
+msgctxt "field:party.address,street:"
+msgid "Street"
+msgstr "Ri"
+
+msgctxt "field:party.address,street_single_line:"
+msgid "Street"
+msgstr "Ri"
+
+msgctxt "field:party.address,subdivision:"
+msgid "Subdivision"
+msgstr "Subdivizyon"
+
+msgctxt "field:party.address,subdivision_types:"
+msgid "Subdivision Types"
+msgstr "Tip subdivizyon"
+
+msgctxt "field:party.address.format,country_code:"
+msgid "Country Code"
+msgstr "Kòd peyi"
+
+msgctxt "field:party.address.format,format_:"
+msgid "Format"
+msgstr "Fòma"
+
+msgctxt "field:party.address.format,language_code:"
+msgid "Language Code"
+msgstr "Kòd lang"
+
+msgctxt "field:party.address.subdivision_type,country_code:"
+msgid "Country Code"
+msgstr "Kòd peyi"
+
+msgctxt "field:party.address.subdivision_type,types:"
+msgid "Subdivision Types"
+msgstr "Tip subdivizyon"
+
+msgctxt "field:party.category,childs:"
+msgid "Children"
+msgstr "Pitit yo"
+
+msgctxt "field:party.category,name:"
+msgid "Name"
+msgstr "Non"
+
+msgctxt "field:party.category,parent:"
+msgid "Parent"
+msgstr "Paran"
+
+msgctxt "field:party.check_vies.result,parties_failed:"
+msgid "Parties Failed"
+msgstr "Tyè ki echwe"
+
+msgctxt "field:party.check_vies.result,parties_succeed:"
+msgid "Parties Succeed"
+msgstr "Tyè ki reyisi"
+
+msgctxt "field:party.configuration,identifier_types:"
+msgid "Identifier Types"
+msgstr "Tip idantifyan"
+
+msgctxt "field:party.configuration,party_lang:"
+msgid "Party Language"
+msgstr "Lang tyè"
+
+msgctxt "field:party.configuration,party_sequence:"
+msgid "Party Sequence"
+msgstr "Sekans tyè"
+
+msgctxt "field:party.configuration.party_lang,party_lang:"
+msgid "Party Language"
+msgstr "Lang tyè"
+
+msgctxt "field:party.configuration.party_sequence,party_sequence:"
+msgid "Party Sequence"
+msgstr "Sekans tyè"
+
+msgctxt "field:party.contact_mechanism,address:"
+msgid "Address"
+msgstr "Adrès"
+
+msgctxt "field:party.contact_mechanism,comment:"
+msgid "Comment"
+msgstr "Kòmantè"
+
+msgctxt "field:party.contact_mechanism,email:"
+msgid "E-Mail"
+msgstr "Imèl"
+
+msgctxt "field:party.contact_mechanism,language:"
+msgid "Language"
+msgstr "Lang"
+
+msgctxt "field:party.contact_mechanism,languages:"
+msgid "Languages"
+msgstr "Lang yo"
+
+msgctxt "field:party.contact_mechanism,name:"
+msgid "Name"
+msgstr "Non"
+
+msgctxt "field:party.contact_mechanism,other_value:"
+msgid "Value"
+msgstr "Valè"
+
+msgctxt "field:party.contact_mechanism,party:"
+msgid "Party"
+msgstr "Tyè"
+
+msgctxt "field:party.contact_mechanism,sip:"
+msgid "SIP"
+msgstr "SIP"
+
+msgctxt "field:party.contact_mechanism,skype:"
+msgid "Skype"
+msgstr "Skype"
+
+msgctxt "field:party.contact_mechanism,type:"
+msgid "Type"
+msgstr "Tip"
+
+msgctxt "field:party.contact_mechanism,url:"
+msgid "URL"
+msgstr "URL"
+
+msgctxt "field:party.contact_mechanism,value:"
+msgid "Value"
+msgstr "Valè"
+
+msgctxt "field:party.contact_mechanism,value_compact:"
+msgid "Value Compact"
+msgstr "Valè kontak"
+
+msgctxt "field:party.contact_mechanism,website:"
+msgid "Website"
+msgstr "Sit entènèt"
+
+msgctxt "field:party.contact_mechanism.language,contact_mechanism:"
+msgid "Contact Mechanism"
+msgstr "Mwayen kontakt"
+
+msgctxt "field:party.contact_mechanism.language,language:"
+msgid "Language"
+msgstr "Lang"
+
+msgctxt "field:party.erase.ask,party:"
+msgid "Party"
+msgstr "Tyè"
+
+msgctxt "field:party.identifier,address:"
+msgid "Address"
+msgstr "Adrès"
+
+msgctxt "field:party.identifier,code:"
+msgid "Code"
+msgstr "Kòd"
+
+msgctxt "field:party.identifier,party:"
+msgid "Party"
+msgstr "Tyè"
+
+msgctxt "field:party.identifier,type:"
+msgid "Type"
+msgstr "Tip"
+
+msgctxt "field:party.identifier,type_address:"
+msgid "Type of Address"
+msgstr "Tip adrès"
+
+msgctxt "field:party.party,addresses:"
+msgid "Addresses"
+msgstr "Adrès yo"
+
+msgctxt "field:party.party,categories:"
+msgid "Categories"
+msgstr "Kategori yo"
+
+msgctxt "field:party.party,code:"
+msgid "Code"
+msgstr "Kòd"
+
+msgctxt "field:party.party,code_readonly:"
+msgid "Code Readonly"
+msgstr "Kòd an lekti sèlman"
+
+msgctxt "field:party.party,contact_mechanisms:"
+msgid "Contact Mechanisms"
+msgstr "Mwayen kontakt yo"
+
+msgctxt "field:party.party,distance:"
+msgid "Distance"
+msgstr "Distans"
+
+msgctxt "field:party.party,email:"
+msgid "E-Mail"
+msgstr "Imèl"
+
+msgctxt "field:party.party,fax:"
+msgid "Fax"
+msgstr "Faks"
+
+msgctxt "field:party.party,full_name:"
+msgid "Full Name"
+msgstr "Non konplè"
+
+msgctxt "field:party.party,identifiers:"
+msgid "Identifiers"
+msgstr "Idantifyan yo"
+
+msgctxt "field:party.party,lang:"
+msgid "Language"
+msgstr "Lang"
+
+msgctxt "field:party.party,langs:"
+msgid "Languages"
+msgstr "Lang yo"
+
+msgctxt "field:party.party,mobile:"
+msgid "Mobile"
+msgstr "Mobil"
+
+msgctxt "field:party.party,name:"
+msgid "Name"
+msgstr "Non"
+
+msgctxt "field:party.party,phone:"
+msgid "Phone"
+msgstr "Telefòn"
+
+msgctxt "field:party.party,replaced_by:"
+msgid "Replaced By"
+msgstr "Ranplase pa"
+
+msgctxt "field:party.party,tax_identifier:"
+msgid "Tax Identifier"
+msgstr "Idantifyan fiskal"
+
+msgctxt "field:party.party,website:"
+msgid "Website"
+msgstr "Sit entènèt"
+
+msgctxt "field:party.party-party.category,category:"
+msgid "Category"
+msgstr "Kategori"
+
+msgctxt "field:party.party-party.category,party:"
+msgid "Party"
+msgstr "Tyè"
+
+msgctxt "field:party.party.lang,lang:"
+msgid "Language"
+msgstr "Lang"
+
+msgctxt "field:party.party.lang,party:"
+msgid "Party"
+msgstr "Tyè"
+
+msgctxt "field:party.replace.ask,destination:"
+msgid "Destination"
+msgstr "Destinasyon"
+
+msgctxt "field:party.replace.ask,source:"
+msgid "Source"
+msgstr "Sous"
+
+msgctxt "help:ir.email.template,contact_mechanism:"
+msgid "Define which email address to use from the party's contact mechanisms."
+msgstr "Defini ki adrès imèl pou itilize nan mwayen kontak tyè a."
+
+msgctxt "help:party.address,party_name:"
+msgid "If filled, replace the name of the party for address formatting"
+msgstr "Si l ranpli, li ranplase non tyè a nan fòma adrès la"
+
+msgctxt "help:party.category,childs:"
+msgid "Add children below the category."
+msgstr "Ajoute pitit anba kategori a."
+
+msgctxt "help:party.category,name:"
+msgid "The main identifier of the category."
+msgstr "Idantifyan prensipal kategori a."
+
+msgctxt "help:party.category,parent:"
+msgid "Add the category below the parent."
+msgstr "Ajoute kategori a anba paran an."
+
+msgctxt "help:party.configuration,identifier_types:"
+msgid ""
+"Defines which identifier types are available.\n"
+"Leave empty for all of them."
+msgstr ""
+"Defini ki tip idantifyan ki disponib.\n"
+"Kite l vid pou tout yo."
+
+msgctxt "help:party.configuration,party_lang:"
+msgid "The default language for new parties."
+msgstr "Lang pa defo pou nouvo tyè yo."
+
+msgctxt "help:party.configuration,party_sequence:"
+msgid "Used to generate the party code."
+msgstr "Yo itilize l pou jenere kòd tyè a."
+
+msgctxt "help:party.configuration.party_lang,party_lang:"
+msgid "The default language for new parties."
+msgstr "Lang pa defo pou nouvo tyè yo."
+
+msgctxt "help:party.configuration.party_sequence,party_sequence:"
+msgid "Used to generate the party code."
+msgstr "Yo itilize l pou jenere kòd tyè a."
+
+msgctxt "help:party.contact_mechanism,language:"
+msgid ""
+"Used to translate communication made using the contact mechanism.\n"
+"Leave empty for the party language."
+msgstr ""
+"Yo itilize l pou tradui kominikasyon ki fèt ak mwayen kontak sa a.\n"
+"Kite l vid pou lang tyè a."
+
+msgctxt "help:party.erase.ask,party:"
+msgid "The party to be erased."
+msgstr "Tyè pou efase a."
+
+msgctxt "help:party.identifier,address:"
+msgid "The address identified by this record."
+msgstr "Adrès done sa a idantifye."
+
+msgctxt "help:party.identifier,party:"
+msgid "The party identified by this record."
+msgstr "Tyè done sa a idantifye."
+
+msgctxt "help:party.party,categories:"
+msgid "The categories the party belongs to."
+msgstr "Kategori tyè a fè pati yo."
+
+msgctxt "help:party.party,code:"
+msgid "The unique identifier of the party."
+msgstr "Idantifyan inik tyè a."
+
+msgctxt "help:party.party,identifiers:"
+msgid "Add other identifiers of the party."
+msgstr "Ajoute lòt idantifyan tyè a."
+
+msgctxt "help:party.party,lang:"
+msgid "Used to translate communications with the party."
+msgstr "Yo itilize l pou tradui kominikasyon ak tyè a."
+
+msgctxt "help:party.party,name:"
+msgid "The main identifier of the party."
+msgstr "Idantifyan prensipal tyè a."
+
+msgctxt "help:party.party,replaced_by:"
+msgid "The party replacing this one."
+msgstr "Tyè k ap ranplase sa a."
+
+msgctxt "help:party.party,tax_identifier:"
+msgid "The identifier used for tax report."
+msgstr "Idantifyan yo itilize pou rapò fiskal."
+
+msgctxt "help:party.replace.ask,destination:"
+msgid "The party that replaces."
+msgstr "Tyè k ap ranplase a."
+
+msgctxt "help:party.replace.ask,source:"
+msgid "The party to be replaced."
+msgstr "Tyè pou ranplase a."
+
+msgctxt "model:ir.action,name:act_address_form"
+msgid "Addresses"
+msgstr "Adrès yo"
+
+msgctxt "model:ir.action,name:act_address_format_form"
+msgid "Address Formats"
+msgstr "Fòma adrès"
+
+msgctxt "model:ir.action,name:act_address_subdivision_type_form"
+msgid "Address Subdivision Types"
+msgstr "Tip subdivizyon adrès"
+
+msgctxt "model:ir.action,name:act_category_list"
+msgid "Categories"
+msgstr "Kategori yo"
+
+msgctxt "model:ir.action,name:act_category_tree"
+msgid "Categories"
+msgstr "Kategori yo"
+
+msgctxt "model:ir.action,name:act_contact_mechanism_form"
+msgid "Contact Mechanisms"
+msgstr "Mwayen kontakt yo"
+
+msgctxt "model:ir.action,name:act_party_by_category"
+msgid "Parties by Category"
+msgstr "Tyè pa kategori"
+
+msgctxt "model:ir.action,name:act_party_configuration_form"
+msgid "Configuration"
+msgstr "Konfigirasyon"
+
+msgctxt "model:ir.action,name:act_party_form"
+msgid "Parties"
+msgstr "Tyè yo"
+
+msgctxt "model:ir.action,name:report_label"
+msgid "Labels"
+msgstr "Etikèt"
+
+msgctxt "model:ir.action,name:wizard_check_vies"
+msgid "Check VIES"
+msgstr "Verifye VIES"
+
+msgctxt "model:ir.action,name:wizard_erase"
+msgid "Erase"
+msgstr "Efase"
+
+msgctxt "model:ir.action,name:wizard_replace"
+msgid "Replace"
+msgstr "Ranplase"
+
+msgctxt "model:ir.message,text:msg_address_change_party"
+msgid "You cannot change the party of address \"%(address)s\"."
+msgstr "Ou pa ka chanje tyè adrès « %(address)s » la."
+
+msgctxt "model:ir.message,text:msg_address_subdivision_country_code_unique"
+msgid "The country code on subdivision type must be unique."
+msgstr "Kòd peyi sou tip subdivizyon an dwe inik."
+
+msgctxt "model:ir.message,text:msg_category_name_unique"
+msgid "The name of party category must be unique by parent."
+msgstr "Non kategori tyè a dwe inik pou chak paran."
+
+msgctxt "model:ir.message,text:msg_contact_mechanism_change_party"
+msgid "You cannot change the party of contact mechanism \"%(contact)s\"."
+msgstr "Ou pa ka chanje tyè mwayen kontak « %(contact)s » la."
+
+msgctxt "model:ir.message,text:msg_different_name"
+msgid "Parties have different names: \"%(source_name)s\" vs \"%(destination_name)s\"."
+msgstr ""
+"Tyè yo gen non diferan : « %(source_name)s » kont « %(destination_name)s »."
+
+msgctxt "model:ir.message,text:msg_different_tax_identifier"
+msgid ""
+"Parties have different tax identifiers: \"%(source_code)s\" vs "
+"\"%(destination_code)s\"."
+msgstr ""
+"Tyè yo gen idantifyan fiskal diferan : « %(source_code)s » kont « "
+"%(destination_code)s »."
+
+msgctxt "model:ir.message,text:msg_email_invalid"
+msgid "The email address \"%(email)s\" for party \"%(party)s\" is not valid."
+msgstr "Adrès imèl « %(email)s » pou tyè « %(party)s » la pa valab."
+
+msgctxt "model:ir.message,text:msg_erase_active_party"
+msgid "Party \"%(party)s\" cannot be erased because they are still active."
+msgstr "Yo pa ka efase tyè « %(party)s » la paske li toujou aktif."
+
+msgctxt "model:ir.message,text:msg_invalid_code"
+msgid "The %(type)s \"%(code)s\" for party \"%(party)s\" is not valid."
+msgstr "%(type)s « %(code)s » pou tyè « %(party)s » la pa valab."
+
+msgctxt "model:ir.message,text:msg_invalid_phone_number"
+msgid "The phone number \"%(phone)s\" for party \"%(party)s\" is not valid."
+msgstr "Nimewo telefòn « %(phone)s » pou tyè « %(party)s » la pa valab."
+
+msgctxt "model:ir.message,text:msg_party_code_unique"
+msgid "The code on party must be unique."
+msgstr "Kòd tyè a dwe inik."
+
+msgctxt "model:ir.message,text:msg_party_identifier_duplicate"
+msgid "The party \"%(party)s\" has the same %(type)s \"%(code)s\"."
+msgstr "Tyè « %(party)s » la gen menm %(type)s « %(code)s »."
+
+msgctxt "model:ir.message,text:msg_vies_unavailable"
+msgid "The VIES service is unavailable, try again later."
+msgstr "Sèvis VIES la pa disponib, eseye ankò pita."
+
+msgctxt "model:ir.sequence,name:sequence_party"
+msgid "Party"
+msgstr "Tyè"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_party"
+msgid "Party"
+msgstr "Tyè"
+
+msgctxt "model:ir.ui.menu,name:menu_address_form"
+msgid "Addresses"
+msgstr "Adrès yo"
+
+msgctxt "model:ir.ui.menu,name:menu_address_format_form"
+msgid "Address Formats"
+msgstr "Fòma adrès"
+
+msgctxt "model:ir.ui.menu,name:menu_address_subdivision_type_form"
+msgid "Address Subdivision Types"
+msgstr "Tip subdivizyon adrès"
+
+msgctxt "model:ir.ui.menu,name:menu_category_list"
+msgid "Categories"
+msgstr "Kategori yo"
+
+msgctxt "model:ir.ui.menu,name:menu_category_tree"
+msgid "Categories"
+msgstr "Kategori yo"
+
+msgctxt "model:ir.ui.menu,name:menu_configuration"
+msgid "Configuration"
+msgstr "Konfigirasyon"
+
+msgctxt "model:ir.ui.menu,name:menu_contact_mechanism_form"
+msgid "Contact Mechanisms"
+msgstr "Mwayen kontakt yo"
+
+msgctxt "model:ir.ui.menu,name:menu_party"
+msgid "Parties"
+msgstr "Tyè yo"
+
+msgctxt "model:ir.ui.menu,name:menu_party_configuration"
+msgid "Configuration"
+msgstr "Konfigirasyon"
+
+msgctxt "model:ir.ui.menu,name:menu_party_form"
+msgid "Parties"
+msgstr "Tyè yo"
+
+msgctxt "model:party.address,name:"
+msgid "Address"
+msgstr "Adrès"
+
+msgctxt "model:party.address.format,name:"
+msgid "Address Format"
+msgstr "Fòma adrès"
+
+msgctxt "model:party.address.subdivision_type,name:"
+msgid "Address Subdivision Type"
+msgstr "Tip subdivizyon adrès"
+
+msgctxt "model:party.category,name:"
+msgid "Category"
+msgstr "Kategori"
+
+msgctxt "model:party.check_vies.result,name:"
+msgid "Check VIES"
+msgstr "Verifye VIES"
+
+msgctxt "model:party.configuration,name:"
+msgid "Party Configuration"
+msgstr "Konfigirasyon tyè"
+
+msgctxt "model:party.contact_mechanism,name:"
+msgid "Contact Mechanism"
+msgstr "Mwayen kontakt"
+
+msgctxt "model:party.contact_mechanism.language,name:"
+msgid "Contact Mechanism Language"
+msgstr "Lang mwayen kontak"
+
+msgctxt "model:party.erase.ask,name:"
+msgid "Erase Party"
+msgstr "Efase tyè"
+
+msgctxt "model:party.identifier,name:"
+msgid "Party Identifier"
+msgstr "Idantifyan tyè"
+
+msgctxt "model:party.party,name:"
+msgid "Party"
+msgstr "Tyè"
+
+msgctxt "model:party.party-party.category,name:"
+msgid "Party - Category"
+msgstr "Tyè - Kategori"
+
+msgctxt "model:party.party.lang,name:"
+msgid "Party Lang"
+msgstr "Lang tyè"
+
+msgctxt "model:party.replace.ask,name:"
+msgid "Replace Party"
+msgstr "Ranplase tyè"
+
+msgctxt "model:res.group,name:group_party_admin"
+msgid "Party Administration"
+msgstr "Administrasyon tyè"
+
+msgctxt "selection:party.contact_mechanism,type:"
+msgid "E-Mail"
+msgstr "Imèl"
+
+msgctxt "selection:party.contact_mechanism,type:"
+msgid "Fax"
+msgstr "Faks"
+
+msgctxt "selection:party.contact_mechanism,type:"
+msgid "IRC"
+msgstr "IRC"
+
+msgctxt "selection:party.contact_mechanism,type:"
+msgid "Jabber"
+msgstr "Jabber"
+
+msgctxt "selection:party.contact_mechanism,type:"
+msgid "Mobile"
+msgstr "Mobil"
+
+msgctxt "selection:party.contact_mechanism,type:"
+msgid "Other"
+msgstr "Lòt"
+
+msgctxt "selection:party.contact_mechanism,type:"
+msgid "Phone"
+msgstr "Telefòn"
+
+msgctxt "selection:party.contact_mechanism,type:"
+msgid "SIP"
+msgstr "SIP"
+
+msgctxt "selection:party.contact_mechanism,type:"
+msgid "Skype"
+msgstr "Skype"
+
+msgctxt "selection:party.contact_mechanism,type:"
+msgid "Website"
+msgstr "Sit entènèt"
+
+msgctxt "view:party.address:"
+msgid "General"
+msgstr "Jeneral"
+
+msgctxt "view:party.party:"
+msgid "General"
+msgstr "Jeneral"
+
+msgctxt "view:party.replace.ask:"
+msgid "Party"
+msgstr "Tyè"
+
+msgctxt "view:party.replace.ask:"
+msgid "Replace By"
+msgstr "Ranplase pa"
+
+msgctxt "wizard_button:party.check_vies,result,end:"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "wizard_button:party.erase,ask,end:"
+msgid "Cancel"
+msgstr "Anile"
+
+msgctxt "wizard_button:party.erase,ask,erase:"
+msgid "Erase"
+msgstr "Efase"
+
+msgctxt "wizard_button:party.replace,ask,end:"
+msgid "Cancel"
+msgstr "Anile"
+
+msgctxt "wizard_button:party.replace,ask,replace:"
+msgid "Replace"
+msgstr "Ranplase"
+
+msgctxt "field:country.country,code3:"
+msgid "3-letters Code"
+msgstr "Kòd 3 lèt"
+
+msgctxt "field:country.country,code:"
+msgid "Code"
+msgstr "Kòd"
+
+msgctxt "field:country.country,code_numeric:"
+msgid "Numeric Code"
+msgstr "Kòd nimerik"
+
+msgctxt "field:country.country,flag:"
+msgid "Flag"
+msgstr "Drapo"
+
+msgctxt "field:country.country,members:"
+msgid "Members"
+msgstr "Manm yo"
+
+msgctxt "field:country.country,name:"
+msgid "Name"
+msgstr "Non"
+
+msgctxt "field:country.country,organizations:"
+msgid "Organizations"
+msgstr "Òganizasyon yo"
+
+msgctxt "field:country.country,region:"
+msgid "Region"
+msgstr "Rejyon"
+
+msgctxt "field:country.country,subdivisions:"
+msgid "Subdivisions"
+msgstr "Subdivizyon yo"
+
+msgctxt "field:country.organization,code:"
+msgid "Code"
+msgstr "Kòd"
+
+msgctxt "field:country.organization,countries:"
+msgid "Countries"
+msgstr "Peyi yo"
+
+msgctxt "field:country.organization,members:"
+msgid "Members"
+msgstr "Manm yo"
+
+msgctxt "field:country.organization,name:"
+msgid "Name"
+msgstr "Non"
+
+msgctxt "field:country.organization.member,active:"
+msgid "Active"
+msgstr "Aktif"
+
+msgctxt "field:country.organization.member,country:"
+msgid "Country"
+msgstr "Peyi"
+
+msgctxt "field:country.organization.member,from_date:"
+msgid "From Date"
+msgstr "Soti nan dat"
+
+msgctxt "field:country.organization.member,organization:"
+msgid "Organization"
+msgstr "Òganizasyon"
+
+msgctxt "field:country.organization.member,to_date:"
+msgid "To Date"
+msgstr "Rive nan dat"
+
+msgctxt "field:country.postal_code,city:"
+msgid "City"
+msgstr "Vil"
+
+msgctxt "field:country.postal_code,country:"
+msgid "Country"
+msgstr "Peyi"
+
+msgctxt "field:country.postal_code,postal_code:"
+msgid "Postal Code"
+msgstr "Kòd postal"
+
+msgctxt "field:country.postal_code,subdivision:"
+msgid "Subdivision"
+msgstr "Subdivizyon"
+
+msgctxt "field:country.region,code_numeric:"
+msgid "Numeric Code"
+msgstr "Kòd nimerik"
+
+msgctxt "field:country.region,countries:"
+msgid "Countries"
+msgstr "Peyi yo"
+
+msgctxt "field:country.region,name:"
+msgid "Name"
+msgstr "Non"
+
+msgctxt "field:country.region,parent:"
+msgid "Parent"
+msgstr "Paran"
+
+msgctxt "field:country.region,subregions:"
+msgid "Subregions"
+msgstr "Sou-rejyon yo"
+
+msgctxt "field:country.subdivision,code:"
+msgid "Code"
+msgstr "Kòd"
+
+msgctxt "field:country.subdivision,country:"
+msgid "Country"
+msgstr "Peyi"
+
+msgctxt "field:country.subdivision,flag:"
+msgid "Flag"
+msgstr "Drapo"
+
+msgctxt "field:country.subdivision,name:"
+msgid "Name"
+msgstr "Non"
+
+msgctxt "field:country.subdivision,parent:"
+msgid "Parent"
+msgstr "Paran"
+
+msgctxt "field:country.subdivision,type:"
+msgid "Type"
+msgstr "Tip"
+
+msgctxt "model:country.country,name:"
+msgid "Country"
+msgstr "Peyi"
+
+msgctxt "model:country.organization,name:"
+msgid "Organization"
+msgstr "Òganizasyon"
+
+msgctxt "model:country.postal_code,name:"
+msgid "Postal Code"
+msgstr "Kòd postal"
+
+msgctxt "model:country.region,name:"
+msgid "Region"
+msgstr "Rejyon"
+
+msgctxt "model:country.region,name:region_africa"
+msgid "Africa"
+msgstr "Afrik"
+
+msgctxt "model:country.region,name:region_americas"
+msgid "Americas"
+msgstr "Amerik yo"
+
+msgctxt "model:country.region,name:region_antarctica"
+msgid "Antarctica"
+msgstr "Antatik"
+
+msgctxt "model:country.region,name:region_asia"
+msgid "Asia"
+msgstr "Lazi"
+
+msgctxt "model:country.region,name:region_australia_new_zealand"
+msgid "Australia and New Zealand"
+msgstr "Ostrali ak Nouvèl Zelann"
+
+msgctxt "model:country.region,name:region_caribbean"
+msgid "Caribbean"
+msgstr "Karayib"
+
+msgctxt "model:country.region,name:region_central_america"
+msgid "Central America"
+msgstr "Amerik Santral"
+
+msgctxt "model:country.region,name:region_central_asia"
+msgid "Central Asia"
+msgstr "Lazi Santral"
+
+msgctxt "model:country.region,name:region_channel_islands"
+msgid "Channel Islands"
+msgstr "Il Lanmànch"
+
+msgctxt "model:country.region,name:region_eastern_africa"
+msgid "Eastern Africa"
+msgstr "Afrik de lès"
+
+msgctxt "model:country.region,name:region_eastern_asia"
+msgid "Eastern Asia"
+msgstr "Lazi de lès"
+
+msgctxt "model:country.region,name:region_eastern_europe"
+msgid "Eastern Europe"
+msgstr "Ewòp de lès"
+
+msgctxt "model:country.region,name:region_europe"
+msgid "Europe"
+msgstr "Ewòp"
+
+msgctxt "model:country.region,name:region_latin_america_caribbean"
+msgid "Latin America and the Caribbean"
+msgstr "Amerik Latin ak Karayib"
+
+msgctxt "model:country.region,name:region_melanesia"
+msgid "Melanesia"
+msgstr "Melanezi"
+
+msgctxt "model:country.region,name:region_micronesia"
+msgid "Micronesia"
+msgstr "Mikronezi"
+
+msgctxt "model:country.region,name:region_middle_africa"
+msgid "Middle Africa"
+msgstr "Afrik Santral"
+
+msgctxt "model:country.region,name:region_north_america"
+msgid "North America"
+msgstr "Amerik di Nò"
+
+msgctxt "model:country.region,name:region_northern_africa"
+msgid "Northern Africa"
+msgstr "Afrik di Nò"
+
+msgctxt "model:country.region,name:region_northern_america"
+msgid "Northern America"
+msgstr "Amerik di Nò"
+
+msgctxt "model:country.region,name:region_northern_europe"
+msgid "Northern Europe"
+msgstr "Ewòp di Nò"
+
+msgctxt "model:country.region,name:region_oceania"
+msgid "Oceania"
+msgstr "Oseyani"
+
+msgctxt "model:country.region,name:region_polynesia"
+msgid "Polynesia"
+msgstr "Polinezi"
+
+msgctxt "model:country.region,name:region_south-eastern_asia"
+msgid "South-eastern Asia"
+msgstr "Lazi di Sidès"
+
+msgctxt "model:country.region,name:region_south_america"
+msgid "South America"
+msgstr "Amerik di Sid"
+
+msgctxt "model:country.region,name:region_southern_africa"
+msgid "Southern Africa"
+msgstr "Afrik di Sid"
+
+msgctxt "model:country.region,name:region_southern_asia"
+msgid "Southern Asia"
+msgstr "Lazi di Sid"
+
+msgctxt "model:country.region,name:region_southern_europe"
+msgid "Southern Europe"
+msgstr "Ewòp di Sid"
+
+msgctxt "model:country.region,name:region_sub-saharan_africa"
+msgid "Sub-Saharan Africa"
+msgstr "Afrik sub-saarayen"
+
+msgctxt "model:country.region,name:region_western_africa"
+msgid "Western Africa"
+msgstr "Afrik de lwès"
+
+msgctxt "model:country.region,name:region_western_asia"
+msgid "Western Asia"
+msgstr "Lazi de lwès"
+
+msgctxt "model:country.region,name:region_western_europe"
+msgid "Western Europe"
+msgstr "Ewòp de lwès"
+
+msgctxt "model:country.region,name:region_world"
+msgid "World"
+msgstr "Mond"
+
+msgctxt "model:country.subdivision,name:"
+msgid "Subdivision"
+msgstr "Subdivizyon"
+
+msgctxt "model:ir.action,name:act_country_by_region"
+msgid "Countries by Region"
+msgstr "Peyi pa rejyon"
+
+msgctxt "model:ir.action,name:act_country_form"
+msgid "Countries"
+msgstr "Peyi yo"
+
+msgctxt "model:ir.action,name:act_organization_form"
+msgid "Organizations"
+msgstr "Òganizasyon yo"
+
+msgctxt "model:ir.action,name:act_postal_code_form"
+msgid "Postal Codes"
+msgstr "Kòd postal yo"
+
+msgctxt "model:ir.action,name:act_region_form"
+msgid "Regions"
+msgstr "Rejyon yo"
+
+msgctxt "model:ir.action,name:act_region_tree"
+msgid "Areas"
+msgstr "Zòn"
+
+msgctxt "model:ir.ui.menu,name:menu_country"
+msgid "Countries"
+msgstr "Peyi yo"
+
+msgctxt "model:ir.ui.menu,name:menu_country_form"
+msgid "Countries"
+msgstr "Peyi yo"
+
+msgctxt "model:ir.ui.menu,name:menu_organization_form"
+msgid "Organizations"
+msgstr "Òganizasyon yo"
+
+msgctxt "model:ir.ui.menu,name:menu_region_form"
+msgid "Regions"
+msgstr "Rejyon yo"
+
+msgctxt "model:ir.ui.menu,name:menu_region_tree"
+msgid "Areas"
+msgstr "Zòn"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Administration"
+msgstr "Administrasyon"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Administrative Region"
+msgstr "Rejyon administratif"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Administrative Territory"
+msgstr "Teritwa administratif"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Arctic Region"
+msgstr "Rejyon aktik"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Area"
+msgstr "Zòn"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Atoll"
+msgstr "Atòl"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Autonomous City"
+msgstr "Vil otonòm"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Autonomous Province"
+msgstr "Pwovens otonòm"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Autonomous Region"
+msgstr "Rejyon otonòm"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Borough"
+msgstr "Bouwo"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Canton"
+msgstr "Kanton"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Capital"
+msgstr "Kapital"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Capital District"
+msgstr "Distri kapital"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Capital city"
+msgstr "Vil kapital"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "City"
+msgstr "Vil"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Commune"
+msgstr "Komin"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Council area"
+msgstr "Zòn konsèy"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Country"
+msgstr "Peyi"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "County"
+msgstr "Konte"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Department"
+msgstr "Depatman"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Dependency"
+msgstr "Depandans"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "District"
+msgstr "Distri"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Division"
+msgstr "Divizyon"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Emirate"
+msgstr "Emira"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Federal District"
+msgstr "Distri federal"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Federal Territory"
+msgstr "Teritwa federal"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Governorate"
+msgstr "Gouvènorat"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Island"
+msgstr "Ilt"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Island group"
+msgstr "Gwoup ilt"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Municipalities"
+msgstr "Minisipalite yo"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Municipality"
+msgstr "Minisipalite"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Nation"
+msgstr "Nasyon"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Oblast"
+msgstr "Oblas"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Overseas territory"
+msgstr "Teritwa deyò"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Parish"
+msgstr "Pawas"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Prefecture"
+msgstr "Prefekti"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Principality"
+msgstr "Pransipote"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Province"
+msgstr "Pwovens"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Quarter"
+msgstr "Katye"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Region"
+msgstr "Rejyon"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Republic"
+msgstr "Repiblik"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "State"
+msgstr "Eta"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Territory"
+msgstr "Teritwa"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Town"
+msgstr "Bouk"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Union territory"
+msgstr "Teritwa inyon"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Ward"
+msgstr "Katye"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "zone"
+msgstr "zòn"

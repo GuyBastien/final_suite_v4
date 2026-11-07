@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_restaurant module. -->
+<data>
+    <xpath expr="/form/field[@name='reference']" position="after">
+        <label name="hotel_charge"/>
+        <field name="hotel_charge"/>
+    </xpath>
+</data>

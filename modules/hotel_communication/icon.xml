@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_communication module. -->
+<tryton>
+    <data>
+        <record model="ir.ui.icon" id="icon_hotel_message">
+            <field name="name">tryton-hotel-message</field>
+            <field name="path">icons/tryton-hotel-message.svg</field>
+        </record>
+    </data>
+</tryton>

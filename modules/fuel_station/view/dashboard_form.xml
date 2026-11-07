@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton fuel_station module. -->
+<form col="6">
+    <label name="name"/>
+    <field name="name" colspan="5"/>
+    <group col="12" colspan="6" id="kpi" string="Today">
+        <label name="open_shifts"/>
+        <field name="open_shifts"/>
+        <label name="quantity_today"/>
+        <field name="quantity_today"/>
+        <label name="sales_today"/>
+        <field name="sales_today"/>
+    </group>
+    <group col="12" colspan="6" id="stock" string="Stock">
+        <label name="tanks"/>
+        <field name="tanks"/>
+        <label name="low_tanks"/>
+        <field name="low_tanks"/>
+        <label name="deliveries_month"/>
+        <field name="deliveries_month"/>
+    </group>
+</form>

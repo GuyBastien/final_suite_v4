@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_rates_plus module. -->
+<tree>
+    <field name="room_type"/>
+    <field name="product"/>
+    <field name="included_adults"/>
+    <field name="extra_adult_price"/>
+    <field name="extra_child_price"/>
+</tree>

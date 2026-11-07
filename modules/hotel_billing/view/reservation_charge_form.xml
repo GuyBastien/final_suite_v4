@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_billing module. -->
+<data>
+    <xpath expr="/form/field[@name='amount']" position="after">
+        <label name="payer"/>
+        <field name="payer"/>
+        <label name="tourist_tax"/>
+        <field name="tourist_tax"/>
+    </xpath>
+</data>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton restaurant module. -->
+<tree>
+    <field name="code"/>
+    <field name="name"/>
+    <field name="company"/>
+    <field name="active"/>
+</tree>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_services module. -->
+<tryton>
+    <data grouped="1">
+        <record model="ir.message" id="msg_resource_unique">
+            <field name="text">A resource with this name already exists in the hotel.</field>
+        </record>
+        <record model="ir.message" id="msg_table_unique">
+            <field name="text">A table with this name already exists in the hotel.</field>
+        </record>
+        <record model="ir.message" id="msg_booking_delete_done">
+            <field name="text">You cannot delete the completed booking "%(booking)s".</field>
+        </record>
+        <record model="ir.message" id="msg_booking_resource_busy">
+            <field name="text">The resource "%(resource)s" is already booked for "%(booking)s" (see "%(other)s").</field>
+        </record>
+        <record model="ir.message" id="msg_booking_capacity">
+            <field name="text">The booking "%(booking)s" exceeds the capacity (%(capacity)s) of the service "%(service)s" on this slot.</field>
+        </record>
+        <record model="ir.message" id="msg_table_seats">
+            <field name="text">The table "%(table)s" has %(seats)s seats, not %(covers)s.</field>
+        </record>
+        <record model="ir.message" id="msg_table_busy">
+            <field name="text">The table "%(table)s" is already booked around %(time)s.</field>
+        </record>
+    </data>
+</tryton>

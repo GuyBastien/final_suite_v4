@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton restaurant_invoice module. -->
+<data>
+    <xpath expr="/form/notebook/page[@id='notes']" position="after">
+        <page string="Invoices" id="invoices">
+            <field name="invoices" colspan="4"/>
+        </page>
+    </xpath>
+    <xpath expr="/form/group[@id='buttons']/button[@name='pay']" position="after">
+        <button name="invoice" icon="tryton-forward"/>
+    </xpath>
+</data>

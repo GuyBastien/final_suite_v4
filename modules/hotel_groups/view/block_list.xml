@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_groups module. -->
+<tree editable="1">
+    <field name="group" tree_invisible="1"/>
+    <field name="hotel" tree_invisible="1"/>
+    <field name="room_type"/>
+    <field name="quantity"/>
+    <field name="nightly_price"/>
+    <field name="pickup"/>
+    <field name="remaining"/>
+</tree>

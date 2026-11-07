@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton sale_point_quick module. -->
+<data>
+    <xpath expr="/form/notebook/page[@id='general']/field[@name='list_price']" position="after">
+        <label name="pos_quick"/>
+        <field name="pos_quick"/>
+    </xpath>
+</data>

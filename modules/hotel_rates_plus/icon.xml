@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_rates_plus module. -->
+<tryton>
+    <data>
+        <record model="ir.ui.icon" id="icon_hotel_restriction">
+            <field name="name">tryton-hotel-restriction</field>
+            <field name="path">icons/tryton-hotel-restriction.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_hotel_meal">
+            <field name="name">tryton-hotel-meal</field>
+            <field name="path">icons/tryton-hotel-meal.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_hotel_supplement">
+            <field name="name">tryton-hotel-supplement</field>
+            <field name="path">icons/tryton-hotel-supplement.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_hotel_contract">
+            <field name="name">tryton-hotel-contract</field>
+            <field name="path">icons/tryton-hotel-contract.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_hotel_pricing">
+            <field name="name">tryton-hotel-pricing</field>
+            <field name="path">icons/tryton-hotel-pricing.svg</field>
+        </record>
+        <record model="ir.ui.icon" id="icon_hotel_kpi">
+            <field name="name">tryton-hotel-kpi</field>
+            <field name="path">icons/tryton-hotel-kpi.svg</field>
+        </record>
+    </data>
+</tryton>

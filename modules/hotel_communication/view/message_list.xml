@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_communication module. -->
+<tree>
+    <field name="id"/>
+    <field name="hotel"/>
+    <field name="party"/>
+    <field name="event"/>
+    <field name="channel"/>
+    <field name="recipient"/>
+    <field name="state"/>
+    <field name="attempts"/>
+</tree>

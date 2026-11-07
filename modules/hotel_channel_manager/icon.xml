@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_channel_manager module. -->
+<tryton>
+    <data>
+        <record model="ir.ui.icon" id="icon_hotel_channel">
+            <field name="name">tryton-hotel-channel</field>
+            <field name="path">icons/tryton-hotel-channel.svg</field>
+        </record>
+    </data>
+</tryton>

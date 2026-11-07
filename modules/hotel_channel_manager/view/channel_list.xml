@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_channel_manager module. -->
+<tree>
+    <field name="name"/>
+    <field name="hotel"/>
+    <field name="provider"/>
+    <!-- DateTime: <field name="last_synchronization"/> -->
+    <field name="active"/>
+</tree>

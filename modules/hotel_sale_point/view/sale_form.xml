@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_sale_point module. -->
+<data>
+    <xpath expr="/form/group[@id='buttons']/button[@name='pay_card']" position="after">
+        <button name="pay_room" icon="tryton-forward"/>
+    </xpath>
+</data>

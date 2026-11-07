@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_housekeeping module. -->
+<form col="2">
+    <field name="room" readonly="1"/>
+    <field name="state"/>
+    <group col="3" colspan="2" id="buttons">
+        <button name="take" icon="tryton-forward"/>
+        <button name="start" icon="tryton-forward"/>
+        <button name="finish" icon="tryton-ok"/>
+    </group>
+    <field name="items" colspan="2"
+        view_ids="hotel_housekeeping.task_item_view_list"/>
+    <field name="issues" colspan="2"
+        view_ids="hotel_housekeeping.issue_view_list_inline"/>
+    <field name="notes" colspan="2"/>
+</form>

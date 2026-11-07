@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton restaurant module. -->
+<tree>
+    <field name="number"/>
+    <field name="date"/>
+    <field name="time"/>
+    <field name="restaurant"/>
+    <field name="guest_name"/>
+    <field name="phone"/>
+    <field name="persons"/>
+    <field optional="1" name="table"/>
+    <field optional="1" name="state"/>
+</tree>

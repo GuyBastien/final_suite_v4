@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton restaurant module. -->
+<tree editable="1">
+    <field name="moment"/>
+    <field name="denomination"/>
+    <field name="kind"/>
+    <field name="quantity"/>
+    <field name="suspect_quantity"/>
+    <field name="amount" sum="1"/>
+    <field name="suspect_amount" sum="1" optional="1"/>
+</tree>

@@ -1,0 +1,41 @@
+#
+msgid ""
+msgstr ""
+"Language: fr\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:fuel.shift,pos_sale_count:"
+msgid "Shop Tickets"
+msgstr "Tickets de la boutique"
+
+msgctxt "field:fuel.shift,pos_sale_total:"
+msgid "Shop Sales (POS)"
+msgstr "Ventes de la boutique (PDV)"
+
+msgctxt "field:fuel.station,sale_point:"
+msgid "Shop Point of Sale"
+msgstr "Point de vente de la boutique"
+
+msgctxt "help:fuel.shift,pos_sale_count:"
+msgid "Number of tickets of the shop point of sale on the date of the shift."
+msgstr ""
+"Nombre de tickets du point de vente de la boutique à la date du poste."
+
+msgctxt "help:fuel.shift,pos_sale_total:"
+msgid ""
+"Total of the tickets of the shop point of sale on the date of the shift. "
+"Informative: the cash of the shop is counted in the cash session of the "
+"point of sale."
+msgstr ""
+"Total des tickets du point de vente de la boutique à la date du poste. À "
+"titre indicatif : l'espèce de la boutique est comptée dans la session de "
+"caisse du point de vente."
+
+msgctxt "help:fuel.station,sale_point:"
+msgid ""
+"Point of sale (module Sale Point) of the shop of the station. Its sales are "
+"shown in the shifts of the station, so the shop is not entered twice."
+msgstr ""
+"Point de vente (module Sale Point) de la boutique de la station. Ses ventes "
+"apparaissent dans les postes de la station : la boutique n'est donc pas "
+"saisie deux fois."

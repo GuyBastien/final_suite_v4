@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!-- This file is part of the Tryton hotel_housekeeping module. -->
+<form>
+    <label name="hotel"/>
+    <field name="hotel"/>
+    <label name="room"/>
+    <field name="room"/>
+    <label name="kind"/>
+    <field name="kind"/>
+    <label name="priority"/>
+    <field name="priority"/>
+    <label name="planned_date"/>
+    <field name="planned_date"/>
+    <label name="assigned_to"/>
+    <field name="assigned_to"/>
+    <label name="reservation"/>
+    <field name="reservation"/>
+    <label name="state"/>
+    <field name="state"/>
+    <label name="started_at"/>
+    <field name="started_at"/>
+    <label name="finished_at"/>
+    <field name="finished_at"/>
+    <notebook colspan="4">
+        <page string="Checklist" id="checklist">
+            <field name="items" colspan="4"
+                view_ids="hotel_housekeeping.task_item_view_list"/>
+        </page>
+        <page string="Issues" id="issues">
+            <field name="issues" colspan="4"
+                view_ids="hotel_housekeeping.issue_view_list_inline"/>
+        </page>
+        <page string="Notes" id="notes">
+            <field name="notes" colspan="4"/>
+        </page>
+    </notebook>
+    <group col="8" colspan="4" id="buttons">
+        <button name="take" icon="tryton-forward"/>
+        <button name="start" icon="tryton-forward"/>
+        <button name="finish" icon="tryton-ok"/>
+        <button name="inspect" icon="tryton-ok"/>
+        <button name="redo" icon="tryton-undo"/>
+        <button name="cancel" icon="tryton-cancel"/>
+        <button name="reopen" icon="tryton-undo"/>
+    </group>
+</form>
