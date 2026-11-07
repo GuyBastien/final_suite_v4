@@ -64,4 +64,4 @@ Aucun compte de paiement mobile n'existe sur la base `gaz`. Le dépôt ne contie
 4. **USSD en démonstration.** Pour montrer un paiement USSD jusqu'à « payé », activer **Autoriser la confirmation manuelle** sur le compte de test uniquement. En production, laisser cette option désactivée.
 5. **NatCash.** Effectuer un paiement de test complet.
 6. **Station-service.** Préciser si le paiement mobile est prévu pour les stations-service.
-7. **Licences.** Les 7 modules de paiement mobile (`mobile_payment`, `moncash`, `natcash`, `hotel_mobile_payment`, `restaurant_mobile_payment`, `sale_mobile_payment`, `hotel_restaurant`) déclarent la licence AGPL-3, les 23 autres GPL-3. Confirmer que c'est voulu et ajouter les fichiers de licence correspondants.
+7. **Licences.** Les 7 modules de paiement mobile (`mobile_payment`, `moncash`, `natcash`, `hotel_mobile_payment`, `restaurant_mobile_payment`, `sale_mobile_payment`, `hotel_restaurant`) déclarent la licence AGPL-3, les 23 autres GPL-3. Confirmer que c'est voulu et ajouter les fichiers de licence correspondants. **Réglé :** tous les modules passent en GPL-3 (choix du prof), fichier `LICENSE` ajouté.

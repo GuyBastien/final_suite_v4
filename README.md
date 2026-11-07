@@ -24,3 +24,7 @@ Les étapes complètes sont dans les guides de déploiement, dans `docs/`.
 ## Contribuer
 
 Faites un fork, créez une branche, puis ouvrez une pull request.
+
+## Licence
+
+Tous les modules sont sous licence GPL-3. Le texte complet est dans le fichier `LICENSE`.

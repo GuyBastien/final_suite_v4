@@ -13,7 +13,7 @@ setup(
     description="Mobile money payments (MonCash, NatCash) as payment "
     "methods of the point of sale",
     long_description=long_description,
-    license='AGPL-3',
+    license='GPL-3',
     author='Pierre Michel Augustin',
     python_requires='>=3.8',
     install_requires=[

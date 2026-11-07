@@ -14,4 +14,4 @@ notifications come from ``mobile_payment``; this module only adds the
 * The order is not closed automatically: the waiter closes it, because the
   customer may pay before the last course.
 
-Author: Pierre Michel Augustin. License: AGPLv3.
+Author: Pierre Michel Augustin. License: GPLv3.

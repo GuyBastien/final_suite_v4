@@ -7,4 +7,4 @@ the standard invoice payment (reconciliation), on the *Invoice Payment Method*
 chosen on the mobile payment account. Dialogue, QR code, scheduler and
 notifications are those of mobile_payment.
 
-Author: Pierre Michel Augustin - AGPLv3
+Author: Pierre Michel Augustin - GPLv3

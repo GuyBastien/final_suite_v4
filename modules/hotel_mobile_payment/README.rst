@@ -14,4 +14,4 @@ shows them in the balance due, so the folio stays consistent.
 * A confirmed payment of another amount, or on a stay that changed state, is
   flagged ``Needs Review`` instead of being booked.
 
-Author: Pierre Michel Augustin. License: AGPLv3.
+Author: Pierre Michel Augustin. License: GPLv3.

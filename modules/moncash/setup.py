@@ -12,7 +12,7 @@ setup(
     version='7.0.2',
     description="MonCash (Digicel Haiti) payments for the point of sale",
     long_description=long_description,
-    license='AGPL-3',
+    license='GPL-3',
     author='Pierre Michel Augustin',
     python_requires='>=3.8',
     install_requires=[

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0f172a">
+    <meta name="robots" content="noindex">
+    <meta http-equiv="refresh" content="30">
+
+    <title>Mise à jour en cours | Tryton</title>
+
+    <style>
+        :root {
+            color-scheme: light;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+                sans-serif;
+            background: #f1f5f9;
+            color: #1e293b;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            display: grid;
+            min-height: 100vh;
+            margin: 0;
+            padding: 24px;
+            place-items: center;
+        }
+
+        .status-card {
+            width: min(100%, 560px);
+            overflow: hidden;
+            border: 1px solid #e2e8f0;
+            border-radius: 20px;
+            background: #fff;
+            box-shadow: 0 20px 50px rgb(15 23 42 / 10%);
+        }
+
+        .status-header {
+            padding: 32px;
+            background: #fff7ed;
+            border-bottom: 1px solid #fed7aa;
+            text-align: center;
+        }
+
+        .status-icon {
+            display: grid;
+            width: 56px;
+            height: 56px;
+            margin: 0 auto 16px;
+            place-items: center;
+            border-radius: 50%;
+            background: #ffedd5;
+            color: #c2410c;
+            font-size: 28px;
+            font-weight: 700;
+        }
+
+        h1 {
+            margin: 0;
+            color: #9a3412;
+            font-size: clamp(1.5rem, 5vw, 2rem);
+            line-height: 1.2;
+        }
+
+        .content {
+            padding: 28px 32px;
+            text-align: center;
+        }
+
+        .content p {
+            margin: 0 0 16px;
+            color: #475569;
+            line-height: 1.7;
+        }
+
+        a {
+            color: #0369a1;
+            font-weight: 600;
+            text-decoration: none;
+            overflow-wrap: anywhere;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        a:focus-visible {
+            outline: 3px solid #38bdf8;
+            outline-offset: 4px;
+            border-radius: 2px;
+        }
+
+        .code {
+            margin: 12px 0 0;
+            color: #9a3412;
+            font-size: 0.85rem;
+            opacity: 0.8;
+        }
+
+        .retry {
+            display: inline-block;
+            margin: 0 0 20px;
+            padding: 10px 22px;
+            border-radius: 10px;
+            background: #0369a1;
+            color: #fff;
+        }
+
+        .retry:hover {
+            background: #075985;
+            text-decoration: none;
+        }
+
+        .footer {
+            padding: 20px 32px;
+            border-top: 1px solid #e2e8f0;
+            background: #f8fafc;
+            text-align: center;
+        }
+
+        .footer p {
+            margin: 0 0 6px;
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 16px;
+            }
+
+            .status-header,
+            .content,
+            .footer {
+                padding-right: 22px;
+                padding-left: 22px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main class="status-card">
+        <header class="status-header">
+            <div class="status-icon" aria-hidden="true">!</div>
+            <h1>Mise à jour en cours</h1>
+            <p class="code">Erreur 502</p>
+        </header>
+
+        <section class="content" aria-label="Assistance">
+            <p>
+                Le service est temporairement indisponible, souvent à cause
+                d’une mise à jour. Il revient dans quelques minutes.
+                Cette page se recharge toute seule toutes les 30 secondes.
+            </p>
+            <a class="retry" href="">Réessayer maintenant</a>
+            <p>
+                Si le problème dure plus de 15 minutes, contactez
+                l’administrateur système :
+            </p>
+            <a href="mailto:pierremichelaugustin@gnuhealth.org">
+                pierremichelaugustin@gnuhealth.org
+            </a>
+        </section>
+
+        <footer class="footer">
+            <p>Prise en charge par GNU Health Haïti</p>
+            <a href="mailto:haiti@gnuhealth.org">haiti@gnuhealth.org</a>
+        </footer>
+    </main>
+</body>
+</html>
+

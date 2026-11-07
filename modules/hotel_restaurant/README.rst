@@ -19,4 +19,4 @@ of their functions.
 Orders charged to the room are not invoiced by ``restaurant_invoice``: they
 are billed on the invoice of the stay.
 
-Author: Pierre Michel Augustin. License: AGPLv3.
+Author: Pierre Michel Augustin. License: GPLv3.

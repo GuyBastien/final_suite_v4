@@ -12,7 +12,7 @@ setup(
     version='7.0.1',
     description='Pay sales and customer invoices with MonCash or NatCash',
     long_description=long_description,
-    license='AGPL-3',
+    license='GPL-3',
     author='Pierre Michel Augustin',
     python_requires='>=3.8',
     install_requires=[
