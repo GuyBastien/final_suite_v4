@@ -8,9 +8,6 @@
     <title>Tryton Haiti</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <style>
-    </style>
 </head>
 
 <body>
@@ -21,7 +18,7 @@
         <article>
             <p class="documentation">
                 Pour la documentation et l'assistance en ligne, veuillez consulter
-                <a href="https://docs.tryton.org/latest/" target="_blank">Documentation Tryton et
+                <a href="https://docs.tryton.org/latest/" target="_blank">Documentation Tryton</a> et
                 <a href="https://docs.gnuhealth.org/his/" target="_blank">Système d'Information Hospitalière GNU Health!</a>
             </p>
 
@@ -51,6 +48,7 @@
         close.classList.add('close');
         let closeImg = new Image();
         closeImg.src = 'close.png';
+        closeImg.alt = 'Fermer';
         close.appendChild(closeImg);
         popUp.appendChild(close);
         document.querySelector('body').prepend(popUp)
