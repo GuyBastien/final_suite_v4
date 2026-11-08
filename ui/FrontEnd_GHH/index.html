@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tryton Haiti</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <style>
+    </style>
+</head>
+
+<body>
+    <section class="title">
+        <h1>Bienvenue sur le serveur communautaire de Tryton et de GNU Health Haïti!</h1>
+    </section>
+    <section id="body">
+        <article>
+            <p class="documentation">
+                Pour la documentation et l'assistance en ligne, veuillez consulter
+                <a href="https://docs.tryton.org/latest/" target="_blank">Documentation Tryton et
+                <a href="https://docs.gnuhealth.org/his/" target="_blank">Système d'Information Hospitalière GNU Health!</a>
+            </p>
+
+            <p>
+                Le support commercial est disponible sur
+                <a href="https://www.gnuhealth.org/planet-professional-support.html" target="_blank">gnuhealth.org</a>
+            </p>
+            <p class="gnu-merci"><em>Merci d'utiliser Tryton et/ou GNU Health.</em></p>
+        </article>
+
+        <div class="footer">
+            <p>Prise en charge par GNU Health Haïti</p>
+	        <a href="mailto:haiti@gnuhealth.org" target="_blank">haiti@gnuhealth.org</a>
+        </div>
+
+    </section>
+    <script>
+        let popUp = document.createElement('header');
+        popUp.classList.add('pupUp');
+        let button = document.createElement('button'); 
+        let link = document.createElement('a');
+        link.href =  "https://sageedu.ddns.net:8100/";
+        link.innerText = 'CONNECTER';
+        button.appendChild(link);
+        popUp.appendChild(button);
+        let close = document.createElement('div');
+        close.classList.add('close');
+        let closeImg = new Image();
+        closeImg.src = 'close.png';
+        close.appendChild(closeImg);
+        popUp.appendChild(close);
+        document.querySelector('body').prepend(popUp)
+        
+        document.querySelector('header .close').addEventListener('click', ()=>[
+            popUp.style.display = 'none'
+        ])
+    </script>
+</body>
+
+</html>
