@@ -1,3 +1,6 @@
+# Emplacement sur le serveur : /etc/nginx/sites-available/tryton-ht.ddns.net
+# (activé par un lien dans /etc/nginx/sites-enabled/)
+
 # Client web Tryton accessible en HTTPS sur le port 8100.
 server {
     listen 8100 ssl;
