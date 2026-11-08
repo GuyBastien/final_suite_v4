@@ -10,8 +10,12 @@ server {
     include             /etc/letsencrypt/options-ssl-nginx.conf;
     ssl_dhparam         /etc/letsencrypt/ssl-dhparams.pem;
 
+    # Taille maximale des fichiers envoyés (pièces jointes, imports). Par défaut nginx limite à 1 Mo.
+    client_max_body_size 50m;
+
     # Affiche la page personnalisée si le serveur Tryton est indisponible.
-    error_page 502 /502.html;
+    # 502 : Tryton arrêté ; 503/504 : Tryton trop lent ou surchargé.
+    error_page 502 503 504 /502.html;
 
     location = /502.html {
         root /var/www/html;
