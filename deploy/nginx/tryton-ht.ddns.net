@@ -1,0 +1,71 @@
+# Client web Tryton accessible en HTTPS sur le port 8100.
+server {
+    listen 8100 ssl;
+    listen [::]:8100 ssl;
+    server_name tryton-ht.ddns.net;
+
+    # Certificat TLS géré par Certbot.
+    ssl_certificate     /etc/letsencrypt/live/tryton-ht-ddns-net-clean/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/tryton-ht-ddns-net-clean/privkey.pem;
+    include             /etc/letsencrypt/options-ssl-nginx.conf;
+    ssl_dhparam         /etc/letsencrypt/ssl-dhparams.pem;
+
+    # Affiche la page personnalisée si le serveur Tryton est indisponible.
+    error_page 502 /502.html;
+
+    location = /502.html {
+        root /var/www/html;
+        internal;
+    }
+
+    # Fichier CSS utilisé par la page 502.
+    location = /css/502.css {
+        alias /var/www/html/css/502.css;
+        default_type text/css;
+    }
+
+    # Transmet les requêtes au serveur Tryton, qui écoute en HTTP sur le port 8000.
+    location / {
+        proxy_pass http://127.0.0.1:8000;
+        proxy_intercept_errors on;
+
+        proxy_set_header Host              $http_host;
+        proxy_set_header X-Real-IP         $remote_addr;
+        proxy_set_header X-Forwarded-For   $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_set_header X-Forwarded-Host  $http_host;
+
+        proxy_read_timeout 600s;
+    }
+}
+
+# Page d’accueil statique servie en HTTPS sur le port 443.
+server {
+    listen 443 ssl;
+    listen [::]:443 ssl;
+    server_name tryton-ht.ddns.net;
+
+    root /var/www/tryton-ht.ddns.net/html;
+    index index.html;
+
+    # Certificat TLS géré par Certbot.
+    ssl_certificate     /etc/letsencrypt/live/tryton-ht-ddns-net-clean/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/tryton-ht-ddns-net-clean/privkey.pem;
+    include             /etc/letsencrypt/options-ssl-nginx.conf;
+    ssl_dhparam         /etc/letsencrypt/ssl-dhparams.pem;
+
+    # Sert les fichiers existants ou renvoie une erreur 404.
+    location / {
+        try_files $uri $uri/ =404;
+    }
+}
+
+# Redirige les connexions HTTP vers HTTPS sur le port 443.
+server {
+    listen 80;
+    listen [::]:80;
+    server_name tryton-ht.ddns.net;
+
+    return 301 https://$host$request_uri;
+}
+
