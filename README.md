@@ -11,7 +11,7 @@ Auteur : Pierre Michel Augustin.
 - `docs/` : guides (utilisation, administration, technique, déploiement)
 - `ui/` : thème pour le client web et le client bureau
 - `deploy/nginx/` : configuration nginx du serveur (tryton-ht.ddns.net), à placer dans `/etc/nginx/sites-available/`
-- `ui/FrontEnd_GHH/` : page d'accueil du serveur, créée par Thierry Desir ([@thierry509](https://github.com/thierry509))
+- `ui/FrontEnd_GHH/` : page d'accueil du serveur, créée par Thierry Desir ([@thierry509](https://github.com/thierry509)), revue par Mackenson PETIT ([@Mpz30](https://github.com/Mpz30))
 
 ## Installation
 

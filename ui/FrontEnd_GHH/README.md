@@ -2,7 +2,7 @@
 
 Pages web du serveur (nginx) : page d'accueil avant la connexion à Tryton, et page d'erreur 502.
 
-Créées par Thierry Desir ([@thierry509](https://github.com/thierry509)).
+Créées par Thierry Desir ([@thierry509](https://github.com/thierry509)), revues et améliorées par Mackenson PETIT ([@Mpz30](https://github.com/Mpz30)).
 
 - `index.html` : page d'accueil
 - `502.html` : page affichée quand le serveur Tryton ne répond pas
