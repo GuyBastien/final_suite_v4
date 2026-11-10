@@ -27,7 +27,7 @@ setup(
         ],
     package_data={
         'trytond.modules.' + mod: [
-            'tryton.cfg', '*.xml', 'view/*.xml', 'locale/*.po'],
+            'tryton.cfg', '*.xml', 'view/*.xml', 'locale/*.po', 'icons/*.svg'],
         },
     install_requires=[
         'trytond >= 7.0, < 7.1',
